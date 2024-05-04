@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "90fbadb1-ff59-4ffc-902b-923fc0b39bcd",
+            "properties": {
+                "name": "Richard Stendardo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "90fbadb1-ff59-4ffc-902b-923fc0b39bcd",
+                    "value": "Richard Stendardo"
+                },
+                "linkedin": "richstendardo",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "112385a5-defa-48a4-824c-f11d4e41cc28",
+                            "related_uuid": "90fbadb1-ff59-4ffc-902b-923fc0b39bcd",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

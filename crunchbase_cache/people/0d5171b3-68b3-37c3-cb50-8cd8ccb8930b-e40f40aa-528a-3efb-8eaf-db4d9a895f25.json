@@ -1,0 +1,130 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "c6f5aad2-5cdd-4d8b-b1f0-be57fda9c6e5",
+            "properties": {
+                "name": "Eric Benitez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c6f5aad2-5cdd-4d8b-b1f0-be57fda9c6e5",
+                    "value": "Eric Benitez"
+                },
+                "linkedin": "ericgarciabenitez",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e7d95a9c-29a3-44c3-93b2-0808ad6b3692",
+                            "related_uuid": "c6f5aad2-5cdd-4d8b-b1f0-be57fda9c6e5",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0e55b392-5288-4e21-bff9-168b5752ab08",
+            "properties": {
+                "name": "Mark Inaba",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e55b392-5288-4e21-bff9-168b5752ab08",
+                    "value": "Mark Inaba"
+                },
+                "linkedin": "mark-inaba-4400b514",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e628400c-fda0-4e01-8eb1-9e942b77fb81",
+                            "related_uuid": "0e55b392-5288-4e21-bff9-168b5752ab08",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e31ec5b5-d2d5-412f-a663-558462fa3bef",
+            "properties": {
+                "name": "Miguel Echemendia",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e31ec5b5-d2d5-412f-a663-558462fa3bef",
+                    "value": "Miguel Echemendia"
+                },
+                "linkedin": "migech",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4462b179-df5a-4781-a99f-154251de0faf",
+                            "related_uuid": "e31ec5b5-d2d5-412f-a663-558462fa3bef",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7166d723-014d-48e3-b885-ef2ea1631672",
+            "properties": {
+                "name": "Pierre McCummings",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7166d723-014d-48e3-b885-ef2ea1631672",
+                    "value": "Pierre McCummings"
+                },
+                "linkedin": "pierremccummings",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "542752bb-389c-45b0-9d6d-f70f30fec323",
+                            "related_uuid": "7166d723-014d-48e3-b885-ef2ea1631672",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

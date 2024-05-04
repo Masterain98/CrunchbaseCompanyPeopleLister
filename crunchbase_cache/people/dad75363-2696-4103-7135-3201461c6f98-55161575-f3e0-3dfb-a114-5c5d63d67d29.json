@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2f61d3a5-81e5-4e24-a64e-13a309f531b6",
+            "properties": {
+                "name": "Chris Tranquill",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2f61d3a5-81e5-4e24-a64e-13a309f531b6",
+                    "value": "Chris Tranquill"
+                },
+                "linkedin": "ctranq",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "65b84eb7-f092-47f8-ba93-e25153a74b30",
+                            "related_uuid": "2f61d3a5-81e5-4e24-a64e-13a309f531b6",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

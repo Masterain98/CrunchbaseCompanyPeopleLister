@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ac02f05b-e190-4585-ad05-16eedec6a31d",
+            "properties": {
+                "name": "Ritesh Arora",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ac02f05b-e190-4585-ad05-16eedec6a31d",
+                    "value": "Ritesh Arora"
+                },
+                "linkedin": "ritesh-arora-88937b7",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "91cabc37-a97d-406f-9698-4c61983a579b",
+                            "related_uuid": "ac02f05b-e190-4585-ad05-16eedec6a31d",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

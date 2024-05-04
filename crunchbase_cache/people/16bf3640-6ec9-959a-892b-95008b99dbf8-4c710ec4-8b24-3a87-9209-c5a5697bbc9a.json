@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "55a7b1d7-91e7-41ea-b7bf-7e41d3a43846",
+            "properties": {
+                "name": "Brett McCrae",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "55a7b1d7-91e7-41ea-b7bf-7e41d3a43846",
+                    "value": "Brett McCrae"
+                },
+                "linkedin": "brett-mccrae-b6ba5048",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "29a44b55-8e4b-4e9f-b351-34583dd719d7",
+                            "related_uuid": "55a7b1d7-91e7-41ea-b7bf-7e41d3a43846",
+                            "properties": {
+                                "job_title": "Senior Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

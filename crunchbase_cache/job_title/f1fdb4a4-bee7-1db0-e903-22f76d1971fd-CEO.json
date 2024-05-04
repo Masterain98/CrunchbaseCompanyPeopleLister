@@ -1,0 +1,157 @@
+{
+    "count": 19,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-consultant",
+                "uuid": "c32664aa-9318-3dbe-9476-b1439c92abca",
+                "value": "Senior Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "marketing-coordinator",
+                "uuid": "36cf6359-f8f5-37a6-86d0-b207e9e91d5b",
+                "value": "Marketing Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cpo",
+                "uuid": "d4cf9c5d-657b-3fb1-b2c2-33fdb19ac2ff",
+                "value": "CPO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "associate-consultant",
+                "uuid": "2210c445-16c1-3206-9812-b19f9db74bb5",
+                "value": "Associate Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "corporate-counsel",
+                "uuid": "e6188c0d-ffca-3614-87bd-ee3cd4b7f782",
+                "value": "Corporate Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "campaign-manager",
+                "uuid": "def43a61-3ba9-3806-ad36-d71701cdeb1c",
+                "value": "Campaign Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-information-security-officer",
+                "uuid": "416e6324-5e72-369e-8dc5-e680af3bb052",
+                "value": "Chief Information Security Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "lead-consultant",
+                "uuid": "45a94c07-99ff-3c50-92fe-bd375d43361b",
+                "value": "Lead Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "bd-consultant",
+                "uuid": "9785e83d-d427-3a12-9c44-256175543365",
+                "value": "BD Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cdo",
+                "uuid": "e270be3f-8301-3fc4-aa9f-d7f678e0289b",
+                "value": "CDO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant-business-development",
+                "uuid": "88dc1a98-a6f4-3da6-952b-db9a4b526bfb",
+                "value": "Consultant, Business Development"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "functional-consultant",
+                "uuid": "41512b8c-dd9d-3990-8c74-1c75b7fd826c",
+                "value": "Functional Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-functional-consultant",
+                "uuid": "7bef279f-072b-38cc-83ff-2b3af674f9cd",
+                "value": "Senior Functional Consultant"
+            }
+        }
+    ]
+}

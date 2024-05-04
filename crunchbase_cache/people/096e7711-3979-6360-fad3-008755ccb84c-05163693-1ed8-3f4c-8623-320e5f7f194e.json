@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7fbafaa5-a225-45d1-80cf-6121344e4e16",
+            "properties": {
+                "name": "Nicole Leclair",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7fbafaa5-a225-45d1-80cf-6121344e4e16",
+                    "value": "Nicole Leclair"
+                },
+                "linkedin": "nmleclair",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f1a2c5f1-7244-442f-a6c4-541b753587dd",
+                            "related_uuid": "7fbafaa5-a225-45d1-80cf-6121344e4e16",
+                            "properties": {
+                                "job_title": "Director of Marketing and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7a5ae759-f923-45ae-bd0b-49c1c83fa650",
+            "properties": {
+                "name": "Rachel Wescott",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7a5ae759-f923-45ae-bd0b-49c1c83fa650",
+                    "value": "Rachel Wescott"
+                },
+                "linkedin": "rachelwescott",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8165acd3-ddea-43c8-8c5c-730deb90dfec",
+                            "related_uuid": "7a5ae759-f923-45ae-bd0b-49c1c83fa650",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

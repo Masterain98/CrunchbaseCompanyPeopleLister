@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ef61253e-c6c3-4c73-98ab-e913a446c289",
+            "properties": {
+                "name": "Julia Stead",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ef61253e-c6c3-4c73-98ab-e913a446c289",
+                    "value": "Julia Stead"
+                },
+                "linkedin": "juliastead",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e9119bf-3679-4997-9594-643626316bb7",
+                            "related_uuid": "ef61253e-c6c3-4c73-98ab-e913a446c289",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

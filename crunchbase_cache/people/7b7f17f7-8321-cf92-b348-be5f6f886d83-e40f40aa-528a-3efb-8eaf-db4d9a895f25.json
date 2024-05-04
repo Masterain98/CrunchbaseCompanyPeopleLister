@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "648405f8-1fcb-44d0-96a8-3c93f8249398",
+            "properties": {
+                "name": "Justin Baum",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "648405f8-1fcb-44d0-96a8-3c93f8249398",
+                    "value": "Justin Baum"
+                },
+                "linkedin": "justinbaumcreative",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b26d9541-f838-407d-9ce1-d27f3d870f74",
+                            "related_uuid": "648405f8-1fcb-44d0-96a8-3c93f8249398",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ef9f87e4-5cb2-4c14-a591-dcfe78595d01",
+            "properties": {
+                "name": "Philip Marchington",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ef9f87e4-5cb2-4c14-a591-dcfe78595d01",
+                    "value": "Philip Marchington"
+                },
+                "linkedin": "philip-marchington-1534b720",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "04fc28d1-4f2a-4395-95b2-bc4733af0fc5",
+                            "related_uuid": "ef9f87e4-5cb2-4c14-a591-dcfe78595d01",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

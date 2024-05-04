@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c628b7bd-581e-49c2-a57b-b755fcef815e",
+            "properties": {
+                "name": "Victor Pereboom",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c628b7bd-581e-49c2-a57b-b755fcef815e",
+                    "value": "Victor Pereboom"
+                },
+                "linkedin": "victorpereboom",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0862bfc5-a7bc-4618-b43d-eda68027519c",
+                            "related_uuid": "c628b7bd-581e-49c2-a57b-b755fcef815e",
+                            "properties": {
+                                "job_title": "Co-Founder / CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

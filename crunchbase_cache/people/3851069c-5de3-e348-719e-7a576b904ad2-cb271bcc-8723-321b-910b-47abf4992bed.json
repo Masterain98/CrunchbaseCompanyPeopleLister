@@ -1,0 +1,101 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "e7397ebd-83b7-4aa9-a41a-584af29152a6",
+            "properties": {
+                "name": "Brittany Liu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e7397ebd-83b7-4aa9-a41a-584af29152a6",
+                    "value": "Brittany Liu"
+                },
+                "linkedin": "brittanybaileyliu",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2c5d102f-4bf9-46e2-bd39-bfa5ffdae3d1",
+                            "related_uuid": "e7397ebd-83b7-4aa9-a41a-584af29152a6",
+                            "properties": {
+                                "job_title": "Director of Customer Success, Community & Digital Programs"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1097ecd7-79f8-4dc0-949c-ab9ada611264",
+            "properties": {
+                "name": "Louis Okonkwo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1097ecd7-79f8-4dc0-949c-ab9ada611264",
+                    "value": "Louis Okonkwo"
+                },
+                "linkedin": "louis-okonkwo",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "50561000-945f-4944-831a-b2c4dd4ef89a",
+                            "related_uuid": "1097ecd7-79f8-4dc0-949c-ab9ada611264",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2137af83-3131-4d1d-9f88-efcbb1cc065d",
+            "properties": {
+                "name": "Vanessa Serrano",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2137af83-3131-4d1d-9f88-efcbb1cc065d",
+                    "value": "Vanessa Serrano"
+                },
+                "linkedin": "serranovanessa",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "464040f1-df3a-4eed-aa8b-b814fa564895",
+                            "related_uuid": "2137af83-3131-4d1d-9f88-efcbb1cc065d",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

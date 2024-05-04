@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "54837982-1a95-443f-91d1-292aa1d7ae88",
+            "properties": {
+                "name": "Keriann Strickland",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "54837982-1a95-443f-91d1-292aa1d7ae88",
+                    "value": "Keriann Strickland"
+                },
+                "linkedin": "keriann-lynch-strickland",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2d86160e-b574-413f-8fbe-e318f65a5f12",
+                            "related_uuid": "54837982-1a95-443f-91d1-292aa1d7ae88",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "count": 22,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-consultant",
+                "uuid": "c32664aa-9318-3dbe-9476-b1439c92abca",
+                "value": "Senior Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "marketing-coordinator",
+                "uuid": "36cf6359-f8f5-37a6-86d0-b207e9e91d5b",
+                "value": "Marketing Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cmo",
+                "uuid": "99330263-c899-3a05-8dc1-8add519cae39",
+                "value": "CMO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "financial-controller",
+                "uuid": "3d450b59-616f-3a3a-aadf-c3b7cf292fc1",
+                "value": "Financial Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cpo",
+                "uuid": "d4cf9c5d-657b-3fb1-b2c2-33fdb19ac2ff",
+                "value": "CPO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "office-coordinator",
+                "uuid": "818f037d-c546-35b1-8d3b-86cec9714e15",
+                "value": "Office Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-customer-success",
+                "uuid": "cb271bcc-8723-321b-910b-47abf4992bed",
+                "value": "Director, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-success-manager",
+                "uuid": "a08444ef-dbbe-38d5-ba39-54f974e2941b",
+                "value": "Senior Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "event-coordinator",
+                "uuid": "1c80a1ce-51ee-34e0-9bac-909e387f877e",
+                "value": "Event Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-corporate-communications",
+                "uuid": "fc2324a3-69a0-320c-9d04-de2a5438cac8",
+                "value": "Director, Corporate Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-sales-officer",
+                "uuid": "9f96800f-ca8b-3e37-944a-7ba53bd2d6c8",
+                "value": "Chief Sales Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-customer-success",
+                "uuid": "4c710ec4-8b24-3a87-9209-c5a5697bbc9a",
+                "value": "Senior Director, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "associate-corporate-development",
+                "uuid": "0f4623bd-0a2b-3b5d-8793-f37e20a334aa",
+                "value": "Associate, Corporate Development"
+            }
+        }
+    ]
+}

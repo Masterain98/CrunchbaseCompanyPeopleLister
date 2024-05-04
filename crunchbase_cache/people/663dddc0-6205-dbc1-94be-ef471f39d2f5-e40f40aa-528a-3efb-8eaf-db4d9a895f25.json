@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "87e5841e-1202-40ed-8240-e1acac5d985d",
+            "properties": {
+                "name": "Katherine Zink",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "87e5841e-1202-40ed-8240-e1acac5d985d",
+                    "value": "Katherine Zink"
+                },
+                "linkedin": "katzink",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "23ee5ea3-edd3-46bd-8d63-fb6b38e108ac",
+                            "related_uuid": "87e5841e-1202-40ed-8240-e1acac5d985d",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

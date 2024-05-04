@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "025bb3e2-ab46-4d84-8b93-74da972aba6d",
+            "properties": {
+                "name": "Laura Taylor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "025bb3e2-ab46-4d84-8b93-74da972aba6d",
+                    "value": "Laura Taylor"
+                },
+                "linkedin": "laurataylor211",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "69d012ef-16ac-4d08-aaf9-19064f77ce41",
+                            "related_uuid": "025bb3e2-ab46-4d84-8b93-74da972aba6d",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

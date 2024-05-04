@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7c289ba6-5b08-401f-8515-f0ccd620c5ff",
+            "properties": {
+                "name": "Marc Jones",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7c289ba6-5b08-401f-8515-f0ccd620c5ff",
+                    "value": "Marc Jones"
+                },
+                "linkedin": "marcjones",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6d07a202-a08d-4f2a-9654-07f8f21563a0",
+                            "related_uuid": "7c289ba6-5b08-401f-8515-f0ccd620c5ff",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

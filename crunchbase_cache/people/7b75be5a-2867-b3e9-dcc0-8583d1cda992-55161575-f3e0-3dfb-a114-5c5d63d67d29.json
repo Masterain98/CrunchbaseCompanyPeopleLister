@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3c72fe5e-172f-4784-9bf2-e0dd8757b157",
+            "properties": {
+                "name": "Sean McDonald",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3c72fe5e-172f-4784-9bf2-e0dd8757b157",
+                    "value": "Sean McDonald"
+                },
+                "linkedin": "seanmcdonald1",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6d5df655-fd9f-4906-9523-135a5f0f1b73",
+                            "related_uuid": "3c72fe5e-172f-4784-9bf2-e0dd8757b157",
+                            "properties": {
+                                "job_title": "Acting President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

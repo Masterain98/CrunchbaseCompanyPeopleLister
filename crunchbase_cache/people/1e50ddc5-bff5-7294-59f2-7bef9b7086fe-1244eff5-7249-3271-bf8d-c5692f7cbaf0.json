@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a2891f50-9c7b-4095-bb9d-bfdc70b293fc",
+            "properties": {
+                "name": "Rob Juncker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a2891f50-9c7b-4095-bb9d-bfdc70b293fc",
+                    "value": "Rob Juncker"
+                },
+                "linkedin": "robjuncker",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3593c329-761b-4438-b1c6-48f8eb511143",
+                            "related_uuid": "a2891f50-9c7b-4095-bb9d-bfdc70b293fc",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "96641d04-246e-4a32-a779-ee757b86a144",
+            "properties": {
+                "name": "Josh Harbert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "96641d04-246e-4a32-a779-ee757b86a144",
+                    "value": "Josh Harbert"
+                },
+                "linkedin": "joshharbert",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1e2a291e-c17d-44cb-bed2-1e142fdc7f89",
+                            "related_uuid": "96641d04-246e-4a32-a779-ee757b86a144",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5478b85b-cddd-4711-ae41-c5e4c9ade9be",
+            "properties": {
+                "name": "Monika Saha",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5478b85b-cddd-4711-ae41-c5e4c9ade9be",
+                    "value": "Monika Saha"
+                },
+                "linkedin": "monikasaha",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "278e3bbc-9dc7-4dd7-9c41-c04758d2406a",
+                            "related_uuid": "5478b85b-cddd-4711-ae41-c5e4c9ade9be",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

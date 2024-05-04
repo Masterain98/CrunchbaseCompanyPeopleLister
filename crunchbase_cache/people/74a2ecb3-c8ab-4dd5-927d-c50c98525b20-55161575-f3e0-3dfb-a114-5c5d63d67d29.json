@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fe17fdee-6d7c-411e-a823-484a1ab219bd",
+            "properties": {
+                "name": "Gaurav Oberoi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fe17fdee-6d7c-411e-a823-484a1ab219bd",
+                    "value": "Gaurav Oberoi"
+                },
+                "linkedin": "goberoi",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2a46fe5f-e5c0-4ace-90d7-58429605ced7",
+                            "related_uuid": "fe17fdee-6d7c-411e-a823-484a1ab219bd",
+                            "properties": {
+                                "job_title": "CEO, Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

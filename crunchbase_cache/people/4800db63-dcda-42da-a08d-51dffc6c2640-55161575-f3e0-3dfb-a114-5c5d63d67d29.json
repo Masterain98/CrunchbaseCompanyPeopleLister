@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f54aa2e3-ca98-430a-a168-15c87eeaffaa",
+            "properties": {
+                "name": "Brian Hazzard",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f54aa2e3-ca98-430a-a168-15c87eeaffaa",
+                    "value": "Brian Hazzard"
+                },
+                "linkedin": "brian-hazzard-583755",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1e60c445-71c3-4e75-aa2e-3518254fe561",
+                            "related_uuid": "f54aa2e3-ca98-430a-a168-15c87eeaffaa",
+                            "properties": {
+                                "job_title": "CEO, Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

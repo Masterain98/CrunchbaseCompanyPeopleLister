@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2c09c181-89fd-4a82-a21f-cbf0c2a728b1",
+            "properties": {
+                "name": "Pete Khanna",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2c09c181-89fd-4a82-a21f-cbf0c2a728b1",
+                    "value": "Pete Khanna"
+                },
+                "linkedin": "pete-khanna-8507401",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2b4eee8b-abe0-4df1-8c1a-28d3275b8043",
+                            "related_uuid": "2c09c181-89fd-4a82-a21f-cbf0c2a728b1",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

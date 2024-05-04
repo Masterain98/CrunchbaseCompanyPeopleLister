@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d1aefbda-1452-473a-971f-22db8fa9e2b2",
+            "properties": {
+                "name": "Pamela Glick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d1aefbda-1452-473a-971f-22db8fa9e2b2",
+                    "value": "Pamela Glick"
+                },
+                "linkedin": "pamela-glick-ab12861",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "24174f8e-c76b-4958-8b1a-5f47ad0fa48a",
+                            "related_uuid": "d1aefbda-1452-473a-971f-22db8fa9e2b2",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

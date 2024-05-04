@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "557250f7-829a-4934-b778-49be7a3a8ee3",
+            "properties": {
+                "name": "Peter Hortensius",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "557250f7-829a-4934-b778-49be7a3a8ee3",
+                    "value": "Peter Hortensius"
+                },
+                "linkedin": "peterhortensius",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b33620ef-13d0-42bc-abc2-3c3c62e83ab7",
+                            "related_uuid": "557250f7-829a-4934-b778-49be7a3a8ee3",
+                            "properties": {
+                                "job_title": "Chief Technology Officer and SVP"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ccd9cba8-d129-418b-b099-9bdcc156a9ef",
+            "properties": {
+                "name": "Ted Vojnovich",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ccd9cba8-d129-418b-b099-9bdcc156a9ef",
+                    "value": "Ted Vojnovich"
+                },
+                "linkedin": "ted-vojnovich-45b36a13",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ad68009a-c839-4790-b8ff-86e6f4e57039",
+                            "related_uuid": "ccd9cba8-d129-418b-b099-9bdcc156a9ef",
+                            "properties": {
+                                "job_title": "CTO External Storage"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

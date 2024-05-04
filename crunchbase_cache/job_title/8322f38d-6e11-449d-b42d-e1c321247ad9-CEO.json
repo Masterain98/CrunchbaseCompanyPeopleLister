@@ -1,0 +1,133 @@
+{
+    "count": 16,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-founder",
+                "uuid": "67f94724-6ebb-36e8-ba2a-600d3fda1e4f",
+                "value": "Co-Founder"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "associate-creative-director",
+                "uuid": "dfbe1960-166a-3ef7-8ff6-e803bad0b6f9",
+                "value": "Associate Creative Director"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "credit-analyst",
+                "uuid": "dfbd7ecd-a61d-3daa-856f-db1d0e485326",
+                "value": "Credit Analyst"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "implementation-consultant",
+                "uuid": "d65fb67c-387b-3e39-8026-f4287c1a9dd3",
+                "value": "Implementation Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "campaign-manager",
+                "uuid": "def43a61-3ba9-3806-ad36-d71701cdeb1c",
+                "value": "Campaign Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cbo",
+                "uuid": "2af9963e-e4b4-3d5a-b6d0-78835bfc579a",
+                "value": "CBO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-risk-officer",
+                "uuid": "7dacc0b9-43bf-3848-82a7-c597ab9c872d",
+                "value": "Chief Risk Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-client-success",
+                "uuid": "eaa30cf5-d79e-3dfb-b0f4-377d1aa0f623",
+                "value": "Senior Manager, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-campaign-manager",
+                "uuid": "d5bd5d25-9c8a-3ca6-a671-6a0411879f02",
+                "value": "Senior Campaign Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "supervisor-customer-success",
+                "uuid": "2a0af7c1-135f-3387-bcab-e20daf92b144",
+                "value": "Supervisor, Customer Success"
+            }
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "9d18b0c4-ef6b-498f-8ad0-ae496a7a87f0",
+            "properties": {
+                "name": "Devon Jeffers",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9d18b0c4-ef6b-498f-8ad0-ae496a7a87f0",
+                    "value": "Devon Jeffers"
+                },
+                "linkedin": "devon-jeffers",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "30c19cbd-ec5a-475b-bbeb-4e2852e36748",
+                            "related_uuid": "9d18b0c4-ef6b-498f-8ad0-ae496a7a87f0",
+                            "properties": {
+                                "job_title": "Associate Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5ee430c0-6812-4288-b361-4f8d9b7c0fd7",
+            "properties": {
+                "name": "Jessi DeNaut",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5ee430c0-6812-4288-b361-4f8d9b7c0fd7",
+                    "value": "Jessi DeNaut"
+                },
+                "linkedin": "jessi-denaut-200a5198",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0b3ca2e1-9c3b-4b2e-90e3-5635a314f3ef",
+                            "related_uuid": "5ee430c0-6812-4288-b361-4f8d9b7c0fd7",
+                            "properties": {
+                                "job_title": "Assoc. Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c8450fc4-a9e6-4e5d-9f24-f720147729a3",
+            "properties": {
+                "name": "Kara Kramer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c8450fc4-a9e6-4e5d-9f24-f720147729a3",
+                    "value": "Kara Kramer"
+                },
+                "linkedin": "kara-kramer-79263115",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3f8994cd-6dce-49a2-b3f6-ae1eb058c47b",
+                            "related_uuid": "c8450fc4-a9e6-4e5d-9f24-f720147729a3",
+                            "properties": {
+                                "job_title": "Associate Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "297cd38b-8e98-4320-bf99-d90cdc16044e",
+            "properties": {
+                "name": "Kristin Zura",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "297cd38b-8e98-4320-bf99-d90cdc16044e",
+                    "value": "Kristin Zura"
+                },
+                "linkedin": "kristinzura",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5fcbff96-a4c5-4eed-adfb-0e33fafc426a",
+                            "related_uuid": "297cd38b-8e98-4320-bf99-d90cdc16044e",
+                            "properties": {
+                                "job_title": "Sr. Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9ae2055a-e8f8-4f41-a159-5fcb3a03abbc",
+            "properties": {
+                "name": "Zach West",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9ae2055a-e8f8-4f41-a159-5fcb3a03abbc",
+                    "value": "Zach West"
+                },
+                "linkedin": "west",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a8a7b7e-49ed-4bf5-9012-97784479523d",
+                            "related_uuid": "9ae2055a-e8f8-4f41-a159-5fcb3a03abbc",
+                            "properties": {
+                                "job_title": "Director, Customer Success Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

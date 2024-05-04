@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b6703003-c4b8-46c5-896e-bfd38169531e",
+            "properties": {
+                "name": "Atish Ghosh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b6703003-c4b8-46c5-896e-bfd38169531e",
+                    "value": "Atish Ghosh"
+                },
+                "linkedin": "atish-ghosh-8725a9",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1328400b-02b2-432d-9b2f-e0f50fbc9ebd",
+                            "related_uuid": "b6703003-c4b8-46c5-896e-bfd38169531e",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

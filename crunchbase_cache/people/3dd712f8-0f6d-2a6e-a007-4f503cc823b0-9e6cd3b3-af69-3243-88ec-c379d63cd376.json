@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6441c6b3-531e-420d-a65e-462bc28102c2",
+            "properties": {
+                "name": "Avleen Makkar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6441c6b3-531e-420d-a65e-462bc28102c2",
+                    "value": "Avleen Makkar"
+                },
+                "linkedin": "avleen-makkar-ab03a092",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director",
+                    "l_400_vp"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1e1e778b-543c-4c68-906b-a987c3ae6a37",
+                            "related_uuid": "6441c6b3-531e-420d-a65e-462bc28102c2",
+                            "properties": {
+                                "job_title": "VP, Strategy & Corporate Development"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

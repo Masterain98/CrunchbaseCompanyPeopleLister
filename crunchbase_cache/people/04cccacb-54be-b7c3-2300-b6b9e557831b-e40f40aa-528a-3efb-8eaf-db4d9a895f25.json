@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8e5907b2-0fc6-43cc-98b9-342ce518b70c",
+            "properties": {
+                "name": "Kurtis Schureman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8e5907b2-0fc6-43cc-98b9-342ce518b70c",
+                    "value": "Kurtis Schureman"
+                },
+                "linkedin": "schureman",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fbaded43-e974-49ad-9024-7bc91e579dd5",
+                            "related_uuid": "8e5907b2-0fc6-43cc-98b9-342ce518b70c",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

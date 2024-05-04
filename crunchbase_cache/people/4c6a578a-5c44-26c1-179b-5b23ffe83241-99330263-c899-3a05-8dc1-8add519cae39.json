@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5125b300-3f65-41b2-97e2-6322152b5f2b",
+            "properties": {
+                "name": "Nico Dato",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5125b300-3f65-41b2-97e2-6322152b5f2b",
+                    "value": "Nico Dato"
+                },
+                "linkedin": "nicodato",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2d780a91-6cc2-4b7e-8a28-14b4a57c4836",
+                            "related_uuid": "5125b300-3f65-41b2-97e2-6322152b5f2b",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

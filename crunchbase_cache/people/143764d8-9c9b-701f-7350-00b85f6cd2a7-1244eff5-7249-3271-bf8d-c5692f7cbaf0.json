@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3ae69105-8b55-48ec-948c-fede152c0595",
+            "properties": {
+                "name": "Tim Armandpour",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ae69105-8b55-48ec-948c-fede152c0595",
+                    "value": "Tim Armandpour"
+                },
+                "linkedin": "timarmandpour",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "64205e11-f589-4a44-a034-3b3da525a697",
+                            "related_uuid": "3ae69105-8b55-48ec-948c-fede152c0595",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

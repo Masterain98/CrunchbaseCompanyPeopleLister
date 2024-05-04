@@ -1,0 +1,99 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "e93e9bc1-e9b9-4577-8726-67ffe19401d1",
+            "properties": {
+                "name": "Anthony Broad-Crawford",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e93e9bc1-e9b9-4577-8726-67ffe19401d1",
+                    "value": "Anthony Broad-Crawford"
+                },
+                "linkedin": "anthonybroadcrawford",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0762b89a-c218-4a9c-96d6-7afecdf33dd5",
+                            "related_uuid": "e93e9bc1-e9b9-4577-8726-67ffe19401d1",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "43410343-1631-4d86-b43e-bba279f0273f",
+            "properties": {
+                "name": "Dean Cleaver",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "43410343-1631-4d86-b43e-bba279f0273f",
+                    "value": "Dean Cleaver"
+                },
+                "linkedin": "dean-cleaver-265b5319",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9f864bf7-afdc-46ab-a421-dad545b7a0f9",
+                            "related_uuid": "43410343-1631-4d86-b43e-bba279f0273f",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6d4e291d-3cd4-499c-a78a-e3032df2b820",
+            "properties": {
+                "name": "Jeff Judge",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6d4e291d-3cd4-499c-a78a-e3032df2b820",
+                    "value": "Jeff Judge"
+                },
+                "linkedin": "jjudge",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5e87817e-5a96-427e-91f6-ed46f731507d",
+                            "related_uuid": "6d4e291d-3cd4-499c-a78a-e3032df2b820",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

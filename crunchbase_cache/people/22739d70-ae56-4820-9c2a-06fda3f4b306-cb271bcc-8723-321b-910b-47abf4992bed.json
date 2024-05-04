@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a2ee6799-599e-4cd3-86d8-840baedfb64c",
+            "properties": {
+                "name": "Heather Currie-Martinez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a2ee6799-599e-4cd3-86d8-840baedfb64c",
+                    "value": "Heather Currie-Martinez"
+                },
+                "linkedin": "heathercurriemartinez",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1652d1a5-c192-4744-bd86-bd7032c230e9",
+                            "related_uuid": "a2ee6799-599e-4cd3-86d8-840baedfb64c",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

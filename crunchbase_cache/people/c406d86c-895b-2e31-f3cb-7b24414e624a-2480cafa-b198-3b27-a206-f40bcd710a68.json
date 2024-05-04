@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aad46307-6a23-49e3-9d46-d273bb56ff75",
+            "properties": {
+                "name": "Edua Heuze-Turcsany",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aad46307-6a23-49e3-9d46-d273bb56ff75",
+                    "value": "Edua Heuze-Turcsany"
+                },
+                "linkedin": "eduaht",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f2d0a6bc-4e7b-44b9-82b5-3870e883aa41",
+                            "related_uuid": "aad46307-6a23-49e3-9d46-d273bb56ff75",
+                            "properties": {
+                                "job_title": "Director of Security and Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5168b71d-84c4-4e5a-afea-844bcc168e03",
+            "properties": {
+                "name": "Nishant Nair",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5168b71d-84c4-4e5a-afea-844bcc168e03",
+                    "value": "Nishant Nair"
+                },
+                "linkedin": "ninair",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9950f4c4-3ba5-4191-b900-0b41095ea8a6",
+                            "related_uuid": "5168b71d-84c4-4e5a-afea-844bcc168e03",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

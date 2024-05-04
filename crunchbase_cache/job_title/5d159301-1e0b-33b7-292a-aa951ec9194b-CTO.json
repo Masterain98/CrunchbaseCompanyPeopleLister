@@ -1,0 +1,77 @@
+{
+    "count": 9,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "sales-consultant",
+                "uuid": "77ebb497-2e29-38cf-8171-f3382582d089",
+                "value": "Sales Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-compliance",
+                "uuid": "4aa0c36d-e42c-38b4-8dcc-b5a12d677b2b",
+                "value": "Senior Manager, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "associate-customer-success",
+                "uuid": "29785fe9-0e1f-3ab6-8a9e-712d685744f0",
+                "value": "Associate, Customer Success"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "c5eec3f1-7dee-4f2c-99e8-ac6f65ecca96",
+            "properties": {
+                "name": "Chris Dondanville",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c5eec3f1-7dee-4f2c-99e8-ac6f65ecca96",
+                    "value": "Chris Dondanville"
+                },
+                "linkedin": "chris-dondanville-a82b666",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "698b4300-4de1-4504-83f1-89b36d77a08d",
+                            "related_uuid": "c5eec3f1-7dee-4f2c-99e8-ac6f65ecca96",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7649833c-fb25-4317-b791-bdcc60415b76",
+            "properties": {
+                "name": "Craig Lindsey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7649833c-fb25-4317-b791-bdcc60415b76",
+                    "value": "Craig Lindsey"
+                },
+                "linkedin": "craig-lindsey",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c3da277e-cdc2-4544-8b6e-3bdc51f2a2dc",
+                            "related_uuid": "7649833c-fb25-4317-b791-bdcc60415b76",
+                            "properties": {
+                                "job_title": "Director, Customer Success, APJ"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

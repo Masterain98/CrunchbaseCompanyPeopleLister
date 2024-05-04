@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e3abfa2a-b67b-496c-8fbb-d4bf1994962c",
+            "properties": {
+                "name": "Phil Steitz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e3abfa2a-b67b-496c-8fbb-d4bf1994962c",
+                    "value": "Phil Steitz"
+                },
+                "linkedin": "psteitz",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6078cab5-7dfa-47c1-9a4a-c3ef21b12a5a",
+                            "related_uuid": "e3abfa2a-b67b-496c-8fbb-d4bf1994962c",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

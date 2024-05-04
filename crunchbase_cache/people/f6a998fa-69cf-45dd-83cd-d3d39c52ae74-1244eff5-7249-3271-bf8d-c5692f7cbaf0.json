@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ec032ed4-4739-40c9-a8b5-faf5ae481f08",
+            "properties": {
+                "name": "Ben Mabey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ec032ed4-4739-40c9-a8b5-faf5ae481f08",
+                    "value": "Ben Mabey"
+                },
+                "linkedin": "benmabey",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4e25b78d-707d-4c5f-89a3-6028f07c7529",
+                            "related_uuid": "ec032ed4-4739-40c9-a8b5-faf5ae481f08",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

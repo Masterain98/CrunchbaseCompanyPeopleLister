@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "49557c2d-dcfe-44f2-a5b2-e17b97562a81",
+            "properties": {
+                "name": "Matt Britton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "49557c2d-dcfe-44f2-a5b2-e17b97562a81",
+                    "value": "Matt Britton"
+                },
+                "linkedin": "mattbbritton",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "82a2f063-1394-49f5-81f7-b5f37ed6ce04",
+                            "related_uuid": "49557c2d-dcfe-44f2-a5b2-e17b97562a81",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

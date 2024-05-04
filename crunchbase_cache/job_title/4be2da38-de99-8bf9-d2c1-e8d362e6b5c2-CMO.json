@@ -1,0 +1,53 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-founder",
+                "uuid": "67f94724-6ebb-36e8-ba2a-600d3fda1e4f",
+                "value": "Co-Founder"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chairman",
+                "uuid": "0e678094-b97c-381f-a87e-592f664994ce",
+                "value": "Chairman"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cloud-engineer",
+                "uuid": "205342f2-1c1a-3016-84ea-381b417a9335",
+                "value": "Cloud Engineer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5887b3de-cd20-41e6-82be-695dbeaaddb2",
+            "properties": {
+                "name": "Marca Armstrong",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5887b3de-cd20-41e6-82be-695dbeaaddb2",
+                    "value": "Marca Armstrong"
+                },
+                "linkedin": "marcaarmstrong",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5459ef9b-1655-47e5-963c-c0c1e41b687b",
+                            "related_uuid": "5887b3de-cd20-41e6-82be-695dbeaaddb2",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

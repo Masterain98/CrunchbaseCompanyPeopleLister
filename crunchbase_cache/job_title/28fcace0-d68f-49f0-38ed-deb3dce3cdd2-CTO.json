@@ -1,0 +1,37 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "engineer-customer-success",
+                "uuid": "c0bf3254-b972-3d65-a605-6901422ebea2",
+                "value": "Engineer, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "team-lead-customer-success",
+                "uuid": "06833a64-41f5-3939-a45a-d3b987b76f2a",
+                "value": "Team Lead, Customer Success"
+            }
+        }
+    ]
+}

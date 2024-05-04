@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "44b1710b-62f8-4ae0-9b06-2d81656878fb",
+            "properties": {
+                "name": "Darrell Kazak",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "44b1710b-62f8-4ae0-9b06-2d81656878fb",
+                    "value": "Darrell Kazak"
+                },
+                "linkedin": "darrell-kazak-cams-crcm-cams-rm-71b8b614",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cfd8fdc1-933d-4556-b614-efabc1e835b6",
+                            "related_uuid": "44b1710b-62f8-4ae0-9b06-2d81656878fb",
+                            "properties": {
+                                "job_title": "Director, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

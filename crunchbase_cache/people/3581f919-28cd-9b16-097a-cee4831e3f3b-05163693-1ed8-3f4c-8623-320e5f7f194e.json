@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "250ed040-aeae-4c6d-8aaa-0a46b1bd454f",
+            "properties": {
+                "name": "Liz Caras",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "250ed040-aeae-4c6d-8aaa-0a46b1bd454f",
+                    "value": "Liz Caras"
+                },
+                "linkedin": "liz-caras-30376a15",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "human_resources",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "420cf946-dbd2-4175-b261-6a70430c3202",
+                            "related_uuid": "250ed040-aeae-4c6d-8aaa-0a46b1bd454f",
+                            "properties": {
+                                "job_title": "Director, Global Recruiting, Mobility and Internal Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2affa430-577e-4cc5-874e-573208bda1a8",
+            "properties": {
+                "name": "Sherlyn Manson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2affa430-577e-4cc5-874e-573208bda1a8",
+                    "value": "Sherlyn Manson"
+                },
+                "linkedin": "sherlynmanson",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6a9c8b6a-a6b0-4d31-93e8-8b3efb09e3a4",
+                            "related_uuid": "2affa430-577e-4cc5-874e-573208bda1a8",
+                            "properties": {
+                                "job_title": "Director of Global Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

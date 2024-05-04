@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f61c8c3a-1638-4f22-b82d-0daea628d9b4",
+            "properties": {
+                "name": "Mohamed Meabed",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f61c8c3a-1638-4f22-b82d-0daea628d9b4",
+                    "value": "Mohamed Meabed"
+                },
+                "linkedin": "mmeabed",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "06cb98db-cba2-485c-917a-c05b4d97aef2",
+                            "related_uuid": "f61c8c3a-1638-4f22-b82d-0daea628d9b4",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

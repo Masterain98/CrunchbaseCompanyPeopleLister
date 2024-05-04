@@ -1,0 +1,173 @@
+{
+    "count": 21,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-consultant",
+                "uuid": "c32664aa-9318-3dbe-9476-b1439c92abca",
+                "value": "Senior Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service",
+                "uuid": "060dca13-af57-34f1-a7d2-f2deb799b437",
+                "value": "Customer Service"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cio",
+                "uuid": "4482571a-249d-331b-babe-d938e4567a15",
+                "value": "CIO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cmo",
+                "uuid": "99330263-c899-3a05-8dc1-8add519cae39",
+                "value": "CMO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "contract-manager",
+                "uuid": "735f9101-86d3-31d3-ac52-adf3b7e47910",
+                "value": "Contract Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "content-manager",
+                "uuid": "5f6c3979-2737-3245-8871-ba78505dbbd4",
+                "value": "Content Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-customer-success",
+                "uuid": "cb271bcc-8723-321b-910b-47abf4992bed",
+                "value": "Director, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-success-manager",
+                "uuid": "a08444ef-dbbe-38d5-ba39-54f974e2941b",
+                "value": "Senior Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service-supervisor",
+                "uuid": "b4939299-1261-3486-97cb-dc2354169887",
+                "value": "Customer Service Supervisor"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-support-specialist",
+                "uuid": "8a84191a-1e76-3181-8286-2a57b4576642",
+                "value": "Customer Support Specialist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-corporate-counsel",
+                "uuid": "1a1682f9-f59f-3609-921b-9a6b76fe7b6d",
+                "value": "Senior Corporate Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-sales-officer",
+                "uuid": "9f96800f-ca8b-3e37-944a-7ba53bd2d6c8",
+                "value": "Chief Sales Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "associate-customer-success",
+                "uuid": "29785fe9-0e1f-3ab6-8a9e-712d685744f0",
+                "value": "Associate, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "executive-vp-corporate-development",
+                "uuid": "b8b0f43c-4680-3d02-83df-8a03f68e033d",
+                "value": "Executive VP, Corporate Development"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "project-manager-customer-success",
+                "uuid": "46d04b4a-3441-361e-abc0-03d42e98deae",
+                "value": "Project Manager, Customer Success"
+            }
+        }
+    ]
+}

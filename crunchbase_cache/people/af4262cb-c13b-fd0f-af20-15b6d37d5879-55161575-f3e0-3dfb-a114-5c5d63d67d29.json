@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "837b6040-20d3-43b6-964d-e7995a7e5747",
+            "properties": {
+                "name": "Dave Vasen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "837b6040-20d3-43b6-964d-e7995a7e5747",
+                    "value": "Dave Vasen"
+                },
+                "linkedin": "davevasen",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6dade4dc-e0d5-4b30-8d40-c792a8215b58",
+                            "related_uuid": "837b6040-20d3-43b6-964d-e7995a7e5747",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

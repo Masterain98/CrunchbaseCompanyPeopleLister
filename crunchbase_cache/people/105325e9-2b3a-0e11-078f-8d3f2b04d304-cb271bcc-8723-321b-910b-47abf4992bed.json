@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "0ef59ff3-ac2e-4820-bdd0-f414ec4f8dfc",
+            "properties": {
+                "name": "Harmeet Gulati",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0ef59ff3-ac2e-4820-bdd0-f414ec4f8dfc",
+                    "value": "Harmeet Gulati"
+                },
+                "linkedin": "harmeetgulati",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "pro_services"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4fc5adad-db10-4080-8253-a6dde9610ed7",
+                            "related_uuid": "0ef59ff3-ac2e-4820-bdd0-f414ec4f8dfc",
+                            "properties": {
+                                "job_title": "Director of Customer Success - EMEA"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "734f09dd-6767-4c93-94bb-44a4e1fdaa80",
+            "properties": {
+                "name": "Nicole Caldwell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "734f09dd-6767-4c93-94bb-44a4e1fdaa80",
+                    "value": "Nicole Caldwell"
+                },
+                "linkedin": "nicolemadisoncaldwell",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2faeaf8f-68d4-4eb3-be40-5be74670149f",
+                            "related_uuid": "734f09dd-6767-4c93-94bb-44a4e1fdaa80",
+                            "properties": {
+                                "job_title": "Director Customer Success Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

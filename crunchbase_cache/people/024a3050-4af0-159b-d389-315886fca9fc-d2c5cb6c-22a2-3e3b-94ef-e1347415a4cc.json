@@ -1,0 +1,99 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "c9778fdc-9e30-43f5-bc33-484215661fe7",
+            "properties": {
+                "name": "Karen Hickey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c9778fdc-9e30-43f5-bc33-484215661fe7",
+                    "value": "Karen Hickey"
+                },
+                "linkedin": "karen-hickey-mba-bs-rn-ccm-b7866019",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "73b13c3c-9cb1-4cbe-b380-ca669690153c",
+                            "related_uuid": "c9778fdc-9e30-43f5-bc33-484215661fe7",
+                            "properties": {
+                                "job_title": "Client Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2fe87ef8-cd95-4cf7-a9f8-a452d709a000",
+            "properties": {
+                "name": "Renee House",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2fe87ef8-cd95-4cf7-a9f8-a452d709a000",
+                    "value": "Renee House"
+                },
+                "linkedin": "reneehouse",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a3fdbec5-2289-4c6f-8345-9249ab4b8212",
+                            "related_uuid": "2fe87ef8-cd95-4cf7-a9f8-a452d709a000",
+                            "properties": {
+                                "job_title": "Director, Client Success Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "92d7effa-4080-4188-b77b-030fa585a1b0",
+            "properties": {
+                "name": "Shawn Gordon-Brekel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "92d7effa-4080-4188-b77b-030fa585a1b0",
+                    "value": "Shawn Gordon-Brekel"
+                },
+                "linkedin": "shawn-gordon-brekel",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ad13bef8-6b33-45c2-8d92-56cc01e47cf4",
+                            "related_uuid": "92d7effa-4080-4188-b77b-030fa585a1b0",
+                            "properties": {
+                                "job_title": "Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

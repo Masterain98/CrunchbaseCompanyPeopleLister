@@ -1,0 +1,45 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "financial-controller",
+                "uuid": "3d450b59-616f-3a3a-aadf-c3b7cf292fc1",
+                "value": "Financial Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cso",
+                "uuid": "7521b628-54f6-391f-a63a-f3090ab9e759",
+                "value": "CSO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-strategy-officer",
+                "uuid": "df90e319-ad0c-3ec1-9ff3-737c24086d09",
+                "value": "Chief Strategy Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-communications",
+                "uuid": "fa5a54c8-072d-3850-8460-28296975f02f",
+                "value": "Head of Communications"
+            }
+        }
+    ]
+}

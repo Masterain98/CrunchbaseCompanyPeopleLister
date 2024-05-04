@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "561c31ec-332b-45f7-8940-5597197c16fa",
+            "properties": {
+                "name": "Steve Daheb",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "561c31ec-332b-45f7-8940-5597197c16fa",
+                    "value": "Steve Daheb"
+                },
+                "linkedin": "stevedaheb",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "707d0508-a4b7-43cb-aee1-d7c17523b976",
+                            "related_uuid": "561c31ec-332b-45f7-8940-5597197c16fa",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a044b4f1-35cc-46f3-aa1e-c398af769724",
+            "properties": {
+                "name": "Susan Panico",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a044b4f1-35cc-46f3-aa1e-c398af769724",
+                    "value": "Susan Panico"
+                },
+                "linkedin": "susanpanico",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19eec511-d656-4b97-81a6-389a8900061e",
+                            "related_uuid": "a044b4f1-35cc-46f3-aa1e-c398af769724",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

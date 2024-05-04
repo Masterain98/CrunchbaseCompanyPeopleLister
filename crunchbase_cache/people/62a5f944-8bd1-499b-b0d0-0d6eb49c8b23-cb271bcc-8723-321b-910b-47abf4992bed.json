@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "afd50ffb-98dd-4c4c-b6be-3f5e1f151a4a",
+            "properties": {
+                "name": "Lacey Smith",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "afd50ffb-98dd-4c4c-b6be-3f5e1f151a4a",
+                    "value": "Lacey Smith"
+                },
+                "linkedin": "laceymsmith",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "62aaa584-e293-4a40-a9ea-996799a602b1",
+                            "related_uuid": "afd50ffb-98dd-4c4c-b6be-3f5e1f151a4a",
+                            "properties": {
+                                "job_title": "Director of Customer Success, Enterprise"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "37c9e506-c718-4bfb-a16b-9cf9e981d1c3",
+            "properties": {
+                "name": "Maggie Kilrea",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "37c9e506-c718-4bfb-a16b-9cf9e981d1c3",
+                    "value": "Maggie Kilrea"
+                },
+                "linkedin": "maggie-kilrea-4828ab75",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "25b8a1e0-0ff4-4cec-a491-2a6ec43c692e",
+                            "related_uuid": "37c9e506-c718-4bfb-a16b-9cf9e981d1c3",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

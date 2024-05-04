@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "eea71ebf-491f-4cf3-b7fe-1acdc50fdc5d",
+            "properties": {
+                "name": "Mr. Jake Braly",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eea71ebf-491f-4cf3-b7fe-1acdc50fdc5d",
+                    "value": "Mr. Jake Braly"
+                },
+                "linkedin": "jakebraly",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "57f49166-9c2b-4321-a10d-0274508aef9b",
+                            "related_uuid": "eea71ebf-491f-4cf3-b7fe-1acdc50fdc5d",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

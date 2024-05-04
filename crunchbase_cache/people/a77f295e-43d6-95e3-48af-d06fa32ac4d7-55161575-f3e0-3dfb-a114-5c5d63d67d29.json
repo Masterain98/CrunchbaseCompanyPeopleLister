@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d22d288c-a946-463c-b7a7-17a444fa655c",
+            "properties": {
+                "name": "Michael Whitmire",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d22d288c-a946-463c-b7a7-17a444fa655c",
+                    "value": "Michael Whitmire"
+                },
+                "linkedin": "michaelcwhitmire",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1bab12a7-682f-451c-b124-86da7b64a63d",
+                            "related_uuid": "d22d288c-a946-463c-b7a7-17a444fa655c",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

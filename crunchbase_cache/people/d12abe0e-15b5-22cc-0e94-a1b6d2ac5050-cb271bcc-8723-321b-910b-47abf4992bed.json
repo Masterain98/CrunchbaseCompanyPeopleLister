@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "91a341a8-08cb-4f4a-b16a-4b41647ab2a1",
+            "properties": {
+                "name": "Lauren Rummel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "91a341a8-08cb-4f4a-b16a-4b41647ab2a1",
+                    "value": "Lauren Rummel"
+                },
+                "linkedin": "laurenrummel1",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c363207b-28b7-4466-b4db-92e8b53b8010",
+                            "related_uuid": "91a341a8-08cb-4f4a-b16a-4b41647ab2a1",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "count": 9,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-founder",
+                "uuid": "67f94724-6ebb-36e8-ba2a-600d3fda1e4f",
+                "value": "Co-Founder"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coach",
+                "uuid": "f931b13a-ead0-32d7-bcdb-02f84e0f794f",
+                "value": "Coach"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cro",
+                "uuid": "5922bcca-31a5-347d-a587-ac39e8b7c1e4",
+                "value": "CRO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-customer-success",
+                "uuid": "cb271bcc-8723-321b-910b-47abf4992bed",
+                "value": "Director, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-success-manager",
+                "uuid": "a08444ef-dbbe-38d5-ba39-54f974e2941b",
+                "value": "Senior Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-founder-operations",
+                "uuid": "f08b5742-71d7-328a-b3d1-de1130402b25",
+                "value": "Co-Founder, Operations"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-customer-success",
+                "uuid": "2ee82f40-c391-32a3-b162-ae85116c237f",
+                "value": "Head of Customer Success"
+            }
+        }
+    ]
+}

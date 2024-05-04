@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aa47c898-056f-45a8-8006-4921c16e6610",
+            "properties": {
+                "name": "Laura Lombardi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aa47c898-056f-45a8-8006-4921c16e6610",
+                    "value": "Laura Lombardi"
+                },
+                "linkedin": "lauralombardi",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "66222ec6-d1ef-43c6-b008-0e80a42ce65c",
+                            "related_uuid": "aa47c898-056f-45a8-8006-4921c16e6610",
+                            "properties": {
+                                "job_title": "Senior Director, Corporate Marketing & Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d918eadd-f8ef-475f-b93d-fa0fcd458d70",
+            "properties": {
+                "name": "Carly Williams",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d918eadd-f8ef-475f-b93d-fa0fcd458d70",
+                    "value": "Carly Williams"
+                },
+                "linkedin": "carly-williams-a908b22b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "aa3c486c-28e8-4f11-b327-3a159cc6f91a",
+                            "related_uuid": "d918eadd-f8ef-475f-b93d-fa0fcd458d70",
+                            "properties": {
+                                "job_title": "Director of Operations, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

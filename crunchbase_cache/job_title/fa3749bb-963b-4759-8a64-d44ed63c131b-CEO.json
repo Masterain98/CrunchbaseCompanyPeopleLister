@@ -1,0 +1,13 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-of-staff",
+                "uuid": "9000f488-7fc0-37fb-9de9-3b13c17c9dea",
+                "value": "Chief Of Staff"
+            }
+        }
+    ]
+}

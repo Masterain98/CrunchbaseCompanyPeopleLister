@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c97aa41e-5b3a-40d8-9f44-7b20d40c1155",
+            "properties": {
+                "name": "Dan Goode",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c97aa41e-5b3a-40d8-9f44-7b20d40c1155",
+                    "value": "Dan Goode"
+                },
+                "linkedin": "dangoode",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6ada1060-00ba-4d4f-9058-6ecd72889ffe",
+                            "related_uuid": "c97aa41e-5b3a-40d8-9f44-7b20d40c1155",
+                            "properties": {
+                                "job_title": "Sr. Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "count": 10,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-consultant",
+                "uuid": "c32664aa-9318-3dbe-9476-b1439c92abca",
+                "value": "Senior Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "principal-consultant",
+                "uuid": "ac988b1c-f136-3655-9698-92f082327ba9",
+                "value": "Principal Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "business-consultant",
+                "uuid": "6734bf3d-40df-3aa0-81e2-eea61f59f524",
+                "value": "Business Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "client-advisor",
+                "uuid": "6db3fac2-9c72-30b8-aec8-7198d7af6e32",
+                "value": "Client Advisor"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-business-consultant",
+                "uuid": "f466a264-4e57-3441-aff5-5c852371647b",
+                "value": "Senior Business Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "product-consultant",
+                "uuid": "3284d4db-43c4-34fa-b2d3-3f9c999fac84",
+                "value": "Product Consultant"
+            }
+        }
+    ]
+}

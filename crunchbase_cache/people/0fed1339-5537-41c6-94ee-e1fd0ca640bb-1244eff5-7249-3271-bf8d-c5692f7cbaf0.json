@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "968714d7-763f-4194-9d88-a5b62f336a29",
+            "properties": {
+                "name": "Tyler Baker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "968714d7-763f-4194-9d88-a5b62f336a29",
+                    "value": "Tyler Baker"
+                },
+                "linkedin": "tyler-baker-4345a725",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2f89b151-0355-435b-871d-cb1429a24ce9",
+                            "related_uuid": "968714d7-763f-4194-9d88-a5b62f336a29",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

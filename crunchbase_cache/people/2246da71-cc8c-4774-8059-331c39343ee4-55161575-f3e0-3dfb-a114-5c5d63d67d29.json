@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a8ef2513-2a56-4702-b799-f16b5be816ae",
+            "properties": {
+                "name": "Fred Voccola",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a8ef2513-2a56-4702-b799-f16b5be816ae",
+                    "value": "Fred Voccola"
+                },
+                "linkedin": "fred-voccola-a799849",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "01bee4fa-2ca9-473c-af4d-7302892170e0",
+                            "related_uuid": "a8ef2513-2a56-4702-b799-f16b5be816ae",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

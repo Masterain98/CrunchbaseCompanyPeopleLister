@@ -1,0 +1,173 @@
+{
+    "count": 21,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cmo",
+                "uuid": "99330263-c899-3a05-8dc1-8add519cae39",
+                "value": "CMO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-founder",
+                "uuid": "67f94724-6ebb-36e8-ba2a-600d3fda1e4f",
+                "value": "Co-Founder"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chairman",
+                "uuid": "0e678094-b97c-381f-a87e-592f664994ce",
+                "value": "Chairman"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-compliance",
+                "uuid": "e299a6d5-1693-3561-abd2-69cd6ae6d882",
+                "value": "Director, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cro",
+                "uuid": "5922bcca-31a5-347d-a587-ac39e8b7c1e4",
+                "value": "CRO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "assistant-controller",
+                "uuid": "48bf9a93-8526-357b-b918-c423517fcd9b",
+                "value": "Assistant Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-of-staff",
+                "uuid": "9000f488-7fc0-37fb-9de9-3b13c17c9dea",
+                "value": "Chief Of Staff"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-client-success",
+                "uuid": "1b963bb8-434a-3f12-9df4-03d43f75faab",
+                "value": "Manager, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-communications",
+                "uuid": "b7e41b3c-fbf6-3d32-a5b4-6e9bfec63e4d",
+                "value": "Senior Manager, Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-copywriter",
+                "uuid": "0136350f-f60d-35a4-a724-34e4eee92bda",
+                "value": "Senior Copywriter"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-development-officer",
+                "uuid": "fd36e010-9f82-318c-b1a2-37fc8b3af31f",
+                "value": "Chief Development Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-communications",
+                "uuid": "043cb83b-6190-3dd5-aec1-2ffe642c76d0",
+                "value": "Senior Director, Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-corporate-counsel",
+                "uuid": "1a1682f9-f59f-3609-921b-9a6b76fe7b6d",
+                "value": "Senior Corporate Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "architect-customer-success",
+                "uuid": "114c0fce-ebd2-3ac4-bf9b-b890a876093a",
+                "value": "Architect, Customer Success"
+            }
+        }
+    ]
+}

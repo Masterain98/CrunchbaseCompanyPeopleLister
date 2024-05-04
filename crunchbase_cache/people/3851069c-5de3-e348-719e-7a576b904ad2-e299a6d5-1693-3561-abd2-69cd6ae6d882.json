@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d8f4fe97-ffbd-4008-94c3-88e1d6208e06",
+            "properties": {
+                "name": "John Volles",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d8f4fe97-ffbd-4008-94c3-88e1d6208e06",
+                    "value": "John Volles"
+                },
+                "linkedin": "john-volles-cisa-21904b20",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "847cc34b-289c-47c8-ba79-84d0eca63bb9",
+                            "related_uuid": "d8f4fe97-ffbd-4008-94c3-88e1d6208e06",
+                            "properties": {
+                                "job_title": "Director, Information Security Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

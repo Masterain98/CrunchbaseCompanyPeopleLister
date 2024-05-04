@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "87f936e9-8d0c-4c69-9aff-ead17003274d",
+            "properties": {
+                "name": "Kevin Prince",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "87f936e9-8d0c-4c69-9aff-ead17003274d",
+                    "value": "Kevin Prince"
+                },
+                "linkedin": "kevin-prince-2127172a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0999d0e8-f9ca-4bc3-9020-f33d2be8e2a6",
+                            "related_uuid": "87f936e9-8d0c-4c69-9aff-ead17003274d",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

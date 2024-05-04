@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "76780e5d-3bc3-4ced-a13b-67af35c0c33d",
+            "properties": {
+                "name": "Mark Semon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "76780e5d-3bc3-4ced-a13b-67af35c0c33d",
+                    "value": "Mark Semon"
+                },
+                "linkedin": "mark-semon-84ab913",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5f19cebe-575d-4707-96a2-5439498040da",
+                            "related_uuid": "76780e5d-3bc3-4ced-a13b-67af35c0c33d",
+                            "properties": {
+                                "job_title": "Executive Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

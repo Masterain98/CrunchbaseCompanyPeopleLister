@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3f855fcb-0894-4d5c-b4c2-be657b2fc17f",
+            "properties": {
+                "name": "Phil Granof",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3f855fcb-0894-4d5c-b4c2-be657b2fc17f",
+                    "value": "Phil Granof"
+                },
+                "linkedin": "philipgranof",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2142beee-991b-4958-a4dd-3603a48c5f9d",
+                            "related_uuid": "3f855fcb-0894-4d5c-b4c2-be657b2fc17f",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

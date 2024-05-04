@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0aa925c2-9146-42d8-9ed8-f27b562622a6",
+            "properties": {
+                "name": "Ryan Farias",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0aa925c2-9146-42d8-9ed8-f27b562622a6",
+                    "value": "Ryan Farias"
+                },
+                "linkedin": "ryan-farias-414a103",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0162b1a5-1383-47d3-9cc8-f98a3bd67fde",
+                            "related_uuid": "0aa925c2-9146-42d8-9ed8-f27b562622a6",
+                            "properties": {
+                                "job_title": "Commercial Director, Cruise & Rail"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

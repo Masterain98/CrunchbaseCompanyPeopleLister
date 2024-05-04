@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5bdc8ca0-b06c-4b23-b2d5-d5b87b4bab37",
+            "properties": {
+                "name": "Tim Chatfield",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5bdc8ca0-b06c-4b23-b2d5-d5b87b4bab37",
+                    "value": "Tim Chatfield"
+                },
+                "linkedin": "tchatfield",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "529250cc-2cb4-4548-84a9-f28df1e64f82",
+                            "related_uuid": "5bdc8ca0-b06c-4b23-b2d5-d5b87b4bab37",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

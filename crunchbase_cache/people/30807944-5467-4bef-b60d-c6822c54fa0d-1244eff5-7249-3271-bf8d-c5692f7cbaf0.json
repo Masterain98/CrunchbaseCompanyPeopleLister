@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "61030baf-b019-4754-aebb-060c893717dd",
+            "properties": {
+                "name": "Peter Kreslins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "61030baf-b019-4754-aebb-060c893717dd",
+                    "value": "Peter Kreslins"
+                },
+                "linkedin": "peterkreslins",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e3aafc01-defd-4839-a051-24f5bd250adf",
+                            "related_uuid": "61030baf-b019-4754-aebb-060c893717dd",
+                            "properties": {
+                                "job_title": "CTO, Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

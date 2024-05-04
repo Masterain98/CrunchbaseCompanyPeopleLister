@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c611ff72-addf-4e9d-95b8-635c4a51ec7d",
+            "properties": {
+                "name": "Ian Small",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c611ff72-addf-4e9d-95b8-635c4a51ec7d",
+                    "value": "Ian Small"
+                },
+                "linkedin": "iansmall",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "68c9dc2a-fd0a-45a4-a935-481424c09368",
+                            "related_uuid": "c611ff72-addf-4e9d-95b8-635c4a51ec7d",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

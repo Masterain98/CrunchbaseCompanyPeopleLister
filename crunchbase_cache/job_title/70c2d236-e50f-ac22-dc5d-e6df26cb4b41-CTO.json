@@ -1,0 +1,13 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "business-process-consultant",
+                "uuid": "59b7d377-ddb7-3b3b-bd4c-03a496457ec6",
+                "value": "Business Process Consultant"
+            }
+        }
+    ]
+}

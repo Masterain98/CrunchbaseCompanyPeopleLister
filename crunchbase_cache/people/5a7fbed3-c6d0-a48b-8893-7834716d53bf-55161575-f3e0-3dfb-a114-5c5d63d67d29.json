@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a6f635dc-2e24-400c-8ef0-04a15023200c",
+            "properties": {
+                "name": "Brett A. Hurt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a6f635dc-2e24-400c-8ef0-04a15023200c",
+                    "value": "Brett A. Hurt"
+                },
+                "linkedin": "bretthurt",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "32747882-e3df-4923-a2da-2485b9acf6d3",
+                            "related_uuid": "a6f635dc-2e24-400c-8ef0-04a15023200c",
+                            "properties": {
+                                "job_title": "CEO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

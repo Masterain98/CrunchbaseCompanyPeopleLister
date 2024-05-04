@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e63eb75a-ab23-4309-a912-0c731a23cf7e",
+            "properties": {
+                "name": "John Engates",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e63eb75a-ab23-4309-a912-0c731a23cf7e",
+                    "value": "John Engates"
+                },
+                "linkedin": "jengates",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7f947937-d87f-44e7-8143-db44468c2088",
+                            "related_uuid": "e63eb75a-ab23-4309-a912-0c731a23cf7e",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

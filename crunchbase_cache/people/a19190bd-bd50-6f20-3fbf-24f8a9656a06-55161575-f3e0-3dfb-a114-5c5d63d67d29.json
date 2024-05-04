@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0981d62e-62bd-43b3-a659-8ead71c368a0",
+            "properties": {
+                "name": "Tony Han",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0981d62e-62bd-43b3-a659-8ead71c368a0",
+                    "value": "Tony Han"
+                },
+                "linkedin": "tony-han-940a916",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "33eeec8e-cc04-44f1-a9fa-c08ff3bf9f51",
+                            "related_uuid": "0981d62e-62bd-43b3-a659-8ead71c368a0",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

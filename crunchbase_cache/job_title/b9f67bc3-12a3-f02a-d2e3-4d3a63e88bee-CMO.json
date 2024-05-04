@@ -1,0 +1,69 @@
+{
+    "count": 8,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service",
+                "uuid": "060dca13-af57-34f1-a7d2-f2deb799b437",
+                "value": "Customer Service"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chairman",
+                "uuid": "0e678094-b97c-381f-a87e-592f664994ce",
+                "value": "Chairman"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "supply-chain-analyst",
+                "uuid": "cafe3da9-8bc0-3c3c-a900-31b05f506139",
+                "value": "Supply Chain Analyst"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "analyst-supply-chain",
+                "uuid": "e0f73c29-580d-33c8-8ee9-7810343bce31",
+                "value": "Analyst, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "payroll-coordinator",
+                "uuid": "3bd1b06e-cf19-350c-9414-5e5f0211f96c",
+                "value": "Payroll Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-supply-chain",
+                "uuid": "3de4af36-4858-335d-b45e-c21d8fa923fc",
+                "value": "Senior Director, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-cloud-architect",
+                "uuid": "114e2410-9272-3c70-9a26-24e439544b98",
+                "value": "Senior Cloud Architect"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b1e4e16f-12ef-4a39-bec1-01232ae51ef5",
+            "properties": {
+                "name": "Doug Bell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b1e4e16f-12ef-4a39-bec1-01232ae51ef5",
+                    "value": "Doug Bell"
+                },
+                "linkedin": "dougbell1",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "24bfa5e3-1c18-405d-aefb-b5e6979781e0",
+                            "related_uuid": "b1e4e16f-12ef-4a39-bec1-01232ae51ef5",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

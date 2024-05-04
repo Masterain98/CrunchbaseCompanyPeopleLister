@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "379b9199-c8c9-4214-9b58-dee18f73dc88",
+            "properties": {
+                "name": "Robert Vanbrewster",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "379b9199-c8c9-4214-9b58-dee18f73dc88",
+                    "value": "Robert Vanbrewster"
+                },
+                "linkedin": "robertvbrewster",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1afbe5f1-6926-4ebf-a01e-bbfe214d0cf6",
+                            "related_uuid": "379b9199-c8c9-4214-9b58-dee18f73dc88",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

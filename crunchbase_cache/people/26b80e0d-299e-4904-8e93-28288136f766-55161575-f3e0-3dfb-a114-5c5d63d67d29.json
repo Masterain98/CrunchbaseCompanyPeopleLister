@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "01fc4663-dece-4096-b612-0bd73d735c22",
+            "properties": {
+                "name": "Mr. George Gallegos",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "01fc4663-dece-4096-b612-0bd73d735c22",
+                    "value": "Mr. George Gallegos"
+                },
+                "linkedin": "georgegallegos",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "61fe2ca1-59a7-4260-9f62-6a1729df8fab",
+                            "related_uuid": "01fc4663-dece-4096-b612-0bd73d735c22",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

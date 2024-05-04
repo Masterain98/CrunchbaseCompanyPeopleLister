@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d1e20292-48c3-42b5-bf0a-a41e651c948d",
+            "properties": {
+                "name": "Boris Shimanovsky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d1e20292-48c3-42b5-bf0a-a41e651c948d",
+                    "value": "Boris Shimanovsky"
+                },
+                "linkedin": "shimanovsky",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26631c49-1765-4a5e-9b5c-f79b4249b86a",
+                            "related_uuid": "d1e20292-48c3-42b5-bf0a-a41e651c948d",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "681eb5bc-4f67-4d77-88bd-924de8156506",
+            "properties": {
+                "name": "Enrique Lores",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "681eb5bc-4f67-4d77-88bd-924de8156506",
+                    "value": "Enrique Lores"
+                },
+                "linkedin": "enriquelores",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7b8b5780-7fa3-4cfc-98a5-3c4a45eb1bff",
+                            "related_uuid": "681eb5bc-4f67-4d77-88bd-924de8156506",
+                            "properties": {
+                                "job_title": "President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e506f851-3e01-404a-98d9-e7adef680393",
+            "properties": {
+                "name": "Hannah Peaslee",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e506f851-3e01-404a-98d9-e7adef680393",
+                    "value": "Hannah Peaslee"
+                },
+                "linkedin": "hannah-peaslee-2762b830",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c2c75666-7c99-4cae-9b0a-f033fd94fc2d",
+                            "related_uuid": "e506f851-3e01-404a-98d9-e7adef680393",
+                            "properties": {
+                                "job_title": "Founder/CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

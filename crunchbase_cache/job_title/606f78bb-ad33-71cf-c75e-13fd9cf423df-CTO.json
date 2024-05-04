@@ -1,0 +1,85 @@
+{
+    "count": 10,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service",
+                "uuid": "060dca13-af57-34f1-a7d2-f2deb799b437",
+                "value": "Customer Service"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service-representative",
+                "uuid": "febc8f73-ca7c-3557-85e8-d03a501238d1",
+                "value": "Customer Service Representative"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "channel-manager",
+                "uuid": "410bf21c-f60d-3719-8b9b-aa1a1341ca6a",
+                "value": "Channel Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-support-manager",
+                "uuid": "e2fc2f84-8d47-3f36-bd4d-18a62325fd74",
+                "value": "Customer Support Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-corporate-development",
+                "uuid": "0f4bf3c4-9e8c-336a-bc92-11bdcf5d16ca",
+                "value": "VP, Corporate Development"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "engineer-customer-success",
+                "uuid": "c0bf3254-b972-3d65-a605-6901422ebea2",
+                "value": "Engineer, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "associate-customer-success",
+                "uuid": "29785fe9-0e1f-3ab6-8a9e-712d685744f0",
+                "value": "Associate, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "team-lead-compliance",
+                "uuid": "7a736bb5-b59f-334f-8108-bb9ec8605ee6",
+                "value": "Team Lead, Compliance"
+            }
+        }
+    ]
+}

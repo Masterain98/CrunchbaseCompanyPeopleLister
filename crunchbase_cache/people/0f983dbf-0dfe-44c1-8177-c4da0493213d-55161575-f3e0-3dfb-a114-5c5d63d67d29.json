@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cf9c27ce-f75e-4d23-8c9a-bc599e244952",
+            "properties": {
+                "name": "Leaf Jiang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cf9c27ce-f75e-4d23-8c9a-bc599e244952",
+                    "value": "Leaf Jiang"
+                },
+                "linkedin": "leafjiang",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ab291c0-0edc-4686-872c-77a54eb6b2f7",
+                            "related_uuid": "cf9c27ce-f75e-4d23-8c9a-bc599e244952",
+                            "properties": {
+                                "job_title": "CEO and Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

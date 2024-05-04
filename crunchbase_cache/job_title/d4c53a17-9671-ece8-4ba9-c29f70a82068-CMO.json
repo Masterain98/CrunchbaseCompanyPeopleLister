@@ -1,0 +1,21 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-customer-success",
+                "uuid": "2ee82f40-c391-32a3-b162-ae85116c237f",
+                "value": "Head of Customer Success"
+            }
+        }
+    ]
+}

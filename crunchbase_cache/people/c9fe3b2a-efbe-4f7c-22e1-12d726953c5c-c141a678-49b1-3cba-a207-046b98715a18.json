@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c9965ee7-ce45-433f-b8dc-90f31086d99c",
+            "properties": {
+                "name": "Shelley Boose",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c9965ee7-ce45-433f-b8dc-90f31086d99c",
+                    "value": "Shelley Boose"
+                },
+                "linkedin": "shelleyboose",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "453a75dd-5fb8-4b62-9b04-e951d3a06f4a",
+                            "related_uuid": "c9965ee7-ce45-433f-b8dc-90f31086d99c",
+                            "properties": {
+                                "job_title": "Sr. Director of Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

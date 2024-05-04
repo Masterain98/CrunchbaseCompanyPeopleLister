@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "643453bf-1144-43c8-a223-0160aeb245d0",
+            "properties": {
+                "name": "David Chang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "643453bf-1144-43c8-a223-0160aeb245d0",
+                    "value": "David Chang"
+                },
+                "linkedin": "dmchang",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "09a35ba3-9d37-41a8-8748-87e92399a2e6",
+                            "related_uuid": "643453bf-1144-43c8-a223-0160aeb245d0",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

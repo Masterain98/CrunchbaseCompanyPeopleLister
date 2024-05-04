@@ -1,0 +1,100 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "f31c17d5-0f2c-4c6e-891c-3d2a75fe5360",
+            "properties": {
+                "name": "James Morgan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f31c17d5-0f2c-4c6e-891c-3d2a75fe5360",
+                    "value": "James Morgan"
+                },
+                "linkedin": "james-morgan-a44a8165",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "pro_services"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2a58433d-de84-487f-a1f2-4518bae6173f",
+                            "related_uuid": "f31c17d5-0f2c-4c6e-891c-3d2a75fe5360",
+                            "properties": {
+                                "job_title": "Creative Director & Photographic Consultant"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "26c8b5cf-e55e-4d16-b269-23c125e4b5b2",
+            "properties": {
+                "name": "Kat Hargrave",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "26c8b5cf-e55e-4d16-b269-23c125e4b5b2",
+                    "value": "Kat Hargrave"
+                },
+                "linkedin": "kat-hargrave-b6bb0a3b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "10845c96-918a-418a-94ce-ba422802f6ee",
+                            "related_uuid": "26c8b5cf-e55e-4d16-b269-23c125e4b5b2",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e749c4ac-1071-49e9-95fa-1a1b19595d33",
+            "properties": {
+                "name": "Tristen Norman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e749c4ac-1071-49e9-95fa-1a1b19595d33",
+                    "value": "Tristen Norman"
+                },
+                "linkedin": "tristennorman",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "37877b48-b961-4aa2-adbf-94668b0dad37",
+                            "related_uuid": "e749c4ac-1071-49e9-95fa-1a1b19595d33",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

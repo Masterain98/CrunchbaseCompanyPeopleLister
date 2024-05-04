@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "285e54c7-a249-4caa-871c-131148eaa26e",
+            "properties": {
+                "name": "Josh McKibben",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "285e54c7-a249-4caa-871c-131148eaa26e",
+                    "value": "Josh McKibben"
+                },
+                "linkedin": "joshuamckibben",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "product"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1abaae96-a216-4576-908c-485c704a7108",
+                            "related_uuid": "285e54c7-a249-4caa-871c-131148eaa26e",
+                            "properties": {
+                                "job_title": "Director Product Security Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

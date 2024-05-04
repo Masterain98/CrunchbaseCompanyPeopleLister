@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7924e250-8d24-454d-9ea9-c1aac2d02db0",
+            "properties": {
+                "name": "Maceo Wattley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7924e250-8d24-454d-9ea9-c1aac2d02db0",
+                    "value": "Maceo Wattley"
+                },
+                "linkedin": "drmaceowattley",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6168f41d-d5e3-44bf-874a-ef44ff789c92",
+                            "related_uuid": "7924e250-8d24-454d-9ea9-c1aac2d02db0",
+                            "properties": {
+                                "job_title": "Global Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

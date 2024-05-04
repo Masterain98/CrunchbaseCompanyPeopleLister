@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8c28297d-6005-455e-9274-b156f8dc2831",
+            "properties": {
+                "name": "Marko Tomic",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8c28297d-6005-455e-9274-b156f8dc2831",
+                    "value": "Marko Tomic"
+                },
+                "linkedin": "tomicmarko",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f9edc7c1-16cd-4e19-9a29-d9238904ff45",
+                            "related_uuid": "8c28297d-6005-455e-9274-b156f8dc2831",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

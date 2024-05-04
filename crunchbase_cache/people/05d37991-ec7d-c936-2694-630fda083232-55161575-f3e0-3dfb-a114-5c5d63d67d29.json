@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cc2a8619-a2cf-46f9-b1bc-64591b33d976",
+            "properties": {
+                "name": "Dave Merkel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cc2a8619-a2cf-46f9-b1bc-64591b33d976",
+                    "value": "Dave Merkel"
+                },
+                "linkedin": "davemerkel",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "53582f1f-9171-41a1-b36a-859456336aec",
+                            "related_uuid": "cc2a8619-a2cf-46f9-b1bc-64591b33d976",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

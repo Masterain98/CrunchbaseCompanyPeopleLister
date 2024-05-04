@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "56f12af6-158e-4b14-9d85-8a33ee206df4",
+            "properties": {
+                "name": "Brad Hoover",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "56f12af6-158e-4b14-9d85-8a33ee206df4",
+                    "value": "Brad Hoover"
+                },
+                "linkedin": "bradhoover",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8330151a-b7d1-44a8-b264-3a4194583483",
+                            "related_uuid": "56f12af6-158e-4b14-9d85-8a33ee206df4",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

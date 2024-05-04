@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a57c5882-4777-469a-b9e5-931f55850e30",
+            "properties": {
+                "name": "Daryoush Paknad",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a57c5882-4777-469a-b9e5-931f55850e30",
+                    "value": "Daryoush Paknad"
+                },
+                "linkedin": "daryoush-paknad-2211951",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cda4ff0a-f2aa-41f4-a728-941960c3e69d",
+                            "related_uuid": "a57c5882-4777-469a-b9e5-931f55850e30",
+                            "properties": {
+                                "job_title": "CTO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

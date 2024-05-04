@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d855bf59-f947-4c26-9de2-ef343df25d3a",
+            "properties": {
+                "name": "Jeffrey Meola",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d855bf59-f947-4c26-9de2-ef343df25d3a",
+                    "value": "Jeffrey Meola"
+                },
+                "linkedin": "jeffrey-meola",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ada519a7-732e-4aae-87cf-0aa181c23e37",
+                            "related_uuid": "d855bf59-f947-4c26-9de2-ef343df25d3a",
+                            "properties": {
+                                "job_title": "Director, Customer Success / Account Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

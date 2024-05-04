@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d39f0fa4-74fc-4a48-818e-b1df352a2038",
+            "properties": {
+                "name": "Veton Hajdari",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d39f0fa4-74fc-4a48-818e-b1df352a2038",
+                    "value": "Veton Hajdari"
+                },
+                "linkedin": "veton",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "78f7b4d9-d5ef-425f-9d25-6d0e1a25b368",
+                            "related_uuid": "d39f0fa4-74fc-4a48-818e-b1df352a2038",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

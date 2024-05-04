@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9b9548e0-5c35-47d7-845b-51bce8959a03",
+            "properties": {
+                "name": "David Howland",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9b9548e0-5c35-47d7-845b-51bce8959a03",
+                    "value": "David Howland"
+                },
+                "linkedin": "davidmhowland",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "879553e0-9007-4439-ba3f-4cbb4f168fda",
+                            "related_uuid": "9b9548e0-5c35-47d7-845b-51bce8959a03",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e09e0be6-a023-4dbf-be1b-9c653a7b046a",
+            "properties": {
+                "name": "Charles Wright",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e09e0be6-a023-4dbf-be1b-9c653a7b046a",
+                    "value": "Charles Wright"
+                },
+                "linkedin": "charles-wright-9124a415",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d761bfda-4b01-4c87-ba4c-dfa68174b574",
+                            "related_uuid": "e09e0be6-a023-4dbf-be1b-9c653a7b046a",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

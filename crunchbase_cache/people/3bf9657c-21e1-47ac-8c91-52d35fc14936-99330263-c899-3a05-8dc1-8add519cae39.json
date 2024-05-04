@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "742d1127-7c4f-47fc-a63d-cf44e4235996",
+            "properties": {
+                "name": "Beth White",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "742d1127-7c4f-47fc-a63d-cf44e4235996",
+                    "value": "Beth White"
+                },
+                "linkedin": "bethwhitemarketingnow",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1b37c807-6271-4001-ae12-3ca62c6e2e37",
+                            "related_uuid": "742d1127-7c4f-47fc-a63d-cf44e4235996",
+                            "properties": {
+                                "job_title": "CMO Advisor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

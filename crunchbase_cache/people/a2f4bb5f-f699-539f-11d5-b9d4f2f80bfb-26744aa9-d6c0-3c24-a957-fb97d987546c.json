@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9429dea6-1437-4b49-a97c-0e6892720a65",
+            "properties": {
+                "name": "Sierra King",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9429dea6-1437-4b49-a97c-0e6892720a65",
+                    "value": "Sierra King"
+                },
+                "linkedin": "sierra-king-39847811a",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0691a67e-ae17-4455-81e4-dfe9d28e03a7",
+                            "related_uuid": "9429dea6-1437-4b49-a97c-0e6892720a65",
+                            "properties": {
+                                "job_title": "Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

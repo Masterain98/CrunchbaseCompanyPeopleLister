@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b5fa7e8e-4c1a-4742-a506-32e09269c1da",
+            "properties": {
+                "name": "Melih Ileri",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5fa7e8e-4c1a-4742-a506-32e09269c1da",
+                    "value": "Melih Ileri"
+                },
+                "linkedin": "melihileri",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "14684ebe-cf41-43cc-b659-968bc9b28d29",
+                            "related_uuid": "b5fa7e8e-4c1a-4742-a506-32e09269c1da",
+                            "properties": {
+                                "job_title": "Director, Corporate Development"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

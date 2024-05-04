@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cb7bea83-ff5b-429a-8ccb-997aa983a89b",
+            "properties": {
+                "name": "Damien Fox-Read",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cb7bea83-ff5b-429a-8ccb-997aa983a89b",
+                    "value": "Damien Fox-Read"
+                },
+                "linkedin": "damien-fox-read-3854367",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1437e059-07dd-4206-8cb2-8c4bb3445e42",
+                            "related_uuid": "cb7bea83-ff5b-429a-8ccb-997aa983a89b",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

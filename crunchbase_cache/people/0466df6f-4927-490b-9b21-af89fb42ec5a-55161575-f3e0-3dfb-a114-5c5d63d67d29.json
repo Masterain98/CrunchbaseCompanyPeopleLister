@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0b28db2f-96f0-44e3-b978-603dae8c678b",
+            "properties": {
+                "name": "Surbhi Rathore",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0b28db2f-96f0-44e3-b978-603dae8c678b",
+                    "value": "Surbhi Rathore"
+                },
+                "linkedin": "surbhi-rathore",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "28a2d989-79de-4848-b920-ec06065dba82",
+                            "related_uuid": "0b28db2f-96f0-44e3-b978-603dae8c678b",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

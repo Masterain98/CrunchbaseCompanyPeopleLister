@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f0360e9b-8e1f-4edc-871f-c27c97a1bc30",
+            "properties": {
+                "name": "John Osborne",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f0360e9b-8e1f-4edc-871f-c27c97a1bc30",
+                    "value": "John Osborne"
+                },
+                "linkedin": "johnosborne",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6a5c780c-5e2b-4a50-9e6b-11d722a8fedf",
+                            "related_uuid": "f0360e9b-8e1f-4edc-871f-c27c97a1bc30",
+                            "properties": {
+                                "job_title": "Co-Founder / CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f09e0505-2e25-4caa-9db1-0d0cd58a3678",
+            "properties": {
+                "name": "Alex DeNeui",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f09e0505-2e25-4caa-9db1-0d0cd58a3678",
+                    "value": "Alex DeNeui"
+                },
+                "linkedin": "alexdeneui",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2138c9d7-18b5-4b1a-b7b0-6b4000ddde04",
+                            "related_uuid": "f09e0505-2e25-4caa-9db1-0d0cd58a3678",
+                            "properties": {
+                                "job_title": "Co-Founder, CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

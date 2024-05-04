@@ -1,0 +1,192 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "uuid": "0d90e4f8-ac36-4294-b063-a50b6e306674",
+            "properties": {
+                "name": "Brian Boggess",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0d90e4f8-ac36-4294-b063-a50b6e306674",
+                    "value": "Brian Boggess"
+                },
+                "linkedin": "brian-boggess-a5b3a553",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "40adda9a-715a-464e-8407-4237ec1f2ab7",
+                            "related_uuid": "0d90e4f8-ac36-4294-b063-a50b6e306674",
+                            "properties": {
+                                "job_title": "Creative Director, Brand Marketing"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d4274110-713f-4d4c-9c52-93d5cccb44bc",
+            "properties": {
+                "name": "Bruce Lithimane",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d4274110-713f-4d4c-9c52-93d5cccb44bc",
+                    "value": "Bruce Lithimane"
+                },
+                "linkedin": "blithimane",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "214acab9-132d-460f-9ddd-312ab971521a",
+                            "related_uuid": "d4274110-713f-4d4c-9c52-93d5cccb44bc",
+                            "properties": {
+                                "job_title": "Creative Director / Videographer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "36b0e91c-1b63-4f68-8148-21c0819cb2d6",
+            "properties": {
+                "name": "Debbie Mudd",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "36b0e91c-1b63-4f68-8148-21c0819cb2d6",
+                    "value": "Debbie Mudd"
+                },
+                "linkedin": "debbie-mudd-00019411",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "68b66ca3-95d5-4060-a750-e1ec37bd010a",
+                            "related_uuid": "36b0e91c-1b63-4f68-8148-21c0819cb2d6",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8200704d-80cf-417e-b2fc-fd032dc208e1",
+            "properties": {
+                "name": "Hayley Carloni",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8200704d-80cf-417e-b2fc-fd032dc208e1",
+                    "value": "Hayley Carloni"
+                },
+                "linkedin": "hayleycarloni",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "06fd196c-013f-48f1-ac30-4e56de7e3f6e",
+                            "related_uuid": "8200704d-80cf-417e-b2fc-fd032dc208e1",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e8690a68-55c4-4b79-b8f9-1596ad8842db",
+            "properties": {
+                "name": "Tracie Roberson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e8690a68-55c4-4b79-b8f9-1596ad8842db",
+                    "value": "Tracie Roberson"
+                },
+                "linkedin": "tracieroberson",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f5b532e4-5862-4cf8-bbe8-a8011742b1f5",
+                            "related_uuid": "e8690a68-55c4-4b79-b8f9-1596ad8842db",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6cff702c-5541-42a2-b65b-b508ac93da66",
+            "properties": {
+                "name": "Troy Hayes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6cff702c-5541-42a2-b65b-b508ac93da66",
+                    "value": "Troy Hayes"
+                },
+                "linkedin": "troy-hayes-creative",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6b016f28-4a6d-4fce-8ec3-dc8b554abcc5",
+                            "related_uuid": "6cff702c-5541-42a2-b65b-b508ac93da66",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

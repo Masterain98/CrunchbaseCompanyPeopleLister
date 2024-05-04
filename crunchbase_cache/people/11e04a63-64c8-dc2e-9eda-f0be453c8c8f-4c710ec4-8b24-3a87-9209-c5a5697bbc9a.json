@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "75bbd6d5-42c0-434a-8508-17cb360dd952",
+            "properties": {
+                "name": "Jan Cisar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "75bbd6d5-42c0-434a-8508-17cb360dd952",
+                    "value": "Jan Cisar"
+                },
+                "linkedin": "jancisar",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dddb60a8-8c64-4dab-8ba7-09dacdbd2ed7",
+                            "related_uuid": "75bbd6d5-42c0-434a-8508-17cb360dd952",
+                            "properties": {
+                                "job_title": "Senior Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

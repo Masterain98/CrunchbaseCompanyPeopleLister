@@ -1,0 +1,45 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-founder",
+                "uuid": "67f94724-6ebb-36e8-ba2a-600d3fda1e4f",
+                "value": "Co-Founder"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-creative-officer",
+                "uuid": "802cc14b-fdf8-3bac-88a6-cbe6a61c4c22",
+                "value": "Chief Creative Officer"
+            }
+        }
+    ]
+}

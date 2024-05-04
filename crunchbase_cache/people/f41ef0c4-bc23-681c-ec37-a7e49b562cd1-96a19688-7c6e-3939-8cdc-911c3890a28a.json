@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c9f1a9d1-23af-421c-ba9b-f1187f8ca321",
+            "properties": {
+                "name": "Jin Xiao",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c9f1a9d1-23af-421c-ba9b-f1187f8ca321",
+                    "value": "Jin Xiao"
+                },
+                "linkedin": "jin-xiao-b10a1617",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bdcfce85-bd69-4a6c-9590-21bf193e5ca9",
+                            "related_uuid": "c9f1a9d1-23af-421c-ba9b-f1187f8ca321",
+                            "properties": {
+                                "job_title": "Director of Quality Control"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

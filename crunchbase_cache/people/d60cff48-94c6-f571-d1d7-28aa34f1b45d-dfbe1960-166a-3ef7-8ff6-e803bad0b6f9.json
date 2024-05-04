@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "91f2c7ae-cb75-4457-8e3d-55481ede4c56",
+            "properties": {
+                "name": "Haley Snowden",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "91f2c7ae-cb75-4457-8e3d-55481ede4c56",
+                    "value": "Haley Snowden"
+                },
+                "linkedin": "haley-snowden-6b6558157",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b254e314-780e-4b98-ab14-7d993e6c0f71",
+                            "related_uuid": "91f2c7ae-cb75-4457-8e3d-55481ede4c56",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

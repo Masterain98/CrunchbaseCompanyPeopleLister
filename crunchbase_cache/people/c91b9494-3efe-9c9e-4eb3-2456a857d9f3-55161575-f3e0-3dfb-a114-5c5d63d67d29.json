@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c568a5ee-950b-4d57-8947-5452ca713f0b",
+            "properties": {
+                "name": "Steve Semelsberger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c568a5ee-950b-4d57-8947-5452ca713f0b",
+                    "value": "Steve Semelsberger"
+                },
+                "linkedin": "semels",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "39d7bad2-4a8b-4d7d-8411-a122d9c18ba7",
+                            "related_uuid": "c568a5ee-950b-4d57-8947-5452ca713f0b",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

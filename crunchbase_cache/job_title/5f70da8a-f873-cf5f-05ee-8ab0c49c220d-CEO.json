@@ -1,0 +1,117 @@
+{
+    "count": 14,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-creative",
+                "uuid": "e40f40aa-528a-3efb-8eaf-db4d9a895f25",
+                "value": "Director, Creative"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cpo",
+                "uuid": "d4cf9c5d-657b-3fb1-b2c2-33fdb19ac2ff",
+                "value": "CPO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-corporate-development",
+                "uuid": "0f4bf3c4-9e8c-336a-bc92-11bdcf5d16ca",
+                "value": "VP, Corporate Development"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-customer-success",
+                "uuid": "d97bc57c-2581-3350-baab-628e0286b17e",
+                "value": "Senior Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-corporate-communications",
+                "uuid": "c141a678-49b1-3cba-a207-046b98715a18",
+                "value": "Senior Director, Corporate Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-channel-sales-manager",
+                "uuid": "32ae52f8-f930-3560-a2a8-50db0fea6474",
+                "value": "Senior Channel Sales Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "regional-manager-customer-success",
+                "uuid": "77b57b4f-d2c9-3a44-b799-2cf47e2c6168",
+                "value": "Regional Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-program-manager-creative",
+                "uuid": "19513b7b-e820-3815-b8f6-7cc0da4a502b",
+                "value": "Senior Program Manager, Creative"
+            }
+        }
+    ]
+}

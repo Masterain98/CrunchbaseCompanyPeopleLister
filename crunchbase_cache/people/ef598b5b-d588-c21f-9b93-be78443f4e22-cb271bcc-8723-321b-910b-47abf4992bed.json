@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "43325be8-e531-443e-a79d-191389de9f3e",
+            "properties": {
+                "name": "Brittany Minnehan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "43325be8-e531-443e-a79d-191389de9f3e",
+                    "value": "Brittany Minnehan"
+                },
+                "linkedin": "brittanyminnehan",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9c38466b-db08-498c-a5d9-048645cb7abf",
+                            "related_uuid": "43325be8-e531-443e-a79d-191389de9f3e",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bcbdc2a6-44d7-4fa4-b3f4-89c8f6c9a96b",
+            "properties": {
+                "name": "Nicholas Rutberg",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bcbdc2a6-44d7-4fa4-b3f4-89c8f6c9a96b",
+                    "value": "Nicholas Rutberg"
+                },
+                "linkedin": "nicholas-rutberg-25474422",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "da71f0a0-0ec5-4af7-8e96-22e965cdf193",
+                            "related_uuid": "bcbdc2a6-44d7-4fa4-b3f4-89c8f6c9a96b",
+                            "properties": {
+                                "job_title": "Director, Customer Success Business Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

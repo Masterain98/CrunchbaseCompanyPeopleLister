@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "096164c3-8052-45fd-ab1e-8146f4141119",
+            "properties": {
+                "name": "Anoop Gupta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "096164c3-8052-45fd-ab1e-8146f4141119",
+                    "value": "Anoop Gupta"
+                },
+                "linkedin": "guptaanoop",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4cc62785-779a-439b-be2e-b23563fa8cb3",
+                            "related_uuid": "096164c3-8052-45fd-ab1e-8146f4141119",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8b618a41-273e-41ad-87f7-c3e0b84883ed",
+            "properties": {
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8b618a41-273e-41ad-87f7-c3e0b84883ed",
+                    "value": "David Laszewski"
+                },
+                "name": "David Laszewski",
+                "linkedin": "davidlaszewski"
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "50e3fcdc-003c-4599-9ec5-095651b3d659",
+                            "related_uuid": "8b618a41-273e-41ad-87f7-c3e0b84883ed",
+                            "properties": {
+                                "job_title": "Interim Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

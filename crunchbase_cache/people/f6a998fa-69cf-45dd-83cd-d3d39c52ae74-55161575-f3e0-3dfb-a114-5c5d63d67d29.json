@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6cd39520-3e88-421b-8ee4-5280afc8cf41",
+            "properties": {
+                "name": "Chris Gibson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6cd39520-3e88-421b-8ee4-5280afc8cf41",
+                    "value": "Chris Gibson"
+                },
+                "linkedin": "chris-gibson-5ab66065",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5792cc55-6583-4dd7-864f-72de0ea33d8f",
+                            "related_uuid": "6cd39520-3e88-421b-8ee4-5280afc8cf41",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

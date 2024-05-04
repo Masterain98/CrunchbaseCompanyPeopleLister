@@ -1,0 +1,205 @@
+{
+    "count": 25,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-consultant",
+                "uuid": "c32664aa-9318-3dbe-9476-b1439c92abca",
+                "value": "Senior Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chairman",
+                "uuid": "0e678094-b97c-381f-a87e-592f664994ce",
+                "value": "Chairman"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "principal-consultant",
+                "uuid": "ac988b1c-f136-3655-9698-92f082327ba9",
+                "value": "Principal Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "assistant-controller",
+                "uuid": "48bf9a93-8526-357b-b918-c423517fcd9b",
+                "value": "Assistant Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "contractor",
+                "uuid": "26744aa9-d6c0-3c24-a957-fb97d987546c",
+                "value": "Contractor"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "technical-consultant",
+                "uuid": "4caba417-5032-3347-8e64-a2d414777e55",
+                "value": "Technical Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-customer-success",
+                "uuid": "cb271bcc-8723-321b-910b-47abf4992bed",
+                "value": "Director, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "corporate-counsel",
+                "uuid": "e6188c0d-ffca-3614-87bd-ee3cd4b7f782",
+                "value": "Corporate Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-success-manager",
+                "uuid": "a08444ef-dbbe-38d5-ba39-54f974e2941b",
+                "value": "Senior Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-people-officer",
+                "uuid": "787bf94f-69bd-3055-bb9f-361e6b23c0c2",
+                "value": "Chief People Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "recruiting-coordinator",
+                "uuid": "9e8c1183-f86f-3541-9e99-b2fea991aa48",
+                "value": "Recruiting Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "campaign-manager",
+                "uuid": "def43a61-3ba9-3806-ad36-d71701cdeb1c",
+                "value": "Campaign Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-technical-consultant",
+                "uuid": "96514465-6f40-33d4-8700-caaee57a0ce1",
+                "value": "Senior Technical Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cdo",
+                "uuid": "e270be3f-8301-3fc4-aa9f-d7f678e0289b",
+                "value": "CDO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-principal-consultant",
+                "uuid": "03420e76-ed5c-3ac3-a5cd-e097b24a9a4e",
+                "value": "Senior Principal Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-client-services",
+                "uuid": "a364af71-60ef-3eb5-9c7d-0e6985d611a2",
+                "value": "Senior Director, Client Services"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "front-desk-coordinator",
+                "uuid": "380142cc-71f7-3070-a2eb-5554b5f8755c",
+                "value": "Front Desk Coordinator"
+            }
+        }
+    ]
+}

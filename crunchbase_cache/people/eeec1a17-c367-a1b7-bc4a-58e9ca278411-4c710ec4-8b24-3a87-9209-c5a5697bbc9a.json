@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2828df04-c88b-46a8-b65f-98c9d72eeeef",
+            "properties": {
+                "name": "Jessica Hale",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2828df04-c88b-46a8-b65f-98c9d72eeeef",
+                    "value": "Jessica Hale"
+                },
+                "linkedin": "jessica-hale-74348851",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9b3b74e5-bf87-4f58-97d0-824d4b61787e",
+                            "related_uuid": "2828df04-c88b-46a8-b65f-98c9d72eeeef",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

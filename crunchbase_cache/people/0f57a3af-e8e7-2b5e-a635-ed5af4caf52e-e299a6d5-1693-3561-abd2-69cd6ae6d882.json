@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "54e173dc-6437-4426-a73a-744edc00dfee",
+            "properties": {
+                "name": "Amy Jacquemard",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "54e173dc-6437-4426-a73a-744edc00dfee",
+                    "value": "Amy Jacquemard"
+                },
+                "linkedin": "amy-jacquemard-80816021",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "62749a5f-2a73-40d2-bc16-d12f1d804186",
+                            "related_uuid": "54e173dc-6437-4426-a73a-744edc00dfee",
+                            "properties": {
+                                "job_title": "Director of Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

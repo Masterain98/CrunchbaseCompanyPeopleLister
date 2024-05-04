@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "17d8094a-9ddc-433a-839b-e2bc01d4d684",
+            "properties": {
+                "name": "Paul Inman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "17d8094a-9ddc-433a-839b-e2bc01d4d684",
+                    "value": "Paul Inman"
+                },
+                "linkedin": "linktopaulinman",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b84965b6-047c-4e4f-be21-a4710a19fa41",
+                            "related_uuid": "17d8094a-9ddc-433a-839b-e2bc01d4d684",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

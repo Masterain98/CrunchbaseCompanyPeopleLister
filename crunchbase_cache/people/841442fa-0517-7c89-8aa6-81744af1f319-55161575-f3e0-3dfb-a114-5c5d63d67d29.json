@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6eef8e3e-e0ff-4bdc-b36c-71046758f499",
+            "properties": {
+                "name": "Gadi Eliashiv",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6eef8e3e-e0ff-4bdc-b36c-71046758f499",
+                    "value": "Gadi Eliashiv"
+                },
+                "linkedin": "gadie",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "63224e50-5fc9-4d88-9009-b64af4c559d4",
+                            "related_uuid": "6eef8e3e-e0ff-4bdc-b36c-71046758f499",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,205 @@
+{
+    "count": 25,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-founder",
+                "uuid": "67f94724-6ebb-36e8-ba2a-600d3fda1e4f",
+                "value": "Co-Founder"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service",
+                "uuid": "060dca13-af57-34f1-a7d2-f2deb799b437",
+                "value": "Customer Service"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-creative",
+                "uuid": "e40f40aa-528a-3efb-8eaf-db4d9a895f25",
+                "value": "Director, Creative"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cio",
+                "uuid": "4482571a-249d-331b-babe-d938e4567a15",
+                "value": "CIO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-compliance",
+                "uuid": "af643dba-10ab-3440-bff6-5a4d9f4fe7fb",
+                "value": "Manager, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cmo",
+                "uuid": "99330263-c899-3a05-8dc1-8add519cae39",
+                "value": "CMO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "captain",
+                "uuid": "ab334fee-b31c-3512-8cb7-3fa12571c2f6",
+                "value": "Captain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cro",
+                "uuid": "5922bcca-31a5-347d-a587-ac39e8b7c1e4",
+                "value": "CRO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "assistant-controller",
+                "uuid": "48bf9a93-8526-357b-b918-c423517fcd9b",
+                "value": "Assistant Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-of-staff",
+                "uuid": "9000f488-7fc0-37fb-9de9-3b13c17c9dea",
+                "value": "Chief Of Staff"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "copywriter",
+                "uuid": "300a2bd0-eacf-3f3c-b084-9cdea7b56c00",
+                "value": "Copywriter"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "communications-specialist",
+                "uuid": "5a29aa6d-787c-3263-a67d-4464409e761c",
+                "value": "Communications Specialist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "account-coordinator",
+                "uuid": "3c525495-fffb-313f-9250-21ef19c98a3a",
+                "value": "Account Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "office-coordinator",
+                "uuid": "818f037d-c546-35b1-8d3b-86cec9714e15",
+                "value": "Office Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "legal-counsel",
+                "uuid": "4f4a21ff-473f-3bba-b9e3-a051031d6eef",
+                "value": "Legal Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cso",
+                "uuid": "7521b628-54f6-391f-a63a-f3090ab9e759",
+                "value": "CSO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "concierge",
+                "uuid": "57ffd047-8a52-3637-bcb3-098ef6a94f9c",
+                "value": "Concierge"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "compliance-analyst",
+                "uuid": "602d6939-92e0-39f3-9775-c351c7ca746d",
+                "value": "Compliance Analyst"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-people-officer",
+                "uuid": "787bf94f-69bd-3055-bb9f-361e6b23c0c2",
+                "value": "Chief People Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "recruiting-coordinator",
+                "uuid": "9e8c1183-f86f-3541-9e99-b2fea991aa48",
+                "value": "Recruiting Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-founder-operations",
+                "uuid": "f08b5742-71d7-328a-b3d1-de1130402b25",
+                "value": "Co-Founder, Operations"
+            }
+        }
+    ]
+}

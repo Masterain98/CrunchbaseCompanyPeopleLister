@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a6959a21-7e90-4253-836b-748f6335c1f2",
+            "properties": {
+                "name": "Matthew Lubin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a6959a21-7e90-4253-836b-748f6335c1f2",
+                    "value": "Matthew Lubin"
+                },
+                "linkedin": "matt-lubin",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3078b3c9-261b-4306-8a2a-f8bfbae0f940",
+                            "related_uuid": "a6959a21-7e90-4253-836b-748f6335c1f2",
+                            "properties": {
+                                "job_title": "Director, Strategic Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

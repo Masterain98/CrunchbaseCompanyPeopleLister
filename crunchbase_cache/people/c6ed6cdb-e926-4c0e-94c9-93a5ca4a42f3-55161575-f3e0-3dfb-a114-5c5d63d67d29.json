@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "14fe3f00-67c5-4ddf-a21c-453c49e5265e",
+            "properties": {
+                "name": "Guy Yalif",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "14fe3f00-67c5-4ddf-a21c-453c49e5265e",
+                    "value": "Guy Yalif"
+                },
+                "linkedin": "gyalif",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "206e0894-dd4a-4385-ac1e-677d15233ffa",
+                            "related_uuid": "14fe3f00-67c5-4ddf-a21c-453c49e5265e",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

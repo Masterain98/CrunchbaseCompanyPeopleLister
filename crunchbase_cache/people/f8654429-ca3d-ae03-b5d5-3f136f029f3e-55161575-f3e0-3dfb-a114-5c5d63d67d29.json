@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "712366f7-6882-42d3-b321-37eb544480dd",
+            "properties": {
+                "name": "Liran Zvibel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "712366f7-6882-42d3-b321-37eb544480dd",
+                    "value": "Liran Zvibel"
+                },
+                "linkedin": "liranzvibel",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4f3f4352-85d8-434e-b80a-48eaf17d868c",
+                            "related_uuid": "712366f7-6882-42d3-b321-37eb544480dd",
+                            "properties": {
+                                "job_title": "Co-Founder, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

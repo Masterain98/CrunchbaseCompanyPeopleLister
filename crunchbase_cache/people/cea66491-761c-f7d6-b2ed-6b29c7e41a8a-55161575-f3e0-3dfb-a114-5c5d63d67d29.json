@@ -1,0 +1,61 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "57a3df4c-a887-4107-ab98-5b4c3897dcb4",
+            "properties": {
+                "name": "Geraldo Thomaz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "57a3df4c-a887-4107-ab98-5b4c3897dcb4",
+                    "value": "Geraldo Thomaz"
+                },
+                "linkedin": "geraldo-thomaz-7b366a",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "edf602d7-b387-491d-91b7-2e89a658dfce",
+                            "related_uuid": "57a3df4c-a887-4107-ab98-5b4c3897dcb4",
+                            "properties": {
+                                "job_title": "Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d18f2179-658c-4392-9ea3-e3de8e08374b",
+            "properties": {
+                "name": "Mariano Gomide",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d18f2179-658c-4392-9ea3-e3de8e08374b",
+                    "value": "Mariano Gomide"
+                },
+                "linkedin": "mariano-gomide-de-faria-vtex",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d4af08a-9e16-4a3a-ae5e-5e6922a11feb",
+                            "related_uuid": "d18f2179-658c-4392-9ea3-e3de8e08374b",
+                            "properties": {
+                                "job_title": "Founder and Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

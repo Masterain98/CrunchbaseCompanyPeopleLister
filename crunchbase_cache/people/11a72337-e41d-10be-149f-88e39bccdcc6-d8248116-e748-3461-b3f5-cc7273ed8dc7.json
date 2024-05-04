@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "134fe69c-6904-4df1-8534-eb25ef4675db",
+            "properties": {
+                "name": "Collin Peterson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "134fe69c-6904-4df1-8534-eb25ef4675db",
+                    "value": "Collin Peterson"
+                },
+                "linkedin": "collin-peterson",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "292f458a-07c1-472f-ac24-6370ebf9b97f",
+                            "related_uuid": "134fe69c-6904-4df1-8534-eb25ef4675db",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

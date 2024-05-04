@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5297f12c-9a12-48e3-831a-f25b330b1436",
+            "properties": {
+                "name": "Michelle Grider",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5297f12c-9a12-48e3-831a-f25b330b1436",
+                    "value": "Michelle Grider"
+                },
+                "linkedin": "michelle-grider",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "99199772-c709-4496-959c-32a5538a9959",
+                            "related_uuid": "5297f12c-9a12-48e3-831a-f25b330b1436",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

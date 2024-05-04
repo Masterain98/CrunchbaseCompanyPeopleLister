@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e019bebe-b69b-45b2-b4fb-8d4bf4ae083c",
+            "properties": {
+                "name": "Danny Graves",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e019bebe-b69b-45b2-b4fb-8d4bf4ae083c",
+                    "value": "Danny Graves"
+                },
+                "linkedin": "dannyrgraves",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "16801d1a-d2d2-4182-817c-c1ca75324813",
+                            "related_uuid": "e019bebe-b69b-45b2-b4fb-8d4bf4ae083c",
+                            "properties": {
+                                "job_title": "Finance and Administration"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

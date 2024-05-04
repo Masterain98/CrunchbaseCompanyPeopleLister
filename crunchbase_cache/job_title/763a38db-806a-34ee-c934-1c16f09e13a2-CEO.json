@@ -1,0 +1,205 @@
+{
+    "count": 25,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-founder",
+                "uuid": "67f94724-6ebb-36e8-ba2a-600d3fda1e4f",
+                "value": "Co-Founder"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "project-coordinator",
+                "uuid": "b4f2046e-3a85-3cb6-9767-69f1ae292acf",
+                "value": "Project Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cio",
+                "uuid": "4482571a-249d-331b-babe-d938e4567a15",
+                "value": "CIO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-of-staff",
+                "uuid": "9000f488-7fc0-37fb-9de9-3b13c17c9dea",
+                "value": "Chief Of Staff"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "contract-manager",
+                "uuid": "735f9101-86d3-31d3-ac52-adf3b7e47910",
+                "value": "Contract Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "copywriter",
+                "uuid": "300a2bd0-eacf-3f3c-b084-9cdea7b56c00",
+                "value": "Copywriter"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-customer-success",
+                "uuid": "cb271bcc-8723-321b-910b-47abf4992bed",
+                "value": "Director, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "channel-manager",
+                "uuid": "410bf21c-f60d-3719-8b9b-aa1a1341ca6a",
+                "value": "Channel Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-success-manager",
+                "uuid": "a08444ef-dbbe-38d5-ba39-54f974e2941b",
+                "value": "Senior Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cso",
+                "uuid": "7521b628-54f6-391f-a63a-f3090ab9e759",
+                "value": "CSO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-compliance",
+                "uuid": "4aa0c36d-e42c-38b4-8dcc-b5a12d677b2b",
+                "value": "Senior Manager, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-copywriter",
+                "uuid": "0136350f-f60d-35a4-a724-34e4eee92bda",
+                "value": "Senior Copywriter"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cloud-architect",
+                "uuid": "5f4ac6c3-c826-36a3-9977-22a8f6ce7ea5",
+                "value": "Cloud Architect"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "project-manager-creative",
+                "uuid": "a5893f85-661c-350b-a3cc-caa9d62f0e34",
+                "value": "Project Manager, Creative"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "creative-project-manager",
+                "uuid": "d7e3a97f-d095-3221-8778-eba027a3a987",
+                "value": "Creative Project Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-compensation-analyst",
+                "uuid": "2aca673e-d7eb-304a-affe-3efdff3520a7",
+                "value": "Senior Compensation Analyst"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-creative",
+                "uuid": "d9b9e97c-352c-35e1-95b9-d7a47a40599d",
+                "value": "Head of Creative"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "marketing-copywriter",
+                "uuid": "6540ee76-f878-3dea-8a80-7d375a03e2f5",
+                "value": "Marketing Copywriter"
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "de6bda49-ec87-4496-9126-fec47b177dfb",
+            "properties": {
+                "name": "Geva Perry",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "de6bda49-ec87-4496-9126-fec47b177dfb",
+                    "value": "Geva Perry"
+                },
+                "linkedin": "gevaperry",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f84131b0-2f55-4b4e-a3ff-5e3308b74bcb",
+                            "related_uuid": "de6bda49-ec87-4496-9126-fec47b177dfb",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

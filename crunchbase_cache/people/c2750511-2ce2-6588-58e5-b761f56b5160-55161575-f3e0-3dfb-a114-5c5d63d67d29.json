@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fe60065a-6811-4372-866a-d96effa1e4e9",
+            "properties": {
+                "name": "Craig Walker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fe60065a-6811-4372-866a-d96effa1e4e9",
+                    "value": "Craig Walker"
+                },
+                "linkedin": "cwalker123",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4db2a092-53e0-4013-a765-5d6cec5102c2",
+                            "related_uuid": "fe60065a-6811-4372-866a-d96effa1e4e9",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

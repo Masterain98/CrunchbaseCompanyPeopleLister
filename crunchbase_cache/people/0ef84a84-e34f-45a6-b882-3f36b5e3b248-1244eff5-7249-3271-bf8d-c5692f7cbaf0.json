@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5f5761ce-5801-4de5-a21a-950f4eae7614",
+            "properties": {
+                "name": "Isaiah DeRose-Wilson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5f5761ce-5801-4de5-a21a-950f4eae7614",
+                    "value": "Isaiah DeRose-Wilson"
+                },
+                "linkedin": "isaiah-derose-wilson-2530a639",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2861abdf-f9f1-4d11-9a05-7b9a1bc04e0d",
+                            "related_uuid": "5f5761ce-5801-4de5-a21a-950f4eae7614",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

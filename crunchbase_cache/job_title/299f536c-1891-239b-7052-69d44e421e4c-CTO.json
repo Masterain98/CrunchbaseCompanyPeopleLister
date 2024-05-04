@@ -1,0 +1,141 @@
+{
+    "count": 17,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-founder",
+                "uuid": "67f94724-6ebb-36e8-ba2a-600d3fda1e4f",
+                "value": "Co-Founder"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-consultant",
+                "uuid": "c32664aa-9318-3dbe-9476-b1439c92abca",
+                "value": "Senior Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cro",
+                "uuid": "5922bcca-31a5-347d-a587-ac39e8b7c1e4",
+                "value": "CRO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cpo",
+                "uuid": "d4cf9c5d-657b-3fb1-b2c2-33fdb19ac2ff",
+                "value": "CPO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "logistics-coordinator",
+                "uuid": "5ea33e0b-c65b-3aa5-98ef-389764ee4e4a",
+                "value": "Logistics Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "legal-counsel",
+                "uuid": "4f4a21ff-473f-3bba-b9e3-a051031d6eef",
+                "value": "Legal Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-customer-success",
+                "uuid": "cb271bcc-8723-321b-910b-47abf4992bed",
+                "value": "Director, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-success-manager",
+                "uuid": "a08444ef-dbbe-38d5-ba39-54f974e2941b",
+                "value": "Senior Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "implementation-consultant",
+                "uuid": "d65fb67c-387b-3e39-8026-f4287c1a9dd3",
+                "value": "Implementation Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-support-specialist",
+                "uuid": "8a84191a-1e76-3181-8286-2a57b4576642",
+                "value": "Customer Support Specialist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-legal-counsel",
+                "uuid": "bf7e18c1-bf78-3de9-aafd-e5b9a957668b",
+                "value": "Senior Legal Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-implementation-consultant",
+                "uuid": "95f1e5a0-305f-333f-aa37-482fe9437d40",
+                "value": "Senior Implementation Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-customer-success",
+                "uuid": "4c710ec4-8b24-3a87-9209-c5a5697bbc9a",
+                "value": "Senior Director, Customer Success"
+            }
+        }
+    ]
+}

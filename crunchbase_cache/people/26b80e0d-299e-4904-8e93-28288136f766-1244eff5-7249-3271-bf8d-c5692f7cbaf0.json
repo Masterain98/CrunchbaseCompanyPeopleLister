@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a95aac30-7a83-4379-aa17-488f84fe1f78",
+            "properties": {
+                "name": "Manoj Chaudhary",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a95aac30-7a83-4379-aa17-488f84fe1f78",
+                    "value": "Manoj Chaudhary"
+                },
+                "linkedin": "mchaudhary",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2dcaa9a4-20ab-47ec-918e-2ed5f42cb2a0",
+                            "related_uuid": "a95aac30-7a83-4379-aa17-488f84fe1f78",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

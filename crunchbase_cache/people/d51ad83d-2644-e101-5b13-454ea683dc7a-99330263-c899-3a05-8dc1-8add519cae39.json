@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "99bbde51-819c-4ff9-beaf-4f6ef996b423",
+            "properties": {
+                "name": "Stephanie Shreve",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "99bbde51-819c-4ff9-beaf-4f6ef996b423",
+                    "value": "Stephanie Shreve"
+                },
+                "linkedin": "stephanie-shreve-a6639823",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_400_vp",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6672045f-255c-4822-b563-b762d51cabd5",
+                            "related_uuid": "99bbde51-819c-4ff9-beaf-4f6ef996b423",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

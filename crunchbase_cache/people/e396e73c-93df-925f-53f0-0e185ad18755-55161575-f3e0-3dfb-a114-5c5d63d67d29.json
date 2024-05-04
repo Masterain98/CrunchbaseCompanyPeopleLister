@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "93b42397-8f02-4cbb-8d3e-b5aa6408faad",
+            "properties": {
+                "name": "Karin Borchert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "93b42397-8f02-4cbb-8d3e-b5aa6408faad",
+                    "value": "Karin Borchert"
+                },
+                "linkedin": "karinborchert",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "15575a16-31d7-4ffb-943f-3dac4116fa0f",
+                            "related_uuid": "93b42397-8f02-4cbb-8d3e-b5aa6408faad",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

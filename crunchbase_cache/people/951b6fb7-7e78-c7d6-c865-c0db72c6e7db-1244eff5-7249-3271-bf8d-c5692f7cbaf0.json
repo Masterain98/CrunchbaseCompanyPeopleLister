@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b9fedd6e-e9b0-4f95-a3e2-103797703576",
+            "properties": {
+                "name": "James simpson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b9fedd6e-e9b0-4f95-a3e2-103797703576",
+                    "value": "James simpson"
+                },
+                "linkedin": "jamesgilmoursimpson",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a6a014b7-6af6-4682-805f-8587ab0bc899",
+                            "related_uuid": "b9fedd6e-e9b0-4f95-a3e2-103797703576",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

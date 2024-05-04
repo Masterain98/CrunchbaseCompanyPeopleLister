@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4c4fe748-c3e1-41e5-88e8-680fcf47b26b",
+            "properties": {
+                "name": "Chris Dudley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4c4fe748-c3e1-41e5-88e8-680fcf47b26b",
+                    "value": "Chris Dudley"
+                },
+                "linkedin": "christopher-dudley",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "044098f2-373d-405b-a36c-e8f1c0cd1a49",
+                            "related_uuid": "4c4fe748-c3e1-41e5-88e8-680fcf47b26b",
+                            "properties": {
+                                "job_title": "Senior Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

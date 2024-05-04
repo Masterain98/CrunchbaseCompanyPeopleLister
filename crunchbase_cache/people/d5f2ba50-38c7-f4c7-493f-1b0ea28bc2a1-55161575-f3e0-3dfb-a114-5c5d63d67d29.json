@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "8bcdca24-9c68-44e0-a9cf-befe5797a0cc",
+            "properties": {
+                "name": "Alex Cuevas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8bcdca24-9c68-44e0-a9cf-befe5797a0cc",
+                    "value": "Alex Cuevas"
+                },
+                "linkedin": "alexcuevas",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "59ab9052-751e-4753-b7b0-abfd5cdb21e0",
+                            "related_uuid": "8bcdca24-9c68-44e0-a9cf-befe5797a0cc",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7270a50c-f0cc-4aad-b28b-a0a455af4047",
+            "properties": {
+                "name": "Alex Goode",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7270a50c-f0cc-4aad-b28b-a0a455af4047",
+                    "value": "Alex Goode"
+                },
+                "linkedin": "alexgoode",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7b643e53-892d-457a-8917-f657fffcddb1",
+                            "related_uuid": "7270a50c-f0cc-4aad-b28b-a0a455af4047",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

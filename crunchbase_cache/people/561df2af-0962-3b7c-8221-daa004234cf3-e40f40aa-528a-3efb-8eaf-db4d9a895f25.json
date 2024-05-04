@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c7db75be-fdae-4c8e-9daf-38dc550c1150",
+            "properties": {
+                "name": "Rocio Calero",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c7db75be-fdae-4c8e-9daf-38dc550c1150",
+                    "value": "Rocio Calero"
+                },
+                "linkedin": "rociocalero",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9790cfc8-014f-4440-8906-87f56d6365a1",
+                            "related_uuid": "c7db75be-fdae-4c8e-9daf-38dc550c1150",
+                            "properties": {
+                                "job_title": "Creative Director, Brand"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

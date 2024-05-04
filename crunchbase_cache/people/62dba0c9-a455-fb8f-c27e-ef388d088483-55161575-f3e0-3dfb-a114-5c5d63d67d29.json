@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "93e12a28-3e09-48f4-aee4-5745786782db",
+            "properties": {
+                "name": "Mayank Singh Bawa",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "93e12a28-3e09-48f4-aee4-5745786782db",
+                    "value": "Mayank Singh Bawa"
+                },
+                "linkedin": "mayankbawa",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "39581073-ad43-4ab9-9394-1b5e1fb7b343",
+                            "related_uuid": "93e12a28-3e09-48f4-aee4-5745786782db",
+                            "properties": {
+                                "job_title": "CEO and Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

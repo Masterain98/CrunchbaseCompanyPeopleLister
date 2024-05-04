@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0dd63eea-baad-4222-8d84-f32cf316d76f",
+            "properties": {
+                "name": "Dima Soroka",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0dd63eea-baad-4222-8d84-f32cf316d76f",
+                    "value": "Dima Soroka"
+                },
+                "linkedin": "dima-soroka-31ba343",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cb6c2691-ed67-484a-b72e-f1e783577a03",
+                            "related_uuid": "0dd63eea-baad-4222-8d84-f32cf316d76f",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

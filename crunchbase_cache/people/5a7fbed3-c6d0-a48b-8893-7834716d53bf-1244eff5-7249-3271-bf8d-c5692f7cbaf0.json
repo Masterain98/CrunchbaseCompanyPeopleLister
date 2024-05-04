@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a94e19a6-8edb-43ab-a34c-37e5fdd748dc",
+            "properties": {
+                "name": "Bryon Jacob",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a94e19a6-8edb-43ab-a34c-37e5fdd748dc",
+                    "value": "Bryon Jacob"
+                },
+                "linkedin": "bryon",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "03f7b55e-096c-4f42-bd53-a06c4574cdcc",
+                            "related_uuid": "a94e19a6-8edb-43ab-a34c-37e5fdd748dc",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

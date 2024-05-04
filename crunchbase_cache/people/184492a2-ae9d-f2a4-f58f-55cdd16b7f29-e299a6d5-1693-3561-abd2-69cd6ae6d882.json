@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3a702ef5-eeb7-4304-b413-95775e4e4ec1",
+            "properties": {
+                "name": "Stephen Tam",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3a702ef5-eeb7-4304-b413-95775e4e4ec1",
+                    "value": "Stephen Tam"
+                },
+                "linkedin": "stephenstam",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "68a845d7-87e0-4de0-9c8b-bf478e9e9a1f",
+                            "related_uuid": "3a702ef5-eeb7-4304-b413-95775e4e4ec1",
+                            "properties": {
+                                "job_title": "Director of Information Security Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

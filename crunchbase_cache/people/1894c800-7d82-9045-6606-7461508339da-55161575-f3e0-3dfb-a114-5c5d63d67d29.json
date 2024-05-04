@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7e0415da-10db-4284-8449-e4b37378cfcd",
+            "properties": {
+                "name": "H\u00e5kan Samuelsson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7e0415da-10db-4284-8449-e4b37378cfcd",
+                    "value": "H\u00e5kan Samuelsson"
+                },
+                "linkedin": "h\u00e5kan-samuelsson-853aaa7a",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b2ab2c52-611c-4852-90ed-add20ac1e531",
+                            "related_uuid": "7e0415da-10db-4284-8449-e4b37378cfcd",
+                            "properties": {
+                                "job_title": "President and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2964050b-4b7f-4735-84db-2bd5d113c5aa",
+            "properties": {
+                "name": "Jacqui Murphy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2964050b-4b7f-4735-84db-2bd5d113c5aa",
+                    "value": "Jacqui Murphy"
+                },
+                "linkedin": "jacquimurphy",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a2130e11-67f0-485a-bc1c-b3f5827510d9",
+                            "related_uuid": "2964050b-4b7f-4735-84db-2bd5d113c5aa",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

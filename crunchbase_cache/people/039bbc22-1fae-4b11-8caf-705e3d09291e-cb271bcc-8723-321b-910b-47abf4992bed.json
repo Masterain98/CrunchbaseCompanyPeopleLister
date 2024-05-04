@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "486d1bb0-3d51-4c48-a342-9e34ed246579",
+            "properties": {
+                "name": "Rehanna Ramsey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "486d1bb0-3d51-4c48-a342-9e34ed246579",
+                    "value": "Rehanna Ramsey"
+                },
+                "linkedin": "rehanna-ramsey-9a22011a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "pro_services"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4cbfec63-c9df-43ed-aa56-44c5e9f4a52f",
+                            "related_uuid": "486d1bb0-3d51-4c48-a342-9e34ed246579",
+                            "properties": {
+                                "job_title": "Customer Success Director EMEA"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ee11da7b-b6f1-4217-ae6f-91682632c187",
+            "properties": {
+                "name": "Ricky Cheung",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ee11da7b-b6f1-4217-ae6f-91682632c187",
+                    "value": "Ricky Cheung"
+                },
+                "linkedin": "rickyckk",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "81337912-60cd-4a52-9c5e-3b6628b504e0",
+                            "related_uuid": "ee11da7b-b6f1-4217-ae6f-91682632c187",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

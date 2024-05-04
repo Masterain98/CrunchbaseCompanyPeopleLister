@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "fada9a07-35f3-4023-bb9d-47f656a1e1f6",
+            "properties": {
+                "name": "Elizabeth Ireland",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fada9a07-35f3-4023-bb9d-47f656a1e1f6",
+                    "value": "Elizabeth Ireland"
+                },
+                "linkedin": "elizabethireland",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "72fa26f0-8f0d-420f-a5c5-252b3f20591d",
+                            "related_uuid": "fada9a07-35f3-4023-bb9d-47f656a1e1f6",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "21d2a974-5b81-450e-8978-d86ca045a18f",
+            "properties": {
+                "name": "Sandeep Singh Kohli",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "21d2a974-5b81-450e-8978-d86ca045a18f",
+                    "value": "Sandeep Singh Kohli"
+                },
+                "linkedin": "skohli1",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "29b400f1-84a8-4d13-a2fb-b84e668e8454",
+                            "related_uuid": "21d2a974-5b81-450e-8978-d86ca045a18f",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

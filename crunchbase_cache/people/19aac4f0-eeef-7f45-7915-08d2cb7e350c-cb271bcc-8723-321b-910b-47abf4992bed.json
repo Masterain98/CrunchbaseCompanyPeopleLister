@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "e61772ce-3e27-4c96-be37-c8b263ddafe8",
+            "properties": {
+                "name": "Owen Eckersley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e61772ce-3e27-4c96-be37-c8b263ddafe8",
+                    "value": "Owen Eckersley"
+                },
+                "linkedin": "owen-eckersley-b4bb6414",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3bfa86d7-77a1-4176-84a3-954885334c29",
+                            "related_uuid": "e61772ce-3e27-4c96-be37-c8b263ddafe8",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bb923d68-cd9d-4139-892a-2891e2e9575c",
+            "properties": {
+                "name": "Page Song",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bb923d68-cd9d-4139-892a-2891e2e9575c",
+                    "value": "Page Song"
+                },
+                "linkedin": "pagesong",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4e452c45-a792-456f-ba82-1123d4a31868",
+                            "related_uuid": "bb923d68-cd9d-4139-892a-2891e2e9575c",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d7c9f58a-ef08-48db-8fc2-ac4c8c299d6e",
+            "properties": {
+                "name": "Kathie Johnson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d7c9f58a-ef08-48db-8fc2-ac4c8c299d6e",
+                    "value": "Kathie Johnson"
+                },
+                "linkedin": "kathiecjohnson",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9f3ac527-c883-4b2a-9ca3-4ebf1b8330db",
+                            "related_uuid": "d7c9f58a-ef08-48db-8fc2-ac4c8c299d6e",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b936b7bd-8c8b-486a-8f36-26aa1fc1b17f",
+            "properties": {
+                "name": "Tina Landi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b936b7bd-8c8b-486a-8f36-26aa1fc1b17f",
+                    "value": "Tina Landi"
+                },
+                "linkedin": "tina-landi-803b5991",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "76133b01-7e9a-43ea-ae24-53a8da18a10f",
+                            "related_uuid": "b936b7bd-8c8b-486a-8f36-26aa1fc1b17f",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

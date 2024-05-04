@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3ad2b5e5-fc20-4bfb-bf8c-95b42513a273",
+            "properties": {
+                "name": "Nitin Rai",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ad2b5e5-fc20-4bfb-bf8c-95b42513a273",
+                    "value": "Nitin Rai"
+                },
+                "linkedin": "first-insight-corporation",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a5cca2f6-620c-4802-94e4-c2eaa3a31fd5",
+                            "related_uuid": "3ad2b5e5-fc20-4bfb-bf8c-95b42513a273",
+                            "properties": {
+                                "job_title": "Nitin Rai, President and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

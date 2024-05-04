@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b0082ba4-63ca-4eed-8afd-f11c9c07312b",
+            "properties": {
+                "name": "Pamela B.",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b0082ba4-63ca-4eed-8afd-f11c9c07312b",
+                    "value": "Pamela B."
+                },
+                "linkedin": "pamela-evalani-lani-b-39a2b747",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "51b045a7-29ea-44b7-a39f-8c592ce477f9",
+                            "related_uuid": "b0082ba4-63ca-4eed-8afd-f11c9c07312b",
+                            "properties": {
+                                "job_title": "Director of Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

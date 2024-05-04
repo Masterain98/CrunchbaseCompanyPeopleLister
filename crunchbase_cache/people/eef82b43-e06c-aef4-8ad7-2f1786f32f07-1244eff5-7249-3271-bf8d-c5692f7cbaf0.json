@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8f318fe4-0d9f-451c-a19a-06735013f333",
+            "properties": {
+                "name": "Gopal Sundaram",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8f318fe4-0d9f-451c-a19a-06735013f333",
+                    "value": "Gopal Sundaram"
+                },
+                "linkedin": "gopalsundaram",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "715c27f9-1d47-44b7-949b-8079a4e3ccac",
+                            "related_uuid": "8f318fe4-0d9f-451c-a19a-06735013f333",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

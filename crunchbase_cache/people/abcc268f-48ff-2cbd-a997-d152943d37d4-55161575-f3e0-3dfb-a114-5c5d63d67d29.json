@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "6224be9b-2329-47d1-a04c-8d390a31465d",
+            "properties": {
+                "name": "Dave Sweeney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6224be9b-2329-47d1-a04c-8d390a31465d",
+                    "value": "Dave Sweeney"
+                },
+                "linkedin": "dave-sweeney-934a536",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "207adc66-7320-4f37-95d4-98aa5d361fc6",
+                            "related_uuid": "6224be9b-2329-47d1-a04c-8d390a31465d",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "90616333-e6ad-4705-b79a-8c25a8c5e920",
+            "properties": {
+                "name": "Tom Chris",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "90616333-e6ad-4705-b79a-8c25a8c5e920",
+                    "value": "Tom Chris"
+                },
+                "linkedin": "tom-chris-a4909a21b",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2565e877-8637-4708-ac15-be0491a5569d",
+                            "related_uuid": "90616333-e6ad-4705-b79a-8c25a8c5e920",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

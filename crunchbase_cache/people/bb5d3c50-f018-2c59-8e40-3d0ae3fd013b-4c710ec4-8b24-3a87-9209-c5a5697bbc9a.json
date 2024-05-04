@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "afac425b-0ec0-4ac8-a0ca-ae8216a61f00",
+            "properties": {
+                "name": "Katie Lampe",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "afac425b-0ec0-4ac8-a0ca-ae8216a61f00",
+                    "value": "Katie Lampe"
+                },
+                "linkedin": "katielampe",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "62f93af9-d6c9-4881-880d-a52a7d4d5d0c",
+                            "related_uuid": "afac425b-0ec0-4ac8-a0ca-ae8216a61f00",
+                            "properties": {
+                                "job_title": "Senior Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

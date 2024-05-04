@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0e3758aa-e9ea-4e16-9abb-a01b4a2209c7",
+            "properties": {
+                "name": "Jeff Devier",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e3758aa-e9ea-4e16-9abb-a01b4a2209c7",
+                    "value": "Jeff Devier"
+                },
+                "linkedin": "jeff-devier-3796b312",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dc65021d-6f5e-40ad-b815-bee4f9494a37",
+                            "related_uuid": "0e3758aa-e9ea-4e16-9abb-a01b4a2209c7",
+                            "properties": {
+                                "job_title": "Director of Customer Success Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8a87dce9-300c-4b7f-9f06-b873b62918a1",
+            "properties": {
+                "name": "Ben Thompson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8a87dce9-300c-4b7f-9f06-b873b62918a1",
+                    "value": "Ben Thompson"
+                },
+                "linkedin": "bthompsonemploymentinnovations",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1fbc2deb-31da-4a1d-ae09-9560b1cbfdac",
+                            "related_uuid": "8a87dce9-300c-4b7f-9f06-b873b62918a1",
+                            "properties": {
+                                "job_title": "Founder / CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

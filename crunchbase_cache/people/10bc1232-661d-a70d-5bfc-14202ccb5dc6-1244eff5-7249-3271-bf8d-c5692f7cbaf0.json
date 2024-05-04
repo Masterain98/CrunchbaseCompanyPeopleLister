@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3ab9784c-b32f-4c8f-a713-27ca524280b4",
+            "properties": {
+                "name": "Bryan Martin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ab9784c-b32f-4c8f-a713-27ca524280b4",
+                    "value": "Bryan Martin"
+                },
+                "linkedin": "bryan-martin-866b859",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3422e315-b6db-4f12-9732-3c9d8b0cb7ff",
+                            "related_uuid": "3ab9784c-b32f-4c8f-a713-27ca524280b4",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

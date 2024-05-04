@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "95d58832-ef33-467e-a3ea-0a2b4ec13045",
+            "properties": {
+                "name": "Devin Daly",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "95d58832-ef33-467e-a3ea-0a2b4ec13045",
+                    "value": "Devin Daly"
+                },
+                "linkedin": "devindaly",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7d38398f-a6aa-408b-8b8d-0e4f18f75dc2",
+                            "related_uuid": "95d58832-ef33-467e-a3ea-0a2b4ec13045",
+                            "properties": {
+                                "job_title": "Co-Founder, Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

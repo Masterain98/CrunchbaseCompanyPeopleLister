@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "51ebca94-75cf-4e2c-93af-d679e37b9dba",
+            "properties": {
+                "name": "Willy Leichter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "51ebca94-75cf-4e2c-93af-d679e37b9dba",
+                    "value": "Willy Leichter"
+                },
+                "linkedin": "willyleichter",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f896b492-6141-4b16-99c1-f548fdce4649",
+                            "related_uuid": "51ebca94-75cf-4e2c-93af-d679e37b9dba",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

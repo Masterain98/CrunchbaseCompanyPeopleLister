@@ -1,0 +1,101 @@
+{
+    "count": 12,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-of-staff",
+                "uuid": "9000f488-7fc0-37fb-9de9-3b13c17c9dea",
+                "value": "Chief Of Staff"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-success-manager",
+                "uuid": "a08444ef-dbbe-38d5-ba39-54f974e2941b",
+                "value": "Senior Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cgo",
+                "uuid": "63e64fb7-f6bf-3edd-a708-e1b75126a6fb",
+                "value": "CGO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-strategy-officer",
+                "uuid": "df90e319-ad0c-3ec1-9ff3-737c24086d09",
+                "value": "Chief Strategy Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "content-producer",
+                "uuid": "744fc928-15c5-37b1-812b-62a8aaeb3654",
+                "value": "Content Producer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "bd-consultant",
+                "uuid": "9785e83d-d427-3a12-9c44-256175543365",
+                "value": "BD Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant-business-development",
+                "uuid": "88dc1a98-a6f4-3da6-952b-db9a4b526bfb",
+                "value": "Consultant, Business Development"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-customer-success",
+                "uuid": "d97bc57c-2581-3350-baab-628e0286b17e",
+                "value": "Senior Manager, Customer Success"
+            }
+        }
+    ]
+}

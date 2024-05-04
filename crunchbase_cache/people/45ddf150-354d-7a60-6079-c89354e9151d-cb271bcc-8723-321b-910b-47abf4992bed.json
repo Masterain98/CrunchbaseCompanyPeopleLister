@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cc745fa4-52af-4782-a3ab-b70003410c44",
+            "properties": {
+                "name": "Brendan Conroy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cc745fa4-52af-4782-a3ab-b70003410c44",
+                    "value": "Brendan Conroy"
+                },
+                "linkedin": "brendan-conroy-91775623",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2853beb4-bca5-4d49-b4db-2c78017c5320",
+                            "related_uuid": "cc745fa4-52af-4782-a3ab-b70003410c44",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

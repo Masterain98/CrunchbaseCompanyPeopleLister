@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "84d4f054-7da2-47dd-8abc-62ef014fa1fa",
+            "properties": {
+                "name": "Aditya Jami",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "84d4f054-7da2-47dd-8abc-62ef014fa1fa",
+                    "value": "Aditya Jami"
+                },
+                "linkedin": "adityajami",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5f216684-b787-4ad4-8632-abf588b86d2c",
+                            "related_uuid": "84d4f054-7da2-47dd-8abc-62ef014fa1fa",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

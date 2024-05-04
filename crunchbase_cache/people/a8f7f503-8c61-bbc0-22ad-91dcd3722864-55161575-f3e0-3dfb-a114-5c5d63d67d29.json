@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "179a8f13-cf45-4726-98fd-ab58a8132a67",
+            "properties": {
+                "name": "Don Schlidt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "179a8f13-cf45-4726-98fd-ab58a8132a67",
+                    "value": "Don Schlidt"
+                },
+                "linkedin": "donschlidt",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "005a659a-7992-402b-b148-9b3755d433a8",
+                            "related_uuid": "179a8f13-cf45-4726-98fd-ab58a8132a67",
+                            "properties": {
+                                "job_title": "Co-Owner"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

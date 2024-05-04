@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cd325b11-57dd-4980-847e-c3d3d1c94a21",
+            "properties": {
+                "name": "Aram Shatakhtsyan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cd325b11-57dd-4980-847e-c3d3d1c94a21",
+                    "value": "Aram Shatakhtsyan"
+                },
+                "linkedin": "artahian",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "212dfe33-d03b-4fd9-a52e-6bab60ce628b",
+                            "related_uuid": "cd325b11-57dd-4980-847e-c3d3d1c94a21",
+                            "properties": {
+                                "job_title": "Co-Founder / CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

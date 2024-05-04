@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6e1e3762-a65d-421a-9d09-ea77b6ddd6b0",
+            "properties": {
+                "name": "Nick Vucci",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6e1e3762-a65d-421a-9d09-ea77b6ddd6b0",
+                    "value": "Nick Vucci"
+                },
+                "linkedin": "nickvucci",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ec2254c-4834-4aad-a316-f1829141522d",
+                            "related_uuid": "6e1e3762-a65d-421a-9d09-ea77b6ddd6b0",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

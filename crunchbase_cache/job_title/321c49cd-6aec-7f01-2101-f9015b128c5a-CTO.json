@@ -1,0 +1,29 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chairman",
+                "uuid": "0e678094-b97c-381f-a87e-592f664994ce",
+                "value": "Chairman"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-development-officer",
+                "uuid": "fd36e010-9f82-318c-b1a2-37fc8b3af31f",
+                "value": "Chief Development Officer"
+            }
+        }
+    ]
+}

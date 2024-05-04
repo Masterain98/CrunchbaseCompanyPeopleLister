@@ -1,0 +1,189 @@
+{
+    "count": 23,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cmo",
+                "uuid": "99330263-c899-3a05-8dc1-8add519cae39",
+                "value": "CMO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-communications",
+                "uuid": "526743f9-dd18-3d06-b770-a428ef52d2d9",
+                "value": "Manager, Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "marketing-coordinator",
+                "uuid": "36cf6359-f8f5-37a6-86d0-b207e9e91d5b",
+                "value": "Marketing Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "hr-coordinator",
+                "uuid": "2c4d7914-1c67-39f0-b176-3ec01adcdd90",
+                "value": "HR Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-customer-success",
+                "uuid": "cb271bcc-8723-321b-910b-47abf4992bed",
+                "value": "Director, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator-human-resources",
+                "uuid": "eed129c4-2bc8-3c55-8c4b-4339344d7ee9",
+                "value": "Coordinator, Human Resources"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "implementation-consultant",
+                "uuid": "d65fb67c-387b-3e39-8026-f4287c1a9dd3",
+                "value": "Implementation Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-customer-success",
+                "uuid": "2ee82f40-c391-32a3-b162-ae85116c237f",
+                "value": "Head of Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-support-engineer",
+                "uuid": "b7878742-1a07-35bd-b25a-171547e35f37",
+                "value": "Customer Support Engineer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-implementation-consultant",
+                "uuid": "95f1e5a0-305f-333f-aa37-482fe9437d40",
+                "value": "Senior Implementation Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "curriculum-developer",
+                "uuid": "e9b48553-ada5-3c1d-b5da-76289ee36ea9",
+                "value": "Curriculum Developer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-curriculum-developer",
+                "uuid": "069c67c8-1916-3cad-81e0-570af0d9503a",
+                "value": "Senior Curriculum Developer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-architect-customer-success",
+                "uuid": "446f721e-9f41-3a28-bfb6-233c67853228",
+                "value": "Senior Architect, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "administrator-customer-success",
+                "uuid": "ebf07e48-978b-37f1-98d8-6e09220d881f",
+                "value": "Administrator, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "assistant-director-customer-success",
+                "uuid": "513d74fb-ff57-3b49-b139-0728258e2e38",
+                "value": "Assistant Director, Customer Success"
+            }
+        }
+    ]
+}

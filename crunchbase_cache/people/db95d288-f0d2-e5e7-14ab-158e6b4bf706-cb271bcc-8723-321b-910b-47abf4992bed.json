@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "aeec0f10-eee7-4e39-a8bf-a6edffe9df6f",
+            "properties": {
+                "name": "Beverly Dudley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aeec0f10-eee7-4e39-a8bf-a6edffe9df6f",
+                    "value": "Beverly Dudley"
+                },
+                "linkedin": "beverly-dudley-0ab3349",
+                "job_levels": [
+                    "l_400_vp"
+                ],
+                "job_departments": [
+                    "management",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2453ea9c-796d-4b4c-a3dd-36aadd85bc32",
+                            "related_uuid": "aeec0f10-eee7-4e39-a8bf-a6edffe9df6f",
+                            "properties": {
+                                "job_title": "Vice President of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c526e975-35d9-453e-943b-6d0bcc2c995d",
+            "properties": {
+                "name": "Mahesh Motiramani",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c526e975-35d9-453e-943b-6d0bcc2c995d",
+                    "value": "Mahesh Motiramani"
+                },
+                "linkedin": "maheshmotiramani",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a92338e1-64f5-43e8-85e4-178e5691aa01",
+                            "related_uuid": "c526e975-35d9-453e-943b-6d0bcc2c995d",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

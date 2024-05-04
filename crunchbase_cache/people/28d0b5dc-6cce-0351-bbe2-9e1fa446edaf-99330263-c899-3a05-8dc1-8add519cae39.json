@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b96abd78-3850-4e44-bcfc-f6fbad68a89c",
+            "properties": {
+                "name": "Chad Meley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b96abd78-3850-4e44-bcfc-f6fbad68a89c",
+                    "value": "Chad Meley"
+                },
+                "linkedin": "chadmeley",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "67a53545-1862-450b-90d9-b246f4892a4d",
+                            "related_uuid": "b96abd78-3850-4e44-bcfc-f6fbad68a89c",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

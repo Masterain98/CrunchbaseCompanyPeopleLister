@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "39e6540a-604c-4ffa-b6b9-4309879f988a",
+            "properties": {
+                "name": "Mike Warren",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "39e6540a-604c-4ffa-b6b9-4309879f988a",
+                    "value": "Mike Warren"
+                },
+                "linkedin": "mike-warren-3a0439b1",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "872d0689-3f7c-43af-8ca9-ae47c7e0cc69",
+                            "related_uuid": "39e6540a-604c-4ffa-b6b9-4309879f988a",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

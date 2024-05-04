@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0f6a0d22-b521-4b18-8781-16341886752d",
+            "properties": {
+                "name": "Jeremiah Stone",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0f6a0d22-b521-4b18-8781-16341886752d",
+                    "value": "Jeremiah Stone"
+                },
+                "linkedin": "jeremiahstone",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9545adc8-62d3-4cdf-9879-77c6044c530c",
+                            "related_uuid": "0f6a0d22-b521-4b18-8781-16341886752d",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

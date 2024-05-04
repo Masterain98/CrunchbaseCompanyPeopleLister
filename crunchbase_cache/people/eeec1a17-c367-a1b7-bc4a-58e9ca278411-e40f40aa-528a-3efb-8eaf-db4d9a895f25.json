@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "79147dd6-7ae2-457f-815c-5c4552353c4a",
+            "properties": {
+                "name": "Jim Allen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "79147dd6-7ae2-457f-815c-5c4552353c4a",
+                    "value": "Jim Allen"
+                },
+                "linkedin": "365trucking",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1fc31c26-f757-4bda-bdb0-3f1f4785f193",
+                            "related_uuid": "79147dd6-7ae2-457f-815c-5c4552353c4a",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

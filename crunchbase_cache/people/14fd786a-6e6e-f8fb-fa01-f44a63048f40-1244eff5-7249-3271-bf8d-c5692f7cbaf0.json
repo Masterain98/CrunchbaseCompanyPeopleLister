@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "82ae9be1-2559-4d01-a747-ee5a8b523b05",
+            "properties": {
+                "name": "Henry Peter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "82ae9be1-2559-4d01-a747-ee5a8b523b05",
+                    "value": "Henry Peter"
+                },
+                "linkedin": "henrytpeter",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2ff7cabd-6a2d-42da-a0dc-3b22fe22e51f",
+                            "related_uuid": "82ae9be1-2559-4d01-a747-ee5a8b523b05",
+                            "properties": {
+                                "job_title": "Co-Founder, CTO & CISO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

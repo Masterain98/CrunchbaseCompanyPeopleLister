@@ -1,0 +1,69 @@
+{
+    "count": 8,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-consultant",
+                "uuid": "c32664aa-9318-3dbe-9476-b1439c92abca",
+                "value": "Senior Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cmo",
+                "uuid": "99330263-c899-3a05-8dc1-8add519cae39",
+                "value": "CMO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "associate-consultant",
+                "uuid": "2210c445-16c1-3206-9812-b19f9db74bb5",
+                "value": "Associate Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cloud-architect",
+                "uuid": "5f4ac6c3-c826-36a3-9977-22a8f6ce7ea5",
+                "value": "Cloud Architect"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-business-consultant",
+                "uuid": "f466a264-4e57-3441-aff5-5c852371647b",
+                "value": "Senior Business Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-creative",
+                "uuid": "82a3ad83-4851-3b14-a395-e956c569be8f",
+                "value": "Senior Director, Creative"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-client-executive",
+                "uuid": "91c0d376-c5ff-339e-b3b9-7c772f5f81b5",
+                "value": "Senior Client Executive"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ba071cfa-c692-476f-8545-75e9a9d79ddc",
+            "properties": {
+                "name": "John Samborski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ba071cfa-c692-476f-8545-75e9a9d79ddc",
+                    "value": "John Samborski"
+                },
+                "linkedin": "john-samborski-641393",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "38c80c81-f43b-49c4-b03b-42dc54a93044",
+                            "related_uuid": "ba071cfa-c692-476f-8545-75e9a9d79ddc",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

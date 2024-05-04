@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cbc78379-635e-48a0-9305-8e70688c0f33",
+            "properties": {
+                "name": "Joe Alapat",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cbc78379-635e-48a0-9305-8e70688c0f33",
+                    "value": "Joe Alapat"
+                },
+                "linkedin": "joealapat",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "853ab99c-848d-46af-a6b6-bca73388fc45",
+                            "related_uuid": "cbc78379-635e-48a0-9305-8e70688c0f33",
+                            "properties": {
+                                "job_title": "Founder, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

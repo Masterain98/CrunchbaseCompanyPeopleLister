@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b8f7abf3-4ca2-4e9c-bc2d-c12195fe0303",
+            "properties": {
+                "name": "Matt Schlicht",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b8f7abf3-4ca2-4e9c-bc2d-c12195fe0303",
+                    "value": "Matt Schlicht"
+                },
+                "linkedin": "mattschlicht",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dc86a2a6-b68c-4ba4-9440-ab536d4a44c1",
+                            "related_uuid": "b8f7abf3-4ca2-4e9c-bc2d-c12195fe0303",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

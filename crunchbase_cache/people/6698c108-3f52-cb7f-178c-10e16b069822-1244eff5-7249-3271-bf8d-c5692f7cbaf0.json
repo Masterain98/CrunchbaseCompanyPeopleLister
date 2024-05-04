@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "b285a0e4-fac1-48f0-a996-fcfb0aa2544a",
+            "properties": {
+                "name": "Daniele Gemignani",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b285a0e4-fac1-48f0-a996-fcfb0aa2544a",
+                    "value": "Daniele Gemignani"
+                },
+                "linkedin": "danielegemignani",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d57609d8-5db9-4af5-a2cf-6a73232c7812",
+                            "related_uuid": "b285a0e4-fac1-48f0-a996-fcfb0aa2544a",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "392ee032-28ca-4dd6-89cf-1b8875f8e104",
+            "properties": {
+                "name": "Igor Alves",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "392ee032-28ca-4dd6-89cf-1b8875f8e104",
+                    "value": "Igor Alves"
+                },
+                "linkedin": "igorazevedoalves",
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a7f11916-41a5-4ea3-858c-5c700b6cf1f3",
+                            "related_uuid": "392ee032-28ca-4dd6-89cf-1b8875f8e104",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

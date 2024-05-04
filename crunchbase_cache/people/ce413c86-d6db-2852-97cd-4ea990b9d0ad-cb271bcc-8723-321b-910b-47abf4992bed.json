@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e3981f29-59c2-4437-8c0e-96b35c7c8b55",
+            "properties": {
+                "name": "Jeremy Brice",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e3981f29-59c2-4437-8c0e-96b35c7c8b55",
+                    "value": "Jeremy Brice"
+                },
+                "linkedin": "jeremybrice",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3d396dfe-a03b-431c-b50f-7c427330163b",
+                            "related_uuid": "e3981f29-59c2-4437-8c0e-96b35c7c8b55",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

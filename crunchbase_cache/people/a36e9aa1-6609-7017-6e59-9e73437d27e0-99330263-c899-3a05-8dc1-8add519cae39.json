@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5b811f33-1ce5-4c29-b1cb-035516e5a643",
+            "properties": {
+                "name": "Troy Monney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5b811f33-1ce5-4c29-b1cb-035516e5a643",
+                    "value": "Troy Monney"
+                },
+                "linkedin": "troylmonney",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "317966a4-c46f-4875-a9a0-b1746a81586d",
+                            "related_uuid": "5b811f33-1ce5-4c29-b1cb-035516e5a643",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

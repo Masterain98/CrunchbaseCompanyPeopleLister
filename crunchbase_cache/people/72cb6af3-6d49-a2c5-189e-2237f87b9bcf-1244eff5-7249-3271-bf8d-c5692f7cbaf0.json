@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9204f6c9-8801-477d-b3e2-7cfb4a96144d",
+            "properties": {
+                "name": "Thomas Coleman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9204f6c9-8801-477d-b3e2-7cfb4a96144d",
+                    "value": "Thomas Coleman"
+                },
+                "linkedin": "thomas-coleman-4a606914",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "88f59970-9566-4c33-8255-966adb30cb15",
+                            "related_uuid": "9204f6c9-8801-477d-b3e2-7cfb4a96144d",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

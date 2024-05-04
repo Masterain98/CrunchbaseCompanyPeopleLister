@@ -1,0 +1,29 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cgo",
+                "uuid": "63e64fb7-f6bf-3edd-a708-e1b75126a6fb",
+                "value": "CGO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-creative",
+                "uuid": "82a3ad83-4851-3b14-a395-e956c569be8f",
+                "value": "Senior Director, Creative"
+            }
+        }
+    ]
+}

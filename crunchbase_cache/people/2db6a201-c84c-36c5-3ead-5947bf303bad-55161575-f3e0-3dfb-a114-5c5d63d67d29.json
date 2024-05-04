@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1e1833b4-a650-4e8a-b94c-b7c1daba74ab",
+            "properties": {
+                "name": "Ben Barokas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1e1833b4-a650-4e8a-b94c-b7c1daba74ab",
+                    "value": "Ben Barokas"
+                },
+                "linkedin": "benbarokas",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "86a02e5c-4191-4169-9410-2dad1afdae4f",
+                            "related_uuid": "1e1833b4-a650-4e8a-b94c-b7c1daba74ab",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

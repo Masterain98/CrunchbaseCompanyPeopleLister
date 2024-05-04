@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "e5c36318-8cbe-4413-a871-e2cb3fa9e404",
+            "properties": {
+                "name": "Christina Gregor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e5c36318-8cbe-4413-a871-e2cb3fa9e404",
+                    "value": "Christina Gregor"
+                },
+                "linkedin": "christina-gregor-89829320",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cc75590a-3db2-4f45-9424-4d65f3fcff03",
+                            "related_uuid": "e5c36318-8cbe-4413-a871-e2cb3fa9e404",
+                            "properties": {
+                                "job_title": "Director, Content Marketing & Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0fe44bc3-3771-4429-80c5-9dfb88c88baa",
+            "properties": {
+                "name": "Jayne Gonzalez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0fe44bc3-3771-4429-80c5-9dfb88c88baa",
+                    "value": "Jayne Gonzalez"
+                },
+                "linkedin": "jaynescuncio",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e7fda824-bd32-47d9-b7f1-3006a6819a43",
+                            "related_uuid": "0fe44bc3-3771-4429-80c5-9dfb88c88baa",
+                            "properties": {
+                                "job_title": "Director of Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

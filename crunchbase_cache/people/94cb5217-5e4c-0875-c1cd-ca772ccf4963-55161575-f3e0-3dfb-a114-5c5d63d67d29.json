@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2b5ad920-104e-4857-a1e1-676c90e4d022",
+            "properties": {
+                "name": "John Murdock",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2b5ad920-104e-4857-a1e1-676c90e4d022",
+                    "value": "John Murdock"
+                },
+                "linkedin": "johnmurdock",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2686343e-66b5-4118-bbf8-17abede612af",
+                            "related_uuid": "2b5ad920-104e-4857-a1e1-676c90e4d022",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

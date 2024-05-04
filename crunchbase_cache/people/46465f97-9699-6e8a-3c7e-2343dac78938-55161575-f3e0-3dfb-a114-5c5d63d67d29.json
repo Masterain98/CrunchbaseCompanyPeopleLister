@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "69e26a36-452a-4779-9420-336e8542ac90",
+            "properties": {
+                "name": "Brian Litvack",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "69e26a36-452a-4779-9420-336e8542ac90",
+                    "value": "Brian Litvack"
+                },
+                "linkedin": "brianlitvack",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "05ad4f11-7244-4eae-b6f3-2995c8b29fa1",
+                            "related_uuid": "69e26a36-452a-4779-9420-336e8542ac90",
+                            "properties": {
+                                "job_title": "CEO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "961aea6c-2fbf-4ec5-b0c1-8f88d414c016",
+            "properties": {
+                "name": "Roman Manchenko",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "961aea6c-2fbf-4ec5-b0c1-8f88d414c016",
+                    "value": "Roman Manchenko"
+                },
+                "linkedin": "roman-manchenko-2a830030",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_400_vp",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f7dda7a-2df4-44a8-b97c-314876d3b67e",
+                            "related_uuid": "961aea6c-2fbf-4ec5-b0c1-8f88d414c016",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

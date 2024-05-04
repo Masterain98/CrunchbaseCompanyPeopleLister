@@ -1,0 +1,225 @@
+{
+    "count": 7,
+    "entities": [
+        {
+            "uuid": "0e1c9b6f-0687-4eff-9c35-e70aee78d3a3",
+            "properties": {
+                "name": "Becky Peal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e1c9b6f-0687-4eff-9c35-e70aee78d3a3",
+                    "value": "Becky Peal"
+                },
+                "linkedin": "beckypeal",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "161375cf-c13e-4bea-94b3-2feaa4ed52cf",
+                            "related_uuid": "0e1c9b6f-0687-4eff-9c35-e70aee78d3a3",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "92fe820b-6c62-4596-be0c-cf68e5986938",
+            "properties": {
+                "name": "Denise Koutsis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "92fe820b-6c62-4596-be0c-cf68e5986938",
+                    "value": "Denise Koutsis"
+                },
+                "linkedin": "denisekoutsis",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a500324e-8440-427a-ae60-bb4ae9fb8048",
+                            "related_uuid": "92fe820b-6c62-4596-be0c-cf68e5986938",
+                            "properties": {
+                                "job_title": "Director Change Management and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cacc0ff5-f0b4-4e2b-a384-28313b530148",
+            "properties": {
+                "name": "Julie Joseph",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cacc0ff5-f0b4-4e2b-a384-28313b530148",
+                    "value": "Julie Joseph"
+                },
+                "linkedin": "juliejosephindia",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "152c72be-0622-4c0e-a497-45f9771a1e8d",
+                            "related_uuid": "cacc0ff5-f0b4-4e2b-a384-28313b530148",
+                            "properties": {
+                                "job_title": "Director, IT Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b5910083-800e-4ac5-bf11-0dc50599fd75",
+            "properties": {
+                "name": "Michael Pranikoff",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5910083-800e-4ac5-bf11-0dc50599fd75",
+                    "value": "Michael Pranikoff"
+                },
+                "linkedin": "michaelpranikoff",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5fdf5121-32f5-4b11-8386-efaf1e4ca8fd",
+                            "related_uuid": "b5910083-800e-4ac5-bf11-0dc50599fd75",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bcca5c44-015e-460d-bb43-0741741cc817",
+            "properties": {
+                "name": "Michelle Lindeman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bcca5c44-015e-460d-bb43-0741741cc817",
+                    "value": "Michelle Lindeman"
+                },
+                "linkedin": "michelle-lindeman-649b60",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a791519f-53a8-4786-ab48-b73a9f8ad1d1",
+                            "related_uuid": "bcca5c44-015e-460d-bb43-0741741cc817",
+                            "properties": {
+                                "job_title": "Director, Americas Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9b016263-b10a-4821-b87f-d32cf405818a",
+            "properties": {
+                "name": "Nathan Misner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9b016263-b10a-4821-b87f-d32cf405818a",
+                    "value": "Nathan Misner"
+                },
+                "linkedin": "nathanmisner",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "product"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a0fb64ec-fe36-4f64-9b7a-7dafddf49a8e",
+                            "related_uuid": "9b016263-b10a-4821-b87f-d32cf405818a",
+                            "properties": {
+                                "job_title": "Director, Product Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cd8c2dea-eb01-442a-9ea0-8d7057f02c15",
+            "properties": {
+                "name": "Veronica Skelton (she/her)",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cd8c2dea-eb01-442a-9ea0-8d7057f02c15",
+                    "value": "Veronica Skelton (she/her)"
+                },
+                "linkedin": "veronicaskelton",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00445013-82fc-494d-a58e-e5e66b07c0f3",
+                            "related_uuid": "cd8c2dea-eb01-442a-9ea0-8d7057f02c15",
+                            "properties": {
+                                "job_title": "Director of Communications, Global Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

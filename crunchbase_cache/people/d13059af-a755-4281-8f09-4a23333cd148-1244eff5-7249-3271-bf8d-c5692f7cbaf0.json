@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "843f036c-2c0b-48be-8c2d-2c17b2bf8565",
+            "properties": {
+                "name": "Scott Mercer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "843f036c-2c0b-48be-8c2d-2c17b2bf8565",
+                    "value": "Scott Mercer"
+                },
+                "linkedin": "scottrmercer",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bb1031a7-cae4-42f1-a650-8f180281c754",
+                            "related_uuid": "843f036c-2c0b-48be-8c2d-2c17b2bf8565",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

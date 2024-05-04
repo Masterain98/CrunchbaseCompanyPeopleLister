@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "e6a60c66-7601-4ae3-8eb8-41bc86bb8f05",
+            "properties": {
+                "name": "Evan Richman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e6a60c66-7601-4ae3-8eb8-41bc86bb8f05",
+                    "value": "Evan Richman"
+                },
+                "linkedin": "evanrichman",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a0a70ab5-5609-4b36-9201-bcfcff923787",
+                            "related_uuid": "e6a60c66-7601-4ae3-8eb8-41bc86bb8f05",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3bd116b4-84d2-4c75-8335-b3fd3ee0ef0e",
+            "properties": {
+                "name": "Todd Schwartz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3bd116b4-84d2-4c75-8335-b3fd3ee0ef0e",
+                    "value": "Todd Schwartz"
+                },
+                "linkedin": "todd-schwartz-08a84",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "25388734-0ad9-488a-b8cf-09abc6970ca5",
+                            "related_uuid": "3bd116b4-84d2-4c75-8335-b3fd3ee0ef0e",
+                            "properties": {
+                                "job_title": "Co-Founder and Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

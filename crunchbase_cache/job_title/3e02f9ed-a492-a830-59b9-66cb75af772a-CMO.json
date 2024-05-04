@@ -1,0 +1,197 @@
+{
+    "count": 24,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cmo",
+                "uuid": "99330263-c899-3a05-8dc1-8add519cae39",
+                "value": "CMO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cpo",
+                "uuid": "d4cf9c5d-657b-3fb1-b2c2-33fdb19ac2ff",
+                "value": "CPO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-client-success",
+                "uuid": "1b963bb8-434a-3f12-9df4-03d43f75faab",
+                "value": "Manager, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "technical-consultant",
+                "uuid": "4caba417-5032-3347-8e64-a2d414777e55",
+                "value": "Technical Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-compliance",
+                "uuid": "a86f684e-3bd5-3430-806f-df266c067037",
+                "value": "VP, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "managing-consultant",
+                "uuid": "dc1286a0-94f7-325c-8854-6b52650a0745",
+                "value": "Managing Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-information-security-officer",
+                "uuid": "416e6324-5e72-369e-8dc5-e680af3bb052",
+                "value": "Chief Information Security Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-client-success",
+                "uuid": "d2c5cb6c-22a2-3e3b-94ef-e1347415a4cc",
+                "value": "Director, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-customer-success",
+                "uuid": "2ee82f40-c391-32a3-b162-ae85116c237f",
+                "value": "Head of Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-of-construction",
+                "uuid": "584f077f-3664-3500-b52f-faf428eae038",
+                "value": "Director Of Construction"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant-compliance",
+                "uuid": "2a7c3af6-a5cd-33ed-bbe7-6941400ab0c5",
+                "value": "Consultant, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-client-success",
+                "uuid": "eaa30cf5-d79e-3dfb-b0f4-377d1aa0f623",
+                "value": "Senior Manager, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-compliance",
+                "uuid": "0c756239-a56f-3eae-8deb-a8044f563d91",
+                "value": "Head of Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-client-success",
+                "uuid": "cb8f8434-fb61-338b-8fb9-26d8f21c6a72",
+                "value": "Head of Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-construction-engineer",
+                "uuid": "673f2a13-bca7-3ba0-bfb4-3f2bac8f317e",
+                "value": "Senior Construction Engineer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-associate-client-success",
+                "uuid": "8b85d4df-3684-37ac-aaa2-1f9d5f74e4fd",
+                "value": "Senior Associate, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-of-construction-engineering",
+                "uuid": "abe82650-40ad-3174-a435-3dc7fa6c8009",
+                "value": "Director Of Construction, Engineering"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6c70aa19-8bc0-45e1-835e-795f9f26b1e6",
+            "properties": {
+                "name": "Meliha (Mel) Bilge",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6c70aa19-8bc0-45e1-835e-795f9f26b1e6",
+                    "value": "Meliha (Mel) Bilge"
+                },
+                "linkedin": "melihabilge",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "14ce5ec1-0cbe-496b-80ff-41b53d9ece3c",
+                            "related_uuid": "6c70aa19-8bc0-45e1-835e-795f9f26b1e6",
+                            "properties": {
+                                "job_title": "Director of Customer Success, Strategic"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "65e5100c-ef4d-43fe-8345-7308bee073bd",
+            "properties": {
+                "name": "Kirsten Newbold-knipp",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "65e5100c-ef4d-43fe-8345-7308bee073bd",
+                    "value": "Kirsten Newbold-knipp"
+                },
+                "linkedin": "kirstenpetra",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "77cea12f-32c9-47b8-8323-113af529d066",
+                            "related_uuid": "65e5100c-ef4d-43fe-8345-7308bee073bd",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

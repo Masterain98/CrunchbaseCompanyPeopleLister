@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7e391e7a-8c6d-41a5-95b6-6f483d4c43ad",
+            "properties": {
+                "name": "Jason Taylor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7e391e7a-8c6d-41a5-95b6-6f483d4c43ad",
+                    "value": "Jason Taylor"
+                },
+                "linkedin": "jhtaylorjason",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dd94a32d-e35b-4ac3-8546-cde129a1630e",
+                            "related_uuid": "7e391e7a-8c6d-41a5-95b6-6f483d4c43ad",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

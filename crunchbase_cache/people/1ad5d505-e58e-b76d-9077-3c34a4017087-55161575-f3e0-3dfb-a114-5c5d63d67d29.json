@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "26410966-7bea-4faa-81a2-adc0f8e4e38a",
+            "properties": {
+                "name": "Krishna Depura",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "26410966-7bea-4faa-81a2-adc0f8e4e38a",
+                    "value": "Krishna Depura"
+                },
+                "linkedin": "krishna-gopal-depura-344630",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d3512ecc-34a0-4069-a888-86ce68b242a7",
+                            "related_uuid": "26410966-7bea-4faa-81a2-adc0f8e4e38a",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

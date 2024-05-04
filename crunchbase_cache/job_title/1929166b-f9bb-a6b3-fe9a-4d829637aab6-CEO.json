@@ -1,0 +1,85 @@
+{
+    "count": 10,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service",
+                "uuid": "060dca13-af57-34f1-a7d2-f2deb799b437",
+                "value": "Customer Service"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "financial-controller",
+                "uuid": "3d450b59-616f-3a3a-aadf-c3b7cf292fc1",
+                "value": "Financial Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cro",
+                "uuid": "5922bcca-31a5-347d-a587-ac39e8b7c1e4",
+                "value": "CRO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-of-staff",
+                "uuid": "9000f488-7fc0-37fb-9de9-3b13c17c9dea",
+                "value": "Chief Of Staff"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "contractor",
+                "uuid": "26744aa9-d6c0-3c24-a957-fb97d987546c",
+                "value": "Contractor"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant-compliance",
+                "uuid": "2a7c3af6-a5cd-33ed-bbe7-6941400ab0c5",
+                "value": "Consultant, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-supply-chain",
+                "uuid": "e77b6d2a-4bb5-3ab1-9884-d6a4a46d01a0",
+                "value": "Head of Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-corporate-development",
+                "uuid": "74b90109-1102-3790-9cba-a3238a614388",
+                "value": "Senior Manager, Corporate Development"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "474999f6-f62d-46b1-bd3c-2185327d3ddd",
+            "properties": {
+                "name": "Conor Hickey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "474999f6-f62d-46b1-bd3c-2185327d3ddd",
+                    "value": "Conor Hickey"
+                },
+                "linkedin": "oconorhickey",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "06a7d775-18ed-471e-853f-145e09696aed",
+                            "related_uuid": "474999f6-f62d-46b1-bd3c-2185327d3ddd",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1d99ac49-80cb-4bfd-89b6-c68e8cedbb5c",
+            "properties": {
+                "name": "Steven Sakadales",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1d99ac49-80cb-4bfd-89b6-c68e8cedbb5c",
+                    "value": "Steven Sakadales"
+                },
+                "linkedin": "stevensakadales",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4de5e77c-9e42-484d-aa05-a238d3bf4f34",
+                            "related_uuid": "1d99ac49-80cb-4bfd-89b6-c68e8cedbb5c",
+                            "properties": {
+                                "job_title": "Sr. Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

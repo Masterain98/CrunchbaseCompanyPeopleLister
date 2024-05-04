@@ -1,0 +1,85 @@
+{
+    "count": 10,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cmo",
+                "uuid": "99330263-c899-3a05-8dc1-8add519cae39",
+                "value": "CMO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "community-manager",
+                "uuid": "bfd38a01-1f3e-3508-b609-b080c7f669d0",
+                "value": "Community Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-client-success",
+                "uuid": "1b963bb8-434a-3f12-9df4-03d43f75faab",
+                "value": "Manager, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "content-specialist",
+                "uuid": "4e693364-6a3a-3fa9-84e7-211a2b532469",
+                "value": "Content Specialist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-client-success",
+                "uuid": "66045c40-50a8-3c4e-94bd-8edfd22f8db0",
+                "value": "VP, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "partner-client-success",
+                "uuid": "275c9890-2156-3b43-aecb-7b392f73fcbb",
+                "value": "Partner, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-vp-client-success",
+                "uuid": "cfff9f23-8dcf-3ce6-8387-94d94b325f9f",
+                "value": "Senior VP, Client Success"
+            }
+        }
+    ]
+}

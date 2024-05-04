@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "a397f00b-f9dc-4270-ba77-ed4b0e0daa99",
+            "properties": {
+                "name": "Joanna Walsh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a397f00b-f9dc-4270-ba77-ed4b0e0daa99",
+                    "value": "Joanna Walsh"
+                },
+                "linkedin": "joannajohnson0",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "70c19a4f-f98f-43e9-836b-56ffabc3dbc1",
+                            "related_uuid": "a397f00b-f9dc-4270-ba77-ed4b0e0daa99",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "be718e74-5825-48fb-8ecb-23c3b5615fca",
+            "properties": {
+                "name": "Melissa Goncalves",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "be718e74-5825-48fb-8ecb-23c3b5615fca",
+                    "value": "Melissa Goncalves"
+                },
+                "linkedin": "melissagoncalves",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "829584fa-707f-46cb-bbef-79ecfd6ff6fc",
+                            "related_uuid": "be718e74-5825-48fb-8ecb-23c3b5615fca",
+                            "properties": {
+                                "job_title": "Director of Customer Success Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

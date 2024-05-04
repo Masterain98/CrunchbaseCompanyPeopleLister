@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "022267bc-0781-4949-bd43-1604773ebe71",
+            "properties": {
+                "name": "Joe Partlow",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "022267bc-0781-4949-bd43-1604773ebe71",
+                    "value": "Joe Partlow"
+                },
+                "linkedin": "joe-partlow-a4aa913a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4fdaf41d-4bee-43d3-95fb-1c94b87acfa7",
+                            "related_uuid": "022267bc-0781-4949-bd43-1604773ebe71",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

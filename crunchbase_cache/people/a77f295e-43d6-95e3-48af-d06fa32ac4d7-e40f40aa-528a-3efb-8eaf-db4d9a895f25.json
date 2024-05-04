@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fbfd9177-c50b-4143-847b-9d4a564d7f10",
+            "properties": {
+                "name": "May Z Pryor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fbfd9177-c50b-4143-847b-9d4a564d7f10",
+                    "value": "May Z Pryor"
+                },
+                "linkedin": "mayzpryor",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "be5f2693-12c5-463b-81d0-8bfc4b2a7782",
+                            "related_uuid": "fbfd9177-c50b-4143-847b-9d4a564d7f10",
+                            "properties": {
+                                "job_title": "Director of Content & Creative Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "79d0ffd7-083f-499a-8741-75b54174cc28",
+            "properties": {
+                "name": "Terry Kisner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "79d0ffd7-083f-499a-8741-75b54174cc28",
+                    "value": "Terry Kisner"
+                },
+                "linkedin": "terrykisner",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6e6af5c3-655d-4c30-a332-d994de084709",
+                            "related_uuid": "79d0ffd7-083f-499a-8741-75b54174cc28",
+                            "properties": {
+                                "job_title": "Sr. Director Customer Success & Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

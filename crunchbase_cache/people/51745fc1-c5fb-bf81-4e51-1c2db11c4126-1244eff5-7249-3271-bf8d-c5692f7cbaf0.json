@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a905aa32-a24f-4c42-a749-581b34a245ff",
+            "properties": {
+                "name": "Aaron Cohen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a905aa32-a24f-4c42-a749-581b34a245ff",
+                    "value": "Aaron Cohen"
+                },
+                "linkedin": "aaronecohen",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f399381-91b9-4c00-8bb5-3b0ee431cb7c",
+                            "related_uuid": "a905aa32-a24f-4c42-a749-581b34a245ff",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

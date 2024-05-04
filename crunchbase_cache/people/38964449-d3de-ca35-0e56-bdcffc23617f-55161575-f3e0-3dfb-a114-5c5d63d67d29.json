@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ea76bc4d-a28a-4f57-be94-ea2dd5261fc7",
+            "properties": {
+                "name": "Feyzi Fatehi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ea76bc4d-a28a-4f57-be94-ea2dd5261fc7",
+                    "value": "Feyzi Fatehi"
+                },
+                "linkedin": "feyzifatehi",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6d67d43d-a01a-4f15-9d58-980f15506771",
+                            "related_uuid": "ea76bc4d-a28a-4f57-be94-ea2dd5261fc7",
+                            "properties": {
+                                "job_title": "Chairman, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

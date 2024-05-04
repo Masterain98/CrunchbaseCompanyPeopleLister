@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "53537c80-9ed1-41a2-8c10-1c4cd16a81df",
+            "properties": {
+                "name": "Mark Sarbiewski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "53537c80-9ed1-41a2-8c10-1c4cd16a81df",
+                    "value": "Mark Sarbiewski"
+                },
+                "linkedin": "sarbiewski",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "24327737-657a-49c9-a8c0-be3dc682bb72",
+                            "related_uuid": "53537c80-9ed1-41a2-8c10-1c4cd16a81df",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

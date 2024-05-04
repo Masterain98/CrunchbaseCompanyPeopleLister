@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "b50ed549-7a05-46bb-b60e-f0d111f3c0f8",
+            "properties": {
+                "name": "Emily Surdyk",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b50ed549-7a05-46bb-b60e-f0d111f3c0f8",
+                    "value": "Emily Surdyk"
+                },
+                "linkedin": "emily-surdyk-9a1b40a4",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8ce9dee4-77af-41bb-8abf-be7f90dca69f",
+                            "related_uuid": "b50ed549-7a05-46bb-b60e-f0d111f3c0f8",
+                            "properties": {
+                                "job_title": "Practice Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "429cf554-06ae-4676-8021-84924d945112",
+            "properties": {
+                "name": "Kim Keaney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "429cf554-06ae-4676-8021-84924d945112",
+                    "value": "Kim Keaney"
+                },
+                "linkedin": "kimberlygiffordkeaney",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "08f78d59-9a0e-4a27-adf0-eb38efe42ed4",
+                            "related_uuid": "429cf554-06ae-4676-8021-84924d945112",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

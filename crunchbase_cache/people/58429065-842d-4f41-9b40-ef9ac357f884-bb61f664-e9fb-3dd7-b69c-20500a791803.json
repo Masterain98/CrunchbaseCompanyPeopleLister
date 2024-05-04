@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b8bdccbf-110b-4926-9164-2188f277a59a",
+            "properties": {
+                "name": "Amit Dar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b8bdccbf-110b-4926-9164-2188f277a59a",
+                    "value": "Amit Dar"
+                },
+                "linkedin": "amit-dar-3423b06a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "221ee01c-524c-41b5-8bfd-7ec8f8348cc3",
+                            "related_uuid": "b8bdccbf-110b-4926-9164-2188f277a59a",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

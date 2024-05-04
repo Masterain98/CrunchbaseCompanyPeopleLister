@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ce3072c9-0337-4d90-906c-b68fecc52821",
+            "properties": {
+                "name": "Kevin Hamilton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ce3072c9-0337-4d90-906c-b68fecc52821",
+                    "value": "Kevin Hamilton"
+                },
+                "linkedin": "kevinjhamilton",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2b8758fd-0e25-4fd1-a9c1-413b0578b5a5",
+                            "related_uuid": "ce3072c9-0337-4d90-906c-b68fecc52821",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

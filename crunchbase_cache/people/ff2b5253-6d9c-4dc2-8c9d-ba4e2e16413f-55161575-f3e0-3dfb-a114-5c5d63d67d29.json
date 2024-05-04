@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b893614b-9a1a-40fe-8903-374163330853",
+            "properties": {
+                "name": "Jonathan Berte",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b893614b-9a1a-40fe-8903-374163330853",
+                    "value": "Jonathan Berte"
+                },
+                "linkedin": "jonathanberte",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "761c0a79-825d-4be1-b831-06d9aaebc9e5",
+                            "related_uuid": "b893614b-9a1a-40fe-8903-374163330853",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

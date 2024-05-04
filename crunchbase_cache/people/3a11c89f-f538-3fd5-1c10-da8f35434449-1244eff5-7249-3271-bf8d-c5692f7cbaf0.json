@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "69a7c698-da79-4b80-8fe5-d6064d66614f",
+            "properties": {
+                "name": "Spyros Magiatis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "69a7c698-da79-4b80-8fe5-d6064d66614f",
+                    "value": "Spyros Magiatis"
+                },
+                "linkedin": "magiatis",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ca072261-cdeb-48de-886a-1389e5ee8137",
+                            "related_uuid": "69a7c698-da79-4b80-8fe5-d6064d66614f",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

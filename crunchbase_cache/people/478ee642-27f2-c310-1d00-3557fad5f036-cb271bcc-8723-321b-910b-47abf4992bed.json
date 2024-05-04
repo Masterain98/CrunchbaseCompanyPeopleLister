@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "436bef86-83ab-4be9-a7dc-b40ae9e5acc5",
+            "properties": {
+                "name": "Rachel Phipps",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "436bef86-83ab-4be9-a7dc-b40ae9e5acc5",
+                    "value": "Rachel Phipps"
+                },
+                "linkedin": "rachel-phipps-72176b11",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4019851b-3ca1-4b36-96e5-99d72c8c4b76",
+                            "related_uuid": "436bef86-83ab-4be9-a7dc-b40ae9e5acc5",
+                            "properties": {
+                                "job_title": "Director of Customer Success, EMEA"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

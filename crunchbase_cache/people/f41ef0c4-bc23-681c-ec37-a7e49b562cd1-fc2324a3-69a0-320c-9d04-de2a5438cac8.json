@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "55271974-5556-43c2-bb26-2d608c8680e9",
+            "properties": {
+                "name": "Greg Kausman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "55271974-5556-43c2-bb26-2d608c8680e9",
+                    "value": "Greg Kausman"
+                },
+                "linkedin": "gregory-l-kaufman-583108b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "278f23a9-5dec-4a6b-9ade-a3aa6bd88454",
+                            "related_uuid": "55271974-5556-43c2-bb26-2d608c8680e9",
+                            "properties": {
+                                "job_title": "Director, Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e70d68e1-2681-42e5-9bbe-f323273f168e",
+            "properties": {
+                "name": "Duncan Angove",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e70d68e1-2681-42e5-9bbe-f323273f168e",
+                    "value": "Duncan Angove"
+                },
+                "linkedin": "duncanangove",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b03aa93e-7b2f-4fab-a4ec-eae5c890df66",
+                            "related_uuid": "e70d68e1-2681-42e5-9bbe-f323273f168e",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

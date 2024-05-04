@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d4ec3ef7-27d2-4569-ab38-b3d3f6aded27",
+            "properties": {
+                "name": "Nichole Herran",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d4ec3ef7-27d2-4569-ab38-b3d3f6aded27",
+                    "value": "Nichole Herran"
+                },
+                "linkedin": "nicholeherran",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a49c8c69-f60d-462e-b9ed-922e46e850a6",
+                            "related_uuid": "d4ec3ef7-27d2-4569-ab38-b3d3f6aded27",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "507567de-360b-446c-a5d9-7299a2807f40",
+            "properties": {
+                "name": "Paul Feinberg",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "507567de-360b-446c-a5d9-7299a2807f40",
+                    "value": "Paul Feinberg"
+                },
+                "linkedin": "paul-feinberg-7313a17",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "63e55f5a-e581-4a26-a8d3-69edf245bd78",
+                            "related_uuid": "507567de-360b-446c-a5d9-7299a2807f40",
+                            "properties": {
+                                "job_title": "Head of Partnerships, Sector CTO Office"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "00ff8230-c602-4b04-a36f-13dbcc60bcd5",
+            "properties": {
+                "name": "Scott Stapp",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "00ff8230-c602-4b04-a36f-13dbcc60bcd5",
+                    "value": "Scott Stapp"
+                },
+                "linkedin": "scott-stapp-4986b35",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c381ed0c-f6ef-4a56-a64e-4c3e85203d62",
+                            "related_uuid": "00ff8230-c602-4b04-a36f-13dbcc60bcd5",
+                            "properties": {
+                                "job_title": "Corporate Vice President & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

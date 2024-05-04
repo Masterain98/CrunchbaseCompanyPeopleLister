@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0f7a07e4-2759-49b0-95b8-d2f33d2aa661",
+            "properties": {
+                "name": "Paul Overton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0f7a07e4-2759-49b0-95b8-d2f33d2aa661",
+                    "value": "Paul Overton"
+                },
+                "linkedin": "pauloverton",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "31a8d2b9-9b41-4e87-8a88-f9518757e0b8",
+                            "related_uuid": "0f7a07e4-2759-49b0-95b8-d2f33d2aa661",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

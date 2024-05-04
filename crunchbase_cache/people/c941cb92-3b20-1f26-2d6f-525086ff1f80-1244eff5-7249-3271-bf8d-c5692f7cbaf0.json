@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f6c25a63-4e31-4c91-83fc-1b28cc76be58",
+            "properties": {
+                "name": "Berend Berendsen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f6c25a63-4e31-4c91-83fc-1b28cc76be58",
+                    "value": "Berend Berendsen"
+                },
+                "linkedin": "berend-berendsen",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "41073a7c-5882-4810-9cc6-e7250bf986bd",
+                            "related_uuid": "f6c25a63-4e31-4c91-83fc-1b28cc76be58",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

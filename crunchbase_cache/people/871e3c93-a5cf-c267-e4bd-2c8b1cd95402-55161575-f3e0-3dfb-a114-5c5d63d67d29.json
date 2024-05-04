@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b1ab6aab-a907-47b2-92bc-6ae5e0e860b5",
+            "properties": {
+                "name": "Spence Green",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b1ab6aab-a907-47b2-92bc-6ae5e0e860b5",
+                    "value": "Spence Green"
+                },
+                "linkedin": "spencegreen",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "247d4e93-8b64-4d50-9118-b2831fd23d63",
+                            "related_uuid": "b1ab6aab-a907-47b2-92bc-6ae5e0e860b5",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

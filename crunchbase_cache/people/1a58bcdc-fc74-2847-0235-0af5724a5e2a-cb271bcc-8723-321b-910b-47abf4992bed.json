@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ababa074-990a-4240-b896-5d869910fd7e",
+            "properties": {
+                "name": "Matthew Taylor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ababa074-990a-4240-b896-5d869910fd7e",
+                    "value": "Matthew Taylor"
+                },
+                "linkedin": "matthew-taylor-4a5a5670",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "021de507-1716-474b-80a1-2b42366c936d",
+                            "related_uuid": "ababa074-990a-4240-b896-5d869910fd7e",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

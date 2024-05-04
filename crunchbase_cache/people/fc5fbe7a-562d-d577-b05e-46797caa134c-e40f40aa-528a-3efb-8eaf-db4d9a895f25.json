@@ -1,0 +1,455 @@
+{
+    "count": 14,
+    "entities": [
+        {
+            "uuid": "d45318a0-2ded-4794-bed8-7577ef9af6a0",
+            "properties": {
+                "name": "Ed McFadden",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d45318a0-2ded-4794-bed8-7577ef9af6a0",
+                    "value": "Ed McFadden"
+                },
+                "linkedin": "ed-mcfadden-4087155",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "51fc1233-f57f-416e-ad24-6d12a508d6d4",
+                            "related_uuid": "d45318a0-2ded-4794-bed8-7577ef9af6a0",
+                            "properties": {
+                                "job_title": "Design Principal and UX Creative Director, CIO Design"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "77b1441c-020e-4f99-b64d-394ce6de4a85",
+            "properties": {
+                "name": "Adrian Franks",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "77b1441c-020e-4f99-b64d-394ce6de4a85",
+                    "value": "Adrian Franks"
+                },
+                "linkedin": "adrianfranks",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "02ed5975-7899-4b5e-8e0f-f717ca205127",
+                            "related_uuid": "77b1441c-020e-4f99-b64d-394ce6de4a85",
+                            "properties": {
+                                "job_title": "Creative Director of Experience Design & Content"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d5613a4b-3255-4723-84a4-bc9ba61ea85f",
+            "properties": {
+                "name": "Charlie Flexon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d5613a4b-3255-4723-84a4-bc9ba61ea85f",
+                    "value": "Charlie Flexon"
+                },
+                "linkedin": "charlieflexon",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "249c8471-a7ba-474c-8c98-9ff131f1c75a",
+                            "related_uuid": "d5613a4b-3255-4723-84a4-bc9ba61ea85f",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "18693757-0831-4aa4-adcf-b3c081d6cb31",
+            "properties": {
+                "name": "Jeannie Servaas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "18693757-0831-4aa4-adcf-b3c081d6cb31",
+                    "value": "Jeannie Servaas"
+                },
+                "linkedin": "jeannie-servaas-81965a22",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6cbcd785-89e4-491a-8921-d7bcf31694c4",
+                            "related_uuid": "18693757-0831-4aa4-adcf-b3c081d6cb31",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "67c43341-873e-4e39-a385-0848e812e807",
+            "properties": {
+                "name": "Joe Esposito",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "67c43341-873e-4e39-a385-0848e812e807",
+                    "value": "Joe Esposito"
+                },
+                "linkedin": "joe-esposito-5537bb25",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3c898c92-fd98-4159-a8cb-ac7a96089e26",
+                            "related_uuid": "67c43341-873e-4e39-a385-0848e812e807",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e0a67857-e5ec-4e6c-b3fb-8ae4c42e636c",
+            "properties": {
+                "name": "Justin MacNair",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e0a67857-e5ec-4e6c-b3fb-8ae4c42e636c",
+                    "value": "Justin MacNair"
+                },
+                "linkedin": "justinmacnair",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "29590aee-f82c-4878-80ff-834104cd3ac5",
+                            "related_uuid": "e0a67857-e5ec-4e6c-b3fb-8ae4c42e636c",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0c5b5afc-03c9-4de7-92a4-5c898470b27e",
+            "properties": {
+                "name": "Kelsey Scott",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0c5b5afc-03c9-4de7-92a4-5c898470b27e",
+                    "value": "Kelsey Scott"
+                },
+                "linkedin": "kelseyjduke",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a256c42-049c-44af-966e-9c49610aee32",
+                            "related_uuid": "0c5b5afc-03c9-4de7-92a4-5c898470b27e",
+                            "properties": {
+                                "job_title": "Creative Director - Visual Design"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4bffd96d-0cef-4207-b204-fb413954b756",
+            "properties": {
+                "name": "Mark Fredo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4bffd96d-0cef-4207-b204-fb413954b756",
+                    "value": "Mark Fredo"
+                },
+                "linkedin": "markfredo",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9a8d40b1-ddd2-4247-a2db-96380a74edca",
+                            "related_uuid": "4bffd96d-0cef-4207-b204-fb413954b756",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ac93a071-74de-4ed6-86ec-6dccf9578f41",
+            "properties": {
+                "name": "Matt Calkins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ac93a071-74de-4ed6-86ec-6dccf9578f41",
+                    "value": "Matt Calkins"
+                },
+                "linkedin": "matt-calkins-a933315",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "02429621-0741-4914-a88f-26e0f6f8d099",
+                            "related_uuid": "ac93a071-74de-4ed6-86ec-6dccf9578f41",
+                            "properties": {
+                                "job_title": "Creative Director, Design Principal"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a67232aa-4aea-49f9-b8f9-7a8395fd87e0",
+            "properties": {
+                "name": "Michael Powell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a67232aa-4aea-49f9-b8f9-7a8395fd87e0",
+                    "value": "Michael Powell"
+                },
+                "linkedin": "michael-powell-a5980a5",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a4c7e45e-29b6-4d81-9fdd-439f891f3575",
+                            "related_uuid": "a67232aa-4aea-49f9-b8f9-7a8395fd87e0",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0681b50c-15a8-4608-a462-8c2dee0445ba",
+            "properties": {
+                "name": "Morgan Delk",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0681b50c-15a8-4608-a462-8c2dee0445ba",
+                    "value": "Morgan Delk"
+                },
+                "linkedin": "morgan-delk-30961a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7e5a2748-8d0f-4cdc-801a-45d38220192c",
+                            "related_uuid": "0681b50c-15a8-4608-a462-8c2dee0445ba",
+                            "properties": {
+                                "job_title": "Global Design Strategist, Enterprise Design Thinking Leader, Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "eacb64af-595e-4480-b06d-63c408b0d134",
+            "properties": {
+                "name": "Rachael Barnes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eacb64af-595e-4480-b06d-63c408b0d134",
+                    "value": "Rachael Barnes"
+                },
+                "linkedin": "rachael-barnes-4871b85",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "377aae8a-1a48-402d-bf50-5b44103781cd",
+                            "related_uuid": "eacb64af-595e-4480-b06d-63c408b0d134",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "63c80b91-cc90-4b78-8ffc-ed5eab93c8b2",
+            "properties": {
+                "name": "Ryan Caruthers",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "63c80b91-cc90-4b78-8ffc-ed5eab93c8b2",
+                    "value": "Ryan Caruthers"
+                },
+                "linkedin": "ryan-caruthers-64143422",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "24c3741b-e534-4f57-8cea-7e31d84d7699",
+                            "related_uuid": "63c80b91-cc90-4b78-8ffc-ed5eab93c8b2",
+                            "properties": {
+                                "job_title": "Design Principal, Creative Director at IBM Design"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "850b8ab3-28df-4cf2-b0ce-c4bb450f72de",
+            "properties": {
+                "name": "Sean Goss",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "850b8ab3-28df-4cf2-b0ce-c4bb450f72de",
+                    "value": "Sean Goss"
+                },
+                "linkedin": "sean-goss-a51b8b4",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "59b57716-3de1-4c97-9ad2-e359b439aed5",
+                            "related_uuid": "850b8ab3-28df-4cf2-b0ce-c4bb450f72de",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

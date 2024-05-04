@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3c423358-48b4-4890-afd3-2f587544fd1e",
+            "properties": {
+                "name": "Mr. Hunter Madeley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3c423358-48b4-4890-afd3-2f587544fd1e",
+                    "value": "Mr. Hunter Madeley"
+                },
+                "linkedin": "huntermadeley",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "70f39240-bbe6-4c23-aa70-88d90c3d8cef",
+                            "related_uuid": "3c423358-48b4-4890-afd3-2f587544fd1e",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

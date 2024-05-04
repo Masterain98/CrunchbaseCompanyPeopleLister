@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "882e9366-fa62-416d-aa23-57cee2427a16",
+            "properties": {
+                "name": "Alisha Patel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "882e9366-fa62-416d-aa23-57cee2427a16",
+                    "value": "Alisha Patel"
+                },
+                "linkedin": "alishap86",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "50d06bfe-417e-4c7e-9b3b-45b4cb932d9d",
+                            "related_uuid": "882e9366-fa62-416d-aa23-57cee2427a16",
+                            "properties": {
+                                "job_title": "Director, Mid Market Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

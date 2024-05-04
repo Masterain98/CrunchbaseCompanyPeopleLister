@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7e1b5273-4dfc-4217-a703-a5b978c57cee",
+            "properties": {
+                "name": "Ian Hamilton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7e1b5273-4dfc-4217-a703-a5b978c57cee",
+                    "value": "Ian Hamilton"
+                },
+                "linkedin": "ian-hamilton-cto",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "75078e4f-a7d2-44d9-a3b1-b41a1144e2d5",
+                            "related_uuid": "7e1b5273-4dfc-4217-a703-a5b978c57cee",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

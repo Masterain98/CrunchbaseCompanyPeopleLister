@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "284ac140-5401-468f-b4ac-4189bc971cf3",
+            "properties": {
+                "name": "Michael Boese",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "284ac140-5401-468f-b4ac-4189bc971cf3",
+                    "value": "Michael Boese"
+                },
+                "linkedin": "michael-boese-6b98b03",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "87822d8c-d3c7-492e-a29d-5f1aaa9a19d3",
+                            "related_uuid": "284ac140-5401-468f-b4ac-4189bc971cf3",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

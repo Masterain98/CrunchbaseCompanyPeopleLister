@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "d0d783b1-6c96-40bd-9f32-4956b0172089",
+            "properties": {
+                "name": "Geri Chadick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d0d783b1-6c96-40bd-9f32-4956b0172089",
+                    "value": "Geri Chadick"
+                },
+                "linkedin": "geri-chadick-2a9811159",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2f9f47b0-5cf9-40f0-ac8c-5e97425984eb",
+                            "related_uuid": "d0d783b1-6c96-40bd-9f32-4956b0172089",
+                            "properties": {
+                                "job_title": "Director of Customer Success Enablement"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3c5aa248-d456-4b32-bac5-37ec9e3769cf",
+            "properties": {
+                "name": "Jennifer Mendoza",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3c5aa248-d456-4b32-bac5-37ec9e3769cf",
+                    "value": "Jennifer Mendoza"
+                },
+                "linkedin": "jennifer-mendoza-b905523",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ab62155-edf7-48f9-a705-ba56694f7c5e",
+                            "related_uuid": "3c5aa248-d456-4b32-bac5-37ec9e3769cf",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6db513ef-8b47-4640-8296-0914285f14a9",
+            "properties": {
+                "name": "Grant Halloran",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6db513ef-8b47-4640-8296-0914285f14a9",
+                    "value": "Grant Halloran"
+                },
+                "linkedin": "granthalloran",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f4757e3-fb24-48dc-9389-fe239752b225",
+                            "related_uuid": "6db513ef-8b47-4640-8296-0914285f14a9",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

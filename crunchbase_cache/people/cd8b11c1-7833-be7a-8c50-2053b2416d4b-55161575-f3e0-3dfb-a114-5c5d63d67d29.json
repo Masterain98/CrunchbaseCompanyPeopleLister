@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c83b5011-3f0d-46bc-8142-350da5052164",
+            "properties": {
+                "name": "Jaspreet Singh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c83b5011-3f0d-46bc-8142-350da5052164",
+                    "value": "Jaspreet Singh"
+                },
+                "linkedin": "jaspreets",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6f4458e8-6071-40f6-8fd0-20700bc7bb74",
+                            "related_uuid": "c83b5011-3f0d-46bc-8142-350da5052164",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

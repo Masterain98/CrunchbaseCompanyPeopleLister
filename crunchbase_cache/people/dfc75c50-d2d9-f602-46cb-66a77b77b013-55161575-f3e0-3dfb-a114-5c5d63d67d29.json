@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6ac20ee8-d404-463e-b47c-8399c9203860",
+            "properties": {
+                "name": "Kedar Kulkarni",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6ac20ee8-d404-463e-b47c-8399c9203860",
+                    "value": "Kedar Kulkarni"
+                },
+                "linkedin": "writetokedar",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7ae98018-d3de-4121-8892-b112c1d79a0a",
+                            "related_uuid": "6ac20ee8-d404-463e-b47c-8399c9203860",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

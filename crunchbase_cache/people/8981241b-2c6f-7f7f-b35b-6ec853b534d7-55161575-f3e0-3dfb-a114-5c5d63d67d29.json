@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c2302a3c-ca28-4773-9beb-b4d111a543c7",
+            "properties": {
+                "name": "Mike de Vere",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c2302a3c-ca28-4773-9beb-b4d111a543c7",
+                    "value": "Mike de Vere"
+                },
+                "linkedin": "mikedevere",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "755bdd51-5c86-41d7-91b7-f89b471e938f",
+                            "related_uuid": "c2302a3c-ca28-4773-9beb-b4d111a543c7",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

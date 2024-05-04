@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aa746c8f-11a5-4c9b-b776-f207fd7c2a30",
+            "properties": {
+                "name": "Dan Hobin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aa746c8f-11a5-4c9b-b776-f207fd7c2a30",
+                    "value": "Dan Hobin"
+                },
+                "linkedin": "danhobin",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e9fed90b-0855-4daa-ac5e-660c38e1cd77",
+                            "related_uuid": "aa746c8f-11a5-4c9b-b776-f207fd7c2a30",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

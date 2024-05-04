@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "a72e739a-ca03-4ab9-8369-972e29addf90",
+            "properties": {
+                "name": "Dick Burke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a72e739a-ca03-4ab9-8369-972e29addf90",
+                    "value": "Dick Burke"
+                },
+                "linkedin": "dickburke",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1da799a2-1c76-40a0-9a0a-5afd25a854fd",
+                            "related_uuid": "a72e739a-ca03-4ab9-8369-972e29addf90",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "036b4279-1c09-4c8b-8b6c-a791b94be890",
+            "properties": {
+                "name": "Dick Burke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "036b4279-1c09-4c8b-8b6c-a791b94be890",
+                    "value": "Dick Burke"
+                },
+                "linkedin": "dick-burke-850b056",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6dd4f060-5f68-45a6-bb54-83cac3b497b2",
+                            "related_uuid": "036b4279-1c09-4c8b-8b6c-a791b94be890",
+                            "properties": {
+                                "job_title": "President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

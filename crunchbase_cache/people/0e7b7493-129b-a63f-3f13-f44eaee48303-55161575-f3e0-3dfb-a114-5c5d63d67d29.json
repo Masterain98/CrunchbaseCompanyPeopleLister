@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b59db306-be44-4f35-8d08-ca6ff6bb0da8",
+            "properties": {
+                "name": "Jeffrey Fotta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b59db306-be44-4f35-8d08-ca6ff6bb0da8",
+                    "value": "Jeffrey Fotta"
+                },
+                "linkedin": "jeffrey-fotta-49552069",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "48a4b6db-a667-4b2a-a45a-ae0bf5b1e628",
+                            "related_uuid": "b59db306-be44-4f35-8d08-ca6ff6bb0da8",
+                            "properties": {
+                                "job_title": "President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

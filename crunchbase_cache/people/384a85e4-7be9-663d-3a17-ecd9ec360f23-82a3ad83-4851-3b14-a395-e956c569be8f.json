@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c5c17488-37e4-4e43-a29e-c703005d27ad",
+            "properties": {
+                "name": "Morgan Palmedo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c5c17488-37e4-4e43-a29e-c703005d27ad",
+                    "value": "Morgan Palmedo"
+                },
+                "linkedin": "morganpalmedo",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9dd8de04-aa58-4b56-b65b-f56e2db0cc4f",
+                            "related_uuid": "c5c17488-37e4-4e43-a29e-c703005d27ad",
+                            "properties": {
+                                "job_title": "Senior Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

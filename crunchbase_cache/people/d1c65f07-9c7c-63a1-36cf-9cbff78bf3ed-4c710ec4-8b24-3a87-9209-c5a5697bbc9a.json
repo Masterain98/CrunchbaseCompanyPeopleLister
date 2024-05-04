@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "edde5dfd-1277-450e-813f-df613a00cf7a",
+            "properties": {
+                "name": "Kateryna Nalbadian",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "edde5dfd-1277-450e-813f-df613a00cf7a",
+                    "value": "Kateryna Nalbadian"
+                },
+                "linkedin": "kateryna-nalbadian",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "22c404ac-a2ea-4302-8845-3a02e0d6e5a8",
+                            "related_uuid": "edde5dfd-1277-450e-813f-df613a00cf7a",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

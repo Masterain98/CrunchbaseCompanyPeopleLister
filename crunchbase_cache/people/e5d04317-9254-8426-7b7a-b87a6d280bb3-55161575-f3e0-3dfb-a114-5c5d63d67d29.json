@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f0b6af0e-5818-47e6-9d17-6d142b44bbe9",
+            "properties": {
+                "name": "Gary Gains",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f0b6af0e-5818-47e6-9d17-6d142b44bbe9",
+                    "value": "Gary Gains"
+                },
+                "linkedin": "lipko",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "016968c5-16fd-4ac9-9993-d095578102df",
+                            "related_uuid": "f0b6af0e-5818-47e6-9d17-6d142b44bbe9",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fb116617-fadc-4c68-ad47-fee0835eff73",
+            "properties": {
+                "name": "Jon Finegold",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fb116617-fadc-4c68-ad47-fee0835eff73",
+                    "value": "Jon Finegold"
+                },
+                "linkedin": "jfinegold",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "05311d8b-994b-4327-9d14-b4c551ccd2d8",
+                            "related_uuid": "fb116617-fadc-4c68-ad47-fee0835eff73",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

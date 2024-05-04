@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f9453039-2a4d-486e-8024-ae21c403f12c",
+            "properties": {
+                "name": "Okello Carter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f9453039-2a4d-486e-8024-ae21c403f12c",
+                    "value": "Okello Carter"
+                },
+                "linkedin": "okello-carter",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "61804845-e395-41ec-8071-274d794d71e4",
+                            "related_uuid": "f9453039-2a4d-486e-8024-ae21c403f12c",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

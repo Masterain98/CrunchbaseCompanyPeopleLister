@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f5b6707b-5507-4459-8fc1-0564b15c3336",
+            "properties": {
+                "name": "David Campbell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f5b6707b-5507-4459-8fc1-0564b15c3336",
+                    "value": "David Campbell"
+                },
+                "linkedin": "davidtropic",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "417a2d51-1e13-44fd-b6de-46450254745b",
+                            "related_uuid": "f5b6707b-5507-4459-8fc1-0564b15c3336",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

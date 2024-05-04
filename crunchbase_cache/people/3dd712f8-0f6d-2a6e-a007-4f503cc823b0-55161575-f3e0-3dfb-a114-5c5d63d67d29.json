@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8513cfa9-259b-4c4c-8fc1-5ad7b64a8eb1",
+            "properties": {
+                "name": "Aaron Feuer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8513cfa9-259b-4c4c-8fc1-5ad7b64a8eb1",
+                    "value": "Aaron Feuer"
+                },
+                "linkedin": "aaronfeuer",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "200165c0-b660-4d42-8baf-a490106973ff",
+                            "related_uuid": "8513cfa9-259b-4c4c-8fc1-5ad7b64a8eb1",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

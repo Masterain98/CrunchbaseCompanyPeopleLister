@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "63412570-4650-4966-8d8f-db5af0494b3a",
+            "properties": {
+                "name": "Mike Shchelkonogov",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "63412570-4650-4966-8d8f-db5af0494b3a",
+                    "value": "Mike Shchelkonogov"
+                },
+                "linkedin": "mikhail-shchelkonogov-652820aa",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e177ee93-0dd2-4174-ae02-e8873bee3847",
+                            "related_uuid": "63412570-4650-4966-8d8f-db5af0494b3a",
+                            "properties": {
+                                "job_title": "Founder and Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c0771626-a4b3-49c2-87ca-9f76e091dcfe",
+            "properties": {
+                "name": "Steve Parker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c0771626-a4b3-49c2-87ca-9f76e091dcfe",
+                    "value": "Steve Parker"
+                },
+                "linkedin": "stevelparker",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e49e3d8-e7c7-4f53-829e-98e10d2e958f",
+                            "related_uuid": "c0771626-a4b3-49c2-87ca-9f76e091dcfe",
+                            "properties": {
+                                "job_title": "CTO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

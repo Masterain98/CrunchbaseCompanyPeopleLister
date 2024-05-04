@@ -1,0 +1,21 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-success-manager",
+                "uuid": "a08444ef-dbbe-38d5-ba39-54f974e2941b",
+                "value": "Senior Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-communications",
+                "uuid": "fa5a54c8-072d-3850-8460-28296975f02f",
+                "value": "Head of Communications"
+            }
+        }
+    ]
+}

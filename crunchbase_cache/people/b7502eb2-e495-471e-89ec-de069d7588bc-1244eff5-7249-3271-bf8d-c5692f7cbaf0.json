@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "b4332df1-928f-40d9-8324-cd6f96ada2f0",
+            "properties": {
+                "name": "Eric Hensley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b4332df1-928f-40d9-8324-cd6f96ada2f0",
+                    "value": "Eric Hensley"
+                },
+                "linkedin": "eric-hensley-669b75",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "83508fae-2f27-41e5-8750-b9d0b76a5d2d",
+                            "related_uuid": "b4332df1-928f-40d9-8324-cd6f96ada2f0",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6f02b2e6-6dba-4bd3-8f26-18ef126c3e57",
+            "properties": {
+                "name": "Eric Hensley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6f02b2e6-6dba-4bd3-8f26-18ef126c3e57",
+                    "value": "Eric Hensley"
+                },
+                "linkedin": "erhensley",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "80ae4342-fb5c-43d0-81ec-91b4948219b8",
+                            "related_uuid": "6f02b2e6-6dba-4bd3-8f26-18ef126c3e57",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

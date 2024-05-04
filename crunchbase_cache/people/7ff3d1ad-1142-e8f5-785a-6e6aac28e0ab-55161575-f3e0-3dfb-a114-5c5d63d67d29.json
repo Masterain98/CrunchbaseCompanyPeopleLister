@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2a4526b8-9df7-4c66-bbac-0a5c9142ce0e",
+            "properties": {
+                "name": "Ramu Potarazu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2a4526b8-9df7-4c66-bbac-0a5c9142ce0e",
+                    "value": "Ramu Potarazu"
+                },
+                "linkedin": "ramu-potarazu-720ba25",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3ec5bb07-0ab3-4730-b7dd-3e16f23d5e24",
+                            "related_uuid": "2a4526b8-9df7-4c66-bbac-0a5c9142ce0e",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

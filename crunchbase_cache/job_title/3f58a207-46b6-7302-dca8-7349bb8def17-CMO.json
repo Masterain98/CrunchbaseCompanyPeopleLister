@@ -1,0 +1,93 @@
+{
+    "count": 11,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cmo",
+                "uuid": "99330263-c899-3a05-8dc1-8add519cae39",
+                "value": "CMO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-client-services",
+                "uuid": "d8248116-e748-3461-b3f5-cc7273ed8dc7",
+                "value": "Director, Client Services"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "channel-manager",
+                "uuid": "410bf21c-f60d-3719-8b9b-aa1a1341ca6a",
+                "value": "Channel Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-communications",
+                "uuid": "b7e41b3c-fbf6-3d32-a5b4-6e9bfec63e4d",
+                "value": "Senior Manager, Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-support-specialist",
+                "uuid": "8a84191a-1e76-3181-8286-2a57b4576642",
+                "value": "Customer Support Specialist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "channel-sales-manager",
+                "uuid": "eb7aef69-5317-3d1a-acc4-462f27c2d4c4",
+                "value": "Channel Sales Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-marketing-communications-manager",
+                "uuid": "aebdce6a-4c5e-317d-8f73-27d3da49518c",
+                "value": "Senior Marketing Communications Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-channel-development",
+                "uuid": "fac459aa-1401-39e2-86a5-3b0fd0fc4e12",
+                "value": "Director, Channel Development"
+            }
+        }
+    ]
+}

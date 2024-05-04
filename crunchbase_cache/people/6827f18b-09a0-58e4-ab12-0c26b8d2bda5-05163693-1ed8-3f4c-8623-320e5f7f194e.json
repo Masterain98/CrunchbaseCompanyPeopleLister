@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8ca66a75-3489-47ba-99d3-a45c866cdc76",
+            "properties": {
+                "name": "Casey Kita",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8ca66a75-3489-47ba-99d3-a45c866cdc76",
+                    "value": "Casey Kita"
+                },
+                "linkedin": "caseymoosmann",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "71275d05-a0bd-4fc8-89c2-91a9786cfb61",
+                            "related_uuid": "8ca66a75-3489-47ba-99d3-a45c866cdc76",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

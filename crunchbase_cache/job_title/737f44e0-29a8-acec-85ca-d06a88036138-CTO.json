@@ -1,0 +1,93 @@
+{
+    "count": 11,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-communications",
+                "uuid": "71733786-b67a-3e23-8ff7-cbbc08ebdc8d",
+                "value": "VP, Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "technical-consultant",
+                "uuid": "4caba417-5032-3347-8e64-a2d414777e55",
+                "value": "Technical Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-success-manager",
+                "uuid": "a08444ef-dbbe-38d5-ba39-54f974e2941b",
+                "value": "Senior Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "content-specialist",
+                "uuid": "4e693364-6a3a-3fa9-84e7-211a2b532469",
+                "value": "Content Specialist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-vp-customer-success",
+                "uuid": "6f231038-736d-3aca-b8de-ec9d356a0ef7",
+                "value": "Senior VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "strategic-consultant",
+                "uuid": "260e0edd-a468-3675-a992-25e60c1dae20",
+                "value": "Strategic Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-account-manager",
+                "uuid": "e87660b4-73e2-3838-bae0-200a39931c30",
+                "value": "Senior Customer Account Manager"
+            }
+        }
+    ]
+}

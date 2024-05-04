@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "36f392fc-dd59-4e81-9ca5-0d4111fc51ee",
+            "properties": {
+                "name": "Brady James",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "36f392fc-dd59-4e81-9ca5-0d4111fc51ee",
+                    "value": "Brady James"
+                },
+                "linkedin": "bradyjames1",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "08c25c22-dcce-4196-8167-5a95f7ec49c0",
+                            "related_uuid": "36f392fc-dd59-4e81-9ca5-0d4111fc51ee",
+                            "properties": {
+                                "job_title": "Manager of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

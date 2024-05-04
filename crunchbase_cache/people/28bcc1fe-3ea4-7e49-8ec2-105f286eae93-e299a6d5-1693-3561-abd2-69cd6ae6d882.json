@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d09f5287-50c2-438d-91aa-3ce410f374db",
+            "properties": {
+                "name": "Michele Page - Crma",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d09f5287-50c2-438d-91aa-3ce410f374db",
+                    "value": "Michele Page - Crma"
+                },
+                "linkedin": "michelepagecrma",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "16287738-98c3-4f3a-aa22-3509127739e7",
+                            "related_uuid": "d09f5287-50c2-438d-91aa-3ce410f374db",
+                            "properties": {
+                                "job_title": "Director of Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

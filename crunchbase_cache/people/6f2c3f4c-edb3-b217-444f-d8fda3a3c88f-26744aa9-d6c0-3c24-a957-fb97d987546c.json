@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "187b39b4-aa9b-4d39-9203-e90b3b65df47",
+            "properties": {
+                "name": "Zena Brazier",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "187b39b4-aa9b-4d39-9203-e90b3b65df47",
+                    "value": "Zena Brazier"
+                },
+                "linkedin": "zena-brazier-ba5a2821",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "pro_services"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "034417f2-69d6-47a7-9710-cc8428ce00f1",
+                            "related_uuid": "187b39b4-aa9b-4d39-9203-e90b3b65df47",
+                            "properties": {
+                                "job_title": "Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

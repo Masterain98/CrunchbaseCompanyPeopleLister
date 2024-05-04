@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "48c45dab-3cdc-45a1-b3c2-49a6e944c9a0",
+            "properties": {
+                "name": "Meagan Crocker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "48c45dab-3cdc-45a1-b3c2-49a6e944c9a0",
+                    "value": "Meagan Crocker"
+                },
+                "linkedin": "meaganrometty",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "224ab91e-c30f-4233-9ef5-23f80b5585c8",
+                            "related_uuid": "48c45dab-3cdc-45a1-b3c2-49a6e944c9a0",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

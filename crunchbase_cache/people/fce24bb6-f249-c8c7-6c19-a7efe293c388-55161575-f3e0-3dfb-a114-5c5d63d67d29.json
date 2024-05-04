@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fbd36205-cb67-4464-ae57-5a655c10142f",
+            "properties": {
+                "name": "Peter Lee",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fbd36205-cb67-4464-ae57-5a655c10142f",
+                    "value": "Peter Lee"
+                },
+                "linkedin": "peter-lee-8a022011",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f7c8d9bc-8fe7-494a-b98c-08bd0c16a77e",
+                            "related_uuid": "fbd36205-cb67-4464-ae57-5a655c10142f",
+                            "properties": {
+                                "job_title": "President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

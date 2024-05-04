@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2069d47d-0941-43d8-a4b5-1b2249c60f13",
+            "properties": {
+                "name": "Ritesh Kini",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2069d47d-0941-43d8-a4b5-1b2249c60f13",
+                    "value": "Ritesh Kini"
+                },
+                "linkedin": "riteshkini",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "94bb47d2-dab4-4b6f-9857-b5a68f972051",
+                            "related_uuid": "2069d47d-0941-43d8-a4b5-1b2249c60f13",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

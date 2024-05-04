@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4514d077-963a-4b4f-ba8e-911106368526",
+            "properties": {
+                "name": "Sebastien Ricard",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4514d077-963a-4b4f-ba8e-911106368526",
+                    "value": "Sebastien Ricard"
+                },
+                "linkedin": "s%C3%A9bastien-ricard-1547a84",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c734890e-c816-4df2-b695-3a60a644c36a",
+                            "related_uuid": "4514d077-963a-4b4f-ba8e-911106368526",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

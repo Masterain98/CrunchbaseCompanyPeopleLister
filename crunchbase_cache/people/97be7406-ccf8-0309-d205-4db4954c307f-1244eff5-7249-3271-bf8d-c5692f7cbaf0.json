@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "7dbac67f-8259-4a21-9fd6-dbd308c2d990",
+            "properties": {
+                "name": "Ben Calderon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7dbac67f-8259-4a21-9fd6-dbd308c2d990",
+                    "value": "Ben Calderon"
+                },
+                "linkedin": "ben-calderon-0927361",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "63379c86-832d-4764-bdce-083431c575c3",
+                            "related_uuid": "7dbac67f-8259-4a21-9fd6-dbd308c2d990",
+                            "properties": {
+                                "job_title": "CTO - Hardware, Operations and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "050927af-806f-4010-8d6e-ebaf3014fbe1",
+            "properties": {
+                "name": "John Bicket",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "050927af-806f-4010-8d6e-ebaf3014fbe1",
+                    "value": "John Bicket"
+                },
+                "linkedin": "jbicket",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5f9ee41c-04a5-41b8-b695-fff162f0a7dc",
+                            "related_uuid": "050927af-806f-4010-8d6e-ebaf3014fbe1",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ffd14528-a266-41e8-bdc2-40eb72870651",
+            "properties": {
+                "name": "Roman Stanek",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ffd14528-a266-41e8-bdc2-40eb72870651",
+                    "value": "Roman Stanek"
+                },
+                "linkedin": "stanekroman",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0cdda5c8-889e-451b-8fe5-9d10bc0587a2",
+                            "related_uuid": "ffd14528-a266-41e8-bdc2-40eb72870651",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

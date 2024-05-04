@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a9804881-3c4a-497b-b0ff-cd9dc7dcf2d3",
+            "properties": {
+                "name": "Jaanus Ranniit",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a9804881-3c4a-497b-b0ff-cd9dc7dcf2d3",
+                    "value": "Jaanus Ranniit"
+                },
+                "linkedin": "jaanus-ranniit",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "48a5d969-7ba6-4fc0-816a-3fd506852f6d",
+                            "related_uuid": "a9804881-3c4a-497b-b0ff-cd9dc7dcf2d3",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

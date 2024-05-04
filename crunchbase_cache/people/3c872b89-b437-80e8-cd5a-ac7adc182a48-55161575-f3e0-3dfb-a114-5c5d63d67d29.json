@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fdbb8407-c9aa-43fb-8a98-70d2a9c2aa47",
+            "properties": {
+                "name": "Joseph Ansanelli",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fdbb8407-c9aa-43fb-8a98-70d2a9c2aa47",
+                    "value": "Joseph Ansanelli"
+                },
+                "linkedin": "ansanelli",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "72b0c692-6d06-47e3-8915-2fe5f3d5ffab",
+                            "related_uuid": "fdbb8407-c9aa-43fb-8a98-70d2a9c2aa47",
+                            "properties": {
+                                "job_title": "CEO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

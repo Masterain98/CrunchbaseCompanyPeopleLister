@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "4d11adcc-c298-4c8f-837e-634a6d646966",
+            "properties": {
+                "name": "Todd Grantham",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4d11adcc-c298-4c8f-837e-634a6d646966",
+                    "value": "Todd Grantham"
+                },
+                "linkedin": "toddgrantham",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "10448e99-92b1-4f24-90c1-dbb943200e03",
+                            "related_uuid": "4d11adcc-c298-4c8f-837e-634a6d646966",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "303c14f6-82ac-4a13-96c6-82245fe0cdd7",
+            "properties": {
+                "name": "Valerie Buckingham",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "303c14f6-82ac-4a13-96c6-82245fe0cdd7",
+                    "value": "Valerie Buckingham"
+                },
+                "linkedin": "buckingham",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "882e46bd-0960-4d29-88a0-6b335025f36c",
+                            "related_uuid": "303c14f6-82ac-4a13-96c6-82245fe0cdd7",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "793a613d-96ba-4f88-bed8-6285b5f8a4b1",
+            "properties": {
+                "name": "Lizzy Day",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "793a613d-96ba-4f88-bed8-6285b5f8a4b1",
+                    "value": "Lizzy Day"
+                },
+                "linkedin": "lizzy-day-nee-owen-pam-70228314",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "db67f1be-89e2-41c9-883d-cc063bc9eadf",
+                            "related_uuid": "793a613d-96ba-4f88-bed8-6285b5f8a4b1",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

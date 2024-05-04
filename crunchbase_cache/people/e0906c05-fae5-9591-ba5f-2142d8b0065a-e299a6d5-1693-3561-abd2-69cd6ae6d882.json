@@ -1,0 +1,131 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "a5fbd68c-18af-4fc1-b91c-2bf1526da8d2",
+            "properties": {
+                "name": "Denise Coutinho",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a5fbd68c-18af-4fc1-b91c-2bf1526da8d2",
+                    "value": "Denise Coutinho"
+                },
+                "linkedin": "denise-coutinho-5600a27",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "629f23bf-f77a-4392-8a12-edc080d1d73d",
+                            "related_uuid": "a5fbd68c-18af-4fc1-b91c-2bf1526da8d2",
+                            "properties": {
+                                "job_title": "Director, Global Trade Compliance and Quality"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8f9619f2-a34d-4c48-b859-ac969cde75c1",
+            "properties": {
+                "name": "Lori Price",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8f9619f2-a34d-4c48-b859-ac969cde75c1",
+                    "value": "Lori Price"
+                },
+                "linkedin": "lori-price-6a64709",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ef7b7eb-30fd-404f-a481-8014ea573b06",
+                            "related_uuid": "8f9619f2-a34d-4c48-b859-ac969cde75c1",
+                            "properties": {
+                                "job_title": "Director, Security Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b487ac19-3e54-47f1-98b7-234fd475d8a0",
+            "properties": {
+                "name": "Nathan Opheim",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b487ac19-3e54-47f1-98b7-234fd475d8a0",
+                    "value": "Nathan Opheim"
+                },
+                "linkedin": "nathanopheim",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "legal",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "02beef50-e130-406b-9901-6e8fe0c9bd5d",
+                            "related_uuid": "b487ac19-3e54-47f1-98b7-234fd475d8a0",
+                            "properties": {
+                                "job_title": "Director, Global Legal Compliance & Brand Protection Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "53c90523-91d8-46ac-b8eb-cb50e0543ca5",
+            "properties": {
+                "name": "Rosa Lu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "53c90523-91d8-46ac-b8eb-cb50e0543ca5",
+                    "value": "Rosa Lu"
+                },
+                "linkedin": "rosa-lu-4152a0b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1903af17-3221-4027-bd03-aa4e93dd560e",
+                            "related_uuid": "53c90523-91d8-46ac-b8eb-cb50e0543ca5",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

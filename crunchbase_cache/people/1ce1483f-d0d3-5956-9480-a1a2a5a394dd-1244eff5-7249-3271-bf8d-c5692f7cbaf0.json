@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e24c32a0-04ce-4639-99e7-e855da54982a",
+            "properties": {
+                "name": "Kinesh Patel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e24c32a0-04ce-4639-99e7-e855da54982a",
+                    "value": "Kinesh Patel"
+                },
+                "linkedin": "kinesh",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a1b4788-6908-4007-adcd-5c569ad5004a",
+                            "related_uuid": "e24c32a0-04ce-4639-99e7-e855da54982a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

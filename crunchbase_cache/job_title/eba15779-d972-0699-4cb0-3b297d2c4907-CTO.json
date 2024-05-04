@@ -1,0 +1,61 @@
+{
+    "count": 7,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "sales-consultant",
+                "uuid": "77ebb497-2e29-38cf-8171-f3382582d089",
+                "value": "Sales Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "clerk",
+                "uuid": "34776981-fa47-3a6c-b3f2-915d11bae051",
+                "value": "Clerk"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "contract-manager",
+                "uuid": "735f9101-86d3-31d3-ac52-adf3b7e47910",
+                "value": "Contract Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "contract-specialist",
+                "uuid": "97e1a899-c7bf-3da4-aff9-84e0bf47a8b9",
+                "value": "Contract Specialist"
+            }
+        }
+    ]
+}

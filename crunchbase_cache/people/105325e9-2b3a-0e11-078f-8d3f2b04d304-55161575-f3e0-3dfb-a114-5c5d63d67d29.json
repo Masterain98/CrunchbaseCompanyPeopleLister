@@ -1,0 +1,66 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "3f4ae79c-fa2b-45e2-9186-168130fb0216",
+            "properties": {
+                "name": "Pierre Naude",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3f4ae79c-fa2b-45e2-9186-168130fb0216",
+                    "value": "Pierre Naude"
+                },
+                "linkedin": "pierrenaude",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a52a218-b1ba-4c9b-93b5-cdc6d02d15c5",
+                            "related_uuid": "3f4ae79c-fa2b-45e2-9186-168130fb0216",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "686bf9c2-9197-4e50-b903-bce0e769452d",
+            "properties": {
+                "name": "Pierre Naude",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "686bf9c2-9197-4e50-b903-bce0e769452d",
+                    "value": "Pierre Naude"
+                },
+                "linkedin": "pierre-naude-38393",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26f7b99b-8b73-43ee-8495-ee42931e559b",
+                            "related_uuid": "686bf9c2-9197-4e50-b903-bce0e769452d",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

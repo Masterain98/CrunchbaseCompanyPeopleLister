@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8c0889e0-d911-4d1f-b929-7670ec2c2d61",
+            "properties": {
+                "name": "Melissa Liton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8c0889e0-d911-4d1f-b929-7670ec2c2d61",
+                    "value": "Melissa Liton"
+                },
+                "linkedin": "melissaliton",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "59f9523f-12bb-403c-958b-27be08fbb8de",
+                            "related_uuid": "8c0889e0-d911-4d1f-b929-7670ec2c2d61",
+                            "properties": {
+                                "job_title": "Sr. Director of Global Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

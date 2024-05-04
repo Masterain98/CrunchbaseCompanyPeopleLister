@@ -1,0 +1,205 @@
+{
+    "count": 25,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-consultant",
+                "uuid": "c32664aa-9318-3dbe-9476-b1439c92abca",
+                "value": "Senior Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service",
+                "uuid": "060dca13-af57-34f1-a7d2-f2deb799b437",
+                "value": "Customer Service"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-creative",
+                "uuid": "e40f40aa-528a-3efb-8eaf-db4d9a895f25",
+                "value": "Director, Creative"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-communications",
+                "uuid": "526743f9-dd18-3d06-b770-a428ef52d2d9",
+                "value": "Manager, Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-compliance",
+                "uuid": "af643dba-10ab-3440-bff6-5a4d9f4fe7fb",
+                "value": "Manager, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cmo",
+                "uuid": "99330263-c899-3a05-8dc1-8add519cae39",
+                "value": "CMO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cro",
+                "uuid": "5922bcca-31a5-347d-a587-ac39e8b7c1e4",
+                "value": "CRO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "assistant-controller",
+                "uuid": "48bf9a93-8526-357b-b918-c423517fcd9b",
+                "value": "Assistant Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "contractor",
+                "uuid": "26744aa9-d6c0-3c24-a957-fb97d987546c",
+                "value": "Contractor"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "technical-consultant",
+                "uuid": "4caba417-5032-3347-8e64-a2d414777e55",
+                "value": "Technical Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-people-officer",
+                "uuid": "787bf94f-69bd-3055-bb9f-361e6b23c0c2",
+                "value": "Chief People Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-technical-consultant",
+                "uuid": "96514465-6f40-33d4-8700-caaee57a0ce1",
+                "value": "Senior Technical Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-information-security-officer",
+                "uuid": "416e6324-5e72-369e-8dc5-e680af3bb052",
+                "value": "Chief Information Security Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "content-strategist",
+                "uuid": "4c84ce01-e8b7-3ccd-aaef-02c5ddbaade2",
+                "value": "Content Strategist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "supply-chain-specialist",
+                "uuid": "385351f8-24c6-39b1-b6b6-4eaaabae0446",
+                "value": "Supply Chain Specialist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-service-representative",
+                "uuid": "138dcd84-62d8-392d-a5e3-aa48846f0f02",
+                "value": "Senior Customer Service Representative"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-compliance",
+                "uuid": "5e6d29e4-f181-3b80-9986-8c21d1c4eea4",
+                "value": "Senior Director, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-service",
+                "uuid": "91992a26-a0d4-39da-95b8-4165c9a453a2",
+                "value": "Manager, Customer Service"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "curriculum-developer",
+                "uuid": "e9b48553-ada5-3c1d-b5da-76289ee36ea9",
+                "value": "Curriculum Developer"
+            }
+        }
+    ]
+}

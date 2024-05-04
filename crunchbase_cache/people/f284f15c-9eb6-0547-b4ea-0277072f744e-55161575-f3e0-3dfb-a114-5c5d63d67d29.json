@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "5e2d2e8b-9cdf-448b-8d3a-8a30906449f8",
+            "properties": {
+                "name": "Chris Hylen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5e2d2e8b-9cdf-448b-8d3a-8a30906449f8",
+                    "value": "Chris Hylen"
+                },
+                "linkedin": "chylen",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6fe30914-8a54-4b6e-a80d-e2213025a3fb",
+                            "related_uuid": "5e2d2e8b-9cdf-448b-8d3a-8a30906449f8",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ea541a3a-27d6-4c00-8e0f-7e4c306a7c10",
+            "properties": {
+                "name": "Manish Sood",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ea541a3a-27d6-4c00-8e0f-7e4c306a7c10",
+                    "value": "Manish Sood"
+                },
+                "linkedin": "manishsood",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4fca3f6a-5892-4bc3-bf4c-05d6bf5aea34",
+                            "related_uuid": "ea541a3a-27d6-4c00-8e0f-7e4c306a7c10",
+                            "properties": {
+                                "job_title": "Chief Executive Officer, Founder & Chairman"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

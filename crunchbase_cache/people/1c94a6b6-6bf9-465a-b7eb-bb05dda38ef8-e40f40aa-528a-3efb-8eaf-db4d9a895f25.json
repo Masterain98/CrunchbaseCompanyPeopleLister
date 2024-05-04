@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "65e6b456-bb28-4c09-bc24-0bcf240d6ea4",
+            "properties": {
+                "name": "Daniel Brown",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "65e6b456-bb28-4c09-bc24-0bcf240d6ea4",
+                    "value": "Daniel Brown"
+                },
+                "linkedin": "danielowenbrown",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "51958978-cb64-4e8d-9c15-37c4544cd81f",
+                            "related_uuid": "65e6b456-bb28-4c09-bc24-0bcf240d6ea4",
+                            "properties": {
+                                "job_title": "Associate Director, Creative Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

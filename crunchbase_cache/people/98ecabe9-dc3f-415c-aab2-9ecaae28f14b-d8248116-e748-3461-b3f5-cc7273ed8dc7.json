@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "50afec2b-02be-4cd0-b4af-7794640d0dbb",
+            "properties": {
+                "name": "Sara DiCicco",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "50afec2b-02be-4cd0-b4af-7794640d0dbb",
+                    "value": "Sara DiCicco"
+                },
+                "linkedin": "sara-dicicco-a5a74928",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e6bd911d-ebd9-4f5a-a327-49847092afa6",
+                            "related_uuid": "50afec2b-02be-4cd0-b4af-7794640d0dbb",
+                            "properties": {
+                                "job_title": "Director, Client Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

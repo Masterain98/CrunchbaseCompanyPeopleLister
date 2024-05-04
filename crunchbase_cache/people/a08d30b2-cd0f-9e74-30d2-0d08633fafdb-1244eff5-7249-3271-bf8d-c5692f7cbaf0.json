@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "af959836-5af8-4265-9e07-247823ae00af",
+            "properties": {
+                "name": "Izabel Jelenic",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "af959836-5af8-4265-9e07-247823ae00af",
+                    "value": "Izabel Jelenic"
+                },
+                "linkedin": "izabel-jelenic-1855974",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "181c0a05-af7f-4349-a07c-4e42a0fcd299",
+                            "related_uuid": "af959836-5af8-4265-9e07-247823ae00af",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

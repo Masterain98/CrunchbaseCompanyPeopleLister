@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5a6a06fa-0b78-4b5c-9f05-b07c44cc979d",
+            "properties": {
+                "name": "Benjamin Chadsey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5a6a06fa-0b78-4b5c-9f05-b07c44cc979d",
+                    "value": "Benjamin Chadsey"
+                },
+                "linkedin": "benjamin-chadsey-894671240",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7d297079-d9c2-4152-8308-c3363c96974b",
+                            "related_uuid": "5a6a06fa-0b78-4b5c-9f05-b07c44cc979d",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

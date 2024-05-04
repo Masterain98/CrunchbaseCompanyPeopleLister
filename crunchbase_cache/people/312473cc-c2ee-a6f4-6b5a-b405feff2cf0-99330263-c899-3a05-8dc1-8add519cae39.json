@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "159cdf7f-b474-44c0-b410-8f7463d0e5f5",
+            "properties": {
+                "name": "Brendan Reid",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "159cdf7f-b474-44c0-b410-8f7463d0e5f5",
+                    "value": "Brendan Reid"
+                },
+                "linkedin": "brendanmatthewreid",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "49310fd6-5ae1-43d1-a21f-73f8a30dc626",
+                            "related_uuid": "159cdf7f-b474-44c0-b410-8f7463d0e5f5",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

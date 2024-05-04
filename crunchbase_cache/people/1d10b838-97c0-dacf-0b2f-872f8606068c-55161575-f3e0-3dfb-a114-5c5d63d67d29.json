@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "474811ce-3ddb-4dc1-9bb7-49b1b8ce1b24",
+            "properties": {
+                "name": "Joaquim Lecha",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "474811ce-3ddb-4dc1-9bb7-49b1b8ce1b24",
+                    "value": "Joaquim Lecha"
+                },
+                "linkedin": "joaquim-lecha-040136",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "adc78837-60df-4ab2-a7c4-5c1268059f6d",
+                            "related_uuid": "474811ce-3ddb-4dc1-9bb7-49b1b8ce1b24",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ea02c7ae-2f73-49b5-b161-ab39417bcfc1",
+            "properties": {
+                "name": "Sanjay Vyas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ea02c7ae-2f73-49b5-b161-ab39417bcfc1",
+                    "value": "Sanjay Vyas"
+                },
+                "linkedin": "sanjay-vyas",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "02bc4dbb-6db7-4a27-abd8-b2b298e8af40",
+                            "related_uuid": "ea02c7ae-2f73-49b5-b161-ab39417bcfc1",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

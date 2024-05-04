@@ -1,0 +1,13 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-client-success",
+                "uuid": "d2c5cb6c-22a2-3e3b-94ef-e1347415a4cc",
+                "value": "Director, Client Success"
+            }
+        }
+    ]
+}

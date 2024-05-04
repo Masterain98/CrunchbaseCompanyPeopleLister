@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "66e9b3b2-dec2-41ce-9dbf-0dfb01dc2e83",
+            "properties": {
+                "name": "Nicole DuPont Latimer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "66e9b3b2-dec2-41ce-9dbf-0dfb01dc2e83",
+                    "value": "Nicole DuPont Latimer"
+                },
+                "linkedin": "nicole-dupont-latimer-4097078",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "187ae992-bf19-4269-8605-8c617fa930eb",
+                            "related_uuid": "66e9b3b2-dec2-41ce-9dbf-0dfb01dc2e83",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

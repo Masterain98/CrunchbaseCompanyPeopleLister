@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c02c31bb-5154-4e73-bf2e-e7a08ea61f5e",
+            "properties": {
+                "name": "Jonathan Zifkin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c02c31bb-5154-4e73-bf2e-e7a08ea61f5e",
+                    "value": "Jonathan Zifkin"
+                },
+                "linkedin": "jonathan-zifkin-4b3a0521",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ac2a3039-43a3-4785-a3ff-7d125add2ca5",
+                            "related_uuid": "c02c31bb-5154-4e73-bf2e-e7a08ea61f5e",
+                            "properties": {
+                                "job_title": "Director, Strategic Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

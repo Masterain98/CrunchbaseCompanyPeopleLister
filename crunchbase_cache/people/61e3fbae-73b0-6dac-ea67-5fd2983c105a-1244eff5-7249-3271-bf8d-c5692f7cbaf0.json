@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "66fd56c6-b674-4bd6-ba0f-e7e36f96edc7",
+            "properties": {
+                "name": "Jason T. Ordway",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "66fd56c6-b674-4bd6-ba0f-e7e36f96edc7",
+                    "value": "Jason T. Ordway"
+                },
+                "linkedin": "jtordway",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "66228065-f373-4317-b530-e31aa13e05f9",
+                            "related_uuid": "66fd56c6-b674-4bd6-ba0f-e7e36f96edc7",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

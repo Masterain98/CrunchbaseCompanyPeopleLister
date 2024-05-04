@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fba6d990-6e3d-4f9b-9a65-b07d63c5b6dd",
+            "properties": {
+                "name": "Eric Meyer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fba6d990-6e3d-4f9b-9a65-b07d63c5b6dd",
+                    "value": "Eric Meyer"
+                },
+                "linkedin": "eric-meyer-9111a373",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a4a908b5-7a33-4322-8632-fa94abd9f1a0",
+                            "related_uuid": "fba6d990-6e3d-4f9b-9a65-b07d63c5b6dd",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

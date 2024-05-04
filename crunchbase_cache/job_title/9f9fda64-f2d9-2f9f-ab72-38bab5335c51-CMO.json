@@ -1,0 +1,37 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-communications",
+                "uuid": "b7e41b3c-fbf6-3d32-a5b4-6e9bfec63e4d",
+                "value": "Senior Manager, Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-customer-success",
+                "uuid": "83f8e061-b433-3059-8520-61f22abd7a19",
+                "value": "VP, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-channel-manager",
+                "uuid": "ca9aedb6-c60f-33ad-b993-2283b9573dbe",
+                "value": "Senior Channel Manager"
+            }
+        }
+    ]
+}

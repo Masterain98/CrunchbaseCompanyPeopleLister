@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "40c21aae-636d-487a-8540-bccbd267c14d",
+            "properties": {
+                "name": "David Meadows",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "40c21aae-636d-487a-8540-bccbd267c14d",
+                    "value": "David Meadows"
+                },
+                "linkedin": "david-meadows-6baa0b4",
+                "job_levels": [
+                    "l_300_director",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "product"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c9cc0924-8ceb-4105-af5e-bbd149471fd0",
+                            "related_uuid": "40c21aae-636d-487a-8540-bccbd267c14d",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

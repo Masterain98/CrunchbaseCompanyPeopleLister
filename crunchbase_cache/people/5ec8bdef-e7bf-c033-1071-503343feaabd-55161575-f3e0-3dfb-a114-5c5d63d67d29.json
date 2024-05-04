@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "72717f49-b8b1-437e-a7d9-dfd8085b7a9e",
+            "properties": {
+                "name": "Oz Alon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "72717f49-b8b1-437e-a7d9-dfd8085b7a9e",
+                    "value": "Oz Alon"
+                },
+                "linkedin": "ozalon",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "efe09e52-7904-47ab-8cca-a60c9f12c885",
+                            "related_uuid": "72717f49-b8b1-437e-a7d9-dfd8085b7a9e",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

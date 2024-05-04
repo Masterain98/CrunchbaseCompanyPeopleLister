@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2110e5f8-6586-48d1-a1f4-8da890a2f6ec",
+            "properties": {
+                "name": "Nicholas Romero",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2110e5f8-6586-48d1-a1f4-8da890a2f6ec",
+                    "value": "Nicholas Romero"
+                },
+                "linkedin": "nicholasromito",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1b86e8db-8659-4f21-9a28-d6f988382a7b",
+                            "related_uuid": "2110e5f8-6586-48d1-a1f4-8da890a2f6ec",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

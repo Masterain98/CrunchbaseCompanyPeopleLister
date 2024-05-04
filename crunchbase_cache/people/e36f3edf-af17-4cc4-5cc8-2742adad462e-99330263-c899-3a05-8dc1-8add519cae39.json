@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1ae1b51c-ea16-4b73-98bb-001a76feaa57",
+            "properties": {
+                "name": "Kristin Hambelton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1ae1b51c-ea16-4b73-98bb-001a76feaa57",
+                    "value": "Kristin Hambelton"
+                },
+                "linkedin": "kmhambelton",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e5cddad-a386-479f-86bd-b2b8366665c0",
+                            "related_uuid": "1ae1b51c-ea16-4b73-98bb-001a76feaa57",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

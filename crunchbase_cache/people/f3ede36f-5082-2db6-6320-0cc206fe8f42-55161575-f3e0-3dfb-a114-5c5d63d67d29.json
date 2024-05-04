@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "66191962-107c-417d-962a-b12f8c22713a",
+            "properties": {
+                "name": "John Meadows",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "66191962-107c-417d-962a-b12f8c22713a",
+                    "value": "John Meadows"
+                },
+                "linkedin": "john-meadows-7434a615",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6198830f-45d5-4693-a42e-36c2037bfa48",
+                            "related_uuid": "66191962-107c-417d-962a-b12f8c22713a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

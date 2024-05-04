@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a31d7102-c245-45df-b63f-9c7934690061",
+            "properties": {
+                "name": "Eitan Yanovsky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a31d7102-c245-45df-b63f-9c7934690061",
+                    "value": "Eitan Yanovsky"
+                },
+                "linkedin": "eitan-yanovsky-25565214",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19c23b76-fe4d-48f5-855c-9740d73cb36f",
+                            "related_uuid": "a31d7102-c245-45df-b63f-9c7934690061",
+                            "properties": {
+                                "job_title": "Co-Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

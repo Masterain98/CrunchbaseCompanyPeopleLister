@@ -1,0 +1,61 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "9bd322c1-34a8-47ac-8718-161a296ecfc3",
+            "properties": {
+                "name": "Andrew Olson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9bd322c1-34a8-47ac-8718-161a296ecfc3",
+                    "value": "Andrew Olson"
+                },
+                "linkedin": "andrew-r-olson",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "39b4435f-8994-462d-96a4-f677b0992daf",
+                            "related_uuid": "9bd322c1-34a8-47ac-8718-161a296ecfc3",
+                            "properties": {
+                                "job_title": "Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1b158e2b-f5e0-4eae-9ea1-534912f0ac9c",
+            "properties": {
+                "name": "Nichole Gabriel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1b158e2b-f5e0-4eae-9ea1-534912f0ac9c",
+                    "value": "Nichole Gabriel"
+                },
+                "linkedin": "niccigabriel",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3efabce3-6ac6-4afa-b394-68537a4f213c",
+                            "related_uuid": "1b158e2b-f5e0-4eae-9ea1-534912f0ac9c",
+                            "properties": {
+                                "job_title": "Contractor, Social Impact Team"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

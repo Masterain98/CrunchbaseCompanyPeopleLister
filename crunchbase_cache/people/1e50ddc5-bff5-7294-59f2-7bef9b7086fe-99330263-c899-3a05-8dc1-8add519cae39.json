@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "12197d48-d470-4ce8-b1ea-ea1b50f607a1",
+            "properties": {
+                "name": "Alexandra Gobbi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "12197d48-d470-4ce8-b1ea-ea1b50f607a1",
+                    "value": "Alexandra Gobbi"
+                },
+                "linkedin": "alexandragobbi",
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d27b79ce-0cef-4726-bc5f-162c214effb9",
+                            "related_uuid": "12197d48-d470-4ce8-b1ea-ea1b50f607a1",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ae3b82cf-23f1-44d6-b07b-a72db3160e19",
+            "properties": {
+                "name": "Vishaal 'V8' Hariprasad",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ae3b82cf-23f1-44d6-b07b-a72db3160e19",
+                    "value": "Vishaal 'V8' Hariprasad"
+                },
+                "linkedin": "vishaalv8",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "344aa370-2f01-4edf-a05b-ce6ca108782c",
+                            "related_uuid": "ae3b82cf-23f1-44d6-b07b-a72db3160e19",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

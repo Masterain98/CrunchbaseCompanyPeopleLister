@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "24809239-051b-473f-b395-8e35dd06d684",
+            "properties": {
+                "name": "Nathan Krishnan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "24809239-051b-473f-b395-8e35dd06d684",
+                    "value": "Nathan Krishnan"
+                },
+                "linkedin": "nathankrishnan",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "580e9e34-0901-466a-a8fc-a00f31acf2d1",
+                            "related_uuid": "24809239-051b-473f-b395-8e35dd06d684",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

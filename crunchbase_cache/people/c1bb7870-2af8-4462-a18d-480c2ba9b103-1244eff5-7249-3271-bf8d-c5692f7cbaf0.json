@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ce4ff37b-4dad-449c-8eb5-01fb62e34be0",
+            "properties": {
+                "name": "Niklas Lindstrom",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ce4ff37b-4dad-449c-8eb5-01fb62e34be0",
+                    "value": "Niklas Lindstrom"
+                },
+                "linkedin": "nlindstrom",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "13273477-cf8a-4a92-87ce-f7e24550386a",
+                            "related_uuid": "ce4ff37b-4dad-449c-8eb5-01fb62e34be0",
+                            "properties": {
+                                "job_title": "Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

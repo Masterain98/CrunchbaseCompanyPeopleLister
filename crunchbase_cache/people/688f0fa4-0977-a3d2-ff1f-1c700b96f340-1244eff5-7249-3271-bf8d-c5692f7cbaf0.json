@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ad08983c-fed7-448b-af49-f6507b2bfc9c",
+            "properties": {
+                "name": "Chris Tinsley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ad08983c-fed7-448b-af49-f6507b2bfc9c",
+                    "value": "Chris Tinsley"
+                },
+                "linkedin": "chtinsley",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "aca78780-fa6f-4954-bf0f-9dd92d87ec57",
+                            "related_uuid": "ad08983c-fed7-448b-af49-f6507b2bfc9c",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "28d75790-9e48-4a59-b54a-ef2c5c734156",
+            "properties": {
+                "name": "Chris Tinsley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "28d75790-9e48-4a59-b54a-ef2c5c734156",
+                    "value": "Chris Tinsley"
+                },
+                "linkedin": "chris-tinsley-1526265",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f2693796-66bf-447b-8fcb-91167dc264ec",
+                            "related_uuid": "28d75790-9e48-4a59-b54a-ef2c5c734156",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

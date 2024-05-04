@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cccd3b0c-a675-49e2-998f-769b9b7fbf56",
+            "properties": {
+                "name": "Noah Dinkin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cccd3b0c-a675-49e2-998f-769b9b7fbf56",
+                    "value": "Noah Dinkin"
+                },
+                "linkedin": "noahdinkin",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "372c0584-cff1-4170-bd52-ee7be717e2f4",
+                            "related_uuid": "cccd3b0c-a675-49e2-998f-769b9b7fbf56",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

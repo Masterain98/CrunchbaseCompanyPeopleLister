@@ -1,0 +1,374 @@
+{
+    "count": 12,
+    "entities": [
+        {
+            "uuid": "8d733685-221f-44fd-8988-c99d62f1a6a7",
+            "properties": {
+                "name": "Breck Dewitt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8d733685-221f-44fd-8988-c99d62f1a6a7",
+                    "value": "Breck Dewitt"
+                },
+                "linkedin": "breck-dewitt-1593196",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "56edbdc0-bf4f-4816-ac95-752b17bc2753",
+                            "related_uuid": "8d733685-221f-44fd-8988-c99d62f1a6a7",
+                            "properties": {
+                                "job_title": "Field CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "07ed7580-ca16-4344-ad66-c26f0475ad70",
+            "properties": {
+                "name": "Dan Novello",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "07ed7580-ca16-4344-ad66-c26f0475ad70",
+                    "value": "Dan Novello"
+                },
+                "linkedin": "novellod",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f694d8a-5859-4555-8c78-93a27876e05a",
+                            "related_uuid": "07ed7580-ca16-4344-ad66-c26f0475ad70",
+                            "properties": {
+                                "job_title": "Account CTO / Principal Global Architect"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4c938336-2a72-4851-ac4d-c6e6317eace5",
+            "properties": {
+                "name": "David Holmes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4c938336-2a72-4851-ac4d-c6e6317eace5",
+                    "value": "David Holmes"
+                },
+                "linkedin": "david-holmes-5324958",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b14069fe-01a1-4ea3-b726-81e57866681e",
+                            "related_uuid": "4c938336-2a72-4851-ac4d-c6e6317eace5",
+                            "properties": {
+                                "job_title": "Chief Technology Officer - Energy"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4e081bfc-8300-409e-972f-0134999a89b1",
+            "properties": {
+                "name": "David Konetski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4e081bfc-8300-409e-972f-0134999a89b1",
+                    "value": "David Konetski"
+                },
+                "linkedin": "konetski",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0efa9ffe-5c2a-41bc-a249-e06616576939",
+                            "related_uuid": "4e081bfc-8300-409e-972f-0134999a89b1",
+                            "properties": {
+                                "job_title": "VP / Fellow, Client Solutions Group CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a1238603-8d0b-4d43-ad5c-33bdad574a10",
+            "properties": {
+                "name": "Farzad Khosrowpour",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a1238603-8d0b-4d43-ad5c-33bdad574a10",
+                    "value": "Farzad Khosrowpour"
+                },
+                "linkedin": "farzad-khosrowpour-6b55831",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "47854492-3148-40d8-b720-92866994971d",
+                            "related_uuid": "a1238603-8d0b-4d43-ad5c-33bdad574a10",
+                            "properties": {
+                                "job_title": "Architect / Technologiest - Client CTO Office"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "df4bdb30-0c6f-4616-a709-51a8193072fa",
+            "properties": {
+                "name": "Jeff Korte",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "df4bdb30-0c6f-4616-a709-51a8193072fa",
+                    "value": "Jeff Korte"
+                },
+                "linkedin": "jeff-korte-60073a9",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "89425fe2-9c06-44a5-a226-bf0389149fd3",
+                            "related_uuid": "df4bdb30-0c6f-4616-a709-51a8193072fa",
+                            "properties": {
+                                "job_title": "Office of the CTO - Ambassador"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ed6edfbe-47f2-4912-b32a-5d97e6922724",
+            "properties": {
+                "name": "Keith Manthey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ed6edfbe-47f2-4912-b32a-5d97e6922724",
+                    "value": "Keith Manthey"
+                },
+                "linkedin": "kmanthey",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "af093a89-ca6b-46d2-bada-aa2f195e8229",
+                            "related_uuid": "ed6edfbe-47f2-4912-b32a-5d97e6922724",
+                            "properties": {
+                                "job_title": "Global CTO, Unstructured Data Solutions"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "32aa1e69-fd71-4316-bbd9-f27b27b8b994",
+            "properties": {
+                "name": "Nick Underwood",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "32aa1e69-fd71-4316-bbd9-f27b27b8b994",
+                    "value": "Nick Underwood"
+                },
+                "linkedin": "nickunderwoodportland",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "590f6422-db93-4bbc-87fc-788fd8e130cb",
+                            "related_uuid": "32aa1e69-fd71-4316-bbd9-f27b27b8b994",
+                            "properties": {
+                                "job_title": "Consulting Field CTO (Retail)"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "411f9dba-b0f8-4f50-823f-8807b6275f4e",
+            "properties": {
+                "name": "Rupert Menezes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "411f9dba-b0f8-4f50-823f-8807b6275f4e",
+                    "value": "Rupert Menezes"
+                },
+                "linkedin": "rupertmenezes",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "45029d80-c73b-4c1c-a5ab-42bf1f7fc543",
+                            "related_uuid": "411f9dba-b0f8-4f50-823f-8807b6275f4e",
+                            "properties": {
+                                "job_title": "Enterprise Preferred Account Executive & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "990b146d-1688-4df8-9175-68d37be353f4",
+            "properties": {
+                "name": "Sandro Lorenzotti",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "990b146d-1688-4df8-9175-68d37be353f4",
+                    "value": "Sandro Lorenzotti"
+                },
+                "linkedin": "sandrolorenzotti",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e87a1bca-0056-49d5-925f-4be13f3f6134",
+                            "related_uuid": "990b146d-1688-4df8-9175-68d37be353f4",
+                            "properties": {
+                                "job_title": "CTO & Global Chief Architect, Dell Technologies Select Group"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "830f395e-0999-4273-a5ae-0b683ba465d7",
+            "properties": {
+                "name": "Sanjeev Kumar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "830f395e-0999-4273-a5ae-0b683ba465d7",
+                    "value": "Sanjeev Kumar"
+                },
+                "linkedin": "sanjeev-kumar-7438864",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8347b128-26ca-4182-8e46-f439e45528e4",
+                            "related_uuid": "830f395e-0999-4273-a5ae-0b683ba465d7",
+                            "properties": {
+                                "job_title": "Chief Technology Officer - Global Financial Services & Strategy Lead for Data Mgmt."
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1ff32d2d-dc17-49f9-a05d-86815cb28234",
+            "properties": {
+                "name": "Vivek Iyer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1ff32d2d-dc17-49f9-a05d-86815cb28234",
+                    "value": "Vivek Iyer"
+                },
+                "linkedin": "vivek-viswanathan-iyer-052ab413",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a9ee0686-1136-4980-b023-2304b0110287",
+                            "related_uuid": "1ff32d2d-dc17-49f9-a05d-86815cb28234",
+                            "properties": {
+                                "job_title": "Senior Distinguished Technologist, CSG CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

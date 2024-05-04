@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "87e9a47e-a796-49c9-96c7-75283399496f",
+            "properties": {
+                "name": "Adam Lewis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "87e9a47e-a796-49c9-96c7-75283399496f",
+                    "value": "Adam Lewis"
+                },
+                "linkedin": "adamsideas",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a07cfdcf-b8fb-46e6-81d6-9b9878b562f3",
+                            "related_uuid": "87e9a47e-a796-49c9-96c7-75283399496f",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

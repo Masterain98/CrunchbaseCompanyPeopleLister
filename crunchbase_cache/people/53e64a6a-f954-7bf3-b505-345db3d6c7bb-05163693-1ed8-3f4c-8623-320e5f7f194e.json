@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5f868a93-62fb-40f3-9e02-d6b98c04cca6",
+            "properties": {
+                "name": "Lindsay Life",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5f868a93-62fb-40f3-9e02-d6b98c04cca6",
+                    "value": "Lindsay Life"
+                },
+                "linkedin": "lindsayklife",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5a8585ee-82db-4464-8a02-8779b782dfa1",
+                            "related_uuid": "5f868a93-62fb-40f3-9e02-d6b98c04cca6",
+                            "properties": {
+                                "job_title": "Director, Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

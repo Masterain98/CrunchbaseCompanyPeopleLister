@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "355dd475-bb96-4b98-a9e6-272f02299f24",
+            "properties": {
+                "name": "Sondra Chandler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "355dd475-bb96-4b98-a9e6-272f02299f24",
+                    "value": "Sondra Chandler"
+                },
+                "linkedin": "sondra-chandler-0797423",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "626c4775-171c-4e25-a3d6-4ac260012d44",
+                            "related_uuid": "355dd475-bb96-4b98-a9e6-272f02299f24",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

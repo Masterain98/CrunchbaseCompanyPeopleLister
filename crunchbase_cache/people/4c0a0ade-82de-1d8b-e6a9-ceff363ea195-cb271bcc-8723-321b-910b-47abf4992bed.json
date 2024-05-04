@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d195b178-64c8-4179-bafc-c8fc32b9eb20",
+            "properties": {
+                "name": "Tanya Jenke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d195b178-64c8-4179-bafc-c8fc32b9eb20",
+                    "value": "Tanya Jenke"
+                },
+                "linkedin": "tanyabose",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0b15d951-ea5d-4407-a9a8-03b255ed11b6",
+                            "related_uuid": "d195b178-64c8-4179-bafc-c8fc32b9eb20",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

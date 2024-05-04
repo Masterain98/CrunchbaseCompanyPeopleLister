@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d4d85981-30ed-474f-9ff3-92ba31eee19d",
+            "properties": {
+                "name": "Alec Fong",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d4d85981-30ed-474f-9ff3-92ba31eee19d",
+                    "value": "Alec Fong"
+                },
+                "linkedin": "alecfong",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "783595ee-5d21-4173-9e38-92ce500a0c9e",
+                            "related_uuid": "d4d85981-30ed-474f-9ff3-92ba31eee19d",
+                            "properties": {
+                                "job_title": "CTO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

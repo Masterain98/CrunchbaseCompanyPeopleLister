@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "38dc623f-9ff0-4ade-ab0f-bb4eb86dec1e",
+            "properties": {
+                "name": "Lauri Klaus",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "38dc623f-9ff0-4ade-ab0f-bb4eb86dec1e",
+                    "value": "Lauri Klaus"
+                },
+                "linkedin": "lauri-klaus-a224428",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "16b07fd3-22c6-45b6-a142-9f5f02574861",
+                            "related_uuid": "38dc623f-9ff0-4ade-ab0f-bb4eb86dec1e",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

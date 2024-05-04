@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0715ee91-3424-4609-93c7-7992cae20913",
+            "properties": {
+                "name": "Jerry Snody",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0715ee91-3424-4609-93c7-7992cae20913",
+                    "value": "Jerry Snody"
+                },
+                "linkedin": "jerry-snody-b4085789",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "df953547-71b5-4049-a8fa-be60a375053b",
+                            "related_uuid": "0715ee91-3424-4609-93c7-7992cae20913",
+                            "properties": {
+                                "job_title": "Accountant Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

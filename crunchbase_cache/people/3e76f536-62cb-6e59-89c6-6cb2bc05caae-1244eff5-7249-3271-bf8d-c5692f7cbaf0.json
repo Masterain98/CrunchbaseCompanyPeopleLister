@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c336eba2-ab14-4455-aab1-343603b6f288",
+            "properties": {
+                "name": "Loris Degioanni",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c336eba2-ab14-4455-aab1-343603b6f288",
+                    "value": "Loris Degioanni"
+                },
+                "linkedin": "degio",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "37f2d77f-8d0c-4a0b-b987-4e6e686d2b00",
+                            "related_uuid": "c336eba2-ab14-4455-aab1-343603b6f288",
+                            "properties": {
+                                "job_title": "CTO and Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

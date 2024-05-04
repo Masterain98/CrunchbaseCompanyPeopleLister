@@ -1,0 +1,96 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "936d0195-4343-45d9-8769-6b5848eced9f",
+            "properties": {
+                "name": "Jennifer Teodoro-Major",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "936d0195-4343-45d9-8769-6b5848eced9f",
+                    "value": "Jennifer Teodoro-Major"
+                },
+                "linkedin": "jennifer-teodoro-major-469ba5a1",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "698e0669-5f42-472f-acc2-f0bbc420f0d4",
+                            "related_uuid": "936d0195-4343-45d9-8769-6b5848eced9f",
+                            "properties": {
+                                "job_title": "Senior Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5469ad10-951d-442d-a7ab-f106c1f2d278",
+            "properties": {
+                "name": "Kim Stamiris",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5469ad10-951d-442d-a7ab-f106c1f2d278",
+                    "value": "Kim Stamiris"
+                },
+                "linkedin": "kim-stamiris",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a9d11e61-88e4-432c-a981-6e046db35164",
+                            "related_uuid": "5469ad10-951d-442d-a7ab-f106c1f2d278",
+                            "properties": {
+                                "job_title": "Senior Director, Client Success - APAC"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0e1b06ad-3b11-4c2b-9fd0-eac57e586511",
+            "properties": {
+                "name": "Sara Henderson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e1b06ad-3b11-4c2b-9fd0-eac57e586511",
+                    "value": "Sara Henderson"
+                },
+                "linkedin": "sara-henderson-76542b16",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a93986e8-3ebe-4120-82ab-5bd3504766f6",
+                            "related_uuid": "0e1b06ad-3b11-4c2b-9fd0-eac57e586511",
+                            "properties": {
+                                "job_title": "Senior Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

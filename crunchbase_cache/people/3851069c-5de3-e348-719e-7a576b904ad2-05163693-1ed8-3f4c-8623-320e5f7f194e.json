@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a5042913-7804-452b-8a55-edd2fe71f66d",
+            "properties": {
+                "name": "Scott Garner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a5042913-7804-452b-8a55-edd2fe71f66d",
+                    "value": "Scott Garner"
+                },
+                "linkedin": "scott-garner-29114a3",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "de6554fb-bf8a-440d-924d-a129b783190d",
+                            "related_uuid": "a5042913-7804-452b-8a55-edd2fe71f66d",
+                            "properties": {
+                                "job_title": "Marketing Communications Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

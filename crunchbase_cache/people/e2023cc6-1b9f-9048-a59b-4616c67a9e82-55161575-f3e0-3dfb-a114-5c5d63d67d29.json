@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d9cfb8cb-08fb-4012-9caf-91c8bfe9c310",
+            "properties": {
+                "name": "Greg Segall",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d9cfb8cb-08fb-4012-9caf-91c8bfe9c310",
+                    "value": "Greg Segall"
+                },
+                "linkedin": "gregsegall",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "308e4b32-80cf-4f66-ad2f-44bd27899470",
+                            "related_uuid": "d9cfb8cb-08fb-4012-9caf-91c8bfe9c310",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

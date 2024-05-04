@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "29cf171f-2dcb-480d-815d-20b52ccbed26",
+            "properties": {
+                "name": "Parag Mamnani",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "29cf171f-2dcb-480d-815d-20b52ccbed26",
+                    "value": "Parag Mamnani"
+                },
+                "linkedin": "paragmamnani",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "37c99022-0ab4-47d5-ac89-ce458b674ec3",
+                            "related_uuid": "29cf171f-2dcb-480d-815d-20b52ccbed26",
+                            "properties": {
+                                "job_title": "Founder/CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "a0c986f2-ca37-4940-ab8c-b57cc731dc2a",
+            "properties": {
+                "name": "Jon Sather",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a0c986f2-ca37-4940-ab8c-b57cc731dc2a",
+                    "value": "Jon Sather"
+                },
+                "linkedin": "jon-sather-2672b68",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "456cdada-b213-4cb0-85c2-7777e06d5398",
+                            "related_uuid": "a0c986f2-ca37-4940-ab8c-b57cc731dc2a",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e00f6b61-d2db-4bcb-bb4c-26fcf055d4d8",
+            "properties": {
+                "name": "Lori Gorshe",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e00f6b61-d2db-4bcb-bb4c-26fcf055d4d8",
+                    "value": "Lori Gorshe"
+                },
+                "linkedin": "lorigorshe",
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9bd27033-d66a-4fd6-a21a-4c694d290b32",
+                            "related_uuid": "e00f6b61-d2db-4bcb-bb4c-26fcf055d4d8",
+                            "properties": {
+                                "job_title": "Creative & Digital Coe - Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

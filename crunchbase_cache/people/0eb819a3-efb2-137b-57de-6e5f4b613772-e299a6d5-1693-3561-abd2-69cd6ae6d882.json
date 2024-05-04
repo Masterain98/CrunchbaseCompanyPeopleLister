@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c17b7acc-4a02-43b3-82d1-5b48cd596b19",
+            "properties": {
+                "name": "Merry Hetrick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c17b7acc-4a02-43b3-82d1-5b48cd596b19",
+                    "value": "Merry Hetrick"
+                },
+                "linkedin": "merry-anne-hetrick-35a63712",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d1b0880-98e3-4c0d-9e0a-56484ec8a0c6",
+                            "related_uuid": "c17b7acc-4a02-43b3-82d1-5b48cd596b19",
+                            "properties": {
+                                "job_title": "Director Compliance and Risk"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

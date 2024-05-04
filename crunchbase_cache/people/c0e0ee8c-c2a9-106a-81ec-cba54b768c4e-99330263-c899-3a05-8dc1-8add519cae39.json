@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6bae49b7-6b3b-415a-a7a3-20f1a2d97a31",
+            "properties": {
+                "name": "Deirdre G.",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6bae49b7-6b3b-415a-a7a3-20f1a2d97a31",
+                    "value": "Deirdre G."
+                },
+                "linkedin": "deirdrewg",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "255dd1c7-c4a0-41c1-aba8-ab303f1aaa2d",
+                            "related_uuid": "6bae49b7-6b3b-415a-a7a3-20f1a2d97a31",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

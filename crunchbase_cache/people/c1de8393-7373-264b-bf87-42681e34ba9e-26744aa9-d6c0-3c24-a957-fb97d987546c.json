@@ -1,0 +1,770 @@
+{
+    "count": 25,
+    "entities": [
+        {
+            "uuid": "6a6b77ea-3d27-4fa0-a614-87d56c8849da",
+            "properties": {
+                "name": "James Altschuler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6a6b77ea-3d27-4fa0-a614-87d56c8849da",
+                    "value": "James Altschuler"
+                },
+                "linkedin": "jamesstevenaltschuler",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_400_vp"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e43be121-d9a6-44da-8660-0f738ee56276",
+                            "related_uuid": "6a6b77ea-3d27-4fa0-a614-87d56c8849da",
+                            "properties": {
+                                "job_title": "Vice President of Sales, Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ee2a4946-7a94-43f4-93b0-13e2e7235ba2",
+            "properties": {
+                "name": "Will Lehrmann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ee2a4946-7a94-43f4-93b0-13e2e7235ba2",
+                    "value": "Will Lehrmann"
+                },
+                "linkedin": "willlehrmann",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "product"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26ec016f-8645-43b1-828c-2912c3cab97c",
+                            "related_uuid": "ee2a4946-7a94-43f4-93b0-13e2e7235ba2",
+                            "properties": {
+                                "job_title": "Head of Product, Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5ecd045e-73a0-4a42-bf3b-37f1e85d6f27",
+            "properties": {
+                "name": "Bryan Lucas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5ecd045e-73a0-4a42-bf3b-37f1e85d6f27",
+                    "value": "Bryan Lucas"
+                },
+                "linkedin": "bryan-lucas",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_200_manager"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "58ca23f4-e52e-49b4-bf57-21e650eea885",
+                            "related_uuid": "5ecd045e-73a0-4a42-bf3b-37f1e85d6f27",
+                            "properties": {
+                                "job_title": "Team Lead, Emerging Accounts-Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2088c47c-dc73-489c-9de8-46653fcbb540",
+            "properties": {
+                "name": "Cody Schlitzer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2088c47c-dc73-489c-9de8-46653fcbb540",
+                    "value": "Cody Schlitzer"
+                },
+                "linkedin": "cody-schlitzer-16468794",
+                "job_levels": [
+                    "l_200_manager"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9a5cddb6-7cd6-431e-b990-5dc879c8b91a",
+                            "related_uuid": "2088c47c-dc73-489c-9de8-46653fcbb540",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5d931a2c-fac6-41c0-9a43-a1ad29edc50e",
+            "properties": {
+                "name": "Jake Dougan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5d931a2c-fac6-41c0-9a43-a1ad29edc50e",
+                    "value": "Jake Dougan"
+                },
+                "linkedin": "jake-dougan-a8917610a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_200_manager"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4d80a79b-0a93-421e-b049-b496a668d42e",
+                            "related_uuid": "5d931a2c-fac6-41c0-9a43-a1ad29edc50e",
+                            "properties": {
+                                "job_title": "Customer Success Manager, Mid-Market, Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b3d0f29d-d9eb-46db-8c16-257fc332914f",
+            "properties": {
+                "name": "Luke Mullen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b3d0f29d-d9eb-46db-8c16-257fc332914f",
+                    "value": "Luke Mullen"
+                },
+                "linkedin": "mullenluke",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_200_manager"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0838d5e4-9ee6-49d0-97f7-d07dcc279ae5",
+                            "related_uuid": "b3d0f29d-d9eb-46db-8c16-257fc332914f",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6cf9eca0-cb53-4de6-9cdc-00dd33ac9eaa",
+            "properties": {
+                "name": "Madison Todd",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6cf9eca0-cb53-4de6-9cdc-00dd33ac9eaa",
+                    "value": "Madison Todd"
+                },
+                "linkedin": "madison-todd",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_200_manager"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07b02bdb-d65d-43b6-bc1d-3fdea943c6ee",
+                            "related_uuid": "6cf9eca0-cb53-4de6-9cdc-00dd33ac9eaa",
+                            "properties": {
+                                "job_title": "Account Executive, Mid Market, Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cc250b7e-0983-46c0-889c-245ec5fe236d",
+            "properties": {
+                "name": "Mark Nietzel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cc250b7e-0983-46c0-889c-245ec5fe236d",
+                    "value": "Mark Nietzel"
+                },
+                "linkedin": "mark-nietzel-66b78289",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_200_manager"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ba78a1a2-b8c2-46a3-b516-57ae5ecf161b",
+                            "related_uuid": "cc250b7e-0983-46c0-889c-245ec5fe236d",
+                            "properties": {
+                                "job_title": "Enterprise Account Executive, Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "73b41d99-1f72-4e4a-8a30-873d0c600993",
+            "properties": {
+                "name": "Ryan Kindra",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "73b41d99-1f72-4e4a-8a30-873d0c600993",
+                    "value": "Ryan Kindra"
+                },
+                "linkedin": "ryan-kindra-81536980",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_200_manager"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "179690f9-5bd6-473f-8fcf-9fc1b9115ff7",
+                            "related_uuid": "73b41d99-1f72-4e4a-8a30-873d0c600993",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "657921fb-c2bd-429c-95c5-1f2a9bfb1411",
+            "properties": {
+                "name": "Alec Neumeyer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "657921fb-c2bd-429c-95c5-1f2a9bfb1411",
+                    "value": "Alec Neumeyer"
+                },
+                "linkedin": "alec-neumeyer-8044b234",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a9d409d-5f73-4cd3-8bf7-8e69c79b1e98",
+                            "related_uuid": "657921fb-c2bd-429c-95c5-1f2a9bfb1411",
+                            "properties": {
+                                "job_title": "Account Executive, Specialty Contractors & Subcontractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "03a3fb12-b2b1-4ea4-89d2-f336eb85d544",
+            "properties": {
+                "name": "Brandon Nipper",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "03a3fb12-b2b1-4ea4-89d2-f336eb85d544",
+                    "value": "Brandon Nipper"
+                },
+                "linkedin": "brandon-nipper-mba-3015155b",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a14edde9-42b2-46fd-b733-179457588c13",
+                            "related_uuid": "03a3fb12-b2b1-4ea4-89d2-f336eb85d544",
+                            "properties": {
+                                "job_title": "Account Executive, Mid-Market Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "313e4ab8-8e8a-4397-be76-84e8fee1d73a",
+            "properties": {
+                "name": "David Finucane",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "313e4ab8-8e8a-4397-be76-84e8fee1d73a",
+                    "value": "David Finucane"
+                },
+                "linkedin": "david-finucane-163652a2",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "94b4cab9-f3c4-4612-bd19-12f89e8a09f7",
+                            "related_uuid": "313e4ab8-8e8a-4397-be76-84e8fee1d73a",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d65ed4d5-a5c1-423a-ae07-f9a4ecac8f61",
+            "properties": {
+                "name": "Garrett Ackard",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d65ed4d5-a5c1-423a-ae07-f9a4ecac8f61",
+                    "value": "Garrett Ackard"
+                },
+                "linkedin": "garrettackard",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "39525f70-ae0d-4dcd-90dd-d1d0777633f3",
+                            "related_uuid": "d65ed4d5-a5c1-423a-ae07-f9a4ecac8f61",
+                            "properties": {
+                                "job_title": "Account Executive - Emerging, Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cd235cba-bbcb-4989-8d31-ed3b50592009",
+            "properties": {
+                "name": "Jake Newman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cd235cba-bbcb-4989-8d31-ed3b50592009",
+                    "value": "Jake Newman"
+                },
+                "linkedin": "jake-newman-683287102",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f5157f2e-b935-47b0-a723-04b7e176affe",
+                            "related_uuid": "cd235cba-bbcb-4989-8d31-ed3b50592009",
+                            "properties": {
+                                "job_title": "Account Executive - Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cd6314e2-55ac-4dab-80ae-eebf4e18b0b9",
+            "properties": {
+                "name": "Kimberly Vincent, MBA",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cd6314e2-55ac-4dab-80ae-eebf4e18b0b9",
+                    "value": "Kimberly Vincent, MBA"
+                },
+                "linkedin": "kimberlymarievincent",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "587b1193-54d8-4ce9-bb9b-04555070e3f1",
+                            "related_uuid": "cd6314e2-55ac-4dab-80ae-eebf4e18b0b9",
+                            "properties": {
+                                "job_title": "Account Executive, Emerging Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f6dc0d8c-b42a-4c52-8882-40ef6e9382ea",
+            "properties": {
+                "name": "Kyle Breedyk",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f6dc0d8c-b42a-4c52-8882-40ef6e9382ea",
+                    "value": "Kyle Breedyk"
+                },
+                "linkedin": "kyle-breedyk",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c05807bf-db71-4a26-aa8b-ae7aaa2a802f",
+                            "related_uuid": "f6dc0d8c-b42a-4c52-8882-40ef6e9382ea",
+                            "properties": {
+                                "job_title": "Account Executive - APAC Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "75dd5070-5ce2-4e78-97fb-987430adeabe",
+            "properties": {
+                "name": "Kyle Smith",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "75dd5070-5ce2-4e78-97fb-987430adeabe",
+                    "value": "Kyle Smith"
+                },
+                "linkedin": "kyle-smith-94513512a",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a48b6aaf-d78f-4d26-b6bf-9f275ba2acf4",
+                            "related_uuid": "75dd5070-5ce2-4e78-97fb-987430adeabe",
+                            "properties": {
+                                "job_title": "Mid-Market Account Executive - Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b31d3cec-5c95-4120-9bf5-88663d922843",
+            "properties": {
+                "name": "Michael Kungl",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b31d3cec-5c95-4120-9bf5-88663d922843",
+                    "value": "Michael Kungl"
+                },
+                "linkedin": "michael-kungl-b63a2642",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6551d4ec-ba8f-4a21-8922-d5b1f73aaa72",
+                            "related_uuid": "b31d3cec-5c95-4120-9bf5-88663d922843",
+                            "properties": {
+                                "job_title": "Account Executive, Mid Market, Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e4a85b03-4be3-46b9-b394-bac6c30bc05b",
+            "properties": {
+                "name": "Nicholas Lenhof",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e4a85b03-4be3-46b9-b394-bac6c30bc05b",
+                    "value": "Nicholas Lenhof"
+                },
+                "linkedin": "nicholas-lenhof-58031a14a",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9e6515d3-42fb-4bd1-bf97-3545b79d93c3",
+                            "related_uuid": "e4a85b03-4be3-46b9-b394-bac6c30bc05b",
+                            "properties": {
+                                "job_title": "Account Executive | Mid-Market Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6e44aba8-95e8-45f9-ab65-4bbed9e4b05f",
+            "properties": {
+                "name": "Nicholas Meza",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6e44aba8-95e8-45f9-ab65-4bbed9e4b05f",
+                    "value": "Nicholas Meza"
+                },
+                "linkedin": "nicholasmeza",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4a0414aa-c520-446f-852f-c678099e8f54",
+                            "related_uuid": "6e44aba8-95e8-45f9-ab65-4bbed9e4b05f",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2e33ff9d-7f2e-4646-a0ae-81b253911517",
+            "properties": {
+                "name": "Nissa Guerra",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2e33ff9d-7f2e-4646-a0ae-81b253911517",
+                    "value": "Nissa Guerra"
+                },
+                "linkedin": "nissa-guerra-90a8a6b8",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "human_resources"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e3ac3841-4202-4348-8680-9cce6125c6e7",
+                            "related_uuid": "2e33ff9d-7f2e-4646-a0ae-81b253911517",
+                            "properties": {
+                                "job_title": "Mid-Market Account Executive - Specialty Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2f9c4ef0-8fdd-4a32-8bde-f3559cffcebd",
+            "properties": {
+                "name": "Patrick Moore",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2f9c4ef0-8fdd-4a32-8bde-f3559cffcebd",
+                    "value": "Patrick Moore"
+                },
+                "linkedin": "patbmoore",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0751c3ca-94bb-414d-a14b-ad5c884ec16d",
+                            "related_uuid": "2f9c4ef0-8fdd-4a32-8bde-f3559cffcebd",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "107cd015-b4b4-4fde-b163-05ee1aedc6d3",
+            "properties": {
+                "name": "Tony Suleiman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "107cd015-b4b4-4fde-b163-05ee1aedc6d3",
+                    "value": "Tony Suleiman"
+                },
+                "linkedin": "tony-suleiman-jr-5bb288122",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "237b0793-0a48-492b-85a6-c221fd1d39ef",
+                            "related_uuid": "107cd015-b4b4-4fde-b163-05ee1aedc6d3",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "eec919f5-29a0-41d9-90de-be00a822c25f",
+            "properties": {
+                "name": "Turner Conrad",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eec919f5-29a0-41d9-90de-be00a822c25f",
+                    "value": "Turner Conrad"
+                },
+                "linkedin": "turner-conrad-aa4b1094",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ff15d5e-c7d4-4560-a5fd-bdeb477a3b61",
+                            "related_uuid": "eec919f5-29a0-41d9-90de-be00a822c25f",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "dd154397-6086-4d02-bc0b-0efacc8620c0",
+            "properties": {
+                "name": "Matt Frank",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dd154397-6086-4d02-bc0b-0efacc8620c0",
+                    "value": "Matt Frank"
+                },
+                "linkedin": "mattfrank1",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e97c4bca-0691-4d50-8a75-404e1659bbcb",
+                            "related_uuid": "dd154397-6086-4d02-bc0b-0efacc8620c0",
+                            "properties": {
+                                "job_title": "Customer Success Manager, Majors (Specialty Contractors)"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

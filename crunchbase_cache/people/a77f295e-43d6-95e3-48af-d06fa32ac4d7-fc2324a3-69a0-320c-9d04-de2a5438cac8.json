@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2f1f9df5-e49e-4c60-a69c-708654b60f40",
+            "properties": {
+                "name": "Kyle Cabodi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2f1f9df5-e49e-4c60-a69c-708654b60f40",
+                    "value": "Kyle Cabodi"
+                },
+                "linkedin": "kylecabodi",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5fc9438f-11eb-48ae-85ba-8d649f81ab17",
+                            "related_uuid": "2f1f9df5-e49e-4c60-a69c-708654b60f40",
+                            "properties": {
+                                "job_title": "Director, Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

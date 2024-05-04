@@ -1,0 +1,73 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "fbe06335-c731-44d5-ac16-1e095f01b483",
+            "properties": {
+                "name": "Colin Earl",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fbe06335-c731-44d5-ac16-1e095f01b483",
+                    "value": "Colin Earl"
+                },
+                "linkedin": "colinearl",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "17191db0-13a5-4845-a787-d2e0722be087",
+                            "related_uuid": "fbe06335-c731-44d5-ac16-1e095f01b483",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9a1e96cb-a2b6-46ea-935a-79dc7c59c0ac",
+            "properties": {
+                "name": "John Pechacek",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9a1e96cb-a2b6-46ea-935a-79dc7c59c0ac",
+                    "value": "John Pechacek"
+                },
+                "linkedin": "jpechacek",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "20d6fe71-732e-401e-8cf7-e6b8051c39d0",
+                            "related_uuid": "9a1e96cb-a2b6-46ea-935a-79dc7c59c0ac",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

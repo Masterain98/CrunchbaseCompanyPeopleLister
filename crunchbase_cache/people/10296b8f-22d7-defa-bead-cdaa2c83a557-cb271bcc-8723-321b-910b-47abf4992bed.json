@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "19fe364c-cfab-4c03-81fe-56f6de47773e",
+            "properties": {
+                "name": "Marlee Somerman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "19fe364c-cfab-4c03-81fe-56f6de47773e",
+                    "value": "Marlee Somerman"
+                },
+                "linkedin": "marleeschuster",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6d1af84c-0088-4a51-b104-2af0e1807f71",
+                            "related_uuid": "19fe364c-cfab-4c03-81fe-56f6de47773e",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

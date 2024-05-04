@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3bb18dda-f43b-4a87-b527-46f29fb5620a",
+            "properties": {
+                "name": "Lauren Vaccarello",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3bb18dda-f43b-4a87-b527-46f29fb5620a",
+                    "value": "Lauren Vaccarello"
+                },
+                "linkedin": "laurenvaccarello",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "49e54d59-26c2-47b6-8f06-cee58b929d21",
+                            "related_uuid": "3bb18dda-f43b-4a87-b527-46f29fb5620a",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

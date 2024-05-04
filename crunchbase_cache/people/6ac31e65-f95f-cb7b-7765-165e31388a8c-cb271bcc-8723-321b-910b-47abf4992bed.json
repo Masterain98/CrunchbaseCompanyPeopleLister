@@ -1,0 +1,102 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "5c88d370-8cfc-4d7b-9559-d6ce1136682d",
+            "properties": {
+                "name": "Jason Jenks",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5c88d370-8cfc-4d7b-9559-d6ce1136682d",
+                    "value": "Jason Jenks"
+                },
+                "linkedin": "jason-jenks-047b517",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8cdb3424-bd2d-41fc-b1bc-a03bcf7062cf",
+                            "related_uuid": "5c88d370-8cfc-4d7b-9559-d6ce1136682d",
+                            "properties": {
+                                "job_title": "Director of Account Management, Investor Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "295b5c86-d877-4b8d-8e6c-237f2bd9b2b9",
+            "properties": {
+                "name": "Nikki Keys",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "295b5c86-d877-4b8d-8e6c-237f2bd9b2b9",
+                    "value": "Nikki Keys"
+                },
+                "linkedin": "nikki-louise-keys",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "979ffb5e-65ce-4b80-b7fa-927122b9097a",
+                            "related_uuid": "295b5c86-d877-4b8d-8e6c-237f2bd9b2b9",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3ffc16cb-d83b-48ec-bed1-c9cab41c8f16",
+            "properties": {
+                "name": "Victor Klein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ffc16cb-d83b-48ec-bed1-c9cab41c8f16",
+                    "value": "Victor Klein"
+                },
+                "linkedin": "victor-klein-61b7023a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00c7ceb4-d46b-4c08-93ea-7f07436d7d0c",
+                            "related_uuid": "3ffc16cb-d83b-48ec-bed1-c9cab41c8f16",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

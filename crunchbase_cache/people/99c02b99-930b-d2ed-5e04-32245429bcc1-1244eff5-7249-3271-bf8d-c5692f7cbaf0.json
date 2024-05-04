@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "75cbcd8c-010a-4544-98b7-0d90844b57d4",
+            "properties": {
+                "name": "Colin Whitlatch",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "75cbcd8c-010a-4544-98b7-0d90844b57d4",
+                    "value": "Colin Whitlatch"
+                },
+                "linkedin": "colin-whitlatch-68a01b12",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "38d06236-59e0-41c5-9bdb-4cb92cdf2063",
+                            "related_uuid": "75cbcd8c-010a-4544-98b7-0d90844b57d4",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

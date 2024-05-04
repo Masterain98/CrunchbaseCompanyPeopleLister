@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7a81aca8-ee03-490d-aa86-27a1a108ab0e",
+            "properties": {
+                "name": "Nathan Pieratt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7a81aca8-ee03-490d-aa86-27a1a108ab0e",
+                    "value": "Nathan Pieratt"
+                },
+                "linkedin": "nathanpieratt",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4cb3d4c7-bbea-429e-8117-196b151ac563",
+                            "related_uuid": "7a81aca8-ee03-490d-aa86-27a1a108ab0e",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

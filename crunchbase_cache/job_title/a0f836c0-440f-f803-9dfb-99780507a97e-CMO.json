@@ -1,0 +1,93 @@
+{
+    "count": 11,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-compliance",
+                "uuid": "af643dba-10ab-3440-bff6-5a4d9f4fe7fb",
+                "value": "Manager, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-supply-chain",
+                "uuid": "d7a92ac9-902c-3b2c-9806-d508ce3f9575",
+                "value": "Manager, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cpa",
+                "uuid": "f114427f-29d0-3a63-9781-f1cc950e138e",
+                "value": "CPA"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "legal-counsel",
+                "uuid": "4f4a21ff-473f-3bba-b9e3-a051031d6eef",
+                "value": "Legal Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cost-accountant",
+                "uuid": "94852b68-7b4a-3bca-ad57-03d7f173ccd3",
+                "value": "Cost Accountant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "corporate-financial-analyst",
+                "uuid": "679954d8-e2f6-3716-b731-aaa658341010",
+                "value": "Corporate Financial Analyst"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cad-design-engineer",
+                "uuid": "9c2fec66-8895-31cf-9f16-85e1031f88ff",
+                "value": "CAD Design Engineer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller-communications",
+                "uuid": "6b83bb93-ea5b-32a8-b09c-bce07742fa90",
+                "value": "Controller, Communications"
+            }
+        }
+    ]
+}

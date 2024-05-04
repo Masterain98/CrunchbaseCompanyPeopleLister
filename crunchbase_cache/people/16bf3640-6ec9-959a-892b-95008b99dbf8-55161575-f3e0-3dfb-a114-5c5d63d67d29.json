@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "23c38ce8-2443-4006-b20e-7a6ca78960a0",
+            "properties": {
+                "name": "John Ackerly",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "23c38ce8-2443-4006-b20e-7a6ca78960a0",
+                    "value": "John Ackerly"
+                },
+                "linkedin": "john-ackerly",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4398b2da-03d3-4733-839c-c1d4ff80a733",
+                            "related_uuid": "23c38ce8-2443-4006-b20e-7a6ca78960a0",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

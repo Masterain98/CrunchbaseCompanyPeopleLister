@@ -1,0 +1,97 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "00b74050-1f7e-45b7-9744-9489c75c6853",
+            "properties": {
+                "name": "Connor Carreras",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "00b74050-1f7e-45b7-9744-9489c75c6853",
+                    "value": "Connor Carreras"
+                },
+                "linkedin": "connorcarreras",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ce3e858e-be6f-4b8b-a547-d08453eba127",
+                            "related_uuid": "00b74050-1f7e-45b7-9744-9489c75c6853",
+                            "properties": {
+                                "job_title": "Sr. Director, Digital Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "130422b8-c8d6-4665-8c94-c3e94da67174",
+            "properties": {
+                "name": "Corbin Faber",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "130422b8-c8d6-4665-8c94-c3e94da67174",
+                    "value": "Corbin Faber"
+                },
+                "linkedin": "corbinfaber",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c0ace5c-9d38-4d03-bddf-9dd24f29db1d",
+                            "related_uuid": "130422b8-c8d6-4665-8c94-c3e94da67174",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7fb581c4-2608-4dcd-b1ef-3c264ea75746",
+            "properties": {
+                "name": "Nadege Chaffaut",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7fb581c4-2608-4dcd-b1ef-3c264ea75746",
+                    "value": "Nadege Chaffaut"
+                },
+                "linkedin": "nadegechaffaut",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fa31ba0f-1911-4b8d-a96a-217019cd7ee5",
+                            "related_uuid": "7fb581c4-2608-4dcd-b1ef-3c264ea75746",
+                            "properties": {
+                                "job_title": "Senior Director, Customer Success and Solutions EMEA"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

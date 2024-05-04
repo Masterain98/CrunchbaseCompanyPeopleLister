@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "36417a64-1b46-4ab9-a7b5-1b2dd1e5cc37",
+            "properties": {
+                "name": "Kshitij Jain",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "36417a64-1b46-4ab9-a7b5-1b2dd1e5cc37",
+                    "value": "Kshitij Jain"
+                },
+                "linkedin": "kj001",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "834b4612-4319-4e36-b2c0-eb22ed229c86",
+                            "related_uuid": "36417a64-1b46-4ab9-a7b5-1b2dd1e5cc37",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

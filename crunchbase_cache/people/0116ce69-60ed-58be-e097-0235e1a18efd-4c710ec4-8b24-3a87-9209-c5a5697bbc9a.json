@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "07ce9a3a-6a69-45e0-9aa6-537a2c3ba753",
+            "properties": {
+                "name": "Andrea Mackay",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "07ce9a3a-6a69-45e0-9aa6-537a2c3ba753",
+                    "value": "Andrea Mackay"
+                },
+                "linkedin": "andrea-mackay-1bb76154",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5e0e0991-a5c5-4a9a-9887-b0b8c5347bc9",
+                            "related_uuid": "07ce9a3a-6a69-45e0-9aa6-537a2c3ba753",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "02563a45-5fe5-4f68-9b50-62f9426407a1",
+            "properties": {
+                "name": "Chelsea Carney (She/Her)",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "02563a45-5fe5-4f68-9b50-62f9426407a1",
+                    "value": "Chelsea Carney (She/Her)"
+                },
+                "linkedin": "cmcarney31",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "092694f6-c3b0-482a-a84c-fd2bd5dc4511",
+                            "related_uuid": "02563a45-5fe5-4f68-9b50-62f9426407a1",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

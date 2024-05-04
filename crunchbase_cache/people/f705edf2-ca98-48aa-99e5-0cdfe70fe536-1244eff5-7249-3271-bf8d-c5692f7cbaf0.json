@@ -1,0 +1,190 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "uuid": "bcc54c44-d288-4538-90c8-b063b5e56fd1",
+            "properties": {
+                "name": "Gary Hix",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bcc54c44-d288-4538-90c8-b063b5e56fd1",
+                    "value": "Gary Hix"
+                },
+                "linkedin": "gary-hix",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "328f4623-3797-49e7-a562-ac17811785fc",
+                            "related_uuid": "bcc54c44-d288-4538-90c8-b063b5e56fd1",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "536e562d-8d6d-434e-81cf-fbb9d00b364d",
+            "properties": {
+                "name": "Hidehisa Shitomi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "536e562d-8d6d-434e-81cf-fbb9d00b364d",
+                    "value": "Hidehisa Shitomi"
+                },
+                "linkedin": "hidehisashitomi",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2c083ab7-1622-48f3-86e0-5c1fb62fc5e5",
+                            "related_uuid": "536e562d-8d6d-434e-81cf-fbb9d00b364d",
+                            "properties": {
+                                "job_title": "Office of the CTO, Digital Infrastructure Business Unit"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f04e2e7c-2791-4d7b-b716-f6a42b0b4262",
+            "properties": {
+                "name": "Hu Yoshida",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f04e2e7c-2791-4d7b-b716-f6a42b0b4262",
+                    "value": "Hu Yoshida"
+                },
+                "linkedin": "hu-yoshida-06a2639",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3431c8cf-5d31-474c-b0a9-1403e29e1f0e",
+                            "related_uuid": "f04e2e7c-2791-4d7b-b716-f6a42b0b4262",
+                            "properties": {
+                                "job_title": "VP and Global CTO Hitachi Vantara"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "dfadcc6c-2011-4ca2-bd22-9a1a3b5155aa",
+            "properties": {
+                "name": "Martijn Brouwer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dfadcc6c-2011-4ca2-bd22-9a1a3b5155aa",
+                    "value": "Martijn Brouwer"
+                },
+                "linkedin": "martijn-brouwer-24122323",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5dc55a3f-6ff9-41da-b472-cf18541a382f",
+                            "related_uuid": "dfadcc6c-2011-4ca2-bd22-9a1a3b5155aa",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d2e72443-8ea4-479b-acc2-7b6033b71957",
+            "properties": {
+                "name": "Rick Smith",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d2e72443-8ea4-479b-acc2-7b6033b71957",
+                    "value": "Rick Smith"
+                },
+                "linkedin": "rick-smith-hitachi",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "534c0026-3721-4629-97f6-f62afaf6751c",
+                            "related_uuid": "d2e72443-8ea4-479b-acc2-7b6033b71957",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "030afbaf-fe35-492b-8380-cf5ecae16021",
+            "properties": {
+                "name": "Guido Schroeder",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "030afbaf-fe35-492b-8380-cf5ecae16021",
+                    "value": "Guido Schroeder"
+                },
+                "linkedin": "guidoschroeder",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "69cc1c48-c2d8-4513-8faf-cac8cbc43ff9",
+                            "related_uuid": "030afbaf-fe35-492b-8380-cf5ecae16021",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "7e0d4951-d1d9-4264-84ee-1826d858883b",
+            "properties": {
+                "name": "Lynn Krause",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7e0d4951-d1d9-4264-84ee-1826d858883b",
+                    "value": "Lynn Krause"
+                },
+                "linkedin": "lynn-krause-4473a016",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "pro_services"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d5be8a27-793e-47d9-9514-9ede0c98c178",
+                            "related_uuid": "7e0d4951-d1d9-4264-84ee-1826d858883b",
+                            "properties": {
+                                "job_title": "Global Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "108a1912-6f43-4235-8a03-9dc2e69c72ca",
+            "properties": {
+                "name": "Wahsitee Chongchua",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "108a1912-6f43-4235-8a03-9dc2e69c72ca",
+                    "value": "Wahsitee Chongchua"
+                },
+                "linkedin": "wahsitee-chongchua-8063535",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7b5c03e1-2fee-41b4-a436-a0d9a32efea4",
+                            "related_uuid": "108a1912-6f43-4235-8a03-9dc2e69c72ca",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

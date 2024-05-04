@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9d1c5e88-37f4-4fe0-b4cd-aac81d98e00f",
+            "properties": {
+                "name": "Mr. David Politis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9d1c5e88-37f4-4fe0-b4cd-aac81d98e00f",
+                    "value": "Mr. David Politis"
+                },
+                "linkedin": "davidpolitis",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "194023de-e630-473e-8030-ce600744b9b1",
+                            "related_uuid": "9d1c5e88-37f4-4fe0-b4cd-aac81d98e00f",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

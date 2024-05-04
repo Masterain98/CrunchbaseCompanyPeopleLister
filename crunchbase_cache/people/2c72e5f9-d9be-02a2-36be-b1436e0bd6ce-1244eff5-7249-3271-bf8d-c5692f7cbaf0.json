@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d206febe-b094-4690-bf2f-663a87cddb31",
+            "properties": {
+                "name": "Frank Menocal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d206febe-b094-4690-bf2f-663a87cddb31",
+                    "value": "Frank Menocal"
+                },
+                "linkedin": "frankmenocal",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9055086d-9062-4903-8f02-3b998a84df62",
+                            "related_uuid": "d206febe-b094-4690-bf2f-663a87cddb31",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

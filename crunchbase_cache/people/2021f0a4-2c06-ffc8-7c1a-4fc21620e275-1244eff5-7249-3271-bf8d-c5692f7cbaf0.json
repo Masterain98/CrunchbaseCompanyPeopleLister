@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c6c13a1a-9ec8-4821-9505-32367b9b80ad",
+            "properties": {
+                "name": "Debo Olaosebikan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c6c13a1a-9ec8-4821-9505-32367b9b80ad",
+                    "value": "Debo Olaosebikan"
+                },
+                "linkedin": "dolaoseb",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fe5f7a5e-0bcf-4ebf-ac18-18c2780fdc56",
+                            "related_uuid": "c6c13a1a-9ec8-4821-9505-32367b9b80ad",
+                            "properties": {
+                                "job_title": "Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

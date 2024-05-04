@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2d700e3f-cf40-4de7-baff-c47dc2023db3",
+            "properties": {
+                "name": "Ritu Kapoor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2d700e3f-cf40-4de7-baff-c47dc2023db3",
+                    "value": "Ritu Kapoor"
+                },
+                "linkedin": "ritu--kapoor",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "72cb0b6f-5683-49d6-a6ae-acadd3b61ec4",
+                            "related_uuid": "2d700e3f-cf40-4de7-baff-c47dc2023db3",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

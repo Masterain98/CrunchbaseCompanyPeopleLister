@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c3a4ac57-c4c9-4307-b490-53dc872a3c89",
+            "properties": {
+                "name": "Sue Kouwe",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c3a4ac57-c4c9-4307-b490-53dc872a3c89",
+                    "value": "Sue Kouwe"
+                },
+                "linkedin": "suekouwe7777",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "586636ac-ab0c-4c4c-9958-c941f159034c",
+                            "related_uuid": "c3a4ac57-c4c9-4307-b490-53dc872a3c89",
+                            "properties": {
+                                "job_title": "Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

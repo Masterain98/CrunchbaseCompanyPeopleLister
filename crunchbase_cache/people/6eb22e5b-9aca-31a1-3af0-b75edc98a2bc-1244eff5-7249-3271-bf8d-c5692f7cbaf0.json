@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fec43e75-cc17-4e59-92af-681190cbe4c1",
+            "properties": {
+                "name": "Arad Shaiber",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fec43e75-cc17-4e59-92af-681190cbe4c1",
+                    "value": "Arad Shaiber"
+                },
+                "linkedin": "arad-shaiber-9656112",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "079bb8be-693f-42d8-ac55-b33c1f80bc23",
+                            "related_uuid": "fec43e75-cc17-4e59-92af-681190cbe4c1",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

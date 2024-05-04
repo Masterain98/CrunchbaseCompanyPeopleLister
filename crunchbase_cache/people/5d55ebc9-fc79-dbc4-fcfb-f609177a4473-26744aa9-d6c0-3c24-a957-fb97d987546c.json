@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "50335623-15aa-442b-956e-8d6778a44188",
+            "properties": {
+                "name": "Paige Schaefer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "50335623-15aa-442b-956e-8d6778a44188",
+                    "value": "Paige Schaefer"
+                },
+                "linkedin": "paige-schaefer-653b1782",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4e137ed1-9100-4b83-a681-ad61b6be1913",
+                            "related_uuid": "50335623-15aa-442b-956e-8d6778a44188",
+                            "properties": {
+                                "job_title": "Product Marketing Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

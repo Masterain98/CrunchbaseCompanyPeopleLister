@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "10fcc1da-d9bf-4a26-859a-5173bf9e2199",
+            "properties": {
+                "name": "Simon (Seockhoon) Bae",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "10fcc1da-d9bf-4a26-859a-5173bf9e2199",
+                    "value": "Simon (Seockhoon) Bae"
+                },
+                "linkedin": "sibae",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0243f90c-ef26-4eb9-838e-3adbadea73a9",
+                            "related_uuid": "10fcc1da-d9bf-4a26-859a-5173bf9e2199",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f6fae523-276e-40f7-b7bf-a0830f82297c",
+            "properties": {
+                "name": "Simon Bae",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f6fae523-276e-40f7-b7bf-a0830f82297c",
+                    "value": "Simon Bae"
+                },
+                "linkedin": "simon-seockhoon-bae-8051118",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8fd0e2fc-4758-4e03-8b9a-bf9dc99a8ac9",
+                            "related_uuid": "f6fae523-276e-40f7-b7bf-a0830f82297c",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

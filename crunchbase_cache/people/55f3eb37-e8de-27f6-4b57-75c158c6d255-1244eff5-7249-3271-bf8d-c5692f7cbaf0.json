@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e3e19f70-31e0-4b44-ade3-6f35cdd0d036",
+            "properties": {
+                "name": "Al Smith",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e3e19f70-31e0-4b44-ade3-6f35cdd0d036",
+                    "value": "Al Smith"
+                },
+                "linkedin": "alsmith110",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d62a35e2-c7d8-49df-ac25-4ecbbfb59ad9",
+                            "related_uuid": "e3e19f70-31e0-4b44-ade3-6f35cdd0d036",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

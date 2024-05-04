@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0e0f6ee4-3cba-44db-a6fe-2619d4763c7e",
+            "properties": {
+                "name": "Mitch Donaberger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e0f6ee4-3cba-44db-a6fe-2619d4763c7e",
+                    "value": "Mitch Donaberger"
+                },
+                "linkedin": "mitch-donaberger-587a3216",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "975c6f1a-5ea3-44e1-b34e-498d91a9b9cf",
+                            "related_uuid": "0e0f6ee4-3cba-44db-a6fe-2619d4763c7e",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

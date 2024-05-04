@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "464691e6-75e5-4dc6-984f-ca88b1f22c8d",
+            "properties": {
+                "name": "James Cariello",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "464691e6-75e5-4dc6-984f-ca88b1f22c8d",
+                    "value": "James Cariello"
+                },
+                "linkedin": "jcariello",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "242025ca-52f8-4656-85e7-d9e3f8d83ee5",
+                            "related_uuid": "464691e6-75e5-4dc6-984f-ca88b1f22c8d",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

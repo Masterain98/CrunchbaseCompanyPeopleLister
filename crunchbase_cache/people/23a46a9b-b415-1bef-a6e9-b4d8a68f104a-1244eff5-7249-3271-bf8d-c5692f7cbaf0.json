@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "16fd9381-6c66-43fa-b048-0b2e9def9d3a",
+            "properties": {
+                "name": "Daniel Akiva",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "16fd9381-6c66-43fa-b048-0b2e9def9d3a",
+                    "value": "Daniel Akiva"
+                },
+                "linkedin": "dakiva",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6eeeae14-5c3a-410d-830f-1930f24a099e",
+                            "related_uuid": "16fd9381-6c66-43fa-b048-0b2e9def9d3a",
+                            "properties": {
+                                "job_title": "Chief Technology Officer, Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

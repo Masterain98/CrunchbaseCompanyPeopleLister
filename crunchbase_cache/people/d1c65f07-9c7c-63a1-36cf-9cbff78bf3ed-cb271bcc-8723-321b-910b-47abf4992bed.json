@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f1cd838f-1795-4f1f-94c0-1a4b6f4118a4",
+            "properties": {
+                "name": "Dustin Pence",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f1cd838f-1795-4f1f-94c0-1a4b6f4118a4",
+                    "value": "Dustin Pence"
+                },
+                "linkedin": "dustinpence",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director",
+                    "l_400_vp"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4f281522-9a4c-4087-bdfd-b5e66e7e6f65",
+                            "related_uuid": "f1cd838f-1795-4f1f-94c0-1a4b6f4118a4",
+                            "properties": {
+                                "job_title": "VP of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

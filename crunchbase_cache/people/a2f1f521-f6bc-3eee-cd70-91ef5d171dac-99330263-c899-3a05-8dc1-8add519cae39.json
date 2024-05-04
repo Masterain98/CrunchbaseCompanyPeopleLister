@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "97798bd2-a0b0-4d4e-bd5d-c527ab8deec2",
+            "properties": {
+                "name": "Jacob Winkler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "97798bd2-a0b0-4d4e-bd5d-c527ab8deec2",
+                    "value": "Jacob Winkler"
+                },
+                "linkedin": "jacobswinkler",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_400_vp"
+                ],
+                "job_departments": [
+                    "operations",
+                    "pro_services"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "837d78be-2ba7-4483-8996-de5f337700b2",
+                            "related_uuid": "97798bd2-a0b0-4d4e-bd5d-c527ab8deec2",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "026f9df0-465e-4d64-a928-23f6762c9cc6",
+            "properties": {
+                "name": "Sarah Bernardi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "026f9df0-465e-4d64-a928-23f6762c9cc6",
+                    "value": "Sarah Bernardi"
+                },
+                "linkedin": "sarah-crowley-bernardi-4077524",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ee1d00a-32f5-415d-83f2-de12ffbebaef",
+                            "related_uuid": "026f9df0-465e-4d64-a928-23f6762c9cc6",
+                            "properties": {
+                                "job_title": "Director Marketing Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

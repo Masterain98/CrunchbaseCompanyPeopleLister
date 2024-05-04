@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "200bb727-aa82-4e39-b146-e4fd646c9fd3",
+            "properties": {
+                "name": "Cait Porte",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "200bb727-aa82-4e39-b146-e4fd646c9fd3",
+                    "value": "Cait Porte"
+                },
+                "linkedin": "caitporte",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "080ac61f-6105-412a-ba20-cd5a2b8283b7",
+                            "related_uuid": "200bb727-aa82-4e39-b146-e4fd646c9fd3",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

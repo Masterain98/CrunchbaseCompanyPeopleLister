@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8edea82b-b4ad-4e80-bd5c-e7a32f9a3c9f",
+            "properties": {
+                "name": "Phillip James",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8edea82b-b4ad-4e80-bd5c-e7a32f9a3c9f",
+                    "value": "Phillip James"
+                },
+                "linkedin": "phillip-james-67b7b082",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c8b7c3f-4b21-468d-94e5-37b0628f0a38",
+                            "related_uuid": "8edea82b-b4ad-4e80-bd5c-e7a32f9a3c9f",
+                            "properties": {
+                                "job_title": "Associate Director, Clinical Applications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

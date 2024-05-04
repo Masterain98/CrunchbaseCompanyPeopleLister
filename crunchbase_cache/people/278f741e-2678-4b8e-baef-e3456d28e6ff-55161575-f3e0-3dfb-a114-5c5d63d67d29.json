@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "25f36d3f-856d-4d81-94d0-abc8c489e232",
+            "properties": {
+                "name": "Santiago Aparicio",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "25f36d3f-856d-4d81-94d0-abc8c489e232",
+                    "value": "Santiago Aparicio"
+                },
+                "linkedin": "santiagoaparicioi",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cf302c80-d407-4b29-a611-8ac73be25611",
+                            "related_uuid": "25f36d3f-856d-4d81-94d0-abc8c489e232",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

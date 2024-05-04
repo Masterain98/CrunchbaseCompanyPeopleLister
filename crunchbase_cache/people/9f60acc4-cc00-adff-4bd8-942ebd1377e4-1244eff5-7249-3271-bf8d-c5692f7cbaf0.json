@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "87c55c2f-3cf8-47e6-8f62-f5bd41b56f69",
+            "properties": {
+                "name": "Jamie Tischart",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "87c55c2f-3cf8-47e6-8f62-f5bd41b56f69",
+                    "value": "Jamie Tischart"
+                },
+                "linkedin": "tischart",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07108824-1196-43a4-a8d9-7302646c98a9",
+                            "related_uuid": "87c55c2f-3cf8-47e6-8f62-f5bd41b56f69",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

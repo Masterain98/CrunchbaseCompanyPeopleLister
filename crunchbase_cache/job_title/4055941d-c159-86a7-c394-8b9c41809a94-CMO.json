@@ -1,0 +1,101 @@
+{
+    "count": 12,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coach",
+                "uuid": "f931b13a-ead0-32d7-bcdb-02f84e0f794f",
+                "value": "Coach"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-creative",
+                "uuid": "e40f40aa-528a-3efb-8eaf-db4d9a895f25",
+                "value": "Director, Creative"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-success-manager",
+                "uuid": "dad7007f-e4e7-31d2-bf75-69c4f1990e75",
+                "value": "Customer Success Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-customer-success",
+                "uuid": "b8afc7ac-06e2-351a-b93a-6df46f017f0c",
+                "value": "Manager, Customer Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-client-success",
+                "uuid": "1b963bb8-434a-3f12-9df4-03d43f75faab",
+                "value": "Manager, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "corporate-counsel",
+                "uuid": "e6188c0d-ffca-3614-87bd-ee3cd4b7f782",
+                "value": "Corporate Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-client-success",
+                "uuid": "d2c5cb6c-22a2-3e3b-94ef-e1347415a4cc",
+                "value": "Director, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "channel-marketing-manager",
+                "uuid": "b923ccd6-c3cf-370e-a8fc-f22ba932a832",
+                "value": "Channel Marketing Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-client-success",
+                "uuid": "66045c40-50a8-3c4e-94bd-8edfd22f8db0",
+                "value": "VP, Client Success"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "crm-administrator",
+                "uuid": "f947bb8b-47bc-3a9e-b3c1-dea6abc7253f",
+                "value": "CRM Administrator"
+            }
+        }
+    ]
+}

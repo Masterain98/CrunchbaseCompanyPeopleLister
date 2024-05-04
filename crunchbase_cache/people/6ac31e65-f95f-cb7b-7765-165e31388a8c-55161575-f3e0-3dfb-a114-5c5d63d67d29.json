@@ -1,0 +1,71 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "4dc1d8a1-97a4-4e85-9070-c8fc557cb7bd",
+            "properties": {
+                "name": "Henry Ward",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4dc1d8a1-97a4-4e85-9070-c8fc557cb7bd",
+                    "value": "Henry Ward"
+                },
+                "linkedin": "heward",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "74ce23ae-0c70-4378-a09a-de622e54a209",
+                            "related_uuid": "4dc1d8a1-97a4-4e85-9070-c8fc557cb7bd",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3b136f94-5d68-41c5-8d14-24c5d1e18ffa",
+            "properties": {
+                "name": "Zo\u00eb Yeung",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3b136f94-5d68-41c5-8d14-24c5d1e18ffa",
+                    "value": "Zo\u00eb Yeung"
+                },
+                "linkedin": "zoeyeung",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2f4b2f60-c47d-41c8-999f-eb3450e346cf",
+                            "related_uuid": "3b136f94-5d68-41c5-8d14-24c5d1e18ffa",
+                            "properties": {
+                                "job_title": "Office of the CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

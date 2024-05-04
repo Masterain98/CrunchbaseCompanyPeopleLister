@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "24881752-75bd-46af-9722-a12ab8ae2395",
+            "properties": {
+                "name": "Jim Szafranski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "24881752-75bd-46af-9722-a12ab8ae2395",
+                    "value": "Jim Szafranski"
+                },
+                "linkedin": "jim-szafranski-339a1a",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b47f6c72-8b75-4bcf-9e26-b84bb1bb406e",
+                            "related_uuid": "24881752-75bd-46af-9722-a12ab8ae2395",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f7f2366b-2fba-4421-8975-830105c2b5d7",
+            "properties": {
+                "name": "Jim Szafranski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f7f2366b-2fba-4421-8975-830105c2b5d7",
+                    "value": "Jim Szafranski"
+                },
+                "linkedin": "jszafranski",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0175a15a-1621-425a-bc06-c8ca9eeb4c0f",
+                            "related_uuid": "f7f2366b-2fba-4421-8975-830105c2b5d7",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

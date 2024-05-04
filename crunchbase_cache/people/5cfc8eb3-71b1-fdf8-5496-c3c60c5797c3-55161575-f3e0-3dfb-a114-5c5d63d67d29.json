@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "75b5f0a4-32af-44c9-b1f7-290e29d4d9b7",
+            "properties": {
+                "name": "Mr. Peter Micciche",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "75b5f0a4-32af-44c9-b1f7-290e29d4d9b7",
+                    "value": "Mr. Peter Micciche"
+                },
+                "linkedin": "petermicciche",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00298e10-c553-46a6-9615-88d1d52c7c1e",
+                            "related_uuid": "75b5f0a4-32af-44c9-b1f7-290e29d4d9b7",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

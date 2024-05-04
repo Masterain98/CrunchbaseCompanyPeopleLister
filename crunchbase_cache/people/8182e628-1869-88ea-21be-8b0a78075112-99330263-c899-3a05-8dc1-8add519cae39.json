@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b5e976c3-98e5-4d25-b2d7-b80fd694c437",
+            "properties": {
+                "name": "Adam Christensen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5e976c3-98e5-4d25-b2d7-b80fd694c437",
+                    "value": "Adam Christensen"
+                },
+                "linkedin": "adamchristensen",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "44a95111-7981-455e-be9b-bf27a0a7961d",
+                            "related_uuid": "b5e976c3-98e5-4d25-b2d7-b80fd694c437",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

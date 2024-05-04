@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "26dadfab-6a72-4e84-bdf0-23bd0fafd9b0",
+            "properties": {
+                "name": "John Oh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "26dadfab-6a72-4e84-bdf0-23bd0fafd9b0",
+                    "value": "John Oh"
+                },
+                "linkedin": "john-oh-3309491",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7a070030-014f-45f1-a7d8-d93a5153f914",
+                            "related_uuid": "26dadfab-6a72-4e84-bdf0-23bd0fafd9b0",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

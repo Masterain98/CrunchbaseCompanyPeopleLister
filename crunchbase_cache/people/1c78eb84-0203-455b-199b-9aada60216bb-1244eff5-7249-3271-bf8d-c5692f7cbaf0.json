@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "40aea79c-7305-4b12-887d-055c9d1542b7",
+            "properties": {
+                "name": "Mark Rees",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "40aea79c-7305-4b12-887d-055c9d1542b7",
+                    "value": "Mark Rees"
+                },
+                "linkedin": "markrees3",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6b00d99a-13d8-4b8b-a723-6418874676c4",
+                            "related_uuid": "40aea79c-7305-4b12-887d-055c9d1542b7",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

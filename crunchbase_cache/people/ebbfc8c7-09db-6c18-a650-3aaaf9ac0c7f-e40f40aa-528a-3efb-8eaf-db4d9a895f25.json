@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6286ced2-36cf-4043-9597-1f0dbc6515c3",
+            "properties": {
+                "name": "Lee Feidelson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6286ced2-36cf-4043-9597-1f0dbc6515c3",
+                    "value": "Lee Feidelson"
+                },
+                "linkedin": "leefeidelson",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7b5a158e-5713-4035-9b11-050180d9fc89",
+                            "related_uuid": "6286ced2-36cf-4043-9597-1f0dbc6515c3",
+                            "properties": {
+                                "job_title": "Director, Brand and Creative"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "f21160e1-d3ed-46e8-9de5-d5bcd011ff5d",
+            "properties": {
+                "name": "Brooks Alford",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f21160e1-d3ed-46e8-9de5-d5bcd011ff5d",
+                    "value": "Brooks Alford"
+                },
+                "linkedin": "brooks-alford-54314926",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1e616e61-d8f0-473e-8477-b73f9f0350ac",
+                            "related_uuid": "f21160e1-d3ed-46e8-9de5-d5bcd011ff5d",
+                            "properties": {
+                                "job_title": "Enterprise Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "39b7f23c-8165-42de-b4e8-dd6429ca19c3",
+            "properties": {
+                "name": "Gardner Rordam",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "39b7f23c-8165-42de-b4e8-dd6429ca19c3",
+                    "value": "Gardner Rordam"
+                },
+                "linkedin": "gardner-rordam-222a1826",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "154816eb-58c2-4444-8992-cbb6338b9ddb",
+                            "related_uuid": "39b7f23c-8165-42de-b4e8-dd6429ca19c3",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b6143c95-addb-42b5-bd9a-894e7f8632a0",
+            "properties": {
+                "name": "Genevieve Jooste",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b6143c95-addb-42b5-bd9a-894e7f8632a0",
+                    "value": "Genevieve Jooste"
+                },
+                "linkedin": "genevievejooste",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4519e936-79bd-4eb0-8bb0-3ef6638adccd",
+                            "related_uuid": "b6143c95-addb-42b5-bd9a-894e7f8632a0",
+                            "properties": {
+                                "job_title": "Enterprise Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5bfb7a32-bd23-4177-8a8e-5a79c1212d62",
+            "properties": {
+                "name": "Miriam Harris",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5bfb7a32-bd23-4177-8a8e-5a79c1212d62",
+                    "value": "Miriam Harris"
+                },
+                "linkedin": "miriamharris",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0851eace-ebb7-4211-ae3d-24f809a19099",
+                            "related_uuid": "5bfb7a32-bd23-4177-8a8e-5a79c1212d62",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

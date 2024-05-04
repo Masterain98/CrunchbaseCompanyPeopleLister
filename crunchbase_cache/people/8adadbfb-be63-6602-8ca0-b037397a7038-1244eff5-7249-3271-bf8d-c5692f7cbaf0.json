@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "fdb145a8-d3c4-4925-9983-c7b3499bc5e4",
+            "properties": {
+                "name": "Bradley Lew",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fdb145a8-d3c4-4925-9983-c7b3499bc5e4",
+                    "value": "Bradley Lew"
+                },
+                "linkedin": "bradley-lew-29313512",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5c65d30e-8c32-44b3-9767-ee672157fcbc",
+                            "related_uuid": "fdb145a8-d3c4-4925-9983-c7b3499bc5e4",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6aac1592-e928-4092-9029-6681b5d8d61a",
+            "properties": {
+                "name": "Tolga Kurtoglu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6aac1592-e928-4092-9029-6681b5d8d61a",
+                    "value": "Tolga Kurtoglu"
+                },
+                "linkedin": "tolga-kurtoglu-ba2a836",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b5c8c8b3-83aa-4199-b0e0-5404d6107994",
+                            "related_uuid": "6aac1592-e928-4092-9029-6681b5d8d61a",
+                            "properties": {
+                                "job_title": "Chief Technology Officer & Global Head of HP Labs"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

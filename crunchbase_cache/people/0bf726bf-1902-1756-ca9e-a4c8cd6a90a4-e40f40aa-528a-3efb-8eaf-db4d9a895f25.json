@@ -1,0 +1,99 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "6475b3ad-feb3-44aa-9869-8fa5fa1c7055",
+            "properties": {
+                "name": "Andrew Little",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6475b3ad-feb3-44aa-9869-8fa5fa1c7055",
+                    "value": "Andrew Little"
+                },
+                "linkedin": "andrew-little-62b0487",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d0c49d78-86fd-4a19-86b9-5333d15aa3ea",
+                            "related_uuid": "6475b3ad-feb3-44aa-9869-8fa5fa1c7055",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f622b4c5-234b-43b9-a4ca-b4259ec392d3",
+            "properties": {
+                "name": "Eric Sanabria",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f622b4c5-234b-43b9-a4ca-b4259ec392d3",
+                    "value": "Eric Sanabria"
+                },
+                "linkedin": "eric-sanabria",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d10302a1-59f7-40bb-b471-3d39ba6f1c91",
+                            "related_uuid": "f622b4c5-234b-43b9-a4ca-b4259ec392d3",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "755a651b-63a9-4b26-b50d-ce1f2d373b64",
+            "properties": {
+                "name": "Mike Barber",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "755a651b-63a9-4b26-b50d-ce1f2d373b64",
+                    "value": "Mike Barber"
+                },
+                "linkedin": "mikebarbertestify",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "077a4545-6f26-4fde-bc25-b206795ceb1a",
+                            "related_uuid": "755a651b-63a9-4b26-b50d-ce1f2d373b64",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

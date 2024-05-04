@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6697afbc-e9ad-4ff1-a184-3aa4c6a72343",
+            "properties": {
+                "name": "Tim Waegeman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6697afbc-e9ad-4ff1-a184-3aa4c6a72343",
+                    "value": "Tim Waegeman"
+                },
+                "linkedin": "tim-waegeman-1657b78",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2e0e7c51-8234-4fad-b9fd-a5200f16e473",
+                            "related_uuid": "6697afbc-e9ad-4ff1-a184-3aa4c6a72343",
+                            "properties": {
+                                "job_title": "Co-Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

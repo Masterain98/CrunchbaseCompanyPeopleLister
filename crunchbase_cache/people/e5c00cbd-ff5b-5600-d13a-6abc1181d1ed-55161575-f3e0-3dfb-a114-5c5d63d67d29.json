@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "e3a03fa9-3f4d-40ca-8c94-29decc6030cc",
+            "properties": {
+                "name": "Bindiya Schaefer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e3a03fa9-3f4d-40ca-8c94-29decc6030cc",
+                    "value": "Bindiya Schaefer"
+                },
+                "linkedin": "b-c-t",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "322e178d-07f0-4676-bd9a-7e9733c578ed",
+                            "related_uuid": "e3a03fa9-3f4d-40ca-8c94-29decc6030cc",
+                            "properties": {
+                                "job_title": "Fellow, CEO Action for Racial Equity"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "38dde199-8ddd-470d-a1d2-3dec868a112f",
+            "properties": {
+                "name": "Jacob Patterson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "38dde199-8ddd-470d-a1d2-3dec868a112f",
+                    "value": "Jacob Patterson"
+                },
+                "linkedin": "jacobmpatterson",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e9edd477-53d7-4a83-a173-71ace111a919",
+                            "related_uuid": "38dde199-8ddd-470d-a1d2-3dec868a112f",
+                            "properties": {
+                                "job_title": "Fellow, CEO Action for Racial Equity"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

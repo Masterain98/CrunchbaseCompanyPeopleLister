@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3b66ee5d-5608-46ba-b5da-3c30c4ec11d6",
+            "properties": {
+                "name": "Chris Pizzo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3b66ee5d-5608-46ba-b5da-3c30c4ec11d6",
+                    "value": "Chris Pizzo"
+                },
+                "linkedin": "chrispizzodesign",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "35abfc83-b376-4cff-96fb-865cbd22d6fd",
+                            "related_uuid": "3b66ee5d-5608-46ba-b5da-3c30c4ec11d6",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

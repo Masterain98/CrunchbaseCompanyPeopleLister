@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ab5a972f-f569-44da-9d95-466cf06306eb",
+            "properties": {
+                "name": "Chuck Ganapathi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ab5a972f-f569-44da-9d95-466cf06306eb",
+                    "value": "Chuck Ganapathi"
+                },
+                "linkedin": "chuckganapathi",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "497996e2-5463-412f-a8fa-e2182f118af1",
+                            "related_uuid": "ab5a972f-f569-44da-9d95-466cf06306eb",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

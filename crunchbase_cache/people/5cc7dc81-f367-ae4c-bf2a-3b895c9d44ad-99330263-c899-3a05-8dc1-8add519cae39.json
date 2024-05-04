@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9fccef9f-7acd-484c-a2ed-4a618c49a39f",
+            "properties": {
+                "name": "Neil Golson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9fccef9f-7acd-484c-a2ed-4a618c49a39f",
+                    "value": "Neil Golson"
+                },
+                "linkedin": "neil-golson-3123842",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "097c391a-df5d-4fea-86b6-30bb2880b1c1",
+                            "related_uuid": "9fccef9f-7acd-484c-a2ed-4a618c49a39f",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

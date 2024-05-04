@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "33c0adb8-2128-4ea0-b912-fe695a139951",
+            "properties": {
+                "name": "Brian Rue",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "33c0adb8-2128-4ea0-b912-fe695a139951",
+                    "value": "Brian Rue"
+                },
+                "linkedin": "brianrue",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0bb5ae7e-db80-45b5-8b52-21337a37dc81",
+                            "related_uuid": "33c0adb8-2128-4ea0-b912-fe695a139951",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

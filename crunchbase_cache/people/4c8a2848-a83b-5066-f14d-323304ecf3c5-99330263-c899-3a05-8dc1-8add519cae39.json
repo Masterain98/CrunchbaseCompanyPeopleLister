@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "658ce9c3-00e2-4bdd-bed0-1b6b737d24a4",
+            "properties": {
+                "name": "Grant Ho",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "658ce9c3-00e2-4bdd-bed0-1b6b737d24a4",
+                    "value": "Grant Ho"
+                },
+                "linkedin": "grantho",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b27a4407-02f7-46ef-af4e-50a3de57dae7",
+                            "related_uuid": "658ce9c3-00e2-4bdd-bed0-1b6b737d24a4",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

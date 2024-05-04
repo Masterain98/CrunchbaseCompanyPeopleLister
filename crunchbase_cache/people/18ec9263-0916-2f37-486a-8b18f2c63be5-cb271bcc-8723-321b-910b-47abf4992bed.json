@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "d2edf6dd-5f12-435c-8890-71253cd7c0c1",
+            "properties": {
+                "name": "Ryan Jensen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d2edf6dd-5f12-435c-8890-71253cd7c0c1",
+                    "value": "Ryan Jensen"
+                },
+                "linkedin": "ryan-jensen-7816ba8",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3a97ed9f-ab3f-45fb-afca-cf36ab51300b",
+                            "related_uuid": "d2edf6dd-5f12-435c-8890-71253cd7c0c1",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2fef3a47-15a3-4949-84c6-91d0febad934",
+            "properties": {
+                "name": "Stephanie Latham",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2fef3a47-15a3-4949-84c6-91d0febad934",
+                    "value": "Stephanie Latham"
+                },
+                "linkedin": "stephanie-latham-16841973",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ece4dca-c467-4d8d-a060-54a83465bf11",
+                            "related_uuid": "2fef3a47-15a3-4949-84c6-91d0febad934",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

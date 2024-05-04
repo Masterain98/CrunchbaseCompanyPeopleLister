@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6b826b62-7abf-414f-be14-cb5977bca771",
+            "properties": {
+                "name": "Alyssa Andrade",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6b826b62-7abf-414f-be14-cb5977bca771",
+                    "value": "Alyssa Andrade"
+                },
+                "linkedin": "alyssaandrade",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "27d4d21e-12d5-4024-8dd0-cba1b5cd30d2",
+                            "related_uuid": "6b826b62-7abf-414f-be14-cb5977bca771",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

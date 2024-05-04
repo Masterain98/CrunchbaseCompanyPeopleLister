@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "eaeed3d2-6fef-434d-83f0-8c42ac9cd455",
+            "properties": {
+                "name": "Krishna Raj Raja",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eaeed3d2-6fef-434d-83f0-8c42ac9cd455",
+                    "value": "Krishna Raj Raja"
+                },
+                "linkedin": "krraja",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a7701ab1-b278-42b8-bf58-9b971e526a25",
+                            "related_uuid": "eaeed3d2-6fef-434d-83f0-8c42ac9cd455",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8e8d9a0d-5d1e-481b-843f-3283a8a844ac",
+            "properties": {
+                "name": "Jeff Branc",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8e8d9a0d-5d1e-481b-843f-3283a8a844ac",
+                    "value": "Jeff Branc"
+                },
+                "linkedin": "jeffbranc",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f3715914-d1ba-4eb7-b3d4-5427e7a96a24",
+                            "related_uuid": "8e8d9a0d-5d1e-481b-843f-3283a8a844ac",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

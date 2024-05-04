@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "f2f4838d-e3d3-4317-8396-afeab649231a",
+            "properties": {
+                "name": "Mihir Shukla",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f2f4838d-e3d3-4317-8396-afeab649231a",
+                    "value": "Mihir Shukla"
+                },
+                "linkedin": "mihirshukla",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3f54e12d-8c51-4d12-8319-8fc8f5e8d575",
+                            "related_uuid": "f2f4838d-e3d3-4317-8396-afeab649231a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "98ce4ebc-b8bf-4d71-b72a-af887cf2b14e",
+            "properties": {
+                "name": "Tamas Hevizi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "98ce4ebc-b8bf-4d71-b72a-af887cf2b14e",
+                    "value": "Tamas Hevizi"
+                },
+                "linkedin": "tamashevizi",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "40b2de28-2aca-48d5-ae18-2c42b20ed4bc",
+                            "related_uuid": "98ce4ebc-b8bf-4d71-b72a-af887cf2b14e",
+                            "properties": {
+                                "job_title": "Head - Office of the CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

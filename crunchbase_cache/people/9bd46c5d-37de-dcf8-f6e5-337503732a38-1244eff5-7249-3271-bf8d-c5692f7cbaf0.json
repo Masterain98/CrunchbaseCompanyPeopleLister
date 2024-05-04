@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "6eadc68b-3d00-4667-9a4f-b6d46ccd96fc",
+            "properties": {
+                "name": "David Moore",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6eadc68b-3d00-4667-9a4f-b6d46ccd96fc",
+                    "value": "David Moore"
+                },
+                "linkedin": "daviddmoore",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "product"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "907cb90b-4430-4668-ac2d-486c80e0ddb4",
+                            "related_uuid": "6eadc68b-3d00-4667-9a4f-b6d46ccd96fc",
+                            "properties": {
+                                "job_title": "Chief Technology Officer & EVP, Global Product Development"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5c457ed9-5857-4d59-8d4e-937d2516cca4",
+            "properties": {
+                "name": "Mike Hiett",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5c457ed9-5857-4d59-8d4e-937d2516cca4",
+                    "value": "Mike Hiett"
+                },
+                "linkedin": "mike-hiett-92a5765",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "34de4df6-ba1e-47f9-a3ae-f285694d7856",
+                            "related_uuid": "5c457ed9-5857-4d59-8d4e-937d2516cca4",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

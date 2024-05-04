@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "dd5eb7f0-db59-4ff6-9281-b4a35d5909cd",
+            "properties": {
+                "name": "Geoffrey Ogonosky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dd5eb7f0-db59-4ff6-9281-b4a35d5909cd",
+                    "value": "Geoffrey Ogonosky"
+                },
+                "linkedin": "geoffogonosky",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "134e4e45-18ed-4e4a-9ada-0cfb095da4e4",
+                            "related_uuid": "dd5eb7f0-db59-4ff6-9281-b4a35d5909cd",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

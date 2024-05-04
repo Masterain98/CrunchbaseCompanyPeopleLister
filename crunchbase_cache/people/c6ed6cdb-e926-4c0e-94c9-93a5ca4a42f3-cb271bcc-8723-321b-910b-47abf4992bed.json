@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "096b28d1-864e-45b0-86b9-1c9806b9db6a",
+            "properties": {
+                "name": "Colleen Cook, PMP, MBA",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "096b28d1-864e-45b0-86b9-1c9806b9db6a",
+                    "value": "Colleen Cook, PMP, MBA"
+                },
+                "linkedin": "colleenkcook",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1bf78c4b-7b65-4ab0-9da2-6cf4b4c8cfec",
+                            "related_uuid": "096b28d1-864e-45b0-86b9-1c9806b9db6a",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

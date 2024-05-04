@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bbc259f1-b068-42e7-b875-036ab22d6b68",
+            "properties": {
+                "name": "Jagmeet Lamba",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bbc259f1-b068-42e7-b875-036ab22d6b68",
+                    "value": "Jagmeet Lamba"
+                },
+                "linkedin": "jlamba",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f4f1f389-3805-483a-ac01-f22fa75dbd3e",
+                            "related_uuid": "bbc259f1-b068-42e7-b875-036ab22d6b68",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

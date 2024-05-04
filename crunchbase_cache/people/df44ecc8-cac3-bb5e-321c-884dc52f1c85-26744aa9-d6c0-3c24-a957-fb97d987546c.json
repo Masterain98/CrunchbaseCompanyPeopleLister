@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cc7a3932-cb55-4878-a647-7310289689c1",
+            "properties": {
+                "name": "Betsy Steadham-Tucker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cc7a3932-cb55-4878-a647-7310289689c1",
+                    "value": "Betsy Steadham-Tucker"
+                },
+                "linkedin": "betsy-steadham-tucker-ab708024",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f9e28a92-705f-4cd8-bc11-e9fba0c580c6",
+                            "related_uuid": "cc7a3932-cb55-4878-a647-7310289689c1",
+                            "properties": {
+                                "job_title": "Procurement Specialist - Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

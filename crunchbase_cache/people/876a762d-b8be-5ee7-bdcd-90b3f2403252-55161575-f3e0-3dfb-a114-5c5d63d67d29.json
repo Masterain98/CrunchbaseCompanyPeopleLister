@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7eb5970a-176f-4414-a69e-4a4596bcde2b",
+            "properties": {
+                "name": "Gregory Dukat",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7eb5970a-176f-4414-a69e-4a4596bcde2b",
+                    "value": "Gregory Dukat"
+                },
+                "linkedin": "gregory-dukat-40a82436",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26f985e6-06f3-4fa4-8789-01de2f72a34b",
+                            "related_uuid": "7eb5970a-176f-4414-a69e-4a4596bcde2b",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

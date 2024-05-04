@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "b947803f-871d-4fa3-9667-59a93f694d4d",
+            "properties": {
+                "name": "Jessica Aloft",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b947803f-871d-4fa3-9667-59a93f694d4d",
+                    "value": "Jessica Aloft"
+                },
+                "linkedin": "jessicaaloft",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8f3641a6-0887-4ad4-9f93-e5a4370a50b5",
+                            "related_uuid": "b947803f-871d-4fa3-9667-59a93f694d4d",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0e05f471-873f-4bea-905e-7c28d06f951e",
+            "properties": {
+                "name": "Justin Marchant",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e05f471-873f-4bea-905e-7c28d06f951e",
+                    "value": "Justin Marchant"
+                },
+                "linkedin": "justin-marchant-33653521",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a5ececc5-c7e1-4db5-ba99-302933b98284",
+                            "related_uuid": "0e05f471-873f-4bea-905e-7c28d06f951e",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

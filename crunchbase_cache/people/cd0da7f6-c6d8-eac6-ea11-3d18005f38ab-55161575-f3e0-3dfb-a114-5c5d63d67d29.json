@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0a5b3204-47e2-4474-9fab-aa8e911ad00d",
+            "properties": {
+                "name": "Jonah Lopin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0a5b3204-47e2-4474-9fab-aa8e911ad00d",
+                    "value": "Jonah Lopin"
+                },
+                "linkedin": "jonahlopin",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c9866d5-9655-4a41-baf7-5dcf0ad79e3c",
+                            "related_uuid": "0a5b3204-47e2-4474-9fab-aa8e911ad00d",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4e9d4aaf-d32a-4023-b0db-a977d2570c48",
+            "properties": {
+                "name": "Travis Emslander",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4e9d4aaf-d32a-4023-b0db-a977d2570c48",
+                    "value": "Travis Emslander"
+                },
+                "linkedin": "travis-emslander",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "68f72b54-5172-464f-9854-0ea6878d4a28",
+                            "related_uuid": "4e9d4aaf-d32a-4023-b0db-a977d2570c48",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

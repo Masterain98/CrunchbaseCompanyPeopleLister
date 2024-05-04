@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "6cf7cd85-f427-40ef-a9ea-e5846f8ef01d",
+            "properties": {
+                "name": "Michael Praeger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6cf7cd85-f427-40ef-a9ea-e5846f8ef01d",
+                    "value": "Michael Praeger"
+                },
+                "linkedin": "michael-praeger-1a36b313",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d0c82f74-0fcd-4a5b-a2cf-20b05badf10e",
+                            "related_uuid": "6cf7cd85-f427-40ef-a9ea-e5846f8ef01d",
+                            "properties": {
+                                "job_title": "Chief Executive Officer, Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c5d06864-0051-4d3a-b6a0-420676a9c80f",
+            "properties": {
+                "name": "Mr. Michael Praeger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c5d06864-0051-4d3a-b6a0-420676a9c80f",
+                    "value": "Mr. Michael Praeger"
+                },
+                "linkedin": "michaelpraeger-avidx",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6279f0bd-12fd-4918-9f70-8c13b3762aaf",
+                            "related_uuid": "c5d06864-0051-4d3a-b6a0-420676a9c80f",
+                            "properties": {
+                                "job_title": "Chief Executive Officer, Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2a295864-a388-4ffd-980b-9da40069a529",
+            "properties": {
+                "name": "Hamish Grant",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2a295864-a388-4ffd-980b-9da40069a529",
+                    "value": "Hamish Grant"
+                },
+                "linkedin": "hamish-grant-67507238",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_400_vp"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9b6d0c81-4495-4d17-85dd-ee569a6129b2",
+                            "related_uuid": "2a295864-a388-4ffd-980b-9da40069a529",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

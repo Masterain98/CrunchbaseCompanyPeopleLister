@@ -1,0 +1,98 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "c441bf95-656d-4627-b034-36d351be1055",
+            "properties": {
+                "name": "Jane McKenzie",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c441bf95-656d-4627-b034-36d351be1055",
+                    "value": "Jane McKenzie"
+                },
+                "linkedin": "jane-mckenzie-88a42a4",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a9d430bb-aa36-4aa0-900b-3d7581bc1660",
+                            "related_uuid": "c441bf95-656d-4627-b034-36d351be1055",
+                            "properties": {
+                                "job_title": "Federal and SLED Contracts and Compliance Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1c1c74eb-e695-4357-a6b1-b81b9ce748bc",
+            "properties": {
+                "name": "Laura Cairns",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1c1c74eb-e695-4357-a6b1-b81b9ce748bc",
+                    "value": "Laura Cairns"
+                },
+                "linkedin": "laura-cairns-4b86b78",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "89d006eb-fe4a-4f84-a7a1-c01c475184b0",
+                            "related_uuid": "1c1c74eb-e695-4357-a6b1-b81b9ce748bc",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e8df587b-d25f-49ca-be47-9269a6edfafa",
+            "properties": {
+                "name": "Matt Marshall",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e8df587b-d25f-49ca-be47-9269a6edfafa",
+                    "value": "Matt Marshall"
+                },
+                "linkedin": "mattrmarshall",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "legal"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ae90ab24-4cc8-4fcb-9543-979a983a9c42",
+                            "related_uuid": "e8df587b-d25f-49ca-be47-9269a6edfafa",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

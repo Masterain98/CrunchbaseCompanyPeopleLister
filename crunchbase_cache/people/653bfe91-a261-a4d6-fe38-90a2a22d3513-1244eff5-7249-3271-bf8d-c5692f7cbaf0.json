@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "424bb6ac-c84d-4588-8d1e-d546403f3720",
+            "properties": {
+                "name": "Jacob Lauzier",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "424bb6ac-c84d-4588-8d1e-d546403f3720",
+                    "value": "Jacob Lauzier"
+                },
+                "linkedin": "jacoblauzier",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "816be1e1-633d-4718-9aba-4c65009ee9c8",
+                            "related_uuid": "424bb6ac-c84d-4588-8d1e-d546403f3720",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

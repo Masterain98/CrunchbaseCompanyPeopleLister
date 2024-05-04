@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "38a943ac-59ea-446a-880e-19f13926b853",
+            "properties": {
+                "name": "Michele Borovac",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "38a943ac-59ea-446a-880e-19f13926b853",
+                    "value": "Michele Borovac"
+                },
+                "linkedin": "micheleborovac",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f3bb4a2-7d84-4469-ac0d-c1177f8de79f",
+                            "related_uuid": "38a943ac-59ea-446a-880e-19f13926b853",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f4e9e104-7c96-4818-87b1-e7973921c097",
+            "properties": {
+                "name": "William Hayward",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f4e9e104-7c96-4818-87b1-e7973921c097",
+                    "value": "William Hayward"
+                },
+                "linkedin": "billhayward",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "53cff6c6-d493-4c0c-ae15-9edba1917afb",
+                            "related_uuid": "f4e9e104-7c96-4818-87b1-e7973921c097",
+                            "properties": {
+                                "job_title": "Director of Risk & Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

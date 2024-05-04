@@ -1,0 +1,95 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "28be8a94-e2fc-4a68-b4f6-03dba6ae3126",
+            "properties": {
+                "name": "Desiree Hanlon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "28be8a94-e2fc-4a68-b4f6-03dba6ae3126",
+                    "value": "Desiree Hanlon"
+                },
+                "linkedin": "desiree-hanlon-28956142",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0d2716ef-ca2c-4b29-b000-a6ec4c669a93",
+                            "related_uuid": "28be8a94-e2fc-4a68-b4f6-03dba6ae3126",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a7096e9c-6605-458c-afed-fd908c591f16",
+            "properties": {
+                "name": "Erica D'Souza",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a7096e9c-6605-458c-afed-fd908c591f16",
+                    "value": "Erica D'Souza"
+                },
+                "linkedin": "erica-d-souza-95851721",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19391a8f-f4de-4ab7-9a83-85de32121f70",
+                            "related_uuid": "a7096e9c-6605-458c-afed-fd908c591f16",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f0877ec8-41e1-4918-8cf4-7ec1c580ba7b",
+            "properties": {
+                "name": "Mike Ulaky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f0877ec8-41e1-4918-8cf4-7ec1c580ba7b",
+                    "value": "Mike Ulaky"
+                },
+                "linkedin": "mikeulaky",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ad013f41-cf0b-468f-882f-457215b24963",
+                            "related_uuid": "f0877ec8-41e1-4918-8cf4-7ec1c580ba7b",
+                            "properties": {
+                                "job_title": "Director, Customer Success and Renewals"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

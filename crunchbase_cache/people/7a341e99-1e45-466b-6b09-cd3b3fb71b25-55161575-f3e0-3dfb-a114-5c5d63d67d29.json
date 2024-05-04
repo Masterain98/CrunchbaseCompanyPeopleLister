@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "90bdd102-8fcb-44ed-bd85-c9428a07c04b",
+            "properties": {
+                "name": "Jim Messer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "90bdd102-8fcb-44ed-bd85-c9428a07c04b",
+                    "value": "Jim Messer"
+                },
+                "linkedin": "jimmessertransverse",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2f38f1fb-2c7a-4dc0-abae-b93451efba17",
+                            "related_uuid": "90bdd102-8fcb-44ed-bd85-c9428a07c04b",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

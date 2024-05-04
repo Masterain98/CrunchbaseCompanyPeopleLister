@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e649a79c-65dd-49d4-85b0-ce40edd995f5",
+            "properties": {
+                "name": "May El Hattab",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e649a79c-65dd-49d4-85b0-ce40edd995f5",
+                    "value": "May El Hattab"
+                },
+                "linkedin": "may-elhattab",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "496662df-0548-40c9-98ca-95d9b83c4fd2",
+                            "related_uuid": "e649a79c-65dd-49d4-85b0-ce40edd995f5",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

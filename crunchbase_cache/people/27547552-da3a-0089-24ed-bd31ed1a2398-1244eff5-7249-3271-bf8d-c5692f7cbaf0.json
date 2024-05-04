@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c32e54a8-4ce9-4e5b-9f0a-e56e01b5531c",
+            "properties": {
+                "name": "Greg Dennis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c32e54a8-4ce9-4e5b-9f0a-e56e01b5531c",
+                    "value": "Greg Dennis"
+                },
+                "linkedin": "gbdennis",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "52c53332-f376-4325-854d-638d1f908d17",
+                            "related_uuid": "c32e54a8-4ce9-4e5b-9f0a-e56e01b5531c",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

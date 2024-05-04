@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "69d5f9ca-48bf-4cc3-ab49-5c7936e91c35",
+            "properties": {
+                "name": "Steve Hoechster",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "69d5f9ca-48bf-4cc3-ab49-5c7936e91c35",
+                    "value": "Steve Hoechster"
+                },
+                "linkedin": "stevehoechster",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1931fd71-da8e-4d5e-8d57-2badcc3e8562",
+                            "related_uuid": "69d5f9ca-48bf-4cc3-ab49-5c7936e91c35",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "ea94e6be-c208-4de3-8325-d1d213713c50",
+            "properties": {
+                "name": "Asanka Abeysinghe",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ea94e6be-c208-4de3-8325-d1d213713c50",
+                    "value": "Asanka Abeysinghe"
+                },
+                "linkedin": "asankaabeysinghe",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a2fc47d-3900-4abd-bf4d-9bbe172fa568",
+                            "related_uuid": "ea94e6be-c208-4de3-8325-d1d213713c50",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "939058fb-4ff6-459c-a9d5-bf2d21e2b13c",
+            "properties": {
+                "name": "Eric Newcomer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "939058fb-4ff6-459c-a9d5-bf2d21e2b13c",
+                    "value": "Eric Newcomer"
+                },
+                "linkedin": "enewcomer",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "65605c6c-d7f9-443d-83c1-3af07237db37",
+                            "related_uuid": "939058fb-4ff6-459c-a9d5-bf2d21e2b13c",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6bd87c22-7455-465b-83a4-2aee9a1c4cfa",
+            "properties": {
+                "name": "Nuwan Dias",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6bd87c22-7455-465b-83a4-2aee9a1c4cfa",
+                    "value": "Nuwan Dias"
+                },
+                "linkedin": "nuwandias",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c865e07a-bcea-441d-b796-c392abec6c0d",
+                            "related_uuid": "6bd87c22-7455-465b-83a4-2aee9a1c4cfa",
+                            "properties": {
+                                "job_title": "Vice President and Deputy CTO, API Management and Integration"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

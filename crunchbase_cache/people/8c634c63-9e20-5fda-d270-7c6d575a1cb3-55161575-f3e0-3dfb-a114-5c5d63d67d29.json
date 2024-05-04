@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b8207adc-7748-4079-9738-dd946be39aa4",
+            "properties": {
+                "name": "Brad Schick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b8207adc-7748-4079-9738-dd946be39aa4",
+                    "value": "Brad Schick"
+                },
+                "linkedin": "schickb",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0d277ef4-94dd-4405-9a0d-9243ff03d688",
+                            "related_uuid": "b8207adc-7748-4079-9738-dd946be39aa4",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

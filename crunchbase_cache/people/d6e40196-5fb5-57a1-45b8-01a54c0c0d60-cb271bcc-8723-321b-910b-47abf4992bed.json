@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "7e3c3eec-a972-4d1e-94d1-593b4f6375ee",
+            "properties": {
+                "name": "Lauren Zimmer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7e3c3eec-a972-4d1e-94d1-593b4f6375ee",
+                    "value": "Lauren Zimmer"
+                },
+                "linkedin": "lauren-zimmer-9149a326",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "681f0963-00cd-47da-8436-8560c3eecff8",
+                            "related_uuid": "7e3c3eec-a972-4d1e-94d1-593b4f6375ee",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "004dea93-fc86-4f76-9141-a2846dac366a",
+            "properties": {
+                "name": "Ric Mcclemons",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "004dea93-fc86-4f76-9141-a2846dac366a",
+                    "value": "Ric Mcclemons"
+                },
+                "linkedin": "ric-mcclemons-13583867",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b375014e-1070-4a04-b092-eaef62a9ca4d",
+                            "related_uuid": "004dea93-fc86-4f76-9141-a2846dac366a",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

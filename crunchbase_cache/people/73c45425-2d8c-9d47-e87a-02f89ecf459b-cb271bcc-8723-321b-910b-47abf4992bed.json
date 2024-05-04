@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "85a9ff24-b143-4e47-8bf8-f74c74bf2f51",
+            "properties": {
+                "name": "Rose Kaye",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "85a9ff24-b143-4e47-8bf8-f74c74bf2f51",
+                    "value": "Rose Kaye"
+                },
+                "linkedin": "rose-kaye-405a807b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "25c6e7dd-a961-4441-9d72-f3251cd9829f",
+                            "related_uuid": "85a9ff24-b143-4e47-8bf8-f74c74bf2f51",
+                            "properties": {
+                                "job_title": "Associate Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

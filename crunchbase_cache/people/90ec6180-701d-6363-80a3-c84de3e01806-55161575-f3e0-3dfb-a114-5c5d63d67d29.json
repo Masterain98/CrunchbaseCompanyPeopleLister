@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a79e55ef-d2da-47a4-b0ec-45c255a24766",
+            "properties": {
+                "name": "Rich Cancro",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a79e55ef-d2da-47a4-b0ec-45c255a24766",
+                    "value": "Rich Cancro"
+                },
+                "linkedin": "richcancro",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b7b50d50-4a28-4f25-b1ac-63cf0097a13b",
+                            "related_uuid": "a79e55ef-d2da-47a4-b0ec-45c255a24766",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

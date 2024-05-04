@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7cccbddc-22ca-47ce-a99f-07670d88a4c2",
+            "properties": {
+                "name": "Ben Johnson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7cccbddc-22ca-47ce-a99f-07670d88a4c2",
+                    "value": "Ben Johnson"
+                },
+                "linkedin": "benjaminjohnson80",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "71c0e78e-6ac2-44c1-94e5-7c0443b721d8",
+                            "related_uuid": "7cccbddc-22ca-47ce-a99f-07670d88a4c2",
+                            "properties": {
+                                "job_title": "Co-Founder / CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

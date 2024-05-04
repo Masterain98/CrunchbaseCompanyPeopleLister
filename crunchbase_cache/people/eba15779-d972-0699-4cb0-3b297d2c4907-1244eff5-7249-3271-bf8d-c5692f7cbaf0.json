@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ca3ce890-6662-45a9-9e5a-a11d2a2095db",
+            "properties": {
+                "name": "Prem Jadhwani",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ca3ce890-6662-45a9-9e5a-a11d2a2095db",
+                    "value": "Prem Jadhwani"
+                },
+                "linkedin": "prem-jadhwani-b7948a3",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c4a1cd8-68a7-4b0c-a7fb-3b5f62d2ec0c",
+                            "related_uuid": "ca3ce890-6662-45a9-9e5a-a11d2a2095db",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f7b0b5a3-1e66-45dd-8453-b60aeac03168",
+            "properties": {
+                "name": "Prem Jadhwani",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f7b0b5a3-1e66-45dd-8453-b60aeac03168",
+                    "value": "Prem Jadhwani"
+                },
+                "linkedin": "prem-jadhwani",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "470ffa9b-f90b-49c7-b63f-7029826419cf",
+                            "related_uuid": "f7b0b5a3-1e66-45dd-8453-b60aeac03168",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

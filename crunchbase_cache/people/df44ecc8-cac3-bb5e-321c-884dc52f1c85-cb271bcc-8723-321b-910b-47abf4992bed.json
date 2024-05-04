@@ -1,0 +1,135 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "683dfd5a-5457-4b1f-b524-eca13d9595ca",
+            "properties": {
+                "name": "Amy Ly",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "683dfd5a-5457-4b1f-b524-eca13d9595ca",
+                    "value": "Amy Ly"
+                },
+                "linkedin": "amy-ly-8354478",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5457a188-f029-461d-a3f3-9c47bfce6784",
+                            "related_uuid": "683dfd5a-5457-4b1f-b524-eca13d9595ca",
+                            "properties": {
+                                "job_title": "Sr. Dir, New Product Introduction"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "48f6cb2a-cc8a-49d9-a842-88bf95bcef3d",
+            "properties": {
+                "name": "Andrew DiSimone",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "48f6cb2a-cc8a-49d9-a842-88bf95bcef3d",
+                    "value": "Andrew DiSimone"
+                },
+                "linkedin": "disimone",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f350b74a-d461-404d-a192-991dce282523",
+                            "related_uuid": "48f6cb2a-cc8a-49d9-a842-88bf95bcef3d",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "435b0994-9c43-4f3e-8cd6-8dbcdd19ecda",
+            "properties": {
+                "name": "Scott Blashek",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "435b0994-9c43-4f3e-8cd6-8dbcdd19ecda",
+                    "value": "Scott Blashek"
+                },
+                "linkedin": "scottblashek",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "02254fea-901b-4fdd-9b32-b8de457645b1",
+                            "related_uuid": "435b0994-9c43-4f3e-8cd6-8dbcdd19ecda",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "706fb701-f1bb-458f-841b-c6d72d5f7bf0",
+            "properties": {
+                "name": "Yoshika Lowe",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "706fb701-f1bb-458f-841b-c6d72d5f7bf0",
+                    "value": "Yoshika Lowe"
+                },
+                "linkedin": "yoshikachristianlowe",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6c57c395-de52-4c14-9d11-7f4113f56ab1",
+                            "related_uuid": "706fb701-f1bb-458f-841b-c6d72d5f7bf0",
+                            "properties": {
+                                "job_title": "Director, Customer Success Renewals"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

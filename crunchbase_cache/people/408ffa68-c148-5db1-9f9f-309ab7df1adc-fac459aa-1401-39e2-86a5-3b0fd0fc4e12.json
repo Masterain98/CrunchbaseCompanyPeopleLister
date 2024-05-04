@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f8127963-f056-4a25-9b2a-8ded0b1ee4ea",
+            "properties": {
+                "name": "Kelly Zielinski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f8127963-f056-4a25-9b2a-8ded0b1ee4ea",
+                    "value": "Kelly Zielinski"
+                },
+                "linkedin": "kelly-zielinski-46a92717",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ad2decc7-e429-4875-b4ab-66b90ee1236b",
+                            "related_uuid": "f8127963-f056-4a25-9b2a-8ded0b1ee4ea",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

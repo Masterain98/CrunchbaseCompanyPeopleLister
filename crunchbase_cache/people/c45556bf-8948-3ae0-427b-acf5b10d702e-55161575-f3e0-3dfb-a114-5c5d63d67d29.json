@@ -1,0 +1,71 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "60cbdd51-bc54-47c1-ab6d-3b2a30f90f72",
+            "properties": {
+                "name": "Alexander Graf",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "60cbdd51-bc54-47c1-ab6d-3b2a30f90f72",
+                    "value": "Alexander Graf"
+                },
+                "linkedin": "alexandergraf",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "52857fab-ab8f-46d2-81e4-16c4b4005902",
+                            "related_uuid": "60cbdd51-bc54-47c1-ab6d-3b2a30f90f72",
+                            "properties": {
+                                "job_title": "Co-Founder & Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "456378ba-1d04-4329-b720-d0063da66099",
+            "properties": {
+                "name": "Boris Lokschin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "456378ba-1d04-4329-b720-d0063da66099",
+                    "value": "Boris Lokschin"
+                },
+                "linkedin": "boris-lokschin-aba53013",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "061bc25e-9082-4c6f-bb8d-b98dcaee9a63",
+                            "related_uuid": "456378ba-1d04-4329-b720-d0063da66099",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

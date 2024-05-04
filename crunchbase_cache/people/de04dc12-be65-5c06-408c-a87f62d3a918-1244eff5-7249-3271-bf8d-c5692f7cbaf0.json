@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "82fd0038-cf6a-477d-9de1-9d25bb25aa44",
+            "properties": {
+                "name": "Rob Zuber",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "82fd0038-cf6a-477d-9de1-9d25bb25aa44",
+                    "value": "Rob Zuber"
+                },
+                "linkedin": "robzuber",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c8149f24-450d-4eb2-9b11-c2d1944671ac",
+                            "related_uuid": "82fd0038-cf6a-477d-9de1-9d25bb25aa44",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

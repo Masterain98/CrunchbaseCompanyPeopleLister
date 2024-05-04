@@ -1,0 +1,66 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "86b82364-dfd2-42d6-bae3-5b3fe1dd328b",
+            "properties": {
+                "name": "Mark Zembal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "86b82364-dfd2-42d6-bae3-5b3fe1dd328b",
+                    "value": "Mark Zembal"
+                },
+                "linkedin": "markzembal",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cc35a2d0-e22d-4ecf-a7b8-446d067f94df",
+                            "related_uuid": "86b82364-dfd2-42d6-bae3-5b3fe1dd328b",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cbd38704-3467-4560-96fd-cf11d65a2807",
+            "properties": {
+                "name": "Grant Ho",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cbd38704-3467-4560-96fd-cf11d65a2807",
+                    "value": "Grant Ho"
+                },
+                "linkedin": "grantho",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19d15bda-2cc6-4578-aa43-ce1cf43bfba6",
+                            "related_uuid": "cbd38704-3467-4560-96fd-cf11d65a2807",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

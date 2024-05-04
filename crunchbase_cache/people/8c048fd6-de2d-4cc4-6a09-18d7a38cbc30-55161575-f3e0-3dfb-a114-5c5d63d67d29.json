@@ -1,0 +1,341 @@
+{
+    "count": 11,
+    "entities": [
+        {
+            "uuid": "cc7ce062-9972-448d-8a04-7ef80492bf8d",
+            "properties": {
+                "name": "Anthony Viel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cc7ce062-9972-448d-8a04-7ef80492bf8d",
+                    "value": "Anthony Viel"
+                },
+                "linkedin": "anthonyviel",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ba016972-77c9-4485-b174-c3a5213c9505",
+                            "related_uuid": "cc7ce062-9972-448d-8a04-7ef80492bf8d",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "962cd6a3-e387-4948-b281-9e5706b457bc",
+            "properties": {
+                "name": "Brigette Bustos",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "962cd6a3-e387-4948-b281-9e5706b457bc",
+                    "value": "Brigette Bustos"
+                },
+                "linkedin": "brigettebustos",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "013fa658-93da-4426-9f7f-63486835c7a9",
+                            "related_uuid": "962cd6a3-e387-4948-b281-9e5706b457bc",
+                            "properties": {
+                                "job_title": "Offices of Deloitte Global CEO & Global Regulatory"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6dde851a-aec1-4630-b1a8-8b9e2eef3c1a",
+            "properties": {
+                "name": "Harry Goddard",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6dde851a-aec1-4630-b1a8-8b9e2eef3c1a",
+                    "value": "Harry Goddard"
+                },
+                "linkedin": "harrygoddard",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "32dbf71e-1209-4762-9e80-2fd467d65959",
+                            "related_uuid": "6dde851a-aec1-4630-b1a8-8b9e2eef3c1a",
+                            "properties": {
+                                "job_title": "CEO Deloitte Ireland LLP"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0e01e90c-1884-49ab-8dd3-1852650689f9",
+            "properties": {
+                "name": "Ian Colebourne",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e01e90c-1884-49ab-8dd3-1852650689f9",
+                    "value": "Ian Colebourne"
+                },
+                "linkedin": "ian-colebourne-616aab14",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8f3cf03c-f66c-4638-8a97-139ff096205d",
+                            "related_uuid": "0e01e90c-1884-49ab-8dd3-1852650689f9",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "12d06cab-14cb-43d5-81d1-31d28d581cac",
+            "properties": {
+                "name": "Jacqueline Waldeck",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "12d06cab-14cb-43d5-81d1-31d28d581cac",
+                    "value": "Jacqueline Waldeck"
+                },
+                "linkedin": "jacqueline-gieri-waldeck-544bb04",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "21a935ea-ab21-43a0-81bd-41380bbc65b3",
+                            "related_uuid": "12d06cab-14cb-43d5-81d1-31d28d581cac",
+                            "properties": {
+                                "job_title": "Manager, Global CEO Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ef06164e-e86e-469c-a86f-6180135aaba4",
+            "properties": {
+                "name": "John Peirson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ef06164e-e86e-469c-a86f-6180135aaba4",
+                    "value": "John Peirson"
+                },
+                "linkedin": "johnpeirson",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dd846437-28df-4259-aa50-a3556075f868",
+                            "related_uuid": "ef06164e-e86e-469c-a86f-6180135aaba4",
+                            "properties": {
+                                "job_title": "CEO, Deloitte Risk and Financial Advisory"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3f5d7f9c-76c4-4b6e-9d0c-8c45dc7616ce",
+            "properties": {
+                "name": "Michele Parmelee",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3f5d7f9c-76c4-4b6e-9d0c-8c45dc7616ce",
+                    "value": "Michele Parmelee"
+                },
+                "linkedin": "michele-parmelee-393285",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "be9d9df4-8d3a-47c0-b602-bc3cf93f7510",
+                            "related_uuid": "3f5d7f9c-76c4-4b6e-9d0c-8c45dc7616ce",
+                            "properties": {
+                                "job_title": "Deputy CEO and Chief People and Purpose Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5c32e874-7d93-4ad8-862c-ae823292798e",
+            "properties": {
+                "name": "Mike Kissane",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5c32e874-7d93-4ad8-862c-ae823292798e",
+                    "value": "Mike Kissane"
+                },
+                "linkedin": "mike-kissane-a8373625",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3b94ecd1-7cde-4fba-810b-d6a3d6ddddc3",
+                            "related_uuid": "5c32e874-7d93-4ad8-862c-ae823292798e",
+                            "properties": {
+                                "job_title": "Finance and Administration"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6af573a1-2e6e-4538-a822-7c193ad4a3e3",
+            "properties": {
+                "name": "Rashid Bashir",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6af573a1-2e6e-4538-a822-7c193ad4a3e3",
+                    "value": "Rashid Bashir"
+                },
+                "linkedin": "rashid-bashir-96579227",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "69416c5b-e699-495b-ab5e-c0218d97748a",
+                            "related_uuid": "6af573a1-2e6e-4538-a822-7c193ad4a3e3",
+                            "properties": {
+                                "job_title": "Chief Executive Officer - Consulting"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "26e93e36-719f-4570-8a1d-2fc0133cf81e",
+            "properties": {
+                "name": "Sjur Gaaseide",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "26e93e36-719f-4570-8a1d-2fc0133cf81e",
+                    "value": "Sjur Gaaseide"
+                },
+                "linkedin": "sjur-gaaseide-4b59296",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f2742ec-4db0-49bd-9382-4a2b02d5ef94",
+                            "related_uuid": "26e93e36-719f-4570-8a1d-2fc0133cf81e",
+                            "properties": {
+                                "job_title": "CEO & Country Managing Partner"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "98d7d95c-66c6-4c19-8604-3429d4ab6878",
+            "properties": {
+                "name": "Vincent Firth",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "98d7d95c-66c6-4c19-8604-3429d4ab6878",
+                    "value": "Vincent Firth"
+                },
+                "linkedin": "vincent-firth-b1b37912",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bff32e91-7b54-4ba0-8d56-f79f3fc9f810",
+                            "related_uuid": "98d7d95c-66c6-4c19-8604-3429d4ab6878",
+                            "properties": {
+                                "job_title": "National Managing Director, Deloitte CEO Program"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

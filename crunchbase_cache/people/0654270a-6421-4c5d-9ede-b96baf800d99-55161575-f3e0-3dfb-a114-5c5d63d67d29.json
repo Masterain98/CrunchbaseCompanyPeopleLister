@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5472c8ca-8e6e-490b-ac4f-d82cb7c52979",
+            "properties": {
+                "name": "Hasseb Budhani",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5472c8ca-8e6e-490b-ac4f-d82cb7c52979",
+                    "value": "Hasseb Budhani"
+                },
+                "linkedin": "budhani",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b076fccc-aaec-42ae-94d5-b47bfb1081da",
+                            "related_uuid": "5472c8ca-8e6e-490b-ac4f-d82cb7c52979",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

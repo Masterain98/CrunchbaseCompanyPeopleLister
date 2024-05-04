@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c35822b7-a4f8-4c60-b071-b8b24e7ac4ac",
+            "properties": {
+                "name": "Rodrick Squires",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c35822b7-a4f8-4c60-b071-b8b24e7ac4ac",
+                    "value": "Rodrick Squires"
+                },
+                "linkedin": "rodsquires",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9e69c956-7aba-4508-99de-44bc3f70f89b",
+                            "related_uuid": "c35822b7-a4f8-4c60-b071-b8b24e7ac4ac",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

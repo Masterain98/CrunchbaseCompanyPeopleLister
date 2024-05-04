@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a6e35a40-aaac-4a34-bc74-2aae8b9be6a6",
+            "properties": {
+                "name": "James Maddox",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a6e35a40-aaac-4a34-bc74-2aae8b9be6a6",
+                    "value": "James Maddox"
+                },
+                "linkedin": "james-maddox-aa323543",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c48cefc1-5d52-4935-a482-08dfbb631400",
+                            "related_uuid": "a6e35a40-aaac-4a34-bc74-2aae8b9be6a6",
+                            "properties": {
+                                "job_title": "Co-Founder/CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

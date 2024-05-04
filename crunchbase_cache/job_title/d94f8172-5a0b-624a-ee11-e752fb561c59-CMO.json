@@ -1,0 +1,197 @@
+{
+    "count": 24,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "project-coordinator",
+                "uuid": "b4f2046e-3a85-3cb6-9767-69f1ae292acf",
+                "value": "Project Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "operations-coordinator",
+                "uuid": "58a70a20-1507-330e-8d8a-d3e010cf7845",
+                "value": "Operations Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "assistant-controller",
+                "uuid": "48bf9a93-8526-357b-b918-c423517fcd9b",
+                "value": "Assistant Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-supply-chain",
+                "uuid": "bf116f94-5b3f-371b-8e84-282eadb36650",
+                "value": "Director, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator-operations",
+                "uuid": "2d038d53-d58c-3726-aec1-e1fdff69ea60",
+                "value": "Coordinator, Operations"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "recruiting-coordinator",
+                "uuid": "9e8c1183-f86f-3541-9e99-b2fea991aa48",
+                "value": "Recruiting Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "clo",
+                "uuid": "766b4914-a2cf-38a7-923e-9ca66b126ddb",
+                "value": "CLO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cbo",
+                "uuid": "2af9963e-e4b4-3d5a-b6d0-78835bfc579a",
+                "value": "CBO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-accounting-officer",
+                "uuid": "65ec10ec-c301-35e6-a28a-653af8f2255d",
+                "value": "Chief Accounting Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "inventory-control-manager",
+                "uuid": "8027c5aa-8ed1-3337-998a-544592a77894",
+                "value": "Inventory Control Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-compliance-analyst",
+                "uuid": "db66654b-966c-36dc-8a8a-38ebe428322b",
+                "value": "Senior Compliance Analyst"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "crm-manager",
+                "uuid": "4aea9650-e745-32d6-a5cb-0d069d21ab7e",
+                "value": "CRM Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "accounting-consultant",
+                "uuid": "713d5008-a3e2-388c-acbe-39f8d424a0dd",
+                "value": "Accounting Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "production-control-manager",
+                "uuid": "439d5f79-f19e-3b30-94b4-95a8092bad8a",
+                "value": "Production Control Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-corporate-development",
+                "uuid": "2a3d5fde-715d-3498-a4e6-aadee851ab97",
+                "value": "Head of Corporate Development"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-corporate-development",
+                "uuid": "bb61f664-e9fb-3dd7-b69c-20500a791803",
+                "value": "Senior Director, Corporate Development"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-recruiting-coordinator",
+                "uuid": "f173ff86-748d-39f8-a37e-7cd939ac48a2",
+                "value": "Senior Recruiting Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-corporate-development-strategy",
+                "uuid": "79df7922-e3b9-3e82-92a5-9624a45f4105",
+                "value": "Head of Corporate Development, Strategy"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "project-coordinator-manufacturing",
+                "uuid": "4faa2b23-535c-364f-83be-adb3042936a1",
+                "value": "Project Coordinator, Manufacturing"
+            }
+        }
+    ]
+}

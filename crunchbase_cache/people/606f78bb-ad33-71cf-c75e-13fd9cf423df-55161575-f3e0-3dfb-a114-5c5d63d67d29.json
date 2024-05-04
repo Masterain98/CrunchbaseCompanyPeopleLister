@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a753866a-1925-451c-837c-f9ebbf480a84",
+            "properties": {
+                "name": "Paul Martini",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a753866a-1925-451c-837c-f9ebbf480a84",
+                    "value": "Paul Martini"
+                },
+                "linkedin": "martinipaul",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7915abc5-81a2-458f-b594-3e0bfe424c13",
+                            "related_uuid": "a753866a-1925-451c-837c-f9ebbf480a84",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

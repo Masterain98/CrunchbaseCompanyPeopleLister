@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8349e8c0-02d4-4a3f-93ee-6c306624bb0f",
+            "properties": {
+                "name": "Douglas Lemott",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8349e8c0-02d4-4a3f-93ee-6c306624bb0f",
+                    "value": "Douglas Lemott"
+                },
+                "linkedin": "douglas-lemott-jr",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "509e962b-8f28-4e91-a9fb-c19fb7d89e63",
+                            "related_uuid": "8349e8c0-02d4-4a3f-93ee-6c306624bb0f",
+                            "properties": {
+                                "job_title": "Director, Solutions Engineering, Security & Compliance (Government, Education, & Healthcare)"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

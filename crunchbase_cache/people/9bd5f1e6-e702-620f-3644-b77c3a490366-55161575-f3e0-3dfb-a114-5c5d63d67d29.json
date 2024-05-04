@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8a77a816-5829-4e1c-8ea9-30da2e16542b",
+            "properties": {
+                "name": "Jeff Kukowski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8a77a816-5829-4e1c-8ea9-30da2e16542b",
+                    "value": "Jeff Kukowski"
+                },
+                "linkedin": "jeff-kukowski-00025",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ef22d651-1262-44f3-b39e-d341b18ccc2c",
+                            "related_uuid": "8a77a816-5829-4e1c-8ea9-30da2e16542b",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

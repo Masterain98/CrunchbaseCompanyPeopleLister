@@ -1,0 +1,66 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ba15197e-99db-4c81-8f01-26124f1b450a",
+            "properties": {
+                "name": "Russ Johannesson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ba15197e-99db-4c81-8f01-26124f1b450a",
+                    "value": "Russ Johannesson"
+                },
+                "linkedin": "russjohannesson",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0699cb03-27ba-420b-a67e-5b4b4c56602b",
+                            "related_uuid": "ba15197e-99db-4c81-8f01-26124f1b450a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d2d982bb-fbef-4f6c-a61d-cfcee7bc0d8f",
+            "properties": {
+                "name": "Russ Johannesson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d2d982bb-fbef-4f6c-a61d-cfcee7bc0d8f",
+                    "value": "Russ Johannesson"
+                },
+                "linkedin": "russ-johannesson-11b299",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5059c7cf-ce6e-4965-a504-4fc69a429c70",
+                            "related_uuid": "d2d982bb-fbef-4f6c-a61d-cfcee7bc0d8f",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

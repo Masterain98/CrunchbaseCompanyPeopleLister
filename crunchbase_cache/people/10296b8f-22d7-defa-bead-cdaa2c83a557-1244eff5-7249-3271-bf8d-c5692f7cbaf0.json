@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f97f6c39-c14c-42a3-8c33-8daec73f2229",
+            "properties": {
+                "name": "John Haro",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f97f6c39-c14c-42a3-8c33-8daec73f2229",
+                    "value": "John Haro"
+                },
+                "linkedin": "johnharo",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "71f7fb46-db58-4010-a7f3-5aa44523d26f",
+                            "related_uuid": "f97f6c39-c14c-42a3-8c33-8daec73f2229",
+                            "properties": {
+                                "job_title": "CTO, Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9ad6490c-8d89-4bca-b77e-ba4545d3c46b",
+            "properties": {
+                "name": "Jeff Thomas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9ad6490c-8d89-4bca-b77e-ba4545d3c46b",
+                    "value": "Jeff Thomas"
+                },
+                "linkedin": "jeffthomassf",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c7d36a28-e490-436b-862b-3696f494f669",
+                            "related_uuid": "9ad6490c-8d89-4bca-b77e-ba4545d3c46b",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer (Consulting)"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

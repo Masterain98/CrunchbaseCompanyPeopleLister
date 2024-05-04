@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cf9fa323-cd8b-42e8-a37f-496df18bfc18",
+            "properties": {
+                "name": "Tony Ayaz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cf9fa323-cd8b-42e8-a37f-496df18bfc18",
+                    "value": "Tony Ayaz"
+                },
+                "linkedin": "tonyayaz",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "87816f9f-3a7b-4d99-80a9-b927544df887",
+                            "related_uuid": "cf9fa323-cd8b-42e8-a37f-496df18bfc18",
+                            "properties": {
+                                "job_title": "Chief Executive Officer and Board Member"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

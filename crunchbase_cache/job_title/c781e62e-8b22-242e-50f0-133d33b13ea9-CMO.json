@@ -1,0 +1,37 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "operations-coordinator",
+                "uuid": "58a70a20-1507-330e-8d8a-d3e010cf7845",
+                "value": "Operations Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator-operations",
+                "uuid": "2d038d53-d58c-3726-aec1-e1fdff69ea60",
+                "value": "Coordinator, Operations"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "support-coordinator",
+                "uuid": "63d0dd0c-16b4-38a0-80a0-c1d68680c94d",
+                "value": "Support Coordinator"
+            }
+        }
+    ]
+}

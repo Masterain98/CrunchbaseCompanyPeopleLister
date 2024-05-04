@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "22fb4d44-1b48-43b4-9273-9eaf167c9ba4",
+            "properties": {
+                "name": "Kaushik Sen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "22fb4d44-1b48-43b4-9273-9eaf167c9ba4",
+                    "value": "Kaushik Sen"
+                },
+                "linkedin": "ksen938",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b9df4015-9307-498b-ac13-2db7d1b83e7d",
+                            "related_uuid": "22fb4d44-1b48-43b4-9273-9eaf167c9ba4",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

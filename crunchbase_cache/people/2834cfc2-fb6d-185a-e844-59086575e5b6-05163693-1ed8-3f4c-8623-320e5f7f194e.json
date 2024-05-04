@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "64a22c63-3545-40dc-9de0-ed8cc97d9747",
+            "properties": {
+                "name": "Harry Ronaldson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "64a22c63-3545-40dc-9de0-ed8cc97d9747",
+                    "value": "Harry Ronaldson"
+                },
+                "linkedin": "harry-ronaldson-2508953",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bc11fff9-2450-48bc-845e-ee744b1956af",
+                            "related_uuid": "64a22c63-3545-40dc-9de0-ed8cc97d9747",
+                            "properties": {
+                                "job_title": "Global Director, Brand and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

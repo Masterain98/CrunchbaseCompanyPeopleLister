@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8eda0c9c-30b2-453b-8440-9d8d82bcbd4f",
+            "properties": {
+                "name": "Alex Chubay",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8eda0c9c-30b2-453b-8440-9d8d82bcbd4f",
+                    "value": "Alex Chubay"
+                },
+                "linkedin": "alexchubay",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a25d346-7118-4057-8d03-828b72a90c97",
+                            "related_uuid": "8eda0c9c-30b2-453b-8440-9d8d82bcbd4f",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

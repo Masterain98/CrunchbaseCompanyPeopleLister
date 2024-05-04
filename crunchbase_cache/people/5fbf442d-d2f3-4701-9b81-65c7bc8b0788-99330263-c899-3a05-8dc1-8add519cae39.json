@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "03930fad-3703-4266-af50-94f5f3a342bc",
+            "properties": {
+                "name": "Bob Canaway",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "03930fad-3703-4266-af50-94f5f3a342bc",
+                    "value": "Bob Canaway"
+                },
+                "linkedin": "bobcanaway",
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6e2adb7f-a5d5-434e-b5d1-e52b4dc54a28",
+                            "related_uuid": "03930fad-3703-4266-af50-94f5f3a342bc",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

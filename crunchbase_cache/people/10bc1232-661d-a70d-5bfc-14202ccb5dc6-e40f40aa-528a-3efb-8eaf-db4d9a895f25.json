@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "eac02a2b-6aa5-44fc-a0f5-effde91a9c54",
+            "properties": {
+                "name": "Ronny Kerr",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eac02a2b-6aa5-44fc-a0f5-effde91a9c54",
+                    "value": "Ronny Kerr"
+                },
+                "linkedin": "ronnykerr",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ce3ab2a-0087-4e16-9666-52253917d28f",
+                            "related_uuid": "eac02a2b-6aa5-44fc-a0f5-effde91a9c54",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

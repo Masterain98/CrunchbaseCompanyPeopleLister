@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c368039b-b37c-4505-b665-3db7e851c24e",
+            "properties": {
+                "name": "Susan Lasalla",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c368039b-b37c-4505-b665-3db7e851c24e",
+                    "value": "Susan Lasalla"
+                },
+                "linkedin": "susan-r-lasalla-60aa607",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6ef7c32e-7318-4939-ae76-a53ffc365e57",
+                            "related_uuid": "c368039b-b37c-4505-b665-3db7e851c24e",
+                            "properties": {
+                                "job_title": "Director of Finance and Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

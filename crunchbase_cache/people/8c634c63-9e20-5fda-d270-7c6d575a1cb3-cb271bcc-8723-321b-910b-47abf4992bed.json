@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "709fbfc2-89b9-4db7-a60b-64a4cd11a4a0",
+            "properties": {
+                "name": "Corey Rhodes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "709fbfc2-89b9-4db7-a60b-64a4cd11a4a0",
+                    "value": "Corey Rhodes"
+                },
+                "linkedin": "corey-rhodes-3b787235",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "18c744d0-7158-4f3c-9f62-86b2bea52db5",
+                            "related_uuid": "709fbfc2-89b9-4db7-a60b-64a4cd11a4a0",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

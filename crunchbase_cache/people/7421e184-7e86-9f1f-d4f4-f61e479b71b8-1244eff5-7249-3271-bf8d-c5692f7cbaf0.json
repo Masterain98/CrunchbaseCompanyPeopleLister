@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1478fd69-c071-45b5-8a3f-69f349ab71d4",
+            "properties": {
+                "name": "Hisham Younis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1478fd69-c071-45b5-8a3f-69f349ab71d4",
+                    "value": "Hisham Younis"
+                },
+                "linkedin": "hyounis",
+                "job_levels": [
+                    "l_300_director",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7fc0cedf-93fe-4126-88fb-0dd6a404a5a5",
+                            "related_uuid": "1478fd69-c071-45b5-8a3f-69f349ab71d4",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

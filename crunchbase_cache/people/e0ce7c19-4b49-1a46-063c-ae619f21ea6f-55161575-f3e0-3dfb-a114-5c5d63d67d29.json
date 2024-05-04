@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "05a4882b-67c2-4a71-b2b8-dd8da0d4a57e",
+            "properties": {
+                "name": "Nikunj Mehta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "05a4882b-67c2-4a71-b2b8-dd8da0d4a57e",
+                    "value": "Nikunj Mehta"
+                },
+                "linkedin": "nrmehta",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4616f38a-6049-4d25-9b40-37d5188a7a9a",
+                            "related_uuid": "05a4882b-67c2-4a71-b2b8-dd8da0d4a57e",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

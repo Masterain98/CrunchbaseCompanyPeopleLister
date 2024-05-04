@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e9d6ba31-1ad4-4f9b-9ced-e8a333e23a9a",
+            "properties": {
+                "name": "Yolanda Hill",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e9d6ba31-1ad4-4f9b-9ced-e8a333e23a9a",
+                    "value": "Yolanda Hill"
+                },
+                "linkedin": "yolanda-hill-694624225",
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6f7dd4e6-70cf-4774-adf1-c718b703cdbc",
+                            "related_uuid": "e9d6ba31-1ad4-4f9b-9ced-e8a333e23a9a",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

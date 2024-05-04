@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fe155d01-fcab-4112-9fb3-42af881620ff",
+            "properties": {
+                "name": "Sabrina Mullin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fe155d01-fcab-4112-9fb3-42af881620ff",
+                    "value": "Sabrina Mullin"
+                },
+                "linkedin": "sabrinamullin",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "148939e4-5c5f-4ca5-8042-2b050ba41dfd",
+                            "related_uuid": "fe155d01-fcab-4112-9fb3-42af881620ff",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

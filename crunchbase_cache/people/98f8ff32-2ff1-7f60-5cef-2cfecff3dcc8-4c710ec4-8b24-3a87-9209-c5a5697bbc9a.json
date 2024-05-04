@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "688ee241-822d-4033-820d-374ae1f936c0",
+            "properties": {
+                "name": "Alex Aguero",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "688ee241-822d-4033-820d-374ae1f936c0",
+                    "value": "Alex Aguero"
+                },
+                "linkedin": "alex-aguero-a181b272",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9c034ec7-2bf7-489f-b66d-6906706f8a1e",
+                            "related_uuid": "688ee241-822d-4033-820d-374ae1f936c0",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

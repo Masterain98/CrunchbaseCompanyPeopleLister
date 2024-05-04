@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "68b979ba-7564-4d78-a849-02e6f8d80fd1",
+            "properties": {
+                "name": "Michael Saracini",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "68b979ba-7564-4d78-a849-02e6f8d80fd1",
+                    "value": "Michael Saracini"
+                },
+                "linkedin": "saracini",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "97192b0a-dad9-4c57-af5b-a1a2519e72cb",
+                            "related_uuid": "68b979ba-7564-4d78-a849-02e6f8d80fd1",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

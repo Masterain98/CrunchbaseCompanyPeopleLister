@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b3dbb8f0-7447-4b22-aeff-e9470f308a50",
+            "properties": {
+                "name": "Sean Mccreanor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b3dbb8f0-7447-4b22-aeff-e9470f308a50",
+                    "value": "Sean Mccreanor"
+                },
+                "linkedin": "smccreanor",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8420e4c1-7cc8-4a24-99ae-b0e61bdee514",
+                            "related_uuid": "b3dbb8f0-7447-4b22-aeff-e9470f308a50",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

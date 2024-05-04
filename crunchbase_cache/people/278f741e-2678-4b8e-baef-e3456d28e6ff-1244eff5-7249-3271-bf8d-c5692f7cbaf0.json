@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3b611b65-bdc5-4244-8f7e-efd63283c529",
+            "properties": {
+                "name": "Carlos Cruz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3b611b65-bdc5-4244-8f7e-efd63283c529",
+                    "value": "Carlos Cruz"
+                },
+                "linkedin": "carlos--cruz",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "03dc2120-1964-4fd7-a60b-c44441f73237",
+                            "related_uuid": "3b611b65-bdc5-4244-8f7e-efd63283c529",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

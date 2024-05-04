@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "93f22975-0e23-4268-b9e5-8671a2837f16",
+            "properties": {
+                "name": "Kenickeo Degree",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "93f22975-0e23-4268-b9e5-8671a2837f16",
+                    "value": "Kenickeo Degree"
+                },
+                "linkedin": "kenickeo-degree-244bbb19",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "56425e1c-605b-4e0d-8559-d4450c12ebe3",
+                            "related_uuid": "93f22975-0e23-4268-b9e5-8671a2837f16",
+                            "properties": {
+                                "job_title": "Software Developer-Independent Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

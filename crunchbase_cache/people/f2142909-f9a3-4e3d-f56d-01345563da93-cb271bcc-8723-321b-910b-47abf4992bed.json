@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6eacdfa3-3412-4db9-b63d-399e23c786d0",
+            "properties": {
+                "name": "Jamie McAnally",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6eacdfa3-3412-4db9-b63d-399e23c786d0",
+                    "value": "Jamie McAnally"
+                },
+                "linkedin": "jamie-mcanally",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2a52834a-17ce-402d-a3ff-3c7f12844547",
+                            "related_uuid": "6eacdfa3-3412-4db9-b63d-399e23c786d0",
+                            "properties": {
+                                "job_title": "Director Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

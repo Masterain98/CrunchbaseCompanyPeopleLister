@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "66400623-e64b-4f9b-a867-9c63fd6e5ca5",
+            "properties": {
+                "name": "Bijan Moallemi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "66400623-e64b-4f9b-a867-9c63fd6e5ca5",
+                    "value": "Bijan Moallemi"
+                },
+                "linkedin": "bijanmoallemi",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4b3a727c-1298-4744-bf6a-0cbe06307175",
+                            "related_uuid": "66400623-e64b-4f9b-a867-9c63fd6e5ca5",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

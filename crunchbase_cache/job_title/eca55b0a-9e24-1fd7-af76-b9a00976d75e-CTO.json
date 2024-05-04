@@ -1,0 +1,13 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cgo",
+                "uuid": "63e64fb7-f6bf-3edd-a708-e1b75126a6fb",
+                "value": "CGO"
+            }
+        }
+    ]
+}

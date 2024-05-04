@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "dbfc4605-c8b5-487d-ae41-4ea484d6826e",
+            "properties": {
+                "name": "Mr. James Dover",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dbfc4605-c8b5-487d-ae41-4ea484d6826e",
+                    "value": "Mr. James Dover"
+                },
+                "linkedin": "james-dover-02a314118",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7b67bbad-51f5-4e34-b88b-30811a66cd7f",
+                            "related_uuid": "dbfc4605-c8b5-487d-ae41-4ea484d6826e",
+                            "properties": {
+                                "job_title": "President and Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

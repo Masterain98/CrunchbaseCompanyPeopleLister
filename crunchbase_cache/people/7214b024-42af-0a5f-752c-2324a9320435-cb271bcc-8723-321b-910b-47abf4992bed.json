@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "38a35e1b-5168-4422-b061-61265721520e",
+            "properties": {
+                "name": "Mike Fuller",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "38a35e1b-5168-4422-b061-61265721520e",
+                    "value": "Mike Fuller"
+                },
+                "linkedin": "mikefuller23",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "10691338-7eb1-45b7-a830-a96671019030",
+                            "related_uuid": "38a35e1b-5168-4422-b061-61265721520e",
+                            "properties": {
+                                "job_title": "Associate Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

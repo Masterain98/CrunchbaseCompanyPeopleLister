@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "81143714-4914-45a7-89ca-4823d1c555c3",
+            "properties": {
+                "name": "Hkan Svanlund",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "81143714-4914-45a7-89ca-4823d1c555c3",
+                    "value": "Hkan Svanlund"
+                },
+                "linkedin": "h%c3%a5kan-svanlund-1b416b11",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "349459f0-b95c-4471-bd3e-b216ed7518f2",
+                            "related_uuid": "81143714-4914-45a7-89ca-4823d1c555c3",
+                            "properties": {
+                                "job_title": "Senior Director RAN Supply Chain Management & Strategic Sourcing"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

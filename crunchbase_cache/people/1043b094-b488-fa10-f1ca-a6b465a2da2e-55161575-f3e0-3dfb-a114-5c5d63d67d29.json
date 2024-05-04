@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e9064e77-5f69-4cd1-b3a3-dcbada71d9ff",
+            "properties": {
+                "name": "Ann Thomas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e9064e77-5f69-4cd1-b3a3-dcbada71d9ff",
+                    "value": "Ann Thomas"
+                },
+                "linkedin": "ann-thomas-98065b42",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8b2e12f0-3dc1-407b-9184-4b124cbf3dcb",
+                            "related_uuid": "e9064e77-5f69-4cd1-b3a3-dcbada71d9ff",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "836eddd5-af11-402d-ad1e-5646d1e303c0",
+            "properties": {
+                "name": "Noam Schwartz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "836eddd5-af11-402d-ad1e-5646d1e303c0",
+                    "value": "Noam Schwartz"
+                },
+                "linkedin": "noamsp",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2eba0c3b-0bfc-4e1e-aeda-5d262ea1812d",
+                            "related_uuid": "836eddd5-af11-402d-ad1e-5646d1e303c0",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

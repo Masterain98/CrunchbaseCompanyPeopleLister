@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "80f0944b-bc07-4c72-9e5c-1ca1b1d30909",
+            "properties": {
+                "name": "Thomas Mchugh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "80f0944b-bc07-4c72-9e5c-1ca1b1d30909",
+                    "value": "Thomas Mchugh"
+                },
+                "linkedin": "thomasmchugh1",
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cd2a0908-5754-401b-aa52-8b681cabbea2",
+                            "related_uuid": "80f0944b-bc07-4c72-9e5c-1ca1b1d30909",
+                            "properties": {
+                                "job_title": "CEO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

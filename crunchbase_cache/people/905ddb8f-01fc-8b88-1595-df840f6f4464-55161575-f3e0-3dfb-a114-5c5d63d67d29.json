@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ae6bf93f-6e94-4a23-bc3f-5314e730bc8f",
+            "properties": {
+                "name": "Eric Frazier",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ae6bf93f-6e94-4a23-bc3f-5314e730bc8f",
+                    "value": "Eric Frazier"
+                },
+                "linkedin": "eric-frazier-39128515",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c065b9b2-5f56-45d8-9306-d293115c57e7",
+                            "related_uuid": "ae6bf93f-6e94-4a23-bc3f-5314e730bc8f",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

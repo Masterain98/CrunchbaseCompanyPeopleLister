@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "893a8c72-3198-4ecc-b324-8a868115634c",
+            "properties": {
+                "name": "Luke Kervin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "893a8c72-3198-4ecc-b324-8a868115634c",
+                    "value": "Luke Kervin"
+                },
+                "linkedin": "lukekervin",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "160cd502-6612-46b5-8c34-be05f021f273",
+                            "related_uuid": "893a8c72-3198-4ecc-b324-8a868115634c",
+                            "properties": {
+                                "job_title": "Co-CEO & Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "08a8803d-9f48-4761-96dd-d3a45db1adb6",
+            "properties": {
+                "name": "Travis Schneider",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "08a8803d-9f48-4761-96dd-d3a45db1adb6",
+                    "value": "Travis Schneider"
+                },
+                "linkedin": "schneidertravis",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "101bea49-e12a-4730-836c-5994b5bd878c",
+                            "related_uuid": "08a8803d-9f48-4761-96dd-d3a45db1adb6",
+                            "properties": {
+                                "job_title": "Founder & Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

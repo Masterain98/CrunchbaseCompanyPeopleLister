@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e5d826c1-137e-40cc-9e3c-254e52817dce",
+            "properties": {
+                "name": "Joshua Hamaker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e5d826c1-137e-40cc-9e3c-254e52817dce",
+                    "value": "Joshua Hamaker"
+                },
+                "linkedin": "joshua-hamaker-3b3a1b47",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1c559bdc-c835-43fd-81d1-9c78924bd9ce",
+                            "related_uuid": "e5d826c1-137e-40cc-9e3c-254e52817dce",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

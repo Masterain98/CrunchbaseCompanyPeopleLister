@@ -1,0 +1,130 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "24eb6451-9d91-4769-adb7-18a7982c9622",
+            "properties": {
+                "name": "Elizabeth Suppa",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "24eb6451-9d91-4769-adb7-18a7982c9622",
+                    "value": "Elizabeth Suppa"
+                },
+                "linkedin": "esuppa",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26f93784-632f-4572-b893-bf64bdca1c3c",
+                            "related_uuid": "24eb6451-9d91-4769-adb7-18a7982c9622",
+                            "properties": {
+                                "job_title": "Director of Communications and Digital"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9effd3a5-0dd8-4f55-9880-55cf6ff536bd",
+            "properties": {
+                "name": "Lynn Zedek",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9effd3a5-0dd8-4f55-9880-55cf6ff536bd",
+                    "value": "Lynn Zedek"
+                },
+                "linkedin": "lynn-zedek-a338b03",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "85ca6d33-9845-428d-af09-33e92d5a7766",
+                            "related_uuid": "9effd3a5-0dd8-4f55-9880-55cf6ff536bd",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "029bff6e-7bd6-4238-ba96-797bc3f42722",
+            "properties": {
+                "name": "Milanka Muecke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "029bff6e-7bd6-4238-ba96-797bc3f42722",
+                    "value": "Milanka Muecke"
+                },
+                "linkedin": "milanka-muecke-75202913",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4027c946-1525-4fc3-9211-8800a6ceb9af",
+                            "related_uuid": "029bff6e-7bd6-4238-ba96-797bc3f42722",
+                            "properties": {
+                                "job_title": "Director, Public Relations & Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4d976c67-a7d5-44cf-a433-9903b9ffa02e",
+            "properties": {
+                "name": "Wendy Fung",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4d976c67-a7d5-44cf-a433-9903b9ffa02e",
+                    "value": "Wendy Fung"
+                },
+                "linkedin": "wendyfungirl",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "db8e6ef6-83a3-46a8-958e-6b06e172bc8e",
+                            "related_uuid": "4d976c67-a7d5-44cf-a433-9903b9ffa02e",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

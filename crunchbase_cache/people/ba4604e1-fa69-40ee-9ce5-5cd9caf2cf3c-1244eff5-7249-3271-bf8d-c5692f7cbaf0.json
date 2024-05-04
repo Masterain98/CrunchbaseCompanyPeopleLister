@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "940f5821-1abc-4e47-866e-1d93ecc87a9f",
+            "properties": {
+                "name": "Juan Alonso",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "940f5821-1abc-4e47-866e-1d93ecc87a9f",
+                    "value": "Juan Alonso"
+                },
+                "linkedin": "juanalonso2",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "41d476ef-1db8-4f77-8a0f-8908f3c06a42",
+                            "related_uuid": "940f5821-1abc-4e47-866e-1d93ecc87a9f",
+                            "properties": {
+                                "job_title": "CTO & Co-Founder of Luminary Cloud"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "7ade804d-53b8-498d-b623-83950225db9a",
+            "properties": {
+                "name": "Brian Singer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7ade804d-53b8-498d-b623-83950225db9a",
+                    "value": "Brian Singer"
+                },
+                "linkedin": "altitude",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3c79e7e6-ce5f-4196-a4aa-14c1ea496787",
+                            "related_uuid": "7ade804d-53b8-498d-b623-83950225db9a",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "24446420-bf88-4ae5-938d-bff82f6e4cb3",
+            "properties": {
+                "name": "Kevin Clark",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "24446420-bf88-4ae5-938d-bff82f6e4cb3",
+                    "value": "Kevin Clark"
+                },
+                "linkedin": "kevinbclarkk",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "133c8e51-0ba0-4a93-b1ac-ed2f2208ae92",
+                            "related_uuid": "24446420-bf88-4ae5-938d-bff82f6e4cb3",
+                            "properties": {
+                                "job_title": "Associate Creative Director, Video"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "88732c53-48da-4d65-a986-54eccceeb9ec",
+            "properties": {
+                "name": "Matt Wenger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "88732c53-48da-4d65-a986-54eccceeb9ec",
+                    "value": "Matt Wenger"
+                },
+                "linkedin": "mattwengerdesign",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9a9ae957-729c-47a4-9909-15c82e20acce",
+                            "related_uuid": "88732c53-48da-4d65-a986-54eccceeb9ec",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d35e64db-ae63-416e-a99c-59d9194adede",
+            "properties": {
+                "name": "Susan Payne",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d35e64db-ae63-416e-a99c-59d9194adede",
+                    "value": "Susan Payne"
+                },
+                "linkedin": "linkedinsusankim",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3031e052-a5d4-49c8-b826-fbf7fe823f97",
+                            "related_uuid": "d35e64db-ae63-416e-a99c-59d9194adede",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

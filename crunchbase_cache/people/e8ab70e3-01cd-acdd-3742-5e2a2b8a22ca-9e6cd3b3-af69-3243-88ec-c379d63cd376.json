@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "414a92d1-e6dc-4101-894b-118a92c5497d",
+            "properties": {
+                "name": "Paul Transky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "414a92d1-e6dc-4101-894b-118a92c5497d",
+                    "value": "Paul Transky"
+                },
+                "linkedin": "paul-transky-80a22526",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "29a2ff0d-e5c2-4b6d-9347-2255d2dcfee7",
+                            "related_uuid": "414a92d1-e6dc-4101-894b-118a92c5497d",
+                            "properties": {
+                                "job_title": "Director Corporate Development"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

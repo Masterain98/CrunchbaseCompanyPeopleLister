@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "21beb9c3-e0d6-4f6a-b187-71877fb81403",
+            "properties": {
+                "name": "Alejandro Largo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "21beb9c3-e0d6-4f6a-b187-71877fb81403",
+                    "value": "Alejandro Largo"
+                },
+                "linkedin": "alejandrolargo",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "57ff53ba-f567-4e5e-9665-625728b021e1",
+                            "related_uuid": "21beb9c3-e0d6-4f6a-b187-71877fb81403",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

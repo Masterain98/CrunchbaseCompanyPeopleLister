@@ -1,0 +1,225 @@
+{
+    "count": 7,
+    "entities": [
+        {
+            "uuid": "d12836cc-2778-4100-b60a-c47eab2c4ac9",
+            "properties": {
+                "name": "Amit Sharma",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d12836cc-2778-4100-b60a-c47eab2c4ac9",
+                    "value": "Amit Sharma"
+                },
+                "linkedin": "amit-sharma-26a82040",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d083e332-fc9d-433a-bcc9-d4dbccf48478",
+                            "related_uuid": "d12836cc-2778-4100-b60a-c47eab2c4ac9",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "318c22c4-9fce-4185-a129-0e2acb378350",
+            "properties": {
+                "name": "Anthony Slater",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "318c22c4-9fce-4185-a129-0e2acb378350",
+                    "value": "Anthony Slater"
+                },
+                "linkedin": "anthonyslater",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "715850d4-761e-4d47-a052-b062981d2321",
+                            "related_uuid": "318c22c4-9fce-4185-a129-0e2acb378350",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c7ff3b58-41a7-41eb-90be-1351b5af1682",
+            "properties": {
+                "name": "Cristina Delsante",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c7ff3b58-41a7-41eb-90be-1351b5af1682",
+                    "value": "Cristina Delsante"
+                },
+                "linkedin": "cristinadelsante",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "143406f5-bf21-42a9-beec-89cdf1662e79",
+                            "related_uuid": "c7ff3b58-41a7-41eb-90be-1351b5af1682",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e4af8fab-6f09-4217-8d10-28ac737c13dd",
+            "properties": {
+                "name": "Joe Mulkern",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e4af8fab-6f09-4217-8d10-28ac737c13dd",
+                    "value": "Joe Mulkern"
+                },
+                "linkedin": "joemulkern",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "624e44ff-7481-4f73-a677-cdc55fc5138e",
+                            "related_uuid": "e4af8fab-6f09-4217-8d10-28ac737c13dd",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "55a0bcec-b137-40dc-9a15-c287b0b17498",
+            "properties": {
+                "name": "Niamh Slater",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "55a0bcec-b137-40dc-9a15-c287b0b17498",
+                    "value": "Niamh Slater"
+                },
+                "linkedin": "niamhslater",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ad28e7b-483a-43f9-9f92-7a89ce0689c8",
+                            "related_uuid": "55a0bcec-b137-40dc-9a15-c287b0b17498",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a4c11641-d073-44d7-af80-a308c3444b25",
+            "properties": {
+                "name": "Rachelle Watkins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a4c11641-d073-44d7-af80-a308c3444b25",
+                    "value": "Rachelle Watkins"
+                },
+                "linkedin": "rachelle--watkins",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "08759b89-6eca-4b45-a1b6-ee329b7c231b",
+                            "related_uuid": "a4c11641-d073-44d7-af80-a308c3444b25",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ab6fc8a6-7c69-4e45-ab63-186e274c44b5",
+            "properties": {
+                "name": "Whitney Littman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ab6fc8a6-7c69-4e45-ab63-186e274c44b5",
+                    "value": "Whitney Littman"
+                },
+                "linkedin": "whitneymatteson",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "856a4762-94cf-4596-9762-41ae11b4da21",
+                            "related_uuid": "ab6fc8a6-7c69-4e45-ab63-186e274c44b5",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

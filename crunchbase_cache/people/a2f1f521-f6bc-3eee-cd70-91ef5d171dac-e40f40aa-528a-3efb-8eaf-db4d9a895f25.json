@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "43b261c9-be10-4e6c-a88c-335550a12806",
+            "properties": {
+                "name": "Ben Drake",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "43b261c9-be10-4e6c-a88c-335550a12806",
+                    "value": "Ben Drake"
+                },
+                "linkedin": "ben-drake-design",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "412edfa3-a8e4-48b2-a772-b4e1cc48b237",
+                            "related_uuid": "43b261c9-be10-4e6c-a88c-335550a12806",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

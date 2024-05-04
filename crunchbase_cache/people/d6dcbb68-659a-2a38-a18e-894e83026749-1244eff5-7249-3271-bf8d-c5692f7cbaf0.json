@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a05d7ef6-f933-4135-abe0-fbc96cff5edf",
+            "properties": {
+                "name": "James Smith",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a05d7ef6-f933-4135-abe0-fbc96cff5edf",
+                    "value": "James Smith"
+                },
+                "linkedin": "james-smith-81b9766",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b566abd1-021e-48fc-a078-4d8355538730",
+                            "related_uuid": "a05d7ef6-f933-4135-abe0-fbc96cff5edf",
+                            "properties": {
+                                "job_title": "Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

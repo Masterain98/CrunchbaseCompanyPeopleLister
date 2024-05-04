@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "45ad6737-b370-4190-a957-47b286537096",
+            "properties": {
+                "name": "Jusleen Sodiwal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "45ad6737-b370-4190-a957-47b286537096",
+                    "value": "Jusleen Sodiwal"
+                },
+                "linkedin": "jusleensodiwal",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c3049498-7618-4089-881f-69826accac84",
+                            "related_uuid": "45ad6737-b370-4190-a957-47b286537096",
+                            "properties": {
+                                "job_title": "Director of Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

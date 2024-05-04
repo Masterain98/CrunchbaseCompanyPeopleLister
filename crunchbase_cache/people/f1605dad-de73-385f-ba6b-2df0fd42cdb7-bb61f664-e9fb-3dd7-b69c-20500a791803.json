@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c8028381-48a6-4aa8-baa0-e191d967e72b",
+            "properties": {
+                "name": "Sid Mitroo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c8028381-48a6-4aa8-baa0-e191d967e72b",
+                    "value": "Sid Mitroo"
+                },
+                "linkedin": "sid-mitroo-621677a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8d354c66-0f7d-413a-a208-3750be691884",
+                            "related_uuid": "c8028381-48a6-4aa8-baa0-e191d967e72b",
+                            "properties": {
+                                "job_title": "Sr. Director Strategy & Corporate Development"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

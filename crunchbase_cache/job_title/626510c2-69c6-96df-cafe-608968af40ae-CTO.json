@@ -1,0 +1,45 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-strategy-officer",
+                "uuid": "df90e319-ad0c-3ec1-9ff3-737c24086d09",
+                "value": "Chief Strategy Officer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "bd-consultant",
+                "uuid": "9785e83d-d427-3a12-9c44-256175543365",
+                "value": "BD Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant-business-development",
+                "uuid": "88dc1a98-a6f4-3da6-952b-db9a4b526bfb",
+                "value": "Consultant, Business Development"
+            }
+        }
+    ]
+}

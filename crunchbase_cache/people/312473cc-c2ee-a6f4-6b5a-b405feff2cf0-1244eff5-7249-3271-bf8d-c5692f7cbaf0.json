@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b972f47f-b94f-483d-bb32-d64eca9924cb",
+            "properties": {
+                "name": "Warren Perlman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b972f47f-b94f-483d-bb32-d64eca9924cb",
+                    "value": "Warren Perlman"
+                },
+                "linkedin": "wperlman",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "10d8988c-9040-492f-b5bc-656bc3fe015b",
+                            "related_uuid": "b972f47f-b94f-483d-bb32-d64eca9924cb",
+                            "properties": {
+                                "job_title": "Chief Technology Officer, Global"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

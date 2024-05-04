@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8141951b-cce9-432a-abad-92b742d15cb5",
+            "properties": {
+                "name": "Arthur Lozinski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8141951b-cce9-432a-abad-92b742d15cb5",
+                    "value": "Arthur Lozinski"
+                },
+                "linkedin": "arthurlozinski",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6a40901e-e21f-4077-88a0-e4b1f4e06e03",
+                            "related_uuid": "8141951b-cce9-432a-abad-92b742d15cb5",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

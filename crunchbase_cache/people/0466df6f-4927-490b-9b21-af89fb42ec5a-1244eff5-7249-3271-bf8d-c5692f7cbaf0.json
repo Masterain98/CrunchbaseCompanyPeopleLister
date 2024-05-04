@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "97e110fa-03f6-46a2-8139-e6398819181e",
+            "properties": {
+                "name": "Toshish Jawale",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "97e110fa-03f6-46a2-8139-e6398819181e",
+                    "value": "Toshish Jawale"
+                },
+                "linkedin": "toshishjawale",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8769af4f-99d9-4596-a2cd-abecc0a7eb58",
+                            "related_uuid": "97e110fa-03f6-46a2-8139-e6398819181e",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

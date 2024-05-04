@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c3b97c37-25bd-4e0f-8315-372cae5e3b9a",
+            "properties": {
+                "name": "Laura Reseigh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c3b97c37-25bd-4e0f-8315-372cae5e3b9a",
+                    "value": "Laura Reseigh"
+                },
+                "linkedin": "laurareseigh",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d09cbce0-485b-4591-b879-390325f9cfb0",
+                            "related_uuid": "c3b97c37-25bd-4e0f-8315-372cae5e3b9a",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7cd218bc-9851-47dd-9c8f-62b9c72942b0",
+            "properties": {
+                "name": "Ryan Niemann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7cd218bc-9851-47dd-9c8f-62b9c72942b0",
+                    "value": "Ryan Niemann"
+                },
+                "linkedin": "ryanniemann",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3cc73699-d1f0-4e26-96f2-94fdcc916245",
+                            "related_uuid": "7cd218bc-9851-47dd-9c8f-62b9c72942b0",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

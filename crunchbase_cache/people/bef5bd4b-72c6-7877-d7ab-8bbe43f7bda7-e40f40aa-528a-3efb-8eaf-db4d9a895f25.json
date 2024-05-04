@@ -1,0 +1,98 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "a784299e-49e8-401e-8a7f-a78910706458",
+            "properties": {
+                "name": "Bijan Hashemi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a784299e-49e8-401e-8a7f-a78910706458",
+                    "value": "Bijan Hashemi"
+                },
+                "linkedin": "bijanhashemi",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dc36a6bd-a594-447d-9847-7b3d3969ee57",
+                            "related_uuid": "a784299e-49e8-401e-8a7f-a78910706458",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6fe22fac-fa37-4d34-b288-2d59316ed50f",
+            "properties": {
+                "name": "Brian Pope",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6fe22fac-fa37-4d34-b288-2d59316ed50f",
+                    "value": "Brian Pope"
+                },
+                "linkedin": "brian-pope-a1176b19",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a83d2989-b579-4363-baf1-6def28b19bae",
+                            "related_uuid": "6fe22fac-fa37-4d34-b288-2d59316ed50f",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "237aeb71-2a37-4bb6-b92c-a2a98f7539c5",
+            "properties": {
+                "name": "Forrest Elliott",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "237aeb71-2a37-4bb6-b92c-a2a98f7539c5",
+                    "value": "Forrest Elliott"
+                },
+                "linkedin": "forrestelliott",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26031a61-91c0-4cab-a872-44a4b570e363",
+                            "related_uuid": "237aeb71-2a37-4bb6-b92c-a2a98f7539c5",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

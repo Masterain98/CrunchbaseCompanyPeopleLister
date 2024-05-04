@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "58ca4d3f-15b8-44ca-93fb-3d9a20ecc8e4",
+            "properties": {
+                "name": "Keith Forshew",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "58ca4d3f-15b8-44ca-93fb-3d9a20ecc8e4",
+                    "value": "Keith Forshew"
+                },
+                "linkedin": "keithforshew",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7795230e-62cb-4643-9d1e-2ef1d874bbee",
+                            "related_uuid": "58ca4d3f-15b8-44ca-93fb-3d9a20ecc8e4",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

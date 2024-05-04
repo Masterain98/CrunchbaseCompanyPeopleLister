@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "01e450ce-a813-4ffe-bbde-a2e903033c3f",
+            "properties": {
+                "name": "Scott Reardon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "01e450ce-a813-4ffe-bbde-a2e903033c3f",
+                    "value": "Scott Reardon"
+                },
+                "linkedin": "scott-reardon-2946815b",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "23206fb2-0301-47d7-ba79-11bb8f382569",
+                            "related_uuid": "01e450ce-a813-4ffe-bbde-a2e903033c3f",
+                            "properties": {
+                                "job_title": "President/CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

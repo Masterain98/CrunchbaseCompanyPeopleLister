@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ec6e56df-ff25-47d6-aea3-4577b8cfe29c",
+            "properties": {
+                "name": "Eric Laughlin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ec6e56df-ff25-47d6-aea3-4577b8cfe29c",
+                    "value": "Eric Laughlin"
+                },
+                "linkedin": "ericblaughlin",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "aa519eb3-f1b5-415f-ad42-608e6b719c9c",
+                            "related_uuid": "ec6e56df-ff25-47d6-aea3-4577b8cfe29c",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

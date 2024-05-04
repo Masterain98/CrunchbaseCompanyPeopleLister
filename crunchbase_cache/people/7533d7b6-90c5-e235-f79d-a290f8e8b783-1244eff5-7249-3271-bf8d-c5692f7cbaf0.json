@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1b60117f-87b8-40ce-9c21-7b04e131a02a",
+            "properties": {
+                "name": "Matt Sanchez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1b60117f-87b8-40ce-9c21-7b04e131a02a",
+                    "value": "Matt Sanchez"
+                },
+                "linkedin": "mbsanchez",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9a1358fd-3ec9-4e86-aa68-8ec79fa2b587",
+                            "related_uuid": "1b60117f-87b8-40ce-9c21-7b04e131a02a",
+                            "properties": {
+                                "job_title": "Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

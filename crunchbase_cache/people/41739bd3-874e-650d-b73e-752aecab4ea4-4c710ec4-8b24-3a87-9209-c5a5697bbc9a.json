@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "13b99056-f1ad-49dd-bb97-4be9cb535af8",
+            "properties": {
+                "name": "Spencer Eriksson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "13b99056-f1ad-49dd-bb97-4be9cb535af8",
+                    "value": "Spencer Eriksson"
+                },
+                "linkedin": "spencer-eriksson-7623a9130",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "728a4e9c-0f96-4486-8a06-b33e1144c936",
+                            "related_uuid": "13b99056-f1ad-49dd-bb97-4be9cb535af8",
+                            "properties": {
+                                "job_title": "Sr. Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

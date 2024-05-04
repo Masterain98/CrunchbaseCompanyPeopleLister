@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "11cf120e-cf10-4f2d-b047-a42edf415795",
+            "properties": {
+                "name": "Christian Turlica",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "11cf120e-cf10-4f2d-b047-a42edf415795",
+                    "value": "Christian Turlica"
+                },
+                "linkedin": "cturlica",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a6135111-970d-47e4-bac5-06495cd3bde9",
+                            "related_uuid": "11cf120e-cf10-4f2d-b047-a42edf415795",
+                            "properties": {
+                                "job_title": "CEO & Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

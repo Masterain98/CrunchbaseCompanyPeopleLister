@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "f37d3df7-c1aa-4043-8e5a-2fcbeef43c0d",
+            "properties": {
+                "name": "Charles Yeh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f37d3df7-c1aa-4043-8e5a-2fcbeef43c0d",
+                    "value": "Charles Yeh"
+                },
+                "linkedin": "charlesyeh",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e5f8628-6aa2-4d80-b38c-9251794715cd",
+                            "related_uuid": "f37d3df7-c1aa-4043-8e5a-2fcbeef43c0d",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "32ff70af-d832-40f2-a3a0-73cac64217ba",
+            "properties": {
+                "name": "Charles Yeh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "32ff70af-d832-40f2-a3a0-73cac64217ba",
+                    "value": "Charles Yeh"
+                },
+                "linkedin": "charlesyeh",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2c297734-0d6a-4977-b303-695d3bc61492",
+                            "related_uuid": "32ff70af-d832-40f2-a3a0-73cac64217ba",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

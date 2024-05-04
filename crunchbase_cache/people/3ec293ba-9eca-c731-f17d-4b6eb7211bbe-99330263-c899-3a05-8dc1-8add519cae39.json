@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8bc10232-910c-47ea-b01b-91d5655cbf00",
+            "properties": {
+                "name": "Megan Yunker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8bc10232-910c-47ea-b01b-91d5655cbf00",
+                    "value": "Megan Yunker"
+                },
+                "linkedin": "meganyunker",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07dc6f2b-f8a9-4618-95ff-b2fff0593a08",
+                            "related_uuid": "8bc10232-910c-47ea-b01b-91d5655cbf00",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9736eb6f-2f98-439f-9a0a-93bb7be98b14",
+            "properties": {
+                "name": "Sara Strope",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9736eb6f-2f98-439f-9a0a-93bb7be98b14",
+                    "value": "Sara Strope"
+                },
+                "linkedin": "sarastrope",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6c9e1278-5d79-446c-b43c-458b55601267",
+                            "related_uuid": "9736eb6f-2f98-439f-9a0a-93bb7be98b14",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

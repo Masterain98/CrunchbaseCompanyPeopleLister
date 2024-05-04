@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "078f3e18-8d0a-45cd-849f-7d5475fd75b4",
+            "properties": {
+                "name": "Brad Hem",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "078f3e18-8d0a-45cd-849f-7d5475fd75b4",
+                    "value": "Brad Hem"
+                },
+                "linkedin": "brad-hem-056ba910",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7c21cf49-e7d7-47e9-bc72-4e397a1885bb",
+                            "related_uuid": "078f3e18-8d0a-45cd-849f-7d5475fd75b4",
+                            "properties": {
+                                "job_title": "Director, Public Relations and Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

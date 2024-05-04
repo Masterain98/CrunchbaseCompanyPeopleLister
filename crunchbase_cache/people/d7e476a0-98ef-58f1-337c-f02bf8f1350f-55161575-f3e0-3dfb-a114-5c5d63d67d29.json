@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bcaebe77-f82f-4d52-af8f-2e1e24c92abb",
+            "properties": {
+                "name": "Kurt Rathmann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bcaebe77-f82f-4d52-af8f-2e1e24c92abb",
+                    "value": "Kurt Rathmann"
+                },
+                "linkedin": "kurtrathmann",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f793316-8194-4813-a9f5-88b8d8316523",
+                            "related_uuid": "bcaebe77-f82f-4d52-af8f-2e1e24c92abb",
+                            "properties": {
+                                "job_title": "CEO & Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

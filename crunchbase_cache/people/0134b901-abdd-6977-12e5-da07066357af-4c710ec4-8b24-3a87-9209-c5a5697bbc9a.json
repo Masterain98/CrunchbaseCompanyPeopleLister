@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "653e674b-5229-4760-9d7e-a99e5f149287",
+            "properties": {
+                "name": "Emma Sledge",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "653e674b-5229-4760-9d7e-a99e5f149287",
+                    "value": "Emma Sledge"
+                },
+                "linkedin": "emmabsledge",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5214c0a4-b0ac-4797-80c8-12992abcca7f",
+                            "related_uuid": "653e674b-5229-4760-9d7e-a99e5f149287",
+                            "properties": {
+                                "job_title": "Senior Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

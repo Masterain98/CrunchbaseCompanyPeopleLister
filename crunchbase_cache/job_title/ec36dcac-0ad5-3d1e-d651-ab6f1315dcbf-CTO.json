@@ -1,0 +1,77 @@
+{
+    "count": 9,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-compliance",
+                "uuid": "af643dba-10ab-3440-bff6-5a4d9f4fe7fb",
+                "value": "Manager, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-compliance",
+                "uuid": "e299a6d5-1693-3561-abd2-69cd6ae6d882",
+                "value": "Director, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-supply-chain",
+                "uuid": "d7a92ac9-902c-3b2c-9806-d508ce3f9575",
+                "value": "Manager, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-supply-chain",
+                "uuid": "8267d349-c401-3702-914f-3225cfff92fa",
+                "value": "Senior Manager, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "supervisor-quality-control",
+                "uuid": "500003e6-0b2d-3db5-88f5-497134ade5ee",
+                "value": "Supervisor, Quality Control"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-supply-chain",
+                "uuid": "3de4af36-4858-335d-b45e-c21d8fa923fc",
+                "value": "Senior Director, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "inventory-control-analyst",
+                "uuid": "5fbe73ae-c1d3-3a75-b88f-4af87e27cb90",
+                "value": "Inventory Control Analyst"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "program-manager-supply-chain",
+                "uuid": "70848245-accc-3917-bb8f-2e6b68a7f8a4",
+                "value": "Program Manager, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-engineer-compliance",
+                "uuid": "ff5f10b3-9b7d-3a45-b834-8d046e300c3e",
+                "value": "Senior Engineer, Compliance"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "181d9acd-f7d7-4f52-9e9c-286060301bc4",
+            "properties": {
+                "name": "Kevin Wang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "181d9acd-f7d7-4f52-9e9c-286060301bc4",
+                    "value": "Kevin Wang"
+                },
+                "linkedin": "kevinxizhao",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9c9109d8-aac8-43ab-bcdd-20972bb4a942",
+                            "related_uuid": "181d9acd-f7d7-4f52-9e9c-286060301bc4",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e93374ca-d823-4bda-9f45-4519407abb6f",
+            "properties": {
+                "name": "Madeleine Rowe",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e93374ca-d823-4bda-9f45-4519407abb6f",
+                    "value": "Madeleine Rowe"
+                },
+                "linkedin": "madeleinerowe",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "72775550-3d2e-4fa6-9d09-f797f27f5157",
+                            "related_uuid": "e93374ca-d823-4bda-9f45-4519407abb6f",
+                            "properties": {
+                                "job_title": "Director of Customer Success, EMEA"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

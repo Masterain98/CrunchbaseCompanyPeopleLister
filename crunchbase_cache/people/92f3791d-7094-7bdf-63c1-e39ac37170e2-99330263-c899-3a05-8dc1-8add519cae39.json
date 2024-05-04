@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "12be15f3-1dc7-4887-9397-879362b6ffd9",
+            "properties": {
+                "name": "Gracey Cantalupo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "12be15f3-1dc7-4887-9397-879362b6ffd9",
+                    "value": "Gracey Cantalupo"
+                },
+                "linkedin": "graceycantalupo",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2d4d0088-c24f-47b6-ae5f-0c5e47419911",
+                            "related_uuid": "12be15f3-1dc7-4887-9397-879362b6ffd9",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

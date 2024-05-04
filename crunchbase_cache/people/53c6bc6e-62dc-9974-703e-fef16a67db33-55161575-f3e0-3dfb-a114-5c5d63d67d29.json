@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4b67855f-50e0-47b5-94d9-34d763b1a61c",
+            "properties": {
+                "name": "Eric Gundersen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4b67855f-50e0-47b5-94d9-34d763b1a61c",
+                    "value": "Eric Gundersen"
+                },
+                "linkedin": "eric-gundersen-3b87bb77",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "78bfd5f6-f82e-4356-9640-852f1c6ad667",
+                            "related_uuid": "4b67855f-50e0-47b5-94d9-34d763b1a61c",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

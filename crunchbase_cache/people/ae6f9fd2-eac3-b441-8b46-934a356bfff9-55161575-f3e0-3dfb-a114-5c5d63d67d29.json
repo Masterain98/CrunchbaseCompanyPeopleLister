@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b8077340-e1e9-46f4-baee-8a0f87ec2d8d",
+            "properties": {
+                "name": "Clay Ritchey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b8077340-e1e9-46f4-baee-8a0f87ec2d8d",
+                    "value": "Clay Ritchey"
+                },
+                "linkedin": "clay-ritchey-3160782",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8e8028a0-68dd-4eae-9f5d-4c757936168b",
+                            "related_uuid": "b8077340-e1e9-46f4-baee-8a0f87ec2d8d",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

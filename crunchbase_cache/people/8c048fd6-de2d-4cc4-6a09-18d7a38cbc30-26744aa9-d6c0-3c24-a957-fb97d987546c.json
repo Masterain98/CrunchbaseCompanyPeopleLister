@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "44a68906-82b1-4e25-aac9-70b5ac8f4538",
+            "properties": {
+                "name": "Sean Ford",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "44a68906-82b1-4e25-aac9-70b5ac8f4538",
+                    "value": "Sean Ford"
+                },
+                "linkedin": "seanford",
+                "job_levels": [
+                    "l_200_manager"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d9aeb9cd-3ba1-4c2e-a0fd-03c571cc20c9",
+                            "related_uuid": "44a68906-82b1-4e25-aac9-70b5ac8f4538",
+                            "properties": {
+                                "job_title": "Program Manager, Subcontractor Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5861d3b8-fb8e-49c9-bdb9-110fc6b4dbd7",
+            "properties": {
+                "name": "Katherine Snyder",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5861d3b8-fb8e-49c9-bdb9-110fc6b4dbd7",
+                    "value": "Katherine Snyder"
+                },
+                "linkedin": "katherine-snyder-2741a35",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "39015e54-9da6-4642-aa25-7879fda95248",
+                            "related_uuid": "5861d3b8-fb8e-49c9-bdb9-110fc6b4dbd7",
+                            "properties": {
+                                "job_title": "Federal Contractor Compliance Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

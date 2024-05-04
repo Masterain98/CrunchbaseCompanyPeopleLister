@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "756d09ca-5efd-4c9a-90b0-1d4b7fffff19",
+            "properties": {
+                "name": "Kylie Harding",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "756d09ca-5efd-4c9a-90b0-1d4b7fffff19",
+                    "value": "Kylie Harding"
+                },
+                "linkedin": "kylie-harding-625b68123",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "470e2334-c3c5-4211-aa75-d7ab38550dbf",
+                            "related_uuid": "756d09ca-5efd-4c9a-90b0-1d4b7fffff19",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

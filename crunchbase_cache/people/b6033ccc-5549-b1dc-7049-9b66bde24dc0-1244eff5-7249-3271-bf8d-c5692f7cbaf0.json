@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a80bd885-3bc3-4eee-8eb0-f12977bfe6b9",
+            "properties": {
+                "name": "Alain Benzaken",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a80bd885-3bc3-4eee-8eb0-f12977bfe6b9",
+                    "value": "Alain Benzaken"
+                },
+                "linkedin": "alainbenzaken",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d75f0d46-6fa1-4fec-a4a3-469dcb20778b",
+                            "related_uuid": "a80bd885-3bc3-4eee-8eb0-f12977bfe6b9",
+                            "properties": {
+                                "job_title": "CTO, Americas"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

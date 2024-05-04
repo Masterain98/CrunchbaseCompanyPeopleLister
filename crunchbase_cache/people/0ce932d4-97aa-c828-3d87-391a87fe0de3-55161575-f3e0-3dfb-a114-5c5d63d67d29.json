@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "5889f79b-5f57-4d57-ab20-50d95a928955",
+            "properties": {
+                "name": "Janet Dryer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5889f79b-5f57-4d57-ab20-50d95a928955",
+                    "value": "Janet Dryer"
+                },
+                "linkedin": "janet-dryer-38a934116",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c8dc3065-2bf2-47fc-817f-1ae25d72dbd3",
+                            "related_uuid": "5889f79b-5f57-4d57-ab20-50d95a928955",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4e01a694-5dff-4457-9232-448e9f9aaeb4",
+            "properties": {
+                "name": "Mark Ties",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4e01a694-5dff-4457-9232-448e9f9aaeb4",
+                    "value": "Mark Ties"
+                },
+                "linkedin": "mark-ties-91a4bb124",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0454bcfd-64f8-42f1-8389-a930ba014469",
+                            "related_uuid": "4e01a694-5dff-4457-9232-448e9f9aaeb4",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0e9fbf2c-3a80-42cb-a3b4-7c90868aaf83",
+            "properties": {
+                "name": "Alex Aminian",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e9fbf2c-3a80-42cb-a3b4-7c90868aaf83",
+                    "value": "Alex Aminian"
+                },
+                "linkedin": "haminian",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "80e623d4-a3a9-462b-9b9f-7a3518ea0af9",
+                            "related_uuid": "0e9fbf2c-3a80-42cb-a3b4-7c90868aaf83",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c684d957-0981-49c7-8cce-841fd2af4b36",
+            "properties": {
+                "name": "Joe Marciniak",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c684d957-0981-49c7-8cce-841fd2af4b36",
+                    "value": "Joe Marciniak"
+                },
+                "linkedin": "joe-marciniak-2b20754",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "166dfd5d-f44e-48ea-97e8-e6c4e7274f7b",
+                            "related_uuid": "c684d957-0981-49c7-8cce-841fd2af4b36",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

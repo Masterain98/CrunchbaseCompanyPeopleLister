@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5d0827ff-ec03-4855-9b91-c2ead3beb69c",
+            "properties": {
+                "name": "Jill Borra",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5d0827ff-ec03-4855-9b91-c2ead3beb69c",
+                    "value": "Jill Borra"
+                },
+                "linkedin": "jillborra",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "311e93af-5be3-4213-b059-cb2b1f025706",
+                            "related_uuid": "5d0827ff-ec03-4855-9b91-c2ead3beb69c",
+                            "properties": {
+                                "job_title": "Director, Content Marketing and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

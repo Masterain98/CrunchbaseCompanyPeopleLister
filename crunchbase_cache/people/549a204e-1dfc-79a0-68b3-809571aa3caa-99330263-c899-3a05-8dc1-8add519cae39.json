@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aebe9e7b-c2c7-4755-a546-607a94bbc907",
+            "properties": {
+                "name": "Jigar Shah",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aebe9e7b-c2c7-4755-a546-607a94bbc907",
+                    "value": "Jigar Shah"
+                },
+                "linkedin": "jigar-shah-1273b116",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07c76ce6-7407-4b51-849a-4d4ee14cf4d2",
+                            "related_uuid": "aebe9e7b-c2c7-4755-a546-607a94bbc907",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

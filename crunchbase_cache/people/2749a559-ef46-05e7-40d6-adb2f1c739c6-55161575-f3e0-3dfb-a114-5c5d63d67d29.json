@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "62b3cf92-ee23-4b33-aae0-d4f4609e6ce8",
+            "properties": {
+                "name": "Jason Smith",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "62b3cf92-ee23-4b33-aae0-d4f4609e6ce8",
+                    "value": "Jason Smith"
+                },
+                "linkedin": "onemoresmith",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "30e8c8cf-ef37-49e8-abcd-afe245f489c2",
+                            "related_uuid": "62b3cf92-ee23-4b33-aae0-d4f4609e6ce8",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

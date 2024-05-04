@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "43b80de4-8e9c-4d29-ad10-32871e6b1f0d",
+            "properties": {
+                "name": "Katherine Arnett",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "43b80de4-8e9c-4d29-ad10-32871e6b1f0d",
+                    "value": "Katherine Arnett"
+                },
+                "linkedin": "arnettkatherine",
+                "job_levels": [
+                    "l_300_director",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5c3b3857-d65d-4367-9d04-8778010f6563",
+                            "related_uuid": "43b80de4-8e9c-4d29-ad10-32871e6b1f0d",
+                            "properties": {
+                                "job_title": "Senior Director, CEO Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b8c0d86f-5ade-4474-a1e1-a5356d465275",
+            "properties": {
+                "name": "Mary Oeffling",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b8c0d86f-5ade-4474-a1e1-a5356d465275",
+                    "value": "Mary Oeffling"
+                },
+                "linkedin": "maryoeffling",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a1367eb3-f756-4534-90e3-524b9ee14269",
+                            "related_uuid": "b8c0d86f-5ade-4474-a1e1-a5356d465275",
+                            "properties": {
+                                "job_title": "Director Internal Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

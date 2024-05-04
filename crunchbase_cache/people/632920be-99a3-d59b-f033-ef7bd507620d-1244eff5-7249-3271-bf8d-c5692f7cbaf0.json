@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "61c86d20-7f4c-414d-b580-41770627ea7d",
+            "properties": {
+                "name": "Elad Lavi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "61c86d20-7f4c-414d-b580-41770627ea7d",
+                    "value": "Elad Lavi"
+                },
+                "linkedin": "elad-lavi-4334811",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "20ebd936-ba5a-40f8-a07a-eed0aaaad0d9",
+                            "related_uuid": "61c86d20-7f4c-414d-b580-41770627ea7d",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

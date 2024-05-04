@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6b2565d5-1a62-43fd-94ba-36f60c26de13",
+            "properties": {
+                "name": "Sean Brady",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6b2565d5-1a62-43fd-94ba-36f60c26de13",
+                    "value": "Sean Brady"
+                },
+                "linkedin": "seanpbrady",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "315271c5-1d33-4cbb-8ca2-0e3770b69a1c",
+                            "related_uuid": "6b2565d5-1a62-43fd-94ba-36f60c26de13",
+                            "properties": {
+                                "job_title": "President/CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bcb58d89-7c34-45a0-ae56-c90a02b24b23",
+            "properties": {
+                "name": "Debarshi Kar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bcb58d89-7c34-45a0-ae56-c90a02b24b23",
+                    "value": "Debarshi Kar"
+                },
+                "linkedin": "debarshikar",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2438433b-e484-4f7b-af13-4e3c5ddce9b9",
+                            "related_uuid": "bcb58d89-7c34-45a0-ae56-c90a02b24b23",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

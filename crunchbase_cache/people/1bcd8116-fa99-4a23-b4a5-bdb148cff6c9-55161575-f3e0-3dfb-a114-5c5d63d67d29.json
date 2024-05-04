@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1105c486-1c41-41e2-8903-c8ff0dfe5537",
+            "properties": {
+                "name": "Ben Cahoon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1105c486-1c41-41e2-8903-c8ff0dfe5537",
+                    "value": "Ben Cahoon"
+                },
+                "linkedin": "bencahoon",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d544ad3a-e4b2-44e6-b7df-b186b25e58df",
+                            "related_uuid": "1105c486-1c41-41e2-8903-c8ff0dfe5537",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

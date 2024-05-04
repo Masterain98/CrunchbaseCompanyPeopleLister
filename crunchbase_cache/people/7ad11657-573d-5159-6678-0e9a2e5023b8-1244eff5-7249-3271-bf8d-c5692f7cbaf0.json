@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e2c1085f-79f8-4470-8b66-2aa08f68ff45",
+            "properties": {
+                "name": "Sean Kandel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e2c1085f-79f8-4470-8b66-2aa08f68ff45",
+                    "value": "Sean Kandel"
+                },
+                "linkedin": "seankandel",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1adbb606-b710-4967-b1e3-d017be4f5a10",
+                            "related_uuid": "e2c1085f-79f8-4470-8b66-2aa08f68ff45",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

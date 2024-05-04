@@ -1,0 +1,29 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coo",
+                "uuid": "03a6ff0d-b560-3bdb-8d4c-86cd94b35971",
+                "value": "COO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cgo",
+                "uuid": "63e64fb7-f6bf-3edd-a708-e1b75126a6fb",
+                "value": "CGO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-sales-officer",
+                "uuid": "9f96800f-ca8b-3e37-944a-7ba53bd2d6c8",
+                "value": "Chief Sales Officer"
+            }
+        }
+    ]
+}

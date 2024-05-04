@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "88b4d56b-675e-4496-a250-a9da5b5a2b50",
+            "properties": {
+                "name": "Brian Murphy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "88b4d56b-675e-4496-a250-a9da5b5a2b50",
+                    "value": "Brian Murphy"
+                },
+                "linkedin": "brianmurphyreliaquest",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b88e70bf-11ae-4af1-8818-63e6cc630eb4",
+                            "related_uuid": "88b4d56b-675e-4496-a250-a9da5b5a2b50",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

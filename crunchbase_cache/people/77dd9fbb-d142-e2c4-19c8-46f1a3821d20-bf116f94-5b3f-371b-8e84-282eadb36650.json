@@ -1,0 +1,95 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "e637331f-5189-4395-8eea-2cc58cb31297",
+            "properties": {
+                "name": "Alberto Cipriano",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e637331f-5189-4395-8eea-2cc58cb31297",
+                    "value": "Alberto Cipriano"
+                },
+                "linkedin": "alberto-cipriano-intlmba-scm",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f288e5dc-10ce-4cab-8c86-513c4e54238d",
+                            "related_uuid": "e637331f-5189-4395-8eea-2cc58cb31297",
+                            "properties": {
+                                "job_title": "Director Supply Chain Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "eac021d9-ee77-4972-be55-a4f6432da3c0",
+            "properties": {
+                "name": "Grace Johnston",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eac021d9-ee77-4972-be55-a4f6432da3c0",
+                    "value": "Grace Johnston"
+                },
+                "linkedin": "grace-johnston-5a6b1551",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "79cb15ef-56b3-4156-b959-03a32f902ff4",
+                            "related_uuid": "eac021d9-ee77-4972-be55-a4f6432da3c0",
+                            "properties": {
+                                "job_title": "Director, Supply Chain"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "472c1423-e895-49ab-81b7-ebc8411e2b57",
+            "properties": {
+                "name": "Keran Duan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "472c1423-e895-49ab-81b7-ebc8411e2b57",
+                    "value": "Keran Duan"
+                },
+                "linkedin": "keran-duan-0911a34",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "11bd8954-c292-4ae3-9c6b-f51c4757f94e",
+                            "related_uuid": "472c1423-e895-49ab-81b7-ebc8411e2b57",
+                            "properties": {
+                                "job_title": "Director, Global Supply Chain"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

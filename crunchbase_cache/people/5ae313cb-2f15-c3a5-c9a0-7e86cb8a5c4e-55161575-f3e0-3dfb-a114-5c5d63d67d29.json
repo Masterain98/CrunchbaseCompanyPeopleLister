@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "872a0a6b-ad3b-4580-bab6-5b5385052763",
+            "properties": {
+                "name": "Henry Fox",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "872a0a6b-ad3b-4580-bab6-5b5385052763",
+                    "value": "Henry Fox"
+                },
+                "linkedin": "henry-lane-fox-80ab2315",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8d252e0b-cf76-4011-9d55-da2944299f8f",
+                            "related_uuid": "872a0a6b-ad3b-4580-bab6-5b5385052763",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6076648a-eeaa-437c-851a-d8e002efdb7f",
+            "properties": {
+                "name": "Luke Fryer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6076648a-eeaa-437c-851a-d8e002efdb7f",
+                    "value": "Luke Fryer"
+                },
+                "linkedin": "luke-fryer-bab95b13",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "98e8abf9-413e-4bcc-8fd0-0f29b69857e1",
+                            "related_uuid": "6076648a-eeaa-437c-851a-d8e002efdb7f",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

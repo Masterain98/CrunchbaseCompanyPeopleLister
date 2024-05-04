@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "39e692dd-8137-4040-89bf-aaa459f405a2",
+            "properties": {
+                "name": "Tania Yuki",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "39e692dd-8137-4040-89bf-aaa459f405a2",
+                    "value": "Tania Yuki"
+                },
+                "linkedin": "taniayuki",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a5a74dd-85bc-4381-b7df-4441e101c26c",
+                            "related_uuid": "39e692dd-8137-4040-89bf-aaa459f405a2",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

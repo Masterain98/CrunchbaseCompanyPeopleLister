@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7284e91e-8c8b-4067-a375-de85b3335e78",
+            "properties": {
+                "name": "Trudi West",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7284e91e-8c8b-4067-a375-de85b3335e78",
+                    "value": "Trudi West"
+                },
+                "linkedin": "trudi-west-78138940",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2e6ef265-8c62-42b0-af0e-1a43476d2af6",
+                            "related_uuid": "7284e91e-8c8b-4067-a375-de85b3335e78",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

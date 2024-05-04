@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "b82e827c-4bc3-44ad-a134-e5add198c0fc",
+            "properties": {
+                "name": "Joy Powell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b82e827c-4bc3-44ad-a134-e5add198c0fc",
+                    "value": "Joy Powell"
+                },
+                "linkedin": "joy-powell-cpa-cma-66827052",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "47e85e4a-4cbc-4043-96a1-97615a5c5364",
+                            "related_uuid": "b82e827c-4bc3-44ad-a134-e5add198c0fc",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "04b9bb18-929d-4d14-bac5-343b3c53cc8b",
+            "properties": {
+                "name": "Rod Reasen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "04b9bb18-929d-4d14-bac5-343b3c53cc8b",
+                    "value": "Rod Reasen"
+                },
+                "linkedin": "rodreasen",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "85f5013c-2c1d-4ba9-addb-fa83880805e9",
+                            "related_uuid": "04b9bb18-929d-4d14-bac5-343b3c53cc8b",
+                            "properties": {
+                                "job_title": "Executive Chairman & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

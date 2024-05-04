@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "dd2bb0b8-40b5-494b-aa55-fef1e6f80699",
+            "properties": {
+                "name": "Chicky Crothers",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dd2bb0b8-40b5-494b-aa55-fef1e6f80699",
+                    "value": "Chicky Crothers"
+                },
+                "linkedin": "chicky-crothers-230b7a6",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7ce027c2-6bcc-497e-9d28-29927e74180e",
+                            "related_uuid": "dd2bb0b8-40b5-494b-aa55-fef1e6f80699",
+                            "properties": {
+                                "job_title": "Corporate Director of Advertising and Creative Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

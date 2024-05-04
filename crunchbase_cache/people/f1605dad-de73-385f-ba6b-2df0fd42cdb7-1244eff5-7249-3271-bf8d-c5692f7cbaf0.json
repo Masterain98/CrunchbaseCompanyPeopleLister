@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b9fa2fd4-7628-48b1-ad9a-fc983e112a8c",
+            "properties": {
+                "name": "David Timothy Strauss",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b9fa2fd4-7628-48b1-ad9a-fc983e112a8c",
+                    "value": "David Timothy Strauss"
+                },
+                "linkedin": "davidstrauss",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "167df611-b149-41b1-8277-bec995467b9a",
+                            "related_uuid": "b9fa2fd4-7628-48b1-ad9a-fc983e112a8c",
+                            "properties": {
+                                "job_title": "Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

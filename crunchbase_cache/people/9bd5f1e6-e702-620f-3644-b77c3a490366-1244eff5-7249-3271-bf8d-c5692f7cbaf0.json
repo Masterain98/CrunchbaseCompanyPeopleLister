@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fd0cddcc-2deb-434a-8a5b-918de3892a92",
+            "properties": {
+                "name": "Rick Kilcoyne",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fd0cddcc-2deb-434a-8a5b-918de3892a92",
+                    "value": "Rick Kilcoyne"
+                },
+                "linkedin": "rkilcoyne",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00986957-912f-46bd-b73f-6fb5b95cd7f5",
+                            "related_uuid": "fd0cddcc-2deb-434a-8a5b-918de3892a92",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

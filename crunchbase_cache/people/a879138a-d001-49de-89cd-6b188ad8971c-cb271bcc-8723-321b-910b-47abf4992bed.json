@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "51052e8b-b2d0-4ebc-974d-24984fc00c05",
+            "properties": {
+                "name": "Heather Rouke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "51052e8b-b2d0-4ebc-974d-24984fc00c05",
+                    "value": "Heather Rouke"
+                },
+                "linkedin": "heather-rouke-069347b7",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "df74f55a-eb87-4b0c-8d7d-2aba6c19fdf8",
+                            "related_uuid": "51052e8b-b2d0-4ebc-974d-24984fc00c05",
+                            "properties": {
+                                "job_title": "Director Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

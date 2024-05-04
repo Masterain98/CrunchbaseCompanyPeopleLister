@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a5bd6788-ca27-42ea-99ff-6e2aea098812",
+            "properties": {
+                "name": "Marcus Hardy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a5bd6788-ca27-42ea-99ff-6e2aea098812",
+                    "value": "Marcus Hardy"
+                },
+                "linkedin": "marcushardy",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2d908e50-307f-49d0-ac18-96c8c33eb070",
+                            "related_uuid": "a5bd6788-ca27-42ea-99ff-6e2aea098812",
+                            "properties": {
+                                "job_title": "Director, Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

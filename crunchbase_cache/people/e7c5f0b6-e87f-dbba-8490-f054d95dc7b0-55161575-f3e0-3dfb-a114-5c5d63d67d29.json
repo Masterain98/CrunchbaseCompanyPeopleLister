@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "36d33c4e-b750-4d99-8d8a-a714b1bb6fd1",
+            "properties": {
+                "name": "Phil Pergola",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "36d33c4e-b750-4d99-8d8a-a714b1bb6fd1",
+                    "value": "Phil Pergola"
+                },
+                "linkedin": "phil-pergola-740933",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "323eb9e7-e28b-4063-be32-603f3e954436",
+                            "related_uuid": "36d33c4e-b750-4d99-8d8a-a714b1bb6fd1",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

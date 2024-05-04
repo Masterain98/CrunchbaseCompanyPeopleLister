@@ -1,0 +1,117 @@
+{
+    "count": 14,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service",
+                "uuid": "060dca13-af57-34f1-a7d2-f2deb799b437",
+                "value": "Customer Service"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-owner",
+                "uuid": "a82a9e8e-e2bc-3bac-b2f9-6ab9201c412e",
+                "value": "Co-Owner"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service-representative",
+                "uuid": "febc8f73-ca7c-3557-85e8-d03a501238d1",
+                "value": "Customer Service Representative"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "category-manager",
+                "uuid": "3164a938-83c7-3f86-afe5-ec77cee41754",
+                "value": "Category Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "hr-coordinator",
+                "uuid": "2c4d7914-1c67-39f0-b176-3ec01adcdd90",
+                "value": "HR Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "office-coordinator",
+                "uuid": "818f037d-c546-35b1-8d3b-86cec9714e15",
+                "value": "Office Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator-human-resources",
+                "uuid": "eed129c4-2bc8-3c55-8c4b-4339344d7ee9",
+                "value": "Coordinator, Human Resources"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-supply-chain",
+                "uuid": "aca165aa-4416-37e5-af31-be7167e192d3",
+                "value": "VP, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "computer-technician",
+                "uuid": "017c622e-f1b2-3304-98af-45be9166dd80",
+                "value": "Computer Technician"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b384da5e-bb34-44b7-8597-12dc40db53bd",
+            "properties": {
+                "name": "Angelina Hendricks",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b384da5e-bb34-44b7-8597-12dc40db53bd",
+                    "value": "Angelina Hendricks"
+                },
+                "linkedin": "angelinahendricks",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "66f52fed-cc92-4cbc-ae85-9cd714749335",
+                            "related_uuid": "b384da5e-bb34-44b7-8597-12dc40db53bd",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

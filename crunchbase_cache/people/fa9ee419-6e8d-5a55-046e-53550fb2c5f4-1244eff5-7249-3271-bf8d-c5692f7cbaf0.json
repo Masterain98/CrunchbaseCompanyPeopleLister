@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "d2593469-5531-4e2e-93c1-7e7e2d667d2c",
+            "properties": {
+                "name": "Ed Frederici",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d2593469-5531-4e2e-93c1-7e7e2d667d2c",
+                    "value": "Ed Frederici"
+                },
+                "linkedin": "edfrederici",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d2ae1ac0-7a49-4f5a-80a5-0410a4885e7a",
+                            "related_uuid": "d2593469-5531-4e2e-93c1-7e7e2d667d2c",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c0aa0d7c-9322-4867-8ec5-f49bedc305eb",
+            "properties": {
+                "name": "Rich Howarth",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c0aa0d7c-9322-4867-8ec5-f49bedc305eb",
+                    "value": "Rich Howarth"
+                },
+                "linkedin": "rich-howarth",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6ac35270-df00-43bf-8189-1ffdc46dad81",
+                            "related_uuid": "c0aa0d7c-9322-4867-8ec5-f49bedc305eb",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

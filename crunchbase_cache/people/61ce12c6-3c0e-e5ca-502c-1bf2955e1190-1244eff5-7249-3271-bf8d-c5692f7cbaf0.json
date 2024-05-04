@@ -1,0 +1,73 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "0d4e5a65-5373-47b8-9e5f-933c93dc003e",
+            "properties": {
+                "name": "Binu Mathew",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0d4e5a65-5373-47b8-9e5f-933c93dc003e",
+                    "value": "Binu Mathew"
+                },
+                "linkedin": "binupmathew",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_400_vp",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4dd596ed-439b-407f-a2f0-066bf4c4a31f",
+                            "related_uuid": "0d4e5a65-5373-47b8-9e5f-933c93dc003e",
+                            "properties": {
+                                "job_title": "Chief Technology Officer, O&G"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "15f92f3f-623b-474f-9a9e-f53b3443d3b5",
+            "properties": {
+                "name": "Mr. Ed Abbo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "15f92f3f-623b-474f-9a9e-f53b3443d3b5",
+                    "value": "Mr. Ed Abbo"
+                },
+                "linkedin": "ed-abbo-5291a4",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2943e7a6-87ee-47ef-b001-0941abd45caf",
+                            "related_uuid": "15f92f3f-623b-474f-9a9e-f53b3443d3b5",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "393e2262-e5b7-4db1-adc8-e01f3b9f039c",
+            "properties": {
+                "name": "Robert Brumfield",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "393e2262-e5b7-4db1-adc8-e01f3b9f039c",
+                    "value": "Robert Brumfield"
+                },
+                "linkedin": "robert-brumfield-4702545",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "725c7e7e-9851-411b-a90a-ce04cf7739f4",
+                            "related_uuid": "393e2262-e5b7-4db1-adc8-e01f3b9f039c",
+                            "properties": {
+                                "job_title": "Sr. Director, Global Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

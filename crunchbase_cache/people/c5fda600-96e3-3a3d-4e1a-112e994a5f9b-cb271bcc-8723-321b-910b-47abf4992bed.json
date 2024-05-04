@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ce62da19-7cb6-4a33-84f8-2b0e81505c2e",
+            "properties": {
+                "name": "Sasha Obukhovskaya",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ce62da19-7cb6-4a33-84f8-2b0e81505c2e",
+                    "value": "Sasha Obukhovskaya"
+                },
+                "linkedin": "sashaobuk",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "101bbdb6-7202-48b0-9fb9-fb1091b83fb5",
+                            "related_uuid": "ce62da19-7cb6-4a33-84f8-2b0e81505c2e",
+                            "properties": {
+                                "job_title": "Director of Customer Success & Account Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

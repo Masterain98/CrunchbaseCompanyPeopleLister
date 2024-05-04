@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cf501700-b463-4085-b443-2075778235c9",
+            "properties": {
+                "name": "Dalibor Siroky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cf501700-b463-4085-b443-2075778235c9",
+                    "value": "Dalibor Siroky"
+                },
+                "linkedin": "daliborsiroky",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00d8a998-35e4-4e22-ad9f-12346a62d3f6",
+                            "related_uuid": "cf501700-b463-4085-b443-2075778235c9",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1d61e791-9cb7-414a-b414-446445ea0de8",
+            "properties": {
+                "name": "Shan Sinha",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1d61e791-9cb7-414a-b414-446445ea0de8",
+                    "value": "Shan Sinha"
+                },
+                "linkedin": "shansinha",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "21adc19e-24f7-4c73-ab15-58363bfea1ab",
+                            "related_uuid": "1d61e791-9cb7-414a-b414-446445ea0de8",
+                            "properties": {
+                                "job_title": "Co-Founder/CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

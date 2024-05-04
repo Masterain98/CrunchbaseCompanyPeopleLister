@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fca2781f-eef8-4644-a1e1-453c2db0fb94",
+            "properties": {
+                "name": "Beau Lippman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fca2781f-eef8-4644-a1e1-453c2db0fb94",
+                    "value": "Beau Lippman"
+                },
+                "linkedin": "beau-lippman",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "134999f0-d9e6-46f2-ac9c-687590d4a3b0",
+                            "related_uuid": "fca2781f-eef8-4644-a1e1-453c2db0fb94",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

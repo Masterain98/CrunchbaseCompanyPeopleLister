@@ -1,0 +1,53 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cto",
+                "uuid": "1244eff5-7249-3271-bf8d-c5692f7cbaf0",
+                "value": "CTO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cloud-engineer",
+                "uuid": "205342f2-1c1a-3016-84ea-381b417a9335",
+                "value": "Cloud Engineer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-architect",
+                "uuid": "22997e10-3d1a-3a57-9fbc-0f619872a0d5",
+                "value": "Chief Architect"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cbo",
+                "uuid": "2af9963e-e4b4-3d5a-b6d0-78835bfc579a",
+                "value": "CBO"
+            }
+        }
+    ]
+}

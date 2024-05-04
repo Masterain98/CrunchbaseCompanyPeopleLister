@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "22bf08a0-59ff-4d29-9b68-ef4546580eb5",
+            "properties": {
+                "name": "Sergii Maksymenko",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "22bf08a0-59ff-4d29-9b68-ef4546580eb5",
+                    "value": "Sergii Maksymenko"
+                },
+                "linkedin": "sergii-maksymenko-4a26751",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e3a3c3ea-55cb-4ee6-a9b8-e6654403ce8b",
+                            "related_uuid": "22bf08a0-59ff-4d29-9b68-ef4546580eb5",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

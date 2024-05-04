@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e338af71-b5e5-4910-aafa-177af378af4e",
+            "properties": {
+                "name": "Nate Peterson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e338af71-b5e5-4910-aafa-177af378af4e",
+                    "value": "Nate Peterson"
+                },
+                "linkedin": "nathanjpeterson",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "018dea20-8eb1-4b94-9840-4708dca29c0d",
+                            "related_uuid": "e338af71-b5e5-4910-aafa-177af378af4e",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2fba78ed-b8de-450b-abf6-c5dc6b516e72",
+            "properties": {
+                "name": "Kamal Hathi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2fba78ed-b8de-450b-abf6-c5dc6b516e72",
+                    "value": "Kamal Hathi"
+                },
+                "linkedin": "kamal-hathi-7b3b342",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "97a74722-9a9d-446f-a426-32a271f6d093",
+                            "related_uuid": "2fba78ed-b8de-450b-abf6-c5dc6b516e72",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

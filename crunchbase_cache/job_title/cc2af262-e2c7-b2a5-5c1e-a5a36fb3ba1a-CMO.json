@@ -1,0 +1,69 @@
+{
+    "count": 8,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chairman",
+                "uuid": "0e678094-b97c-381f-a87e-592f664994ce",
+                "value": "Chairman"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-quality-control",
+                "uuid": "af7d6e3a-1d62-3cfa-858d-09ca3161be64",
+                "value": "Manager, Quality Control"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "safety-coordinator",
+                "uuid": "da0e2340-0fba-3762-b211-78e9050f1899",
+                "value": "Safety Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "supervisor-quality-control",
+                "uuid": "500003e6-0b2d-3db5-88f5-497134ade5ee",
+                "value": "Supervisor, Quality Control"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "commodity-buyer",
+                "uuid": "1a85c414-0be8-3266-8465-acd9569eb026",
+                "value": "Commodity Buyer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "oracle-consultant",
+                "uuid": "672eb5d2-0607-32d1-9058-b40513154c27",
+                "value": "Oracle Consultant"
+            }
+        }
+    ]
+}

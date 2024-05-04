@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "05e695a8-d67f-4cea-bed3-c3a5f79f5792",
+            "properties": {
+                "name": "Coty Rosenblath",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "05e695a8-d67f-4cea-bed3-c3a5f79f5792",
+                    "value": "Coty Rosenblath"
+                },
+                "linkedin": "crosenblath",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "41555882-6956-45d4-b785-1aeb56ec0b67",
+                            "related_uuid": "05e695a8-d67f-4cea-bed3-c3a5f79f5792",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

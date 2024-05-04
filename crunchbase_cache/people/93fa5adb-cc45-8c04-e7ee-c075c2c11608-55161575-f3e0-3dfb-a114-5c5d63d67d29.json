@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f96cd6a9-3db6-4d48-801f-8f5c1b37164f",
+            "properties": {
+                "name": "Vasu Prathipati",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f96cd6a9-3db6-4d48-801f-8f5c1b37164f",
+                    "value": "Vasu Prathipati"
+                },
+                "linkedin": "vasuprathipati",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "44dde712-cd85-4966-bf61-70e047d05859",
+                            "related_uuid": "f96cd6a9-3db6-4d48-801f-8f5c1b37164f",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

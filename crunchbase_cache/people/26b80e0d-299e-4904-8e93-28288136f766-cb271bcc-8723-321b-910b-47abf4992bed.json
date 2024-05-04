@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "2f09f959-b93f-4d35-a1d0-a5829fc4f005",
+            "properties": {
+                "name": "Kerrie King",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2f09f959-b93f-4d35-a1d0-a5829fc4f005",
+                    "value": "Kerrie King"
+                },
+                "linkedin": "kerrie-king-23804393",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1b8744f2-960e-43e0-9d8c-0deadc5ea90e",
+                            "related_uuid": "2f09f959-b93f-4d35-a1d0-a5829fc4f005",
+                            "properties": {
+                                "job_title": "Director, Customer Success EMEA"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2bf7cfe5-4b1c-477a-a300-1acbb6085a2b",
+            "properties": {
+                "name": "Nicole Gamen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2bf7cfe5-4b1c-477a-a300-1acbb6085a2b",
+                    "value": "Nicole Gamen"
+                },
+                "linkedin": "nicole-gamen-0b0816b2",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "67d0c28e-5e66-4c58-9018-32bc229fd6da",
+                            "related_uuid": "2bf7cfe5-4b1c-477a-a300-1acbb6085a2b",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

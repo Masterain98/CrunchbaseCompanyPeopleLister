@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d2bac8dc-02a7-42b2-b2b8-b4884c3d6406",
+            "properties": {
+                "name": "Jason Lango",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d2bac8dc-02a7-42b2-b2b8-b4884c3d6406",
+                    "value": "Jason Lango"
+                },
+                "linkedin": "jasonlango",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "045aba50-1324-467c-90ed-aeb6ce9f1bf9",
+                            "related_uuid": "d2bac8dc-02a7-42b2-b2b8-b4884c3d6406",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

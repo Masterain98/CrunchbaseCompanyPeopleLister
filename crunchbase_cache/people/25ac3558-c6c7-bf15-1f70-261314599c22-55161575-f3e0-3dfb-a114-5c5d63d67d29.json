@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d199288f-1cf0-40bc-a8ea-d8d8dcadfc0c",
+            "properties": {
+                "name": "Sedarius Tekara Perrotta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d199288f-1cf0-40bc-a8ea-d8d8dcadfc0c",
+                    "value": "Sedarius Tekara Perrotta"
+                },
+                "linkedin": "sedarius-tekara-perrotta-14658235",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "63a314ad-9087-45be-9d24-620bee5b2223",
+                            "related_uuid": "d199288f-1cf0-40bc-a8ea-d8d8dcadfc0c",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

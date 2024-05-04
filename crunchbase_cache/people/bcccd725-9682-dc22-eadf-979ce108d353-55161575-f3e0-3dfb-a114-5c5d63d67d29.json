@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a6bf40d0-2803-44d6-9594-09969750b93b",
+            "properties": {
+                "name": "Brett White",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a6bf40d0-2803-44d6-9594-09969750b93b",
+                    "value": "Brett White"
+                },
+                "linkedin": "brett-white-71650b5",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "238d74c5-e610-4663-9de9-e5dd264d0ac9",
+                            "related_uuid": "a6bf40d0-2803-44d6-9594-09969750b93b",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

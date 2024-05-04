@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a54af8e6-78f8-425e-ac2f-63293edd207b",
+            "properties": {
+                "name": "Alok Srivastava",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a54af8e6-78f8-425e-ac2f-63293edd207b",
+                    "value": "Alok Srivastava"
+                },
+                "linkedin": "alokkumarsrivastava",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8e1ebb0b-d217-46fa-a5fb-9818b45e5513",
+                            "related_uuid": "a54af8e6-78f8-425e-ac2f-63293edd207b",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

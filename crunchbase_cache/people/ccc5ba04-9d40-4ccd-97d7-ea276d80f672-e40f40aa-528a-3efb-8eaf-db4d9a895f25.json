@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "387c126b-0b2b-41af-9fb7-ada88bbc3d54",
+            "properties": {
+                "name": "Anne Goodstein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "387c126b-0b2b-41af-9fb7-ada88bbc3d54",
+                    "value": "Anne Goodstein"
+                },
+                "linkedin": "anne-goodstein-4607332a",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f7e13bfd-0447-4a46-907e-3ed3ef70f918",
+                            "related_uuid": "387c126b-0b2b-41af-9fb7-ada88bbc3d54",
+                            "properties": {
+                                "job_title": "Creative Director, Partner"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

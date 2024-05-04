@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1c86b7eb-cc31-4d29-a91b-322fe21a0337",
+            "properties": {
+                "name": "Jason Stevens",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1c86b7eb-cc31-4d29-a91b-322fe21a0337",
+                    "value": "Jason Stevens"
+                },
+                "linkedin": "jason-perry-stevens",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "32559825-772e-4643-985f-9d779457774c",
+                            "related_uuid": "1c86b7eb-cc31-4d29-a91b-322fe21a0337",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "16bd6439-4d08-4ae6-9613-19d0f3bbddca",
+            "properties": {
+                "name": "David Keasey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "16bd6439-4d08-4ae6-9613-19d0f3bbddca",
+                    "value": "David Keasey"
+                },
+                "linkedin": "davidkeasey",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4623389e-c07c-4ec4-a11d-3766f714aeeb",
+                            "related_uuid": "16bd6439-4d08-4ae6-9613-19d0f3bbddca",
+                            "properties": {
+                                "job_title": "CEO, Catbird"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "64c9b48d-c385-4352-b4b0-04bb4b71bb00",
+            "properties": {
+                "name": "Nelson Fonseca",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "64c9b48d-c385-4352-b4b0-04bb4b71bb00",
+                    "value": "Nelson Fonseca"
+                },
+                "linkedin": "nelsonfonseca",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d9fda0dd-a805-4b00-a74d-81bf83140065",
+                            "related_uuid": "64c9b48d-c385-4352-b4b0-04bb4b71bb00",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d46d527a-bb31-4f7c-9fb1-f2b52902bffd",
+            "properties": {
+                "name": "Nelson Fonseca",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d46d527a-bb31-4f7c-9fb1-f2b52902bffd",
+                    "value": "Nelson Fonseca"
+                },
+                "linkedin": "nelson-fonseca-943198",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "456d8d92-28ce-4631-b582-739a466740f7",
+                            "related_uuid": "d46d527a-bb31-4f7c-9fb1-f2b52902bffd",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

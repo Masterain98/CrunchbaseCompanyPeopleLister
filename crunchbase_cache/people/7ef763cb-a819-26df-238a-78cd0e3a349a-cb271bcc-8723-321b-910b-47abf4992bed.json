@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "2c415ac4-7771-4910-9a97-9aebd0445a50",
+            "properties": {
+                "name": "Devapam Basak",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2c415ac4-7771-4910-9a97-9aebd0445a50",
+                    "value": "Devapam Basak"
+                },
+                "linkedin": "devapambasak",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a82e309-7c58-4ddf-b7f0-95bee7a9e8d8",
+                            "related_uuid": "2c415ac4-7771-4910-9a97-9aebd0445a50",
+                            "properties": {
+                                "job_title": "Associate Director - Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "aad4fa72-407b-4208-b5a6-2144b44987f1",
+            "properties": {
+                "name": "Nikhil Bhaskaran",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aad4fa72-407b-4208-b5a6-2144b44987f1",
+                    "value": "Nikhil Bhaskaran"
+                },
+                "linkedin": "imnikhilbhaskaran",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7a0a352e-58b5-423a-b064-3c30632cf8e3",
+                            "related_uuid": "aad4fa72-407b-4208-b5a6-2144b44987f1",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

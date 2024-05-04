@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "a2d62434-10a3-4e70-b156-3aafc1843d5d",
+            "properties": {
+                "name": "Kelly Daniels",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a2d62434-10a3-4e70-b156-3aafc1843d5d",
+                    "value": "Kelly Daniels"
+                },
+                "linkedin": "kelly-daniels-28395a6",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fd32ef98-a6af-4d03-a360-5eb8ddc694e0",
+                            "related_uuid": "a2d62434-10a3-4e70-b156-3aafc1843d5d",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0cfa0148-8cc0-4ae1-b4d8-0cc325c04aa4",
+            "properties": {
+                "name": "Michael Hustler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0cfa0148-8cc0-4ae1-b4d8-0cc325c04aa4",
+                    "value": "Michael Hustler"
+                },
+                "linkedin": "mikehustler",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c9e8ff13-c663-424b-b4a8-14d5edfba6fd",
+                            "related_uuid": "0cfa0148-8cc0-4ae1-b4d8-0cc325c04aa4",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

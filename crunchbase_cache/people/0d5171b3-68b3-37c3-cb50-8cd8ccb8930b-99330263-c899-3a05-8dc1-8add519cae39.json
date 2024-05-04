@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "c9205f96-7867-4588-ab6a-ea5fc6143d2b",
+            "properties": {
+                "name": "Benjamin Karsch",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c9205f96-7867-4588-ab6a-ea5fc6143d2b",
+                    "value": "Benjamin Karsch"
+                },
+                "linkedin": "benjaminakarsch",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cb65f0cc-52cb-4760-a654-b5d425a42eb8",
+                            "related_uuid": "c9205f96-7867-4588-ab6a-ea5fc6143d2b",
+                            "properties": {
+                                "job_title": "Managing Director and Group CMO, Accenture Strategy"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "72212785-68cf-4ae1-9a35-e11aa93a58f3",
+            "properties": {
+                "name": "Jean Ostvoll",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "72212785-68cf-4ae1-9a35-e11aa93a58f3",
+                    "value": "Jean Ostvoll"
+                },
+                "linkedin": "jean-m-ostvoll-84889ab",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d77aa361-c5fd-4fd9-adaf-b76fe7c53372",
+                            "related_uuid": "72212785-68cf-4ae1-9a35-e11aa93a58f3",
+                            "properties": {
+                                "job_title": "Managing Director and Group CMO, Accenture Strategy"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

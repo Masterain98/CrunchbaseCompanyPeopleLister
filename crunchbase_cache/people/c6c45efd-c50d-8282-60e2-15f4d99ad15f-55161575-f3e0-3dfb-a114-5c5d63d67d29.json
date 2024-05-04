@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "16578ca3-5982-4e9e-a83b-d0aa9c1d336d",
+            "properties": {
+                "name": "Guy Bloch",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "16578ca3-5982-4e9e-a83b-d0aa9c1d336d",
+                    "value": "Guy Bloch"
+                },
+                "linkedin": "guybloch",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a3ec78c7-baa1-4de3-aa00-5659d1abdfca",
+                            "related_uuid": "16578ca3-5982-4e9e-a83b-d0aa9c1d336d",
+                            "properties": {
+                                "job_title": "CEO & Board Member"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

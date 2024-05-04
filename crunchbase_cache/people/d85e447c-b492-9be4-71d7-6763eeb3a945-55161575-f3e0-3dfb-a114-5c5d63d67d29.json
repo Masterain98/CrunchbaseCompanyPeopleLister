@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ee1df269-a11e-42a8-b0c5-e5f270db88f0",
+            "properties": {
+                "name": "Debanjan Saha",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ee1df269-a11e-42a8-b0c5-e5f270db88f0",
+                    "value": "Debanjan Saha"
+                },
+                "linkedin": "debanjan-saha-029672",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a839a871-59e0-4928-b9e1-3bf0735a4165",
+                            "related_uuid": "ee1df269-a11e-42a8-b0c5-e5f270db88f0",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,460 @@
+{
+    "count": 15,
+    "entities": [
+        {
+            "uuid": "7084fc6a-abb7-4c54-95e4-64927dff807e",
+            "properties": {
+                "name": "Adam Snyder",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7084fc6a-abb7-4c54-95e4-64927dff807e",
+                    "value": "Adam Snyder"
+                },
+                "linkedin": "adamsnyder24",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e6ac5d0a-ee83-4797-b660-60767f2bc790",
+                            "related_uuid": "7084fc6a-abb7-4c54-95e4-64927dff807e",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e95d9608-ea4d-4ced-ad33-dffe51cc8f5d",
+            "properties": {
+                "name": "Albany Luensmann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e95d9608-ea4d-4ced-ad33-dffe51cc8f5d",
+                    "value": "Albany Luensmann"
+                },
+                "linkedin": "albanyluensmann",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bb950e71-5315-4c53-ba38-1ccb43b461a7",
+                            "related_uuid": "e95d9608-ea4d-4ced-ad33-dffe51cc8f5d",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "802e6c3f-3655-4e66-9fbb-af51ff1792ca",
+            "properties": {
+                "name": "Anne Klem",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "802e6c3f-3655-4e66-9fbb-af51ff1792ca",
+                    "value": "Anne Klem"
+                },
+                "linkedin": "anne-klem-4601957",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7e59d353-0115-4a29-bfb4-4da4d4941195",
+                            "related_uuid": "802e6c3f-3655-4e66-9fbb-af51ff1792ca",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "67294227-1384-4fa1-a365-8331b70684f1",
+            "properties": {
+                "name": "Charles Frederick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "67294227-1384-4fa1-a365-8331b70684f1",
+                    "value": "Charles Frederick"
+                },
+                "linkedin": "charles-frederick-594898108",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "148fb38a-d3d2-4c99-9b2b-cad969faf192",
+                            "related_uuid": "67294227-1384-4fa1-a365-8331b70684f1",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "21c2e141-7d65-4de6-93f8-e740311196fd",
+            "properties": {
+                "name": "Claire Satterfield",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "21c2e141-7d65-4de6-93f8-e740311196fd",
+                    "value": "Claire Satterfield"
+                },
+                "linkedin": "claire-satterfield-22b788a6",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "48d79322-b844-4e10-8029-d92b064ad09b",
+                            "related_uuid": "21c2e141-7d65-4de6-93f8-e740311196fd",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "fea5f61e-ed70-46b6-a8f5-f8c2cec5b135",
+            "properties": {
+                "name": "Harry Bilotto",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fea5f61e-ed70-46b6-a8f5-f8c2cec5b135",
+                    "value": "Harry Bilotto"
+                },
+                "linkedin": "harrybilotto",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e67522d7-b224-4ff7-bd93-09b6814c732a",
+                            "related_uuid": "fea5f61e-ed70-46b6-a8f5-f8c2cec5b135",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d5861e20-2fc3-4779-9498-1f364df906bd",
+            "properties": {
+                "name": "Jessie Bonagura",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d5861e20-2fc3-4779-9498-1f364df906bd",
+                    "value": "Jessie Bonagura"
+                },
+                "linkedin": "jessie-bonagura",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5ce26525-772e-4678-8290-173ae01b4580",
+                            "related_uuid": "d5861e20-2fc3-4779-9498-1f364df906bd",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7eafc0d3-94e5-4912-9792-a8700afdade2",
+            "properties": {
+                "name": "Kelsey Steen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7eafc0d3-94e5-4912-9792-a8700afdade2",
+                    "value": "Kelsey Steen"
+                },
+                "linkedin": "kelseysteen",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "865403e6-8fed-4552-935e-5b754966ff73",
+                            "related_uuid": "7eafc0d3-94e5-4912-9792-a8700afdade2",
+                            "properties": {
+                                "job_title": "Associate Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c44454df-d431-40ab-a9d5-8e36b57aba5c",
+            "properties": {
+                "name": "Lauren Bartlett",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c44454df-d431-40ab-a9d5-8e36b57aba5c",
+                    "value": "Lauren Bartlett"
+                },
+                "linkedin": "-lauren-bartlett",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "56d180c4-3569-44ee-9daa-0f63a5a9a9c9",
+                            "related_uuid": "c44454df-d431-40ab-a9d5-8e36b57aba5c",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c3071947-8f1e-40a6-b0e8-40177da18202",
+            "properties": {
+                "name": "Marianna Dunbrook",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c3071947-8f1e-40a6-b0e8-40177da18202",
+                    "value": "Marianna Dunbrook"
+                },
+                "linkedin": "mariannadunbrook",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3fc2f5d5-6be2-418e-972e-10744a856344",
+                            "related_uuid": "c3071947-8f1e-40a6-b0e8-40177da18202",
+                            "properties": {
+                                "job_title": "Associate Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d1481443-c336-4b38-98a1-66ab8e307af2",
+            "properties": {
+                "name": "Olivia French",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d1481443-c336-4b38-98a1-66ab8e307af2",
+                    "value": "Olivia French"
+                },
+                "linkedin": "oliviafrench",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "292c2f29-7b45-4657-8f49-9872b61bacbc",
+                            "related_uuid": "d1481443-c336-4b38-98a1-66ab8e307af2",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "12b21963-4d22-4f96-8be4-7866a781e75c",
+            "properties": {
+                "name": "Perri Kylow",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "12b21963-4d22-4f96-8be4-7866a781e75c",
+                    "value": "Perri Kylow"
+                },
+                "linkedin": "perrikylow",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "75c5d3d8-b9cf-4a63-9227-e59c3e41f86b",
+                            "related_uuid": "12b21963-4d22-4f96-8be4-7866a781e75c",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0e4ed215-6f4f-41ca-ac2a-686e6d179758",
+            "properties": {
+                "name": "Rasheed Robinson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e4ed215-6f4f-41ca-ac2a-686e6d179758",
+                    "value": "Rasheed Robinson"
+                },
+                "linkedin": "rasheedrobinson",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f718364a-86f7-4551-9964-4f3ae215d45d",
+                            "related_uuid": "0e4ed215-6f4f-41ca-ac2a-686e6d179758",
+                            "properties": {
+                                "job_title": "Associate Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "478f55ff-4e6d-4187-950f-c70711fb38c6",
+            "properties": {
+                "name": "Sonya Komorowski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "478f55ff-4e6d-4187-950f-c70711fb38c6",
+                    "value": "Sonya Komorowski"
+                },
+                "linkedin": "sonya-komorowski",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "600682fc-9859-4de2-828e-1258b5186142",
+                            "related_uuid": "478f55ff-4e6d-4187-950f-c70711fb38c6",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5cee9bed-31d5-4b61-9229-eeea17dd6d41",
+            "properties": {
+                "name": "Tiffany Ogren Guriel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5cee9bed-31d5-4b61-9229-eeea17dd6d41",
+                    "value": "Tiffany Ogren Guriel"
+                },
+                "linkedin": "tiffanyogrenguriel",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7be67d3d-fb8b-4eca-b98d-0ac81c3d1154",
+                            "related_uuid": "5cee9bed-31d5-4b61-9229-eeea17dd6d41",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

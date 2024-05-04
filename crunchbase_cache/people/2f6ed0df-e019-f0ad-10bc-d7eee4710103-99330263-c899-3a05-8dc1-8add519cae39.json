@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "93eee773-6668-4e17-abb3-90689657d5ba",
+            "properties": {
+                "name": "Kylan Lundeen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "93eee773-6668-4e17-abb3-90689657d5ba",
+                    "value": "Kylan Lundeen"
+                },
+                "linkedin": "kylanlundeen",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c7cce1dd-f62c-4ce5-b7f4-48cd11ea4c55",
+                            "related_uuid": "93eee773-6668-4e17-abb3-90689657d5ba",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e1be3cd7-d13a-46f0-9627-bc2fb49cdefa",
+            "properties": {
+                "name": "Nway Yeap",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e1be3cd7-d13a-46f0-9627-bc2fb49cdefa",
+                    "value": "Nway Yeap"
+                },
+                "linkedin": "nway-yeap-454a7235",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1c1a9f38-3135-4246-b131-cbfe6012d0d2",
+                            "related_uuid": "e1be3cd7-d13a-46f0-9627-bc2fb49cdefa",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

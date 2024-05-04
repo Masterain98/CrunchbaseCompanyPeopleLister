@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "88d554a2-837e-408d-b4e7-ef7e3b91de98",
+            "properties": {
+                "name": "Michael Klein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "88d554a2-837e-408d-b4e7-ef7e3b91de98",
+                    "value": "Michael Klein"
+                },
+                "linkedin": "kleincodes",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "115ed410-c142-4d9d-a0d4-eafb863d1fcd",
+                            "related_uuid": "88d554a2-837e-408d-b4e7-ef7e3b91de98",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

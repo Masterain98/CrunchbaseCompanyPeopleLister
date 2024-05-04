@@ -1,0 +1,21 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-communications",
+                "uuid": "b7e41b3c-fbf6-3d32-a5b4-6e9bfec63e4d",
+                "value": "Senior Manager, Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-marketing-communications-manager",
+                "uuid": "aebdce6a-4c5e-317d-8f73-27d3da49518c",
+                "value": "Senior Marketing Communications Manager"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c59b2208-24b3-4bb2-a994-3045fc9da376",
+            "properties": {
+                "name": "Thierry Schellenbach",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c59b2208-24b3-4bb2-a994-3045fc9da376",
+                    "value": "Thierry Schellenbach"
+                },
+                "linkedin": "thierryschellenbach",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "231a010a-740e-4a0b-895d-a4dce007e16c",
+                            "related_uuid": "c59b2208-24b3-4bb2-a994-3045fc9da376",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "e0dd03ae-040e-4b68-8c8b-3e66cdddf969",
+            "properties": {
+                "name": "Christine Church",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e0dd03ae-040e-4b68-8c8b-3e66cdddf969",
+                    "value": "Christine Church"
+                },
+                "linkedin": "christine-church-5a99b116",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3eb71e29-445c-4883-a040-a0805709177f",
+                            "related_uuid": "e0dd03ae-040e-4b68-8c8b-3e66cdddf969",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "596c034a-3b68-4a35-8721-974100eb369b",
+            "properties": {
+                "name": "Christine Mangan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "596c034a-3b68-4a35-8721-974100eb369b",
+                    "value": "Christine Mangan"
+                },
+                "linkedin": "christine-mangan-5a99b116",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0af1e2ac-566f-43dc-b9ec-cfcd4b723bfd",
+                            "related_uuid": "596c034a-3b68-4a35-8721-974100eb369b",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cf28dfbc-c967-4313-91e6-11cf87ab29b2",
+            "properties": {
+                "name": "Mackenzie Craven",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cf28dfbc-c967-4313-91e6-11cf87ab29b2",
+                    "value": "Mackenzie Craven"
+                },
+                "linkedin": "mackenziemiller2010",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "20705393-721a-4d19-9ed5-211f7051c43c",
+                            "related_uuid": "cf28dfbc-c967-4313-91e6-11cf87ab29b2",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

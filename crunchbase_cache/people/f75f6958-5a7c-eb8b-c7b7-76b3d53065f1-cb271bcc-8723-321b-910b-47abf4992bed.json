@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aed6d8ec-0458-49d7-b2fc-8eb93ca22984",
+            "properties": {
+                "name": "Eric Kloster",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aed6d8ec-0458-49d7-b2fc-8eb93ca22984",
+                    "value": "Eric Kloster"
+                },
+                "linkedin": "erickloster",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "94ad36e4-70b6-4836-9fc3-20264c52a2dd",
+                            "related_uuid": "aed6d8ec-0458-49d7-b2fc-8eb93ca22984",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

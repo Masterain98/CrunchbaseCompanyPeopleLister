@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8aeab3d0-1b31-4874-8e6f-70c86d7559a0",
+            "properties": {
+                "name": "Nick Smee",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8aeab3d0-1b31-4874-8e6f-70c86d7559a0",
+                    "value": "Nick Smee"
+                },
+                "linkedin": "nick-smee-78203bb",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dc1955bf-c9ca-4ed9-9778-ef0d4641151a",
+                            "related_uuid": "8aeab3d0-1b31-4874-8e6f-70c86d7559a0",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4fd100d7-a961-4fcd-8e78-bb21da1c4972",
+            "properties": {
+                "name": "Eli Curetti",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4fd100d7-a961-4fcd-8e78-bb21da1c4972",
+                    "value": "Eli Curetti"
+                },
+                "linkedin": "curetti",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "175a275d-086a-4db7-aab5-e36a56a8b638",
+                            "related_uuid": "4fd100d7-a961-4fcd-8e78-bb21da1c4972",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

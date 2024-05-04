@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "30a0be62-e446-4a55-817f-f4da143155ba",
+            "properties": {
+                "name": "Bernadette Dookram",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "30a0be62-e446-4a55-817f-f4da143155ba",
+                    "value": "Bernadette Dookram"
+                },
+                "linkedin": "bernadettedookram",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "34d994c1-c14c-4f67-8345-3bd69d08eff0",
+                            "related_uuid": "30a0be62-e446-4a55-817f-f4da143155ba",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

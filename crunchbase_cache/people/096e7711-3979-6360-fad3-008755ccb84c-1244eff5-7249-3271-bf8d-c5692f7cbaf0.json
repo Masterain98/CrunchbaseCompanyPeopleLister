@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "17d3d3fd-6f03-42a3-8f9a-6b2e1599f349",
+            "properties": {
+                "name": "Chris Holda",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "17d3d3fd-6f03-42a3-8f9a-6b2e1599f349",
+                    "value": "Chris Holda"
+                },
+                "linkedin": "chris-holda-9402796",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "337b343c-29a3-436c-a65f-00219f5f27bd",
+                            "related_uuid": "17d3d3fd-6f03-42a3-8f9a-6b2e1599f349",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f495a103-f3cf-4724-aa31-a52f247e4f61",
+            "properties": {
+                "name": "Jess Matthias",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f495a103-f3cf-4724-aa31-a52f247e4f61",
+                    "value": "Jess Matthias"
+                },
+                "linkedin": "jessmatthias",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5f5224f2-8b11-47a5-84af-b0702ae7b245",
+                            "related_uuid": "f495a103-f3cf-4724-aa31-a52f247e4f61",
+                            "properties": {
+                                "job_title": "Director, Global Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

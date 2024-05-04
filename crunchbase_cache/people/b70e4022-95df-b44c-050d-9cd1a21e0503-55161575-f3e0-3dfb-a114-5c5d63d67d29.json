@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "edd0b657-0e29-48df-8d25-0cc2499467d4",
+            "properties": {
+                "name": "Woolenberg",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "edd0b657-0e29-48df-8d25-0cc2499467d4",
+                    "value": "Woolenberg"
+                },
+                "linkedin": "davidwoolenberg",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "45b764cf-9684-4874-b88d-391376ac582d",
+                            "related_uuid": "edd0b657-0e29-48df-8d25-0cc2499467d4",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

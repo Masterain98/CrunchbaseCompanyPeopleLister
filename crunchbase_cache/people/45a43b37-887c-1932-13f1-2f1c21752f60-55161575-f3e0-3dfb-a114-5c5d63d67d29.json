@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "dd670db8-fe30-4785-ad42-b511db730818",
+            "properties": {
+                "name": "Andrew Rubin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dd670db8-fe30-4785-ad42-b511db730818",
+                    "value": "Andrew Rubin"
+                },
+                "linkedin": "andrew-rubin-8b223",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "14580e67-2481-44a8-aa75-302bb214267b",
+                            "related_uuid": "dd670db8-fe30-4785-ad42-b511db730818",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

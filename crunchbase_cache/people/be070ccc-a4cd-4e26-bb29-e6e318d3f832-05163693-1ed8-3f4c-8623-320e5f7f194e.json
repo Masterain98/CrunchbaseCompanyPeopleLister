@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "362bc7e9-534f-4345-bd8a-0dad80715c90",
+            "properties": {
+                "name": "Liz Johns",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "362bc7e9-534f-4345-bd8a-0dad80715c90",
+                    "value": "Liz Johns"
+                },
+                "linkedin": "johnsliz",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9db25df6-d308-40ec-b001-470e0b6dda70",
+                            "related_uuid": "362bc7e9-534f-4345-bd8a-0dad80715c90",
+                            "properties": {
+                                "job_title": "Global Brand & Communications Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

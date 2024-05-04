@@ -1,0 +1,34 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b3e6bde4-2c6d-4762-a65b-233b58f1d562",
+            "properties": {
+                "name": "Rob Asscherick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b3e6bde4-2c6d-4762-a65b-233b58f1d562",
+                    "value": "Rob Asscherick"
+                },
+                "linkedin": "robertasscherick",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "010d9bf1-f3d1-4fb8-b280-529e53409e43",
+                            "related_uuid": "b3e6bde4-2c6d-4762-a65b-233b58f1d562",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

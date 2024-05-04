@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5627f018-c7d3-418b-ab2b-7193b5342d4e",
+            "properties": {
+                "name": "Dean Bogdanovic",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5627f018-c7d3-418b-ab2b-7193b5342d4e",
+                    "value": "Dean Bogdanovic"
+                },
+                "linkedin": "dbogdanovic",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8d761e18-a3eb-43b6-9e84-603a1773df16",
+                            "related_uuid": "5627f018-c7d3-418b-ab2b-7193b5342d4e",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4d20e199-7014-4e99-ac34-917ed57640a6",
+            "properties": {
+                "name": "Todd Cornett",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4d20e199-7014-4e99-ac34-917ed57640a6",
+                    "value": "Todd Cornett"
+                },
+                "linkedin": "todd-cornett-18461614",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a5d4412c-3558-41cb-affb-9fbf499836db",
+                            "related_uuid": "4d20e199-7014-4e99-ac34-917ed57640a6",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "810b66fd-bb88-42e8-83d7-15024919e876",
+            "properties": {
+                "name": "David Hassell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "810b66fd-bb88-42e8-83d7-15024919e876",
+                    "value": "David Hassell"
+                },
+                "linkedin": "davidhassell",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "86f9a5bf-76bc-4531-80b1-d77870ed9745",
+                            "related_uuid": "810b66fd-bb88-42e8-83d7-15024919e876",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

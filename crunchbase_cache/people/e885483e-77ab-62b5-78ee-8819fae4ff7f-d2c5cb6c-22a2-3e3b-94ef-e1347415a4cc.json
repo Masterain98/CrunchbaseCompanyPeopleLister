@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "12aa013d-f269-41a3-b80e-911b7afd073a",
+            "properties": {
+                "name": "Syed Wasit",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "12aa013d-f269-41a3-b80e-911b7afd073a",
+                    "value": "Syed Wasit"
+                },
+                "linkedin": "syed-wasit-80787ab1",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5778a00e-a511-4ef0-8d76-3fbea5b2a16b",
+                            "related_uuid": "12aa013d-f269-41a3-b80e-911b7afd073a",
+                            "properties": {
+                                "job_title": "Director of Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

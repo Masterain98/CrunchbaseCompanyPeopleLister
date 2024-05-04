@@ -1,0 +1,96 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "3ac311e9-15ba-4ae1-8a6d-9eb94a74129a",
+            "properties": {
+                "name": "Ashley Bartreau",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ac311e9-15ba-4ae1-8a6d-9eb94a74129a",
+                    "value": "Ashley Bartreau"
+                },
+                "linkedin": "ashley-bartreau-10357329",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ad608e35-1450-4d3d-b984-18b5bb8aceb8",
+                            "related_uuid": "3ac311e9-15ba-4ae1-8a6d-9eb94a74129a",
+                            "properties": {
+                                "job_title": "Sr. Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5f294e4b-d5d6-4b24-9a8e-187b1076d8b2",
+            "properties": {
+                "name": "Lauren Lanzi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5f294e4b-d5d6-4b24-9a8e-187b1076d8b2",
+                    "value": "Lauren Lanzi"
+                },
+                "linkedin": "lauren-lanzi",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cc4821d8-4f9b-43a5-97ab-a60d31c9f885",
+                            "related_uuid": "5f294e4b-d5d6-4b24-9a8e-187b1076d8b2",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8993de7a-bd69-4b9f-bb20-46e073c05c8a",
+            "properties": {
+                "name": "Mitchell Christopher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8993de7a-bd69-4b9f-bb20-46e073c05c8a",
+                    "value": "Mitchell Christopher"
+                },
+                "linkedin": "mitch-christopher-96023353",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ee7bfb2-931a-4f1e-9c00-f7a190bc4675",
+                            "related_uuid": "8993de7a-bd69-4b9f-bb20-46e073c05c8a",
+                            "properties": {
+                                "job_title": "Director, Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "136e87bf-1abb-4148-8640-bc8a8fd5bf52",
+            "properties": {
+                "name": "Nick Elprin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "136e87bf-1abb-4148-8640-bc8a8fd5bf52",
+                    "value": "Nick Elprin"
+                },
+                "linkedin": "nick-elprin-0b30a038",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26516b5b-a548-4737-a076-26a65451cb60",
+                            "related_uuid": "136e87bf-1abb-4148-8640-bc8a8fd5bf52",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

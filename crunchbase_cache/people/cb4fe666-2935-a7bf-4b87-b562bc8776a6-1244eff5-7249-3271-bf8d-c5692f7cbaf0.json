@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ffe1b052-4063-4976-a889-cea38d5a41ab",
+            "properties": {
+                "name": "Michael Morrissey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ffe1b052-4063-4976-a889-cea38d5a41ab",
+                    "value": "Michael Morrissey"
+                },
+                "linkedin": "akamgm",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fb3450ba-6114-4534-97d5-645926505254",
+                            "related_uuid": "ffe1b052-4063-4976-a889-cea38d5a41ab",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

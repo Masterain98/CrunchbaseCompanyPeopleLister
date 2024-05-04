@@ -1,0 +1,128 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "bfb02c8c-0686-415e-a0f9-1d00e95bc9bf",
+            "properties": {
+                "name": "Kerri Ressl",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bfb02c8c-0686-415e-a0f9-1d00e95bc9bf",
+                    "value": "Kerri Ressl"
+                },
+                "linkedin": "kerriressl",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "human_resources",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "35661b9e-edda-45fa-8a4e-f3f4f375fb5c",
+                            "related_uuid": "bfb02c8c-0686-415e-a0f9-1d00e95bc9bf",
+                            "properties": {
+                                "job_title": "Director, Culture Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "09d96db2-2751-4843-b445-ae2f38d392fc",
+            "properties": {
+                "name": "Kevin Simmons-Mead",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "09d96db2-2751-4843-b445-ae2f38d392fc",
+                    "value": "Kevin Simmons-Mead"
+                },
+                "linkedin": "kevinsimmonsmead",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "human_resources",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c65ce10-3bad-44cf-8a53-c09d51e46776",
+                            "related_uuid": "09d96db2-2751-4843-b445-ae2f38d392fc",
+                            "properties": {
+                                "job_title": "Director, Executive Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b330fa5d-e82f-4ca0-b07d-5e528796a26f",
+            "properties": {
+                "name": "Shannon Tracy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b330fa5d-e82f-4ca0-b07d-5e528796a26f",
+                    "value": "Shannon Tracy"
+                },
+                "linkedin": "shannontracy",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1c063e19-8c1a-4a6e-9570-4487ea9b12c7",
+                            "related_uuid": "b330fa5d-e82f-4ca0-b07d-5e528796a26f",
+                            "properties": {
+                                "job_title": "Director, Internal Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b2f75dc4-cffc-47cc-975d-9531baab12ec",
+            "properties": {
+                "name": "Kelly Shelburne",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b2f75dc4-cffc-47cc-975d-9531baab12ec",
+                    "value": "Kelly Shelburne"
+                },
+                "linkedin": "kellyshelburne",
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f85f52f0-feb2-484c-b05a-13e0b06e79bf",
+                            "related_uuid": "b2f75dc4-cffc-47cc-975d-9531baab12ec",
+                            "properties": {
+                                "job_title": "Director of Global Internal Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

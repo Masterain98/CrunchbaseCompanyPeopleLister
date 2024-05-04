@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f0426b7c-b04d-456f-9c93-1ca239d66c22",
+            "properties": {
+                "name": "Brenna Thornley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f0426b7c-b04d-456f-9c93-1ca239d66c22",
+                    "value": "Brenna Thornley"
+                },
+                "linkedin": "brenna-thornley",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1bccf5de-1237-482c-b95b-43b4103f6bdf",
+                            "related_uuid": "f0426b7c-b04d-456f-9c93-1ca239d66c22",
+                            "properties": {
+                                "job_title": "Sr Director Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

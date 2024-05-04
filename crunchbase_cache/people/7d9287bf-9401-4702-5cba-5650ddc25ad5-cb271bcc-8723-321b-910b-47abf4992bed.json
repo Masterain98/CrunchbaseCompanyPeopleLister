@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "08b57c47-49df-495f-b72b-1b44fddc02a0",
+            "properties": {
+                "name": "Jay Pipho",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "08b57c47-49df-495f-b72b-1b44fddc02a0",
+                    "value": "Jay Pipho"
+                },
+                "linkedin": "jay-pipho-1507aa97",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "111acb1a-8517-4cba-a9e7-3736854fb139",
+                            "related_uuid": "08b57c47-49df-495f-b72b-1b44fddc02a0",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "acdf9e9f-86e9-4964-b6bd-e236b65e13e5",
+            "properties": {
+                "name": "Trish Rouland",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "acdf9e9f-86e9-4964-b6bd-e236b65e13e5",
+                    "value": "Trish Rouland"
+                },
+                "linkedin": "trish-rouland-429aaa49",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c98f6693-352b-4aca-b641-0c7237c66cb1",
+                            "related_uuid": "acdf9e9f-86e9-4964-b6bd-e236b65e13e5",
+                            "properties": {
+                                "job_title": "Director of Clinical Service Delivery Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

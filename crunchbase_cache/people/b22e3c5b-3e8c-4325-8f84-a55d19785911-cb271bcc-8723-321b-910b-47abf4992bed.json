@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fdffedda-2e8a-4f3d-89cc-24fbcfad14df",
+            "properties": {
+                "name": "Ben Broekhuizen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fdffedda-2e8a-4f3d-89cc-24fbcfad14df",
+                    "value": "Ben Broekhuizen"
+                },
+                "linkedin": "benbroekhuizen",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "efb4a579-7bc9-4030-a414-cb7873e89d21",
+                            "related_uuid": "fdffedda-2e8a-4f3d-89cc-24fbcfad14df",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

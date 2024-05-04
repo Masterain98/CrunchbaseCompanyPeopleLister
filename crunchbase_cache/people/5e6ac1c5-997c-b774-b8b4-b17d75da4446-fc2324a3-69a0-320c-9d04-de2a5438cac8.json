@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "91e7ad78-4e88-4fb9-8f55-17f01344c888",
+            "properties": {
+                "name": "Mark Whelan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "91e7ad78-4e88-4fb9-8f55-17f01344c888",
+                    "value": "Mark Whelan"
+                },
+                "linkedin": "markpeterwhelan",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "59a89520-0419-447a-9ead-f9f4803f49ff",
+                            "related_uuid": "91e7ad78-4e88-4fb9-8f55-17f01344c888",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

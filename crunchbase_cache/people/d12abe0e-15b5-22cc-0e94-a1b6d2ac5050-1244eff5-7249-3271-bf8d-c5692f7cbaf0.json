@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "8f661971-dc4f-4953-abf0-dda7a2669bcd",
+            "properties": {
+                "name": "Amit Goyal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8f661971-dc4f-4953-abf0-dda7a2669bcd",
+                    "value": "Amit Goyal"
+                },
+                "linkedin": "amit-goyal-302a0852",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "03fd24ae-ce0a-40c8-a3e3-f4f5a610d55b",
+                            "related_uuid": "8f661971-dc4f-4953-abf0-dda7a2669bcd",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "77dfcea3-be1c-4450-8f63-19a3fc6d06a8",
+            "properties": {
+                "name": "Manish Balsara",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "77dfcea3-be1c-4450-8f63-19a3fc6d06a8",
+                    "value": "Manish Balsara"
+                },
+                "linkedin": "manishbalsara",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b9661afa-2b00-4e52-824b-23e15c72387e",
+                            "related_uuid": "77dfcea3-be1c-4450-8f63-19a3fc6d06a8",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0aa329b3-8c49-4c70-9984-d04948edbbf2",
+            "properties": {
+                "name": "Eliot Hodges",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0aa329b3-8c49-4c70-9984-d04948edbbf2",
+                    "value": "Eliot Hodges"
+                },
+                "linkedin": "eliot-hodges-60264515",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "499d601d-21bf-495d-9f80-936fa9e14032",
+                            "related_uuid": "0aa329b3-8c49-4c70-9984-d04948edbbf2",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7cd8197c-34ec-498f-911e-eb3401470ff6",
+            "properties": {
+                "name": "David Villano",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7cd8197c-34ec-498f-911e-eb3401470ff6",
+                    "value": "David Villano"
+                },
+                "linkedin": "dmvillano",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c5986dd0-16a7-4ccf-abc1-6ed8782fc1cd",
+                            "related_uuid": "7cd8197c-34ec-498f-911e-eb3401470ff6",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

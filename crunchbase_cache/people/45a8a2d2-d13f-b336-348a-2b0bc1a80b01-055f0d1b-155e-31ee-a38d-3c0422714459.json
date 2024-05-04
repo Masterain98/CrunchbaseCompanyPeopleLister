@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "578873e2-5f32-4298-9101-dd5cdb196124",
+            "properties": {
+                "name": "Louis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "578873e2-5f32-4298-9101-dd5cdb196124",
+                    "value": "Louis"
+                },
+                "linkedin": "louisfvargas",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "04f3086a-fe45-471b-b727-5b3652e260ac",
+                            "related_uuid": "578873e2-5f32-4298-9101-dd5cdb196124",
+                            "properties": {
+                                "job_title": "Independent Contractor - Enterprise SaaS Technology Solutions"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

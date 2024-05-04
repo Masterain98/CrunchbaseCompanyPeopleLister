@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a1003d9e-15dc-4af0-9ac3-d9a0839bccbc",
+            "properties": {
+                "name": "Janel Weinke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a1003d9e-15dc-4af0-9ac3-d9a0839bccbc",
+                    "value": "Janel Weinke"
+                },
+                "linkedin": "janel-weinke-3113b028",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "56665566-2329-48bc-bf0a-5d3d76fbb133",
+                            "related_uuid": "a1003d9e-15dc-4af0-9ac3-d9a0839bccbc",
+                            "properties": {
+                                "job_title": "Finance and Administration"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "25d1370b-3128-4baa-b7fa-52866ebdaf03",
+            "properties": {
+                "name": "Hans Dockter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "25d1370b-3128-4baa-b7fa-52866ebdaf03",
+                    "value": "Hans Dockter"
+                },
+                "linkedin": "hansdockter",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1db81f88-5088-46bb-9ad5-0458bd961d24",
+                            "related_uuid": "25d1370b-3128-4baa-b7fa-52866ebdaf03",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

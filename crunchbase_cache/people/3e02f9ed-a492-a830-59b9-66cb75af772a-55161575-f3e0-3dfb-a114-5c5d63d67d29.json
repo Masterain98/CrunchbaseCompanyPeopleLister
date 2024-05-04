@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "26469010-2983-460f-93ae-6859343421b1",
+            "properties": {
+                "name": "Brandon Daniels",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "26469010-2983-460f-93ae-6859343421b1",
+                    "value": "Brandon Daniels"
+                },
+                "linkedin": "brandondanielslegalconsult",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f978f60-c4bb-4bc1-ac31-abfc29210d1e",
+                            "related_uuid": "26469010-2983-460f-93ae-6859343421b1",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b01ca86a-ebef-46bb-ba04-b8d3c5cc73ef",
+            "properties": {
+                "name": "Michael Cherkasky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b01ca86a-ebef-46bb-ba04-b8d3c5cc73ef",
+                    "value": "Michael Cherkasky"
+                },
+                "linkedin": "michael-cherkasky-34780753",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "584bd029-be1c-40ec-89ad-fd1485d07a6e",
+                            "related_uuid": "b01ca86a-ebef-46bb-ba04-b8d3c5cc73ef",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

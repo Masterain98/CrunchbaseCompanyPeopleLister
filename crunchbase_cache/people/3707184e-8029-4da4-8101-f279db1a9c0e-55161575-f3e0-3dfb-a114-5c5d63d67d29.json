@@ -1,0 +1,61 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "558ee799-1d52-474f-9cdf-1ef72434157b",
+            "properties": {
+                "name": "Jeff Chow",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "558ee799-1d52-474f-9cdf-1ef72434157b",
+                    "value": "Jeff Chow"
+                },
+                "linkedin": "jjchow",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bb972c9f-b4d1-4019-b4d0-ce709ed955c5",
+                            "related_uuid": "558ee799-1d52-474f-9cdf-1ef72434157b",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "eacead6b-38a7-4f42-83df-bbfc814f0166",
+            "properties": {
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eacead6b-38a7-4f42-83df-bbfc814f0166",
+                    "value": "Andrew Graunke"
+                },
+                "name": "Andrew Graunke",
+                "linkedin": "nocapital"
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f61d516-f523-45a2-91cd-4d09d15a3b79",
+                            "related_uuid": "eacead6b-38a7-4f42-83df-bbfc814f0166",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

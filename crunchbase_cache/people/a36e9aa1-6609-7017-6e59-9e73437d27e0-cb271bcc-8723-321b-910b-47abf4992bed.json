@@ -1,0 +1,190 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "uuid": "be84202f-8d1d-46ec-ba2a-8994450c521a",
+            "properties": {
+                "name": "Dan Britman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "be84202f-8d1d-46ec-ba2a-8994450c521a",
+                    "value": "Dan Britman"
+                },
+                "linkedin": "dan-britman",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6898963d-5c41-468c-a485-88064c819c03",
+                            "related_uuid": "be84202f-8d1d-46ec-ba2a-8994450c521a",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7dcc2cd2-d88e-41c5-983d-a2bccb418794",
+            "properties": {
+                "name": "Hillary Clarke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7dcc2cd2-d88e-41c5-983d-a2bccb418794",
+                    "value": "Hillary Clarke"
+                },
+                "linkedin": "hillary-clarke",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "49e20944-59b3-41dc-b19b-a0a4db2840bf",
+                            "related_uuid": "7dcc2cd2-d88e-41c5-983d-a2bccb418794",
+                            "properties": {
+                                "job_title": "Customer Success Director - EMEA & APAC"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0b840fb8-3f5f-49b0-9d95-c7d2d61d9972",
+            "properties": {
+                "name": "Hunter Thomas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0b840fb8-3f5f-49b0-9d95-c7d2d61d9972",
+                    "value": "Hunter Thomas"
+                },
+                "linkedin": "hunterjthomas",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "94d08acc-bc04-4bfb-b670-57b7177a3f38",
+                            "related_uuid": "0b840fb8-3f5f-49b0-9d95-c7d2d61d9972",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "90017b47-2293-4b3b-8bc4-3c545f7f8778",
+            "properties": {
+                "name": "Katie Boschele",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "90017b47-2293-4b3b-8bc4-3c545f7f8778",
+                    "value": "Katie Boschele"
+                },
+                "linkedin": "katie-boschele-211b022a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "product",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "95514e67-9998-406c-acbb-b401c49bc2e4",
+                            "related_uuid": "90017b47-2293-4b3b-8bc4-3c545f7f8778",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "fd493177-3022-45bc-bd2b-5cb6b395ca32",
+            "properties": {
+                "name": "Mary Cecil",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fd493177-3022-45bc-bd2b-5cb6b395ca32",
+                    "value": "Mary Cecil"
+                },
+                "linkedin": "mary-cecil-5b5a026",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "12503e6b-2bcd-4efb-ba43-c1fbeec858df",
+                            "related_uuid": "fd493177-3022-45bc-bd2b-5cb6b395ca32",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "50cdfb1c-544a-435a-9cc2-0830221d8129",
+            "properties": {
+                "name": "Printice Lawton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "50cdfb1c-544a-435a-9cc2-0830221d8129",
+                    "value": "Printice Lawton"
+                },
+                "linkedin": "printicelawton",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0b70e856-5062-47dd-81f6-021b9d7e5b2e",
+                            "related_uuid": "50cdfb1c-544a-435a-9cc2-0830221d8129",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

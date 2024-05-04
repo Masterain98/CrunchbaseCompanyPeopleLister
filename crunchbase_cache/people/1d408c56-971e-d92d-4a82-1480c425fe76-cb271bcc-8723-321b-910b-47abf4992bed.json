@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "732c430b-8a9f-494b-a304-34b609552b20",
+            "properties": {
+                "name": "Arda Mohamed",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "732c430b-8a9f-494b-a304-34b609552b20",
+                    "value": "Arda Mohamed"
+                },
+                "linkedin": "ardamohamed",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bca80fe6-f008-40dc-9203-90f9f7a31ee3",
+                            "related_uuid": "732c430b-8a9f-494b-a304-34b609552b20",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1357ecc4-ece2-477a-93f2-43b862c17231",
+            "properties": {
+                "name": "Natalie Crippen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1357ecc4-ece2-477a-93f2-43b862c17231",
+                    "value": "Natalie Crippen"
+                },
+                "linkedin": "natcrip",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6a45d9df-6eef-4234-bbe9-b7bf143c8507",
+                            "related_uuid": "1357ecc4-ece2-477a-93f2-43b862c17231",
+                            "properties": {
+                                "job_title": "Director, Customer Success (EMEA)"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "66314ee5-6bdf-4638-9b03-6e95fb158235",
+            "properties": {
+                "name": "Mitch Thrower",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "66314ee5-6bdf-4638-9b03-6e95fb158235",
+                    "value": "Mitch Thrower"
+                },
+                "linkedin": "mitchthrower",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4acdcd58-7864-48cf-9f03-20637a8ae19b",
+                            "related_uuid": "66314ee5-6bdf-4638-9b03-6e95fb158235",
+                            "properties": {
+                                "job_title": "CEO, Chairman & Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

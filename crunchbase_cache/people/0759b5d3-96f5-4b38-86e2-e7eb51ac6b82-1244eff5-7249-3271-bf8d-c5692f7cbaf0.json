@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "e0197312-c1ae-45f2-89bd-d9346c355715",
+            "properties": {
+                "name": "Chris Struttmann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e0197312-c1ae-45f2-89bd-d9346c355715",
+                    "value": "Chris Struttmann"
+                },
+                "linkedin": "chrisstruttmann",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "221f0c67-81ae-4201-b540-7dd747da7c1d",
+                            "related_uuid": "e0197312-c1ae-45f2-89bd-d9346c355715",
+                            "properties": {
+                                "job_title": "Founder, Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e6eff472-b834-49a7-9fd5-d55a533df6bf",
+            "properties": {
+                "name": "James Beecham",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e6eff472-b834-49a7-9fd5-d55a533df6bf",
+                    "value": "James Beecham"
+                },
+                "linkedin": "txbeecham",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "234a6ded-ef0d-40eb-878e-e5038dc9779f",
+                            "related_uuid": "e6eff472-b834-49a7-9fd5-d55a533df6bf",
+                            "properties": {
+                                "job_title": "Founder, CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

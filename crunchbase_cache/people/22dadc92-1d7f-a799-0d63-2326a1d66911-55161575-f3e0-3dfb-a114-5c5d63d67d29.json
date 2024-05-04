@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "43045660-d3aa-4689-8323-6acd849aade0",
+            "properties": {
+                "name": "Abhi Krishna",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "43045660-d3aa-4689-8323-6acd849aade0",
+                    "value": "Abhi Krishna"
+                },
+                "linkedin": "abilashkrishna",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9e3664d9-2a5d-47e7-9465-aec1c3c1c136",
+                            "related_uuid": "43045660-d3aa-4689-8323-6acd849aade0",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

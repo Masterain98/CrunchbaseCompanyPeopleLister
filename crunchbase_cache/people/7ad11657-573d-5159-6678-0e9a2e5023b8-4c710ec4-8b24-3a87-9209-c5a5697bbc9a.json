@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9f33c9db-eec9-4904-bcc2-f22e74bb06bc",
+            "properties": {
+                "name": "Doug Stradley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9f33c9db-eec9-4904-bcc2-f22e74bb06bc",
+                    "value": "Doug Stradley"
+                },
+                "linkedin": "doug-stradley-9aa35a4",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c8858aae-bd07-4039-bdfd-936bc4dc7c42",
+                            "related_uuid": "9f33c9db-eec9-4904-bcc2-f22e74bb06bc",
+                            "properties": {
+                                "job_title": "Sr. Director | Digital Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

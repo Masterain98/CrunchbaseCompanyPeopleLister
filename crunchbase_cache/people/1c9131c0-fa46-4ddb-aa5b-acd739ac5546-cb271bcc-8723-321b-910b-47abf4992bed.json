@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7a021f4b-43ee-4884-a9aa-8aadbe287b10",
+            "properties": {
+                "name": "Kedar Chaware",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7a021f4b-43ee-4884-a9aa-8aadbe287b10",
+                    "value": "Kedar Chaware"
+                },
+                "linkedin": "kedarchaware",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f0bfef0-d430-4e18-a2b1-e566a9e39723",
+                            "related_uuid": "7a021f4b-43ee-4884-a9aa-8aadbe287b10",
+                            "properties": {
+                                "job_title": "Director, Customer Success and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

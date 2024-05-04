@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c2111305-012e-456c-9d78-1de564be3f7d",
+            "properties": {
+                "name": "Mark Rabe",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c2111305-012e-456c-9d78-1de564be3f7d",
+                    "value": "Mark Rabe"
+                },
+                "linkedin": "marabe",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "438f74e5-2267-4dd9-b46c-4215708077b7",
+                            "related_uuid": "c2111305-012e-456c-9d78-1de564be3f7d",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

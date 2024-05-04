@@ -1,0 +1,131 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "5e28ef18-af5c-4f3a-9604-e1bdcdf454ab",
+            "properties": {
+                "name": "Craig Peters",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5e28ef18-af5c-4f3a-9604-e1bdcdf454ab",
+                    "value": "Craig Peters"
+                },
+                "linkedin": "craig-peters-45463512",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "539eaf8d-a332-4e69-9b1a-17cd5dd495e6",
+                            "related_uuid": "5e28ef18-af5c-4f3a-9604-e1bdcdf454ab",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "fe7c9d48-f7e8-4a3c-a5c4-9ad30adccd7a",
+            "properties": {
+                "name": "Dawn Airey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fe7c9d48-f7e8-4a3c-a5c4-9ad30adccd7a",
+                    "value": "Dawn Airey"
+                },
+                "linkedin": "dawn-airey-a78020122",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6b0cbaa9-eb22-4c12-a357-d3560d8bc7b5",
+                            "related_uuid": "fe7c9d48-f7e8-4a3c-a5c4-9ad30adccd7a",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "df39ad5c-72fd-407d-9ae2-cdae0a66c885",
+            "properties": {
+                "name": "Jonathan Klein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "df39ad5c-72fd-407d-9ae2-cdae0a66c885",
+                    "value": "Jonathan Klein"
+                },
+                "linkedin": "jonathan-klein-752a3516",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6d957f1f-9c4e-46eb-8a7b-40e56034a25f",
+                            "related_uuid": "df39ad5c-72fd-407d-9ae2-cdae0a66c885",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2f0be0bf-7015-4d8b-962d-18fc1291ca12",
+            "properties": {
+                "name": "Timothy Dunn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2f0be0bf-7015-4d8b-962d-18fc1291ca12",
+                    "value": "Timothy Dunn"
+                },
+                "linkedin": "timothy-dunn-a8958348",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0b52d3c8-fdc3-4c0b-a48a-ff736c990cf2",
+                            "related_uuid": "2f0be0bf-7015-4d8b-962d-18fc1291ca12",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

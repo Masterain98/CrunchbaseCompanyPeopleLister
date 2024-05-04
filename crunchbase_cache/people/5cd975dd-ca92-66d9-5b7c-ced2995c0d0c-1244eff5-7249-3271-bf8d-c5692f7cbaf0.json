@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ced0c32a-9d0c-4992-94fe-87bb7c4fea3b",
+            "properties": {
+                "name": "Christopher Dolan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ced0c32a-9d0c-4992-94fe-87bb7c4fea3b",
+                    "value": "Christopher Dolan"
+                },
+                "linkedin": "-dolan",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1de07120-0270-47e1-8ba2-8fd964cf1ba5",
+                            "related_uuid": "ced0c32a-9d0c-4992-94fe-87bb7c4fea3b",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d32306f3-9212-4ce9-8c7c-eb673caf2e60",
+            "properties": {
+                "name": "Christopher Dolan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d32306f3-9212-4ce9-8c7c-eb673caf2e60",
+                    "value": "Christopher Dolan"
+                },
+                "linkedin": "christopher-dolan-14612a134",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c6aeab46-dd52-4701-9bf8-250f239afc95",
+                            "related_uuid": "d32306f3-9212-4ce9-8c7c-eb673caf2e60",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

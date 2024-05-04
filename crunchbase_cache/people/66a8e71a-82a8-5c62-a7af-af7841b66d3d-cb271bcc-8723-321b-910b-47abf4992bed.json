@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a9417feb-36c3-4376-81a4-a324fea0fc37",
+            "properties": {
+                "name": "Thea Dietrick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a9417feb-36c3-4376-81a4-a324fea0fc37",
+                    "value": "Thea Dietrick"
+                },
+                "linkedin": "ftdietrick",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7d87632a-4a4f-4b98-b353-1190f8047ffe",
+                            "related_uuid": "a9417feb-36c3-4376-81a4-a324fea0fc37",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

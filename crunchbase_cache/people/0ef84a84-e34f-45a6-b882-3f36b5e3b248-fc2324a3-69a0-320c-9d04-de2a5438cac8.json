@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "113bcecc-11b8-421b-ac5f-d57b72175147",
+            "properties": {
+                "name": "Amanda Chavez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "113bcecc-11b8-421b-ac5f-d57b72175147",
+                    "value": "Amanda Chavez"
+                },
+                "linkedin": "amanda-chavez-mba-abb50746",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3dfc6b0c-a8c4-48ab-b177-864bc40b8e0c",
+                            "related_uuid": "113bcecc-11b8-421b-ac5f-d57b72175147",
+                            "properties": {
+                                "job_title": "Director, Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

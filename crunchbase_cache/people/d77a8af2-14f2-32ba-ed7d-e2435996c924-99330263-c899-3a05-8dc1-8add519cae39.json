@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f5d0d061-19ec-4974-b6da-e43a192805ae",
+            "properties": {
+                "name": "Deb Wolf",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f5d0d061-19ec-4974-b6da-e43a192805ae",
+                    "value": "Deb Wolf"
+                },
+                "linkedin": "deb-wolf",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2720e578-ab57-4b8c-9443-16a3731916de",
+                            "related_uuid": "f5d0d061-19ec-4974-b6da-e43a192805ae",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

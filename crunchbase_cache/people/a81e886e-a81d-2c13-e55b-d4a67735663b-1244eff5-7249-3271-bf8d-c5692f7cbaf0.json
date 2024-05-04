@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aba552af-ff42-4b34-8fe6-664f1f13cf33",
+            "properties": {
+                "name": "Ammiel Kamon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aba552af-ff42-4b34-8fe6-664f1f13cf33",
+                    "value": "Ammiel Kamon"
+                },
+                "linkedin": "ammiel-kamon",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "63b57efc-58ff-408a-93ba-256ef4473776",
+                            "related_uuid": "aba552af-ff42-4b34-8fe6-664f1f13cf33",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "62491cc0-fca3-4efd-81d9-fd063c7be809",
+            "properties": {
+                "name": "James Welden",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "62491cc0-fca3-4efd-81d9-fd063c7be809",
+                    "value": "James Welden"
+                },
+                "linkedin": "james-welden",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "253c5dd0-2317-48c1-aa1a-c59ea000cae8",
+                            "related_uuid": "62491cc0-fca3-4efd-81d9-fd063c7be809",
+                            "properties": {
+                                "job_title": "Director of Corporate Development"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0c19bc86-05cc-4831-b2d7-5e28f1f157f1",
+            "properties": {
+                "name": "Harshal Wanjari",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0c19bc86-05cc-4831-b2d7-5e28f1f157f1",
+                    "value": "Harshal Wanjari"
+                },
+                "linkedin": "harshalw",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f9508606-fac5-4eed-834d-dafc77304e8b",
+                            "related_uuid": "0c19bc86-05cc-4831-b2d7-5e28f1f157f1",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

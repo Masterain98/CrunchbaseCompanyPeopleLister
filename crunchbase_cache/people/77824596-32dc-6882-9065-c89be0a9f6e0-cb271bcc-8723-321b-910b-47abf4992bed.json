@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "408787e9-9260-4c48-9138-9572d97bc3c1",
+            "properties": {
+                "name": "Cindy Conklin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "408787e9-9260-4c48-9138-9572d97bc3c1",
+                    "value": "Cindy Conklin"
+                },
+                "linkedin": "cindy-conklin-41138ba",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00a40f5f-5582-4f82-8e92-4ecb8e949f59",
+                            "related_uuid": "408787e9-9260-4c48-9138-9572d97bc3c1",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f29d1fb1-27fa-4781-91a8-b7d46e1b4aa0",
+            "properties": {
+                "name": "Daniel McGrath",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f29d1fb1-27fa-4781-91a8-b7d46e1b4aa0",
+                    "value": "Daniel McGrath"
+                },
+                "linkedin": "daniel-mcgrath-1aa60331",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "072722d6-113d-4d0f-9536-978e333b130f",
+                            "related_uuid": "f29d1fb1-27fa-4781-91a8-b7d46e1b4aa0",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

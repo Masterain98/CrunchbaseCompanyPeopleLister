@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e3fb28c0-4f33-4075-967b-b5ed91982a11",
+            "properties": {
+                "name": "Warren Harper",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e3fb28c0-4f33-4075-967b-b5ed91982a11",
+                    "value": "Warren Harper"
+                },
+                "linkedin": "harperw",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "659bbc9a-2c4f-420e-b0a2-9265de754e3d",
+                            "related_uuid": "e3fb28c0-4f33-4075-967b-b5ed91982a11",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

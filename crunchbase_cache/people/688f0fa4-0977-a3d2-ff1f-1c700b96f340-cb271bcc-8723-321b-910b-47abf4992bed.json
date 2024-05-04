@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2cde073b-90a6-4d68-8620-0efa59093ab9",
+            "properties": {
+                "name": "Anna Alley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2cde073b-90a6-4d68-8620-0efa59093ab9",
+                    "value": "Anna Alley"
+                },
+                "linkedin": "anna-alley-270b7129",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4ea5f4da-830a-4fd9-ac64-4d9159d07483",
+                            "related_uuid": "2cde073b-90a6-4d68-8620-0efa59093ab9",
+                            "properties": {
+                                "job_title": "Director of Customer Success & Advocacy"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

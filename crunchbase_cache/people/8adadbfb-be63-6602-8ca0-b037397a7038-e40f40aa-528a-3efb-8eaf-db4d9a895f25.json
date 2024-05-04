@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "e3cb5204-b062-45c6-bc1a-95eaccc27a0e",
+            "properties": {
+                "name": "Glenn Wong",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e3cb5204-b062-45c6-bc1a-95eaccc27a0e",
+                    "value": "Glenn Wong"
+                },
+                "linkedin": "glennwong",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6a9a374c-127c-4f73-866e-40f849ff3fb5",
+                            "related_uuid": "e3cb5204-b062-45c6-bc1a-95eaccc27a0e",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cb273548-8fa6-4554-9dba-b1a1be1b3098",
+            "properties": {
+                "name": "James Hicks",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cb273548-8fa6-4554-9dba-b1a1be1b3098",
+                    "value": "James Hicks"
+                },
+                "linkedin": "jameshicks",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "32c51202-2f44-47cb-a16d-8f6ab5daac33",
+                            "related_uuid": "cb273548-8fa6-4554-9dba-b1a1be1b3098",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

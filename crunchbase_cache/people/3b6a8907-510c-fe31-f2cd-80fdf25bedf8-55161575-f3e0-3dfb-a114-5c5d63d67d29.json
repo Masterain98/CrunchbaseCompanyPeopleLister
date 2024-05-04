@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ac45034c-d278-4874-945b-39f3d7cb1a0b",
+            "properties": {
+                "name": "Rick Darter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ac45034c-d278-4874-945b-39f3d7cb1a0b",
+                    "value": "Rick Darter"
+                },
+                "linkedin": "rick-darter-8645b7",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "aa5b6631-8f00-4c6e-be5e-25a25d7aa828",
+                            "related_uuid": "ac45034c-d278-4874-945b-39f3d7cb1a0b",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

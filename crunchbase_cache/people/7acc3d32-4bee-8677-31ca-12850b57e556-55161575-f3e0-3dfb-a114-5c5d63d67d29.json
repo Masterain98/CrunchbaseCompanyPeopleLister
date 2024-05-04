@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2b435a34-70ac-4f45-885e-9278e3db520e",
+            "properties": {
+                "name": "Jon Sobel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2b435a34-70ac-4f45-885e-9278e3db520e",
+                    "value": "Jon Sobel"
+                },
+                "linkedin": "jon-sobel-5b19989",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19db6bc0-75c5-4eb1-8b82-9b4c91f8cf76",
+                            "related_uuid": "2b435a34-70ac-4f45-885e-9278e3db520e",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

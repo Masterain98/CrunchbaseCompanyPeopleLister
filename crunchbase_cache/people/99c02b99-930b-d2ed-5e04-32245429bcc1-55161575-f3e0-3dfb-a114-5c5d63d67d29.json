@@ -1,0 +1,71 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "5e9af9f9-e604-4d9a-a023-5ecfb8e22e7b",
+            "properties": {
+                "name": "Felipe Ortiz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5e9af9f9-e604-4d9a-a023-5ecfb8e22e7b",
+                    "value": "Felipe Ortiz"
+                },
+                "linkedin": "felipe-ortiz-611264106",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "31216333-dba7-4450-9053-6536a2b37718",
+                            "related_uuid": "5e9af9f9-e604-4d9a-a023-5ecfb8e22e7b",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "79125792-64ce-4168-825d-532d2b354072",
+            "properties": {
+                "name": "Scott Unger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "79125792-64ce-4168-825d-532d2b354072",
+                    "value": "Scott Unger"
+                },
+                "linkedin": "scott-unger-79738211",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2523f8f6-98f0-4062-a5a3-9d2a998f1327",
+                            "related_uuid": "79125792-64ce-4168-825d-532d2b354072",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aac4ceda-662a-4a6b-891c-ccfb7ffb4ed0",
+            "properties": {
+                "name": "Liz Taylor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aac4ceda-662a-4a6b-891c-ccfb7ffb4ed0",
+                    "value": "Liz Taylor"
+                },
+                "linkedin": "herculiz",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b4c3acef-f04f-4caf-b838-02fca9df8ebb",
+                            "related_uuid": "aac4ceda-662a-4a6b-891c-ccfb7ffb4ed0",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

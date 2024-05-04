@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "8c9f5486-423c-4157-bc8d-91ed3b0c7028",
+            "properties": {
+                "name": "Josh Leslie",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8c9f5486-423c-4157-bc8d-91ed3b0c7028",
+                    "value": "Josh Leslie"
+                },
+                "linkedin": "joleslie",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0274d2ed-88d2-40e8-8d6c-5919859f2d1c",
+                            "related_uuid": "8c9f5486-423c-4157-bc8d-91ed3b0c7028",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7271eacf-fbec-48c2-987c-419cff505fea",
+            "properties": {
+                "name": "Kolton Andrus",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7271eacf-fbec-48c2-987c-419cff505fea",
+                    "value": "Kolton Andrus"
+                },
+                "linkedin": "kolton-andrus-77315a2",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9be5c5d6-f2c5-4203-aaa4-3555182963a5",
+                            "related_uuid": "7271eacf-fbec-48c2-987c-419cff505fea",
+                            "properties": {
+                                "job_title": "CEO and Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

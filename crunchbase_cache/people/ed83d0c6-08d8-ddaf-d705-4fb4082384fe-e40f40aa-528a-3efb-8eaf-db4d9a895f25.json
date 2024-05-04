@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a1791978-fc1b-4276-a7ec-59afc3b876b9",
+            "properties": {
+                "name": "Micah Panama",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a1791978-fc1b-4276-a7ec-59afc3b876b9",
+                    "value": "Micah Panama"
+                },
+                "linkedin": "micahpanama",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "49ffcb59-f066-42b5-b52a-5fe3e4cded21",
+                            "related_uuid": "a1791978-fc1b-4276-a7ec-59afc3b876b9",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

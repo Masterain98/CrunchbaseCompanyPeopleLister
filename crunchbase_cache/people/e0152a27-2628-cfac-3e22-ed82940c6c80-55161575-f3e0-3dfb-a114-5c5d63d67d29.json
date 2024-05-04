@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ad1f4f8e-8fa5-4c08-9689-aa985fa57f61",
+            "properties": {
+                "name": "Frank Groot",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ad1f4f8e-8fa5-4c08-9689-aa985fa57f61",
+                    "value": "Frank Groot"
+                },
+                "linkedin": "frankgroot",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e2343f59-373f-4e4b-b120-8fe97a338242",
+                            "related_uuid": "ad1f4f8e-8fa5-4c08-9689-aa985fa57f61",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6d83c1e7-4011-4905-b843-ea5d22b69b95",
+            "properties": {
+                "name": "Jesper Car\u00f8e",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6d83c1e7-4011-4905-b843-ea5d22b69b95",
+                    "value": "Jesper Car\u00f8e"
+                },
+                "linkedin": "jespergrankaercaroee",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e4c924d2-7ea3-47fe-bd18-7ee44afe8217",
+                            "related_uuid": "6d83c1e7-4011-4905-b843-ea5d22b69b95",
+                            "properties": {
+                                "job_title": "CCO Digital Health & Deputy-CEO Trifork Group"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

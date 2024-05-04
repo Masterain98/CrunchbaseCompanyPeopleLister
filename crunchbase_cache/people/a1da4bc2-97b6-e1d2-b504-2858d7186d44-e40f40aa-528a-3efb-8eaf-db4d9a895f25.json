@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bc315992-1a8e-4cbf-97be-96d409cd6774",
+            "properties": {
+                "name": "Annalee Penrod",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bc315992-1a8e-4cbf-97be-96d409cd6774",
+                    "value": "Annalee Penrod"
+                },
+                "linkedin": "annalee-penrod-252b99132",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2a7764a2-30a6-4df2-85bc-5eff519543d7",
+                            "related_uuid": "bc315992-1a8e-4cbf-97be-96d409cd6774",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

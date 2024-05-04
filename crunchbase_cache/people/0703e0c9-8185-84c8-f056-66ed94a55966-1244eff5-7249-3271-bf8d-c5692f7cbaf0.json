@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f00b5626-265e-4be0-a094-a028097ff1f0",
+            "properties": {
+                "name": "Andrew Murray",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f00b5626-265e-4be0-a094-a028097ff1f0",
+                    "value": "Andrew Murray"
+                },
+                "linkedin": "andrewmurray",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "63c83f2c-9f6a-40ad-a53e-3c40fc9ddb63",
+                            "related_uuid": "f00b5626-265e-4be0-a094-a028097ff1f0",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

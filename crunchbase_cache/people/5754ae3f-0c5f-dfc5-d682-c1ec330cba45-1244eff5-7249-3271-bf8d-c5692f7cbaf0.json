@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e0a9c914-7396-406f-804f-ea7c575e1b82",
+            "properties": {
+                "name": "Valentino Volonghi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e0a9c914-7396-406f-804f-ea7c575e1b82",
+                    "value": "Valentino Volonghi"
+                },
+                "linkedin": "dialtone",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "84aca16e-59fd-4bf0-b91f-9a9f4dfd2b23",
+                            "related_uuid": "e0a9c914-7396-406f-804f-ea7c575e1b82",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

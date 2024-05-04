@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "819df047-638b-42e2-b623-bfe756e4f523",
+            "properties": {
+                "name": "Miles Romney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "819df047-638b-42e2-b623-bfe756e4f523",
+                    "value": "Miles Romney"
+                },
+                "linkedin": "miles-david-romney-8b11a4",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2d22c237-8043-480e-9496-c2241a24a080",
+                            "related_uuid": "819df047-638b-42e2-b623-bfe756e4f523",
+                            "properties": {
+                                "job_title": "CTO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

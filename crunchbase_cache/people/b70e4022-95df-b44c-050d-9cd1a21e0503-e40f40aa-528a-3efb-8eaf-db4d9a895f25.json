@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bf9f416a-4d02-4c82-aa5c-bb2cd9e5709f",
+            "properties": {
+                "name": "Rob Gillman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bf9f416a-4d02-4c82-aa5c-bb2cd9e5709f",
+                    "value": "Rob Gillman"
+                },
+                "linkedin": "rob-gillman-a9106739",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c4604c9f-1ed7-4fb2-92d2-f341130575da",
+                            "related_uuid": "bf9f416a-4d02-4c82-aa5c-bb2cd9e5709f",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

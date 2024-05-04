@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6c86a461-d05a-49a7-98e1-98b2a7ec293d",
+            "properties": {
+                "name": "Theresa O'Neil",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6c86a461-d05a-49a7-98e1-98b2a7ec293d",
+                    "value": "Theresa O'Neil"
+                },
+                "linkedin": "theresa-o-neil-499a372",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5eb7b5fa-fd5a-416d-9a13-d15a8ceb41a5",
+                            "related_uuid": "6c86a461-d05a-49a7-98e1-98b2a7ec293d",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

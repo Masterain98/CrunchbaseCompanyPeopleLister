@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3d5e2b79-3ce4-4016-be80-adeb2e4f9b7d",
+            "properties": {
+                "name": "Ren Chin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3d5e2b79-3ce4-4016-be80-adeb2e4f9b7d",
+                    "value": "Ren Chin"
+                },
+                "linkedin": "renchin",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "23264465-b9e8-437c-bda2-dc95d3d48ca4",
+                            "related_uuid": "3d5e2b79-3ce4-4016-be80-adeb2e4f9b7d",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

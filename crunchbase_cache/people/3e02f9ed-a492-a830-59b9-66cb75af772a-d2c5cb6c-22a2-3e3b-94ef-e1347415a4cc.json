@@ -1,0 +1,164 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "ac191b8a-8838-4335-ba62-028dd407ce64",
+            "properties": {
+                "name": "Ben Platt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ac191b8a-8838-4335-ba62-028dd407ce64",
+                    "value": "Ben Platt"
+                },
+                "linkedin": "ben-platt-96635082",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f084013-9cf3-4d2e-b999-2e9c50915937",
+                            "related_uuid": "ac191b8a-8838-4335-ba62-028dd407ce64",
+                            "properties": {
+                                "job_title": "Associate Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4f41aca7-6eb1-4aa3-9ba8-3de46c4c00c6",
+            "properties": {
+                "name": "Derya Corcor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4f41aca7-6eb1-4aa3-9ba8-3de46c4c00c6",
+                    "value": "Derya Corcor"
+                },
+                "linkedin": "derya-corcor-022121ba",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c260c39-b525-4fb4-9c4d-7bc23a891526",
+                            "related_uuid": "4f41aca7-6eb1-4aa3-9ba8-3de46c4c00c6",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "23702bbc-c43c-4931-a599-30131bae8a7f",
+            "properties": {
+                "name": "Jacqueline Deffer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "23702bbc-c43c-4931-a599-30131bae8a7f",
+                    "value": "Jacqueline Deffer"
+                },
+                "linkedin": "jdeffer",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "796b6286-3ed0-447e-99f4-56ec475554b3",
+                            "related_uuid": "23702bbc-c43c-4931-a599-30131bae8a7f",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5b438c32-2295-4918-8e3f-3a3b516f87c0",
+            "properties": {
+                "name": "Jo\u00e3o Goes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5b438c32-2295-4918-8e3f-3a3b516f87c0",
+                    "value": "Jo\u00e3o Goes"
+                },
+                "linkedin": "joaosrgoes",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ac445754-cdd0-4c72-835e-688149299357",
+                            "related_uuid": "5b438c32-2295-4918-8e3f-3a3b516f87c0",
+                            "properties": {
+                                "job_title": "Associate Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a16108b3-0f4b-4942-9933-7c63b102d44b",
+            "properties": {
+                "name": "Siwei Chen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a16108b3-0f4b-4942-9933-7c63b102d44b",
+                    "value": "Siwei Chen"
+                },
+                "linkedin": "siwei-chris-chen-03a70782",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "850c7787-b69e-42b4-920c-73900392bf9f",
+                            "related_uuid": "a16108b3-0f4b-4942-9933-7c63b102d44b",
+                            "properties": {
+                                "job_title": "Associate Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

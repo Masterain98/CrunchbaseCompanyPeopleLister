@@ -1,0 +1,21 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "sales-coordinator",
+                "uuid": "89c1df25-661e-3856-a811-d3ee35f97de4",
+                "value": "Sales Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "channel-sales-manager",
+                "uuid": "eb7aef69-5317-3d1a-acc4-462f27c2d4c4",
+                "value": "Channel Sales Manager"
+            }
+        }
+    ]
+}

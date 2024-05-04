@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "44f30349-2905-4486-b37a-200b5779bd52",
+            "properties": {
+                "name": "Prasanna Ganesan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "44f30349-2905-4486-b37a-200b5779bd52",
+                    "value": "Prasanna Ganesan"
+                },
+                "linkedin": "prasannaganesan",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c40b9e6-63f6-46cd-a4cd-ea64bebceff1",
+                            "related_uuid": "44f30349-2905-4486-b37a-200b5779bd52",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

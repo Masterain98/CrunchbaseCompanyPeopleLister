@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "e622689b-089f-435a-9a11-6681e76d9fe6",
+            "properties": {
+                "name": "Michael Richards",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e622689b-089f-435a-9a11-6681e76d9fe6",
+                    "value": "Michael Richards"
+                },
+                "linkedin": "michaelrichards100",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7074e8c4-dd7c-43a4-b79a-31a9bfa770d9",
+                            "related_uuid": "e622689b-089f-435a-9a11-6681e76d9fe6",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "24716561-ba88-42ec-98a8-e034726befe9",
+            "properties": {
+                "name": "Shoaib Makani",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "24716561-ba88-42ec-98a8-e034726befe9",
+                    "value": "Shoaib Makani"
+                },
+                "linkedin": "smakani",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cbbb254d-8f78-4aef-a45a-2368160a767d",
+                            "related_uuid": "24716561-ba88-42ec-98a8-e034726befe9",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

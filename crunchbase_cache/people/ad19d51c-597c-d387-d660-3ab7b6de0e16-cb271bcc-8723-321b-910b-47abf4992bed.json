@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7eb94ed4-287b-4b2a-a3b0-666e50d7bb98",
+            "properties": {
+                "name": "Dave Rocha",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7eb94ed4-287b-4b2a-a3b0-666e50d7bb98",
+                    "value": "Dave Rocha"
+                },
+                "linkedin": "daverocha",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ee96de2-7822-4cdd-82da-43e6ad4d6bf5",
+                            "related_uuid": "7eb94ed4-287b-4b2a-a3b0-666e50d7bb98",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

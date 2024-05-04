@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e6082545-87c1-4d4b-89a4-cd701d61310f",
+            "properties": {
+                "name": "Oleg Rabinovich",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e6082545-87c1-4d4b-89a4-cd701d61310f",
+                    "value": "Oleg Rabinovich"
+                },
+                "linkedin": "olegrtecno",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8da8ffac-22a9-4c06-b6e7-71c7ec99624c",
+                            "related_uuid": "e6082545-87c1-4d4b-89a4-cd701d61310f",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "130fb02c-a431-47cc-b851-7bcc46c19877",
+            "properties": {
+                "name": "Allan Jones",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "130fb02c-a431-47cc-b851-7bcc46c19877",
+                    "value": "Allan Jones"
+                },
+                "linkedin": "allandjones",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ea2e341-6f25-4401-a819-2fced1cc022a",
+                            "related_uuid": "130fb02c-a431-47cc-b851-7bcc46c19877",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

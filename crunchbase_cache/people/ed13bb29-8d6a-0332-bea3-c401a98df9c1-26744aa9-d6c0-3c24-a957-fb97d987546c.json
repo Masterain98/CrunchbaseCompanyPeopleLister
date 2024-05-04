@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "41c97249-0a15-44f3-b21d-d4148c7dbf35",
+            "properties": {
+                "name": "Andr\u00e9s Luzuriaga",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "41c97249-0a15-44f3-b21d-d4148c7dbf35",
+                    "value": "Andr\u00e9s Luzuriaga"
+                },
+                "linkedin": "andr%C3%A9s-luzuriaga-439b44b2",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f8f1c5dd-7f48-4253-a95d-7b9cccd3f925",
+                            "related_uuid": "41c97249-0a15-44f3-b21d-d4148c7dbf35",
+                            "properties": {
+                                "job_title": "Software Engineering Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2d535a9e-03cb-4cfc-940a-6440ba9c609a",
+            "properties": {
+                "name": "Eric Christopher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2d535a9e-03cb-4cfc-940a-6440ba9c609a",
+                    "value": "Eric Christopher"
+                },
+                "linkedin": "echristopher",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0710d09c-22e6-4cb8-8366-3358180e43d8",
+                            "related_uuid": "2d535a9e-03cb-4cfc-940a-6440ba9c609a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

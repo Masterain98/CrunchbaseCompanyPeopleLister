@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "54df8f16-9cd5-4e0d-9545-988e257841b1",
+            "properties": {
+                "name": "Michael Fabrie",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "54df8f16-9cd5-4e0d-9545-988e257841b1",
+                    "value": "Michael Fabrie"
+                },
+                "linkedin": "michael-fabrie-78718343",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2712533b-d0d3-465a-bef2-5b9036d983ef",
+                            "related_uuid": "54df8f16-9cd5-4e0d-9545-988e257841b1",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "16fd9381-6c66-43fa-b048-0b2e9def9d3a",
+            "properties": {
+                "name": "Daniel Akiva",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "16fd9381-6c66-43fa-b048-0b2e9def9d3a",
+                    "value": "Daniel Akiva"
+                },
+                "linkedin": "dakiva",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6eeeae14-5c3a-410d-830f-1930f24a099e",
+                            "related_uuid": "16fd9381-6c66-43fa-b048-0b2e9def9d3a",
+                            "properties": {
+                                "job_title": "Chief Technology Officer, Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "abadd6fa-9cc5-46b3-b4bc-a29a2383176a",
+            "properties": {
+                "name": "Maria Moskver",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "abadd6fa-9cc5-46b3-b4bc-a29a2383176a",
+                    "value": "Maria Moskver"
+                },
+                "linkedin": "mariamoskver",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6646ad79-23c2-4bf0-8b17-a9a6db572159",
+                            "related_uuid": "abadd6fa-9cc5-46b3-b4bc-a29a2383176a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

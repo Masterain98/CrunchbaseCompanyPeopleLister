@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8175196d-a7f0-4da3-bac1-5c8c32d1892f",
+            "properties": {
+                "name": "Jason Standiford",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8175196d-a7f0-4da3-bac1-5c8c32d1892f",
+                    "value": "Jason Standiford"
+                },
+                "linkedin": "jasonstandiford",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "218eea42-fab9-48c7-bfc2-de91f3a89db3",
+                            "related_uuid": "8175196d-a7f0-4da3-bac1-5c8c32d1892f",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

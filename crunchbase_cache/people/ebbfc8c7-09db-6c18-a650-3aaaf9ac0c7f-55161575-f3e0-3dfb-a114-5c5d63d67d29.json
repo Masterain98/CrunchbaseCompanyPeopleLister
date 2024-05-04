@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "659f28b8-1672-4add-8897-8ee833186ec6",
+            "properties": {
+                "name": "Jake Weatherly",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "659f28b8-1672-4add-8897-8ee833186ec6",
+                    "value": "Jake Weatherly"
+                },
+                "linkedin": "jakeweatherly",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "252d88e7-d347-407e-93b2-fe5385c67765",
+                            "related_uuid": "659f28b8-1672-4add-8897-8ee833186ec6",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "d1209a8c-6682-4fda-8fad-fec1116730a7",
+            "properties": {
+                "name": "Christian Beedgen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d1209a8c-6682-4fda-8fad-fec1116730a7",
+                    "value": "Christian Beedgen"
+                },
+                "linkedin": "beedgen",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a0a2414-1972-4637-be3e-3303c2ba5ffc",
+                            "related_uuid": "d1209a8c-6682-4fda-8fad-fec1116730a7",
+                            "properties": {
+                                "job_title": "CTO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ca0b3a77-1e0a-4619-939a-61979bd89d60",
+            "properties": {
+                "name": "Colin Fallwell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ca0b3a77-1e0a-4619-939a-61979bd89d60",
+                    "value": "Colin Fallwell"
+                },
+                "linkedin": "colinfallwell",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2087281e-a4a2-46f6-acac-18c02cc1d9cd",
+                            "related_uuid": "ca0b3a77-1e0a-4619-939a-61979bd89d60",
+                            "properties": {
+                                "job_title": "Field CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d5723381-45ee-4572-b548-7a8dccf47bd6",
+            "properties": {
+                "name": "Steve Dietz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d5723381-45ee-4572-b548-7a8dccf47bd6",
+                    "value": "Steve Dietz"
+                },
+                "linkedin": "steven-dietz-aab7997",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "049bb46a-76a4-47c2-b3b1-d7cb07c55186",
+                            "related_uuid": "d5723381-45ee-4572-b548-7a8dccf47bd6",
+                            "properties": {
+                                "job_title": "Field CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

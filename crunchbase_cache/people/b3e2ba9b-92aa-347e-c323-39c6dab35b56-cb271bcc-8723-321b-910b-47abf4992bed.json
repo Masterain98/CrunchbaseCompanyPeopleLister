@@ -1,0 +1,123 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "0056eba2-8c7b-4463-a1d5-00bcb7d57969",
+            "properties": {
+                "name": "Alex Acheson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0056eba2-8c7b-4463-a1d5-00bcb7d57969",
+                    "value": "Alex Acheson"
+                },
+                "linkedin": "alex-acheson-5984a74b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d6e744c9-4098-4421-bb1e-c64bd24aa939",
+                            "related_uuid": "0056eba2-8c7b-4463-a1d5-00bcb7d57969",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0939c96d-d433-4b0b-9768-44a4a4a62fce",
+            "properties": {
+                "name": "Bryce Dietz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0939c96d-d433-4b0b-9768-44a4a4a62fce",
+                    "value": "Bryce Dietz"
+                },
+                "linkedin": "brycewcdietz",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "12aacaf0-0d73-49ba-a644-79f82a74e6cd",
+                            "related_uuid": "0939c96d-d433-4b0b-9768-44a4a4a62fce",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "fc81b51c-d99b-45e5-8f7d-e1da5b2db366",
+            "properties": {
+                "name": "Danella Stephany",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fc81b51c-d99b-45e5-8f7d-e1da5b2db366",
+                    "value": "Danella Stephany"
+                },
+                "linkedin": "danellastephany",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7be303d8-6d47-4f83-91b6-00945ea3feda",
+                            "related_uuid": "fc81b51c-d99b-45e5-8f7d-e1da5b2db366",
+                            "properties": {
+                                "job_title": "Director, Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4359526d-7d16-49e6-9151-cd9394928126",
+            "properties": {
+                "name": "Samantha Schwartz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4359526d-7d16-49e6-9151-cd9394928126",
+                    "value": "Samantha Schwartz"
+                },
+                "linkedin": "samantha-schwartz",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "185fc91d-0138-41a6-994b-7fc6658e2c6a",
+                            "related_uuid": "4359526d-7d16-49e6-9151-cd9394928126",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b7bc879c-25b2-4624-8fee-1ab9bbc75952",
+            "properties": {
+                "name": "Tara Leveline",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b7bc879c-25b2-4624-8fee-1ab9bbc75952",
+                    "value": "Tara Leveline"
+                },
+                "linkedin": "tara-leveline",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6c722b38-631d-435b-acae-bd1a7f5dbdb1",
+                            "related_uuid": "b7bc879c-25b2-4624-8fee-1ab9bbc75952",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

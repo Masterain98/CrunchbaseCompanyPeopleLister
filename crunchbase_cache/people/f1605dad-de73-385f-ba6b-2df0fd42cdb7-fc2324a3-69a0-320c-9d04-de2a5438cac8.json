@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fb2226b6-9057-4d32-b9da-a778ae009ac7",
+            "properties": {
+                "name": "Elaine Green",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fb2226b6-9057-4d32-b9da-a778ae009ac7",
+                    "value": "Elaine Green"
+                },
+                "linkedin": "elainesgreen",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7664308b-bdec-4ce1-94b7-5d16a7354160",
+                            "related_uuid": "fb2226b6-9057-4d32-b9da-a778ae009ac7",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

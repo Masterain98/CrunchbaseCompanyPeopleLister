@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4c9e9ac2-bc3d-47e4-bb26-a00d347c0113",
+            "properties": {
+                "name": "Johan Sahlin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4c9e9ac2-bc3d-47e4-bb26-a00d347c0113",
+                    "value": "Johan Sahlin"
+                },
+                "linkedin": "johan-sahlin-92673116",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0bdcbcab-8002-4133-b6e3-426c1910013c",
+                            "related_uuid": "4c9e9ac2-bc3d-47e4-bb26-a00d347c0113",
+                            "properties": {
+                                "job_title": "Director of Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

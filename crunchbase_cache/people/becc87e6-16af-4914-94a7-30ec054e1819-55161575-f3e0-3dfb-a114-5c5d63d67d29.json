@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2dfe92cc-4003-4484-9724-6cf777f14fa2",
+            "properties": {
+                "name": "Mr. Ed King",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2dfe92cc-4003-4484-9724-6cf777f14fa2",
+                    "value": "Mr. Ed King"
+                },
+                "linkedin": "edkking",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4b7e9d74-8659-49b6-917f-075d55ddf4ca",
+                            "related_uuid": "2dfe92cc-4003-4484-9724-6cf777f14fa2",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

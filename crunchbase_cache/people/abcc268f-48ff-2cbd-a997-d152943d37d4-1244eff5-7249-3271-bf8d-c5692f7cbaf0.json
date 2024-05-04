@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9759eb06-84e1-473c-8792-e98e4bcd8f24",
+            "properties": {
+                "name": "Allan Yang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9759eb06-84e1-473c-8792-e98e4bcd8f24",
+                    "value": "Allan Yang"
+                },
+                "linkedin": "allan-yang-71557b63",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "334a74b4-dbd3-4b04-b80b-56d98be8d79b",
+                            "related_uuid": "9759eb06-84e1-473c-8792-e98e4bcd8f24",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

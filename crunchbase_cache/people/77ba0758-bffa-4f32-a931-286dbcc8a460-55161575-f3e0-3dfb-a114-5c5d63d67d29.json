@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cf2ea1dc-5a7d-4101-a894-a03ce37da432",
+            "properties": {
+                "name": "John Kennedy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cf2ea1dc-5a7d-4101-a894-a03ce37da432",
+                    "value": "John Kennedy"
+                },
+                "linkedin": "jack-kennedy-platsci",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "60873013-34ba-4d58-a692-d3279b2e9634",
+                            "related_uuid": "cf2ea1dc-5a7d-4101-a894-a03ce37da432",
+                            "properties": {
+                                "job_title": "Chief Executive Officer, Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

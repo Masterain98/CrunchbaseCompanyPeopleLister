@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5d4f66f6-c9db-49d4-b5e7-ab348db4a763",
+            "properties": {
+                "name": "Christian Wiklund",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5d4f66f6-c9db-49d4-b5e7-ab348db4a763",
+                    "value": "Christian Wiklund"
+                },
+                "linkedin": "cwiklund",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00d23965-0461-4304-b1ac-05dd21927d54",
+                            "related_uuid": "5d4f66f6-c9db-49d4-b5e7-ab348db4a763",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

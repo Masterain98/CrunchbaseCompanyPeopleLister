@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9c89f107-db55-4ba6-b370-e5bf3bfe8deb",
+            "properties": {
+                "name": "Marc Heyneker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9c89f107-db55-4ba6-b370-e5bf3bfe8deb",
+                    "value": "Marc Heyneker"
+                },
+                "linkedin": "mheyneker",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a858e997-bd03-4311-87b8-e69dbf5799e4",
+                            "related_uuid": "9c89f107-db55-4ba6-b370-e5bf3bfe8deb",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

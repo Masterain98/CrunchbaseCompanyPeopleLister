@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d21a6344-d7de-4899-ab49-0135978bb358",
+            "properties": {
+                "name": "Chris Petros",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d21a6344-d7de-4899-ab49-0135978bb358",
+                    "value": "Chris Petros"
+                },
+                "linkedin": "chrispetros",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e6361ad-4a3b-4bed-8e49-604071d8b69b",
+                            "related_uuid": "d21a6344-d7de-4899-ab49-0135978bb358",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

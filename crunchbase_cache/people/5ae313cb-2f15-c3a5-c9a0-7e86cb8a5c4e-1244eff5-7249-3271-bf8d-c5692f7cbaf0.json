@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "93b6c399-e3de-410b-a1ac-eed3db123a5f",
+            "properties": {
+                "name": "Paul Egan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "93b6c399-e3de-410b-a1ac-eed3db123a5f",
+                    "value": "Paul Egan"
+                },
+                "linkedin": "paulegan",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6501613a-80ce-493b-9fa7-a79f66e62c10",
+                            "related_uuid": "93b6c399-e3de-410b-a1ac-eed3db123a5f",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

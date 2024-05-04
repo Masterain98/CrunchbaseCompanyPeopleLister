@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "513c54cd-70ff-4528-bc56-b724046f65b6",
+            "properties": {
+                "name": "Zhen Peng",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "513c54cd-70ff-4528-bc56-b724046f65b6",
+                    "value": "Zhen Peng"
+                },
+                "linkedin": "zhenpeng",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "baa7e098-24fe-44b2-955c-7f76f86e1c04",
+                            "related_uuid": "513c54cd-70ff-4528-bc56-b724046f65b6",
+                            "properties": {
+                                "job_title": "Founder + President, CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,191 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "uuid": "990dbbff-60f7-4c22-84bf-f5a71fb75a2d",
+            "properties": {
+                "name": "Craig Schaffer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "990dbbff-60f7-4c22-84bf-f5a71fb75a2d",
+                    "value": "Craig Schaffer"
+                },
+                "linkedin": "craig-schaffer-5b2189b",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "82f1a805-ef07-4435-8efe-a347a2a0a2c8",
+                            "related_uuid": "990dbbff-60f7-4c22-84bf-f5a71fb75a2d",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "fb7ee503-720e-4f2c-8e81-55131ecf6fbd",
+            "properties": {
+                "name": "Craig Schaffer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fb7ee503-720e-4f2c-8e81-55131ecf6fbd",
+                    "value": "Craig Schaffer"
+                },
+                "linkedin": "craigwschaffer",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fff67378-0515-43ed-a2de-66283fb10e9b",
+                            "related_uuid": "fb7ee503-720e-4f2c-8e81-55131ecf6fbd",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b054ca08-462d-435e-85f7-07f814c6dcb3",
+            "properties": {
+                "name": "Daryl Carruthers",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b054ca08-462d-435e-85f7-07f814c6dcb3",
+                    "value": "Daryl Carruthers"
+                },
+                "linkedin": "daryl-carruthers-dc-95929a8",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "64e9ae5b-738c-4593-a528-f79fa776f334",
+                            "related_uuid": "b054ca08-462d-435e-85f7-07f814c6dcb3",
+                            "properties": {
+                                "job_title": "CEO-Owner"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0fee1e1a-3864-483b-8ba7-98c71cbda060",
+            "properties": {
+                "name": "Michael Dell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0fee1e1a-3864-483b-8ba7-98c71cbda060",
+                    "value": "Michael Dell"
+                },
+                "linkedin": "mdell",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8af95a46-1dd6-47a5-9132-05b310521748",
+                            "related_uuid": "0fee1e1a-3864-483b-8ba7-98c71cbda060",
+                            "properties": {
+                                "job_title": "Chairman and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "91563727-8c84-4aa7-92a7-3de3adaa7fcb",
+            "properties": {
+                "name": "Steven Harnsberger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "91563727-8c84-4aa7-92a7-3de3adaa7fcb",
+                    "value": "Steven Harnsberger"
+                },
+                "linkedin": "steveharnsberger",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "38e73c14-2a90-4e6b-9b95-a438b1d00349",
+                            "related_uuid": "91563727-8c84-4aa7-92a7-3de3adaa7fcb",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "05e6e224-b940-49ac-bc93-26260b006c8d",
+            "properties": {
+                "name": "Tim Masters",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "05e6e224-b940-49ac-bc93-26260b006c8d",
+                    "value": "Tim Masters"
+                },
+                "linkedin": "timmasters",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9077b8d4-487d-43b2-a2c5-b02332916f21",
+                            "related_uuid": "05e6e224-b940-49ac-bc93-26260b006c8d",
+                            "properties": {
+                                "job_title": "Founder and CEO at Freedom Fun Franchise Systems"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

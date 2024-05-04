@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a897cf8f-cf71-4c43-aa46-bf8d830208a0",
+            "properties": {
+                "name": "Alexandra Rioux",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a897cf8f-cf71-4c43-aa46-bf8d830208a0",
+                    "value": "Alexandra Rioux"
+                },
+                "linkedin": "alexandra-rioux",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6392e49d-1600-4e9d-9f67-f1f14c4ce5dd",
+                            "related_uuid": "a897cf8f-cf71-4c43-aa46-bf8d830208a0",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

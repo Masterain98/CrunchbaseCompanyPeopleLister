@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3069f1ac-35ef-46c4-929a-2fdf19ae4566",
+            "properties": {
+                "name": "Becky Driscoll",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3069f1ac-35ef-46c4-929a-2fdf19ae4566",
+                    "value": "Becky Driscoll"
+                },
+                "linkedin": "rebeccadriscoll",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3b7c870d-e687-4687-a2dc-469529656d26",
+                            "related_uuid": "3069f1ac-35ef-46c4-929a-2fdf19ae4566",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

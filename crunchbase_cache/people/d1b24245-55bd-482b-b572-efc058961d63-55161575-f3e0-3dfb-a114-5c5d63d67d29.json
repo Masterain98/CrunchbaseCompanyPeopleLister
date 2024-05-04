@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7a1a8206-159e-4efd-85c2-84f15967fa10",
+            "properties": {
+                "name": "Arlo Gilbert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7a1a8206-159e-4efd-85c2-84f15967fa10",
+                    "value": "Arlo Gilbert"
+                },
+                "linkedin": "arlogilbert",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "415399de-f58a-4175-ad32-21841741fd81",
+                            "related_uuid": "7a1a8206-159e-4efd-85c2-84f15967fa10",
+                            "properties": {
+                                "job_title": "Founding CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

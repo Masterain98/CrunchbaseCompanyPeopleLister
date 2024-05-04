@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c13896ef-4ed4-4a7d-b0c8-44ee11582849",
+            "properties": {
+                "name": "Cameron Micules",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c13896ef-4ed4-4a7d-b0c8-44ee11582849",
+                    "value": "Cameron Micules"
+                },
+                "linkedin": "cameronmicules",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "11e35a33-d7dc-4c8c-8844-5236273de4e7",
+                            "related_uuid": "c13896ef-4ed4-4a7d-b0c8-44ee11582849",
+                            "properties": {
+                                "job_title": "Director, Brand & Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

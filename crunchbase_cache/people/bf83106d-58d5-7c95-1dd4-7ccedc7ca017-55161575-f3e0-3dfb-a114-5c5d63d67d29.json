@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a200c665-81df-4588-bd59-0adb5c8a7967",
+            "properties": {
+                "name": "Eugenio Pace",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a200c665-81df-4588-bd59-0adb5c8a7967",
+                    "value": "Eugenio Pace"
+                },
+                "linkedin": "eugeniop",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4a27948c-0c7f-4519-89c7-aa0621dcc9b8",
+                            "related_uuid": "a200c665-81df-4588-bd59-0adb5c8a7967",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3368087e-4004-4f13-ba4c-e7c9d544001e",
+            "properties": {
+                "name": "Itai Lahan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3368087e-4004-4f13-ba4c-e7c9d544001e",
+                    "value": "Itai Lahan"
+                },
+                "linkedin": "itail",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d79dcdd-84f5-4686-a875-307232aa4ff5",
+                            "related_uuid": "3368087e-4004-4f13-ba4c-e7c9d544001e",
+                            "properties": {
+                                "job_title": "Co-Founder, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

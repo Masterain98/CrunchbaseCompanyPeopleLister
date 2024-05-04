@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "7dbecf9d-7196-490c-8328-fa5e11a22f6f",
+            "properties": {
+                "name": "Sara Menker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7dbecf9d-7196-490c-8328-fa5e11a22f6f",
+                    "value": "Sara Menker"
+                },
+                "linkedin": "sara-menker",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "53ec223a-ca78-4093-b8b8-b56c7fdcb63b",
+                            "related_uuid": "7dbecf9d-7196-490c-8328-fa5e11a22f6f",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5248be81-0f2a-4ac5-824c-cfe9a591621e",
+            "properties": {
+                "name": "Sara Menker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5248be81-0f2a-4ac5-824c-cfe9a591621e",
+                    "value": "Sara Menker"
+                },
+                "linkedin": "sara-menker-2862345a",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e0eb5495-5271-454f-b674-13d7a58310ce",
+                            "related_uuid": "5248be81-0f2a-4ac5-824c-cfe9a591621e",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

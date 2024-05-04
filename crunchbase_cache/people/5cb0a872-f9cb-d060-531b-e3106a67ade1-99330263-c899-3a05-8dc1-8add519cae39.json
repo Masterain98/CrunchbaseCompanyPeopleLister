@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "14737bcb-3521-483f-ae7d-c11e5a3133fb",
+            "properties": {
+                "name": "Daniel Perez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "14737bcb-3521-483f-ae7d-c11e5a3133fb",
+                    "value": "Daniel Perez"
+                },
+                "linkedin": "daniel-perez-94a02b5",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_400_vp",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "336b866f-1291-4fd5-8081-e1ffe6350805",
+                            "related_uuid": "14737bcb-3521-483f-ae7d-c11e5a3133fb",
+                            "properties": {
+                                "job_title": "Senior Vice President, Marketing"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

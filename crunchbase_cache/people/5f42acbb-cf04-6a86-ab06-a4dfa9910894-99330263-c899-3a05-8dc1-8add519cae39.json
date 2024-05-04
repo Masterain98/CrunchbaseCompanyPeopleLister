@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "896f1193-d11e-446e-8d72-ced25f6206af",
+            "properties": {
+                "name": "Scott Buchanan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "896f1193-d11e-446e-8d72-ced25f6206af",
+                    "value": "Scott Buchanan"
+                },
+                "linkedin": "scottdbuchanan",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7d7133f7-b698-4f87-b932-3e1c47ba0993",
+                            "related_uuid": "896f1193-d11e-446e-8d72-ced25f6206af",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

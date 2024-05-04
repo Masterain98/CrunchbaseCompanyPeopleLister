@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c1b4ee33-e2a2-4b66-baa6-a1e07ccc0327",
+            "properties": {
+                "name": "Sam Lambert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c1b4ee33-e2a2-4b66-baa6-a1e07ccc0327",
+                    "value": "Sam Lambert"
+                },
+                "linkedin": "isamlambert",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2a3fb5ed-5f70-480e-90d8-5a62bd896716",
+                            "related_uuid": "c1b4ee33-e2a2-4b66-baa6-a1e07ccc0327",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

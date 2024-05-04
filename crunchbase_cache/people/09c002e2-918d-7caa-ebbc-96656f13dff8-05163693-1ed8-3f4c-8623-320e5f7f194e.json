@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "89872605-c17f-4eeb-b39f-aaedd66704a5",
+            "properties": {
+                "name": "Caty Dickensheets",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "89872605-c17f-4eeb-b39f-aaedd66704a5",
+                    "value": "Caty Dickensheets"
+                },
+                "linkedin": "catydickensheets",
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a0a5a636-3878-4639-bb2c-9fbe518c8cce",
+                            "related_uuid": "89872605-c17f-4eeb-b39f-aaedd66704a5",
+                            "properties": {
+                                "job_title": "Director of Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

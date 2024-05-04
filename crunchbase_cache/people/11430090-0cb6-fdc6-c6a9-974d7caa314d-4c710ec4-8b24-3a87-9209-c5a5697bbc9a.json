@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "454e92ed-5c34-4be5-98cf-b052c131c542",
+            "properties": {
+                "name": "Trisha Jacobs",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "454e92ed-5c34-4be5-98cf-b052c131c542",
+                    "value": "Trisha Jacobs"
+                },
+                "linkedin": "trisha-jacobs",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4ec35925-3a9f-450d-8eb9-128db7d81096",
+                            "related_uuid": "454e92ed-5c34-4be5-98cf-b052c131c542",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

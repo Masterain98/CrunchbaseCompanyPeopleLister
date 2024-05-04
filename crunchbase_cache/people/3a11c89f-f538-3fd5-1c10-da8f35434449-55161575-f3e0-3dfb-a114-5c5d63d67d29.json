@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "95935b38-b2fe-4efd-abd8-8623a6d22544",
+            "properties": {
+                "name": "Nikos Moraitakis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "95935b38-b2fe-4efd-abd8-8623a6d22544",
+                    "value": "Nikos Moraitakis"
+                },
+                "linkedin": "moraitakis",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "27913efa-4644-47af-aa40-7bfc1348a5b5",
+                            "related_uuid": "95935b38-b2fe-4efd-abd8-8623a6d22544",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

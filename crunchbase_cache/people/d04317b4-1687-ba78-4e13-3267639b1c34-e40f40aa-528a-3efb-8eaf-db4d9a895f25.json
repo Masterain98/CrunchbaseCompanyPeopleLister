@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4b30f46b-acff-430f-8ed2-252c7e7df608",
+            "properties": {
+                "name": "Ron Merrell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4b30f46b-acff-430f-8ed2-252c7e7df608",
+                    "value": "Ron Merrell"
+                },
+                "linkedin": "ron-merrell-63118038",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "14597388-53ad-4064-94f1-682da0e4dcf4",
+                            "related_uuid": "4b30f46b-acff-430f-8ed2-252c7e7df608",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

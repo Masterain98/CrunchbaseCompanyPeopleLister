@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2d0d3818-41f1-4807-90c5-ee8802e5adf4",
+            "properties": {
+                "name": "Paige Gildner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2d0d3818-41f1-4807-90c5-ee8802e5adf4",
+                    "value": "Paige Gildner"
+                },
+                "linkedin": "paigegildner",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "709c5973-1a02-4c62-862e-954cdb9b5ffa",
+                            "related_uuid": "2d0d3818-41f1-4807-90c5-ee8802e5adf4",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

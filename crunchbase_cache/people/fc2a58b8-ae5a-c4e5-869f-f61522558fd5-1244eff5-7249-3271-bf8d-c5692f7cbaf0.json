@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b94f7e74-0dbc-4d64-ad56-04601ae8ed38",
+            "properties": {
+                "name": "Alistair Russell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b94f7e74-0dbc-4d64-ad56-04601ae8ed38",
+                    "value": "Alistair Russell"
+                },
+                "linkedin": "adotify",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a083cb9a-8958-4af0-a9ea-6ddf7160b224",
+                            "related_uuid": "b94f7e74-0dbc-4d64-ad56-04601ae8ed38",
+                            "properties": {
+                                "job_title": "Co-Founder/CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

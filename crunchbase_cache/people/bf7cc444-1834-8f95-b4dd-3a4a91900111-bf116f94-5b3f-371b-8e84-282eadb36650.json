@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0c1af85e-ea22-4542-b0dd-a987c9fb7ce8",
+            "properties": {
+                "name": "Keith Hunziker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0c1af85e-ea22-4542-b0dd-a987c9fb7ce8",
+                    "value": "Keith Hunziker"
+                },
+                "linkedin": "keith-hunziker-ba37725",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e7d8412-49b3-4dcd-b3be-8c15064c3c7d",
+                            "related_uuid": "0c1af85e-ea22-4542-b0dd-a987c9fb7ce8",
+                            "properties": {
+                                "job_title": "Director of Supply Chain"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

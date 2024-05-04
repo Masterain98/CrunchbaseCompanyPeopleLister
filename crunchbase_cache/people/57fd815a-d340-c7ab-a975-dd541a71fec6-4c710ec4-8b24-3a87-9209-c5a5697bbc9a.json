@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d1bc9260-87ee-4455-9091-f445a1557297",
+            "properties": {
+                "name": "Aicha Bah-Gersing",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d1bc9260-87ee-4455-9091-f445a1557297",
+                    "value": "Aicha Bah-Gersing"
+                },
+                "linkedin": "aicha-bah",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ac4e2fd5-ad27-472a-a7f7-ed341f17fc15",
+                            "related_uuid": "d1bc9260-87ee-4455-9091-f445a1557297",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

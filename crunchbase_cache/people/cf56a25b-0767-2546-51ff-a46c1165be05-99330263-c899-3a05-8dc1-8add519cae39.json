@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "586f60a0-f7a5-47fd-ac16-ca7e5b1a7299",
+            "properties": {
+                "name": "Nate Gilmore",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "586f60a0-f7a5-47fd-ac16-ca7e5b1a7299",
+                    "value": "Nate Gilmore"
+                },
+                "linkedin": "nategilmore",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "65b2fca9-5ed1-4c42-819f-de00c4735129",
+                            "related_uuid": "586f60a0-f7a5-47fd-ac16-ca7e5b1a7299",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer (CMO)"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

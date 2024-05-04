@@ -1,0 +1,280 @@
+{
+    "count": 9,
+    "entities": [
+        {
+            "uuid": "87ac5789-eb53-41c7-882b-333b7f643697",
+            "properties": {
+                "name": "Alex Crowe",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "87ac5789-eb53-41c7-882b-333b7f643697",
+                    "value": "Alex Crowe"
+                },
+                "linkedin": "alexandracrowe09",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ee308514-3c59-42b4-b1da-674215756777",
+                            "related_uuid": "87ac5789-eb53-41c7-882b-333b7f643697",
+                            "properties": {
+                                "job_title": "Associate Director, Clinical Pharmacology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "868b7549-104e-4492-9874-85af19a03c19",
+            "properties": {
+                "name": "Courtney Nugent",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "868b7549-104e-4492-9874-85af19a03c19",
+                    "value": "Courtney Nugent"
+                },
+                "linkedin": "courtney-nugent-3b3a3010",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0994aeba-ba24-44c0-952e-5b739e6d2457",
+                            "related_uuid": "868b7549-104e-4492-9874-85af19a03c19",
+                            "properties": {
+                                "job_title": "Director, Clinical Pharmacology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a4fcad4f-0470-4070-9443-d47c6da777f9",
+            "properties": {
+                "name": "Eileen Doyle",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a4fcad4f-0470-4070-9443-d47c6da777f9",
+                    "value": "Eileen Doyle"
+                },
+                "linkedin": "eileen-doyle-pharmd-3a2549b",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6cf6fdee-16c0-4f3d-bd45-ad52cf01b38a",
+                            "related_uuid": "a4fcad4f-0470-4070-9443-d47c6da777f9",
+                            "properties": {
+                                "job_title": "Director, Clinical Pharmacology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "115a188f-d6f6-41fb-9e77-12272971de3b",
+            "properties": {
+                "name": "Frank Engler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "115a188f-d6f6-41fb-9e77-12272971de3b",
+                    "value": "Frank Engler"
+                },
+                "linkedin": "frankengler",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6452b97b-6ae6-489b-8551-c7c50996873e",
+                            "related_uuid": "115a188f-d6f6-41fb-9e77-12272971de3b",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6aef231c-e171-40fd-a943-f17146547345",
+            "properties": {
+                "name": "Jennifer Schneider",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6aef231c-e171-40fd-a943-f17146547345",
+                    "value": "Jennifer Schneider"
+                },
+                "linkedin": "jennifer-schneider-31b873b4",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "20f612dc-2047-42ae-b48d-b72bd1294d78",
+                            "related_uuid": "6aef231c-e171-40fd-a943-f17146547345",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4cf4d8b0-1a14-4892-bba7-470399744057",
+            "properties": {
+                "name": "Jo Ann Malatesta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4cf4d8b0-1a14-4892-bba7-470399744057",
+                    "value": "Jo Ann Malatesta"
+                },
+                "linkedin": "jo-ann-malatesta-a87b508",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2ab1e92e-398f-4782-8abe-990e1db679eb",
+                            "related_uuid": "4cf4d8b0-1a14-4892-bba7-470399744057",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "70acfad0-9ec8-4777-a7d8-214322e20926",
+            "properties": {
+                "name": "Kristin Follman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "70acfad0-9ec8-4777-a7d8-214322e20926",
+                    "value": "Kristin Follman"
+                },
+                "linkedin": "kristin-follman-519727129",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "28eed025-1549-48b6-a9f3-9ddef23dba5e",
+                            "related_uuid": "70acfad0-9ec8-4777-a7d8-214322e20926",
+                            "properties": {
+                                "job_title": "Associate Director - Clinical Pharmacology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e5cdc448-0f61-4a8d-9253-df40789c5772",
+            "properties": {
+                "name": "Rajinder Bhardwaj",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e5cdc448-0f61-4a8d-9253-df40789c5772",
+                    "value": "Rajinder Bhardwaj"
+                },
+                "linkedin": "rajinder-bhardwaj-0165044",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4fd2dd46-9fdd-4847-841a-21f86452a2b4",
+                            "related_uuid": "e5cdc448-0f61-4a8d-9253-df40789c5772",
+                            "properties": {
+                                "job_title": "Director Clinical Pharmacology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "93bf54bf-2314-4612-bba1-c1e9204856ed",
+            "properties": {
+                "name": "Thomas Polasek",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "93bf54bf-2314-4612-bba1-c1e9204856ed",
+                    "value": "Thomas Polasek"
+                },
+                "linkedin": "thomas-polasek-378706b5",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dea32aa2-ba00-4b7c-a41e-ea259fe73ac9",
+                            "related_uuid": "93bf54bf-2314-4612-bba1-c1e9204856ed",
+                            "properties": {
+                                "job_title": "Director of Clinical Pharmacology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

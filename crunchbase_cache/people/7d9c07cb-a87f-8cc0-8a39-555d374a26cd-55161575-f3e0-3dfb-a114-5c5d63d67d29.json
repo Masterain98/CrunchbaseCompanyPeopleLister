@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "11881c68-fc38-41e6-af61-82e3df513465",
+            "properties": {
+                "name": "Brent Bellm",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "11881c68-fc38-41e6-af61-82e3df513465",
+                    "value": "Brent Bellm"
+                },
+                "linkedin": "brent-bellm-3b305214",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b7c72e41-22da-426e-81a0-8dd2e6b12d51",
+                            "related_uuid": "11881c68-fc38-41e6-af61-82e3df513465",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

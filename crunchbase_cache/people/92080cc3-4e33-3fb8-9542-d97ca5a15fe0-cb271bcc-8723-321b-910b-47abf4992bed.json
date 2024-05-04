@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c49bf336-ac7e-4103-92ee-3a9a87596c55",
+            "properties": {
+                "name": "Katherine (Katie) Warren",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c49bf336-ac7e-4103-92ee-3a9a87596c55",
+                    "value": "Katherine (Katie) Warren"
+                },
+                "linkedin": "krebmann",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f5e81407-563d-4aa9-ae1e-1a3936553cd8",
+                            "related_uuid": "c49bf336-ac7e-4103-92ee-3a9a87596c55",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

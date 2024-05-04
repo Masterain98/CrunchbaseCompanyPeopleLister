@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "07e56e6e-90e3-4ac0-b7ae-2bcd4222496b",
+            "properties": {
+                "name": "Trey Hernandez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "07e56e6e-90e3-4ac0-b7ae-2bcd4222496b",
+                    "value": "Trey Hernandez"
+                },
+                "linkedin": "treyhernandez",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a9f6b85e-71e5-4f9f-b3a4-d3a7228ae941",
+                            "related_uuid": "07e56e6e-90e3-4ac0-b7ae-2bcd4222496b",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

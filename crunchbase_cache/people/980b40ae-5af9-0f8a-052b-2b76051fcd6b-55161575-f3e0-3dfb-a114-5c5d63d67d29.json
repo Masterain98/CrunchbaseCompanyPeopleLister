@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8736a00c-9ec9-4864-9265-ba91dc4f5cec",
+            "properties": {
+                "name": "Deena Berton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8736a00c-9ec9-4864-9265-ba91dc4f5cec",
+                    "value": "Deena Berton"
+                },
+                "linkedin": "deenaberton",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "23bea5a1-7fad-4cf5-a753-0037dc34794f",
+                            "related_uuid": "8736a00c-9ec9-4864-9265-ba91dc4f5cec",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

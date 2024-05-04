@@ -1,0 +1,302 @@
+{
+    "count": 10,
+    "entities": [
+        {
+            "uuid": "6c47f7da-f141-4894-a6fb-06bfaf1b778a",
+            "properties": {
+                "name": "Benny Low",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6c47f7da-f141-4894-a6fb-06bfaf1b778a",
+                    "value": "Benny Low"
+                },
+                "linkedin": "benny-low-62ab0016",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cadc4176-7adf-4068-aba9-1a4d131a3bdb",
+                            "related_uuid": "6c47f7da-f141-4894-a6fb-06bfaf1b778a",
+                            "properties": {
+                                "job_title": "Chief Technology Officer, Compute - Hybrid IT Group, South Pac"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e90a14ae-2656-4b50-8283-64e0ab7acace",
+            "properties": {
+                "name": "Fidelma Russo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e90a14ae-2656-4b50-8283-64e0ab7acace",
+                    "value": "Fidelma Russo"
+                },
+                "linkedin": "fidelma-russo-202461",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ada0512e-25f9-478e-a370-68bb306746c1",
+                            "related_uuid": "e90a14ae-2656-4b50-8283-64e0ab7acace",
+                            "properties": {
+                                "job_title": "Executive Vice President & Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8e96e036-6d56-4f3f-98f7-b4ddacfb6506",
+            "properties": {
+                "name": "Gary Campbell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8e96e036-6d56-4f3f-98f7-b4ddacfb6506",
+                    "value": "Gary Campbell"
+                },
+                "linkedin": "gary-campbell-0a012421",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bfed72f1-4d8c-4a54-af69-b7d30dd9d81a",
+                            "related_uuid": "8e96e036-6d56-4f3f-98f7-b4ddacfb6506",
+                            "properties": {
+                                "job_title": "Security CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5ee30d67-34cf-4549-b586-143c1d100cf4",
+            "properties": {
+                "name": "Harry Tang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5ee30d67-34cf-4549-b586-143c1d100cf4",
+                    "value": "Harry Tang"
+                },
+                "linkedin": "harry-tang-ab7462b",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "491df308-2127-4425-bbd7-95161203d46d",
+                            "related_uuid": "5ee30d67-34cf-4549-b586-143c1d100cf4",
+                            "properties": {
+                                "job_title": "Program and Project Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9c5f73cf-b33c-46a5-96b5-9df463ae0bdd",
+            "properties": {
+                "name": "Matt Maccaux",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9c5f73cf-b33c-46a5-96b5-9df463ae0bdd",
+                    "value": "Matt Maccaux"
+                },
+                "linkedin": "mattmaccaux",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "11fb84ce-0397-4cf3-8d85-e2834f567e27",
+                            "related_uuid": "9c5f73cf-b33c-46a5-96b5-9df463ae0bdd",
+                            "properties": {
+                                "job_title": "Global Field CTO - Ezmeral Software"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0bd13328-1319-43b2-ba11-4699aa8fceca",
+            "properties": {
+                "name": "Roy Kaser",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0bd13328-1319-43b2-ba11-4699aa8fceca",
+                    "value": "Roy Kaser"
+                },
+                "linkedin": "roy-kaser-5a81a111",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3c90da0f-96eb-4821-bb26-a55154ce7d5f",
+                            "related_uuid": "0bd13328-1319-43b2-ba11-4699aa8fceca",
+                            "properties": {
+                                "job_title": "VP, CTO of Pointnext"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cacf2c04-9311-4d4f-a43d-c0043b2cb8cb",
+            "properties": {
+                "name": "Shah Habib",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cacf2c04-9311-4d4f-a43d-c0043b2cb8cb",
+                    "value": "Shah Habib"
+                },
+                "linkedin": "shah-habib-3080717",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ac728568-b212-46e7-a6b6-acb90b891c23",
+                            "related_uuid": "cacf2c04-9311-4d4f-a43d-c0043b2cb8cb",
+                            "properties": {
+                                "job_title": "Engineering Program Manager - CTO Solutions"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d72a7832-cf8a-40c2-8b9c-9719d25cf8fc",
+            "properties": {
+                "name": "Lin Nease",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d72a7832-cf8a-40c2-8b9c-9719d25cf8fc",
+                    "value": "Lin Nease"
+                },
+                "linkedin": "lin-nease-93644417",
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5b9f98e8-424f-4fa9-8615-c7bbec3d760d",
+                            "related_uuid": "d72a7832-cf8a-40c2-8b9c-9719d25cf8fc",
+                            "properties": {
+                                "job_title": "HPE Fellow - CTO for IoT"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "574ded0f-da36-4cfb-b745-a93c66c29986",
+            "properties": {
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "574ded0f-da36-4cfb-b745-a93c66c29986",
+                    "value": "Prodip Sen"
+                },
+                "name": "Prodip Sen",
+                "linkedin": "prodip-sen-45a73177"
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d34c6810-e776-4f2a-a74b-a93e459b08b6",
+                            "related_uuid": "574ded0f-da36-4cfb-b745-a93c66c29986",
+                            "properties": {
+                                "job_title": "CTO, Network Functions Virtualization"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ae3ca65d-8ddb-4b98-89f6-149e5cdead66",
+            "properties": {
+                "name": "Vinay Saxena",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ae3ca65d-8ddb-4b98-89f6-149e5cdead66",
+                    "value": "Vinay Saxena"
+                },
+                "linkedin": "vinaysaxena",
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8914e4ea-fbd7-4a33-95f7-ca46a93820bd",
+                            "related_uuid": "ae3ca65d-8ddb-4b98-89f6-149e5cdead66",
+                            "properties": {
+                                "job_title": "Vice President/Fellow - CTO GreenLake Cloud Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c1941ffe-9c3b-4d43-9d9e-f7c3df3b327d",
+            "properties": {
+                "name": "Patricio Echage",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c1941ffe-9c3b-4d43-9d9e-f7c3df3b327d",
+                    "value": "Patricio Echage"
+                },
+                "linkedin": "patricioechague",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "defb8e2f-8715-4455-9c7c-bae7e030f0de",
+                            "related_uuid": "c1941ffe-9c3b-4d43-9d9e-f7c3df3b327d",
+                            "properties": {
+                                "job_title": "Co-Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

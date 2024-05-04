@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "14cbcad8-6a2d-4b25-a4a4-dae5f34c8a3d",
+            "properties": {
+                "name": "Steven Kukulka",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "14cbcad8-6a2d-4b25-a4a4-dae5f34c8a3d",
+                    "value": "Steven Kukulka"
+                },
+                "linkedin": "skukulka",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a89b1f46-49c8-4a36-91a8-9efc98bbb6f2",
+                            "related_uuid": "14cbcad8-6a2d-4b25-a4a4-dae5f34c8a3d",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

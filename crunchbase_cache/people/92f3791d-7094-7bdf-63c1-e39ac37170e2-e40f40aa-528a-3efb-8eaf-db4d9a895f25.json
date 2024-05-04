@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0b7795f2-0bc4-4d8d-8f7a-e71549a27c1d",
+            "properties": {
+                "name": "Ryan Galbraith",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0b7795f2-0bc4-4d8d-8f7a-e71549a27c1d",
+                    "value": "Ryan Galbraith"
+                },
+                "linkedin": "ryangalbraith",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "97dffff8-2561-4241-862c-e7e11b106f14",
+                            "related_uuid": "0b7795f2-0bc4-4d8d-8f7a-e71549a27c1d",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

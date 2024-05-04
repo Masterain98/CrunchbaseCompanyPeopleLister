@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b6c6b499-bb32-4703-a1ea-3dcbeffa1889",
+            "properties": {
+                "name": "Michael Moreno",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b6c6b499-bb32-4703-a1ea-3dcbeffa1889",
+                    "value": "Michael Moreno"
+                },
+                "linkedin": "michael-moreno-1a5b593",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cf2e5011-af4f-4196-bd14-29d6a0212b9b",
+                            "related_uuid": "b6c6b499-bb32-4703-a1ea-3dcbeffa1889",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

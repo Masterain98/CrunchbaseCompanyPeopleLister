@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7bd8b706-5f25-4f14-a30c-e37deebf319b",
+            "properties": {
+                "name": "Tori Becker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7bd8b706-5f25-4f14-a30c-e37deebf319b",
+                    "value": "Tori Becker"
+                },
+                "linkedin": "tori-becker",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b6b54712-ee21-4d39-a882-7624fe5ddcd0",
+                            "related_uuid": "7bd8b706-5f25-4f14-a30c-e37deebf319b",
+                            "properties": {
+                                "job_title": "Director of Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

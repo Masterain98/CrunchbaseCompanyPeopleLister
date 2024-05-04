@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a4438d8b-7567-4f35-8132-5ba5644b6316",
+            "properties": {
+                "name": "Hasan Imam",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a4438d8b-7567-4f35-8132-5ba5644b6316",
+                    "value": "Hasan Imam"
+                },
+                "linkedin": "hasanimam",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3887d896-dfe2-409c-a639-d0eb4a2fba7b",
+                            "related_uuid": "a4438d8b-7567-4f35-8132-5ba5644b6316",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

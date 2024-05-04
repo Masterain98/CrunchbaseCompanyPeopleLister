@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "14b121a9-e64a-44be-be6e-8fe8dc3f1a46",
+            "properties": {
+                "name": "Ted Blosser",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "14b121a9-e64a-44be-be6e-8fe8dc3f1a46",
+                    "value": "Ted Blosser"
+                },
+                "linkedin": "tedblosser",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "278c83f5-0401-4942-9f5e-78ef54bbc01b",
+                            "related_uuid": "14b121a9-e64a-44be-be6e-8fe8dc3f1a46",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

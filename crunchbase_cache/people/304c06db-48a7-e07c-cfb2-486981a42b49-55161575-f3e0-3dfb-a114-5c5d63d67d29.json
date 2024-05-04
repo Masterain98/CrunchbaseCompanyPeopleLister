@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "66744fa8-1d1c-46e4-ad1e-010566373122",
+            "properties": {
+                "name": "Aman Brar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "66744fa8-1d1c-46e4-ad1e-010566373122",
+                    "value": "Aman Brar"
+                },
+                "linkedin": "amandbrar",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "968e3960-3cc9-4084-9adf-4c384a28b7e1",
+                            "related_uuid": "66744fa8-1d1c-46e4-ad1e-010566373122",
+                            "properties": {
+                                "job_title": "CEO, Board Member"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

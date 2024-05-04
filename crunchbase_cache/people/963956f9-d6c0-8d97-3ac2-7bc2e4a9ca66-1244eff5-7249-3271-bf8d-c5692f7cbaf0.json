@@ -1,0 +1,96 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "c919ad9d-d75f-4857-a9de-e2c90a6d4985",
+            "properties": {
+                "name": "Fredrik Rubensson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c919ad9d-d75f-4857-a9de-e2c90a6d4985",
+                    "value": "Fredrik Rubensson"
+                },
+                "linkedin": "rubensson",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4e08c427-33da-46b2-bdac-53bf60d0e586",
+                            "related_uuid": "c919ad9d-d75f-4857-a9de-e2c90a6d4985",
+                            "properties": {
+                                "job_title": "Deputy CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9ccf67bb-1180-46f6-9e65-22dcee28e2b8",
+            "properties": {
+                "name": "Sofia Cirverius",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9ccf67bb-1180-46f6-9e65-22dcee28e2b8",
+                    "value": "Sofia Cirverius"
+                },
+                "linkedin": "sofiacirverius",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "552a0c2a-2b7d-4610-ba17-a607e12fa0ee",
+                            "related_uuid": "9ccf67bb-1180-46f6-9e65-22dcee28e2b8",
+                            "properties": {
+                                "job_title": "Deputy CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "de8adc8c-0ed8-4db1-8930-b293679fbdd0",
+            "properties": {
+                "name": "Ville Sv\u00e4rd",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "de8adc8c-0ed8-4db1-8930-b293679fbdd0",
+                    "value": "Ville Sv\u00e4rd"
+                },
+                "linkedin": "villes",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "23de8af3-cf4c-47cc-be6b-9bb32f8475b3",
+                            "related_uuid": "de8adc8c-0ed8-4db1-8930-b293679fbdd0",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c3323281-a0d1-4980-868f-e1ae51a6b18e",
+            "properties": {
+                "name": "Sovan Bin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c3323281-a0d1-4980-868f-e1ae51a6b18e",
+                    "value": "Sovan Bin"
+                },
+                "linkedin": "sovanbin",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "663ae187-780b-4409-a1dc-521fcd3b14c4",
+                            "related_uuid": "c3323281-a0d1-4980-868f-e1ae51a6b18e",
+                            "properties": {
+                                "job_title": "CEO & Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

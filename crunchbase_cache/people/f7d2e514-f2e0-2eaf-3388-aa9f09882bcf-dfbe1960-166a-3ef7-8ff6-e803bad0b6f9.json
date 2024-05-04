@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e8346752-691d-4c51-8cc1-d61dbcd1b035",
+            "properties": {
+                "name": "Paul Braga",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e8346752-691d-4c51-8cc1-d61dbcd1b035",
+                    "value": "Paul Braga"
+                },
+                "linkedin": "paulbraga",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a6a155e4-e84d-42b5-8eaf-200f5b766129",
+                            "related_uuid": "e8346752-691d-4c51-8cc1-d61dbcd1b035",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

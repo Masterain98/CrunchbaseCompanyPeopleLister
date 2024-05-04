@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ccf0eeb6-959a-4450-acc5-71c8ac199aef",
+            "properties": {
+                "name": "Juan Rodriguez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ccf0eeb6-959a-4450-acc5-71c8ac199aef",
+                    "value": "Juan Rodriguez"
+                },
+                "linkedin": "juanrodriguez",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "66f9004d-9d45-42b6-b32a-074bccd19ed7",
+                            "related_uuid": "ccf0eeb6-959a-4450-acc5-71c8ac199aef",
+                            "properties": {
+                                "job_title": "CEO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

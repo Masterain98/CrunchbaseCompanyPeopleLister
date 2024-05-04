@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "965994ce-d9d4-48d9-9654-b8c6ab343730",
+            "properties": {
+                "name": "Sabby Gill",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "965994ce-d9d4-48d9-9654-b8c6ab343730",
+                    "value": "Sabby Gill"
+                },
+                "linkedin": "sabbygill",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ba6b60f9-3e29-42b6-a657-c0d59419a607",
+                            "related_uuid": "965994ce-d9d4-48d9-9654-b8c6ab343730",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

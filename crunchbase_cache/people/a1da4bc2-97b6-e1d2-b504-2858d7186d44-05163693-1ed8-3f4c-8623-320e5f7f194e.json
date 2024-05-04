@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2e8432ff-bf49-4c0d-b5d2-d85c1413139b",
+            "properties": {
+                "name": "Jessica Johnsrud",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2e8432ff-bf49-4c0d-b5d2-d85c1413139b",
+                    "value": "Jessica Johnsrud"
+                },
+                "linkedin": "jessicaldionne",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8e3b2366-e7e6-48a9-b47e-bbf76af59a9e",
+                            "related_uuid": "2e8432ff-bf49-4c0d-b5d2-d85c1413139b",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d005381f-cb38-4b78-b2ba-e8f6811f814b",
+            "properties": {
+                "name": "Andrew B B",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d005381f-cb38-4b78-b2ba-e8f6811f814b",
+                    "value": "Andrew B B"
+                },
+                "linkedin": "andrewkoperwas",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5832d0a9-6a3f-400f-8871-e73a3499a3ec",
+                            "related_uuid": "d005381f-cb38-4b78-b2ba-e8f6811f814b",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

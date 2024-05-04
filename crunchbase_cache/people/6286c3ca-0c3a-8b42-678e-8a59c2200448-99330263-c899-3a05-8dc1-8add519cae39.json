@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1247c02d-1030-4591-8fb4-dc82086d0634",
+            "properties": {
+                "name": "Courtney Ettus",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1247c02d-1030-4591-8fb4-dc82086d0634",
+                    "value": "Courtney Ettus"
+                },
+                "linkedin": "courtneyettus",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8c5f584f-e28d-4408-adfa-be79ca549dbb",
+                            "related_uuid": "1247c02d-1030-4591-8fb4-dc82086d0634",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6a3fab17-b554-4ca7-b2bc-c89c5b64347c",
+            "properties": {
+                "name": "Tom Vecchiolla",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6a3fab17-b554-4ca7-b2bc-c89c5b64347c",
+                    "value": "Tom Vecchiolla"
+                },
+                "linkedin": "tom-vecchiolla-01887218",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c1f8e6d1-00f8-46b5-8bba-c42cf13e312d",
+                            "related_uuid": "6a3fab17-b554-4ca7-b2bc-c89c5b64347c",
+                            "properties": {
+                                "job_title": "President, CEO and Chairman"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

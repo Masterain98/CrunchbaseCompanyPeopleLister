@@ -1,0 +1,469 @@
+{
+    "count": 35,
+    "entities": [
+        {
+            "uuid": "6966aa4b-05ea-4991-b131-7fba997782b1",
+            "properties": {
+                "name": "Al Hamid",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6966aa4b-05ea-4991-b131-7fba997782b1",
+                    "value": "Al Hamid"
+                },
+                "linkedin": "al-hamid",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "279aae23-cac8-41ac-b568-8231aa1f4e96",
+                            "related_uuid": "6966aa4b-05ea-4991-b131-7fba997782b1",
+                            "properties": {
+                                "job_title": "Global Chief Technology Officer (CTO), Industry Platforms"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0e36edaa-c42e-419f-8c13-c1094223b64b",
+            "properties": {
+                "name": "Andrew Walls",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e36edaa-c42e-419f-8c13-c1094223b64b",
+                    "value": "Andrew Walls"
+                },
+                "linkedin": "wallsandrew",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "46ef2d42-f97f-4e6b-8f13-f27be5780bd1",
+                            "related_uuid": "0e36edaa-c42e-419f-8c13-c1094223b64b",
+                            "properties": {
+                                "job_title": "IBM Fellow, CTO and Chief Architect IBM Flash Systems"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4d60e7ee-59c7-436e-bad2-9e0ad775915f",
+            "properties": {
+                "name": "Anna Topol",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4d60e7ee-59c7-436e-bad2-9e0ad775915f",
+                    "value": "Anna Topol"
+                },
+                "linkedin": "annawtopol",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d079db08-41a2-475d-953e-e8ef7fc07742",
+                            "related_uuid": "4d60e7ee-59c7-436e-bad2-9e0ad775915f",
+                            "properties": {
+                                "job_title": "Chief Technology Officer Gloabl Think Labs, IBM Industry Research"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0a56f2dd-4a35-45c4-b5e2-03ea9ad19053",
+            "properties": {
+                "name": "Barny Sanchez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0a56f2dd-4a35-45c4-b5e2-03ea9ad19053",
+                    "value": "Barny Sanchez"
+                },
+                "linkedin": "barnysanchez",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c759dd66-04b6-4fcb-91b2-3d900edbae74",
+                            "related_uuid": "0a56f2dd-4a35-45c4-b5e2-03ea9ad19053",
+                            "properties": {
+                                "job_title": "CTO Threat Intelligence and Cognitive Security Systems"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f48a9e9d-8f18-48c9-ae3f-758a8619ed85",
+            "properties": {
+                "name": "Blaine Dolph",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f48a9e9d-8f18-48c9-ae3f-758a8619ed85",
+                    "value": "Blaine Dolph"
+                },
+                "linkedin": "blaine-dolph-5078b96",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5afd80b4-17ac-4b45-ab86-187321a2b510",
+                            "related_uuid": "f48a9e9d-8f18-48c9-ae3f-758a8619ed85",
+                            "properties": {
+                                "job_title": "IBM Fellow, CTO and VP Application Innovation"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1abe46b1-1500-4a66-b50b-19127763e516",
+            "properties": {
+                "name": "Clodoaldo Barrera",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1abe46b1-1500-4a66-b50b-19127763e516",
+                    "value": "Clodoaldo Barrera"
+                },
+                "linkedin": "clodoaldo-barrera-01864b8",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "12ca2e02-5974-45b5-9d4b-7fc8bf6973e6",
+                            "related_uuid": "1abe46b1-1500-4a66-b50b-19127763e516",
+                            "properties": {
+                                "job_title": "CTO Storage Systems"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a3b5fc8b-cc8d-4e3e-8d01-4c05e278c21b",
+            "properties": {
+                "name": "Craig Farrell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a3b5fc8b-cc8d-4e3e-8d01-4c05e278c21b",
+                    "value": "Craig Farrell"
+                },
+                "linkedin": "craig-farrell-01665635",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "677d3580-f117-495b-88b8-880c47c42d40",
+                            "related_uuid": "a3b5fc8b-cc8d-4e3e-8d01-4c05e278c21b",
+                            "properties": {
+                                "job_title": "CTO Telecom"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4b621df8-65d0-4ff0-ae06-e1634403074c",
+            "properties": {
+                "name": "Dr. Johnathan Van Houten",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4b621df8-65d0-4ff0-ae06-e1634403074c",
+                    "value": "Dr. Johnathan Van Houten"
+                },
+                "linkedin": "johnathanvh",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0cac4a3f-99e3-4d44-8d9c-efe1ac87ca85",
+                            "related_uuid": "4b621df8-65d0-4ff0-ae06-e1634403074c",
+                            "properties": {
+                                "job_title": "CTO/Chief Security Architect/ - Always on Hybrid Cloud and the Networking Center of Excellence (COE)"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "59e120f4-ae47-477d-8f65-6cd16a2b4674",
+            "properties": {
+                "name": "Ed Macko",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "59e120f4-ae47-477d-8f65-6cd16a2b4674",
+                    "value": "Ed Macko"
+                },
+                "linkedin": "ed-macko-56849a4",
+                "job_levels": [
+                    "l_300_director",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "14e9ab06-0382-4bfc-a169-4aa390f4409e",
+                            "related_uuid": "59e120f4-ae47-477d-8f65-6cd16a2b4674",
+                            "properties": {
+                                "job_title": "General Manager, Healthcare & Life Sciences Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "152514c4-675e-4106-b787-4a3b025cd506",
+            "properties": {
+                "name": "Ed Saipetch",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "152514c4-675e-4106-b787-4a3b025cd506",
+                    "value": "Ed Saipetch"
+                },
+                "linkedin": "edsaipetch",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "23348bb2-b69e-449f-80fa-1b48c022d5cb",
+                            "related_uuid": "152514c4-675e-4106-b787-4a3b025cd506",
+                            "properties": {
+                                "job_title": "Office of the CTO - Watson & Cloud Platform"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "98af4b45-5dbe-4fd2-bb72-79e04be6fc5c",
+            "properties": {
+                "name": "Felecia McKenney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "98af4b45-5dbe-4fd2-bb72-79e04be6fc5c",
+                    "value": "Felecia McKenney"
+                },
+                "linkedin": "felecia-mckenney-a1630b24",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d22f478f-0d34-47e2-86b4-7fd0ea07b747",
+                            "related_uuid": "98af4b45-5dbe-4fd2-bb72-79e04be6fc5c",
+                            "properties": {
+                                "job_title": "Integrated Account CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "41db1f63-3f06-4da8-9c42-530d3d9d5631",
+            "properties": {
+                "name": "Frank DeGilio",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "41db1f63-3f06-4da8-9c42-530d3d9d5631",
+                    "value": "Frank DeGilio"
+                },
+                "linkedin": "frankdegilio",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "73d840e1-c606-414c-8686-c5004463dbed",
+                            "related_uuid": "41db1f63-3f06-4da8-9c42-530d3d9d5631",
+                            "properties": {
+                                "job_title": "CTO for DeClunkification"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "da3f2bd0-9c09-45b7-9ea4-b3c4e45f42bd",
+            "properties": {
+                "name": "Gary Wright",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "da3f2bd0-9c09-45b7-9ea4-b3c4e45f42bd",
+                    "value": "Gary Wright"
+                },
+                "linkedin": "gary-wright-608817159",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ccc218c7-6f4f-4457-9e24-10ec1ad26d9b",
+                            "related_uuid": "da3f2bd0-9c09-45b7-9ea4-b3c4e45f42bd",
+                            "properties": {
+                                "job_title": "CTO and IBM Distinguished Engineer, IBM Services NA Public Market, Cloud & Infrastructure Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7e8563d1-9663-43b9-a9ae-7308536ea312",
+            "properties": {
+                "name": "Heather Kreger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7e8563d1-9663-43b9-a9ae-7308536ea312",
+                    "value": "Heather Kreger"
+                },
+                "linkedin": "heather-kreger-1b75017",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6874020c-6d07-4e7e-9b4b-e4047586c01c",
+                            "related_uuid": "7e8563d1-9663-43b9-a9ae-7308536ea312",
+                            "properties": {
+                                "job_title": "Distinguished Engineer, CTO of International Standards"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "927304da-55a2-4346-a44e-a6c7a9586e13",
+            "properties": {
+                "name": "Indran Naick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "927304da-55a2-4346-a44e-a6c7a9586e13",
+                    "value": "Indran Naick"
+                },
+                "linkedin": "indrannaick",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "035e94d3-40e4-4ea3-a6a8-33768257ffd9",
+                            "related_uuid": "927304da-55a2-4346-a44e-a6c7a9586e13",
+                            "properties": {
+                                "job_title": "Cloud Ecosystem Development Leader, South Africa, CTO EcoD MEA"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

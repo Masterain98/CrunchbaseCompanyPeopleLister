@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e4287964-4b64-4304-992d-66937946abc3",
+            "properties": {
+                "name": "Jessica Warrior",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e4287964-4b64-4304-992d-66937946abc3",
+                    "value": "Jessica Warrior"
+                },
+                "linkedin": "jessicawarrior",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "491aeb75-58f0-4591-a268-ad91f11b9a4e",
+                            "related_uuid": "e4287964-4b64-4304-992d-66937946abc3",
+                            "properties": {
+                                "job_title": "Director of Customer Success and Onboarding"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

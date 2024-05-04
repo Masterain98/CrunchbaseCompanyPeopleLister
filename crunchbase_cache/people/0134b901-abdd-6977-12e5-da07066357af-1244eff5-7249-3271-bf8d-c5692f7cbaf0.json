@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "48a1c122-8dfc-45b8-89cd-bb1d02072b93",
+            "properties": {
+                "name": "Chirag Patel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "48a1c122-8dfc-45b8-89cd-bb1d02072b93",
+                    "value": "Chirag Patel"
+                },
+                "linkedin": "patelc75",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d9d93645-5ec6-4074-889f-5ddc0ec0681a",
+                            "related_uuid": "48a1c122-8dfc-45b8-89cd-bb1d02072b93",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

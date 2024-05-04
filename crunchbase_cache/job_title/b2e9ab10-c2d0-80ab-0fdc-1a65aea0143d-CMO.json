@@ -1,0 +1,117 @@
+{
+    "count": 14,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "project-coordinator",
+                "uuid": "b4f2046e-3a85-3cb6-9767-69f1ae292acf",
+                "value": "Project Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "sales-coordinator",
+                "uuid": "89c1df25-661e-3856-a811-d3ee35f97de4",
+                "value": "Sales Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator-sales",
+                "uuid": "9b272632-2c51-30be-8a8a-c4e8b7df36ac",
+                "value": "Coordinator, Sales"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "supply-chain-analyst",
+                "uuid": "cafe3da9-8bc0-3c3c-a900-31b05f506139",
+                "value": "Supply Chain Analyst"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "analyst-supply-chain",
+                "uuid": "e0f73c29-580d-33c8-8ee9-7810343bce31",
+                "value": "Analyst, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "technology-coordinator",
+                "uuid": "4e2e0c52-e0ca-3954-85e2-afbbd2e30594",
+                "value": "Technology Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "accounts-payable-coordinator",
+                "uuid": "5964efcf-dcb1-3793-838b-9393f0e15e57",
+                "value": "Accounts Payable Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator-information-technology",
+                "uuid": "c9c27c52-fb2f-3165-963f-08d4f3c9d636",
+                "value": "Coordinator, Information Technology"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-analyst-compliance",
+                "uuid": "bb0a2658-c047-37f2-9a99-da07ab9edaf8",
+                "value": "Senior Analyst, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "team-lead-supply-chain",
+                "uuid": "19e8a7f1-695e-30cf-a14f-b8368e2718b6",
+                "value": "Team Lead, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-engineer-communications",
+                "uuid": "5656653d-b22b-3b46-8528-a760cf3fc588",
+                "value": "Senior Engineer, Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-engineer-quality-control",
+                "uuid": "8ade33c2-00b1-3491-9236-bf875e7c2358",
+                "value": "Senior Engineer, Quality Control"
+            }
+        }
+    ]
+}

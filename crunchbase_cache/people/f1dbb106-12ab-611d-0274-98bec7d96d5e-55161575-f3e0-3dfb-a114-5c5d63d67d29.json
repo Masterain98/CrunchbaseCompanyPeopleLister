@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6266a870-cbc4-4020-b942-a8fb3be82d7c",
+            "properties": {
+                "name": "Vivek Sharma",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6266a870-cbc4-4020-b942-a8fb3be82d7c",
+                    "value": "Vivek Sharma"
+                },
+                "linkedin": "vivsharma",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "447de74e-ead2-4323-b5c0-c60c14a67c87",
+                            "related_uuid": "6266a870-cbc4-4020-b942-a8fb3be82d7c",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

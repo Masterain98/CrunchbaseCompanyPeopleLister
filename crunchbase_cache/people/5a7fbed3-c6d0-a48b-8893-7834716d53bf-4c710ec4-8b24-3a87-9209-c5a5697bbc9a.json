@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "57d60e56-e370-471c-ba91-3139f006d9af",
+            "properties": {
+                "name": "Carson Stones",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "57d60e56-e370-471c-ba91-3139f006d9af",
+                    "value": "Carson Stones"
+                },
+                "linkedin": "carson-stones-60614325",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "04f9c4e7-ae03-48a4-ad18-27cf95b638f9",
+                            "related_uuid": "57d60e56-e370-471c-ba91-3139f006d9af",
+                            "properties": {
+                                "job_title": "Senior Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a5bc2727-aca3-4b2c-9164-5371a2e24f06",
+            "properties": {
+                "name": "Kirby Hisler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a5bc2727-aca3-4b2c-9164-5371a2e24f06",
+                    "value": "Kirby Hisler"
+                },
+                "linkedin": "kirby-hisler-9886698a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "20486e94-b95c-4680-9978-79e4bb8df4cf",
+                            "related_uuid": "a5bc2727-aca3-4b2c-9164-5371a2e24f06",
+                            "properties": {
+                                "job_title": "Senior Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

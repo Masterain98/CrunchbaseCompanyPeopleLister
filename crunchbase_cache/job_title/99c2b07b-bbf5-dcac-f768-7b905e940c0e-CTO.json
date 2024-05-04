@@ -1,0 +1,205 @@
+{
+    "count": 25,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service",
+                "uuid": "060dca13-af57-34f1-a7d2-f2deb799b437",
+                "value": "Customer Service"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-communications",
+                "uuid": "05163693-1ed8-3f4c-8623-320e5f7f194e",
+                "value": "Director, Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chemist",
+                "uuid": "69982f39-092b-312a-bfcd-472f174e2c5f",
+                "value": "Chemist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-clinical",
+                "uuid": "ba6517a7-6841-3bd9-a339-b4f7c92b5fcf",
+                "value": "Director, Clinical"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-clinical",
+                "uuid": "fca931ff-ea0b-33f5-8a17-fb76ebf2fa84",
+                "value": "Manager, Clinical"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-supply-chain",
+                "uuid": "d7a92ac9-902c-3b2c-9806-d508ce3f9575",
+                "value": "Manager, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "operations-coordinator",
+                "uuid": "58a70a20-1507-330e-8d8a-d3e010cf7845",
+                "value": "Operations Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "contract-manager",
+                "uuid": "735f9101-86d3-31d3-ac52-adf3b7e47910",
+                "value": "Contract Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-supply-chain",
+                "uuid": "bf116f94-5b3f-371b-8e84-282eadb36650",
+                "value": "Director, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "logistics-coordinator",
+                "uuid": "5ea33e0b-c65b-3aa5-98ef-389764ee4e4a",
+                "value": "Logistics Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "commercial-director",
+                "uuid": "5a2aa77f-7dba-3004-a037-f2cd81740a3f",
+                "value": "Commercial Director"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "legal-counsel",
+                "uuid": "4f4a21ff-473f-3bba-b9e3-a051031d6eef",
+                "value": "Legal Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-corporate-communications",
+                "uuid": "fc2324a3-69a0-320c-9d04-de2a5438cac8",
+                "value": "Director, Corporate Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "supply-chain-analyst",
+                "uuid": "cafe3da9-8bc0-3c3c-a900-31b05f506139",
+                "value": "Supply Chain Analyst"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "analyst-supply-chain",
+                "uuid": "e0f73c29-580d-33c8-8ee9-7810343bce31",
+                "value": "Analyst, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "accounts-payable-clerk",
+                "uuid": "4130fc37-b42f-384e-8edd-f8abaa109da6",
+                "value": "Accounts Payable Clerk"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator-recruitment",
+                "uuid": "2d0936c5-36a7-3c4d-ab07-d2733b309b42",
+                "value": "Coordinator, Recruitment"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-supply-chain",
+                "uuid": "3de4af36-4858-335d-b45e-c21d8fa923fc",
+                "value": "Senior Director, Supply Chain"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "software-consultant",
+                "uuid": "1ee821ae-a031-30b6-b5de-7267847e8d11",
+                "value": "Software Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "analyst-quality-control",
+                "uuid": "fb7acb66-5bea-3ad8-8d2a-a5f36041d9eb",
+                "value": "Analyst, Quality Control"
+            }
+        }
+    ]
+}

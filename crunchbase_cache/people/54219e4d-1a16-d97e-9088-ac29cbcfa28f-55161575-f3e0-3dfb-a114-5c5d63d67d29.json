@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3ecb40d7-408a-4b8f-ac7c-f94328440092",
+            "properties": {
+                "name": "Mike Xu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ecb40d7-408a-4b8f-ac7c-f94328440092",
+                    "value": "Mike Xu"
+                },
+                "linkedin": "mikexu11",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0258e0ef-ab57-4bc2-9d76-f83d23d4c94f",
+                            "related_uuid": "3ecb40d7-408a-4b8f-ac7c-f94328440092",
+                            "properties": {
+                                "job_title": "CEO, Founder, President"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

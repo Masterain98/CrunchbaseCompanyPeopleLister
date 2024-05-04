@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "78f2a9a6-54e4-4269-9209-d7ef6ee82b5c",
+            "properties": {
+                "name": "Elram Goren",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "78f2a9a6-54e4-4269-9209-d7ef6ee82b5c",
+                    "value": "Elram Goren"
+                },
+                "linkedin": "elram-goren-57bb8459",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c2c354bc-5209-4033-a687-4302f4cfee36",
+                            "related_uuid": "78f2a9a6-54e4-4269-9209-d7ef6ee82b5c",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1dc60979-ac86-4e42-bf8f-01d9791e0c4a",
+            "properties": {
+                "name": "Sumir Meghani",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1dc60979-ac86-4e42-bf8f-01d9791e0c4a",
+                    "value": "Sumir Meghani"
+                },
+                "linkedin": "sumirmeghani",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "54d1f9b9-fbb9-4196-85e5-616c27ef4ab3",
+                            "related_uuid": "1dc60979-ac86-4e42-bf8f-01d9791e0c4a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

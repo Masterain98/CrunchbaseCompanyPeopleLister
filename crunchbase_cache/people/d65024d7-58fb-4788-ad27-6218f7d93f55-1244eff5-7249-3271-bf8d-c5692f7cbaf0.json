@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aaaf9eb9-0349-47ac-8757-9ea86030abcb",
+            "properties": {
+                "name": "Brian Venturo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aaaf9eb9-0349-47ac-8757-9ea86030abcb",
+                    "value": "Brian Venturo"
+                },
+                "linkedin": "brian-venturo-6719b812",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "872131f1-ae99-4658-bc6d-c870bbc4d8bc",
+                            "related_uuid": "aaaf9eb9-0349-47ac-8757-9ea86030abcb",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

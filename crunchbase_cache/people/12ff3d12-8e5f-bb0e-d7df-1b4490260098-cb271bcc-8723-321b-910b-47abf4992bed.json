@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3f66a435-b2ad-4b42-b99b-b261c8741174",
+            "properties": {
+                "name": "Todd Grunow",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3f66a435-b2ad-4b42-b99b-b261c8741174",
+                    "value": "Todd Grunow"
+                },
+                "linkedin": "todd-grunow-763208a9",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "750522ae-da49-4af4-a7b1-efd44017ca1a",
+                            "related_uuid": "3f66a435-b2ad-4b42-b99b-b261c8741174",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

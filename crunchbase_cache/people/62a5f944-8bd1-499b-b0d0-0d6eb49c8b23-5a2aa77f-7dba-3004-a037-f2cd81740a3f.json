@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a0a21d42-5830-422b-a3d5-e24c5140eb7f",
+            "properties": {
+                "name": "Kinvara Bentley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a0a21d42-5830-422b-a3d5-e24c5140eb7f",
+                    "value": "Kinvara Bentley"
+                },
+                "linkedin": "kinvara-bentley-2064a085",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "24e9b494-d25f-440a-bf71-239180d15be1",
+                            "related_uuid": "a0a21d42-5830-422b-a3d5-e24c5140eb7f",
+                            "properties": {
+                                "job_title": "Commercial Director, EMEA"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

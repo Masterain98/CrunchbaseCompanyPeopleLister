@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ac50dca5-ead8-4c6d-9f18-1cc6c033d499",
+            "properties": {
+                "name": "Jason Boehmig",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ac50dca5-ead8-4c6d-9f18-1cc6c033d499",
+                    "value": "Jason Boehmig"
+                },
+                "linkedin": "jboehmig",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "74d38c1d-fbef-46c8-a7a3-8c4473643b96",
+                            "related_uuid": "ac50dca5-ead8-4c6d-9f18-1cc6c033d499",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

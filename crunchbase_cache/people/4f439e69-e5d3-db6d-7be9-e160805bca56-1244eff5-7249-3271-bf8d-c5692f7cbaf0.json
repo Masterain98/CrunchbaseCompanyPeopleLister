@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b92ce44d-d3e9-477e-87a9-f93a511941a2",
+            "properties": {
+                "name": "Michael Boufford",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b92ce44d-d3e9-477e-87a9-f93a511941a2",
+                    "value": "Michael Boufford"
+                },
+                "linkedin": "boufford",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ae19220-6f11-4b48-b396-bcee24b35907",
+                            "related_uuid": "b92ce44d-d3e9-477e-87a9-f93a511941a2",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

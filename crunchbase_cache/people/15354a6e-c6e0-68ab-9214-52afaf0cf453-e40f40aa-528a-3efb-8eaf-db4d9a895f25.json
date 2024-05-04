@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c34164c8-d5ff-4d10-8d7c-7ec274d65082",
+            "properties": {
+                "name": "Luz Ashby",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c34164c8-d5ff-4d10-8d7c-7ec274d65082",
+                    "value": "Luz Ashby"
+                },
+                "linkedin": "luz-ashby",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c92a2ee0-e0f4-4204-8eee-782cad835aae",
+                            "related_uuid": "c34164c8-d5ff-4d10-8d7c-7ec274d65082",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

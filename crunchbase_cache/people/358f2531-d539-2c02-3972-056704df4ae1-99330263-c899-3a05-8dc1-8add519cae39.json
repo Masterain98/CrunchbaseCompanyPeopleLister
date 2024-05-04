@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "79e88d2b-6078-41e9-bb5b-24d475984f03",
+            "properties": {
+                "name": "Hunter Montgomery",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "79e88d2b-6078-41e9-bb5b-24d475984f03",
+                    "value": "Hunter Montgomery"
+                },
+                "linkedin": "huntermontgomery",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "77ce285b-15a1-4d9c-a3de-fb2bfac1f89d",
+                            "related_uuid": "79e88d2b-6078-41e9-bb5b-24d475984f03",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

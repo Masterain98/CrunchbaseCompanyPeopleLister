@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "10ce6df4-5449-472d-a6fa-d7b66399a59f",
+            "properties": {
+                "name": "Janice Bedsole",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "10ce6df4-5449-472d-a6fa-d7b66399a59f",
+                    "value": "Janice Bedsole"
+                },
+                "linkedin": "janicebedsole",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a59560ee-9164-4a75-84ef-e87eab24b9e3",
+                            "related_uuid": "10ce6df4-5449-472d-a6fa-d7b66399a59f",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bde19696-5ced-4ed7-bb3c-7be5d88b5cbc",
+            "properties": {
+                "name": "Bob Picciano",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bde19696-5ced-4ed7-bb3c-7be5d88b5cbc",
+                    "value": "Bob Picciano"
+                },
+                "linkedin": "bobpicciano",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "94a0b3a9-2ede-43d7-80df-b2706b57d21d",
+                            "related_uuid": "bde19696-5ced-4ed7-bb3c-7be5d88b5cbc",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

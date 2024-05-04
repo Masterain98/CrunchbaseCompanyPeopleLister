@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ce44a0ed-2ec9-4e43-9f5a-d6928889ae3f",
+            "properties": {
+                "name": "Jake Sorofman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ce44a0ed-2ec9-4e43-9f5a-d6928889ae3f",
+                    "value": "Jake Sorofman"
+                },
+                "linkedin": "jakesorofman",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "27e02b81-4399-474e-86c7-c70c964a03b7",
+                            "related_uuid": "ce44a0ed-2ec9-4e43-9f5a-d6928889ae3f",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

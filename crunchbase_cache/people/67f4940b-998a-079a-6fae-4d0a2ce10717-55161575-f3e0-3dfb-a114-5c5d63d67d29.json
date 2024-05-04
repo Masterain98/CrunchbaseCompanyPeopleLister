@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e4d6e4d9-728b-4698-9ef5-406188c9258d",
+            "properties": {
+                "name": "Scott Kannry",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e4d6e4d9-728b-4698-9ef5-406188c9258d",
+                    "value": "Scott Kannry"
+                },
+                "linkedin": "scott-kannry-32293815",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "337d86b8-87f4-44e3-91d9-afa9f6207299",
+                            "related_uuid": "e4d6e4d9-728b-4698-9ef5-406188c9258d",
+                            "properties": {
+                                "job_title": "CEO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5d32f9d1-e6d7-4da6-a4e8-a02f0ef9ed17",
+            "properties": {
+                "name": "Adil Dittmer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5d32f9d1-e6d7-4da6-a4e8-a02f0ef9ed17",
+                    "value": "Adil Dittmer"
+                },
+                "linkedin": "adildittmer",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c4399f67-b044-4951-9cd0-7680d19b69d5",
+                            "related_uuid": "5d32f9d1-e6d7-4da6-a4e8-a02f0ef9ed17",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

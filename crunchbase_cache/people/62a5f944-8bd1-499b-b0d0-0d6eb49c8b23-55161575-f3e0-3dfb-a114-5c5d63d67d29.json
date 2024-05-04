@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c007f847-445d-4796-a526-d82ee823e852",
+            "properties": {
+                "name": "Dave Dickman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c007f847-445d-4796-a526-d82ee823e852",
+                    "value": "Dave Dickman"
+                },
+                "linkedin": "dave-dickman-5b043b14",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ceaa4283-459c-4547-a8e4-3a7b5bb650e2",
+                            "related_uuid": "c007f847-445d-4796-a526-d82ee823e852",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

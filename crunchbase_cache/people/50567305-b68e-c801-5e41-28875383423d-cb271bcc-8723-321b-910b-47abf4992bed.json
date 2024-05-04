@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e906de35-d169-45dc-bc63-4074ce4df63f",
+            "properties": {
+                "name": "Brian Hill",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e906de35-d169-45dc-bc63-4074ce4df63f",
+                    "value": "Brian Hill"
+                },
+                "linkedin": "brianphill",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "21af3713-ba53-4d61-82a4-a72f3f1f24f6",
+                            "related_uuid": "e906de35-d169-45dc-bc63-4074ce4df63f",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

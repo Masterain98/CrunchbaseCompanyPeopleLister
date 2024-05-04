@@ -1,0 +1,71 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "6e551982-cd46-4591-b2fb-d8d7ad77f8b9",
+            "properties": {
+                "name": "Gabriel Lameirinhas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6e551982-cd46-4591-b2fb-d8d7ad77f8b9",
+                    "value": "Gabriel Lameirinhas"
+                },
+                "linkedin": "glameirinhas",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2f6da31b-02e3-498b-85be-680a6c7dc5be",
+                            "related_uuid": "6e551982-cd46-4591-b2fb-d8d7ad77f8b9",
+                            "properties": {
+                                "job_title": "Founder, Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ebfc2579-b22e-4163-8b25-a9813636282c",
+            "properties": {
+                "name": "Igor Marinelli",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ebfc2579-b22e-4163-8b25-a9813636282c",
+                    "value": "Igor Marinelli"
+                },
+                "linkedin": "igmarinelli",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "479cec40-8435-4166-9183-b571486349d3",
+                            "related_uuid": "ebfc2579-b22e-4163-8b25-a9813636282c",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

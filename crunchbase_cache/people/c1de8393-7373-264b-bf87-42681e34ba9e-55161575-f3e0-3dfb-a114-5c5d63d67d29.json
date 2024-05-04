@@ -1,0 +1,66 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "5e6c17df-ded3-485e-9b54-4222d6b08513",
+            "properties": {
+                "name": "Kristine M.",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5e6c17df-ded3-485e-9b54-4222d6b08513",
+                    "value": "Kristine M."
+                },
+                "linkedin": "kristinemiller9",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "13c1b1bf-07b7-4410-83c4-dda2cdf7a7f6",
+                            "related_uuid": "5e6c17df-ded3-485e-9b54-4222d6b08513",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "490706ff-2c88-472a-bfdf-95ab85025f3c",
+            "properties": {
+                "name": "Tooey Courtemanche",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "490706ff-2c88-472a-bfdf-95ab85025f3c",
+                    "value": "Tooey Courtemanche"
+                },
+                "linkedin": "tooey",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "129151c9-fd32-4db3-875e-9bda7c8eb087",
+                            "related_uuid": "490706ff-2c88-472a-bfdf-95ab85025f3c",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

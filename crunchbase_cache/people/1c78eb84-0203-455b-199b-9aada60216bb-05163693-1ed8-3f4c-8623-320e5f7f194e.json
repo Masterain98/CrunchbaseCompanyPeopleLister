@@ -1,0 +1,97 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "c53958b1-4b93-45a2-b04d-9ee7daa2e4b6",
+            "properties": {
+                "name": "Georgia Wright",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c53958b1-4b93-45a2-b04d-9ee7daa2e4b6",
+                    "value": "Georgia Wright"
+                },
+                "linkedin": "georgia-wright-4695954b",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d6d339d-1d46-4dd0-a3dd-05b7fd0f7d13",
+                            "related_uuid": "c53958b1-4b93-45a2-b04d-9ee7daa2e4b6",
+                            "properties": {
+                                "job_title": "Director, Global People and Change Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8882a68d-4829-4009-a60e-447918647661",
+            "properties": {
+                "name": "Helen Kingham",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8882a68d-4829-4009-a60e-447918647661",
+                    "value": "Helen Kingham"
+                },
+                "linkedin": "helen-kingham",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9d7b36bd-2ac4-4778-b464-46bb65fdbae9",
+                            "related_uuid": "8882a68d-4829-4009-a60e-447918647661",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "60dd2f37-5e64-4fbe-b0db-6fc53e4594f4",
+            "properties": {
+                "name": "Sophie Mccullen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "60dd2f37-5e64-4fbe-b0db-6fc53e4594f4",
+                    "value": "Sophie Mccullen"
+                },
+                "linkedin": "sophie-mccullen-88b03633",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "42d2e1b6-4eae-4baf-ac19-033ce7a3b4e5",
+                            "related_uuid": "60dd2f37-5e64-4fbe-b0db-6fc53e4594f4",
+                            "properties": {
+                                "job_title": "Communications Director, APAC"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

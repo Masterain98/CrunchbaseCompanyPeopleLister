@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7cc2e3d9-8da5-4a84-8759-3f8c1c61d274",
+            "properties": {
+                "name": "Lars Nilsen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7cc2e3d9-8da5-4a84-8759-3f8c1c61d274",
+                    "value": "Lars Nilsen"
+                },
+                "linkedin": "larsnilsen",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2d43ecf9-f8d1-44b7-8d6d-cfaee111d671",
+                            "related_uuid": "7cc2e3d9-8da5-4a84-8759-3f8c1c61d274",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

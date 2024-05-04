@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a7813068-0c70-41d3-96a5-aa847942afe5",
+            "properties": {
+                "name": "Brad Brooks",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a7813068-0c70-41d3-96a5-aa847942afe5",
+                    "value": "Brad Brooks"
+                },
+                "linkedin": "brooksbrad",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "604d62d3-145f-498e-887c-b8ce0a4c91b6",
+                            "related_uuid": "a7813068-0c70-41d3-96a5-aa847942afe5",
+                            "properties": {
+                                "job_title": "Co-Founder, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6d496c73-937e-466d-9d76-1630b3afe73e",
+            "properties": {
+                "name": "Eric Chao",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6d496c73-937e-466d-9d76-1630b3afe73e",
+                    "value": "Eric Chao"
+                },
+                "linkedin": "fifty3",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d34066cb-7ee3-4589-ae3e-ee6dd6838911",
+                            "related_uuid": "6d496c73-937e-466d-9d76-1630b3afe73e",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

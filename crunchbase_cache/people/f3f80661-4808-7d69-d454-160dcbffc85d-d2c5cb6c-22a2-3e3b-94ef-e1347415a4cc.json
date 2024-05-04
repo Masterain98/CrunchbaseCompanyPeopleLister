@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ff806125-9f0a-4592-b31d-fa9bf7070972",
+            "properties": {
+                "name": "Walter Quinn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ff806125-9f0a-4592-b31d-fa9bf7070972",
+                    "value": "Walter Quinn"
+                },
+                "linkedin": "walter-quinn-38628361",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "43051b39-7acd-4c3a-8e1a-70319a87ce0a",
+                            "related_uuid": "ff806125-9f0a-4592-b31d-fa9bf7070972",
+                            "properties": {
+                                "job_title": "Director of Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

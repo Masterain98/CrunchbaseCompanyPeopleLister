@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b5ae6627-7586-4f00-b1d4-0db2f5b59410",
+            "properties": {
+                "name": "Kali Geldis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5ae6627-7586-4f00-b1d4-0db2f5b59410",
+                    "value": "Kali Geldis"
+                },
+                "linkedin": "kaligeldis",
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b710775b-b7c0-46e0-883d-8e2be012bea7",
+                            "related_uuid": "b5ae6627-7586-4f00-b1d4-0db2f5b59410",
+                            "properties": {
+                                "job_title": "Director of Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

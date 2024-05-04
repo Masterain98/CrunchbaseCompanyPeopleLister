@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1ed644e8-327c-4fe5-a80c-046c9a6b59a8",
+            "properties": {
+                "name": "Spenser Skates",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1ed644e8-327c-4fe5-a80c-046c9a6b59a8",
+                    "value": "Spenser Skates"
+                },
+                "linkedin": "spenserskates",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "80936dbb-5422-47d0-b9db-6af9007e65fd",
+                            "related_uuid": "1ed644e8-327c-4fe5-a80c-046c9a6b59a8",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

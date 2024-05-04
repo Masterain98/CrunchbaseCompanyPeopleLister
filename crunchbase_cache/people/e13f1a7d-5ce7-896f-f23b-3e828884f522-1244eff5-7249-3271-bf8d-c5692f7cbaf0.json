@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "97e6049f-0d18-45a3-820f-2d771605f7c0",
+            "properties": {
+                "name": "Mark Botticelli",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "97e6049f-0d18-45a3-820f-2d771605f7c0",
+                    "value": "Mark Botticelli"
+                },
+                "linkedin": "mbotticelli",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f7fb85bf-a836-4f6d-acb8-4ecae99a0f4d",
+                            "related_uuid": "97e6049f-0d18-45a3-820f-2d771605f7c0",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

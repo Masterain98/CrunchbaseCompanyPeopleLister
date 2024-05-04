@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fad23536-506e-4aa4-9926-d85d8995c7e2",
+            "properties": {
+                "name": "Raviteja Dodda",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fad23536-506e-4aa4-9926-d85d8995c7e2",
+                    "value": "Raviteja Dodda"
+                },
+                "linkedin": "rteja",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3b474aaa-f41f-41d8-9214-63da706c78c8",
+                            "related_uuid": "fad23536-506e-4aa4-9926-d85d8995c7e2",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

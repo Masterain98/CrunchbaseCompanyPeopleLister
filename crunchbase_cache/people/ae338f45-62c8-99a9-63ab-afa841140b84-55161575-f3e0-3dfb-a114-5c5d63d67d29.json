@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a4a838bf-a6f9-4893-bc90-960f052ef798",
+            "properties": {
+                "name": "Garin Hess",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a4a838bf-a6f9-4893-bc90-960f052ef798",
+                    "value": "Garin Hess"
+                },
+                "linkedin": "garin-hess-0017a0",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "36795dfb-2c68-41a1-8e90-74e2ebcc9b6b",
+                            "related_uuid": "a4a838bf-a6f9-4893-bc90-960f052ef798",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

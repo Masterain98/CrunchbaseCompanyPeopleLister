@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f90228a1-aadc-4706-bdb5-2e64717123ea",
+            "properties": {
+                "name": "Eileen Bernardo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f90228a1-aadc-4706-bdb5-2e64717123ea",
+                    "value": "Eileen Bernardo"
+                },
+                "linkedin": "eileenrene11",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3f2bace8-1777-4bec-b007-ee386a3694b5",
+                            "related_uuid": "f90228a1-aadc-4706-bdb5-2e64717123ea",
+                            "properties": {
+                                "job_title": "Director, PR and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

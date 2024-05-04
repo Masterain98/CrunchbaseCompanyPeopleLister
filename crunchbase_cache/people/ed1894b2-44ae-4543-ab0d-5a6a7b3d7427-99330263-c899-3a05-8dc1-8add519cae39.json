@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2e97b3f9-995d-46c9-af41-1a628d807b32",
+            "properties": {
+                "name": "Dan Buczaczer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2e97b3f9-995d-46c9-af41-1a628d807b32",
+                    "value": "Dan Buczaczer"
+                },
+                "linkedin": "buczaczer",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19829012-35ea-44ab-821a-148f8490ea84",
+                            "related_uuid": "2e97b3f9-995d-46c9-af41-1a628d807b32",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

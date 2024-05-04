@@ -1,0 +1,71 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "83526ddf-eafa-45c0-afd3-35c74bdb864f",
+            "properties": {
+                "name": "Andy Mitchell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "83526ddf-eafa-45c0-afd3-35c74bdb864f",
+                    "value": "Andy Mitchell"
+                },
+                "linkedin": "afmitchell",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ce91c94-75c6-4723-9441-f1cd2a05753d",
+                            "related_uuid": "83526ddf-eafa-45c0-afd3-35c74bdb864f",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f4149aae-cec6-4875-b127-d705a62e6429",
+            "properties": {
+                "name": "Udo Waibel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f4149aae-cec6-4875-b127-d705a62e6429",
+                    "value": "Udo Waibel"
+                },
+                "linkedin": "udowaibel",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "12c4338f-adc6-4f67-8f73-7987ffa9f941",
+                            "related_uuid": "f4149aae-cec6-4875-b127-d705a62e6429",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

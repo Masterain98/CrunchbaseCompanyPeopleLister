@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "040fd5ec-a830-4914-aa94-96e6efd12654",
+            "properties": {
+                "name": "Jacobus Boersma",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "040fd5ec-a830-4914-aa94-96e6efd12654",
+                    "value": "Jacobus Boersma"
+                },
+                "linkedin": "jacobus",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "77149021-9606-445b-a4e3-e9593ff6eb94",
+                            "related_uuid": "040fd5ec-a830-4914-aa94-96e6efd12654",
+                            "properties": {
+                                "job_title": "Co-Founder & CMO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8b93a620-1232-4662-a3ee-caa624603944",
+            "properties": {
+                "name": "Joan Jenkins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8b93a620-1232-4662-a3ee-caa624603944",
+                    "value": "Joan Jenkins"
+                },
+                "linkedin": "joanj",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4d4d974d-9938-45e0-900f-1817d63426b0",
+                            "related_uuid": "8b93a620-1232-4662-a3ee-caa624603944",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ff06d55e-bf9e-41ae-86ba-8ff5030e44f5",
+            "properties": {
+                "name": "Jane Moran",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ff06d55e-bf9e-41ae-86ba-8ff5030e44f5",
+                    "value": "Jane Moran"
+                },
+                "linkedin": "moranjane",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "825ebe06-a64b-4867-a2db-7f233484b3ec",
+                            "related_uuid": "ff06d55e-bf9e-41ae-86ba-8ff5030e44f5",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a48c37c5-99b3-42b8-bba7-62e67c87ff56",
+            "properties": {
+                "name": "Steven Woods",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a48c37c5-99b3-42b8-bba7-62e67c87ff56",
+                    "value": "Steven Woods"
+                },
+                "linkedin": "stevewoods99",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e02a62d3-d505-4a61-9433-cd6b7f500b2b",
+                            "related_uuid": "a48c37c5-99b3-42b8-bba7-62e67c87ff56",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

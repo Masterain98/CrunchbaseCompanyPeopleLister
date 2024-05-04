@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0d4a235d-2ddf-44d5-bce7-652d40bb373e",
+            "properties": {
+                "name": "Ross Lambert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0d4a235d-2ddf-44d5-bce7-652d40bb373e",
+                    "value": "Ross Lambert"
+                },
+                "linkedin": "lambertross",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "66a31fdb-fc51-4ecb-ba2a-09c81c2b24e5",
+                            "related_uuid": "0d4a235d-2ddf-44d5-bce7-652d40bb373e",
+                            "properties": {
+                                "job_title": "Director, Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

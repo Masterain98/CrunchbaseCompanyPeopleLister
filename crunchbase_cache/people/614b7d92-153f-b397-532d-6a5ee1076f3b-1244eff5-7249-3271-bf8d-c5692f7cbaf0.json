@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "21d8fe2b-bda1-4ded-9365-30cd51182437",
+            "properties": {
+                "name": "Yasmine Wakim",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "21d8fe2b-bda1-4ded-9365-30cd51182437",
+                    "value": "Yasmine Wakim"
+                },
+                "linkedin": "yasmine-rodriguez-wakim-8977b12b",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26669b87-936a-4334-b796-7e1ad885b3a4",
+                            "related_uuid": "21d8fe2b-bda1-4ded-9365-30cd51182437",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

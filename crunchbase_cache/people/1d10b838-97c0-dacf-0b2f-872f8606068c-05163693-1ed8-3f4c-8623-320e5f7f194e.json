@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bb35f689-a4e8-4844-a3a7-4f761d21a664",
+            "properties": {
+                "name": "Paul Campillo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bb35f689-a4e8-4844-a3a7-4f761d21a664",
+                    "value": "Paul Campillo"
+                },
+                "linkedin": "paulcampillo",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0b36db1e-9cfa-4f0b-88b1-72ee259ba360",
+                            "related_uuid": "bb35f689-a4e8-4844-a3a7-4f761d21a664",
+                            "properties": {
+                                "job_title": "Director of Brand & Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

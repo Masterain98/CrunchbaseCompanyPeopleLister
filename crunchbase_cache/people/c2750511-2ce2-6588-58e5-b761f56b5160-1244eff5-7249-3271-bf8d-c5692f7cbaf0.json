@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ad3fe262-c7b6-4809-8b28-1fd9572b56b6",
+            "properties": {
+                "name": "Brian Peterson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ad3fe262-c7b6-4809-8b28-1fd9572b56b6",
+                    "value": "Brian Peterson"
+                },
+                "linkedin": "brianpetersonbayarea",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "325a2353-33ca-4ea9-80fc-6ea8f0086d66",
+                            "related_uuid": "ad3fe262-c7b6-4809-8b28-1fd9572b56b6",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bcac3712-26a5-4771-93e3-4e4a00d8f19d",
+            "properties": {
+                "name": "Brian Peterson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bcac3712-26a5-4771-93e3-4e4a00d8f19d",
+                    "value": "Brian Peterson"
+                },
+                "linkedin": "brian-peterson-87952417",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8abbdee6-91eb-426b-a7d6-67fc8bca7aae",
+                            "related_uuid": "bcac3712-26a5-4771-93e3-4e4a00d8f19d",
+                            "properties": {
+                                "job_title": "Founder & Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

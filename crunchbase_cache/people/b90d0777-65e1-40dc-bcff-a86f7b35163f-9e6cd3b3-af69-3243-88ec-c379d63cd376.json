@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c45866c5-5767-4da2-bee4-42be32fe7700",
+            "properties": {
+                "name": "Fredrik Hausken",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c45866c5-5767-4da2-bee4-42be32fe7700",
+                    "value": "Fredrik Hausken"
+                },
+                "linkedin": "fredrik-hausken-9510a796",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07f51e92-8d47-4b0d-9088-d06870110d39",
+                            "related_uuid": "c45866c5-5767-4da2-bee4-42be32fe7700",
+                            "properties": {
+                                "job_title": "Associate DIrector, Corporate Development"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

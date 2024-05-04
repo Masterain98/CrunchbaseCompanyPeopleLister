@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2a927476-cff1-4c09-993f-cf0f8d7b0d96",
+            "properties": {
+                "name": "Mr. Sean Menke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2a927476-cff1-4c09-993f-cf0f8d7b0d96",
+                    "value": "Mr. Sean Menke"
+                },
+                "linkedin": "sean-menke",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1754f042-f604-4154-800f-3de2999f5b3f",
+                            "related_uuid": "2a927476-cff1-4c09-993f-cf0f8d7b0d96",
+                            "properties": {
+                                "job_title": "Chairman & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

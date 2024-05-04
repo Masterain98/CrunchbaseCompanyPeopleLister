@@ -1,0 +1,197 @@
+{
+    "count": 24,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service",
+                "uuid": "060dca13-af57-34f1-a7d2-f2deb799b437",
+                "value": "Customer Service"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-creative",
+                "uuid": "e40f40aa-528a-3efb-8eaf-db4d9a895f25",
+                "value": "Director, Creative"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "manager-compliance",
+                "uuid": "af643dba-10ab-3440-bff6-5a4d9f4fe7fb",
+                "value": "Manager, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "credit-manager",
+                "uuid": "8ff189bd-bed8-3846-b08e-96917bf4169e",
+                "value": "Credit Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cpo",
+                "uuid": "d4cf9c5d-657b-3fb1-b2c2-33fdb19ac2ff",
+                "value": "CPO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service-professional",
+                "uuid": "0ecd447a-c778-382d-88cc-97e2fea9a369",
+                "value": "Customer Service Professional"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-coordinator",
+                "uuid": "34db1683-df84-3e21-83a1-f66cedb97ea5",
+                "value": "Senior Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "compliance-specialist",
+                "uuid": "5346e7fc-b1b4-3bc6-afe0-fc57489b7596",
+                "value": "Compliance Specialist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-compliance",
+                "uuid": "a86f684e-3bd5-3430-806f-df266c067037",
+                "value": "VP, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-corporate-communications",
+                "uuid": "fc2324a3-69a0-320c-9d04-de2a5438cac8",
+                "value": "Director, Corporate Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cost-accountant",
+                "uuid": "94852b68-7b4a-3bca-ad57-03d7f173ccd3",
+                "value": "Cost Accountant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "collections-specialist",
+                "uuid": "5644cc5a-9f39-360e-afe7-15082eb14314",
+                "value": "Collections Specialist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "vp-corporate-development",
+                "uuid": "0f4bf3c4-9e8c-336a-bc92-11bdcf5d16ca",
+                "value": "VP, Corporate Development"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-compliance",
+                "uuid": "5e6d29e4-f181-3b80-9986-8c21d1c4eea4",
+                "value": "Senior Director, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "customer-service-coordinator",
+                "uuid": "6d9cd95e-edef-3f97-bd12-28ed3b5d1278",
+                "value": "Customer Service Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "channel-marketing-manager",
+                "uuid": "b923ccd6-c3cf-370e-a8fc-f22ba932a832",
+                "value": "Channel Marketing Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-quality-control",
+                "uuid": "96a19688-7c6e-3939-8cdc-911c3890a28a",
+                "value": "Director, Quality Control"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-vp-corporate-development",
+                "uuid": "0960fb60-d2ef-3059-9031-56548dc1a285",
+                "value": "Senior VP, Corporate Development"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-corporate-communications",
+                "uuid": "85061720-2585-387c-ab36-257357e70866",
+                "value": "Senior Manager, Corporate Communications"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "environmental-compliance-specialist",
+                "uuid": "653be7ab-28fe-3245-a9f7-aab14a6f4439",
+                "value": "Environmental Compliance Specialist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-collection-analyst",
+                "uuid": "998d73df-91a6-3d92-99b1-69bbf187079c",
+                "value": "Senior Collection Analyst"
+            }
+        }
+    ]
+}

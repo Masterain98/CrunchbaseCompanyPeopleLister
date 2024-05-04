@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ad2bb9f6-fe98-4898-b985-b088058425fd",
+            "properties": {
+                "name": "Brett Dangerfield",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ad2bb9f6-fe98-4898-b985-b088058425fd",
+                    "value": "Brett Dangerfield"
+                },
+                "linkedin": "brett-dangerfield-3921508",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "05f9b2f1-c42b-44db-9bb9-a45afbdd3ab6",
+                            "related_uuid": "ad2bb9f6-fe98-4898-b985-b088058425fd",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

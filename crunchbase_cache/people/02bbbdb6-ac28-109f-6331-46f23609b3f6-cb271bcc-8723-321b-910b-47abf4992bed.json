@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "58ea50aa-8fb2-43e2-bf2c-d95761afb389",
+            "properties": {
+                "name": "Anna Rosato",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "58ea50aa-8fb2-43e2-bf2c-d95761afb389",
+                    "value": "Anna Rosato"
+                },
+                "linkedin": "annarosato",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "33b3e4b7-b10f-4b56-b165-df26fafb709b",
+                            "related_uuid": "58ea50aa-8fb2-43e2-bf2c-d95761afb389",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

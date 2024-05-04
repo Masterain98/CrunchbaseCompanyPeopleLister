@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "60d8cb71-470e-4304-bca2-3a088f26627d",
+            "properties": {
+                "name": "Aarti Sarin, MBA, PMP",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "60d8cb71-470e-4304-bca2-3a088f26627d",
+                    "value": "Aarti Sarin, MBA, PMP"
+                },
+                "linkedin": "aarti-sarin-mba-pmp-88268231",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0b687a1e-d5eb-4c44-ab44-d5771da3a432",
+                            "related_uuid": "60d8cb71-470e-4304-bca2-3a088f26627d",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

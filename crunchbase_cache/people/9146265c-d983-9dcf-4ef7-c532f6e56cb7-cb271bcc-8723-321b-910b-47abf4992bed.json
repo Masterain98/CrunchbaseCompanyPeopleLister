@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "41b23b45-4a53-410d-8142-241e645b37ea",
+            "properties": {
+                "name": "Peter Strandquist",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "41b23b45-4a53-410d-8142-241e645b37ea",
+                    "value": "Peter Strandquist"
+                },
+                "linkedin": "peter-strandquist-00361412",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9c4c9cbb-11a3-4f3d-8d45-08855d3ce11f",
+                            "related_uuid": "41b23b45-4a53-410d-8142-241e645b37ea",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

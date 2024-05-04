@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5ebdcded-22ea-47c2-91d0-ede179973bd7",
+            "properties": {
+                "name": "Sudheer Koneru",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5ebdcded-22ea-47c2-91d0-ede179973bd7",
+                    "value": "Sudheer Koneru"
+                },
+                "linkedin": "sudheer-koneru-553030a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4dc2787a-da2e-4446-a224-02f72b37e639",
+                            "related_uuid": "5ebdcded-22ea-47c2-91d0-ede179973bd7",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

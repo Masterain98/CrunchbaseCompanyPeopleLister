@@ -1,0 +1,99 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "e2f5c7a0-d5e7-4485-8a6b-e16de7d6e1c0",
+            "properties": {
+                "name": "Anthony Bartlett",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e2f5c7a0-d5e7-4485-8a6b-e16de7d6e1c0",
+                    "value": "Anthony Bartlett"
+                },
+                "linkedin": "bartlettanthony",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2e780192-62ae-49bb-b789-7d236c826b4e",
+                            "related_uuid": "e2f5c7a0-d5e7-4485-8a6b-e16de7d6e1c0",
+                            "properties": {
+                                "job_title": "Associate Creative Director, Copy"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "00bdd93e-3988-4eec-9d71-eabea90767bc",
+            "properties": {
+                "name": "Joshua Kidwell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "00bdd93e-3988-4eec-9d71-eabea90767bc",
+                    "value": "Joshua Kidwell"
+                },
+                "linkedin": "joshuakidwell",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bd0f3fe7-6116-43d1-9d32-545ec2dd776a",
+                            "related_uuid": "00bdd93e-3988-4eec-9d71-eabea90767bc",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d5c9dfcf-0992-403c-baf3-3ca96758da6f",
+            "properties": {
+                "name": "Kent Ward",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d5c9dfcf-0992-403c-baf3-3ca96758da6f",
+                    "value": "Kent Ward"
+                },
+                "linkedin": "kent-ward-5091798",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0aa87fe7-bffd-4ced-9b1c-dd22b5293d3a",
+                            "related_uuid": "d5c9dfcf-0992-403c-baf3-3ca96758da6f",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

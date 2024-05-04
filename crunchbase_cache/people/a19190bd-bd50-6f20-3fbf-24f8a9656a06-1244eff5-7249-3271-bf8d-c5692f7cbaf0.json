@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8ad091a5-63df-4573-b97a-6f1835a2aa33",
+            "properties": {
+                "name": "Yan Li",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8ad091a5-63df-4573-b97a-6f1835a2aa33",
+                    "value": "Yan Li"
+                },
+                "linkedin": "yannli",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c8f66024-8bf4-40d0-8305-55707970f6f2",
+                            "related_uuid": "8ad091a5-63df-4573-b97a-6f1835a2aa33",
+                            "properties": {
+                                "job_title": "CTO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3d2052cd-a84b-4ad1-8187-50b38290a0d4",
+            "properties": {
+                "name": "Kipp Bradford",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3d2052cd-a84b-4ad1-8187-50b38290a0d4",
+                    "value": "Kipp Bradford"
+                },
+                "linkedin": "kippbradford",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "844404b8-605f-4e0c-8b33-ba3c18ec0572",
+                            "related_uuid": "3d2052cd-a84b-4ad1-8187-50b38290a0d4",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

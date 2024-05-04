@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "02a55550-ec42-4f3e-9c85-bfe4c84d88e8",
+            "properties": {
+                "name": "Roger Barnette",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "02a55550-ec42-4f3e-9c85-bfe4c84d88e8",
+                    "value": "Roger Barnette"
+                },
+                "linkedin": "rbarnette",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7d7e13e7-3fda-4f2e-afdf-f66778de1467",
+                            "related_uuid": "02a55550-ec42-4f3e-9c85-bfe4c84d88e8",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

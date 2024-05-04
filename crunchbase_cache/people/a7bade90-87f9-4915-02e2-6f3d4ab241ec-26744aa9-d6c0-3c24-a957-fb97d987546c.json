@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "45bbf424-7683-4727-a623-57704668f798",
+            "properties": {
+                "name": "Kathleen Booton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "45bbf424-7683-4727-a623-57704668f798",
+                    "value": "Kathleen Booton"
+                },
+                "linkedin": "kathleen-booton-0a00a1199",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b89a5ca8-2818-45a3-8d29-40a9402a7172",
+                            "related_uuid": "45bbf424-7683-4727-a623-57704668f798",
+                            "properties": {
+                                "job_title": "Digital Marketing Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

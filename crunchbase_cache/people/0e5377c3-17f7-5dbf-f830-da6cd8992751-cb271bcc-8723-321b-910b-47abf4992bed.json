@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3258bd40-68cb-45ae-9048-609d0604bfcb",
+            "properties": {
+                "name": "Timothy Dien",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3258bd40-68cb-45ae-9048-609d0604bfcb",
+                    "value": "Timothy Dien"
+                },
+                "linkedin": "timothydien",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "27fefb59-3d28-4fb4-9de1-8eba9073acb6",
+                            "related_uuid": "3258bd40-68cb-45ae-9048-609d0604bfcb",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

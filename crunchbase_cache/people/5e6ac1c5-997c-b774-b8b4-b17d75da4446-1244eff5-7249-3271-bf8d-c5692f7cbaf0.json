@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a5a888cd-a806-4501-9567-4b5062bb08b8",
+            "properties": {
+                "name": "Mitchell Stewart",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a5a888cd-a806-4501-9567-4b5062bb08b8",
+                    "value": "Mitchell Stewart"
+                },
+                "linkedin": "mitchell-stewart-8183b",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d056ac14-7e6d-46e4-bd03-fd67c937855f",
+                            "related_uuid": "a5a888cd-a806-4501-9567-4b5062bb08b8",
+                            "properties": {
+                                "job_title": "Co-Founder, CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

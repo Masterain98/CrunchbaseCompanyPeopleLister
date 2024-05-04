@@ -1,0 +1,96 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "651f445e-1297-4d6c-a485-2c0d44c680db",
+            "properties": {
+                "name": "Alison Boelsche",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "651f445e-1297-4d6c-a485-2c0d44c680db",
+                    "value": "Alison Boelsche"
+                },
+                "linkedin": "alisonboelsche",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "96c6f30c-7944-4541-99ee-651c0dc54572",
+                            "related_uuid": "651f445e-1297-4d6c-a485-2c0d44c680db",
+                            "properties": {
+                                "job_title": "Director, Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "77e3275a-6161-43f9-8af9-6a33315b2809",
+            "properties": {
+                "name": "Andrew Foley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "77e3275a-6161-43f9-8af9-6a33315b2809",
+                    "value": "Andrew Foley"
+                },
+                "linkedin": "andrew-foley-24764a7b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "33a631b7-0556-47b2-9fa7-8195c5005d52",
+                            "related_uuid": "77e3275a-6161-43f9-8af9-6a33315b2809",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f59bf97c-6c0e-44ef-a7b2-64925c35b967",
+            "properties": {
+                "name": "Jayme Hunter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f59bf97c-6c0e-44ef-a7b2-64925c35b967",
+                    "value": "Jayme Hunter"
+                },
+                "linkedin": "jaymehunter",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c95d587-4b02-4327-afa8-eb77c107abe6",
+                            "related_uuid": "f59bf97c-6c0e-44ef-a7b2-64925c35b967",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "9ba54b0c-fe17-4dc1-ac4d-cbf9c90f0edb",
+            "properties": {
+                "name": "J. Zimmerman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9ba54b0c-fe17-4dc1-ac4d-cbf9c90f0edb",
+                    "value": "J. Zimmerman"
+                },
+                "linkedin": "james-scott-zimmerman",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e4d69a68-4a0a-440d-a192-db4bdf8fbe20",
+                            "related_uuid": "9ba54b0c-fe17-4dc1-ac4d-cbf9c90f0edb",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "377ae48c-b766-491a-afc5-f1fe8b9ea4de",
+            "properties": {
+                "name": "Scott Zimmerman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "377ae48c-b766-491a-afc5-f1fe8b9ea4de",
+                    "value": "Scott Zimmerman"
+                },
+                "linkedin": "j-scott-zimmerman-31029a4",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ecace7bd-376a-469a-b2bf-4c62ced95aef",
+                            "related_uuid": "377ae48c-b766-491a-afc5-f1fe8b9ea4de",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

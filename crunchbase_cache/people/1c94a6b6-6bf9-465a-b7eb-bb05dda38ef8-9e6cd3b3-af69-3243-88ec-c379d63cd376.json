@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "510729be-0290-4d76-88d0-3be028258b65",
+            "properties": {
+                "name": "Lisa Ward",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "510729be-0290-4d76-88d0-3be028258b65",
+                    "value": "Lisa Ward"
+                },
+                "linkedin": "lisa-ward-cfa",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "eb3204b5-921a-4725-b543-424475043857",
+                            "related_uuid": "510729be-0290-4d76-88d0-3be028258b65",
+                            "properties": {
+                                "job_title": "Director, Corporate Development"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

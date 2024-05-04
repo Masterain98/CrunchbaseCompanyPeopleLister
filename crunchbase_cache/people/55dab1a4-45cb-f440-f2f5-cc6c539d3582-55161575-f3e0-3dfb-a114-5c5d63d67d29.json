@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f90118dd-e66f-4544-91e1-d6b349522bfd",
+            "properties": {
+                "name": "Alex Shootman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f90118dd-e66f-4544-91e1-d6b349522bfd",
+                    "value": "Alex Shootman"
+                },
+                "linkedin": "alexshootman",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "59837d21-d4f8-4d1c-856b-b31719045b0b",
+                            "related_uuid": "f90118dd-e66f-4544-91e1-d6b349522bfd",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

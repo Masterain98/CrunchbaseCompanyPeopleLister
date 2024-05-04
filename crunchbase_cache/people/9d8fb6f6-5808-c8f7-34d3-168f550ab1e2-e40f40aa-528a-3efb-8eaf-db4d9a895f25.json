@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1df73074-3b2d-4510-a085-ad69d3f44e7f",
+            "properties": {
+                "name": "Justin Wolta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1df73074-3b2d-4510-a085-ad69d3f44e7f",
+                    "value": "Justin Wolta"
+                },
+                "linkedin": "justinwolta",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "152196e4-a931-496c-9d6b-801299070cc6",
+                            "related_uuid": "1df73074-3b2d-4510-a085-ad69d3f44e7f",
+                            "properties": {
+                                "job_title": "Visual Designer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

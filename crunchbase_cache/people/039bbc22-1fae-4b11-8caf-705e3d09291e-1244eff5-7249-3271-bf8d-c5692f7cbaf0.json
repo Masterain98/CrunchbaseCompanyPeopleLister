@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "06876ab0-ea74-490f-af88-7f185d6c52e0",
+            "properties": {
+                "name": "Varun Kacholia",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "06876ab0-ea74-490f-af88-7f185d6c52e0",
+                    "value": "Varun Kacholia"
+                },
+                "linkedin": "varunkacholia",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "389fb47b-b16d-437b-b967-ef31d5319b2f",
+                            "related_uuid": "06876ab0-ea74-490f-af88-7f185d6c52e0",
+                            "properties": {
+                                "job_title": "Co-Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1cb6b679-a0a9-48f7-86e3-cc9b1991b1e4",
+            "properties": {
+                "name": "Ryan Fetterhoff",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1cb6b679-a0a9-48f7-86e3-cc9b1991b1e4",
+                    "value": "Ryan Fetterhoff"
+                },
+                "linkedin": "ryan-fetterhoff",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "10ae4fa0-2216-4c65-a49f-ba2981f55e19",
+                            "related_uuid": "1cb6b679-a0a9-48f7-86e3-cc9b1991b1e4",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

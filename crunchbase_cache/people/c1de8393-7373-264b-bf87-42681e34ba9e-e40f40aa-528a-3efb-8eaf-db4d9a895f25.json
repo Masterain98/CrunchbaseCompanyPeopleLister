@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b41a20c4-5e1c-4018-a666-52021a6eefa2",
+            "properties": {
+                "name": "Karen Owens",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b41a20c4-5e1c-4018-a666-52021a6eefa2",
+                    "value": "Karen Owens"
+                },
+                "linkedin": "karen-owens-806b9932",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ee03b30-7ca4-4d92-b1c9-723f28c16f5e",
+                            "related_uuid": "b41a20c4-5e1c-4018-a666-52021a6eefa2",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

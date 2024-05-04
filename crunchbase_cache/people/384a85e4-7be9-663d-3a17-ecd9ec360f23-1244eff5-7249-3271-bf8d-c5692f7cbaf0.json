@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "22b0f331-e840-449b-9a38-ba522a06d730",
+            "properties": {
+                "name": "Tim Lang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "22b0f331-e840-449b-9a38-ba522a06d730",
+                    "value": "Tim Lang"
+                },
+                "linkedin": "timlangcto",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "76a6ce4e-27c1-4e45-ad26-1f4a35403811",
+                            "related_uuid": "22b0f331-e840-449b-9a38-ba522a06d730",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

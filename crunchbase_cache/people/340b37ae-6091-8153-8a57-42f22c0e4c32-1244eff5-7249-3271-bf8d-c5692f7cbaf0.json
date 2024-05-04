@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "db96a2a4-0edd-4c58-bcc7-dc42fb04e700",
+            "properties": {
+                "name": "Mr. Robert Buffone",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "db96a2a4-0edd-4c58-bcc7-dc42fb04e700",
+                    "value": "Mr. Robert Buffone"
+                },
+                "linkedin": "bbuffone",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2a241b99-9d90-4cc4-afd5-e8838f2bccb7",
+                            "related_uuid": "db96a2a4-0edd-4c58-bcc7-dc42fb04e700",
+                            "properties": {
+                                "job_title": "Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

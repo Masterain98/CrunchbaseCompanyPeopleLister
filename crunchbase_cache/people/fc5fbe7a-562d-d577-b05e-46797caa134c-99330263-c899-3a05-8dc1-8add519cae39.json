@@ -1,0 +1,126 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "756872f5-237d-4489-9ea9-edce3a14092d",
+            "properties": {
+                "name": "David Reich",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "756872f5-237d-4489-9ea9-edce3a14092d",
+                    "value": "David Reich"
+                },
+                "linkedin": "davereich",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "895fa6e6-fa4d-4586-8829-bc6f95c4aa3d",
+                            "related_uuid": "756872f5-237d-4489-9ea9-edce3a14092d",
+                            "properties": {
+                                "job_title": "CMO - Chief Magic Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e5381c1f-9ac9-479d-91d6-9fa9ba00d6a6",
+            "properties": {
+                "name": "Lindsey Lurie",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e5381c1f-9ac9-479d-91d6-9fa9ba00d6a6",
+                    "value": "Lindsey Lurie"
+                },
+                "linkedin": "lindseylurie",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8bee7909-06d4-4e7c-91de-f93d407b217f",
+                            "related_uuid": "e5381c1f-9ac9-479d-91d6-9fa9ba00d6a6",
+                            "properties": {
+                                "job_title": "CMO, IBM Cloud & Cognitive Software"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1dd83254-b2ea-4ac9-a9aa-bd6e81c0c697",
+            "properties": {
+                "name": "Meg Murphy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1dd83254-b2ea-4ac9-a9aa-bd6e81c0c697",
+                    "value": "Meg Murphy"
+                },
+                "linkedin": "megmurphy",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "65b08f44-c520-4719-b8c0-6117e7293515",
+                            "related_uuid": "1dd83254-b2ea-4ac9-a9aa-bd6e81c0c697",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer, IBM Systems & Partner Ecosystem"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "513f1ea0-b452-4773-a473-4433a352f0ea",
+            "properties": {
+                "name": "Simon Edward",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "513f1ea0-b452-4773-a473-4433a352f0ea",
+                    "value": "Simon Edward"
+                },
+                "linkedin": "simon-edward-14522834",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "435e610d-252f-4cfb-a1f4-bdfecbb790c3",
+                            "related_uuid": "513f1ea0-b452-4773-a473-4433a352f0ea",
+                            "properties": {
+                                "job_title": "Vice President, Chief Marketing Officer & Client Experience Leader, IBM UK and Ireland"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

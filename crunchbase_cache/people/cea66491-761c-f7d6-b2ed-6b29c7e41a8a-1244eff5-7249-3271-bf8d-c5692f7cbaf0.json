@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "75db546a-9d4f-424a-a54d-993f0b7da837",
+            "properties": {
+                "name": "Fernanda Weiden",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "75db546a-9d4f-424a-a54d-993f0b7da837",
+                    "value": "Fernanda Weiden"
+                },
+                "linkedin": "nandaweiden",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "928fe113-abe0-4880-9eb1-d4fee2f68edc",
+                            "related_uuid": "75db546a-9d4f-424a-a54d-993f0b7da837",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b5de45c1-888d-4481-99ed-f64cdf1ebd2d",
+            "properties": {
+                "name": "Artyom Keydunov",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5de45c1-888d-4481-99ed-f64cdf1ebd2d",
+                    "value": "Artyom Keydunov"
+                },
+                "linkedin": "keydunov",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2f0294b4-011e-484f-a280-fdd4870cf3cf",
+                            "related_uuid": "b5de45c1-888d-4481-99ed-f64cdf1ebd2d",
+                            "properties": {
+                                "job_title": "Co-Founder / CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

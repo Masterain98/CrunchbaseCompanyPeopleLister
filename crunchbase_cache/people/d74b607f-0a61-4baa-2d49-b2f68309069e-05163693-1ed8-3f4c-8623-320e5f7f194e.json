@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1821300b-7a5c-4d7f-beee-a6c83502628c",
+            "properties": {
+                "name": "Ross Kitchin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1821300b-7a5c-4d7f-beee-a6c83502628c",
+                    "value": "Ross Kitchin"
+                },
+                "linkedin": "ross-kitchin-37b29030",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "803de8ae-fb4b-45db-ac35-780f47fdfa3a",
+                            "related_uuid": "1821300b-7a5c-4d7f-beee-a6c83502628c",
+                            "properties": {
+                                "job_title": "Director, Communications and Strategy"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

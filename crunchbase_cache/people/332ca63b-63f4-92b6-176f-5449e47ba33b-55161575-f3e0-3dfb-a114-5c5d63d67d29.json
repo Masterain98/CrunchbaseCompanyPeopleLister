@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fa7afe50-db96-4dbe-8f0a-6e0d27819488",
+            "properties": {
+                "name": "Stan Pavlovsky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fa7afe50-db96-4dbe-8f0a-6e0d27819488",
+                    "value": "Stan Pavlovsky"
+                },
+                "linkedin": "stan-pavlovsky-ab26181",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f6096b7b-57d1-42cd-920b-b4892b28723b",
+                            "related_uuid": "fa7afe50-db96-4dbe-8f0a-6e0d27819488",
+                            "properties": {
+                                "job_title": "Chief Executive Officer, Shutterstock"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

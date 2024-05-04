@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "afa0b693-cf85-478e-8612-412f545d7916",
+            "properties": {
+                "name": "Mr. Patrick Romich",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "afa0b693-cf85-478e-8612-412f545d7916",
+                    "value": "Mr. Patrick Romich"
+                },
+                "linkedin": "patrickromich",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "390d6ec9-619e-4838-9039-208481d82900",
+                            "related_uuid": "afa0b693-cf85-478e-8612-412f545d7916",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

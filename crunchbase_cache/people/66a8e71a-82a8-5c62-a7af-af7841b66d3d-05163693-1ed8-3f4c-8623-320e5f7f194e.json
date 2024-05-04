@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d244649b-729c-43e3-bc95-84e1e1b0c6f1",
+            "properties": {
+                "name": "Michelle McNamara",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d244649b-729c-43e3-bc95-84e1e1b0c6f1",
+                    "value": "Michelle McNamara"
+                },
+                "linkedin": "michelle-mcnamara-59623454",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a0c11ece-d66c-46cd-bad0-fcfbfc46998d",
+                            "related_uuid": "d244649b-729c-43e3-bc95-84e1e1b0c6f1",
+                            "properties": {
+                                "job_title": "Director of Communications and Content"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

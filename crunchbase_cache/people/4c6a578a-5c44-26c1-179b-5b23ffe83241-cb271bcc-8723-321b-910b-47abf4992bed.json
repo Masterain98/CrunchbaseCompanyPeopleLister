@@ -1,0 +1,170 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "504589ef-aa14-4726-98f3-320c31d93a7d",
+            "properties": {
+                "name": "Adam Gundersen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "504589ef-aa14-4726-98f3-320c31d93a7d",
+                    "value": "Adam Gundersen"
+                },
+                "linkedin": "adam-gundersen-34744549",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "68fb31d6-4a3e-4e76-90aa-8bdcd0877b8c",
+                            "related_uuid": "504589ef-aa14-4726-98f3-320c31d93a7d",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e6ef9fc9-fdbe-4a7b-bb2f-2dd740213954",
+            "properties": {
+                "name": "Bryce Nelson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e6ef9fc9-fdbe-4a7b-bb2f-2dd740213954",
+                    "value": "Bryce Nelson"
+                },
+                "linkedin": "brycenelson",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "05cbb706-d015-48f5-8783-5a8f4c01398a",
+                            "related_uuid": "e6ef9fc9-fdbe-4a7b-bb2f-2dd740213954",
+                            "properties": {
+                                "job_title": "Associate Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4b7733e0-f668-42fe-a949-fda116cc3766",
+            "properties": {
+                "name": "Chase Brimhall",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4b7733e0-f668-42fe-a949-fda116cc3766",
+                    "value": "Chase Brimhall"
+                },
+                "linkedin": "chase-brimhall-9289b91a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "81562ee3-046f-4e08-9d1d-50f1a7b47b07",
+                            "related_uuid": "4b7733e0-f668-42fe-a949-fda116cc3766",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6da87f32-2996-4504-83db-3fdf5190532e",
+            "properties": {
+                "name": "Christian Allred",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6da87f32-2996-4504-83db-3fdf5190532e",
+                    "value": "Christian Allred"
+                },
+                "linkedin": "christian-allred-607161140",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2204f5c1-9be7-4d65-a449-1c9645a4815a",
+                            "related_uuid": "6da87f32-2996-4504-83db-3fdf5190532e",
+                            "properties": {
+                                "job_title": "Associate Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ef24628c-33b5-4b86-b9ae-086ecab831f0",
+            "properties": {
+                "name": "Jim Gifford",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ef24628c-33b5-4b86-b9ae-086ecab831f0",
+                    "value": "Jim Gifford"
+                },
+                "linkedin": "jim-gifford-90111174",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2ebc49e2-6457-4bcf-8e43-15bbd5f5330b",
+                            "related_uuid": "ef24628c-33b5-4b86-b9ae-086ecab831f0",
+                            "properties": {
+                                "job_title": "Associate Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

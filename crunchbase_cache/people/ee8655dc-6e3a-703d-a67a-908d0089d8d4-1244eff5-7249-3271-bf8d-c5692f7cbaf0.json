@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "710baeb1-0fa5-440e-93dd-3fa570d85aa8",
+            "properties": {
+                "name": "Tony Noecker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "710baeb1-0fa5-440e-93dd-3fa570d85aa8",
+                    "value": "Tony Noecker"
+                },
+                "linkedin": "noecker",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a45f77f1-e4a1-4a61-b3d6-872ec7352762",
+                            "related_uuid": "710baeb1-0fa5-440e-93dd-3fa570d85aa8",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

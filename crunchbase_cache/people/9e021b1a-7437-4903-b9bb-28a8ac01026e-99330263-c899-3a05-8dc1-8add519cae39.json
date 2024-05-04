@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "b3aa9afe-edaf-41a6-b7be-7990d768cd76",
+            "properties": {
+                "name": "Elenitsa Staykova",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b3aa9afe-edaf-41a6-b7be-7990d768cd76",
+                    "value": "Elenitsa Staykova"
+                },
+                "linkedin": "elenitsa-staykova-1a56b02",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b44e9507-2292-4a54-ae46-86334d800a05",
+                            "related_uuid": "b3aa9afe-edaf-41a6-b7be-7990d768cd76",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0608e8b0-00b9-404e-8f0d-a25a225950d5",
+            "properties": {
+                "name": "Jay Wampold",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0608e8b0-00b9-404e-8f0d-a25a225950d5",
+                    "value": "Jay Wampold"
+                },
+                "linkedin": "jaywampold",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0098b416-bf02-4ce0-a33b-e6c0f939f5f1",
+                            "related_uuid": "0608e8b0-00b9-404e-8f0d-a25a225950d5",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

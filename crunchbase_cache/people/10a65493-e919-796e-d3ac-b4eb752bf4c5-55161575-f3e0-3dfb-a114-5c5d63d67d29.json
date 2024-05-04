@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "05bba770-a406-4456-babe-1125f15c5869",
+            "properties": {
+                "name": "Shuang Chen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "05bba770-a406-4456-babe-1125f15c5869",
+                    "value": "Shuang Chen"
+                },
+                "linkedin": "shuang-chen-2b48398",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "28e5317c-7f48-4958-bce5-4c7591cc8282",
+                            "related_uuid": "05bba770-a406-4456-babe-1125f15c5869",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

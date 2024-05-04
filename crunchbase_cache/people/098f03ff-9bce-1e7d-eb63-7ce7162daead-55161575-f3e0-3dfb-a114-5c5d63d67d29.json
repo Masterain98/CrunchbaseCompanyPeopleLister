@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3dd9a69b-c2c8-4e72-92f3-d28c624ee86b",
+            "properties": {
+                "name": "Tim McKinnon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3dd9a69b-c2c8-4e72-92f3-d28c624ee86b",
+                    "value": "Tim McKinnon"
+                },
+                "linkedin": "timmckinnon",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2c365df6-6aff-48cf-a707-7773c6838908",
+                            "related_uuid": "3dd9a69b-c2c8-4e72-92f3-d28c624ee86b",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

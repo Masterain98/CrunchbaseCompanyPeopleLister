@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aabe2cad-bb9d-40b8-adb0-3f3253fdb334",
+            "properties": {
+                "name": "Kurt Andersen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aabe2cad-bb9d-40b8-adb0-3f3253fdb334",
+                    "value": "Kurt Andersen"
+                },
+                "linkedin": "kurt-andersen-798747",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "03f1923d-c23f-44d0-ba55-b1c21e6ec05a",
+                            "related_uuid": "aabe2cad-bb9d-40b8-adb0-3f3253fdb334",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

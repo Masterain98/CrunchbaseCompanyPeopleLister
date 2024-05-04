@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c09eaf01-466a-42c8-bb95-897d188f5cad",
+            "properties": {
+                "name": "Cameron Yarbrough",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c09eaf01-466a-42c8-bb95-897d188f5cad",
+                    "value": "Cameron Yarbrough"
+                },
+                "linkedin": "cameron-yarbrough-60579948",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "223b54fd-fca7-4ab4-bfd6-456e533ba668",
+                            "related_uuid": "c09eaf01-466a-42c8-bb95-897d188f5cad",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

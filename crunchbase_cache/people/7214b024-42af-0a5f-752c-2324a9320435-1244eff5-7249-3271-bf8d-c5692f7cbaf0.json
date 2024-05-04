@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "31ebb555-6252-41d4-80a5-d7bc3cb74ce7",
+            "properties": {
+                "name": "Brian Garofola",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "31ebb555-6252-41d4-80a5-d7bc3cb74ce7",
+                    "value": "Brian Garofola"
+                },
+                "linkedin": "briangarofola",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c3fe874c-ef89-4e20-8808-71208ae1ccf9",
+                            "related_uuid": "31ebb555-6252-41d4-80a5-d7bc3cb74ce7",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

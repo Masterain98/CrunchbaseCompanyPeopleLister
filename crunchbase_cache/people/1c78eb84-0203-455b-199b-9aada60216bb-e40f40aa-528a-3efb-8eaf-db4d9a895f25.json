@@ -1,0 +1,99 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "38e14903-4cf6-4834-a8bc-d41dcd89d336",
+            "properties": {
+                "name": "Peter Montgomery",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "38e14903-4cf6-4834-a8bc-d41dcd89d336",
+                    "value": "Peter Montgomery"
+                },
+                "linkedin": "petemontgomery",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "24242a52-ee6a-4b95-ac9d-3842078ec368",
+                            "related_uuid": "38e14903-4cf6-4834-a8bc-d41dcd89d336",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "12cf6483-4628-4130-a00d-83633e91eb5d",
+            "properties": {
+                "name": "Rob Barnett",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "12cf6483-4628-4130-a00d-83633e91eb5d",
+                    "value": "Rob Barnett"
+                },
+                "linkedin": "robbarnett01",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "95ca6c44-898d-4307-8a1d-4a20912ca065",
+                            "related_uuid": "12cf6483-4628-4130-a00d-83633e91eb5d",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "51ab92e6-8a25-421e-b2f0-d8803e07720d",
+            "properties": {
+                "name": "Verity Dookia",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "51ab92e6-8a25-421e-b2f0-d8803e07720d",
+                    "value": "Verity Dookia"
+                },
+                "linkedin": "verity-dookia-0009054",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "83260dee-51fd-4206-97d5-f471217c230d",
+                            "related_uuid": "51ab92e6-8a25-421e-b2f0-d8803e07720d",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

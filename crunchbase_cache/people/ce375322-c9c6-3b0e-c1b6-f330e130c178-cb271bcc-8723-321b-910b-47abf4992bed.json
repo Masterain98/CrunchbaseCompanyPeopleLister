@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "4dc0f194-3ef9-4296-86a2-db8ffb2f6aa5",
+            "properties": {
+                "name": "Darya Subotka",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4dc0f194-3ef9-4296-86a2-db8ffb2f6aa5",
+                    "value": "Darya Subotka"
+                },
+                "linkedin": "darya-subotka",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "760d9528-63fc-4e60-ae4f-8ca78cce8110",
+                            "related_uuid": "4dc0f194-3ef9-4296-86a2-db8ffb2f6aa5",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4716958d-37bb-4dd0-9e4b-db7238632d74",
+            "properties": {
+                "name": "Stephanie Hamilton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4716958d-37bb-4dd0-9e4b-db7238632d74",
+                    "value": "Stephanie Hamilton"
+                },
+                "linkedin": "hamiltonsd",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dad92bd3-6653-4d94-851e-9fee8f4ed4d3",
+                            "related_uuid": "4716958d-37bb-4dd0-9e4b-db7238632d74",
+                            "properties": {
+                                "job_title": "Director, Customer Success Business Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

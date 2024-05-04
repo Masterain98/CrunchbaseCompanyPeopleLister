@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b75e686a-d12e-48d5-9416-90a938046662",
+            "properties": {
+                "name": "Ashot Iskandarian",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b75e686a-d12e-48d5-9416-90a938046662",
+                    "value": "Ashot Iskandarian"
+                },
+                "linkedin": "aandarian",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f4afc4d-513b-4e38-bcda-f7ec332c6b69",
+                            "related_uuid": "b75e686a-d12e-48d5-9416-90a938046662",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

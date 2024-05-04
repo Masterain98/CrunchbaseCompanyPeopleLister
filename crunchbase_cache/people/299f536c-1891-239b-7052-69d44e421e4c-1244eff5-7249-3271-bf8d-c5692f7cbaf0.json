@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "95c66b74-11cf-4c11-989e-49acb5973482",
+            "properties": {
+                "name": "Jeff Miller",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "95c66b74-11cf-4c11-989e-49acb5973482",
+                    "value": "Jeff Miller"
+                },
+                "linkedin": "jeffmiller00",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "379e4c1e-9fe7-4646-a282-6b6870662fb0",
+                            "related_uuid": "95c66b74-11cf-4c11-989e-49acb5973482",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

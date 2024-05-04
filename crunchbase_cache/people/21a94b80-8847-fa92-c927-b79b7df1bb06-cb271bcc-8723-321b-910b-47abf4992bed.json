@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "21eabdd2-ef0e-40ad-a9f5-cf14a5bac409",
+            "properties": {
+                "name": "Kylie Tabrett",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "21eabdd2-ef0e-40ad-a9f5-cf14a5bac409",
+                    "value": "Kylie Tabrett"
+                },
+                "linkedin": "kylietabrett",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bf89ba55-d1f7-49f6-8c08-4ad61834c902",
+                            "related_uuid": "21eabdd2-ef0e-40ad-a9f5-cf14a5bac409",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b8f553fe-0d49-4eb9-8074-bbfb9706bba1",
+            "properties": {
+                "name": "Nick Mezlak",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b8f553fe-0d49-4eb9-8074-bbfb9706bba1",
+                    "value": "Nick Mezlak"
+                },
+                "linkedin": "nicholas-mezlak-mba-69416314",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0212fac0-2e6b-42b7-800b-4b76db946c2c",
+                            "related_uuid": "b8f553fe-0d49-4eb9-8074-bbfb9706bba1",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

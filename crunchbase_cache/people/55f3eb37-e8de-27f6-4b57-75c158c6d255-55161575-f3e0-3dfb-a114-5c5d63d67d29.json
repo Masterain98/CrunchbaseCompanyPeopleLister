@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e2c3844c-6d41-4316-bb1e-b68cea55b6b6",
+            "properties": {
+                "name": "Brian Provost",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e2c3844c-6d41-4316-bb1e-b68cea55b6b6",
+                    "value": "Brian Provost"
+                },
+                "linkedin": "brianprovostceo",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a17ca6fd-d0d0-4ca6-b8c9-3c9cc64b858e",
+                            "related_uuid": "e2c3844c-6d41-4316-bb1e-b68cea55b6b6",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

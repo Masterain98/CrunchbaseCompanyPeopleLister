@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3fc7a7c4-eb79-434c-9618-e21a96e79134",
+            "properties": {
+                "name": "Mike Baukes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3fc7a7c4-eb79-434c-9618-e21a96e79134",
+                    "value": "Mike Baukes"
+                },
+                "linkedin": "mikebaukes",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cd752770-6b9e-4a07-9ecb-d619355949ec",
+                            "related_uuid": "3fc7a7c4-eb79-434c-9618-e21a96e79134",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aa5e014c-e3f8-43f5-b8c0-a6567cd52aa7",
+            "properties": {
+                "name": "Alvaro Correia",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aa5e014c-e3f8-43f5-b8c0-a6567cd52aa7",
+                    "value": "Alvaro Correia"
+                },
+                "linkedin": "alvaro-correia-mcips-877a9913",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6b5a890f-8ec7-4280-8e28-0da26a1ff502",
+                            "related_uuid": "aa5e014c-e3f8-43f5-b8c0-a6567cd52aa7",
+                            "properties": {
+                                "job_title": "Senior Director - Global Supply Chain"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f9892e4f-c02d-4b96-8b21-4fbf4e09ca1f",
+            "properties": {
+                "name": "Dan Slagen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f9892e4f-c02d-4b96-8b21-4fbf4e09ca1f",
+                    "value": "Dan Slagen"
+                },
+                "linkedin": "dan-slagen-718675a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "98a048b4-b3fc-441f-930d-d43dd8752a3d",
+                            "related_uuid": "f9892e4f-c02d-4b96-8b21-4fbf4e09ca1f",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

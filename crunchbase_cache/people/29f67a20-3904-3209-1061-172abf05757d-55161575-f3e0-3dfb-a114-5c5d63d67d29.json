@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0a99248b-77b5-4c63-a8fa-d4cd759258bf",
+            "properties": {
+                "name": "Alix de Sagazan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0a99248b-77b5-4c63-a8fa-d4cd759258bf",
+                    "value": "Alix de Sagazan"
+                },
+                "linkedin": "alixddsagazan",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6a5a5e7f-9952-42bb-aea0-6f97a47c0f0e",
+                            "related_uuid": "0a99248b-77b5-4c63-a8fa-d4cd759258bf",
+                            "properties": {
+                                "job_title": "CEO & Cofounder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

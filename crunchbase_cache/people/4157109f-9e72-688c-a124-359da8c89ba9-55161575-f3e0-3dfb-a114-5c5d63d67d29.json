@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "63bef008-3e69-4bc6-be7e-23a07ea1fcdd",
+            "properties": {
+                "name": "Chris Comparato",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "63bef008-3e69-4bc6-be7e-23a07ea1fcdd",
+                    "value": "Chris Comparato"
+                },
+                "linkedin": "chriscomparato",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "241b0c6f-0f67-4178-aeea-45ddb418d744",
+                            "related_uuid": "63bef008-3e69-4bc6-be7e-23a07ea1fcdd",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

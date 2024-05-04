@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "3377e4a5-bee6-461f-a9b3-a7f90cc6f92b",
+            "properties": {
+                "name": "Khurram Amanullah",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3377e4a5-bee6-461f-a9b3-a7f90cc6f92b",
+                    "value": "Khurram Amanullah"
+                },
+                "linkedin": "khurram-amanullah-pmp-14b2a95",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "product"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4abd4b7a-26a5-4df5-bcba-e768625cd669",
+                            "related_uuid": "3377e4a5-bee6-461f-a9b3-a7f90cc6f92b",
+                            "properties": {
+                                "job_title": "Director Program / Product Management / Supply Chain / Operations & NPI Development"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bfff777d-d339-42bb-b309-e5a66a7cc230",
+            "properties": {
+                "name": "Navdeep Mann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bfff777d-d339-42bb-b309-e5a66a7cc230",
+                    "value": "Navdeep Mann"
+                },
+                "linkedin": "navdeep-mann-3b6b552",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2111cdce-7a27-44d2-b8e6-ebd60c6b2be5",
+                            "related_uuid": "bfff777d-d339-42bb-b309-e5a66a7cc230",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

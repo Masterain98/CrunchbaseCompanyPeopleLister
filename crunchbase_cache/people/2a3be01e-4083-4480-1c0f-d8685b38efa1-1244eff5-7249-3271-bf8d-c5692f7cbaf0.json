@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "16fb99a3-5bb7-4b17-998c-c6ddf2050610",
+            "properties": {
+                "name": "Hugh Cumming",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "16fb99a3-5bb7-4b17-998c-c6ddf2050610",
+                    "value": "Hugh Cumming"
+                },
+                "linkedin": "hughwcumming",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0499725b-0f63-4915-b077-80433b145ffc",
+                            "related_uuid": "16fb99a3-5bb7-4b17-998c-c6ddf2050610",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

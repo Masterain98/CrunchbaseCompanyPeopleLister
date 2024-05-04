@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3a20f44f-0fca-4722-b670-bde6b9402c63",
+            "properties": {
+                "name": "Paul Fennell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3a20f44f-0fca-4722-b670-bde6b9402c63",
+                    "value": "Paul Fennell"
+                },
+                "linkedin": "fennellpaul",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b6fcb88f-265b-4fac-9269-b5a91b845200",
+                            "related_uuid": "3a20f44f-0fca-4722-b670-bde6b9402c63",
+                            "properties": {
+                                "job_title": "Director of Customer Success | Americas"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

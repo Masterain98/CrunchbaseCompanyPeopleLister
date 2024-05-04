@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "53f37ae6-3ca7-4435-b1ec-77c0ed7d71cd",
+            "properties": {
+                "name": "Jill Naha",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "53f37ae6-3ca7-4435-b1ec-77c0ed7d71cd",
+                    "value": "Jill Naha"
+                },
+                "linkedin": "jillnaha",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "82b90ad1-d2a1-445e-8e6e-00c0444fe1c4",
+                            "related_uuid": "53f37ae6-3ca7-4435-b1ec-77c0ed7d71cd",
+                            "properties": {
+                                "job_title": "Director of Client Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

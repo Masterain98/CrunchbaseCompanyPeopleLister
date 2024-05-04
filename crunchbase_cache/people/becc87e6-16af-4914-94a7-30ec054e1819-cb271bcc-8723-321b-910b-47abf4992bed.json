@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "2cab8fa8-9415-41e2-88fd-0513e171e559",
+            "properties": {
+                "name": "Alyssa Hewitt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2cab8fa8-9415-41e2-88fd-0513e171e559",
+                    "value": "Alyssa Hewitt"
+                },
+                "linkedin": "alyssahewitt",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "21e62de7-2691-4307-bb19-d83532e94949",
+                            "related_uuid": "2cab8fa8-9415-41e2-88fd-0513e171e559",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f5618bd9-ee89-4cb9-97e1-8a54abf105c0",
+            "properties": {
+                "name": "Lovey Tolwani",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f5618bd9-ee89-4cb9-97e1-8a54abf105c0",
+                    "value": "Lovey Tolwani"
+                },
+                "linkedin": "lovey-tolwani",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "140757dd-ee21-4093-9236-bbbf04f4ae9f",
+                            "related_uuid": "f5618bd9-ee89-4cb9-97e1-8a54abf105c0",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

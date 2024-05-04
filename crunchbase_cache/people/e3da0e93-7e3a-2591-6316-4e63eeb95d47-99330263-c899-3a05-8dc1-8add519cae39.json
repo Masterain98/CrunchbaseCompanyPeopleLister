@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "71e9e3ea-7a85-4973-bc94-bd2f4b279005",
+            "properties": {
+                "name": "Dave gerhardt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "71e9e3ea-7a85-4973-bc94-bd2f4b279005",
+                    "value": "Dave gerhardt"
+                },
+                "linkedin": "davegerhardt",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "610e86e0-0919-488e-9288-087ffbaca5c9",
+                            "related_uuid": "71e9e3ea-7a85-4973-bc94-bd2f4b279005",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "134600b6-6446-4e41-9b31-aa20b43fb6b4",
+            "properties": {
+                "name": "Katie J Foote",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "134600b6-6446-4e41-9b31-aa20b43fb6b4",
+                    "value": "Katie J Foote"
+                },
+                "linkedin": "katie-j-foote-72195325",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8b1627d9-e2cb-4122-bfa2-b56e88f00997",
+                            "related_uuid": "134600b6-6446-4e41-9b31-aa20b43fb6b4",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

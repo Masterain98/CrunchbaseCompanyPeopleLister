@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "44a0e2f1-a168-47a4-88e2-cec53ecea6ad",
+            "properties": {
+                "name": "Sarah Carter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "44a0e2f1-a168-47a4-88e2-cec53ecea6ad",
+                    "value": "Sarah Carter"
+                },
+                "linkedin": "sarahjlcarter",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9b28ae92-708a-474a-a7f7-949309d1bea2",
+                            "related_uuid": "44a0e2f1-a168-47a4-88e2-cec53ecea6ad",
+                            "properties": {
+                                "job_title": "Director of Brand & Creative"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

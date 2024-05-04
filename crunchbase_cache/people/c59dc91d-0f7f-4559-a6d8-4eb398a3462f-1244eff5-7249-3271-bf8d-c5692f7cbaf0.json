@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "535debaa-4afb-4302-abf2-0af809ce7c68",
+            "properties": {
+                "name": "Jonathan Starck",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "535debaa-4afb-4302-abf2-0af809ce7c68",
+                    "value": "Jonathan Starck"
+                },
+                "linkedin": "jonathan-starck-0727a06",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "97441734-dd8e-4313-850f-22123d516586",
+                            "related_uuid": "535debaa-4afb-4302-abf2-0af809ce7c68",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

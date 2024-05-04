@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "90b323f2-c47a-4af5-b4d8-bcd7514aa60a",
+            "properties": {
+                "name": "Ganesh Swami",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "90b323f2-c47a-4af5-b4d8-bcd7514aa60a",
+                    "value": "Ganesh Swami"
+                },
+                "linkedin": "ganswami",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "748f0a8b-7560-44b3-8d57-17fa6b48b124",
+                            "related_uuid": "90b323f2-c47a-4af5-b4d8-bcd7514aa60a",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

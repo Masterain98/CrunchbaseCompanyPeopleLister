@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bed522e8-792a-4a31-bcf3-130fb288ae26",
+            "properties": {
+                "name": "Pranav Tyagi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bed522e8-792a-4a31-bcf3-130fb288ae26",
+                    "value": "Pranav Tyagi"
+                },
+                "linkedin": "pranavtyagi",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "01e27fd4-71e7-43d5-bef1-d874d0e0f384",
+                            "related_uuid": "bed522e8-792a-4a31-bcf3-130fb288ae26",
+                            "properties": {
+                                "job_title": "Founder, President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

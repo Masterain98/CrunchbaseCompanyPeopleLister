@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "70accb57-b240-4627-9695-183d1b0a1ab0",
+            "properties": {
+                "name": "Nikhil Chawla",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "70accb57-b240-4627-9695-183d1b0a1ab0",
+                    "value": "Nikhil Chawla"
+                },
+                "linkedin": "nikchawla",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "18f630c6-b363-4ef8-929b-ad7943b1106a",
+                            "related_uuid": "70accb57-b240-4627-9695-183d1b0a1ab0",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

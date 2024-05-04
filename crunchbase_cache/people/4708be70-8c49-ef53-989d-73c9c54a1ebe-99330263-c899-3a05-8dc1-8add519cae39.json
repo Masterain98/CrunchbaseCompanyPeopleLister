@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "40a2ff9a-7839-4503-89ea-9b1a1eba130d",
+            "properties": {
+                "name": "Bob Davis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "40a2ff9a-7839-4503-89ea-9b1a1eba130d",
+                    "value": "Bob Davis"
+                },
+                "linkedin": "bob-davis-6181748",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f8f0c65-1726-4eed-8f42-f01eea103486",
+                            "related_uuid": "40a2ff9a-7839-4503-89ea-9b1a1eba130d",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

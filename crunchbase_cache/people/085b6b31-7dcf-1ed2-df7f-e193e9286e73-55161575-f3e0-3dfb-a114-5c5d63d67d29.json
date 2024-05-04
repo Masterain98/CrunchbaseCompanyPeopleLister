@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6da29c41-dcb9-4b07-9d9e-491481c98bd4",
+            "properties": {
+                "name": "William Feehery",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6da29c41-dcb9-4b07-9d9e-491481c98bd4",
+                    "value": "William Feehery"
+                },
+                "linkedin": "wfeehery",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "09e368e2-d297-4dda-bae6-6b74cd3f1373",
+                            "related_uuid": "6da29c41-dcb9-4b07-9d9e-491481c98bd4",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

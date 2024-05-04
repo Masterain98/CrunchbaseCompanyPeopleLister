@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9d5f1f13-b373-4e4d-bf5e-7a0d0047853f",
+            "properties": {
+                "name": "McKenzie Godwin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9d5f1f13-b373-4e4d-bf5e-7a0d0047853f",
+                    "value": "McKenzie Godwin"
+                },
+                "linkedin": "mckenzie-godwin-843a17109",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2eec5714-348b-402b-a37d-b4108d2d1230",
+                            "related_uuid": "9d5f1f13-b373-4e4d-bf5e-7a0d0047853f",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

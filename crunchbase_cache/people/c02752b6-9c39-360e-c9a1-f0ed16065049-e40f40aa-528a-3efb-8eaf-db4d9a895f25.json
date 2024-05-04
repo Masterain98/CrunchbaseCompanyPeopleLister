@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "98edc362-d54f-4889-b8ee-40855ae7bfc0",
+            "properties": {
+                "name": "Wes Heaton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "98edc362-d54f-4889-b8ee-40855ae7bfc0",
+                    "value": "Wes Heaton"
+                },
+                "linkedin": "wes-heaton-687a966",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0fc5990e-addf-40b3-972e-417f221cf0cc",
+                            "related_uuid": "98edc362-d54f-4889-b8ee-40855ae7bfc0",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

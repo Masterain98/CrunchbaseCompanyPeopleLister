@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "47bbc1af-3f3c-43ec-8c3a-564e964a4e23",
+            "properties": {
+                "name": "Robert L\u00f6nn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "47bbc1af-3f3c-43ec-8c3a-564e964a4e23",
+                    "value": "Robert L\u00f6nn"
+                },
+                "linkedin": "rlonn",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c2a5a7c5-7f2c-4012-adaa-f7b117712d05",
+                            "related_uuid": "47bbc1af-3f3c-43ec-8c3a-564e964a4e23",
+                            "properties": {
+                                "job_title": "Director Brand, Marketing & Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

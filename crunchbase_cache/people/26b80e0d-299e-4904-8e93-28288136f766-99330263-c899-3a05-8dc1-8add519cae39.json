@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "09e4d3bb-03c5-46be-bd4e-9e8dded4c992",
+            "properties": {
+                "name": "Jill Ransome",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "09e4d3bb-03c5-46be-bd4e-9e8dded4c992",
+                    "value": "Jill Ransome"
+                },
+                "linkedin": "jransome",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2092a5e4-a9b8-43ed-a471-042f1f196127",
+                            "related_uuid": "09e4d3bb-03c5-46be-bd4e-9e8dded4c992",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

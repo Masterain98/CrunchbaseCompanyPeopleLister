@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "972dfbc7-5909-43ba-adde-c843386ed2f1",
+            "properties": {
+                "name": "Tigran Sloyan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "972dfbc7-5909-43ba-adde-c843386ed2f1",
+                    "value": "Tigran Sloyan"
+                },
+                "linkedin": "tigransloyan",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2ac27967-255f-4dd6-b2dd-da6c801f63a4",
+                            "related_uuid": "972dfbc7-5909-43ba-adde-c843386ed2f1",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

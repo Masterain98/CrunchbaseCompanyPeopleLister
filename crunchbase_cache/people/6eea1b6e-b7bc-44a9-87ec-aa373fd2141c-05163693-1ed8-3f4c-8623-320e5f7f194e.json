@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "65eb99ae-04fa-4192-950a-10ef99114549",
+            "properties": {
+                "name": "Zander Wharton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "65eb99ae-04fa-4192-950a-10ef99114549",
+                    "value": "Zander Wharton"
+                },
+                "linkedin": "zander-wharton-663322101",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2035e47e-c3e4-4b8a-955b-efb03f27375f",
+                            "related_uuid": "65eb99ae-04fa-4192-950a-10ef99114549",
+                            "properties": {
+                                "job_title": "Director of Brand and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8f24b468-42a2-4feb-a93f-175079f5b82b",
+            "properties": {
+                "name": "Joris Poort",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8f24b468-42a2-4feb-a93f-175079f5b82b",
+                    "value": "Joris Poort"
+                },
+                "linkedin": "gpoort",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2b7ddddf-7186-46ef-bf2d-4ef009fa9286",
+                            "related_uuid": "8f24b468-42a2-4feb-a93f-175079f5b82b",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

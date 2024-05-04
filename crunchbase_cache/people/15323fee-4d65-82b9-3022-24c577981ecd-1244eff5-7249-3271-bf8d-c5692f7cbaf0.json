@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d9750915-8e35-4718-814b-ef407a5e6c90",
+            "properties": {
+                "name": "Kyle Brown",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d9750915-8e35-4718-814b-ef407a5e6c90",
+                    "value": "Kyle Brown"
+                },
+                "linkedin": "kyletbrown",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d5aaad00-0089-4d58-9367-108e1fc526f8",
+                            "related_uuid": "d9750915-8e35-4718-814b-ef407a5e6c90",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

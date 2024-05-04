@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6734a3e5-2371-453f-86e2-f52ad90842c5",
+            "properties": {
+                "name": "Nick Durkin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6734a3e5-2371-453f-86e2-f52ad90842c5",
+                    "value": "Nick Durkin"
+                },
+                "linkedin": "nickdurkin",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f34bae2-86ab-48f2-8fab-cc88fe61adfb",
+                            "related_uuid": "6734a3e5-2371-453f-86e2-f52ad90842c5",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

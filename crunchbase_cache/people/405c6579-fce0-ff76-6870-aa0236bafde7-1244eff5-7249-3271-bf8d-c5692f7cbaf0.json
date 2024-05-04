@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "d531982c-b726-4dc3-9ce9-1701255826f7",
+            "properties": {
+                "name": "Mikael Ottosson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d531982c-b726-4dc3-9ce9-1701255826f7",
+                    "value": "Mikael Ottosson"
+                },
+                "linkedin": "mottosson",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "68e562c6-3b69-4535-80c5-a352a0451774",
+                            "related_uuid": "d531982c-b726-4dc3-9ce9-1701255826f7",
+                            "properties": {
+                                "job_title": "EVP and Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "edfae62b-68cf-4da8-a211-b65da0c8bb03",
+            "properties": {
+                "name": "Pardha Reddy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "edfae62b-68cf-4da8-a211-b65da0c8bb03",
+                    "value": "Pardha Reddy"
+                },
+                "linkedin": "pardha-reddy-a39636",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "436a3d0a-7911-4737-bdc8-ceeed5a69572",
+                            "related_uuid": "edfae62b-68cf-4da8-a211-b65da0c8bb03",
+                            "properties": {
+                                "job_title": "EVP, Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

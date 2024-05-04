@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8455d10b-64b9-4d28-8062-157ae65dfc11",
+            "properties": {
+                "name": "Todd Wells",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8455d10b-64b9-4d28-8062-157ae65dfc11",
+                    "value": "Todd Wells"
+                },
+                "linkedin": "todd-wells",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "58accc7a-5588-42f9-be0b-f928fde17c3e",
+                            "related_uuid": "8455d10b-64b9-4d28-8062-157ae65dfc11",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

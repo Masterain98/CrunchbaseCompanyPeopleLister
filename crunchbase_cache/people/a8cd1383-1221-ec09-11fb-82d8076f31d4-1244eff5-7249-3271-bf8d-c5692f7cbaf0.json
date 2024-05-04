@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f3f72b3e-d5d6-41a0-ad01-cb772b171b42",
+            "properties": {
+                "name": "Tony Lee",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f3f72b3e-d5d6-41a0-ad01-cb772b171b42",
+                    "value": "Tony Lee"
+                },
+                "linkedin": "tonyleesf",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "af176eb1-2843-4469-b18d-3f9267c86482",
+                            "related_uuid": "f3f72b3e-d5d6-41a0-ad01-cb772b171b42",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

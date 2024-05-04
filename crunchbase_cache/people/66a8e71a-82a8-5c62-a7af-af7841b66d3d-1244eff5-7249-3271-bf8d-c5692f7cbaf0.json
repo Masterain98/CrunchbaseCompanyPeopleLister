@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "03916ba0-b0dd-4a01-baba-f78354c1bf2b",
+            "properties": {
+                "name": "Jacob Boudreau",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "03916ba0-b0dd-4a01-baba-f78354c1bf2b",
+                    "value": "Jacob Boudreau"
+                },
+                "linkedin": "jacobboudreau",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "73843f40-ae1a-4d21-a361-eb0a530dd47d",
+                            "related_uuid": "03916ba0-b0dd-4a01-baba-f78354c1bf2b",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7355b9dd-7892-4ea9-96e6-d5c2c0614820",
+            "properties": {
+                "name": "Mark Weislow",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7355b9dd-7892-4ea9-96e6-d5c2c0614820",
+                    "value": "Mark Weislow"
+                },
+                "linkedin": "mweislow",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "42cc290f-d86d-4bf6-bb4c-3fae9e33b131",
+                            "related_uuid": "7355b9dd-7892-4ea9-96e6-d5c2c0614820",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

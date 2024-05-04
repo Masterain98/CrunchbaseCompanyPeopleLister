@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "99bbf430-feb2-4bd5-a87b-34e4831e03b8",
+            "properties": {
+                "name": "Kitera Dent",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "99bbf430-feb2-4bd5-a87b-34e4831e03b8",
+                    "value": "Kitera Dent"
+                },
+                "linkedin": "kitera-dent-7782143b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "119caff3-cf49-4a9f-9843-9f42f453cfb9",
+                            "related_uuid": "99bbf430-feb2-4bd5-a87b-34e4831e03b8",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "co-founder",
+                "uuid": "67f94724-6ebb-36e8-ba2a-600d3fda1e4f",
+                "value": "Co-Founder"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "controller",
+                "uuid": "594c103f-2c6e-34c3-98ab-059f031e0c1a",
+                "value": "Controller"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "creative-project-manager",
+                "uuid": "d7e3a97f-d095-3221-8778-eba027a3a987",
+                "value": "Creative Project Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "content-editor",
+                "uuid": "54e0df6d-cbff-3adb-a643-8d1e7050cdba",
+                "value": "Content Editor"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-support-specialist",
+                "uuid": "96cf0a25-2e89-3f1f-ae2a-5632cad15cc0",
+                "value": "Senior Customer Support Specialist"
+            }
+        }
+    ]
+}

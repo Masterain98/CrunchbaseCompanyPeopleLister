@@ -1,0 +1,29 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chief-of-staff",
+                "uuid": "9000f488-7fc0-37fb-9de9-3b13c17c9dea",
+                "value": "Chief Of Staff"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "analyst-quality-control",
+                "uuid": "fb7acb66-5bea-3ad8-8d2a-a5f36041d9eb",
+                "value": "Analyst, Quality Control"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-content-strategist",
+                "uuid": "01919667-1dc8-3d6f-aef6-af862c8b177c",
+                "value": "Senior Content Strategist"
+            }
+        }
+    ]
+}

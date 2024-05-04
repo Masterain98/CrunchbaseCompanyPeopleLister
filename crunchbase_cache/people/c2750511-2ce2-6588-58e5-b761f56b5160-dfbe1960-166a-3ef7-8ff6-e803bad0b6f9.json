@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8fd55526-d61c-4d6b-bd39-ab574d2b80d1",
+            "properties": {
+                "name": "Wyn Merchant",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8fd55526-d61c-4d6b-bd39-ab574d2b80d1",
+                    "value": "Wyn Merchant"
+                },
+                "linkedin": "wynmerchant",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "eb4f7398-0775-4250-94db-94ff7bf8d17a",
+                            "related_uuid": "8fd55526-d61c-4d6b-bd39-ab574d2b80d1",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

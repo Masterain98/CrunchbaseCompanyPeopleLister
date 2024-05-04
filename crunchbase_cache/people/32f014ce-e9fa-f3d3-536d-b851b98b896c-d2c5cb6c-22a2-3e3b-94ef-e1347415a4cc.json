@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "62864324-f32c-4376-875c-bc69c485eeac",
+            "properties": {
+                "name": "Andy Dolan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "62864324-f32c-4376-875c-bc69c485eeac",
+                    "value": "Andy Dolan"
+                },
+                "linkedin": "andy-dolan",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4cf673aa-6dbd-4ca3-8906-7f1878e26e05",
+                            "related_uuid": "62864324-f32c-4376-875c-bc69c485eeac",
+                            "properties": {
+                                "job_title": "Director of Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "aaa68fc9-e622-4c6b-a2db-c0058b69bb1c",
+            "properties": {
+                "name": "Sara Johnson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aaa68fc9-e622-4c6b-a2db-c0058b69bb1c",
+                    "value": "Sara Johnson"
+                },
+                "linkedin": "sara-johnson-b95t",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "192c2d27-ae74-4e54-8a82-6b7ca7c39d9a",
+                            "related_uuid": "aaa68fc9-e622-4c6b-a2db-c0058b69bb1c",
+                            "properties": {
+                                "job_title": "Director of Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

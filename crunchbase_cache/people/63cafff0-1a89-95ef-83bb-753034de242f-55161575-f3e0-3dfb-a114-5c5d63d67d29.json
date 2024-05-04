@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5557ea17-e13c-48f4-a424-a9c8ae812852",
+            "properties": {
+                "name": "Robert Stevenson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5557ea17-e13c-48f4-a424-a9c8ae812852",
+                    "value": "Robert Stevenson"
+                },
+                "linkedin": "robertstevenson",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "95d9b69a-e8d9-4885-b4af-f4935c2a5b2c",
+                            "related_uuid": "5557ea17-e13c-48f4-a424-a9c8ae812852",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

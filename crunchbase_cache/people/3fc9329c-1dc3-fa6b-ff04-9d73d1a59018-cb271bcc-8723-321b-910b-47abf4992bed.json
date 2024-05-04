@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "072390ce-376f-46f2-932b-e48e1c19c34e",
+            "properties": {
+                "name": "Brett Milstein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "072390ce-376f-46f2-932b-e48e1c19c34e",
+                    "value": "Brett Milstein"
+                },
+                "linkedin": "brett-milstein",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "003c1b9f-a6d5-41b3-a771-16d2ef0220a1",
+                            "related_uuid": "072390ce-376f-46f2-932b-e48e1c19c34e",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "caea2a56-5f8e-4785-adee-530b888965ce",
+            "properties": {
+                "name": "William Heckadon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "caea2a56-5f8e-4785-adee-530b888965ce",
+                    "value": "William Heckadon"
+                },
+                "linkedin": "williamheckadon",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f4b93f2d-31bf-4560-bdec-e77635bec55c",
+                            "related_uuid": "caea2a56-5f8e-4785-adee-530b888965ce",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

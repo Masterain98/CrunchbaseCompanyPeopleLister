@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "073d6029-553e-4f4a-a656-f890b9b00a91",
+            "properties": {
+                "name": "Cody Winters",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "073d6029-553e-4f4a-a656-f890b9b00a91",
+                    "value": "Cody Winters"
+                },
+                "linkedin": "cody-winters",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9f72c67a-1bd2-4bf5-9b99-d84916d0caa4",
+                            "related_uuid": "073d6029-553e-4f4a-a656-f890b9b00a91",
+                            "properties": {
+                                "job_title": "Senior Director-Talent Supply Chain"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c61eb8f0-eb68-4d80-ae4f-fa4aeb4586fc",
+            "properties": {
+                "name": "Steve Roskowski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c61eb8f0-eb68-4d80-ae4f-fa4aeb4586fc",
+                    "value": "Steve Roskowski"
+                },
+                "linkedin": "steveroskowski",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "45615c27-c950-46ca-839d-34792e74365d",
+                            "related_uuid": "c61eb8f0-eb68-4d80-ae4f-fa4aeb4586fc",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5e7f4b21-c534-4f0b-aa66-cebf99067c44",
+            "properties": {
+                "name": "Jamie Hutton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5e7f4b21-c534-4f0b-aa66-cebf99067c44",
+                    "value": "Jamie Hutton"
+                },
+                "linkedin": "huttonjamie",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "199d66ae-64c9-414c-b310-5317e4aa3e4a",
+                            "related_uuid": "5e7f4b21-c534-4f0b-aa66-cebf99067c44",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

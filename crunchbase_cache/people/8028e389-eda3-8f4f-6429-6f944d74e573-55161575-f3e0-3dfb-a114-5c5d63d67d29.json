@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7cd2f989-3840-4ebe-a07d-2b33cee970fb",
+            "properties": {
+                "name": "Jack Mulloy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7cd2f989-3840-4ebe-a07d-2b33cee970fb",
+                    "value": "Jack Mulloy"
+                },
+                "linkedin": "jackmulloy",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "27f2e431-34d5-480f-ab82-8594733da43b",
+                            "related_uuid": "7cd2f989-3840-4ebe-a07d-2b33cee970fb",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

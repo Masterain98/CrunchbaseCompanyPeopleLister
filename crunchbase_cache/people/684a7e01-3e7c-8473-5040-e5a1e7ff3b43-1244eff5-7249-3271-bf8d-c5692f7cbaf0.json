@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ca92b92f-113e-4237-be46-2eb6cd1c60e2",
+            "properties": {
+                "name": "Leon Chism",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ca92b92f-113e-4237-be46-2eb6cd1c60e2",
+                    "value": "Leon Chism"
+                },
+                "linkedin": "leonchism",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d519287e-85b9-4223-a653-a35df28e783a",
+                            "related_uuid": "ca92b92f-113e-4237-be46-2eb6cd1c60e2",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

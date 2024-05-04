@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c514ff2b-ffc6-42b0-b813-61cea1a5ccf4",
+            "properties": {
+                "name": "Kevin Hall",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c514ff2b-ffc6-42b0-b813-61cea1a5ccf4",
+                    "value": "Kevin Hall"
+                },
+                "linkedin": "kevinhallsource",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "18438331-be08-4a43-bb3c-0b4c5c821cf3",
+                            "related_uuid": "c514ff2b-ffc6-42b0-b813-61cea1a5ccf4",
+                            "properties": {
+                                "job_title": "CTO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

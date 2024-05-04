@@ -1,0 +1,100 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "2ef74208-0cf7-4d79-947c-63a9a83c8eda",
+            "properties": {
+                "name": "Laurie Blodgett",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2ef74208-0cf7-4d79-947c-63a9a83c8eda",
+                    "value": "Laurie Blodgett"
+                },
+                "linkedin": "laurie-blodgett-pmp-csm-b7050b7",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3a88ec2f-c4ad-4155-bcde-d636bc8bb391",
+                            "related_uuid": "2ef74208-0cf7-4d79-947c-63a9a83c8eda",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "09bc546b-3c8d-4e0d-8f00-860a12a809fb",
+            "properties": {
+                "name": "Mili Desai",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "09bc546b-3c8d-4e0d-8f00-860a12a809fb",
+                    "value": "Mili Desai"
+                },
+                "linkedin": "mili-desai-8b496465",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "legal",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "210a4939-a012-4093-b478-03fdc9784b43",
+                            "related_uuid": "09bc546b-3c8d-4e0d-8f00-860a12a809fb",
+                            "properties": {
+                                "job_title": "Senior Director, Legal Category"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ca72ff36-a1b7-4fae-af72-eadbd12f07c1",
+            "properties": {
+                "name": "Sarah Wasylyszyn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ca72ff36-a1b7-4fae-af72-eadbd12f07c1",
+                    "value": "Sarah Wasylyszyn"
+                },
+                "linkedin": "sarah-wasylyszyn-2845a311",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2c3c8430-010b-4a6f-8da7-8ae8d4e13787",
+                            "related_uuid": "ca72ff36-a1b7-4fae-af72-eadbd12f07c1",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

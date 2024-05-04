@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "45585a67-ecc8-4ea6-a517-8ca6cfb0af3f",
+            "properties": {
+                "name": "Zig Serafin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "45585a67-ecc8-4ea6-a517-8ca6cfb0af3f",
+                    "value": "Zig Serafin"
+                },
+                "linkedin": "zigserafin",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "57a6581a-7e18-49f3-90f9-a1c760eb3922",
+                            "related_uuid": "45585a67-ecc8-4ea6-a517-8ca6cfb0af3f",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

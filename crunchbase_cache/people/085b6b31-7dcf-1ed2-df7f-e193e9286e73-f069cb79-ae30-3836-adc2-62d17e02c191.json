@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "e0633539-ec6e-4a29-9853-888c494abde1",
+            "properties": {
+                "name": "Mark Shelton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e0633539-ec6e-4a29-9853-888c494abde1",
+                    "value": "Mark Shelton"
+                },
+                "linkedin": "mark-shelton-0325a822",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6262a44d-5f47-4f60-89b8-6e46dab044af",
+                            "related_uuid": "e0633539-ec6e-4a29-9853-888c494abde1",
+                            "properties": {
+                                "job_title": "Senior Director, Clinical Pharmacology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bab127fa-bc77-4881-8c9a-445405dc0b92",
+            "properties": {
+                "name": "Virna Schuck",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bab127fa-bc77-4881-8c9a-445405dc0b92",
+                    "value": "Virna Schuck"
+                },
+                "linkedin": "virnaschuck",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "30cc3ab2-3707-4969-a574-d2cf6ee82c35",
+                            "related_uuid": "bab127fa-bc77-4881-8c9a-445405dc0b92",
+                            "properties": {
+                                "job_title": "Senior Director, Clinical Pharmacology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

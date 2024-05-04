@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "d54d2dfe-8647-4449-ac74-430bc86e76a1",
+            "properties": {
+                "name": "Ingrid Rubin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d54d2dfe-8647-4449-ac74-430bc86e76a1",
+                    "value": "Ingrid Rubin"
+                },
+                "linkedin": "ingridrubin",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4b9f8f99-b1be-4e08-bd80-a727c8ecf65e",
+                            "related_uuid": "d54d2dfe-8647-4449-ac74-430bc86e76a1",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8df5285b-eec1-43d9-ab43-f661701ae69b",
+            "properties": {
+                "name": "Vince Pastorello",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8df5285b-eec1-43d9-ab43-f661701ae69b",
+                    "value": "Vince Pastorello"
+                },
+                "linkedin": "vince-pastorello-2889401",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1cf9a2ad-3c4c-4f4d-aac3-216137e356a5",
+                            "related_uuid": "8df5285b-eec1-43d9-ab43-f661701ae69b",
+                            "properties": {
+                                "job_title": "Director-Communications L Media L Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "300d674c-d588-484c-9e58-00fef2a15717",
+            "properties": {
+                "name": "Alesia Braga",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "300d674c-d588-484c-9e58-00fef2a15717",
+                    "value": "Alesia Braga"
+                },
+                "linkedin": "alesiabraga",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9d06a047-0028-46b2-8c2d-0c324aa3b731",
+                            "related_uuid": "300d674c-d588-484c-9e58-00fef2a15717",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

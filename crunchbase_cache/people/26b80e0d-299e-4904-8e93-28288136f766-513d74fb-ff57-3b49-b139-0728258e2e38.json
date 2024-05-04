@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3c700ce4-6673-47f9-b8e8-e4155891420d",
+            "properties": {
+                "name": "Hunter Reed",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3c700ce4-6673-47f9-b8e8-e4155891420d",
+                    "value": "Hunter Reed"
+                },
+                "linkedin": "hunterlanereed",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "47181fda-8575-4240-8a75-b727e1108923",
+                            "related_uuid": "3c700ce4-6673-47f9-b8e8-e4155891420d",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

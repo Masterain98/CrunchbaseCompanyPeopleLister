@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5ac884bc-e7aa-4768-b2b6-31f364ce9c24",
+            "properties": {
+                "name": "Mark Heys",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5ac884bc-e7aa-4768-b2b6-31f364ce9c24",
+                    "value": "Mark Heys"
+                },
+                "linkedin": "markheys",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ad8561ce-9f00-43e5-b033-787e743699a4",
+                            "related_uuid": "5ac884bc-e7aa-4768-b2b6-31f364ce9c24",
+                            "properties": {
+                                "job_title": "Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

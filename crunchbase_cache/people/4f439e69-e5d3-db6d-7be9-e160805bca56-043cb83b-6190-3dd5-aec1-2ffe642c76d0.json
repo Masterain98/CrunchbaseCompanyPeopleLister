@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1ed66f9d-fe7d-4ff8-876d-84550846c568",
+            "properties": {
+                "name": "Dinah Alobeid",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1ed66f9d-fe7d-4ff8-876d-84550846c568",
+                    "value": "Dinah Alobeid"
+                },
+                "linkedin": "dinahalobeid",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5d80eb75-7854-4b7a-842c-d542543ea9b4",
+                            "related_uuid": "1ed66f9d-fe7d-4ff8-876d-84550846c568",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

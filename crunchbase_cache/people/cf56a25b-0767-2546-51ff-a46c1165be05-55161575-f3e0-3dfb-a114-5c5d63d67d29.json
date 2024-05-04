@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "76ced989-559d-445a-bd04-95d55939a1c9",
+            "properties": {
+                "name": "Mikita Mikado",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "76ced989-559d-445a-bd04-95d55939a1c9",
+                    "value": "Mikita Mikado"
+                },
+                "linkedin": "mikitamikado",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "946c5eca-10fe-49f5-ab26-a298e91d0f7c",
+                            "related_uuid": "76ced989-559d-445a-bd04-95d55939a1c9",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

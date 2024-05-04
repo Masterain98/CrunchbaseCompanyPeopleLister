@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2452f1cf-a814-4502-a0c0-f3134ba1d76c",
+            "properties": {
+                "name": "Brad Younge",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2452f1cf-a814-4502-a0c0-f3134ba1d76c",
+                    "value": "Brad Younge"
+                },
+                "linkedin": "byounge",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "83894d7e-f70f-4b52-ab18-5b1336912787",
+                            "related_uuid": "2452f1cf-a814-4502-a0c0-f3134ba1d76c",
+                            "properties": {
+                                "job_title": "Co Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

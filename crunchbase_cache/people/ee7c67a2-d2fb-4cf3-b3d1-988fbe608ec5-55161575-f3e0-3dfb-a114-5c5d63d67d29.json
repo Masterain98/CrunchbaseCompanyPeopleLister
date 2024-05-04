@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e724f950-9f67-4f6f-848f-2960bb8280c1",
+            "properties": {
+                "name": "Manish Jethani",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e724f950-9f67-4f6f-848f-2960bb8280c1",
+                    "value": "Manish Jethani"
+                },
+                "linkedin": "manishjethani",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "18ad5b2e-a58f-4f31-9d46-e3873e5d0154",
+                            "related_uuid": "e724f950-9f67-4f6f-848f-2960bb8280c1",
+                            "properties": {
+                                "job_title": "Co-Founder | CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

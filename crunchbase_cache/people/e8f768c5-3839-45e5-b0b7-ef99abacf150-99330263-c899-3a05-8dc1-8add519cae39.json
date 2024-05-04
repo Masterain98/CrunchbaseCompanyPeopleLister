@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9284dabf-60cd-41d4-b063-2370053d1604",
+            "properties": {
+                "name": "Daniel Incandela",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9284dabf-60cd-41d4-b063-2370053d1604",
+                    "value": "Daniel Incandela"
+                },
+                "linkedin": "danielincandela",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c7fca531-5a9a-49c4-b627-98d4d15a7ad2",
+                            "related_uuid": "9284dabf-60cd-41d4-b063-2370053d1604",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

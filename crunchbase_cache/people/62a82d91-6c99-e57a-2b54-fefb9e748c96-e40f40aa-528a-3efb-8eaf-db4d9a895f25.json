@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5fecb90a-fe81-46fe-94c7-b8ad70820c81",
+            "properties": {
+                "name": "Sarah Li",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5fecb90a-fe81-46fe-94c7-b8ad70820c81",
+                    "value": "Sarah Li"
+                },
+                "linkedin": "sarahli1",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d9dd4336-d4a1-425e-b97f-cd14f8436fbd",
+                            "related_uuid": "5fecb90a-fe81-46fe-94c7-b8ad70820c81",
+                            "properties": {
+                                "job_title": "Creative Director, Creative Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

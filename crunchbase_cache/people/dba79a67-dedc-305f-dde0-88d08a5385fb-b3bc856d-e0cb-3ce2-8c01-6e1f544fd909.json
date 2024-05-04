@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aed6e639-e794-4de6-acd5-20ac19ae22a6",
+            "properties": {
+                "name": "Nathan Everson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aed6e639-e794-4de6-acd5-20ac19ae22a6",
+                    "value": "Nathan Everson"
+                },
+                "linkedin": "nathan-everson-cissp-cism-mis-1504aa8",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d43d5c59-869a-44dc-8e6c-d8dd4f9ac138",
+                            "related_uuid": "aed6e639-e794-4de6-acd5-20ac19ae22a6",
+                            "properties": {
+                                "job_title": "Director Cybersecurity"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

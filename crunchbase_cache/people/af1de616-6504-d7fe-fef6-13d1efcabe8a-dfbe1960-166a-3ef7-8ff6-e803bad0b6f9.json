@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "092faf31-83dd-4afc-a462-22ce6c5f5e89",
+            "properties": {
+                "name": "Joshua Thomas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "092faf31-83dd-4afc-a462-22ce6c5f5e89",
+                    "value": "Joshua Thomas"
+                },
+                "linkedin": "joshua-thomas-70188750",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a6ed98c-19e8-482f-b402-8d61707f57ae",
+                            "related_uuid": "092faf31-83dd-4afc-a462-22ce6c5f5e89",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

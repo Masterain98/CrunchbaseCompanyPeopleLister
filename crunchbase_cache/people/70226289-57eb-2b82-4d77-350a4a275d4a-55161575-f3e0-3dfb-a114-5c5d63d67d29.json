@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "23b72c73-bf17-44e1-aea0-fcd624083e94",
+            "properties": {
+                "name": "Jim Kavanaugh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "23b72c73-bf17-44e1-aea0-fcd624083e94",
+                    "value": "Jim Kavanaugh"
+                },
+                "linkedin": "jim-kavanaugh-409595179",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a35c097f-1aeb-403e-895a-59e8e05c2e0e",
+                            "related_uuid": "23b72c73-bf17-44e1-aea0-fcd624083e94",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

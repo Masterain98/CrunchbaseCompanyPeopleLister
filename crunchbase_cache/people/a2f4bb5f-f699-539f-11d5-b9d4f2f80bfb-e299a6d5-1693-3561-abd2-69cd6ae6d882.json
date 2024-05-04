@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "080acb91-d8af-4a9f-8760-4988d016a43a",
+            "properties": {
+                "name": "Joe Maurits",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "080acb91-d8af-4a9f-8760-4988d016a43a",
+                    "value": "Joe Maurits"
+                },
+                "linkedin": "joe-maurits-277a1515b",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6282b378-fb4d-4728-8d92-1f80e6cf7b78",
+                            "related_uuid": "080acb91-d8af-4a9f-8760-4988d016a43a",
+                            "properties": {
+                                "job_title": "Director of Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

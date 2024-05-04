@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bb3aa051-dbbc-4466-973d-53da170eff43",
+            "properties": {
+                "name": "Ron Hess",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bb3aa051-dbbc-4466-973d-53da170eff43",
+                    "value": "Ron Hess"
+                },
+                "linkedin": "ronhess",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7f7e9d20-54b9-41e4-83df-cef2a6771fc0",
+                            "related_uuid": "bb3aa051-dbbc-4466-973d-53da170eff43",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

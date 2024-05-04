@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e6ddf835-1ac8-4d30-8489-c159e5ee126e",
+            "properties": {
+                "name": "Nancy Stropkai",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e6ddf835-1ac8-4d30-8489-c159e5ee126e",
+                    "value": "Nancy Stropkai"
+                },
+                "linkedin": "nancy-stropkai-88819814",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "77c13d6d-2a30-4896-9d60-6c1c917d9b58",
+                            "related_uuid": "e6ddf835-1ac8-4d30-8489-c159e5ee126e",
+                            "properties": {
+                                "job_title": "Director, Corporate Operations and Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

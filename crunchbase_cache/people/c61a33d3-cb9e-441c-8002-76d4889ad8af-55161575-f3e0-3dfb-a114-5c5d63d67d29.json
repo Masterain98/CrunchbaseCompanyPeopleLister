@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8f89cddc-72ce-42be-87cf-eabe44c79c7f",
+            "properties": {
+                "name": "Craig McLaren",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8f89cddc-72ce-42be-87cf-eabe44c79c7f",
+                    "value": "Craig McLaren"
+                },
+                "linkedin": "craig-mclaren-548591105",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ad72195c-bb01-4e56-b19d-6758681b15eb",
+                            "related_uuid": "8f89cddc-72ce-42be-87cf-eabe44c79c7f",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

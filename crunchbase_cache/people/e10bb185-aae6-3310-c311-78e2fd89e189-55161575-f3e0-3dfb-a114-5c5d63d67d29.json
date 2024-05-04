@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6a31e38f-262c-4900-addb-96560db28e01",
+            "properties": {
+                "name": "Ankarino Lara",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6a31e38f-262c-4900-addb-96560db28e01",
+                    "value": "Ankarino Lara"
+                },
+                "linkedin": "ankarino",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0efbfbd7-b357-4066-bf94-ce57fce4176f",
+                            "related_uuid": "6a31e38f-262c-4900-addb-96560db28e01",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

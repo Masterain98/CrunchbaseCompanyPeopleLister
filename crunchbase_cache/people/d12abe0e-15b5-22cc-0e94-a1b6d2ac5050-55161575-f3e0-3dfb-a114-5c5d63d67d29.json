@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "12ae34b1-d534-44d8-9458-847e7dc35fa7",
+            "properties": {
+                "name": "Joe Fuca",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "12ae34b1-d534-44d8-9458-847e7dc35fa7",
+                    "value": "Joe Fuca"
+                },
+                "linkedin": "joe-fuca-27b282",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "117f3d69-08f4-4e06-95af-436304f73046",
+                            "related_uuid": "12ae34b1-d534-44d8-9458-847e7dc35fa7",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

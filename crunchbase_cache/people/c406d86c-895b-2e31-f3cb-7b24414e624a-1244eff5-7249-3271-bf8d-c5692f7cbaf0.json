@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b95a3df0-3d9f-4753-895d-1bfb8191fb22",
+            "properties": {
+                "name": "Emmanuel Marboeuf",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b95a3df0-3d9f-4753-895d-1bfb8191fb22",
+                    "value": "Emmanuel Marboeuf"
+                },
+                "linkedin": "emmanuelmarboeuf",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b7e62c27-b18e-4561-b63b-22077b1fdb29",
+                            "related_uuid": "b95a3df0-3d9f-4753-895d-1bfb8191fb22",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

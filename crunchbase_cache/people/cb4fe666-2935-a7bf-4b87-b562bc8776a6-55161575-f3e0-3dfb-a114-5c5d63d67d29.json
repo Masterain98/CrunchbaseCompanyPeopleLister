@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "52659425-0127-4ab3-ae90-652f4f9faa3f",
+            "properties": {
+                "name": "Scott Voight",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "52659425-0127-4ab3-ae90-652f4f9faa3f",
+                    "value": "Scott Voight"
+                },
+                "linkedin": "scottmvoigt",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8aeef248-c67b-49a2-a20d-948bf19dfc67",
+                            "related_uuid": "52659425-0127-4ab3-ae90-652f4f9faa3f",
+                            "properties": {
+                                "job_title": "Founder, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

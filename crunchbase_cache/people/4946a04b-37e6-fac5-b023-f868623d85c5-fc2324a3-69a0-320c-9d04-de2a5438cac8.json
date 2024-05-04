@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "20df326a-7dc0-48e0-9922-760f7185c726",
+            "properties": {
+                "name": "Natasha Woods",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "20df326a-7dc0-48e0-9922-760f7185c726",
+                    "value": "Natasha Woods"
+                },
+                "linkedin": "natasha-woods-b275198",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "96de731c-6212-49f7-8f5b-da889ba2cfdd",
+                            "related_uuid": "20df326a-7dc0-48e0-9922-760f7185c726",
+                            "properties": {
+                                "job_title": "Director, Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

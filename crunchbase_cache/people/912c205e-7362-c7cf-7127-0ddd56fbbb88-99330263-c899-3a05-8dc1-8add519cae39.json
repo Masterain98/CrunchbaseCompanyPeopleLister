@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c89004b6-a89f-472a-81c8-e551f3e19ddd",
+            "properties": {
+                "name": "Alex Saric",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c89004b6-a89f-472a-81c8-e551f3e19ddd",
+                    "value": "Alex Saric"
+                },
+                "linkedin": "alexsaric",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "01058c99-2599-4fc0-ac13-a36443d769fb",
+                            "related_uuid": "c89004b6-a89f-472a-81c8-e551f3e19ddd",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

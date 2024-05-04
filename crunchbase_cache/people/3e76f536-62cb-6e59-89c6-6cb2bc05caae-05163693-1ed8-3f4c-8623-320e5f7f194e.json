@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b72d102b-f9d0-4345-a93e-45b01d8c55bf",
+            "properties": {
+                "name": "Amanda Smith",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b72d102b-f9d0-4345-a93e-45b01d8c55bf",
+                    "value": "Amanda Smith"
+                },
+                "linkedin": "amanda-mck",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4512ce4a-1001-416d-a2ee-b0dd15e646bd",
+                            "related_uuid": "b72d102b-f9d0-4345-a93e-45b01d8c55bf",
+                            "properties": {
+                                "job_title": "Director of Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

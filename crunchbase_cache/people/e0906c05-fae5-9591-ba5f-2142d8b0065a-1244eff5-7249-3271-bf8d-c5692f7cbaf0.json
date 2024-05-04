@@ -1,0 +1,334 @@
+{
+    "count": 11,
+    "entities": [
+        {
+            "uuid": "8fa789dc-32bb-42e9-8b6a-656d70a764b7",
+            "properties": {
+                "name": "David Mallory",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8fa789dc-32bb-42e9-8b6a-656d70a764b7",
+                    "value": "David Mallory"
+                },
+                "linkedin": "david-mallory-2465b3ab",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "25eedceb-1695-4e85-b433-b39e197cf4f8",
+                            "related_uuid": "8fa789dc-32bb-42e9-8b6a-656d70a764b7",
+                            "properties": {
+                                "job_title": "CTO, Learning@Cisco"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9c4afdf7-c007-4efe-9af6-2d5dcab8d2b3",
+            "properties": {
+                "name": "John Chapman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9c4afdf7-c007-4efe-9af6-2d5dcab8d2b3",
+                    "value": "John Chapman"
+                },
+                "linkedin": "john-t-chapman",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4d95316f-4237-49e9-8b03-572bf8587be2",
+                            "related_uuid": "9c4afdf7-c007-4efe-9af6-2d5dcab8d2b3",
+                            "properties": {
+                                "job_title": "CTO Broadband Technologies"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "aa08e1a7-04db-4a46-a55c-1dfc83398531",
+            "properties": {
+                "name": "Michael Beesley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aa08e1a7-04db-4a46-a55c-1dfc83398531",
+                    "value": "Michael Beesley"
+                },
+                "linkedin": "michaeljbeesley",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0705896a-07cf-4e35-9c2d-40c14e145558",
+                            "related_uuid": "aa08e1a7-04db-4a46-a55c-1dfc83398531",
+                            "properties": {
+                                "job_title": "CTO, SP Networking, Cisco Systems"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "06494753-b8b1-44d6-97d5-7501750c097f",
+            "properties": {
+                "name": "Michael Recchione",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "06494753-b8b1-44d6-97d5-7501750c097f",
+                    "value": "Michael Recchione"
+                },
+                "linkedin": "michael-recchione-3590b51",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26db13f7-f4e3-402f-8a90-cfc6d9327190",
+                            "related_uuid": "06494753-b8b1-44d6-97d5-7501750c097f",
+                            "properties": {
+                                "job_title": "Principal Engineer - Mobility CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8d667bae-145d-419f-b4b6-634bdcb3b10e",
+            "properties": {
+                "name": "Nicholas Pace",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8d667bae-145d-419f-b4b6-634bdcb3b10e",
+                    "value": "Nicholas Pace"
+                },
+                "linkedin": "nicholaspace",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dd8a2e00-8162-4d9b-97cd-c899a14ed6ed",
+                            "related_uuid": "8d667bae-145d-419f-b4b6-634bdcb3b10e",
+                            "properties": {
+                                "job_title": "Portfolio CTO, Engineering IT"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a11bf161-b9f2-4c9c-946e-6200cb1d7fc9",
+            "properties": {
+                "name": "Paul McNab",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a11bf161-b9f2-4c9c-946e-6200cb1d7fc9",
+                    "value": "Paul McNab"
+                },
+                "linkedin": "pamcnab",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ef4a5f66-527b-4540-a9a4-030580ce1bcf",
+                            "related_uuid": "a11bf161-b9f2-4c9c-946e-6200cb1d7fc9",
+                            "properties": {
+                                "job_title": "VP/CTO, Data Center & Switching"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "14f8ef5e-370c-4462-99cc-da8acd901525",
+            "properties": {
+                "name": "Ramesh Sivakolundu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "14f8ef5e-370c-4462-99cc-da8acd901525",
+                    "value": "Ramesh Sivakolundu"
+                },
+                "linkedin": "ramesh-sivakolundu-530a1715",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e3981877-65fa-4dc3-9d6e-8d30c9b53cd4",
+                            "related_uuid": "14f8ef5e-370c-4462-99cc-da8acd901525",
+                            "properties": {
+                                "job_title": "Member of Technical Staff - Office of CTO, Data Center Networking"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "748b3a69-6c85-4aff-a2cc-18e74dbec358",
+            "properties": {
+                "name": "Subharthi Paul",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "748b3a69-6c85-4aff-a2cc-18e74dbec358",
+                    "value": "Subharthi Paul"
+                },
+                "linkedin": "subharthi-paul-838b1193",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d7821f3-acad-426f-9304-e46237d71b21",
+                            "related_uuid": "748b3a69-6c85-4aff-a2cc-18e74dbec358",
+                            "properties": {
+                                "job_title": "Member of Technical Staff, Office of the CTO, Security Business Group"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7f78ab69-b0ad-4161-a207-192c4897d812",
+            "properties": {
+                "name": "Timothy Tuttle",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7f78ab69-b0ad-4161-a207-192c4897d812",
+                    "value": "Timothy Tuttle"
+                },
+                "linkedin": "timothytuttle",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a47cc1b-c05b-4cd8-b9c9-93b657a60646",
+                            "related_uuid": "7f78ab69-b0ad-4161-a207-192c4897d812",
+                            "properties": {
+                                "job_title": "CTO, Cognitive Collaboration"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "705d2886-d6a9-4f5e-aac3-baaee8e1958d",
+            "properties": {
+                "name": "Marc Breissinger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "705d2886-d6a9-4f5e-aac3-baaee8e1958d",
+                    "value": "Marc Breissinger"
+                },
+                "linkedin": "marcbreissinger",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "35a3d1c4-138c-446c-a979-1b42a3d57678",
+                            "related_uuid": "705d2886-d6a9-4f5e-aac3-baaee8e1958d",
+                            "properties": {
+                                "job_title": "Director, CTO Office, Data and Analytics Business Unit"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "30094cc3-7a02-4cc2-b2b1-ff4b312f1d4a",
+            "properties": {
+                "name": "Yenu Gobena",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "30094cc3-7a02-4cc2-b2b1-ff4b312f1d4a",
+                    "value": "Yenu Gobena"
+                },
+                "linkedin": "yenu-gobena-b898902a",
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7e9f712d-d1f2-448a-8727-513a307ed8bb",
+                            "related_uuid": "30094cc3-7a02-4cc2-b2b1-ff4b312f1d4a",
+                            "properties": {
+                                "job_title": "CTO Office Customer Experience Product Management and CX Engineering \u00c2\u20ac\u201c Cyber Security Portfolio"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

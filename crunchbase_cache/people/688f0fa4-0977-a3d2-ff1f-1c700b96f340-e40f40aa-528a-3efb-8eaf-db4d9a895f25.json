@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1feffff5-b7d6-4b14-9f9b-40f9609580bf",
+            "properties": {
+                "name": "Lesley Childers",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1feffff5-b7d6-4b14-9f9b-40f9609580bf",
+                    "value": "Lesley Childers"
+                },
+                "linkedin": "lesleymillschilders",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6835481f-4169-4fef-9bc5-9844e41c7fbd",
+                            "related_uuid": "1feffff5-b7d6-4b14-9f9b-40f9609580bf",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

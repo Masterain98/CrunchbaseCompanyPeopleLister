@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "05324fc1-d1ac-42a6-9982-f628bc13a84d",
+            "properties": {
+                "name": "Sarah (Bullard) McDaniel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "05324fc1-d1ac-42a6-9982-f628bc13a84d",
+                    "value": "Sarah (Bullard) McDaniel"
+                },
+                "linkedin": "sarah-bullard",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4dfba574-d53e-4e78-a5bd-6f6dc31ddc45",
+                            "related_uuid": "05324fc1-d1ac-42a6-9982-f628bc13a84d",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d667e816-7fda-43d0-9f10-1be90a1cb9ce",
+            "properties": {
+                "name": "Scott Helmes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d667e816-7fda-43d0-9f10-1be90a1cb9ce",
+                    "value": "Scott Helmes"
+                },
+                "linkedin": "scotthelmes",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "04a34556-5667-4b65-89bd-fe786191d156",
+                            "related_uuid": "d667e816-7fda-43d0-9f10-1be90a1cb9ce",
+                            "properties": {
+                                "job_title": "CEO Team"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

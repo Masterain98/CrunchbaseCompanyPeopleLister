@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2d9c8e6b-cb6b-4908-adbe-10960ccc5957",
+            "properties": {
+                "name": "Christian Lanng",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2d9c8e6b-cb6b-4908-adbe-10960ccc5957",
+                    "value": "Christian Lanng"
+                },
+                "linkedin": "christianlanng",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2f6d0682-cc4f-41d7-b60e-7da0b333e219",
+                            "related_uuid": "2d9c8e6b-cb6b-4908-adbe-10960ccc5957",
+                            "properties": {
+                                "job_title": "CEO, Cofounder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

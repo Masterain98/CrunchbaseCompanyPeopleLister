@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d340fd64-98bf-429b-b5fd-f9a0654996e3",
+            "properties": {
+                "name": "Susan Wassel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d340fd64-98bf-429b-b5fd-f9a0654996e3",
+                    "value": "Susan Wassel"
+                },
+                "linkedin": "susanwassel",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5e8dcef4-c188-407b-8606-e37a478d5fc1",
+                            "related_uuid": "d340fd64-98bf-429b-b5fd-f9a0654996e3",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

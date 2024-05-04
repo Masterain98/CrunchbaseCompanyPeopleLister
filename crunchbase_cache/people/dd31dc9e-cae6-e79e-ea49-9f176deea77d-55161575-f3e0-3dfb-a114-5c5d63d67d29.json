@@ -1,0 +1,100 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "abe26213-98b2-4e93-8585-947d44ab859b",
+            "properties": {
+                "name": "Bob Bobbins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "abe26213-98b2-4e93-8585-947d44ab859b",
+                    "value": "Bob Bobbins"
+                },
+                "linkedin": "bob-bobbins-4749b530",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3768dac8-61b7-43fd-9569-f8bbdb2b3900",
+                            "related_uuid": "abe26213-98b2-4e93-8585-947d44ab859b",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d6f659e8-2a6d-43ff-8451-69624dc6579f",
+            "properties": {
+                "name": "Bryan LeBlanc",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d6f659e8-2a6d-43ff-8451-69624dc6579f",
+                    "value": "Bryan LeBlanc"
+                },
+                "linkedin": "bryanleblanc",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "490f5ee9-f6e9-45c2-9ccb-4910cea19fbf",
+                            "related_uuid": "d6f659e8-2a6d-43ff-8451-69624dc6579f",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "25992d1a-e9cf-42da-b02e-faeaabf8eb72",
+            "properties": {
+                "name": "Kevin Dallas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "25992d1a-e9cf-42da-b02e-faeaabf8eb72",
+                    "value": "Kevin Dallas"
+                },
+                "linkedin": "kedallas",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "90a48174-e742-44f1-91f4-4f7160da2564",
+                            "related_uuid": "25992d1a-e9cf-42da-b02e-faeaabf8eb72",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

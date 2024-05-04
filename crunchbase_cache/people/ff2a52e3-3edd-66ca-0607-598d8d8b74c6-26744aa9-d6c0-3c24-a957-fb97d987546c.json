@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "11b950d7-3feb-4dde-a10e-c00307110933",
+            "properties": {
+                "name": "Calvin Welsh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "11b950d7-3feb-4dde-a10e-c00307110933",
+                    "value": "Calvin Welsh"
+                },
+                "linkedin": "calvin-welsh",
+                "job_levels": [
+                    "l_200_manager"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7674c720-63cb-45ff-aa1b-c70d266cad61",
+                            "related_uuid": "11b950d7-3feb-4dde-a10e-c00307110933",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0251efe3-173b-4615-ac56-f64e265b3db2",
+            "properties": {
+                "name": "Zach Armijo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0251efe3-173b-4615-ac56-f64e265b3db2",
+                    "value": "Zach Armijo"
+                },
+                "linkedin": "zach-armijo-00060992",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "eb09f553-669a-4c8a-94c9-371eb1eb2241",
+                            "related_uuid": "0251efe3-173b-4615-ac56-f64e265b3db2",
+                            "properties": {
+                                "job_title": "Security Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

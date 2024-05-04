@@ -1,0 +1,183 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "uuid": "46c8c3c6-0df6-44bd-bed9-2402e1718041",
+            "properties": {
+                "name": "Aaron Josey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "46c8c3c6-0df6-44bd-bed9-2402e1718041",
+                    "value": "Aaron Josey"
+                },
+                "linkedin": "aaron-josey-27ab784",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c2693c3c-b8d3-462e-811f-8b1b337ec32e",
+                            "related_uuid": "46c8c3c6-0df6-44bd-bed9-2402e1718041",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5673c5a9-3bbf-43cb-9e43-f8af9d342aac",
+            "properties": {
+                "name": "Dimitry Lewis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5673c5a9-3bbf-43cb-9e43-f8af9d342aac",
+                    "value": "Dimitry Lewis"
+                },
+                "linkedin": "dimitrylewis",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f8e5e2d-cbb0-4cef-b831-2b9fda3920f3",
+                            "related_uuid": "5673c5a9-3bbf-43cb-9e43-f8af9d342aac",
+                            "properties": {
+                                "job_title": "Subcontractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4b7cfca2-a826-4324-8d0f-b387f0b2200e",
+            "properties": {
+                "name": "Gary Bowman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4b7cfca2-a826-4324-8d0f-b387f0b2200e",
+                    "value": "Gary Bowman"
+                },
+                "linkedin": "gary-bowman-0a918a21",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f433ef50-c2ea-45e2-a528-4cef2882c89c",
+                            "related_uuid": "4b7cfca2-a826-4324-8d0f-b387f0b2200e",
+                            "properties": {
+                                "job_title": "Independent Information Technology Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "dc62bfaf-6b62-4816-8f42-69e01a47b5e4",
+            "properties": {
+                "name": "Heinrich Evers",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dc62bfaf-6b62-4816-8f42-69e01a47b5e4",
+                    "value": "Heinrich Evers"
+                },
+                "linkedin": "heinrich-evers-8080871a",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f58b568-3ca5-40c3-a3b7-b9857b7df2e8",
+                            "related_uuid": "dc62bfaf-6b62-4816-8f42-69e01a47b5e4",
+                            "properties": {
+                                "job_title": "Consulting"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8ed4709f-3c61-40a8-874f-36b2ad10d85d",
+            "properties": {
+                "name": "Justin Boddie",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8ed4709f-3c61-40a8-874f-36b2ad10d85d",
+                    "value": "Justin Boddie"
+                },
+                "linkedin": "justinrboddie",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5a01451b-38b7-4966-9476-ce8be5f35681",
+                            "related_uuid": "8ed4709f-3c61-40a8-874f-36b2ad10d85d",
+                            "properties": {
+                                "job_title": "Information Technology Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "696d0759-00ab-4e1a-8bb7-491622464c60",
+            "properties": {
+                "name": "Kevin Spires",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "696d0759-00ab-4e1a-8bb7-491622464c60",
+                    "value": "Kevin Spires"
+                },
+                "linkedin": "kevinspires1",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8461b9f0-7d6a-4300-91d2-952166ed39af",
+                            "related_uuid": "696d0759-00ab-4e1a-8bb7-491622464c60",
+                            "properties": {
+                                "job_title": "IT Consultant/Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

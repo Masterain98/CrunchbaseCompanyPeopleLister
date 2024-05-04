@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "37266d0c-2383-4abd-82d4-0c3772f3729c",
+            "properties": {
+                "name": "Laura McKinney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "37266d0c-2383-4abd-82d4-0c3772f3729c",
+                    "value": "Laura McKinney"
+                },
+                "linkedin": "iamlauramckinney",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c9d578fb-09ca-422b-9067-543006870eb4",
+                            "related_uuid": "37266d0c-2383-4abd-82d4-0c3772f3729c",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "7bc5f2a7-d6f2-4c6b-b851-3ad4174886a3",
+            "properties": {
+                "name": "Finbarr Taylor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7bc5f2a7-d6f2-4c6b-b851-3ad4174886a3",
+                    "value": "Finbarr Taylor"
+                },
+                "linkedin": "finbarrtaylor",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "349b0947-1ef2-4430-97b9-2d5c4fd3ca81",
+                            "related_uuid": "7bc5f2a7-d6f2-4c6b-b851-3ad4174886a3",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c748574f-5e4d-49df-9eec-a27a8e32bb8e",
+            "properties": {
+                "name": "Nicole Imhof",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c748574f-5e4d-49df-9eec-a27a8e32bb8e",
+                    "value": "Nicole Imhof"
+                },
+                "linkedin": "nicole-imhof-766a7683",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "538fac26-38cc-49a7-a9ff-3f6e085e284a",
+                            "related_uuid": "c748574f-5e4d-49df-9eec-a27a8e32bb8e",
+                            "properties": {
+                                "job_title": "Office of the CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "218f115d-185d-45ca-9e56-db577442daf8",
+            "properties": {
+                "name": "Meredith Albertson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "218f115d-185d-45ca-9e56-db577442daf8",
+                    "value": "Meredith Albertson"
+                },
+                "linkedin": "meredithpmorgan",
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ed0bcdb4-ac4d-4c16-ab21-e08e20b82f38",
+                            "related_uuid": "218f115d-185d-45ca-9e56-db577442daf8",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

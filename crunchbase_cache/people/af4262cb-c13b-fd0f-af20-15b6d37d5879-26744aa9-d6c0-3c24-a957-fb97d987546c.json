@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "da5756c8-9938-4f98-9521-08126a640540",
+            "properties": {
+                "name": "Anna Andresian",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "da5756c8-9938-4f98-9521-08126a640540",
+                    "value": "Anna Andresian"
+                },
+                "linkedin": "aandresian",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6ae4eb2c-83b7-4baa-9125-bece16e0f2f1",
+                            "related_uuid": "da5756c8-9938-4f98-9521-08126a640540",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

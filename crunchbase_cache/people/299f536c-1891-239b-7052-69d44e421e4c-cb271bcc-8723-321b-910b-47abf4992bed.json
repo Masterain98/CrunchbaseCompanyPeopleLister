@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "78a50e0c-df28-4d30-b400-fad72e4d015d",
+            "properties": {
+                "name": "Alexandra Corcoran",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "78a50e0c-df28-4d30-b400-fad72e4d015d",
+                    "value": "Alexandra Corcoran"
+                },
+                "linkedin": "alexandra-corcoran",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "97fbea05-5ee9-46d4-8d1d-34684f4c65e2",
+                            "related_uuid": "78a50e0c-df28-4d30-b400-fad72e4d015d",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7e45019d-fda3-4e23-b6dc-2350f649727d",
+            "properties": {
+                "name": "David Fitch",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7e45019d-fda3-4e23-b6dc-2350f649727d",
+                    "value": "David Fitch"
+                },
+                "linkedin": "fitchdavid",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2f0b114e-2ac7-4b7a-8251-3af6ad96133f",
+                            "related_uuid": "7e45019d-fda3-4e23-b6dc-2350f649727d",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

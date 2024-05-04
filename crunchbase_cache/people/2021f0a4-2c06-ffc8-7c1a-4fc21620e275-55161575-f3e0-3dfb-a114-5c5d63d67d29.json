@@ -1,0 +1,30 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d338d167-0d3a-4bf5-a0c2-00dfea8cf1f1",
+            "properties": {
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d338d167-0d3a-4bf5-a0c2-00dfea8cf1f1",
+                    "value": "Philip Fasano"
+                },
+                "name": "Philip Fasano",
+                "linkedin": "philfasano"
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fad4e9e6-9c9a-40f6-a4b8-7e88caf213ad",
+                            "related_uuid": "d338d167-0d3a-4bf5-a0c2-00dfea8cf1f1",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

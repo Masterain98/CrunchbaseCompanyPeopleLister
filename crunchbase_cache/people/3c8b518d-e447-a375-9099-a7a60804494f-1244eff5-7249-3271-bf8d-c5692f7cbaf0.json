@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "481380ea-cc3a-4180-b300-752fb974ca25",
+            "properties": {
+                "name": "Pete Gamache",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "481380ea-cc3a-4180-b300-752fb974ca25",
+                    "value": "Pete Gamache"
+                },
+                "linkedin": "petegamache",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e4b5eae0-4d31-4947-b7e3-c67fa11892a6",
+                            "related_uuid": "481380ea-cc3a-4180-b300-752fb974ca25",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fec6b6a7-65e0-4c38-a31f-9674a3556397",
+            "properties": {
+                "name": "Andrea Depaola",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fec6b6a7-65e0-4c38-a31f-9674a3556397",
+                    "value": "Andrea Depaola"
+                },
+                "linkedin": "andreardepaola",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "legal",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6ee57d37-fb28-44f0-beec-e444404eac25",
+                            "related_uuid": "fec6b6a7-65e0-4c38-a31f-9674a3556397",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

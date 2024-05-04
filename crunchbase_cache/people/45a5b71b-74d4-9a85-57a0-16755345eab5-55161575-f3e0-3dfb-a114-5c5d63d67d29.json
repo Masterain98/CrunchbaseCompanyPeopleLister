@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5fe345c7-7885-449c-b34d-dd42a9aae18c",
+            "properties": {
+                "name": "Todd Olson\u200b",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5fe345c7-7885-449c-b34d-dd42a9aae18c",
+                    "value": "Todd Olson\u200b"
+                },
+                "linkedin": "toddaolson",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "13618096-a553-4bdd-be2d-89c4d9588fb5",
+                            "related_uuid": "5fe345c7-7885-449c-b34d-dd42a9aae18c",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

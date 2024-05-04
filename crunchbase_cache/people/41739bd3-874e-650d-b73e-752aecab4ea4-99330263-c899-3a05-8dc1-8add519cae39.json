@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6de29239-10dd-477b-97ef-f6597510720c",
+            "properties": {
+                "name": "Pauline Reader",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6de29239-10dd-477b-97ef-f6597510720c",
+                    "value": "Pauline Reader"
+                },
+                "linkedin": "paulinereader",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e4f8ead6-cf48-4f22-b097-e184c5320544",
+                            "related_uuid": "6de29239-10dd-477b-97ef-f6597510720c",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

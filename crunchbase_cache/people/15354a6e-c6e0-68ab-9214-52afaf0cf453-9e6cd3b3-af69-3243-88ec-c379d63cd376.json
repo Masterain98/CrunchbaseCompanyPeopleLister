@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1fa84fed-cf5d-423e-8c90-3d0fa06730eb",
+            "properties": {
+                "name": "Wesley Or",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1fa84fed-cf5d-423e-8c90-3d0fa06730eb",
+                    "value": "Wesley Or"
+                },
+                "linkedin": "wesleyor",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "aafa2c57-d9e0-4313-8bad-f49fffb49618",
+                            "related_uuid": "1fa84fed-cf5d-423e-8c90-3d0fa06730eb",
+                            "properties": {
+                                "job_title": "Director of Corporate Development"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

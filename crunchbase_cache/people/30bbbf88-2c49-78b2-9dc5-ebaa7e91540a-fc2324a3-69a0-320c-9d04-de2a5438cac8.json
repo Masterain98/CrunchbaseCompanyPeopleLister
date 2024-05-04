@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "52a23ce2-d871-4864-bd91-e90dd912601e",
+            "properties": {
+                "name": "Sarah Sebastian",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "52a23ce2-d871-4864-bd91-e90dd912601e",
+                    "value": "Sarah Sebastian"
+                },
+                "linkedin": "sarah-sebastian-b3533614",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "186648a8-9cdd-429f-8c9b-cd51dbb0ba10",
+                            "related_uuid": "52a23ce2-d871-4864-bd91-e90dd912601e",
+                            "properties": {
+                                "job_title": "Director, Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

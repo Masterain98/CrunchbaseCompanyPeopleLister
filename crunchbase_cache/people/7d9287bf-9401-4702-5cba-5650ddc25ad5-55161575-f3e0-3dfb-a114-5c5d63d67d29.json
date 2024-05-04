@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9a4bfacd-b5a3-40ad-a637-cf8d30ea5168",
+            "properties": {
+                "name": "Ty Kalklosch",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9a4bfacd-b5a3-40ad-a637-cf8d30ea5168",
+                    "value": "Ty Kalklosch"
+                },
+                "linkedin": "tykalklosch",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "40bc2333-992d-44cf-bac9-03d4d1a28cbe",
+                            "related_uuid": "9a4bfacd-b5a3-40ad-a637-cf8d30ea5168",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

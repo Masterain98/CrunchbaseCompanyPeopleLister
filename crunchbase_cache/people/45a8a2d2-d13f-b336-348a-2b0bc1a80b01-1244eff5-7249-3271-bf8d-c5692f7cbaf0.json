@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0d853f1d-b26a-45c3-b89d-7d5e2abf7895",
+            "properties": {
+                "name": "Louis Asber",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0d853f1d-b26a-45c3-b89d-7d5e2abf7895",
+                    "value": "Louis Asber"
+                },
+                "linkedin": "louisasber",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "27427b6e-6aef-476a-971b-d26b87815e28",
+                            "related_uuid": "0d853f1d-b26a-45c3-b89d-7d5e2abf7895",
+                            "properties": {
+                                "job_title": "Chief Technology Officer (CTO)"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

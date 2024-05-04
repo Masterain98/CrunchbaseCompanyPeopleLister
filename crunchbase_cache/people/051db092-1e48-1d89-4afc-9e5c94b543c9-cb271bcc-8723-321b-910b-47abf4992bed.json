@@ -1,0 +1,166 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "8d75657d-465e-420e-b752-01e1ca2d789e",
+            "properties": {
+                "name": "Arjun Seth",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8d75657d-465e-420e-b752-01e1ca2d789e",
+                    "value": "Arjun Seth"
+                },
+                "linkedin": "arjunseth12",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3a3c94b1-b555-411d-8805-f838b1bfa7fb",
+                            "related_uuid": "8d75657d-465e-420e-b752-01e1ca2d789e",
+                            "properties": {
+                                "job_title": "Strategic Account Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1820e3f2-44e9-4cd4-a74e-153bf6cd75ad",
+            "properties": {
+                "name": "Ian James",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1820e3f2-44e9-4cd4-a74e-153bf6cd75ad",
+                    "value": "Ian James"
+                },
+                "linkedin": "ianjames22",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "94a453c1-3e8f-43d9-9ebf-3d640e7f43ba",
+                            "related_uuid": "1820e3f2-44e9-4cd4-a74e-153bf6cd75ad",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bd16d236-2bcb-4043-934f-c271a1011c7c",
+            "properties": {
+                "name": "JJ Oh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bd16d236-2bcb-4043-934f-c271a1011c7c",
+                    "value": "JJ Oh"
+                },
+                "linkedin": "jjohpm",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "916aeda2-b50a-4897-8b72-fec5450536a3",
+                            "related_uuid": "bd16d236-2bcb-4043-934f-c271a1011c7c",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b3d54745-8dde-4ca9-8b3c-82277f85ff37",
+            "properties": {
+                "name": "Michael Mcavoy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b3d54745-8dde-4ca9-8b3c-82277f85ff37",
+                    "value": "Michael Mcavoy"
+                },
+                "linkedin": "michael-mcavoy-381a065b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "475877fb-ae85-437f-b905-d2d1f9c52cc3",
+                            "related_uuid": "b3d54745-8dde-4ca9-8b3c-82277f85ff37",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9e5520ef-1b8f-4396-ab2a-53deb32a8b28",
+            "properties": {
+                "name": "Secily Seljeskog",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9e5520ef-1b8f-4396-ab2a-53deb32a8b28",
+                    "value": "Secily Seljeskog"
+                },
+                "linkedin": "secilyseljeskog",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6d4a0b8c-f980-4f44-abec-549c7444432a",
+                            "related_uuid": "9e5520ef-1b8f-4396-ab2a-53deb32a8b28",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

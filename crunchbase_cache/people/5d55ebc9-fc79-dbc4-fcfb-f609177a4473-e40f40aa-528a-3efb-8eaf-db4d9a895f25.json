@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "42644f8a-abfa-4299-aab7-e95167cdfbdc",
+            "properties": {
+                "name": "Simmi Patel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "42644f8a-abfa-4299-aab7-e95167cdfbdc",
+                    "value": "Simmi Patel"
+                },
+                "linkedin": "simmi-nikki-patel-1108703a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c6364587-a255-40a3-843b-0569f47e332e",
+                            "related_uuid": "42644f8a-abfa-4299-aab7-e95167cdfbdc",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "14892256-b18f-48da-b6ba-80c53001cd44",
+            "properties": {
+                "name": "Simmi Patel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "14892256-b18f-48da-b6ba-80c53001cd44",
+                    "value": "Simmi Patel"
+                },
+                "linkedin": "simmi-patel-1108703a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "720d8dd4-ae57-44ac-b372-daa171d33fe3",
+                            "related_uuid": "14892256-b18f-48da-b6ba-80c53001cd44",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

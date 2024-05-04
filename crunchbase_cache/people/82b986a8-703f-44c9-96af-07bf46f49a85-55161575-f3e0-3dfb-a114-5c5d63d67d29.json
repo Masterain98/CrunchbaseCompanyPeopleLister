@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "40434139-7ea6-4f72-8967-880c4c5c650c",
+            "properties": {
+                "name": "James Henry",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "40434139-7ea6-4f72-8967-880c4c5c650c",
+                    "value": "James Henry"
+                },
+                "linkedin": "sinidex",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "569bb841-ea25-4860-862b-09ec853e88f2",
+                            "related_uuid": "40434139-7ea6-4f72-8967-880c4c5c650c",
+                            "properties": {
+                                "job_title": "Interim CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

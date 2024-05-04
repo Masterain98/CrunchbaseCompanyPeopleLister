@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "29a79e54-1752-4178-9acc-899ace2a60c9",
+            "properties": {
+                "name": "Vijay Tella",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "29a79e54-1752-4178-9acc-899ace2a60c9",
+                    "value": "Vijay Tella"
+                },
+                "linkedin": "vijay-tella-1a410a8",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "66244801-0311-44e5-8712-e63214ceed7f",
+                            "related_uuid": "29a79e54-1752-4178-9acc-899ace2a60c9",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "23631df1-c1c8-413e-8ed4-62ab137df183",
+            "properties": {
+                "name": "Eric Dunne",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "23631df1-c1c8-413e-8ed4-62ab137df183",
+                    "value": "Eric Dunne"
+                },
+                "linkedin": "esdunne",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "53c87610-bf0d-4208-8706-507c32b38f8d",
+                            "related_uuid": "23631df1-c1c8-413e-8ed4-62ab137df183",
+                            "properties": {
+                                "job_title": "Executive Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

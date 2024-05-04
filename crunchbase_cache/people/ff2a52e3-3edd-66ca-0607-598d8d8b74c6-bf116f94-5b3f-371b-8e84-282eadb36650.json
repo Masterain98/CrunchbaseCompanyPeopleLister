@@ -1,0 +1,227 @@
+{
+    "count": 7,
+    "entities": [
+        {
+            "uuid": "cb1a5780-0b4b-4eef-9e8f-159be75b5c5c",
+            "properties": {
+                "name": "Andrew Booker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cb1a5780-0b4b-4eef-9e8f-159be75b5c5c",
+                    "value": "Andrew Booker"
+                },
+                "linkedin": "andrew-booker-66aa5b13",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ef19797a-fe26-42e7-b37d-412cb9b0eb38",
+                            "related_uuid": "cb1a5780-0b4b-4eef-9e8f-159be75b5c5c",
+                            "properties": {
+                                "job_title": "Director, Global Supply Chain-Tactical Missile Programs"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3d9bd085-28de-4dcf-a83f-613d3786fb9d",
+            "properties": {
+                "name": "Chris Andert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3d9bd085-28de-4dcf-a83f-613d3786fb9d",
+                    "value": "Chris Andert"
+                },
+                "linkedin": "chris-andert-6402715",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "203f3a2d-8159-4f1f-b293-04ade302741b",
+                            "related_uuid": "3d9bd085-28de-4dcf-a83f-613d3786fb9d",
+                            "properties": {
+                                "job_title": "Director of Supply Chain"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a025b7d8-1fc4-459e-9081-860e9fdf7b75",
+            "properties": {
+                "name": "Jeffrey Merritt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a025b7d8-1fc4-459e-9081-860e9fdf7b75",
+                    "value": "Jeffrey Merritt"
+                },
+                "linkedin": "jeffrey-l-merritt-2399a88",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c4eeec99-3c00-42c1-bc7f-4a97f7a10e8b",
+                            "related_uuid": "a025b7d8-1fc4-459e-9081-860e9fdf7b75",
+                            "properties": {
+                                "job_title": "Director Supply Chain Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ff2b54bb-1000-43f4-a656-7673f63fd9bf",
+            "properties": {
+                "name": "Juancarlos Stutman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ff2b54bb-1000-43f4-a656-7673f63fd9bf",
+                    "value": "Juancarlos Stutman"
+                },
+                "linkedin": "juancarlos-stutman-b06394159",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "29a6512f-3306-4d5f-b929-b3e2b7020659",
+                            "related_uuid": "ff2b54bb-1000-43f4-a656-7673f63fd9bf",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7e3a03c2-e889-4f86-880a-2b97dd4db55f",
+            "properties": {
+                "name": "Keri Cueff",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7e3a03c2-e889-4f86-880a-2b97dd4db55f",
+                    "value": "Keri Cueff"
+                },
+                "linkedin": "keri-cueff-52545a25",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "138adf91-3326-415c-93fd-a0164afae91d",
+                            "related_uuid": "7e3a03c2-e889-4f86-880a-2b97dd4db55f",
+                            "properties": {
+                                "job_title": "Director Global Supply Chain"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7effdc86-3eae-488d-a04b-18f5a61d0ad5",
+            "properties": {
+                "name": "Matt Walters",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7effdc86-3eae-488d-a04b-18f5a61d0ad5",
+                    "value": "Matt Walters"
+                },
+                "linkedin": "matt-walters-2a196b1",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a93b16d9-7f6d-4c05-9eea-89a43a1e29bd",
+                            "related_uuid": "7effdc86-3eae-488d-a04b-18f5a61d0ad5",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2153dd69-8b17-444c-9359-79173b9165ca",
+            "properties": {
+                "name": "Tom Baxter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2153dd69-8b17-444c-9359-79173b9165ca",
+                    "value": "Tom Baxter"
+                },
+                "linkedin": "tom-baxter-a06b5ba7",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1c3d7955-844f-4824-b49b-ea788c544241",
+                            "related_uuid": "2153dd69-8b17-444c-9359-79173b9165ca",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

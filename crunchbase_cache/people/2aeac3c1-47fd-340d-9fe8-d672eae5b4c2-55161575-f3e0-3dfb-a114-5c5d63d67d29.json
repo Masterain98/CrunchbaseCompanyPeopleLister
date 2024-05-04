@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d32f364e-587e-4403-9999-d36104e1ef84",
+            "properties": {
+                "name": "Christopher Kenessey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d32f364e-587e-4403-9999-d36104e1ef84",
+                    "value": "Christopher Kenessey"
+                },
+                "linkedin": "christopher-kenessey-2a71b31",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c0cb7196-6593-4fcc-9563-d9f09d5907c6",
+                            "related_uuid": "d32f364e-587e-4403-9999-d36104e1ef84",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

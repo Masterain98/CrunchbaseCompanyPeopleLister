@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "bdeb309d-7434-4c77-9b83-94ca9bc46b68",
+            "properties": {
+                "name": "Ms. Maura Smith",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bdeb309d-7434-4c77-9b83-94ca9bc46b68",
+                    "value": "Ms. Maura Smith"
+                },
+                "linkedin": "mauragoodwinsmith",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "176b4606-e3b8-4949-8880-e94987830f25",
+                            "related_uuid": "bdeb309d-7434-4c77-9b83-94ca9bc46b68",
+                            "properties": {
+                                "job_title": "CMO/SVP of Marketing"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7b41c06d-b552-483b-b0ef-784f74d2d05c",
+            "properties": {
+                "name": "Jim Nichols",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7b41c06d-b552-483b-b0ef-784f74d2d05c",
+                    "value": "Jim Nichols"
+                },
+                "linkedin": "nicholsjim",
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "889fdbf7-1563-4f83-9d50-40a63d9d9150",
+                            "related_uuid": "7b41c06d-b552-483b-b0ef-784f74d2d05c",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

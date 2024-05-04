@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "273b4736-887a-45f0-8379-584774aacb3c",
+            "properties": {
+                "name": "Thor Culverhouse",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "273b4736-887a-45f0-8379-584774aacb3c",
+                    "value": "Thor Culverhouse"
+                },
+                "linkedin": "thorculverhouse",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "78001c37-8ab5-4c50-b9c4-112ca4473a3e",
+                            "related_uuid": "273b4736-887a-45f0-8379-584774aacb3c",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2e16a5c4-2d53-4450-86cc-252dbaf88b3c",
+            "properties": {
+                "name": "Michael FitzGerald",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2e16a5c4-2d53-4450-86cc-252dbaf88b3c",
+                    "value": "Michael FitzGerald"
+                },
+                "linkedin": "radiantdays",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "603afc36-0660-470f-a835-34a485b9d93a",
+                            "related_uuid": "2e16a5c4-2d53-4450-86cc-252dbaf88b3c",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "955e8514-348d-4217-a9f9-3f7edda1557a",
+            "properties": {
+                "name": "Daniel Carneiro",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "955e8514-348d-4217-a9f9-3f7edda1557a",
+                    "value": "Daniel Carneiro"
+                },
+                "linkedin": "daniel-carneiro",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "29055570-a8cd-4a8e-89cc-d0b1592554af",
+                            "related_uuid": "955e8514-348d-4217-a9f9-3f7edda1557a",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b97aae31-026e-4212-9ceb-ed510d7d026a",
+            "properties": {
+                "name": "Isobel Shurley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b97aae31-026e-4212-9ceb-ed510d7d026a",
+                    "value": "Isobel Shurley"
+                },
+                "linkedin": "isobel-shurley",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "abb7d961-2182-421d-9e35-47c626340d48",
+                            "related_uuid": "b97aae31-026e-4212-9ceb-ed510d7d026a",
+                            "properties": {
+                                "job_title": "Director, Customer Success ANZ"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ae1916f2-93f2-45bb-80c5-3e61f1ab5550",
+            "properties": {
+                "name": "Joseph Kovel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ae1916f2-93f2-45bb-80c5-3e61f1ab5550",
+                    "value": "Joseph Kovel"
+                },
+                "linkedin": "joseph-kovel-b39b8116",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "36ea7ef8-ce73-4f33-a584-67de9cd7c8fc",
+                            "related_uuid": "ae1916f2-93f2-45bb-80c5-3e61f1ab5550",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

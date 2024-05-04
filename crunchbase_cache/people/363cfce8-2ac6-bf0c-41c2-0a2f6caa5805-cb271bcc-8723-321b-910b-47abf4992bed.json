@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "de451334-e7a8-4d21-8f9b-c45b0b2d2f61",
+            "properties": {
+                "name": "Aly Wagenman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "de451334-e7a8-4d21-8f9b-c45b0b2d2f61",
+                    "value": "Aly Wagenman"
+                },
+                "linkedin": "alywagenman",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "507acb8e-d466-4425-b61f-cf6f10551db0",
+                            "related_uuid": "de451334-e7a8-4d21-8f9b-c45b0b2d2f61",
+                            "properties": {
+                                "job_title": "Director of Customer Success, Mid-Market"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

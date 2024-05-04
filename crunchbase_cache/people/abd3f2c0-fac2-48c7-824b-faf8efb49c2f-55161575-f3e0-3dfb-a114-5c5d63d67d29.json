@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "c2a4472f-da95-46e3-a04f-62cc683672cc",
+            "properties": {
+                "name": "Eldar Tuvey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c2a4472f-da95-46e3-a04f-62cc683672cc",
+                    "value": "Eldar Tuvey"
+                },
+                "linkedin": "eldar-tuvey-452133",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0bf010cb-cf38-4fea-b458-44f1ad846ee6",
+                            "related_uuid": "c2a4472f-da95-46e3-a04f-62cc683672cc",
+                            "properties": {
+                                "job_title": "Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c971b733-b194-4c70-b53c-be2319b2946d",
+            "properties": {
+                "name": "Roy Tuvey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c971b733-b194-4c70-b53c-be2319b2946d",
+                    "value": "Roy Tuvey"
+                },
+                "linkedin": "roytuvey",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d1cdedaf-077e-4008-9640-e17fb2c4810e",
+                            "related_uuid": "c971b733-b194-4c70-b53c-be2319b2946d",
+                            "properties": {
+                                "job_title": "Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

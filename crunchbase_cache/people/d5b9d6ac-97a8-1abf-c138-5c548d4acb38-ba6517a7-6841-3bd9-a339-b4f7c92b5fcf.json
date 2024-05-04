@@ -1,0 +1,447 @@
+{
+    "count": 14,
+    "entities": [
+        {
+            "uuid": "cfe0a1be-27b9-46ff-8698-34bcb4d19783",
+            "properties": {
+                "name": "Amanda McCulloch",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cfe0a1be-27b9-46ff-8698-34bcb4d19783",
+                    "value": "Amanda McCulloch"
+                },
+                "linkedin": "amanda-mcculloch-7961436",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "541f710d-0f02-4934-a004-44a7779d94a6",
+                            "related_uuid": "cfe0a1be-27b9-46ff-8698-34bcb4d19783",
+                            "properties": {
+                                "job_title": "Director, Global Clinical Quality Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b8e5737a-f90a-4c14-96d7-721384fc5a7d",
+            "properties": {
+                "name": "Amy Jimmerson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b8e5737a-f90a-4c14-96d7-721384fc5a7d",
+                    "value": "Amy Jimmerson"
+                },
+                "linkedin": "amy-jimmerson-2354678",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4996922f-3d96-41ad-97b9-cabe28b9f1ce",
+                            "related_uuid": "b8e5737a-f90a-4c14-96d7-721384fc5a7d",
+                            "properties": {
+                                "job_title": "Healthcare"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "216be4e3-ae8e-43b6-ba6f-c0c86ab8ead4",
+            "properties": {
+                "name": "Chad Wieneke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "216be4e3-ae8e-43b6-ba6f-c0c86ab8ead4",
+                    "value": "Chad Wieneke"
+                },
+                "linkedin": "chad-wieneke-5553a35",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f64cfc6-c05a-4b26-a30b-d0be532af2ca",
+                            "related_uuid": "216be4e3-ae8e-43b6-ba6f-c0c86ab8ead4",
+                            "properties": {
+                                "job_title": "Director - Clinical Quality"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a017ce88-bdbe-4f88-97f2-fdd6afda97a4",
+            "properties": {
+                "name": "Darcy Gunnink",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a017ce88-bdbe-4f88-97f2-fdd6afda97a4",
+                    "value": "Darcy Gunnink"
+                },
+                "linkedin": "darcy-gunnink-461832b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0bc32a72-5f6c-4979-bd9b-98b63b26b8c6",
+                            "related_uuid": "a017ce88-bdbe-4f88-97f2-fdd6afda97a4",
+                            "properties": {
+                                "job_title": "Healthcare"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1d44560f-ad0b-4ecf-8397-f6c87947766e",
+            "properties": {
+                "name": "Donna Doran",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1d44560f-ad0b-4ecf-8397-f6c87947766e",
+                    "value": "Donna Doran"
+                },
+                "linkedin": "donna-doran-68301b16",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6e88c886-d012-49f6-89eb-80f159010add",
+                            "related_uuid": "1d44560f-ad0b-4ecf-8397-f6c87947766e",
+                            "properties": {
+                                "job_title": "Clinical Monitoring Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5b5eab7a-08f1-4958-9be3-12c3ba152a05",
+            "properties": {
+                "name": "Hang Nguyen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5b5eab7a-08f1-4958-9be3-12c3ba152a05",
+                    "value": "Hang Nguyen"
+                },
+                "linkedin": "hang-nguyen-3a8b645",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5afaba6c-2700-4265-b6d3-11b1f7b7eba1",
+                            "related_uuid": "5b5eab7a-08f1-4958-9be3-12c3ba152a05",
+                            "properties": {
+                                "job_title": "Healthcare"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "92d6072c-a408-48fb-acc6-631fb8f5150a",
+            "properties": {
+                "name": "Hugo Fagioli",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "92d6072c-a408-48fb-acc6-631fb8f5150a",
+                    "value": "Hugo Fagioli"
+                },
+                "linkedin": "hugo-fagioli-7601835",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "eb025028-f00e-4027-af53-22a1847d6726",
+                            "related_uuid": "92d6072c-a408-48fb-acc6-631fb8f5150a",
+                            "properties": {
+                                "job_title": "Latin America Clinical Research Affairs Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "891485d2-ed9b-4642-b84e-944435bd50f8",
+            "properties": {
+                "name": "Jeff Stein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "891485d2-ed9b-4642-b84e-944435bd50f8",
+                    "value": "Jeff Stein"
+                },
+                "linkedin": "jeff-stein-4b9902ba",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "06b5e960-fdf7-4791-83b0-25d554b5689b",
+                            "related_uuid": "891485d2-ed9b-4642-b84e-944435bd50f8",
+                            "properties": {
+                                "job_title": "Healthcare"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bf9e159e-ca98-40a6-af84-9b1f6ade3f71",
+            "properties": {
+                "name": "Jennifer Broom",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bf9e159e-ca98-40a6-af84-9b1f6ade3f71",
+                    "value": "Jennifer Broom"
+                },
+                "linkedin": "jennifer-broom-mba-5516285",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "23cc4860-bb68-4297-90bf-3ac68874bde1",
+                            "related_uuid": "bf9e159e-ca98-40a6-af84-9b1f6ade3f71",
+                            "properties": {
+                                "job_title": "Director of Clinical Implementation"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "01f8207e-9ebb-4d3a-b3a3-3f2b4937c035",
+            "properties": {
+                "name": "Justin Shopbell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "01f8207e-9ebb-4d3a-b3a3-3f2b4937c035",
+                    "value": "Justin Shopbell"
+                },
+                "linkedin": "justin-shopbell-aaa6083b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "46f1ca3f-13f5-4b73-badd-ed9392eb3344",
+                            "related_uuid": "01f8207e-9ebb-4d3a-b3a3-3f2b4937c035",
+                            "properties": {
+                                "job_title": "Finance and Administration"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f845ee37-51f2-4b86-9204-3c8e860f6ad2",
+            "properties": {
+                "name": "Kara Southall",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f845ee37-51f2-4b86-9204-3c8e860f6ad2",
+                    "value": "Kara Southall"
+                },
+                "linkedin": "kara-southall-ms-737a122a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4fd60ef8-f5dd-43a6-a50e-a696bcdf03dd",
+                            "related_uuid": "f845ee37-51f2-4b86-9204-3c8e860f6ad2",
+                            "properties": {
+                                "job_title": "Director Clinical Research"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8aebcd1e-2860-422e-bc9f-53208f8d9281",
+            "properties": {
+                "name": "Melissa Erickson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8aebcd1e-2860-422e-bc9f-53208f8d9281",
+                    "value": "Melissa Erickson"
+                },
+                "linkedin": "melissa-erickson-63bbb949",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "25fb93ba-d64d-4499-8329-16e40edef51a",
+                            "related_uuid": "8aebcd1e-2860-422e-bc9f-53208f8d9281",
+                            "properties": {
+                                "job_title": "Finance Director - Neuromodulation R&D and Clinical"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9da8a72a-3745-4411-8d18-0f9c4574c1e9",
+            "properties": {
+                "name": "Mike Boulware",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9da8a72a-3745-4411-8d18-0f9c4574c1e9",
+                    "value": "Mike Boulware"
+                },
+                "linkedin": "mike-boulware-071a6413",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2224747a-4e3f-44ee-9555-01a952ed0de1",
+                            "related_uuid": "9da8a72a-3745-4411-8d18-0f9c4574c1e9",
+                            "properties": {
+                                "job_title": "Healthcare"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cedd8b41-b032-4613-9f8d-b6028268916b",
+            "properties": {
+                "name": "Shirley Picka",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cedd8b41-b032-4613-9f8d-b6028268916b",
+                    "value": "Shirley Picka"
+                },
+                "linkedin": "shirley-picka-339a21a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4645c267-a543-455e-9621-b0426993a647",
+                            "related_uuid": "cedd8b41-b032-4613-9f8d-b6028268916b",
+                            "properties": {
+                                "job_title": "Healthcare"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f656d71d-d280-4fd5-80e0-bc24b51135b2",
+            "properties": {
+                "name": "Nima Negahban",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f656d71d-d280-4fd5-80e0-bc24b51135b2",
+                    "value": "Nima Negahban"
+                },
+                "linkedin": "negahban",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7c839005-56df-4cc1-8226-f732407e90df",
+                            "related_uuid": "f656d71d-d280-4fd5-80e0-bc24b51135b2",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

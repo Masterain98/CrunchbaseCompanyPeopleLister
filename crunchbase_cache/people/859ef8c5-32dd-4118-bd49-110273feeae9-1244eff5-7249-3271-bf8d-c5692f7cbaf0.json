@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c33c09ff-0f80-4e28-bc74-cda1b6ad5610",
+            "properties": {
+                "name": "Gil Hoffer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c33c09ff-0f80-4e28-bc74-cda1b6ad5610",
+                    "value": "Gil Hoffer"
+                },
+                "linkedin": "gilhoffer",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "709417d6-618c-4fb1-93cd-c58f8758f30b",
+                            "related_uuid": "c33c09ff-0f80-4e28-bc74-cda1b6ad5610",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

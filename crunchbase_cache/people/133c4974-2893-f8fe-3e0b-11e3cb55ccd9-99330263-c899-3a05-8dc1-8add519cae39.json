@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e28a2bb4-d454-4e1a-b406-d0c0ce555b1c",
+            "properties": {
+                "name": "Shekar Hariharan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e28a2bb4-d454-4e1a-b406-d0c0ce555b1c",
+                    "value": "Shekar Hariharan"
+                },
+                "linkedin": "shekarh",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6082fa7e-4f85-479f-954a-7594b598b7cc",
+                            "related_uuid": "e28a2bb4-d454-4e1a-b406-d0c0ce555b1c",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

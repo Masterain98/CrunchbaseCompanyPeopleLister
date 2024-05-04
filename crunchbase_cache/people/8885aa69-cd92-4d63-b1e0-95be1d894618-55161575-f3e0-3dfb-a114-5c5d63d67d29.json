@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a8dc9794-421c-49f6-b0a5-105009ffb31d",
+            "properties": {
+                "name": "Uri Haramati",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a8dc9794-421c-49f6-b0a5-105009ffb31d",
+                    "value": "Uri Haramati"
+                },
+                "linkedin": "uriharamati",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "108a256a-943d-4e78-b97e-a6cbfb6cd15e",
+                            "related_uuid": "a8dc9794-421c-49f6-b0a5-105009ffb31d",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

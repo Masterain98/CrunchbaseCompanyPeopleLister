@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e2c94331-8a79-4e27-9f32-a3907a62eaa8",
+            "properties": {
+                "name": "Lisa Avery",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e2c94331-8a79-4e27-9f32-a3907a62eaa8",
+                    "value": "Lisa Avery"
+                },
+                "linkedin": "lisa-avery-a4296930",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "db57f396-4e73-4510-9ac0-32f827ce4613",
+                            "related_uuid": "e2c94331-8a79-4e27-9f32-a3907a62eaa8",
+                            "properties": {
+                                "job_title": "Director of Client Services EMEA"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

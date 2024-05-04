@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "c758b979-16e7-4515-999c-6b9b971d2f57",
+            "properties": {
+                "name": "Brett Proctor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c758b979-16e7-4515-999c-6b9b971d2f57",
+                    "value": "Brett Proctor"
+                },
+                "linkedin": "proctorbrett",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7d195bb3-1c08-4a0c-9ed2-c868835fce02",
+                            "related_uuid": "c758b979-16e7-4515-999c-6b9b971d2f57",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5474ce09-b029-462c-97a0-95e4d2c2f9b0",
+            "properties": {
+                "name": "Jason Warner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5474ce09-b029-462c-97a0-95e4d2c2f9b0",
+                    "value": "Jason Warner"
+                },
+                "linkedin": "jcwarner",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "865f86a3-e7e9-44ba-a7b2-21afd385002f",
+                            "related_uuid": "5474ce09-b029-462c-97a0-95e4d2c2f9b0",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

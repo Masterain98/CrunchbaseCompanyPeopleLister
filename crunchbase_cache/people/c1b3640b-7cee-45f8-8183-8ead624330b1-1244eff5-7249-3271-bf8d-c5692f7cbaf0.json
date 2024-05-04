@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0991fa5c-297e-4642-8c64-8a6b3a895c7f",
+            "properties": {
+                "name": "Shawn Lewis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0991fa5c-297e-4642-8c64-8a6b3a895c7f",
+                    "value": "Shawn Lewis"
+                },
+                "linkedin": "shawn-lewis-524a563",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7928233f-5e2d-40ce-9803-78eca605e081",
+                            "related_uuid": "0991fa5c-297e-4642-8c64-8a6b3a895c7f",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

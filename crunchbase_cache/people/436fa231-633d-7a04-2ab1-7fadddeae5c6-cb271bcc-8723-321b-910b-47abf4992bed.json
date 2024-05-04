@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8df34103-636b-4ea1-905d-0679ab3a0e0f",
+            "properties": {
+                "name": "Giulia Umile",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8df34103-636b-4ea1-905d-0679ab3a0e0f",
+                    "value": "Giulia Umile"
+                },
+                "linkedin": "giuliaumile",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "58ae8ffc-b79c-4d95-8a49-7f24369c108e",
+                            "related_uuid": "8df34103-636b-4ea1-905d-0679ab3a0e0f",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

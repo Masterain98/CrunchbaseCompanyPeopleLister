@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "e965cd9f-9ba0-42a0-8524-3b0b84dbcd2f",
+            "properties": {
+                "name": "Vance Bjorn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e965cd9f-9ba0-42a0-8524-3b0b84dbcd2f",
+                    "value": "Vance Bjorn"
+                },
+                "linkedin": "vancebjorn",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "21bd09d2-7155-40ac-8687-791d7209f0a0",
+                            "related_uuid": "e965cd9f-9ba0-42a0-8524-3b0b84dbcd2f",
+                            "properties": {
+                                "job_title": "CEO / Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1dea1d9a-80fd-4f32-b788-3f8a63738728",
+            "properties": {
+                "name": "Tyler Adams",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1dea1d9a-80fd-4f32-b788-3f8a63738728",
+                    "value": "Tyler Adams"
+                },
+                "linkedin": "tyler-adams-792a5615",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a89e915e-0dcc-40c9-a217-2bfde9bcac78",
+                            "related_uuid": "1dea1d9a-80fd-4f32-b788-3f8a63738728",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

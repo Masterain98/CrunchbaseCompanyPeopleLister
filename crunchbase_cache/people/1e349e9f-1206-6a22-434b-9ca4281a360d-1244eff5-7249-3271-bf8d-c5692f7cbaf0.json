@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6e4603e8-00c0-4a3a-9017-ba34bdf94fe3",
+            "properties": {
+                "name": "Mike Ruangutai",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6e4603e8-00c0-4a3a-9017-ba34bdf94fe3",
+                    "value": "Mike Ruangutai"
+                },
+                "linkedin": "mruangutai",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "32e2ff8e-ee3d-49d5-8552-43e44d1cb364",
+                            "related_uuid": "6e4603e8-00c0-4a3a-9017-ba34bdf94fe3",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

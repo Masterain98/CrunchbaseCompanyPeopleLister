@@ -1,0 +1,104 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "be9dd925-5d2c-47a6-97be-da4ba05484fe",
+            "properties": {
+                "name": "Chandler McCann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "be9dd925-5d2c-47a6-97be-da4ba05484fe",
+                    "value": "Chandler McCann"
+                },
+                "linkedin": "chandlermccann",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5c5b93f6-cfc2-4a30-b42a-d365cda75344",
+                            "related_uuid": "be9dd925-5d2c-47a6-97be-da4ba05484fe",
+                            "properties": {
+                                "job_title": "Field, CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b732d87e-4eaa-448e-aa27-3b66841ab213",
+            "properties": {
+                "name": "Edward (Ted) Kwartler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b732d87e-4eaa-448e-aa27-3b66841ab213",
+                    "value": "Edward (Ted) Kwartler"
+                },
+                "linkedin": "edwardkwartler",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a2fef4af-6424-478a-8a08-b72009d7e23f",
+                            "related_uuid": "b732d87e-4eaa-448e-aa27-3b66841ab213",
+                            "properties": {
+                                "job_title": "Field, Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "86d88358-70cc-4804-b8a2-f001633d804e",
+            "properties": {
+                "name": "Michael Schmidt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "86d88358-70cc-4804-b8a2-f001633d804e",
+                    "value": "Michael Schmidt"
+                },
+                "linkedin": "michael-schmidt-eureqa",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c241b0b3-6245-4a9e-813c-b572a96ea47c",
+                            "related_uuid": "86d88358-70cc-4804-b8a2-f001633d804e",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

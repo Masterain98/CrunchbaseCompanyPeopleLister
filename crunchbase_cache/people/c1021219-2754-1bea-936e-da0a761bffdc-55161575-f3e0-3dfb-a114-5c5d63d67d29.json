@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "81823b71-cb6d-4a08-aba5-faaf0547ee3a",
+            "properties": {
+                "name": "Vladislav Voroninski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "81823b71-cb6d-4a08-aba5-faaf0547ee3a",
+                    "value": "Vladislav Voroninski"
+                },
+                "linkedin": "vladislav-voroninski-83200213",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4ca83bf8-adc4-4669-ba86-14077f405887",
+                            "related_uuid": "81823b71-cb6d-4a08-aba5-faaf0547ee3a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0bcf7a37-11ab-46a9-9bee-44198ae400fb",
+            "properties": {
+                "name": "Austin Russell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0bcf7a37-11ab-46a9-9bee-44198ae400fb",
+                    "value": "Austin Russell"
+                },
+                "linkedin": "austin-russell-49913755",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "914e5dfb-748e-4327-acfe-05da67ef7ebf",
+                            "related_uuid": "0bcf7a37-11ab-46a9-9bee-44198ae400fb",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "aa885b93-0479-4e7f-be9b-8fb98aaa759c",
+            "properties": {
+                "name": "Carin Chan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aa885b93-0479-4e7f-be9b-8fb98aaa759c",
+                    "value": "Carin Chan"
+                },
+                "linkedin": "carinchan",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7943a94b-a669-4749-91f9-b6cbff4705ff",
+                            "related_uuid": "aa885b93-0479-4e7f-be9b-8fb98aaa759c",
+                            "properties": {
+                                "job_title": "Interim CMO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9ed9ef6f-13d6-4d02-af76-f203b2541093",
+            "properties": {
+                "name": "Cathy Novelli",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9ed9ef6f-13d6-4d02-af76-f203b2541093",
+                    "value": "Cathy Novelli"
+                },
+                "linkedin": "cathysong",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "136e36d8-f285-44de-a9c2-8c1653772167",
+                            "related_uuid": "9ed9ef6f-13d6-4d02-af76-f203b2541093",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b498b70d-c110-48db-8015-b29786562c70",
+            "properties": {
+                "name": "Erik Newton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b498b70d-c110-48db-8015-b29786562c70",
+                    "value": "Erik Newton"
+                },
+                "linkedin": "eriknewton",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b8c52a2c-529b-4cc4-a376-13f250299656",
+                            "related_uuid": "b498b70d-c110-48db-8015-b29786562c70",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "489664f4-83c3-427d-84d4-4b26d14a2e5a",
+            "properties": {
+                "name": "Chris Christian",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "489664f4-83c3-427d-84d4-4b26d14a2e5a",
+                    "value": "Chris Christian"
+                },
+                "linkedin": "chris-christian-94345430",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6378a752-6811-46b4-afd1-4a2bb165a4d1",
+                            "related_uuid": "489664f4-83c3-427d-84d4-4b26d14a2e5a",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "464f3eba-ba3a-4bdb-af39-1495e5853f5f",
+            "properties": {
+                "name": "Leanne Hickey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "464f3eba-ba3a-4bdb-af39-1495e5853f5f",
+                    "value": "Leanne Hickey"
+                },
+                "linkedin": "leanne-hickey-353520109",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6815762c-5d24-4928-9d16-9711f08e2201",
+                            "related_uuid": "464f3eba-ba3a-4bdb-af39-1495e5853f5f",
+                            "properties": {
+                                "job_title": "Director of Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

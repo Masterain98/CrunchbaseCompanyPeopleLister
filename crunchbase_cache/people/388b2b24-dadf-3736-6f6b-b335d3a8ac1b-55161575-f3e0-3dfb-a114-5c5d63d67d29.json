@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3fc0cf41-0027-4ac5-9908-494c4c4fd2a6",
+            "properties": {
+                "name": "Anthony D'Amore",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3fc0cf41-0027-4ac5-9908-494c4c4fd2a6",
+                    "value": "Anthony D'Amore"
+                },
+                "linkedin": "anthony-d-amore-6622b489",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fadd9d93-d2a3-4fe1-a86c-238d1d69e2c5",
+                            "related_uuid": "3fc0cf41-0027-4ac5-9908-494c4c4fd2a6",
+                            "properties": {
+                                "job_title": "Co-CEO / CFO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

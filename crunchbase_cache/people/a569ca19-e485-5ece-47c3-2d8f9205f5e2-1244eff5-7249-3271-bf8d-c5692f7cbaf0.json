@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e7c877bc-2604-47e5-8a7f-5035fabc37f5",
+            "properties": {
+                "name": "Renato Mascardo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e7c877bc-2604-47e5-8a7f-5035fabc37f5",
+                    "value": "Renato Mascardo"
+                },
+                "linkedin": "rmascardo",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "939fbe79-10f4-4e81-9c94-88c800857e6e",
+                            "related_uuid": "e7c877bc-2604-47e5-8a7f-5035fabc37f5",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

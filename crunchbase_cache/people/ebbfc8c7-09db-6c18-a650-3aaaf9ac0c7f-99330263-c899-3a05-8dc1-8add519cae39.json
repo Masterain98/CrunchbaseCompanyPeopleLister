@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0baeb100-062a-42a2-aa19-96cae33eef0e",
+            "properties": {
+                "name": "Sai Koppala",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0baeb100-062a-42a2-aa19-96cae33eef0e",
+                    "value": "Sai Koppala"
+                },
+                "linkedin": "koppala",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2f5165d7-06f7-449e-bc1d-9c5128768d69",
+                            "related_uuid": "0baeb100-062a-42a2-aa19-96cae33eef0e",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

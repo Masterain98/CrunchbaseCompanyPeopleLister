@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c6359595-95d9-4808-9e6a-a8d12164639c",
+            "properties": {
+                "name": "Cassie Hampton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c6359595-95d9-4808-9e6a-a8d12164639c",
+                    "value": "Cassie Hampton"
+                },
+                "linkedin": "cassie-hampton",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "pro_services"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a7ff4cac-254f-49a1-8932-4b2ad1153313",
+                            "related_uuid": "c6359595-95d9-4808-9e6a-a8d12164639c",
+                            "properties": {
+                                "job_title": "Director of Customer Success, SMB"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

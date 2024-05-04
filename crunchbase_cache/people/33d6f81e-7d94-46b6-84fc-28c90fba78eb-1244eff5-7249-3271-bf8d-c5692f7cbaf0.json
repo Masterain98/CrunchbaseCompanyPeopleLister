@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "877d07dc-0c47-442a-8091-91ef1ed40921",
+            "properties": {
+                "name": "Madhu Poolu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "877d07dc-0c47-442a-8091-91ef1ed40921",
+                    "value": "Madhu Poolu"
+                },
+                "linkedin": "madhupoolu",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "65e98c27-79b0-4cc9-9324-04d453772c0b",
+                            "related_uuid": "877d07dc-0c47-442a-8091-91ef1ed40921",
+                            "properties": {
+                                "job_title": "CTO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

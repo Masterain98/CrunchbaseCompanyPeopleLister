@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "34ecef0c-1344-4b73-a493-9b41e0682a89",
+            "properties": {
+                "name": "Yotam Hadass",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "34ecef0c-1344-4b73-a493-9b41e0682a89",
+                    "value": "Yotam Hadass"
+                },
+                "linkedin": "yotamhadass",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ee329fb-2d82-4a23-944b-c1527f8b672c",
+                            "related_uuid": "34ecef0c-1344-4b73-a493-9b41e0682a89",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

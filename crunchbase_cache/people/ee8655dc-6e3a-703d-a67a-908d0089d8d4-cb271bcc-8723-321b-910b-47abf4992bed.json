@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "109069f6-c19e-46e9-b37a-364636537a5d",
+            "properties": {
+                "name": "Liz Maloley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "109069f6-c19e-46e9-b37a-364636537a5d",
+                    "value": "Liz Maloley"
+                },
+                "linkedin": "liz-maloley-18592467",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "01464924-a34c-49e5-b1c5-b66d52fe41fe",
+                            "related_uuid": "109069f6-c19e-46e9-b37a-364636537a5d",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

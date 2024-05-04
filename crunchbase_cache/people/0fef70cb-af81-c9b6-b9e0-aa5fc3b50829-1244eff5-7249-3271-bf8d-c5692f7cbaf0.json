@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "de39b71e-45dc-4d4a-a282-133ba67b9481",
+            "properties": {
+                "name": "Curtis Liu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "de39b71e-45dc-4d4a-a282-133ba67b9481",
+                    "value": "Curtis Liu"
+                },
+                "linkedin": "curtisliu",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3fb215de-df6b-46f5-b513-ea301a237b73",
+                            "related_uuid": "de39b71e-45dc-4d4a-a282-133ba67b9481",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

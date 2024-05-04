@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f9c635c4-5bc1-4220-9789-bd6cc1e62c9c",
+            "properties": {
+                "name": "SAnkar Narayan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f9c635c4-5bc1-4220-9789-bd6cc1e62c9c",
+                    "value": "SAnkar Narayan"
+                },
+                "linkedin": "sankar-narayan-25588327",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "88bc13b9-ec46-4a4c-9816-b6337ee0b6db",
+                            "related_uuid": "f9c635c4-5bc1-4220-9789-bd6cc1e62c9c",
+                            "properties": {
+                                "job_title": "CEO and Managing Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

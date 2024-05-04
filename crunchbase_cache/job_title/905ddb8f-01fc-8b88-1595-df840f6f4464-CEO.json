@@ -1,0 +1,61 @@
+{
+    "count": 7,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "coordinator",
+                "uuid": "c4312c2a-07bf-3ded-a08a-4d7cee2228dd",
+                "value": "Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "credit-manager",
+                "uuid": "8ff189bd-bed8-3846-b08e-96917bf4169e",
+                "value": "Credit Manager"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-credit-analyst",
+                "uuid": "6ec2595e-1361-35f7-b0d5-88d11bc27f51",
+                "value": "Senior Credit Analyst"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-analyst-compliance",
+                "uuid": "bb0a2658-c047-37f2-9a99-da07ab9edaf8",
+                "value": "Senior Analyst, Compliance"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "product-manager-compliance",
+                "uuid": "0f12feda-93cb-3885-8216-4f8c78a4f500",
+                "value": "Product Manager, Compliance"
+            }
+        }
+    ]
+}

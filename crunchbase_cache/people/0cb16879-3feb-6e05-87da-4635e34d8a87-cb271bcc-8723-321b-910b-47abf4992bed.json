@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9a4198ff-7540-44b5-9b01-9915bed5b3da",
+            "properties": {
+                "name": "Lillian Roche",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9a4198ff-7540-44b5-9b01-9915bed5b3da",
+                    "value": "Lillian Roche"
+                },
+                "linkedin": "lillianroche",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4b5be78a-4553-4679-8625-72dc8e5fa7d1",
+                            "related_uuid": "9a4198ff-7540-44b5-9b01-9915bed5b3da",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

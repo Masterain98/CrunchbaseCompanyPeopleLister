@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b5b83050-fa8b-4915-8989-157dd6c027d5",
+            "properties": {
+                "name": "James Kupernik",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5b83050-fa8b-4915-8989-157dd6c027d5",
+                    "value": "James Kupernik"
+                },
+                "linkedin": "jameskupernik",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "03cab10c-dc33-4167-9363-2ea499e751a3",
+                            "related_uuid": "b5b83050-fa8b-4915-8989-157dd6c027d5",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

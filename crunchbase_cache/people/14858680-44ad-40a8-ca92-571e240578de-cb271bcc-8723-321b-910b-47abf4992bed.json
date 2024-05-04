@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4000987d-56e2-44b4-a542-af6ca5b8e2ca",
+            "properties": {
+                "name": "Emma Sinai",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4000987d-56e2-44b4-a542-af6ca5b8e2ca",
+                    "value": "Emma Sinai"
+                },
+                "linkedin": "emmasinai",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "58f1769e-29ce-4af8-bcf1-03a26aa424b2",
+                            "related_uuid": "4000987d-56e2-44b4-a542-af6ca5b8e2ca",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

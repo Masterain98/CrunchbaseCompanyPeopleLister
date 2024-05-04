@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c7342535-7ca1-49bf-8681-757f65aae41d",
+            "properties": {
+                "name": "Michelle Anthony",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c7342535-7ca1-49bf-8681-757f65aae41d",
+                    "value": "Michelle Anthony"
+                },
+                "linkedin": "michelleanthony",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cb106923-acdf-4f6a-8e9d-9bec62c3a1aa",
+                            "related_uuid": "c7342535-7ca1-49bf-8681-757f65aae41d",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

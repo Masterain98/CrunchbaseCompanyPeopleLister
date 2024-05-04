@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d408ec1c-7423-46f9-8b21-c2ed911481a5",
+            "properties": {
+                "name": "David Pavlik",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d408ec1c-7423-46f9-8b21-c2ed911481a5",
+                    "value": "David Pavlik"
+                },
+                "linkedin": "davidpav",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "12cd43a6-f20e-45f1-b7d6-d5f07280c7a1",
+                            "related_uuid": "d408ec1c-7423-46f9-8b21-c2ed911481a5",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

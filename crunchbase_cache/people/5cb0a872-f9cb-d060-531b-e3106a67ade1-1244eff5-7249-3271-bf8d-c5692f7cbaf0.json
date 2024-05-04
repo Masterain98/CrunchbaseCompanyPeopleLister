@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "57b20ba0-df6e-4520-9620-ef472436d916",
+            "properties": {
+                "name": "Art Haedike",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "57b20ba0-df6e-4520-9620-ef472436d916",
+                    "value": "Art Haedike"
+                },
+                "linkedin": "arthaedike",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "77fe4be7-49d4-40af-bc5c-5d1f36d718cf",
+                            "related_uuid": "57b20ba0-df6e-4520-9620-ef472436d916",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

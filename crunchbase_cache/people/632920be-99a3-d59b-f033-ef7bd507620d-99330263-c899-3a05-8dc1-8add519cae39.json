@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0f28dd93-341d-4607-8508-26c9a83e5e26",
+            "properties": {
+                "name": "Tracey Moon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0f28dd93-341d-4607-8508-26c9a83e5e26",
+                    "value": "Tracey Moon"
+                },
+                "linkedin": "traceymoon",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "17a0f595-f724-47ed-a592-08db6728a6f2",
+                            "related_uuid": "0f28dd93-341d-4607-8508-26c9a83e5e26",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

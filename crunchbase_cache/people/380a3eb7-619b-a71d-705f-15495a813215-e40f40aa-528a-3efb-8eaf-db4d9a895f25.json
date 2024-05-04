@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "244c1df8-0c21-4229-a427-c2acc18d3f3a",
+            "properties": {
+                "name": "Josh Young",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "244c1df8-0c21-4229-a427-c2acc18d3f3a",
+                    "value": "Josh Young"
+                },
+                "linkedin": "josh-young-10b76bb",
+                "job_levels": [
+                    "l_400_vp"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fec491ba-db11-4379-bcdb-e7490b13c5f2",
+                            "related_uuid": "244c1df8-0c21-4229-a427-c2acc18d3f3a",
+                            "properties": {
+                                "job_title": "VP, Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

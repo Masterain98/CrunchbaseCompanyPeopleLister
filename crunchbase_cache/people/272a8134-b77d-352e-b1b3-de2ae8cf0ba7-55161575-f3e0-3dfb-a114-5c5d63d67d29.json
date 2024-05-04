@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cae35b5b-f9db-4394-b07c-0af91d2998d6",
+            "properties": {
+                "name": "Sandi Lin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cae35b5b-f9db-4394-b07c-0af91d2998d6",
+                    "value": "Sandi Lin"
+                },
+                "linkedin": "sandislin",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4908e209-7d08-4256-bfe9-3854f1535e53",
+                            "related_uuid": "cae35b5b-f9db-4394-b07c-0af91d2998d6",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

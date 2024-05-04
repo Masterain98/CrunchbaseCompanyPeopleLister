@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "f547d0d8-11fe-4827-b9cd-5d01df4a3b3c",
+            "properties": {
+                "name": "Helga Pullin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f547d0d8-11fe-4827-b9cd-5d01df4a3b3c",
+                    "value": "Helga Pullin"
+                },
+                "linkedin": "helga-pullin-8857258",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5f5d637a-f7c4-4c36-bb4d-acacc301a667",
+                            "related_uuid": "f547d0d8-11fe-4827-b9cd-5d01df4a3b3c",
+                            "properties": {
+                                "job_title": "Tax & Compliance Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "226dac53-4eb2-4d90-a59f-6201c6609af5",
+            "properties": {
+                "name": "Jon Wright",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "226dac53-4eb2-4d90-a59f-6201c6609af5",
+                    "value": "Jon Wright"
+                },
+                "linkedin": "jonwright408",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c097fcb-7ae5-4f1a-a98e-b625e6e28df5",
+                            "related_uuid": "226dac53-4eb2-4d90-a59f-6201c6609af5",
+                            "properties": {
+                                "job_title": "Director, Global Software Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

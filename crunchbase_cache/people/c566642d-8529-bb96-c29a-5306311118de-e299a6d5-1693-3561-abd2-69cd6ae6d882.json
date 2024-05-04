@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "234a6d96-1041-4382-a9ea-5f43ff13980e",
+            "properties": {
+                "name": "Marcy Maxwell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "234a6d96-1041-4382-a9ea-5f43ff13980e",
+                    "value": "Marcy Maxwell"
+                },
+                "linkedin": "marcymaxwell",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2479a6a4-1b5c-444f-a455-e515dc773078",
+                            "related_uuid": "234a6d96-1041-4382-a9ea-5f43ff13980e",
+                            "properties": {
+                                "job_title": "Director, Global Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

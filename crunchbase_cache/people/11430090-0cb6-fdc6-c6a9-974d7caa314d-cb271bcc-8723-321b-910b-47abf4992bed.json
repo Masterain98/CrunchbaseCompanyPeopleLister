@@ -1,0 +1,129 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "c1dfbd63-1fe7-49d9-b21d-89644c2e0196",
+            "properties": {
+                "name": "Daniela Cicoria",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c1dfbd63-1fe7-49d9-b21d-89644c2e0196",
+                    "value": "Daniela Cicoria"
+                },
+                "linkedin": "danielacicoria",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f3d1138e-aa9e-4922-87aa-4ec3e36ded80",
+                            "related_uuid": "c1dfbd63-1fe7-49d9-b21d-89644c2e0196",
+                            "properties": {
+                                "job_title": "Associate Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4eb33462-bfc3-4a62-8090-d3bc5bb3a940",
+            "properties": {
+                "name": "Dustin Zender",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4eb33462-bfc3-4a62-8090-d3bc5bb3a940",
+                    "value": "Dustin Zender"
+                },
+                "linkedin": "dustinzender",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9bdfb0cf-cabe-497e-b421-493469f4ace1",
+                            "related_uuid": "4eb33462-bfc3-4a62-8090-d3bc5bb3a940",
+                            "properties": {
+                                "job_title": "Associate Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7a1d47a3-8ccd-4025-bed2-9ebb18fb8931",
+            "properties": {
+                "name": "James Carlton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7a1d47a3-8ccd-4025-bed2-9ebb18fb8931",
+                    "value": "James Carlton"
+                },
+                "linkedin": "jamespcarlton",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ad9b8451-f79f-4fe8-8a47-85536fe9d996",
+                            "related_uuid": "7a1d47a3-8ccd-4025-bed2-9ebb18fb8931",
+                            "properties": {
+                                "job_title": "Associate Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8bcc6fbd-04c2-4760-9dc6-6c873428e63b",
+            "properties": {
+                "name": "Nathalie Walsh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8bcc6fbd-04c2-4760-9dc6-6c873428e63b",
+                    "value": "Nathalie Walsh"
+                },
+                "linkedin": "nathaliewalsh",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1c18eeaa-6a18-4832-a305-00c5a30abbe2",
+                            "related_uuid": "8bcc6fbd-04c2-4760-9dc6-6c873428e63b",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

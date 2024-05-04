@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "73724656-7784-4bfc-aaee-e2f61c3e94c6",
+            "properties": {
+                "name": "Shawn Diaz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "73724656-7784-4bfc-aaee-e2f61c3e94c6",
+                    "value": "Shawn Diaz"
+                },
+                "linkedin": "shawn-diaz-73318a8",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "10fffb57-322d-4239-8f27-8fdd5fa527e7",
+                            "related_uuid": "73724656-7784-4bfc-aaee-e2f61c3e94c6",
+                            "properties": {
+                                "job_title": "Creative Director / Head of Design"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-manager-client-success",
+                "uuid": "eaa30cf5-d79e-3dfb-b0f4-377d1aa0f623",
+                "value": "Senior Manager, Client Success"
+            }
+        }
+    ]
+}

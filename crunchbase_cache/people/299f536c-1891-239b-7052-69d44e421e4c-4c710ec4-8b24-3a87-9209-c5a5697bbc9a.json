@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8e78c3da-c5c2-412a-bee0-1d1354b8fa3e",
+            "properties": {
+                "name": "Lily Duevel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8e78c3da-c5c2-412a-bee0-1d1354b8fa3e",
+                    "value": "Lily Duevel"
+                },
+                "linkedin": "lilyduevel",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cca93d48-64a7-4376-bdc0-f048153351f3",
+                            "related_uuid": "8e78c3da-c5c2-412a-bee0-1d1354b8fa3e",
+                            "properties": {
+                                "job_title": "Senior Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "4c77484f-d213-492f-8fdf-a646eaa439d7",
+            "properties": {
+                "name": "Jessica Schmidt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4c77484f-d213-492f-8fdf-a646eaa439d7",
+                    "value": "Jessica Schmidt"
+                },
+                "linkedin": "jessicaschmidtchicago",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a1547d03-63b0-401b-a785-cad1b169b3c5",
+                            "related_uuid": "4c77484f-d213-492f-8fdf-a646eaa439d7",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4285d106-007f-4dc2-9b0b-d75b95271fef",
+            "properties": {
+                "name": "Rodrigo Mesquita",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4285d106-007f-4dc2-9b0b-d75b95271fef",
+                    "value": "Rodrigo Mesquita"
+                },
+                "linkedin": "rodrigoamesquita",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1c270069-00c1-4dbb-bf8c-3a83697847b4",
+                            "related_uuid": "4285d106-007f-4dc2-9b0b-d75b95271fef",
+                            "properties": {
+                                "job_title": "Director, Customer Success LATAM"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

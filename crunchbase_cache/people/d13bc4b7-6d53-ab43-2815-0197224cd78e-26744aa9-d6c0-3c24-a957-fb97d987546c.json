@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7afc7d70-a36e-4764-a56a-2b6ba38ba351",
+            "properties": {
+                "name": "Logan Beeler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7afc7d70-a36e-4764-a56a-2b6ba38ba351",
+                    "value": "Logan Beeler"
+                },
+                "linkedin": "logan-beeler-b1314581",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b8ab5a55-1f8e-4080-a867-0308936051fa",
+                            "related_uuid": "7afc7d70-a36e-4764-a56a-2b6ba38ba351",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

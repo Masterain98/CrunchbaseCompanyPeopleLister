@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5b5f7f4c-b451-45a8-9958-704b8028041b",
+            "properties": {
+                "name": "Matt Talbot",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5b5f7f4c-b451-45a8-9958-704b8028041b",
+                    "value": "Matt Talbot"
+                },
+                "linkedin": "mattltalbot",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "85d758b5-25db-4c50-9541-a5d5489a26b4",
+                            "related_uuid": "5b5f7f4c-b451-45a8-9958-704b8028041b",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

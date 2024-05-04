@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fd78095f-94a6-4b45-b45f-a488d6a83b14",
+            "properties": {
+                "name": "Anda Gansca",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fd78095f-94a6-4b45-b45f-a488d6a83b14",
+                    "value": "Anda Gansca"
+                },
+                "linkedin": "anda-gansca-69081117",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e6d86942-9265-41ac-8199-af98434b81a1",
+                            "related_uuid": "fd78095f-94a6-4b45-b45f-a488d6a83b14",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

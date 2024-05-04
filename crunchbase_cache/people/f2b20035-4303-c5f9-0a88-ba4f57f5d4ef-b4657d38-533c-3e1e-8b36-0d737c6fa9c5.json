@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a8d6c4aa-d566-44e7-b9de-12a8ab66e734",
+            "properties": {
+                "name": "January Miles",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a8d6c4aa-d566-44e7-b9de-12a8ab66e734",
+                    "value": "January Miles"
+                },
+                "linkedin": "january-miles-5ab90a44",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1b686109-9e39-4e70-9c9e-3ee260391eb7",
+                            "related_uuid": "a8d6c4aa-d566-44e7-b9de-12a8ab66e734",
+                            "properties": {
+                                "job_title": "Executive Director of Client Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "ec0948a1-bbb1-4e75-9560-4ec2981bf5b8",
+            "properties": {
+                "name": "Andrew Stone",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ec0948a1-bbb1-4e75-9560-4ec2981bf5b8",
+                    "value": "Andrew Stone"
+                },
+                "linkedin": "techexecla",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f09c0780-c43f-45ec-a8ef-b3fe2a30e04b",
+                            "related_uuid": "ec0948a1-bbb1-4e75-9560-4ec2981bf5b8",
+                            "properties": {
+                                "job_title": "CTO - Americas"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "60b09016-f9d0-46d2-a123-384405c6ea02",
+            "properties": {
+                "name": "John Colgrove",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "60b09016-f9d0-46d2-a123-384405c6ea02",
+                    "value": "John Colgrove"
+                },
+                "linkedin": "johncolgrove",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7b0c7df0-33b3-4055-86a7-334d7fecd381",
+                            "related_uuid": "60b09016-f9d0-46d2-a123-384405c6ea02",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cff4b22a-f9bd-4811-b027-48fdc2c347d8",
+            "properties": {
+                "name": "Robert Lee",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cff4b22a-f9bd-4811-b027-48fdc2c347d8",
+                    "value": "Robert Lee"
+                },
+                "linkedin": "robhlee",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ad9146b9-91c3-40ff-9247-2bea84bbda2c",
+                            "related_uuid": "cff4b22a-f9bd-4811-b027-48fdc2c347d8",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

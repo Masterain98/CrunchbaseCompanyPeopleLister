@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e2c1ed0a-1e93-4ce8-87c8-d53c1070ba5b",
+            "properties": {
+                "name": "Matthew Davidson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e2c1ed0a-1e93-4ce8-87c8-d53c1070ba5b",
+                    "value": "Matthew Davidson"
+                },
+                "linkedin": "davidsonmatthew",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "63015aa2-774e-4a72-977a-6eea6c1a571d",
+                            "related_uuid": "e2c1ed0a-1e93-4ce8-87c8-d53c1070ba5b",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7a5f8d30-8dbe-4a66-bbac-c0f0ff0f98a0",
+            "properties": {
+                "name": "Gabriel Vecchia",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7a5f8d30-8dbe-4a66-bbac-c0f0ff0f98a0",
+                    "value": "Gabriel Vecchia"
+                },
+                "linkedin": "gabriel-vecchia-b8b3469",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9db4ab90-2032-48b4-8e2b-448d0e7369a4",
+                            "related_uuid": "7a5f8d30-8dbe-4a66-bbac-c0f0ff0f98a0",
+                            "properties": {
+                                "job_title": "Commercial Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

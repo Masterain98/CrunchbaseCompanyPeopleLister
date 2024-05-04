@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b1b0b523-881f-440e-89d6-31ab224e3cfe",
+            "properties": {
+                "name": "Yaron Ravkaie",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b1b0b523-881f-440e-89d6-31ab224e3cfe",
+                    "value": "Yaron Ravkaie"
+                },
+                "linkedin": "yaron-ravkaie-5294aa5",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07aafa3c-19f9-49c3-86f0-888c18d70e4b",
+                            "related_uuid": "b1b0b523-881f-440e-89d6-31ab224e3cfe",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

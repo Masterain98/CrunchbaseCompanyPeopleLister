@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aa20d0a9-7950-4ae0-b593-0d53e4ac1e3e",
+            "properties": {
+                "name": "John Bennett",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aa20d0a9-7950-4ae0-b593-0d53e4ac1e3e",
+                    "value": "John Bennett"
+                },
+                "linkedin": "jbthinks",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4571029e-14a2-47f4-8f65-371dfb41b5d8",
+                            "related_uuid": "aa20d0a9-7950-4ae0-b593-0d53e4ac1e3e",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

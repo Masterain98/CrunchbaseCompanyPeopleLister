@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "960912d5-ebd5-494c-8c56-f52f5a902a3e",
+            "properties": {
+                "name": "Anant Kale",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "960912d5-ebd5-494c-8c56-f52f5a902a3e",
+                    "value": "Anant Kale"
+                },
+                "linkedin": "anantkale",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5a40a109-8690-4ce6-8614-642b3f740d15",
+                            "related_uuid": "960912d5-ebd5-494c-8c56-f52f5a902a3e",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

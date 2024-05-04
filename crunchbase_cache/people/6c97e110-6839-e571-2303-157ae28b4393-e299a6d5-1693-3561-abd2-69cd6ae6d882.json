@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "14a47b0d-3980-4889-9717-a1e9a9683208",
+            "properties": {
+                "name": "Maddalena Scampuddu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "14a47b0d-3980-4889-9717-a1e9a9683208",
+                    "value": "Maddalena Scampuddu"
+                },
+                "linkedin": "koinoor",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ecab280-7441-4695-9081-438bd32e3015",
+                            "related_uuid": "14a47b0d-3980-4889-9717-a1e9a9683208",
+                            "properties": {
+                                "job_title": "Finance and Administration"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "52bb90e8-2e19-4c22-9c65-03c9d6070a52",
+            "properties": {
+                "name": "Parastoo Sanadi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "52bb90e8-2e19-4c22-9c65-03c9d6070a52",
+                    "value": "Parastoo Sanadi"
+                },
+                "linkedin": "parastoo-sanadi-cisa-88951726",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2382169b-7e09-4e63-aa84-9952be79037d",
+                            "related_uuid": "52bb90e8-2e19-4c22-9c65-03c9d6070a52",
+                            "properties": {
+                                "job_title": "Director, IT Security and Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

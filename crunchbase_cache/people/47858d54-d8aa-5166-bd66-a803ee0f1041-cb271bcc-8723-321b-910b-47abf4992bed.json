@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4c9524f7-d07b-4328-9837-740a0e386a85",
+            "properties": {
+                "name": "Tyler Major",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4c9524f7-d07b-4328-9837-740a0e386a85",
+                    "value": "Tyler Major"
+                },
+                "linkedin": "tylermajor",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00bb02b8-acc1-4a6f-8a08-40379090649c",
+                            "related_uuid": "4c9524f7-d07b-4328-9837-740a0e386a85",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

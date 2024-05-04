@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cadc2346-ec85-4787-bd65-af6e71ca0cee",
+            "properties": {
+                "name": "Katherine Matsumoto",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cadc2346-ec85-4787-bd65-af6e71ca0cee",
+                    "value": "Katherine Matsumoto"
+                },
+                "linkedin": "katherine-matsumoto-phd-324b9546",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a75dc4c9-56cb-432a-989e-570f0603f515",
+                            "related_uuid": "cadc2346-ec85-4787-bd65-af6e71ca0cee",
+                            "properties": {
+                                "job_title": "Senior Director of Internal Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

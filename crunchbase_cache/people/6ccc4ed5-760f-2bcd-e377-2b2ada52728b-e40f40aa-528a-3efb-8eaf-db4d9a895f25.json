@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e8010869-02f4-4248-b029-264bbc8e2804",
+            "properties": {
+                "name": "Brooke Glynn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e8010869-02f4-4248-b029-264bbc8e2804",
+                    "value": "Brooke Glynn"
+                },
+                "linkedin": "babglynn",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1e0ca4ac-254e-4d8d-b75d-454e4c81561c",
+                            "related_uuid": "e8010869-02f4-4248-b029-264bbc8e2804",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

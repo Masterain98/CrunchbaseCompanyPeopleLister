@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d491d257-6c16-4914-ae5e-81b8c84923fa",
+            "properties": {
+                "name": "Eyal Levy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d491d257-6c16-4914-ae5e-81b8c84923fa",
+                    "value": "Eyal Levy"
+                },
+                "linkedin": "eyalfeder",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f2c01624-24a9-443b-baf0-15f9e045c6e5",
+                            "related_uuid": "d491d257-6c16-4914-ae5e-81b8c84923fa",
+                            "properties": {
+                                "job_title": "CEO/Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

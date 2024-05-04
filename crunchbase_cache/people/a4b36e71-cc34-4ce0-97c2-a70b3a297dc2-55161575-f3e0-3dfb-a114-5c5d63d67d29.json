@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a5474e58-8227-4e2c-858b-a38b91d9eb3a",
+            "properties": {
+                "name": "Deon Nicholas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a5474e58-8227-4e2c-858b-a38b91d9eb3a",
+                    "value": "Deon Nicholas"
+                },
+                "linkedin": "deon-nicholas",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4a59ad5a-77a0-40f7-ac7b-5012761bd19f",
+                            "related_uuid": "a5474e58-8227-4e2c-858b-a38b91d9eb3a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

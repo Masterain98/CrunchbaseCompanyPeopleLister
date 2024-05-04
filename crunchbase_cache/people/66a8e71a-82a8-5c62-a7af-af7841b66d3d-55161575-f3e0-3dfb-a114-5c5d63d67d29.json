@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b2e625dc-1007-448e-965c-d82a794f9e64",
+            "properties": {
+                "name": "Sean Henry",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b2e625dc-1007-448e-965c-d82a794f9e64",
+                    "value": "Sean Henry"
+                },
+                "linkedin": "shenry96",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "407add16-7590-4cff-828b-015e26b0a977",
+                            "related_uuid": "b2e625dc-1007-448e-965c-d82a794f9e64",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

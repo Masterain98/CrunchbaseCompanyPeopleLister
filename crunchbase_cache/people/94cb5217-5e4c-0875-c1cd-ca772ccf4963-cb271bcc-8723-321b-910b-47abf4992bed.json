@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a92a1457-9212-4460-935b-97c9a13ce9dc",
+            "properties": {
+                "name": "Neil Leo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a92a1457-9212-4460-935b-97c9a13ce9dc",
+                    "value": "Neil Leo"
+                },
+                "linkedin": "neil-leo",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0430685a-200a-42eb-a002-0adc4e687c82",
+                            "related_uuid": "a92a1457-9212-4460-935b-97c9a13ce9dc",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

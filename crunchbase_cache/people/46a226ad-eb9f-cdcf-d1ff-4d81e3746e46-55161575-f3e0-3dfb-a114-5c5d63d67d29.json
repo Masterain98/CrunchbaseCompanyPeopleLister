@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fdbc1435-062a-4d8c-93a9-ac5f5a5710b1",
+            "properties": {
+                "name": "Courtney Mccolgan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fdbc1435-062a-4d8c-93a9-ac5f5a5710b1",
+                    "value": "Courtney Mccolgan"
+                },
+                "linkedin": "courtney-mccolgan-7976873",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d0347517-b004-4e4e-a46c-54567c183d4b",
+                            "related_uuid": "fdbc1435-062a-4d8c-93a9-ac5f5a5710b1",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

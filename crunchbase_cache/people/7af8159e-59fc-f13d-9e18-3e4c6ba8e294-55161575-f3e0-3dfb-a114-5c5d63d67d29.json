@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "427dc94d-ec23-4b5e-b7ad-761cf7f77f54",
+            "properties": {
+                "name": "David Karandish",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "427dc94d-ec23-4b5e-b7ad-761cf7f77f54",
+                    "value": "David Karandish"
+                },
+                "linkedin": "davidkarandish",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ea94345a-d349-4360-88d2-4f74f77ae5cc",
+                            "related_uuid": "427dc94d-ec23-4b5e-b7ad-761cf7f77f54",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

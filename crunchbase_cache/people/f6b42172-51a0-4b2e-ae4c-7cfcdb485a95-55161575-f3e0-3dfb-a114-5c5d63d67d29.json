@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f4e7c901-1515-48f8-ab05-a1acc74e5462",
+            "properties": {
+                "name": "Ali Javid",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f4e7c901-1515-48f8-ab05-a1acc74e5462",
+                    "value": "Ali Javid"
+                },
+                "linkedin": "alijavid",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "755f3e5d-5574-44e6-8ff0-32df4ffba83b",
+                            "related_uuid": "f4e7c901-1515-48f8-ab05-a1acc74e5462",
+                            "properties": {
+                                "job_title": "Co-Founder, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

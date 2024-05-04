@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9ebf25bd-6ab4-4933-960e-bbd6ef741bd6",
+            "properties": {
+                "name": "Ankit Khare",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9ebf25bd-6ab4-4933-960e-bbd6ef741bd6",
+                    "value": "Ankit Khare"
+                },
+                "linkedin": "ankit-khare-29422b12",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e7066983-15f1-4d2a-8301-dc6719f63b8e",
+                            "related_uuid": "9ebf25bd-6ab4-4933-960e-bbd6ef741bd6",
+                            "properties": {
+                                "job_title": "Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

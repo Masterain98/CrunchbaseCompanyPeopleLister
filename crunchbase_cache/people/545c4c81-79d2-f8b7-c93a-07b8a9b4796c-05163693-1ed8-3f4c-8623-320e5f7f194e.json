@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1c840172-3a0e-43a0-910d-161af677e573",
+            "properties": {
+                "name": "Ryan Tessier",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1c840172-3a0e-43a0-910d-161af677e573",
+                    "value": "Ryan Tessier"
+                },
+                "linkedin": "ryantessier",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5a09fe9c-1162-4a4c-a8f1-489ca07aa264",
+                            "related_uuid": "1c840172-3a0e-43a0-910d-161af677e573",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

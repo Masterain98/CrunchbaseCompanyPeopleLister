@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e89e78fc-a287-4b9c-acab-81b827c69372",
+            "properties": {
+                "name": "Asher Trotter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e89e78fc-a287-4b9c-acab-81b827c69372",
+                    "value": "Asher Trotter"
+                },
+                "linkedin": "ashertrotter",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3dfe3a80-2cac-45d2-9846-c1e10163890f",
+                            "related_uuid": "e89e78fc-a287-4b9c-acab-81b827c69372",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

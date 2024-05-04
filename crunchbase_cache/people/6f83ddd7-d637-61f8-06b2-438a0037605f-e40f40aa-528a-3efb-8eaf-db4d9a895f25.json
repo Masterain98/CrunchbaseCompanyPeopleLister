@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4518974d-2cb8-4188-9640-93235b2b58e4",
+            "properties": {
+                "name": "Ben Cline",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4518974d-2cb8-4188-9640-93235b2b58e4",
+                    "value": "Ben Cline"
+                },
+                "linkedin": "bcline",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "55811bb5-6e95-4a13-965f-6e9481e87e76",
+                            "related_uuid": "4518974d-2cb8-4188-9640-93235b2b58e4",
+                            "properties": {
+                                "job_title": "Design Manager / Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

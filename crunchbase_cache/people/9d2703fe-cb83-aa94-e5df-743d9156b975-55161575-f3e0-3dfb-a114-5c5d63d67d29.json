@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "59b5c9b9-fcb5-4231-907d-bfb7eff4a721",
+            "properties": {
+                "name": "Jason Knight",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "59b5c9b9-fcb5-4231-907d-bfb7eff4a721",
+                    "value": "Jason Knight"
+                },
+                "linkedin": "jasonmknight",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "43f60aa3-4b83-4cec-88bc-0fe001401a2f",
+                            "related_uuid": "59b5c9b9-fcb5-4231-907d-bfb7eff4a721",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "20ef3f73-be75-4db7-a2af-b407f2e86b97",
+            "properties": {
+                "name": "Len Short",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "20ef3f73-be75-4db7-a2af-b407f2e86b97",
+                    "value": "Len Short"
+                },
+                "linkedin": "lenshort",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2db1e8d6-1673-419d-b911-ac71edd14b6a",
+                            "related_uuid": "20ef3f73-be75-4db7-a2af-b407f2e86b97",
+                            "properties": {
+                                "job_title": "Chairman/CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

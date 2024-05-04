@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "db59dab0-399f-48cc-88a1-a72be5561435",
+            "properties": {
+                "name": "Kevin O'donnell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "db59dab0-399f-48cc-88a1-a72be5561435",
+                    "value": "Kevin O'donnell"
+                },
+                "linkedin": "adobemusic",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19028cb3-320e-4cfa-bb6f-8093f54fc0dd",
+                            "related_uuid": "db59dab0-399f-48cc-88a1-a72be5561435",
+                            "properties": {
+                                "job_title": "Producer/Director, Video Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

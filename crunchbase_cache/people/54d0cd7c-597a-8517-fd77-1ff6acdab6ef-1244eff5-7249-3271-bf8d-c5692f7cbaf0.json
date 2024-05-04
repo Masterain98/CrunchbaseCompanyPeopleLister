@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0cda71aa-7e96-490f-825f-c8420005d16f",
+            "properties": {
+                "name": "Peter Waring",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0cda71aa-7e96-490f-825f-c8420005d16f",
+                    "value": "Peter Waring"
+                },
+                "linkedin": "peterwaring",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5b90e75d-a0bb-4eb8-a39c-b82f0ad39221",
+                            "related_uuid": "0cda71aa-7e96-490f-825f-c8420005d16f",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "de08c3d4-8820-48f8-9fa3-e9b1eac598b6",
+            "properties": {
+                "name": "Mike Sroka",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "de08c3d4-8820-48f8-9fa3-e9b1eac598b6",
+                    "value": "Mike Sroka"
+                },
+                "linkedin": "mike-sroka-9958391",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "863444f1-8298-4ff0-9746-05ad41eedabf",
+                            "related_uuid": "de08c3d4-8820-48f8-9fa3-e9b1eac598b6",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

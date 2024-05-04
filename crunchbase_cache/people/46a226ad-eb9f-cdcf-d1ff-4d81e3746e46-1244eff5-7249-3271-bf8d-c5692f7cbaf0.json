@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "dc05822e-e321-425f-a63a-091460651bd6",
+            "properties": {
+                "name": "Philip Sahyoun",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dc05822e-e321-425f-a63a-091460651bd6",
+                    "value": "Philip Sahyoun"
+                },
+                "linkedin": "sahyoun",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b89679df-fd40-47ae-90f5-45d09ea45d53",
+                            "related_uuid": "dc05822e-e321-425f-a63a-091460651bd6",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

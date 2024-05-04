@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "33363269-4529-45af-9bb0-01007547b081",
+            "properties": {
+                "name": "Jeff Hudson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "33363269-4529-45af-9bb0-01007547b081",
+                    "value": "Jeff Hudson"
+                },
+                "linkedin": "jeff-hudson-9aa4131",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "45faa5f9-b224-457f-8b70-ac09ca4d18d5",
+                            "related_uuid": "33363269-4529-45af-9bb0-01007547b081",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

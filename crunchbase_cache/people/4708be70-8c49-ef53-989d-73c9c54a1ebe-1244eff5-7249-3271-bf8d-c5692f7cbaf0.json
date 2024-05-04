@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0b5db2f1-e9a2-48ee-8b4f-09a0cc8ae59d",
+            "properties": {
+                "name": "Simon Farrell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0b5db2f1-e9a2-48ee-8b4f-09a0cc8ae59d",
+                    "value": "Simon Farrell"
+                },
+                "linkedin": "simonfarrell",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b65f8808-f24d-43e6-8b6d-24ca21bf351b",
+                            "related_uuid": "0b5db2f1-e9a2-48ee-8b4f-09a0cc8ae59d",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

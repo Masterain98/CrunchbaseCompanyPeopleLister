@@ -1,0 +1,101 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "aee17791-cc3b-4040-a8d0-89489f0f0c7a",
+            "properties": {
+                "name": "Hunter Stark",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aee17791-cc3b-4040-a8d0-89489f0f0c7a",
+                    "value": "Hunter Stark"
+                },
+                "linkedin": "hunterstark",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d1bb0135-c666-4ac9-a770-7b712794ced2",
+                            "related_uuid": "aee17791-cc3b-4040-a8d0-89489f0f0c7a",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cadafdca-2c31-4744-80d4-6d38f7c5a2e7",
+            "properties": {
+                "name": "Madhu Perneti",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cadafdca-2c31-4744-80d4-6d38f7c5a2e7",
+                    "value": "Madhu Perneti"
+                },
+                "linkedin": "madhuperneti",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1b324615-53c7-40c6-ab8c-c3a00580d73c",
+                            "related_uuid": "cadafdca-2c31-4744-80d4-6d38f7c5a2e7",
+                            "properties": {
+                                "job_title": "Principal Solution Architect"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bf69e8d2-21bb-425b-80a8-535a6f63a66e",
+            "properties": {
+                "name": "Theeba Anbalagan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bf69e8d2-21bb-425b-80a8-535a6f63a66e",
+                    "value": "Theeba Anbalagan"
+                },
+                "linkedin": "theeba8",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7b158cf9-f1ca-4aea-82c9-b91851650867",
+                            "related_uuid": "bf69e8d2-21bb-425b-80a8-535a6f63a66e",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

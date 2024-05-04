@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "50b4c926-4468-4488-bd13-d2035cc5aa6a",
+            "properties": {
+                "name": "Clare Davenport",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "50b4c926-4468-4488-bd13-d2035cc5aa6a",
+                    "value": "Clare Davenport"
+                },
+                "linkedin": "clare-davenport-6007828",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "12e9d696-d90f-4dc8-8b61-421326bb0a81",
+                            "related_uuid": "50b4c926-4468-4488-bd13-d2035cc5aa6a",
+                            "properties": {
+                                "job_title": "Commercial Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d82117e5-c3df-47d7-abc9-92f78c5d13f4",
+            "properties": {
+                "name": "Trevor Plater",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d82117e5-c3df-47d7-abc9-92f78c5d13f4",
+                    "value": "Trevor Plater"
+                },
+                "linkedin": "trevor-plater-b934995",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7e37e305-05bb-4851-8abf-32ec20a64b98",
+                            "related_uuid": "d82117e5-c3df-47d7-abc9-92f78c5d13f4",
+                            "properties": {
+                                "job_title": "Commercial Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

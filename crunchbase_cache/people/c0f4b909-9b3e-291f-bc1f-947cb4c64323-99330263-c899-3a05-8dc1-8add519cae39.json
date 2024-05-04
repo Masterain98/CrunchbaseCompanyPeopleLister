@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "23147ce6-f42d-4241-8115-10f182bc16b6",
+            "properties": {
+                "name": "Heidrun Luyt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "23147ce6-f42d-4241-8115-10f182bc16b6",
+                    "value": "Heidrun Luyt"
+                },
+                "linkedin": "heidrun-luyt",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "40723e36-e337-4c5b-941e-c04425a7df8d",
+                            "related_uuid": "23147ce6-f42d-4241-8115-10f182bc16b6",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

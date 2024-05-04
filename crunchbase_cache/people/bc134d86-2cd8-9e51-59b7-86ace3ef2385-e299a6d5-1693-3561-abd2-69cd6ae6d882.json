@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6aa878cd-496e-4168-a64c-46e847955353",
+            "properties": {
+                "name": "Cari Lam",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6aa878cd-496e-4168-a64c-46e847955353",
+                    "value": "Cari Lam"
+                },
+                "linkedin": "cari-lam-a6812b9",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8923ccb5-6b5d-4fff-8f08-d337552746a8",
+                            "related_uuid": "6aa878cd-496e-4168-a64c-46e847955353",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

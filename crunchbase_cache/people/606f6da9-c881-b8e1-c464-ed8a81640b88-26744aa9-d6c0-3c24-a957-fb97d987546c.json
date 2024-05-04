@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a483f57b-2473-4c8d-a858-c7c08a388be8",
+            "properties": {
+                "name": "Katie Dempsey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a483f57b-2473-4c8d-a858-c7c08a388be8",
+                    "value": "Katie Dempsey"
+                },
+                "linkedin": "katie-dempsey-754454133",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b8acab5e-0563-4321-827e-f9c08f0c5163",
+                            "related_uuid": "a483f57b-2473-4c8d-a858-c7c08a388be8",
+                            "properties": {
+                                "job_title": "Marketing Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

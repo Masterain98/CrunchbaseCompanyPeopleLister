@@ -1,0 +1,133 @@
+{
+    "count": 16,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "ceo",
+                "uuid": "55161575-f3e0-3dfb-a114-5c5d63d67d29",
+                "value": "CEO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "consultant",
+                "uuid": "7adfa4f2-ba93-33e6-81e0-24de375434b0",
+                "value": "Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "general-counsel",
+                "uuid": "32c63259-012b-3a04-9667-ac00a8b90ddb",
+                "value": "General Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "chemist",
+                "uuid": "69982f39-092b-312a-bfcd-472f174e2c5f",
+                "value": "Chemist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-clinical",
+                "uuid": "ba6517a7-6841-3bd9-a339-b4f7c92b5fcf",
+                "value": "Director, Clinical"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "office-coordinator",
+                "uuid": "818f037d-c546-35b1-8d3b-86cec9714e15",
+                "value": "Office Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "associate-consultant",
+                "uuid": "2210c445-16c1-3206-9812-b19f9db74bb5",
+                "value": "Associate Consultant"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "corporate-counsel",
+                "uuid": "e6188c0d-ffca-3614-87bd-ee3cd4b7f782",
+                "value": "Corporate Counsel"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "event-coordinator",
+                "uuid": "1c80a1ce-51ee-34e0-9bac-909e387f877e",
+                "value": "Event Coordinator"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cgo",
+                "uuid": "63e64fb7-f6bf-3edd-a708-e1b75126a6fb",
+                "value": "CGO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-director-clinical",
+                "uuid": "f069cb79-ae30-3836-adc2-62d17e02c191",
+                "value": "Senior Director, Clinical"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-vp-corporate-development",
+                "uuid": "0960fb60-d2ef-3059-9031-56548dc1a285",
+                "value": "Senior VP, Corporate Development"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "head-of-clinical",
+                "uuid": "8d759458-f174-3798-8395-c559e6d1a220",
+                "value": "Head of Clinical"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-commercial-analyst",
+                "uuid": "40700fc5-01e1-3c73-9108-3abcd74146f2",
+                "value": "Senior Commercial Analyst"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-training-coordinator",
+                "uuid": "33ea1e78-bd07-3d37-9725-2c958e15921e",
+                "value": "Senior Training Coordinator"
+            }
+        }
+    ]
+}

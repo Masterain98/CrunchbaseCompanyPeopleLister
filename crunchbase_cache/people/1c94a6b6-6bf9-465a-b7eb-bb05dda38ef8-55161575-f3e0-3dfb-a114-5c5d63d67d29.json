@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "59a0945d-1781-42d1-9369-9e753c051a38",
+            "properties": {
+                "name": "Chase Gilbert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "59a0945d-1781-42d1-9369-9e753c051a38",
+                    "value": "Chase Gilbert"
+                },
+                "linkedin": "chase-gilbert-14717216",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a30c287-fabb-4022-a82c-feb8c2e6390e",
+                            "related_uuid": "59a0945d-1781-42d1-9369-9e753c051a38",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

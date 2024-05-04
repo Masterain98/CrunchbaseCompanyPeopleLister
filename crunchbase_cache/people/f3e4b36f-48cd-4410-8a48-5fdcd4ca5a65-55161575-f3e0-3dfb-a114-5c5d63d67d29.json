@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "769a41f6-8be2-4997-a98f-3bbe9490ed12",
+            "properties": {
+                "name": "Bill Dobie",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "769a41f6-8be2-4997-a98f-3bbe9490ed12",
+                    "value": "Bill Dobie"
+                },
+                "linkedin": "billdobie",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bbee770d-4833-4598-b382-83f4629a7340",
+                            "related_uuid": "769a41f6-8be2-4997-a98f-3bbe9490ed12",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

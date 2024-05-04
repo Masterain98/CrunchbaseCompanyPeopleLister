@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2b9c4190-6d7c-46be-9b10-4a8ff57bce2a",
+            "properties": {
+                "name": "Andrea Popa",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2b9c4190-6d7c-46be-9b10-4a8ff57bce2a",
+                    "value": "Andrea Popa"
+                },
+                "linkedin": "andreaappell",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1bbc8834-493d-496e-b938-44550e335c4e",
+                            "related_uuid": "2b9c4190-6d7c-46be-9b10-4a8ff57bce2a",
+                            "properties": {
+                                "job_title": "Director, Global Trade Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "297cd38b-8e98-4320-bf99-d90cdc16044e",
+            "properties": {
+                "name": "Kristin Zura",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "297cd38b-8e98-4320-bf99-d90cdc16044e",
+                    "value": "Kristin Zura"
+                },
+                "linkedin": "kristinzura",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5fcbff96-a4c5-4eed-adfb-0e33fafc426a",
+                            "related_uuid": "297cd38b-8e98-4320-bf99-d90cdc16044e",
+                            "properties": {
+                                "job_title": "Sr. Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9d0fe990-9fff-41cf-b4bf-a00f77aafbc9",
+            "properties": {
+                "name": "Ray Gallagher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9d0fe990-9fff-41cf-b4bf-a00f77aafbc9",
+                    "value": "Ray Gallagher"
+                },
+                "linkedin": "ray-gallagher-753947b",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0845e1e7-0df9-4594-bad8-25f6523dd790",
+                            "related_uuid": "9d0fe990-9fff-41cf-b4bf-a00f77aafbc9",
+                            "properties": {
+                                "job_title": "Finance and Administration"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

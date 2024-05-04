@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7a44d101-be79-4cfa-9d74-a88735aa598b",
+            "properties": {
+                "name": "Ryan Klocke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7a44d101-be79-4cfa-9d74-a88735aa598b",
+                    "value": "Ryan Klocke"
+                },
+                "linkedin": "ryan-klocke-52313a37",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a8742f7-8b5b-4d5a-80ee-c13ab9efba8b",
+                            "related_uuid": "7a44d101-be79-4cfa-9d74-a88735aa598b",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

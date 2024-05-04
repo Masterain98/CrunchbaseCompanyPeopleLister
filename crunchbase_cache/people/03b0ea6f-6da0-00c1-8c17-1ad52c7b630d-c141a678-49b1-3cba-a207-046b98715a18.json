@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ac2c84ae-4261-4ccd-a005-f78bab75cd2e",
+            "properties": {
+                "name": "Kemba Neptune",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ac2c84ae-4261-4ccd-a005-f78bab75cd2e",
+                    "value": "Kemba Neptune"
+                },
+                "linkedin": "kembaneptune",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "097c6aab-da79-4a90-b114-4ddfc857e211",
+                            "related_uuid": "ac2c84ae-4261-4ccd-a005-f78bab75cd2e",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

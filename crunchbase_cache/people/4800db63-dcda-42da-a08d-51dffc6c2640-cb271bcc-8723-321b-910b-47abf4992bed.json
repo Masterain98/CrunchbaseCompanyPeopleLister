@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7c531058-4f5e-4a98-a480-fb647f851819",
+            "properties": {
+                "name": "Rob McCall",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7c531058-4f5e-4a98-a480-fb647f851819",
+                    "value": "Rob McCall"
+                },
+                "linkedin": "robertjmccall",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "57b61908-ce93-4a92-80dd-f40928c2e0a2",
+                            "related_uuid": "7c531058-4f5e-4a98-a480-fb647f851819",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

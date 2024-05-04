@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ce72de34-0e61-4879-a1a0-d7e48ba27a0f",
+            "properties": {
+                "name": "Aditya Gupta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ce72de34-0e61-4879-a1a0-d7e48ba27a0f",
+                    "value": "Aditya Gupta"
+                },
+                "linkedin": "toadityagupta",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7be46db1-a6f8-4a47-954f-4604aa1d7abb",
+                            "related_uuid": "ce72de34-0e61-4879-a1a0-d7e48ba27a0f",
+                            "properties": {
+                                "job_title": "Co-Founder and Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6e98c8e4-7fac-4a6f-8721-b36525cff6e5",
+            "properties": {
+                "name": "Liam Anderson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6e98c8e4-7fac-4a6f-8721-b36525cff6e5",
+                    "value": "Liam Anderson"
+                },
+                "linkedin": "liam-anderson-36a59963",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4390e40d-d840-4482-9c6d-811b33736b3e",
+                            "related_uuid": "6e98c8e4-7fac-4a6f-8721-b36525cff6e5",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

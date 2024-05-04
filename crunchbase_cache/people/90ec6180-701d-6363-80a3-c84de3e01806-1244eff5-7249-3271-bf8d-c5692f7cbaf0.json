@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "d52a0907-3bd9-47a0-8ced-79e59e41f491",
+            "properties": {
+                "name": "Raj Madan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d52a0907-3bd9-47a0-8ced-79e59e41f491",
+                    "value": "Raj Madan"
+                },
+                "linkedin": "rajmadan",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1c91f05f-bfb4-4c65-b94e-865924faf6f5",
+                            "related_uuid": "d52a0907-3bd9-47a0-8ced-79e59e41f491",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6579b55e-f27d-4666-bb27-1b22f1a064d9",
+            "properties": {
+                "name": "Vladimir Baranov",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6579b55e-f27d-4666-bb27-1b22f1a064d9",
+                    "value": "Vladimir Baranov"
+                },
+                "linkedin": "vladimir-baranov-08a3276",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c2a32219-fed3-4f27-bb3e-e541c8519bad",
+                            "related_uuid": "6579b55e-f27d-4666-bb27-1b22f1a064d9",
+                            "properties": {
+                                "job_title": "CTO, Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

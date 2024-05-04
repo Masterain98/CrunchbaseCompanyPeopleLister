@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "502df38a-7615-4eb8-af59-9ed36cfec547",
+            "properties": {
+                "name": "Tommaso Barbugli",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "502df38a-7615-4eb8-af59-9ed36cfec547",
+                    "value": "Tommaso Barbugli"
+                },
+                "linkedin": "tommasobarbugli",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bfac586a-2890-49ae-9de7-1e3b708310fe",
+                            "related_uuid": "502df38a-7615-4eb8-af59-9ed36cfec547",
+                            "properties": {
+                                "job_title": "Co-Founder/ CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

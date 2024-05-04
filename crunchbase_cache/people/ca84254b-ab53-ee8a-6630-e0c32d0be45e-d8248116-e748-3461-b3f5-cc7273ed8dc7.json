@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "789dfe9d-cfb0-4a03-b5b2-e6d6faa31b30",
+            "properties": {
+                "name": "Ashley Dobbs",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "789dfe9d-cfb0-4a03-b5b2-e6d6faa31b30",
+                    "value": "Ashley Dobbs"
+                },
+                "linkedin": "ashleydobbsmarketing",
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "410f3001-a98e-4c5c-8177-d54b7a60d668",
+                            "related_uuid": "789dfe9d-cfb0-4a03-b5b2-e6d6faa31b30",
+                            "properties": {
+                                "job_title": "Director of Client Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8c14b6b4-6176-4e59-9817-d76feb28c007",
+            "properties": {
+                "name": "Taylor Cavanah",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8c14b6b4-6176-4e59-9817-d76feb28c007",
+                    "value": "Taylor Cavanah"
+                },
+                "linkedin": "tcavanah",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2fa69133-2079-4e0b-b7d6-db55d549c927",
+                            "related_uuid": "8c14b6b4-6176-4e59-9817-d76feb28c007",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

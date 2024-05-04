@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8f052dbc-a6a1-4a89-86d9-3531cc5745fa",
+            "properties": {
+                "name": "Stephen Sydes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8f052dbc-a6a1-4a89-86d9-3531cc5745fa",
+                    "value": "Stephen Sydes"
+                },
+                "linkedin": "stephensydes",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bc57ad5a-a7b5-4aef-b5ec-0460857366ff",
+                            "related_uuid": "8f052dbc-a6a1-4a89-86d9-3531cc5745fa",
+                            "properties": {
+                                "job_title": "Regional Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

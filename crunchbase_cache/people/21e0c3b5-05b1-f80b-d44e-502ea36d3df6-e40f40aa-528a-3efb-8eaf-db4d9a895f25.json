@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "802882cd-ed87-4315-9d22-e28b7bb37a77",
+            "properties": {
+                "name": "Barry Maxwell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "802882cd-ed87-4315-9d22-e28b7bb37a77",
+                    "value": "Barry Maxwell"
+                },
+                "linkedin": "barrymaxwell",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "03df1c05-7386-4c56-93e1-f6912954db72",
+                            "related_uuid": "802882cd-ed87-4315-9d22-e28b7bb37a77",
+                            "properties": {
+                                "job_title": "User Experience and Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

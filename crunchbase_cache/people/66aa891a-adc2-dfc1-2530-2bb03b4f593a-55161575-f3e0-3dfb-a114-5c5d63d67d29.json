@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "17dab98d-b6e4-4a13-a15b-5d3fad54f7e5",
+            "properties": {
+                "name": "Yves Frinault",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "17dab98d-b6e4-4a13-a15b-5d3fad54f7e5",
+                    "value": "Yves Frinault"
+                },
+                "linkedin": "yvesfrinault",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a405092c-08d7-4893-9747-0d95e8a577af",
+                            "related_uuid": "17dab98d-b6e4-4a13-a15b-5d3fad54f7e5",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

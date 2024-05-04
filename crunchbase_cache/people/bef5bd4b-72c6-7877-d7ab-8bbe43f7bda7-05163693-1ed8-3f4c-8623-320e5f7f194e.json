@@ -1,0 +1,191 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "uuid": "2be8f976-87d3-4196-b15e-5fedc57efc1f",
+            "properties": {
+                "name": "Carolin Bachmann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2be8f976-87d3-4196-b15e-5fedc57efc1f",
+                    "value": "Carolin Bachmann"
+                },
+                "linkedin": "carolinbachmann",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "292aa880-afef-4157-91dd-ef3b05a133df",
+                            "related_uuid": "2be8f976-87d3-4196-b15e-5fedc57efc1f",
+                            "properties": {
+                                "job_title": "Director Global Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7d177712-9526-4ba4-bb96-f9fde54c50a4",
+            "properties": {
+                "name": "Geetha Vaidyanaathan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7d177712-9526-4ba4-bb96-f9fde54c50a4",
+                    "value": "Geetha Vaidyanaathan"
+                },
+                "linkedin": "geethavaidhy",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5f59a432-c775-47b4-9bdf-b588644439f1",
+                            "related_uuid": "7d177712-9526-4ba4-bb96-f9fde54c50a4",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9df65a7f-74a6-4172-b43e-64b5d290efdc",
+            "properties": {
+                "name": "Gordon Paul Hatcher Pe - Pmp",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9df65a7f-74a6-4172-b43e-64b5d290efdc",
+                    "value": "Gordon Paul Hatcher Pe - Pmp"
+                },
+                "linkedin": "gordon-paul-hatcher-pe-pmp-15991",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "product"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c2111c3b-7add-47f0-bda4-08531f2ebada",
+                            "related_uuid": "9df65a7f-74a6-4172-b43e-64b5d290efdc",
+                            "properties": {
+                                "job_title": "Director, Business Planning, Product Operations - Oracle Communications Global Business Unit (CGBU)"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a69d0e48-d326-42b5-8ea4-f8f7fc7df567",
+            "properties": {
+                "name": "Huw Parry",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a69d0e48-d326-42b5-8ea4-f8f7fc7df567",
+                    "value": "Huw Parry"
+                },
+                "linkedin": "huw-parry-23ab921",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "067f2c80-491b-4d8f-ae88-903195092c60",
+                            "related_uuid": "a69d0e48-d326-42b5-8ea4-f8f7fc7df567",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0cc7004d-22fd-4d4c-837b-17be6b308daa",
+            "properties": {
+                "name": "Sandy Saulsbury",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0cc7004d-22fd-4d4c-837b-17be6b308daa",
+                    "value": "Sandy Saulsbury"
+                },
+                "linkedin": "sandy-saulsbury-a3120628",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "654198f2-5b48-4dbf-a481-d52fa8ec2753",
+                            "related_uuid": "0cc7004d-22fd-4d4c-837b-17be6b308daa",
+                            "properties": {
+                                "job_title": "Director, North America Cloud Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7f47e464-779a-45fe-9ad0-29e31226dbf8",
+            "properties": {
+                "name": "Todd Spraggins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7f47e464-779a-45fe-9ad0-29e31226dbf8",
+                    "value": "Todd Spraggins"
+                },
+                "linkedin": "spraggins",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a4df2ad5-2cfe-4bc3-81cf-7ac35bd301fa",
+                            "related_uuid": "7f47e464-779a-45fe-9ad0-29e31226dbf8",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

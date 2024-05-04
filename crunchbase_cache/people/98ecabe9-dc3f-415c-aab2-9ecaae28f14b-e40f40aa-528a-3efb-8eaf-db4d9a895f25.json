@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e5e5edff-2137-47af-8d38-4736e949be44",
+            "properties": {
+                "name": "Kelly Reed",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e5e5edff-2137-47af-8d38-4736e949be44",
+                    "value": "Kelly Reed"
+                },
+                "linkedin": "kelly-reed-61053770",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9e65fd75-b87a-4648-8198-c22b4cde9f30",
+                            "related_uuid": "e5e5edff-2137-47af-8d38-4736e949be44",
+                            "properties": {
+                                "job_title": "Creative Director - Copy"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,286 @@
+{
+    "count": 9,
+    "entities": [
+        {
+            "uuid": "3ec74210-be10-42f0-86b4-742706d01622",
+            "properties": {
+                "name": "David Young",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ec74210-be10-42f0-86b4-742706d01622",
+                    "value": "David Young"
+                },
+                "linkedin": "david-t-young-2800b316",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "932fea0a-e9fc-4208-b566-c8703edf7aed",
+                            "related_uuid": "3ec74210-be10-42f0-86b4-742706d01622",
+                            "properties": {
+                                "job_title": "Director of External Communications, Medtronic Neurovascular"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ceca04f7-ad84-43ea-98a8-93f206b3bdad",
+            "properties": {
+                "name": "Dori Estrella-Sands",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ceca04f7-ad84-43ea-98a8-93f206b3bdad",
+                    "value": "Dori Estrella-Sands"
+                },
+                "linkedin": "doriestrella",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "human_resources"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ae27d7e3-d3f9-4a5d-8578-8d2605d21bbc",
+                            "related_uuid": "ceca04f7-ad84-43ea-98a8-93f206b3bdad",
+                            "properties": {
+                                "job_title": "Director, Executive Communications and HR Program Communications, Global HR"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "97425b29-e27f-4b24-8a0f-c3acf3e3fa7b",
+            "properties": {
+                "name": "Erin Burns",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "97425b29-e27f-4b24-8a0f-c3acf3e3fa7b",
+                    "value": "Erin Burns"
+                },
+                "linkedin": "erinburns1",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "15edb520-7116-49c0-ac30-02aa7da0d112",
+                            "related_uuid": "97425b29-e27f-4b24-8a0f-c3acf3e3fa7b",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "aac772af-20bb-41a1-87f5-0013010e8c15",
+            "properties": {
+                "name": "Jayne Jones",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aac772af-20bb-41a1-87f5-0013010e8c15",
+                    "value": "Jayne Jones"
+                },
+                "linkedin": "jayne-jones-189ba78",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2ad64a81-af5f-4590-a608-1e14ab09b6d8",
+                            "related_uuid": "aac772af-20bb-41a1-87f5-0013010e8c15",
+                            "properties": {
+                                "job_title": "Director, Marketing Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f4fde235-e847-4703-a11d-a158925ede39",
+            "properties": {
+                "name": "Jenny McCain",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f4fde235-e847-4703-a11d-a158925ede39",
+                    "value": "Jenny McCain"
+                },
+                "linkedin": "jenny-mccain-14ab429",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "105e3089-d433-4e05-a88e-4889603ee27b",
+                            "related_uuid": "f4fde235-e847-4703-a11d-a158925ede39",
+                            "properties": {
+                                "job_title": "Director, Global Communications and Brand Strategy"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "26a2a5cb-d411-4ef2-9230-be2bedf1fabd",
+            "properties": {
+                "name": "John Jordan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "26a2a5cb-d411-4ef2-9230-be2bedf1fabd",
+                    "value": "John Jordan"
+                },
+                "linkedin": "john-jordan-mba-3329035",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3c7364d7-4a85-48f6-a124-a594632b7829",
+                            "related_uuid": "26a2a5cb-d411-4ef2-9230-be2bedf1fabd",
+                            "properties": {
+                                "job_title": "Director, External Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d2777bf2-4eb7-44c8-a938-b2590cf5f218",
+            "properties": {
+                "name": "Julia Kravchenko",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d2777bf2-4eb7-44c8-a938-b2590cf5f218",
+                    "value": "Julia Kravchenko"
+                },
+                "linkedin": "julia-kravchenko-423802",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2a66d0bb-6788-4e77-8e7b-61f9036ea35e",
+                            "related_uuid": "d2777bf2-4eb7-44c8-a938-b2590cf5f218",
+                            "properties": {
+                                "job_title": "Director, Communications & Training Global Quality"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0d785cd1-8ccc-4256-9210-a83c2f2ab3b4",
+            "properties": {
+                "name": "Lori Haycox",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0d785cd1-8ccc-4256-9210-a83c2f2ab3b4",
+                    "value": "Lori Haycox"
+                },
+                "linkedin": "lori-haycox-530859124",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "568fb6e2-a18a-4dcb-b0b5-7d8ca17e953e",
+                            "related_uuid": "0d785cd1-8ccc-4256-9210-a83c2f2ab3b4",
+                            "properties": {
+                                "job_title": "Director of Marketing Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ef3067be-62f5-4948-9dff-dce9bdefcb4f",
+            "properties": {
+                "name": "Zeke Snow",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ef3067be-62f5-4948-9dff-dce9bdefcb4f",
+                    "value": "Zeke Snow"
+                },
+                "linkedin": "zeke-snow-4607644",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00afadc2-f2aa-44a7-8607-9811593a2934",
+                            "related_uuid": "ef3067be-62f5-4948-9dff-dce9bdefcb4f",
+                            "properties": {
+                                "job_title": "Director, Global Marketing Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

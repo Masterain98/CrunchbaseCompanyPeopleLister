@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4a5912f9-e012-4dda-a1a5-2cedfae9451a",
+            "properties": {
+                "name": "Thomas Butta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4a5912f9-e012-4dda-a1a5-2cedfae9451a",
+                    "value": "Thomas Butta"
+                },
+                "linkedin": "tombutta",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f83ef8e3-0d3f-4397-ad2a-8d405563d89c",
+                            "related_uuid": "4a5912f9-e012-4dda-a1a5-2cedfae9451a",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

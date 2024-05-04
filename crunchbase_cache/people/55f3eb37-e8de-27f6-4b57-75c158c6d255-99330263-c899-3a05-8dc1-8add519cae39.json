@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "bfc94a04-f0ed-4e7a-aacc-554488296985",
+            "properties": {
+                "name": "Ari Osur",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bfc94a04-f0ed-4e7a-aacc-554488296985",
+                    "value": "Ari Osur"
+                },
+                "linkedin": "ariosur",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dc631364-2b5f-4465-b3d8-b07149be92f8",
+                            "related_uuid": "bfc94a04-f0ed-4e7a-aacc-554488296985",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer - CMO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1e87fe39-ec19-41cf-8159-e6117f06d9ce",
+            "properties": {
+                "name": "Susan Vitale",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1e87fe39-ec19-41cf-8159-e6117f06d9ce",
+                    "value": "Susan Vitale"
+                },
+                "linkedin": "susanvitale",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0882516f-7e5f-4026-9967-60d045295524",
+                            "related_uuid": "1e87fe39-ec19-41cf-8159-e6117f06d9ce",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

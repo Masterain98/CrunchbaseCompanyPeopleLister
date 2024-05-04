@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1861c4af-82ec-4f5d-8f41-6da8e747e830",
+            "properties": {
+                "name": "Allison Cerra",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1861c4af-82ec-4f5d-8f41-6da8e747e830",
+                    "value": "Allison Cerra"
+                },
+                "linkedin": "acerra",
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e894aa13-a3d7-4097-a611-6164e47ae7a4",
+                            "related_uuid": "1861c4af-82ec-4f5d-8f41-6da8e747e830",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

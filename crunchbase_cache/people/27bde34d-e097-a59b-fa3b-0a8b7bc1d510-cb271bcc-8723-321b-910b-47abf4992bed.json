@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "a4caea71-12d8-4a79-b184-f67cd8304cf1",
+            "properties": {
+                "name": "Caitlin Wood",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a4caea71-12d8-4a79-b184-f67cd8304cf1",
+                    "value": "Caitlin Wood"
+                },
+                "linkedin": "caitlinmwood",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f6572a1-70a9-4419-91a4-f7193cbabddb",
+                            "related_uuid": "a4caea71-12d8-4a79-b184-f67cd8304cf1",
+                            "properties": {
+                                "job_title": "Director, Digital Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d81ff042-43ef-49dd-a682-64a3ea25304c",
+            "properties": {
+                "name": "Julia Bendix",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d81ff042-43ef-49dd-a682-64a3ea25304c",
+                    "value": "Julia Bendix"
+                },
+                "linkedin": "juliabendix",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "481db5b9-b0ef-4223-a1fe-fe899546df65",
+                            "related_uuid": "d81ff042-43ef-49dd-a682-64a3ea25304c",
+                            "properties": {
+                                "job_title": "Director, CS Strategy & Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

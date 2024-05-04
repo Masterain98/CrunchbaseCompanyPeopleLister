@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "33b14535-559a-4826-8d0a-4bb153a410bd",
+            "properties": {
+                "name": "Peter Aschmoneit",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "33b14535-559a-4826-8d0a-4bb153a410bd",
+                    "value": "Peter Aschmoneit"
+                },
+                "linkedin": "peter-aschmoneit-6a636861",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1883a621-9542-4743-9c7c-864fcf84de38",
+                            "related_uuid": "33b14535-559a-4826-8d0a-4bb153a410bd",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

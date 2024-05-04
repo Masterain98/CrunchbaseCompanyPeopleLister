@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "157a72ea-dfc1-4063-b773-8d755adefc39",
+            "properties": {
+                "name": "Casey Antonelli",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "157a72ea-dfc1-4063-b773-8d755adefc39",
+                    "value": "Casey Antonelli"
+                },
+                "linkedin": "caseyantonelli",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e92a169a-75fc-434b-824a-cfcd41712b72",
+                            "related_uuid": "157a72ea-dfc1-4063-b773-8d755adefc39",
+                            "properties": {
+                                "job_title": "Senior Director of Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

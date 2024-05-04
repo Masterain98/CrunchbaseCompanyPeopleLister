@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "d221c9e1-7827-4b19-87a1-43740dea4a0b",
+            "properties": {
+                "name": "Dani Rosen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d221c9e1-7827-4b19-87a1-43740dea4a0b",
+                    "value": "Dani Rosen"
+                },
+                "linkedin": "dani-rosen",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "75a9b0a2-10c2-47e8-a0a7-cf0045491de3",
+                            "related_uuid": "d221c9e1-7827-4b19-87a1-43740dea4a0b",
+                            "properties": {
+                                "job_title": "Senior Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bf496128-040f-4ee7-bd35-7fc79788e7a1",
+            "properties": {
+                "name": "Kelli Sweeney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bf496128-040f-4ee7-bd35-7fc79788e7a1",
+                    "value": "Kelli Sweeney"
+                },
+                "linkedin": "kelli-sweeney-66a96b34",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0b755129-0470-40da-920e-fc9e6fa21739",
+                            "related_uuid": "bf496128-040f-4ee7-bd35-7fc79788e7a1",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0172a667-b4a3-4c92-b943-b212fb1d51e4",
+            "properties": {
+                "name": "Tenry Fu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0172a667-b4a3-4c92-b943-b212fb1d51e4",
+                    "value": "Tenry Fu"
+                },
+                "linkedin": "tenryfu",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2bf2f29f-cd76-4eb5-8b3a-d1be9d6b7008",
+                            "related_uuid": "0172a667-b4a3-4c92-b943-b212fb1d51e4",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "85f67ac1-6fa8-4c77-846d-e82331825f47",
+            "properties": {
+                "name": "Ryan Bakerink",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "85f67ac1-6fa8-4c77-846d-e82331825f47",
+                    "value": "Ryan Bakerink"
+                },
+                "linkedin": "ryanbakerink",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "53001027-90ed-440a-b4a3-dfaa4504838f",
+                            "related_uuid": "85f67ac1-6fa8-4c77-846d-e82331825f47",
+                            "properties": {
+                                "job_title": "Director of Sales and Client Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

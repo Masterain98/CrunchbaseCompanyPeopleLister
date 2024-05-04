@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "dcf745ca-8481-4447-b170-a9b4f0a2c1d8",
+            "properties": {
+                "name": "Chris Campbell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dcf745ca-8481-4447-b170-a9b4f0a2c1d8",
+                    "value": "Chris Campbell"
+                },
+                "linkedin": "chrisrcampbell",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f84ab077-2592-41da-8f60-7b934adbb749",
+                            "related_uuid": "dcf745ca-8481-4447-b170-a9b4f0a2c1d8",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

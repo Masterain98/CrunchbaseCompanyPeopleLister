@@ -1,0 +1,160 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "61d10c96-6b78-4db1-a762-523d79063615",
+            "properties": {
+                "name": "Corey Pomkoski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "61d10c96-6b78-4db1-a762-523d79063615",
+                    "value": "Corey Pomkoski"
+                },
+                "linkedin": "cpom",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "33f976bf-2a03-4935-b264-fc92be841aa6",
+                            "related_uuid": "61d10c96-6b78-4db1-a762-523d79063615",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3f28706d-fbc1-49ea-97c5-62688abd48b9",
+            "properties": {
+                "name": "Karin Imen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3f28706d-fbc1-49ea-97c5-62688abd48b9",
+                    "value": "Karin Imen"
+                },
+                "linkedin": "karinimen",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f60657e-62c9-4ac4-ba81-cd6fa452ce88",
+                            "related_uuid": "3f28706d-fbc1-49ea-97c5-62688abd48b9",
+                            "properties": {
+                                "job_title": "Director, Brand Creative"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6a124e2d-0970-420a-a9d8-ebee37d2989d",
+            "properties": {
+                "name": "Ken Cook",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6a124e2d-0970-420a-a9d8-ebee37d2989d",
+                    "value": "Ken Cook"
+                },
+                "linkedin": "brandtank",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e03d18fa-5a63-4148-bdbc-d75c52c6351b",
+                            "related_uuid": "6a124e2d-0970-420a-a9d8-ebee37d2989d",
+                            "properties": {
+                                "job_title": "Executive Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e37a0e4e-b67c-4840-a2c1-3fead0b292fb",
+            "properties": {
+                "name": "Ryan Clark",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e37a0e4e-b67c-4840-a2c1-3fead0b292fb",
+                    "value": "Ryan Clark"
+                },
+                "linkedin": "ryan-clark-794866b9",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1618a8e5-d686-45ef-80aa-33c2accb9988",
+                            "related_uuid": "e37a0e4e-b67c-4840-a2c1-3fead0b292fb",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5c9621de-7e1a-4cd8-8e1f-673cc93c014f",
+            "properties": {
+                "name": "Scott Shern",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5c9621de-7e1a-4cd8-8e1f-673cc93c014f",
+                    "value": "Scott Shern"
+                },
+                "linkedin": "scottshern",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0625a8b8-8cb9-4732-a6d7-f92ac0de5cb1",
+                            "related_uuid": "5c9621de-7e1a-4cd8-8e1f-673cc93c014f",
+                            "properties": {
+                                "job_title": "Creative Director, Brand Marketing"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

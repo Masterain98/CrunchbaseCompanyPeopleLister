@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f4fe6617-e344-458b-9d4a-3c9e8574bdb4",
+            "properties": {
+                "name": "Kim Saggu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f4fe6617-e344-458b-9d4a-3c9e8574bdb4",
+                    "value": "Kim Saggu"
+                },
+                "linkedin": "kimsaggu",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c5e166c6-4914-4a0d-a8e5-ad9296543ac2",
+                            "related_uuid": "f4fe6617-e344-458b-9d4a-3c9e8574bdb4",
+                            "properties": {
+                                "job_title": "Director, Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

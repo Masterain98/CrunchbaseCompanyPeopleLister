@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "54d4f86d-0d93-4439-99ad-b555b114efb0",
+            "properties": {
+                "name": "Chris Wolf",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "54d4f86d-0d93-4439-99ad-b555b114efb0",
+                    "value": "Chris Wolf"
+                },
+                "linkedin": "builderofthings",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c33bbc6-1bc2-4783-bc24-cfac899ebecb",
+                            "related_uuid": "54d4f86d-0d93-4439-99ad-b555b114efb0",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2aedd019-f93c-452b-879c-ee8a6662e507",
+            "properties": {
+                "name": "Jeff Patrias",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2aedd019-f93c-452b-879c-ee8a6662e507",
+                    "value": "Jeff Patrias"
+                },
+                "linkedin": "jeff-patrias",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d1c707b4-eeb3-490b-a8be-20fd6355320d",
+                            "related_uuid": "2aedd019-f93c-452b-879c-ee8a6662e507",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

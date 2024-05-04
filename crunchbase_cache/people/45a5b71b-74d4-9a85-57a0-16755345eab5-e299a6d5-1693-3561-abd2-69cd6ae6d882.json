@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "59e85530-e600-4f62-b902-58beaafd17ef",
+            "properties": {
+                "name": "Michael Garvin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "59e85530-e600-4f62-b902-58beaafd17ef",
+                    "value": "Michael Garvin"
+                },
+                "linkedin": "michaelagarvin",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0b843190-6b49-40d0-8c23-754c371e34f9",
+                            "related_uuid": "59e85530-e600-4f62-b902-58beaafd17ef",
+                            "properties": {
+                                "job_title": "Director, Security Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

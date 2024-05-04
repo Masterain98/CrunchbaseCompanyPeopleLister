@@ -1,0 +1,130 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "40377adf-2045-4bbe-972a-8a75ae143b18",
+            "properties": {
+                "name": "Alen Alicusic",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "40377adf-2045-4bbe-972a-8a75ae143b18",
+                    "value": "Alen Alicusic"
+                },
+                "linkedin": "alenalicusic",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "38a79a20-ba52-4ad3-a18c-a9938441df67",
+                            "related_uuid": "40377adf-2045-4bbe-972a-8a75ae143b18",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "13cd0249-d8d1-487a-bed9-229bfa95eecd",
+            "properties": {
+                "name": "Nels Toriano",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "13cd0249-d8d1-487a-bed9-229bfa95eecd",
+                    "value": "Nels Toriano"
+                },
+                "linkedin": "ntoriano",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b7885f70-79b3-4a4a-a80e-23e43de56b05",
+                            "related_uuid": "13cd0249-d8d1-487a-bed9-229bfa95eecd",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "348b0c23-5adb-40dc-8da9-9ba580499002",
+            "properties": {
+                "name": "Shain Routon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "348b0c23-5adb-40dc-8da9-9ba580499002",
+                    "value": "Shain Routon"
+                },
+                "linkedin": "shainrouton",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5c82565e-5c0f-4769-a97c-8fae1c2de6dd",
+                            "related_uuid": "348b0c23-5adb-40dc-8da9-9ba580499002",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a9a1255b-4b02-4c82-b1fd-98c8737da281",
+            "properties": {
+                "name": "Tony Constancio",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a9a1255b-4b02-4c82-b1fd-98c8737da281",
+                    "value": "Tony Constancio"
+                },
+                "linkedin": "aconstancio",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "02085b8e-e004-40f4-99d7-73a9307b88dd",
+                            "related_uuid": "a9a1255b-4b02-4c82-b1fd-98c8737da281",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

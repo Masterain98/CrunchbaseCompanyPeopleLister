@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1ce32d5a-da22-4945-81a5-4834d677c28a",
+            "properties": {
+                "name": "Kate Barr",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1ce32d5a-da22-4945-81a5-4834d677c28a",
+                    "value": "Kate Barr"
+                },
+                "linkedin": "katembarr",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "39003d61-12c0-46eb-96e4-ba1f6a83cc42",
+                            "related_uuid": "1ce32d5a-da22-4945-81a5-4834d677c28a",
+                            "properties": {
+                                "job_title": "Director Marketing Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

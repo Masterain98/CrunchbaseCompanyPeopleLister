@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3c53c6a4-a3e9-46dc-922d-4d1e2644632b",
+            "properties": {
+                "name": "David Wolpoff",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3c53c6a4-a3e9-46dc-922d-4d1e2644632b",
+                    "value": "David Wolpoff"
+                },
+                "linkedin": "wolpoffd",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dc1a80c5-460b-4d20-ae6a-40eab8813c7a",
+                            "related_uuid": "3c53c6a4-a3e9-46dc-922d-4d1e2644632b",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

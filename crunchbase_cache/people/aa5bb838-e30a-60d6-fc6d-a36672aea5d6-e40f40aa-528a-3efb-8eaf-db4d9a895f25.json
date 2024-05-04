@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "70903733-40e1-4da1-a94c-381b981ff494",
+            "properties": {
+                "name": "Cori Helt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "70903733-40e1-4da1-a94c-381b981ff494",
+                    "value": "Cori Helt"
+                },
+                "linkedin": "chelt",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dcf9d975-0245-49be-ae0c-dab02d8590bc",
+                            "related_uuid": "70903733-40e1-4da1-a94c-381b981ff494",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

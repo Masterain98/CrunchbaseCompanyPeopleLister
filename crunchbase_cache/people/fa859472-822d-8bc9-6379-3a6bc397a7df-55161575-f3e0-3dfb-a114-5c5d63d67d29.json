@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cb1fd340-1889-427f-b4f0-05166ffaa0a0",
+            "properties": {
+                "name": "Ivan Novikov",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cb1fd340-1889-427f-b4f0-05166ffaa0a0",
+                    "value": "Ivan Novikov"
+                },
+                "linkedin": "d0znpp",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "314e6627-51c3-4f43-a693-3360b2d634aa",
+                            "related_uuid": "cb1fd340-1889-427f-b4f0-05166ffaa0a0",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

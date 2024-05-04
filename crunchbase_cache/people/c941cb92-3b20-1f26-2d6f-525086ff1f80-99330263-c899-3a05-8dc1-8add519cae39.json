@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ee11b5ec-3760-4e31-959b-fdbb93ad4004",
+            "properties": {
+                "name": "Johanna Fagerstedt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ee11b5ec-3760-4e31-959b-fdbb93ad4004",
+                    "value": "Johanna Fagerstedt"
+                },
+                "linkedin": "johanna-fagerstedt",
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2b83c0aa-c58c-42ad-b899-1acc647e56a7",
+                            "related_uuid": "ee11b5ec-3760-4e31-959b-fdbb93ad4004",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

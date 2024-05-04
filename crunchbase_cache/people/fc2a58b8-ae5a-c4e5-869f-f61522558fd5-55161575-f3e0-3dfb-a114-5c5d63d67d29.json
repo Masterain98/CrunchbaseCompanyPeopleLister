@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4dfb6a02-d8c4-42fe-a424-c7f515e97a3b",
+            "properties": {
+                "name": "Rich Waldron",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4dfb6a02-d8c4-42fe-a424-c7f515e97a3b",
+                    "value": "Rich Waldron"
+                },
+                "linkedin": "richwaldron",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "922b858c-03ea-41bb-8b84-6e7941113b5d",
+                            "related_uuid": "4dfb6a02-d8c4-42fe-a424-c7f515e97a3b",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

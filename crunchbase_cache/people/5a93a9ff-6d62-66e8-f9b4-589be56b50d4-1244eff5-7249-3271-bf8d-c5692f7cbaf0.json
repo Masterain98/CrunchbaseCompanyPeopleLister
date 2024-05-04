@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9c2c07fa-3a11-4adf-9036-bbb649cbf29d",
+            "properties": {
+                "name": "Ken Michie",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9c2c07fa-3a11-4adf-9036-bbb649cbf29d",
+                    "value": "Ken Michie"
+                },
+                "linkedin": "kenmichie",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a8da8f76-2fd1-403d-ac2e-976918e0d7a3",
+                            "related_uuid": "9c2c07fa-3a11-4adf-9036-bbb649cbf29d",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

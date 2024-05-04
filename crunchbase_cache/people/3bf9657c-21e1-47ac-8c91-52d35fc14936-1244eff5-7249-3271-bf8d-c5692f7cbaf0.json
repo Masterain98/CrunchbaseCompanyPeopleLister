@@ -1,0 +1,99 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "c3263297-10c9-43fc-ad4d-aef19145142a",
+            "properties": {
+                "name": "Brian Bashaw",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c3263297-10c9-43fc-ad4d-aef19145142a",
+                    "value": "Brian Bashaw"
+                },
+                "linkedin": "brianbashaw",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "41f1143e-59b4-454c-bc37-36fc92c0adca",
+                            "related_uuid": "c3263297-10c9-43fc-ad4d-aef19145142a",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9959a856-febe-40b6-aa2a-d8bd0038b63d",
+            "properties": {
+                "name": "Michael Hall",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9959a856-febe-40b6-aa2a-d8bd0038b63d",
+                    "value": "Michael Hall"
+                },
+                "linkedin": "michael-hall-1466a93",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "91af983c-a55f-4ee4-86e3-19139eb0b8a0",
+                            "related_uuid": "9959a856-febe-40b6-aa2a-d8bd0038b63d",
+                            "properties": {
+                                "job_title": "Field CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ba13385f-0f50-4647-bf08-f4c5215678af",
+            "properties": {
+                "name": "Trond Myklebust",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ba13385f-0f50-4647-bf08-f4c5215678af",
+                    "value": "Trond Myklebust"
+                },
+                "linkedin": "trond-myklebust-9a81791",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0aaaf608-6a13-4bb3-a858-ac16be699ec4",
+                            "related_uuid": "ba13385f-0f50-4647-bf08-f4c5215678af",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

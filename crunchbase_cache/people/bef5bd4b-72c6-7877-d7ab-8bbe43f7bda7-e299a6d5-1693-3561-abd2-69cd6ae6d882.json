@@ -1,0 +1,92 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "425f35cd-eead-423c-a3ee-8839eaeeb58c",
+            "properties": {
+                "name": "Dong Liu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "425f35cd-eead-423c-a3ee-8839eaeeb58c",
+                    "value": "Dong Liu"
+                },
+                "linkedin": "dong-liu-388b21",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3416e642-c098-44bc-93b6-1560b3cea16b",
+                            "related_uuid": "425f35cd-eead-423c-a3ee-8839eaeeb58c",
+                            "properties": {
+                                "job_title": "Director, M&A Open Source Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e011b5e9-c453-4934-b296-6dd4e1f65bd1",
+            "properties": {
+                "name": "Jill Kelly",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e011b5e9-c453-4934-b296-6dd4e1f65bd1",
+                    "value": "Jill Kelly"
+                },
+                "linkedin": "jill-kelly",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "90f5b8df-dc4c-4f72-a802-2c06de4f07b3",
+                            "related_uuid": "e011b5e9-c453-4934-b296-6dd4e1f65bd1",
+                            "properties": {
+                                "job_title": "Director, Security, Risk & Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "46fcb9b6-ece5-468f-b006-7b3c89f83851",
+            "properties": {
+                "name": "Jessica Short",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "46fcb9b6-ece5-468f-b006-7b3c89f83851",
+                    "value": "Jessica Short"
+                },
+                "linkedin": "jessica-short-pmp%c2%ae-psm%c2%ae-740353a",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3cde4fbb-cccc-4a51-9bc6-6ac536a0b1fd",
+                            "related_uuid": "46fcb9b6-ece5-468f-b006-7b3c89f83851",
+                            "properties": {
+                                "job_title": "Director, SaaS Compliance Program Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

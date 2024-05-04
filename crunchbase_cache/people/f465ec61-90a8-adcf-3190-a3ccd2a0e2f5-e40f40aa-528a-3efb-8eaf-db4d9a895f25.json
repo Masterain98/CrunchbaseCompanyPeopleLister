@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "84be132f-3304-4211-912c-05fb2f0b03ca",
+            "properties": {
+                "name": "Jon Emerson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "84be132f-3304-4211-912c-05fb2f0b03ca",
+                    "value": "Jon Emerson"
+                },
+                "linkedin": "emersonland",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "27c048b7-9983-4ac4-bdf3-ccafbb1b250b",
+                            "related_uuid": "84be132f-3304-4211-912c-05fb2f0b03ca",
+                            "properties": {
+                                "job_title": "Director - Creative Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

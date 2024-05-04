@@ -1,0 +1,164 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "d71e0977-af57-4205-920f-3865130c7f05",
+            "properties": {
+                "name": "Chris Lee",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d71e0977-af57-4205-920f-3865130c7f05",
+                    "value": "Chris Lee"
+                },
+                "linkedin": "clee338",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "812c2e9a-872e-402d-bbbe-f9b5d6d717d8",
+                            "related_uuid": "d71e0977-af57-4205-920f-3865130c7f05",
+                            "properties": {
+                                "job_title": "Executive Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4c7c5904-4194-436c-a3b3-848da227b508",
+            "properties": {
+                "name": "Jason Donohue",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4c7c5904-4194-436c-a3b3-848da227b508",
+                    "value": "Jason Donohue"
+                },
+                "linkedin": "jasondonohue",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f9a2a8c-a2dd-4889-80ac-1762866fb84e",
+                            "related_uuid": "4c7c5904-4194-436c-a3b3-848da227b508",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "064f7299-f544-4ee2-9539-b01e6f8c45cf",
+            "properties": {
+                "name": "Liu Baxter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "064f7299-f544-4ee2-9539-b01e6f8c45cf",
+                    "value": "Liu Baxter"
+                },
+                "linkedin": "liuyinan",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a5ee9a37-21f1-48c7-8eed-ceaba819ffbd",
+                            "related_uuid": "064f7299-f544-4ee2-9539-b01e6f8c45cf",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "03785a6c-0bb2-4263-9243-2f61ef8ff2dd",
+            "properties": {
+                "name": "Maureen Buxton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "03785a6c-0bb2-4263-9243-2f61ef8ff2dd",
+                    "value": "Maureen Buxton"
+                },
+                "linkedin": "maureenbuxton",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "422e5d89-6caf-4e2c-a779-9a386da0fbdd",
+                            "related_uuid": "03785a6c-0bb2-4263-9243-2f61ef8ff2dd",
+                            "properties": {
+                                "job_title": "Executive Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "090a54b6-76ad-4d5a-9c3a-035fea8a2540",
+            "properties": {
+                "name": "Regi Jacob",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "090a54b6-76ad-4d5a-9c3a-035fea8a2540",
+                    "value": "Regi Jacob"
+                },
+                "linkedin": "regijacob",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "product"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "60906321-95c1-4c22-bf06-9018b754d336",
+                            "related_uuid": "090a54b6-76ad-4d5a-9c3a-035fea8a2540",
+                            "properties": {
+                                "job_title": "Creative Director, Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

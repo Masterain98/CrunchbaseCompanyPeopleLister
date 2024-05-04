@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "09d29073-a58f-4a90-8b5b-455965550433",
+            "properties": {
+                "name": "Chris Sharp",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "09d29073-a58f-4a90-8b5b-455965550433",
+                    "value": "Chris Sharp"
+                },
+                "linkedin": "chrislsharp",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "695a3102-3f5e-454c-ba66-b1903a9eaa59",
+                            "related_uuid": "09d29073-a58f-4a90-8b5b-455965550433",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

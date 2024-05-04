@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "550c6b22-fada-4351-a6d9-4d1509ab8ebb",
+            "properties": {
+                "name": "Robert Peterson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "550c6b22-fada-4351-a6d9-4d1509ab8ebb",
+                    "value": "Robert Peterson"
+                },
+                "linkedin": "robert-peterson-b960b44",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "240e4f5c-32bd-4906-aa57-aecfd290ba2b",
+                            "related_uuid": "550c6b22-fada-4351-a6d9-4d1509ab8ebb",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

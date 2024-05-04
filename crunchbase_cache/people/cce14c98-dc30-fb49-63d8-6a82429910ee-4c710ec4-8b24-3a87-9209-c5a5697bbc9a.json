@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e30f012d-f21c-4909-9873-e02ee4a26833",
+            "properties": {
+                "name": "Maria Posso",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e30f012d-f21c-4909-9873-e02ee4a26833",
+                    "value": "Maria Posso"
+                },
+                "linkedin": "mariaposso",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8ec0e8e9-0e87-49db-853f-22f262405f36",
+                            "related_uuid": "e30f012d-f21c-4909-9873-e02ee4a26833",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

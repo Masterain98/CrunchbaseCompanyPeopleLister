@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d5d2b88e-c518-48de-ba74-02e4d48511f4",
+            "properties": {
+                "name": "Johanna Virtanen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d5d2b88e-c518-48de-ba74-02e4d48511f4",
+                    "value": "Johanna Virtanen"
+                },
+                "linkedin": "virtanenjohanna",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3f1b18e8-26ed-44d9-8baf-425fdf70a817",
+                            "related_uuid": "d5d2b88e-c518-48de-ba74-02e4d48511f4",
+                            "properties": {
+                                "job_title": "Director, Communications, PR, Brand"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

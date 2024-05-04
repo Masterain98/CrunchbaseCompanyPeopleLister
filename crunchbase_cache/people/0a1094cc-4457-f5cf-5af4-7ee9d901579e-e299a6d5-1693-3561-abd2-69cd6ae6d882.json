@@ -1,0 +1,101 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "314f3726-6ba2-40d1-bba4-fc7d0493ed8e",
+            "properties": {
+                "name": "Daniel Pekol",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "314f3726-6ba2-40d1-bba4-fc7d0493ed8e",
+                    "value": "Daniel Pekol"
+                },
+                "linkedin": "dpekol",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "676ec428-01a2-4e1b-b743-dde0dcc9a17a",
+                            "related_uuid": "314f3726-6ba2-40d1-bba4-fc7d0493ed8e",
+                            "properties": {
+                                "job_title": "Director, Information Security, Governance, Risk & Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "eadbf915-e249-4e15-858d-4853e80bcecb",
+            "properties": {
+                "name": "Nancy Prasetio",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eadbf915-e249-4e15-858d-4853e80bcecb",
+                    "value": "Nancy Prasetio"
+                },
+                "linkedin": "nancyprasetio",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7abc30ee-8a99-426e-aa00-0a3f433f418a",
+                            "related_uuid": "eadbf915-e249-4e15-858d-4853e80bcecb",
+                            "properties": {
+                                "job_title": "Finance and Administration"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3212a2b3-661f-4fbc-8dd5-079cdb5adbed",
+            "properties": {
+                "name": "Nicole Rison",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3212a2b3-661f-4fbc-8dd5-079cdb5adbed",
+                    "value": "Nicole Rison"
+                },
+                "linkedin": "nicole-rison-618a8b6",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5b1a2b00-c7ee-4b41-9406-f8c55b895725",
+                            "related_uuid": "3212a2b3-661f-4fbc-8dd5-079cdb5adbed",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

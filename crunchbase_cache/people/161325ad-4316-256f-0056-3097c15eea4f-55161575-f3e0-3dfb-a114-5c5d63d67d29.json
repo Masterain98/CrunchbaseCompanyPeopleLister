@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2cc01e3f-4392-4009-b90a-d09c552fda16",
+            "properties": {
+                "name": "Dan Ryan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2cc01e3f-4392-4009-b90a-d09c552fda16",
+                    "value": "Dan Ryan"
+                },
+                "linkedin": "dpryan87",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "162ea2fc-f9e7-47ce-9b96-ecb93d2c807d",
+                            "related_uuid": "2cc01e3f-4392-4009-b90a-d09c552fda16",
+                            "properties": {
+                                "job_title": "CEO / Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

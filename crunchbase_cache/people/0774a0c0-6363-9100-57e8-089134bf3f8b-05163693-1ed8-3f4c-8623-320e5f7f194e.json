@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6785fe2b-11ac-4d53-81fd-136eaa1ed552",
+            "properties": {
+                "name": "Rachel Ratchford",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6785fe2b-11ac-4d53-81fd-136eaa1ed552",
+                    "value": "Rachel Ratchford"
+                },
+                "linkedin": "rachelround",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d346850a-5a80-4bf7-8ff7-1be627ebf35d",
+                            "related_uuid": "6785fe2b-11ac-4d53-81fd-136eaa1ed552",
+                            "properties": {
+                                "job_title": "Director of Marketing Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

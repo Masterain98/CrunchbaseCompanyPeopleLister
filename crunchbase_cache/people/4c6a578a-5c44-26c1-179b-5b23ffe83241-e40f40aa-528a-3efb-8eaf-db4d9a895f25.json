@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e8a59246-7499-40fb-a566-36ea42fe2107",
+            "properties": {
+                "name": "Seth Davis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e8a59246-7499-40fb-a566-36ea42fe2107",
+                    "value": "Seth Davis"
+                },
+                "linkedin": "seth-davis-63234567",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "10450338-46e3-4dd2-af0e-657651563322",
+                            "related_uuid": "e8a59246-7499-40fb-a566-36ea42fe2107",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

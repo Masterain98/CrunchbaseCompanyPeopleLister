@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "77a0d45e-f522-4476-b106-bab2a72798a3",
+            "properties": {
+                "name": "Anne Coldren",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "77a0d45e-f522-4476-b106-bab2a72798a3",
+                    "value": "Anne Coldren"
+                },
+                "linkedin": "anne-coldren-847907",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1cde36d6-aff3-41ff-94f8-117facb0f92f",
+                            "related_uuid": "77a0d45e-f522-4476-b106-bab2a72798a3",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

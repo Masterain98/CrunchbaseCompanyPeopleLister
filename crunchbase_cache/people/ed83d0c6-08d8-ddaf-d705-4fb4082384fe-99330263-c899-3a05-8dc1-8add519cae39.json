@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0e819cad-9429-4266-9851-7be5f48a4ce1",
+            "properties": {
+                "name": "Ashley Chandler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e819cad-9429-4266-9851-7be5f48a4ce1",
+                    "value": "Ashley Chandler"
+                },
+                "linkedin": "ashley-chandler-55b00b3",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a946c810-1d6a-4534-81bb-c248aadc5375",
+                            "related_uuid": "0e819cad-9429-4266-9851-7be5f48a4ce1",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

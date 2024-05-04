@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f656767f-6674-486d-a4a7-cb19a97cde5d",
+            "properties": {
+                "name": "Michelle Ziadie",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f656767f-6674-486d-a4a7-cb19a97cde5d",
+                    "value": "Michelle Ziadie"
+                },
+                "linkedin": "michelleziadie",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "778c1142-e4d0-4ed7-a92b-9f575557b9af",
+                            "related_uuid": "f656767f-6674-486d-a4a7-cb19a97cde5d",
+                            "properties": {
+                                "job_title": "Regional Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

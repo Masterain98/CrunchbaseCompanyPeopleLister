@@ -1,0 +1,130 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "83e07cbe-8974-422a-a1dc-71e3eca477e4",
+            "properties": {
+                "name": "Joshua Bottino",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "83e07cbe-8974-422a-a1dc-71e3eca477e4",
+                    "value": "Joshua Bottino"
+                },
+                "linkedin": "joshua-bottino-9276b652",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ab3bf672-2548-4b7f-9d41-413d8f9c6eeb",
+                            "related_uuid": "83e07cbe-8974-422a-a1dc-71e3eca477e4",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2fa59264-da67-4249-9e39-51b64515b40b",
+            "properties": {
+                "name": "Kate Thacker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2fa59264-da67-4249-9e39-51b64515b40b",
+                    "value": "Kate Thacker"
+                },
+                "linkedin": "katherinethacker",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "50aac4ae-96fd-49b1-bb73-1272d332037f",
+                            "related_uuid": "2fa59264-da67-4249-9e39-51b64515b40b",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ff71b481-366f-4c3e-9bec-d109dda12863",
+            "properties": {
+                "name": "Smita Pillai",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ff71b481-366f-4c3e-9bec-d109dda12863",
+                    "value": "Smita Pillai"
+                },
+                "linkedin": "smita-pillai-134b297",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6d37db38-579f-4633-92b3-5d6bcc0dc925",
+                            "related_uuid": "ff71b481-366f-4c3e-9bec-d109dda12863",
+                            "properties": {
+                                "job_title": "Customer Success Director, EMEA"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a5a2913b-23b4-4379-9759-8e2dcd297070",
+            "properties": {
+                "name": "Thomas Derenze",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a5a2913b-23b4-4379-9759-8e2dcd297070",
+                    "value": "Thomas Derenze"
+                },
+                "linkedin": "thomasderenze",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "52879d9d-afa4-4405-bd41-4362f7b9ef37",
+                            "related_uuid": "a5a2913b-23b4-4379-9759-8e2dcd297070",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

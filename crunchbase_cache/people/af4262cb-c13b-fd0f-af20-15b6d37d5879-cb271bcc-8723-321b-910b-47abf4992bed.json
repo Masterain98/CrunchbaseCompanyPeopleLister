@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "2a473e90-6f34-4b67-b36c-686d9682262a",
+            "properties": {
+                "name": "Hayley Tobin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2a473e90-6f34-4b67-b36c-686d9682262a",
+                    "value": "Hayley Tobin"
+                },
+                "linkedin": "hayley-tobin-72399028",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7c2b0dff-7ee4-4e8c-a963-e591c9da9a9f",
+                            "related_uuid": "2a473e90-6f34-4b67-b36c-686d9682262a",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "32159a7d-7ced-44b6-b9c5-91f8c7833a12",
+            "properties": {
+                "name": "Hayley Tobin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "32159a7d-7ced-44b6-b9c5-91f8c7833a12",
+                    "value": "Hayley Tobin"
+                },
+                "linkedin": "hayley-tobin",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4e05b3d9-1787-45b7-bf43-b7fc86500e8e",
+                            "related_uuid": "32159a7d-7ced-44b6-b9c5-91f8c7833a12",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

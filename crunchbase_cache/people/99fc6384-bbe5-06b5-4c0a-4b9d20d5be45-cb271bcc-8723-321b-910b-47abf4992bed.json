@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "b10ea1ff-03ff-4165-bf5f-6320495a0d96",
+            "properties": {
+                "name": "Diego Rey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b10ea1ff-03ff-4165-bf5f-6320495a0d96",
+                    "value": "Diego Rey"
+                },
+                "linkedin": "diego-rey",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d71794b-e1f2-4ff8-8a9a-4de9b0c77da9",
+                            "related_uuid": "b10ea1ff-03ff-4165-bf5f-6320495a0d96",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c526c5ca-519c-42ee-8bd1-91251b48222d",
+            "properties": {
+                "name": "Henry Supinski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c526c5ca-519c-42ee-8bd1-91251b48222d",
+                    "value": "Henry Supinski"
+                },
+                "linkedin": "henry-supinski-0733335",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5ee45444-158d-4ee2-9db9-43fe75f457de",
+                            "related_uuid": "c526c5ca-519c-42ee-8bd1-91251b48222d",
+                            "properties": {
+                                "job_title": "Director, Customer Success Management - North America"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

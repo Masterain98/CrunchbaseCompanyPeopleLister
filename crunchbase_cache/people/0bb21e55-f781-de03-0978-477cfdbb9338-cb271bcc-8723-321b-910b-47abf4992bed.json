@@ -1,0 +1,40 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "dadf542d-bfe2-443d-bd0b-8052c979fbf7",
+            "properties": {
+                "name": "Cori Biers",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dadf542d-bfe2-443d-bd0b-8052c979fbf7",
+                    "value": "Cori Biers"
+                },
+                "linkedin": "cori-biers-4a748463",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "29565d6e-6c8d-46e6-8424-9d22c25c5e56",
+                            "related_uuid": "dadf542d-bfe2-443d-bd0b-8052c979fbf7",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

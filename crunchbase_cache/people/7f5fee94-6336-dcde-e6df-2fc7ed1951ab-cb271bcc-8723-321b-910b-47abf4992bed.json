@@ -1,0 +1,130 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "00bf9e04-49fb-41dc-abf3-c8ebb744f567",
+            "properties": {
+                "name": "Bryan Beck",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "00bf9e04-49fb-41dc-abf3-c8ebb744f567",
+                    "value": "Bryan Beck"
+                },
+                "linkedin": "bryan-beck-32b00624",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "05838d6b-b76f-40d7-95d6-34bd54f0f42f",
+                            "related_uuid": "00bf9e04-49fb-41dc-abf3-c8ebb744f567",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bcf04647-b612-4134-ad8b-f2f95eee505f",
+            "properties": {
+                "name": "Shawn Hunter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bcf04647-b612-4134-ad8b-f2f95eee505f",
+                    "value": "Shawn Hunter"
+                },
+                "linkedin": "shawnhunterturnbull",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6a28258d-56aa-462e-bf68-3add029daabd",
+                            "related_uuid": "bcf04647-b612-4134-ad8b-f2f95eee505f",
+                            "properties": {
+                                "job_title": "Director, NA Customer Success at CloudBees"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a720489b-fd44-4dd8-a0e6-9639ef06eb91",
+            "properties": {
+                "name": "Shawn Turnbull",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a720489b-fd44-4dd8-a0e6-9639ef06eb91",
+                    "value": "Shawn Turnbull"
+                },
+                "linkedin": "shawnhunterbriscoe",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e567269c-c745-4194-b01a-ee1438e98569",
+                            "related_uuid": "a720489b-fd44-4dd8-a0e6-9639ef06eb91",
+                            "properties": {
+                                "job_title": "Director, NA Customer Success at CloudBees"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4aa36574-3f5a-449d-90f5-50ccd676a173",
+            "properties": {
+                "name": "Todd Stayin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4aa36574-3f5a-449d-90f5-50ccd676a173",
+                    "value": "Todd Stayin"
+                },
+                "linkedin": "toddstayin",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "193f46f7-4b01-46af-9dee-e81ebb21887e",
+                            "related_uuid": "4aa36574-3f5a-449d-90f5-50ccd676a173",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

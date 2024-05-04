@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0e808ca4-b2fe-487a-b366-9ef15c60718b",
+            "properties": {
+                "name": "Andrew Colombi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e808ca4-b2fe-487a-b366-9ef15c60718b",
+                    "value": "Andrew Colombi"
+                },
+                "linkedin": "andrew-colombi-9a52aa5",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5de4a336-f04e-40ea-8a8a-69e1293348e4",
+                            "related_uuid": "0e808ca4-b2fe-487a-b366-9ef15c60718b",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

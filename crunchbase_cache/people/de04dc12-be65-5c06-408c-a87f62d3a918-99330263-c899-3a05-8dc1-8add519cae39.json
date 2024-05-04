@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d8f82942-9946-4385-aa58-f3855bf01c24",
+            "properties": {
+                "name": "Erich Ziegler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d8f82942-9946-4385-aa58-f3855bf01c24",
+                    "value": "Erich Ziegler"
+                },
+                "linkedin": "erich-ziegler-8827911",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bccd5939-daab-4b58-bc19-743d7b18d175",
+                            "related_uuid": "d8f82942-9946-4385-aa58-f3855bf01c24",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

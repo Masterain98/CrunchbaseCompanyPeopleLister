@@ -1,0 +1,30 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "85d648f9-fa89-4326-954c-4674e597b854",
+            "properties": {
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "85d648f9-fa89-4326-954c-4674e597b854",
+                    "value": "Tracy Enriquez"
+                },
+                "name": "Tracy Enriquez",
+                "linkedin": "tracy-enriquez-45054025"
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f16ee53-0f01-460b-8a1c-e6fc814873b1",
+                            "related_uuid": "85d648f9-fa89-4326-954c-4674e597b854",
+                            "properties": {
+                                "job_title": "Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

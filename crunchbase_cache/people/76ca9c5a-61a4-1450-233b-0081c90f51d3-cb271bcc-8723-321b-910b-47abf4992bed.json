@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "f9631daf-534f-4960-8af6-142f8d8c5706",
+            "properties": {
+                "name": "Jacqueline Betancourt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f9631daf-534f-4960-8af6-142f8d8c5706",
+                    "value": "Jacqueline Betancourt"
+                },
+                "linkedin": "betancourtjacqueline",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e39ad89e-2751-40ee-9b8d-8571b54d944f",
+                            "related_uuid": "f9631daf-534f-4960-8af6-142f8d8c5706",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3252e096-721b-49cd-8197-d397c9dc2245",
+            "properties": {
+                "name": "Rose Orton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3252e096-721b-49cd-8197-d397c9dc2245",
+                    "value": "Rose Orton"
+                },
+                "linkedin": "rose-orton-b553408",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "83a58069-2c28-44cb-8722-2397232536d8",
+                            "related_uuid": "3252e096-721b-49cd-8197-d397c9dc2245",
+                            "properties": {
+                                "job_title": "Director, Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

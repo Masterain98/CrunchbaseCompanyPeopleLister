@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "832d3353-8419-4237-8e2c-8a69f57ab302",
+            "properties": {
+                "name": "Sergey Arutiunov",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "832d3353-8419-4237-8e2c-8a69f57ab302",
+                    "value": "Sergey Arutiunov"
+                },
+                "linkedin": "arutiunov",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "34d313b9-79d8-41d6-b21f-d88cfc315d48",
+                            "related_uuid": "832d3353-8419-4237-8e2c-8a69f57ab302",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

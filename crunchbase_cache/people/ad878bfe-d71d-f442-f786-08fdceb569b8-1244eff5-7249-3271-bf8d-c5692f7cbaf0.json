@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e52b78ed-ecbf-4ef3-a4b2-9f6c5f311f61",
+            "properties": {
+                "name": "Bryan Smith",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e52b78ed-ecbf-4ef3-a4b2-9f6c5f311f61",
+                    "value": "Bryan Smith"
+                },
+                "linkedin": "orionseven",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2ece142e-04dd-405d-b1b0-1d49551e0792",
+                            "related_uuid": "e52b78ed-ecbf-4ef3-a4b2-9f6c5f311f61",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

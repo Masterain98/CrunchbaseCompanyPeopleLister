@@ -1,0 +1,126 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "2dfd8a8c-9616-4699-a6ff-aa8cd1d7fe0b",
+            "properties": {
+                "name": "Elizabeth Wallin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2dfd8a8c-9616-4699-a6ff-aa8cd1d7fe0b",
+                    "value": "Elizabeth Wallin"
+                },
+                "linkedin": "elizabeth-wallin-a656764",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7eec0506-f6ea-468c-90a1-ae56322ffb28",
+                            "related_uuid": "2dfd8a8c-9616-4699-a6ff-aa8cd1d7fe0b",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer - US Tax"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "81ac87c7-679a-492e-bf6f-5c827c30f40c",
+            "properties": {
+                "name": "Mary Morrison",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "81ac87c7-679a-492e-bf6f-5c827c30f40c",
+                    "value": "Mary Morrison"
+                },
+                "linkedin": "mary-morrison-ab77184",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4b9d3dda-6559-477c-a210-7b7b5012af44",
+                            "related_uuid": "81ac87c7-679a-492e-bf6f-5c827c30f40c",
+                            "properties": {
+                                "job_title": "Editor, Deloitte Insights in WSJ CMO Today"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "be50882f-a3aa-486a-8674-e2d69054ff9e",
+            "properties": {
+                "name": "Sarah Echols Allred",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "be50882f-a3aa-486a-8674-e2d69054ff9e",
+                    "value": "Sarah Echols Allred"
+                },
+                "linkedin": "sarah-echols-allred-2759b75",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7246b53b-d1d3-42bc-b6cf-dbe45afb2d95",
+                            "related_uuid": "be50882f-a3aa-486a-8674-e2d69054ff9e",
+                            "properties": {
+                                "job_title": "Content and Insights, CMO Program"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "48a363a6-67bc-4c7e-8c5f-28b527bbfa27",
+            "properties": {
+                "name": "Susan Kost",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "48a363a6-67bc-4c7e-8c5f-28b527bbfa27",
+                    "value": "Susan Kost"
+                },
+                "linkedin": "susankost",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c630e9e0-4550-4f6e-8666-9ef5e27499e4",
+                            "related_uuid": "48a363a6-67bc-4c7e-8c5f-28b527bbfa27",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer, Global Tax & Legal"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

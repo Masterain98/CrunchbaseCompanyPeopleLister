@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "2baf5fc0-9db2-4e21-a2a9-213c4e02db2a",
+            "properties": {
+                "name": "Angie Haakenson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2baf5fc0-9db2-4e21-a2a9-213c4e02db2a",
+                    "value": "Angie Haakenson"
+                },
+                "linkedin": "angiehaakenson",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0238f4b8-03ae-4fce-b12d-ff9058d64fe0",
+                            "related_uuid": "2baf5fc0-9db2-4e21-a2a9-213c4e02db2a",
+                            "properties": {
+                                "job_title": "CX Design Lead | Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8798b67b-f63a-41f2-942a-4583c878e1de",
+            "properties": {
+                "name": "Susan Zeid",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8798b67b-f63a-41f2-942a-4583c878e1de",
+                    "value": "Susan Zeid"
+                },
+                "linkedin": "susanzeid",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "298f04a5-290b-4ab1-a5e5-ab596ad1b322",
+                            "related_uuid": "8798b67b-f63a-41f2-942a-4583c878e1de",
+                            "properties": {
+                                "job_title": "Creative Director of User Experience"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

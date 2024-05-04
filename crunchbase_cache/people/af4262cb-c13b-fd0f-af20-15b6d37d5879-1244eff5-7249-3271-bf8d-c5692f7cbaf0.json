@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8148e6e3-06ee-4ffb-b3a5-38e6adee51c6",
+            "properties": {
+                "name": "Vinay Kuruvila",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8148e6e3-06ee-4ffb-b3a5-38e6adee51c6",
+                    "value": "Vinay Kuruvila"
+                },
+                "linkedin": "vinaykuruvila",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "39949be2-ee30-4ecd-b567-db8ec98c2c19",
+                            "related_uuid": "8148e6e3-06ee-4ffb-b3a5-38e6adee51c6",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

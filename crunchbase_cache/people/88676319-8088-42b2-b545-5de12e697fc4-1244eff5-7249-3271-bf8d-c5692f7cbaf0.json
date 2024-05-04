@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "667c4ba8-6a7d-44d8-8f9b-2059e4a0c344",
+            "properties": {
+                "name": "Chad Wilken",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "667c4ba8-6a7d-44d8-8f9b-2059e4a0c344",
+                    "value": "Chad Wilken"
+                },
+                "linkedin": "chad-wilken",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a3f43f9a-cbef-4782-8a45-3a899121b6a2",
+                            "related_uuid": "667c4ba8-6a7d-44d8-8f9b-2059e4a0c344",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

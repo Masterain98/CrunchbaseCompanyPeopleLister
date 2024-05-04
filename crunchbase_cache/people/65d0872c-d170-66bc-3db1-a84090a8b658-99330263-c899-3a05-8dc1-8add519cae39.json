@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "4c726cb6-da1a-4a08-851a-b8461c0cf9d0",
+            "properties": {
+                "name": "Al Campa",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4c726cb6-da1a-4a08-851a-b8461c0cf9d0",
+                    "value": "Al Campa"
+                },
+                "linkedin": "alcampa",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c0ca5d41-4aa5-42d0-9696-48fe075baca6",
+                            "related_uuid": "4c726cb6-da1a-4a08-851a-b8461c0cf9d0",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7bcb3abd-f4b7-4d5a-899c-4d186524ba03",
+            "properties": {
+                "name": "Chris Reaburn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7bcb3abd-f4b7-4d5a-899c-4d186524ba03",
+                    "value": "Chris Reaburn"
+                },
+                "linkedin": "reaburn",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0daa5193-3e35-4e31-a5a9-f168297eee5d",
+                            "related_uuid": "7bcb3abd-f4b7-4d5a-899c-4d186524ba03",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

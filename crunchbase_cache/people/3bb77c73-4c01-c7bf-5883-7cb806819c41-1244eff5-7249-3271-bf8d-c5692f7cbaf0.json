@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c0ca1b5d-b046-42e8-aaa0-8eb1a423d798",
+            "properties": {
+                "name": "John Cuellar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c0ca1b5d-b046-42e8-aaa0-8eb1a423d798",
+                    "value": "John Cuellar"
+                },
+                "linkedin": "cuellar",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e749d6ac-7534-4243-a5d9-55364cb03edb",
+                            "related_uuid": "c0ca1b5d-b046-42e8-aaa0-8eb1a423d798",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

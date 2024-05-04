@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c5af6362-a7e7-412c-b9ba-62c770e4e523",
+            "properties": {
+                "name": "Lucio Peralta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c5af6362-a7e7-412c-b9ba-62c770e4e523",
+                    "value": "Lucio Peralta"
+                },
+                "linkedin": "lucioperalta",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e094512-6aed-4e67-a54b-5635345a5f50",
+                            "related_uuid": "c5af6362-a7e7-412c-b9ba-62c770e4e523",
+                            "properties": {
+                                "job_title": "Group Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

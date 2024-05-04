@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fb5ded4a-3b10-455d-97bb-4b2aeebbf8e6",
+            "properties": {
+                "name": "Micah Panama",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fb5ded4a-3b10-455d-97bb-4b2aeebbf8e6",
+                    "value": "Micah Panama"
+                },
+                "linkedin": "micahpanama",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b8e09986-f184-46ca-9f4e-29501bde8131",
+                            "related_uuid": "fb5ded4a-3b10-455d-97bb-4b2aeebbf8e6",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "183049a5-43e7-4ed7-a7ac-3401b73c1b05",
+            "properties": {
+                "name": "Eugene Dong",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "183049a5-43e7-4ed7-a7ac-3401b73c1b05",
+                    "value": "Eugene Dong"
+                },
+                "linkedin": "eugene-dong",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "13e95975-7eb3-40fa-9155-eb8672ee7eb0",
+                            "related_uuid": "183049a5-43e7-4ed7-a7ac-3401b73c1b05",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9173f469-d1c7-4677-9b07-9926d199374b",
+            "properties": {
+                "name": "Karrie Sanderson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9173f469-d1c7-4677-9b07-9926d199374b",
+                    "value": "Karrie Sanderson"
+                },
+                "linkedin": "karrie-sanderson",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ff34f589-dadb-4f27-9568-7b102fa76cf9",
+                            "related_uuid": "9173f469-d1c7-4677-9b07-9926d199374b",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

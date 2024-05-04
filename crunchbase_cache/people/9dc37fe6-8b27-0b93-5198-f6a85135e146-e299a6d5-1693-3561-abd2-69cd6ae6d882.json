@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1bc233a4-a84e-4bfe-8b0c-90a7ad728091",
+            "properties": {
+                "name": "Charles Aaron Giles",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1bc233a4-a84e-4bfe-8b0c-90a7ad728091",
+                    "value": "Charles Aaron Giles"
+                },
+                "linkedin": "charlesaarongiles",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "990e52c1-a8e0-484f-bde8-f0feff84713e",
+                            "related_uuid": "1bc233a4-a84e-4bfe-8b0c-90a7ad728091",
+                            "properties": {
+                                "job_title": "Director, Information Technology and Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

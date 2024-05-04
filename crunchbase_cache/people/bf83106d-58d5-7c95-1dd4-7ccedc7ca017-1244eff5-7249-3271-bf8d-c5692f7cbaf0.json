@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "590e74b2-653f-4081-a4a9-50cd8bf5b368",
+            "properties": {
+                "name": "Matias Woloski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "590e74b2-653f-4081-a4a9-50cd8bf5b368",
+                    "value": "Matias Woloski"
+                },
+                "linkedin": "matiaswoloski",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0bbb81fe-841b-49df-870b-8d27f4c9014a",
+                            "related_uuid": "590e74b2-653f-4081-a4a9-50cd8bf5b368",
+                            "properties": {
+                                "job_title": "Co-Founder, CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1d99ac49-80cb-4bfd-89b6-c68e8cedbb5c",
+            "properties": {
+                "name": "Steven Sakadales",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1d99ac49-80cb-4bfd-89b6-c68e8cedbb5c",
+                    "value": "Steven Sakadales"
+                },
+                "linkedin": "stevensakadales",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4de5e77c-9e42-484d-aa05-a238d3bf4f34",
+                            "related_uuid": "1d99ac49-80cb-4bfd-89b6-c68e8cedbb5c",
+                            "properties": {
+                                "job_title": "Sr. Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

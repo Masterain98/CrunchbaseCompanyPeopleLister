@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "954ffb61-34f9-4431-878c-9dc412be0b93",
+            "properties": {
+                "name": "Rami Tamir",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "954ffb61-34f9-4431-878c-9dc412be0b93",
+                    "value": "Rami Tamir"
+                },
+                "linkedin": "ramitamir",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "598b3761-6e10-4e2f-b8fa-c7904f1f128b",
+                            "related_uuid": "954ffb61-34f9-4431-878c-9dc412be0b93",
+                            "properties": {
+                                "job_title": "Co-Founder, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

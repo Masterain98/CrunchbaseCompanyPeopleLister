@@ -1,0 +1,192 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "uuid": "c1f58210-e483-4cfd-b0cd-db28a372d0c4",
+            "properties": {
+                "name": "Brian Balistreri",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c1f58210-e483-4cfd-b0cd-db28a372d0c4",
+                    "value": "Brian Balistreri"
+                },
+                "linkedin": "brian-balistreri-8595504",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "05bdc9de-f6c1-49ca-99d3-f5f2bbc5f383",
+                            "related_uuid": "c1f58210-e483-4cfd-b0cd-db28a372d0c4",
+                            "properties": {
+                                "job_title": "Director of Sales Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e0e0e1a8-5304-4e05-ae49-afeb74e7162b",
+            "properties": {
+                "name": "Daanish Ahmad",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e0e0e1a8-5304-4e05-ae49-afeb74e7162b",
+                    "value": "Daanish Ahmad"
+                },
+                "linkedin": "daanish-ahmad-8631296",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "635afeb5-7d41-4e2e-aa4b-c1235d58b083",
+                            "related_uuid": "e0e0e1a8-5304-4e05-ae49-afeb74e7162b",
+                            "properties": {
+                                "job_title": "Director, Business Operations, Global Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "10cee301-1eba-48ca-827c-1ed3f9d2e36f",
+            "properties": {
+                "name": "Dyan Collins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "10cee301-1eba-48ca-827c-1ed3f9d2e36f",
+                    "value": "Dyan Collins"
+                },
+                "linkedin": "dyan-collins-0123b39",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7770613c-bb9e-4509-b59b-f3ed7cffffd0",
+                            "related_uuid": "10cee301-1eba-48ca-827c-1ed3f9d2e36f",
+                            "properties": {
+                                "job_title": "Director of Sales Enablement and Communications for Global Collaboration Sales"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ce328605-eacd-4274-b5f2-46f544206ba9",
+            "properties": {
+                "name": "Elizabeth Rector",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ce328605-eacd-4274-b5f2-46f544206ba9",
+                    "value": "Elizabeth Rector"
+                },
+                "linkedin": "4elizabethrector",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ae92069b-0e70-469c-b84d-b0bedff2e98a",
+                            "related_uuid": "ce328605-eacd-4274-b5f2-46f544206ba9",
+                            "properties": {
+                                "job_title": "Director of Communications Intelligence"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "935f73e8-3a9c-428b-9a66-f828ca8b6d7c",
+            "properties": {
+                "name": "Elizabeth Sherman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "935f73e8-3a9c-428b-9a66-f828ca8b6d7c",
+                    "value": "Elizabeth Sherman"
+                },
+                "linkedin": "shermanem",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ed79bdf-4f2f-4a3a-873f-bb5589f1c845",
+                            "related_uuid": "935f73e8-3a9c-428b-9a66-f828ca8b6d7c",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bb14575c-3917-4601-84cb-1d16430308b5",
+            "properties": {
+                "name": "Karen Manning",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bb14575c-3917-4601-84cb-1d16430308b5",
+                    "value": "Karen Manning"
+                },
+                "linkedin": "kamanning",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9ea89671-b404-4310-8acc-132862e0ac56",
+                            "related_uuid": "bb14575c-3917-4601-84cb-1d16430308b5",
+                            "properties": {
+                                "job_title": "SE Director, Unified Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

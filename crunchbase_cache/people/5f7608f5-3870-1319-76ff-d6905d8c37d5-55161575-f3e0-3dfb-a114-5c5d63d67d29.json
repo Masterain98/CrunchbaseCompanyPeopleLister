@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d2f1de16-cec0-4f91-a3b0-4d399576e583",
+            "properties": {
+                "name": "Sebastian Nappa",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d2f1de16-cec0-4f91-a3b0-4d399576e583",
+                    "value": "Sebastian Nappa"
+                },
+                "linkedin": "sebagon",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8953cd2f-9919-44bf-8081-343ef9be7b42",
+                            "related_uuid": "d2f1de16-cec0-4f91-a3b0-4d399576e583",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

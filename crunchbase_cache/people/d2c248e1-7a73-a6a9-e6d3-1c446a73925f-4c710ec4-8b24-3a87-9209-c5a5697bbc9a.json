@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9bc289de-1bb5-4f24-b305-5eb645146490",
+            "properties": {
+                "name": "Meghan Croyle",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9bc289de-1bb5-4f24-b305-5eb645146490",
+                    "value": "Meghan Croyle"
+                },
+                "linkedin": "meghan-croyle-27637921",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "385add86-4a8b-41fd-a968-bce4336698d8",
+                            "related_uuid": "9bc289de-1bb5-4f24-b305-5eb645146490",
+                            "properties": {
+                                "job_title": "Senior Director Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

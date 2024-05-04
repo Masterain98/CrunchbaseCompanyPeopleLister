@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a4baa823-5c42-43aa-b474-391742e4413d",
+            "properties": {
+                "name": "Joanne Ocello",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a4baa823-5c42-43aa-b474-391742e4413d",
+                    "value": "Joanne Ocello"
+                },
+                "linkedin": "joanne-ocello",
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c6a06c49-b59e-4b44-adce-2f29c2a30f2e",
+                            "related_uuid": "a4baa823-5c42-43aa-b474-391742e4413d",
+                            "properties": {
+                                "job_title": "Director of Client Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

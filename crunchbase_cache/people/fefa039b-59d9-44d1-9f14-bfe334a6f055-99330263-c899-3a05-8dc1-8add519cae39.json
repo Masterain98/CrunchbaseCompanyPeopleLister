@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "7892e937-c185-4bce-b301-51144e6ba4a5",
+            "properties": {
+                "name": "Karla Fleege",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7892e937-c185-4bce-b301-51144e6ba4a5",
+                    "value": "Karla Fleege"
+                },
+                "linkedin": "karlafleege",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ba3d95ba-745c-4b86-966c-b3f72b926f69",
+                            "related_uuid": "7892e937-c185-4bce-b301-51144e6ba4a5",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b63e3b80-2662-45d4-9e73-f8f05ae9e01d",
+            "properties": {
+                "name": "Karla Fleege",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b63e3b80-2662-45d4-9e73-f8f05ae9e01d",
+                    "value": "Karla Fleege"
+                },
+                "linkedin": "karlafleege",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e6e5a74f-8629-4fcb-bcd8-517d6d495166",
+                            "related_uuid": "b63e3b80-2662-45d4-9e73-f8f05ae9e01d",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

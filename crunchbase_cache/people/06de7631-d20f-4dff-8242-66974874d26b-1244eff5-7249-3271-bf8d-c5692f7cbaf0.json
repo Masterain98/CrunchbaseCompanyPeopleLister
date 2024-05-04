@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4ef50dca-d4cb-4215-87cf-91e049232d65",
+            "properties": {
+                "name": "Aravind Bala",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4ef50dca-d4cb-4215-87cf-91e049232d65",
+                    "value": "Aravind Bala"
+                },
+                "linkedin": "aravindbala",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "08c434ad-9c14-4d84-b5cd-d84d5515cef2",
+                            "related_uuid": "4ef50dca-d4cb-4215-87cf-91e049232d65",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

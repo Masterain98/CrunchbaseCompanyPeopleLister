@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a9f36027-f968-4e61-a8d1-72aa3f71de93",
+            "properties": {
+                "name": "Jason Du Preez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a9f36027-f968-4e61-a8d1-72aa3f71de93",
+                    "value": "Jason Du Preez"
+                },
+                "linkedin": "jasondupreez",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "da1daef6-bbc4-4214-99b5-2245bbcab9a7",
+                            "related_uuid": "a9f36027-f968-4e61-a8d1-72aa3f71de93",
+                            "properties": {
+                                "job_title": "CEO, Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

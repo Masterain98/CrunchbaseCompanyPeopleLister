@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "dcda2062-82ba-421e-8f9a-5e6e2ab33959",
+            "properties": {
+                "name": "David Howell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dcda2062-82ba-421e-8f9a-5e6e2ab33959",
+                    "value": "David Howell"
+                },
+                "linkedin": "davidhowellboston",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4026c21a-f912-4e68-a77d-8da4f7cfd78d",
+                            "related_uuid": "dcda2062-82ba-421e-8f9a-5e6e2ab33959",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

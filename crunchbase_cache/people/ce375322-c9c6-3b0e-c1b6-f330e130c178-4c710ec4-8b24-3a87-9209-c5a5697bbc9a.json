@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5df96c9a-2e48-4a03-b44d-ce20df6ef859",
+            "properties": {
+                "name": "Bart Piernicki",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5df96c9a-2e48-4a03-b44d-ce20df6ef859",
+                    "value": "Bart Piernicki"
+                },
+                "linkedin": "bart-piernicki-a9748474",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7bf30c81-ca0f-409b-9ee1-5543f1647826",
+                            "related_uuid": "5df96c9a-2e48-4a03-b44d-ce20df6ef859",
+                            "properties": {
+                                "job_title": "Senior Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

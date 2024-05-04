@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b66240a9-15ba-4775-895b-8297d457f3b3",
+            "properties": {
+                "name": "Larry Dunivan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b66240a9-15ba-4775-895b-8297d457f3b3",
+                    "value": "Larry Dunivan"
+                },
+                "linkedin": "larrydunivan",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6bec4d86-0e3e-4577-ba75-814ad742fa60",
+                            "related_uuid": "b66240a9-15ba-4775-895b-8297d457f3b3",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

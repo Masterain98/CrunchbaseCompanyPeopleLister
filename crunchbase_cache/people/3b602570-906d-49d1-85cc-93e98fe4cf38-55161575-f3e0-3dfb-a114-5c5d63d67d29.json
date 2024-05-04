@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7150eee7-f524-47c2-af4c-48304dee6fc2",
+            "properties": {
+                "name": "Rob N. Gurzeev",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7150eee7-f524-47c2-af4c-48304dee6fc2",
+                    "value": "Rob N. Gurzeev"
+                },
+                "linkedin": "gurzeev",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9cb9dcb1-7337-4bb2-ae28-ff2e9f73ff70",
+                            "related_uuid": "7150eee7-f524-47c2-af4c-48304dee6fc2",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

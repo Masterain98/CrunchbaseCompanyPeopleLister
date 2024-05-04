@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e4cd67a6-7ba7-4d5e-877a-c37e48179d2b",
+            "properties": {
+                "name": "Dhananjay Vakula",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e4cd67a6-7ba7-4d5e-877a-c37e48179d2b",
+                    "value": "Dhananjay Vakula"
+                },
+                "linkedin": "dhananjay-vakula",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "897a7625-5016-4241-adab-9413820f17ff",
+                            "related_uuid": "e4cd67a6-7ba7-4d5e-877a-c37e48179d2b",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

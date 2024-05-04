@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f239e5b8-dc80-46fd-995e-c6a481e9ed45",
+            "properties": {
+                "name": "James Hyde",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f239e5b8-dc80-46fd-995e-c6a481e9ed45",
+                    "value": "James Hyde"
+                },
+                "linkedin": "hydejames",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a24911cb-55d1-4d81-8ea0-01bd9ce09ee3",
+                            "related_uuid": "f239e5b8-dc80-46fd-995e-c6a481e9ed45",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

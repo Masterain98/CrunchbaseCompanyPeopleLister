@@ -1,0 +1,99 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "2596956b-d76f-4d62-a9b3-e6626ab18a3c",
+            "properties": {
+                "name": "Brent Breeding",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2596956b-d76f-4d62-a9b3-e6626ab18a3c",
+                    "value": "Brent Breeding"
+                },
+                "linkedin": "brent-breeding-43233723",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5c8973a2-5dea-4404-9d6b-265cdfbc262f",
+                            "related_uuid": "2596956b-d76f-4d62-a9b3-e6626ab18a3c",
+                            "properties": {
+                                "job_title": "Client Services Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "85c95d2c-a935-4876-84fc-aaa3e91b42b0",
+            "properties": {
+                "name": "Heidi Chinwuba",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "85c95d2c-a935-4876-84fc-aaa3e91b42b0",
+                    "value": "Heidi Chinwuba"
+                },
+                "linkedin": "heidichinwuba",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "027d596d-f3b9-4fe4-b8fc-dffcedd1119c",
+                            "related_uuid": "85c95d2c-a935-4876-84fc-aaa3e91b42b0",
+                            "properties": {
+                                "job_title": "Client Services Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4abb5caa-68b8-445e-b11e-2acf894e91ea",
+            "properties": {
+                "name": "Jon Schubert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4abb5caa-68b8-445e-b11e-2acf894e91ea",
+                    "value": "Jon Schubert"
+                },
+                "linkedin": "jon-schubert-mba",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4b0fa8d5-8554-445e-8eb1-12eb624ab6de",
+                            "related_uuid": "4abb5caa-68b8-445e-b11e-2acf894e91ea",
+                            "properties": {
+                                "job_title": "Director, Client Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

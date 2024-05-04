@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7e4b475f-f6eb-402e-9420-c9afa55ed1d5",
+            "properties": {
+                "name": "Todd Hansen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7e4b475f-f6eb-402e-9420-c9afa55ed1d5",
+                    "value": "Todd Hansen"
+                },
+                "linkedin": "toddbhansen",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1c801c17-c39c-4981-8e52-e5cc9d858a4d",
+                            "related_uuid": "7e4b475f-f6eb-402e-9420-c9afa55ed1d5",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

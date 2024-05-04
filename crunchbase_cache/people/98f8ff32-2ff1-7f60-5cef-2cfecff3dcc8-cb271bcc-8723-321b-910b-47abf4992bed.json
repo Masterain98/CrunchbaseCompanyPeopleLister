@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "da211a1e-db42-4d46-aff8-63a1ec32319d",
+            "properties": {
+                "name": "Kimberly Caldwell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "da211a1e-db42-4d46-aff8-63a1ec32319d",
+                    "value": "Kimberly Caldwell"
+                },
+                "linkedin": "kimberly--caldwell",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8050cce4-88a9-4a46-b4b4-90419fdf0c6b",
+                            "related_uuid": "da211a1e-db42-4d46-aff8-63a1ec32319d",
+                            "properties": {
+                                "job_title": "Director, Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

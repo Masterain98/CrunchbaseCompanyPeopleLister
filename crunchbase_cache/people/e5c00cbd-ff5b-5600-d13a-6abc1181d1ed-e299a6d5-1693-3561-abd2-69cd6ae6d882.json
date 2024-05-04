@@ -1,0 +1,131 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "988628d1-188a-4d39-ad64-31014c771524",
+            "properties": {
+                "name": "Annette Wright",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "988628d1-188a-4d39-ad64-31014c771524",
+                    "value": "Annette Wright"
+                },
+                "linkedin": "annette-wright-26315629",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d6bd669-b9a1-4281-8966-5a992b4e446d",
+                            "related_uuid": "988628d1-188a-4d39-ad64-31014c771524",
+                            "properties": {
+                                "job_title": "Director, REIT Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "178fed9e-9f96-4c94-a185-c6409fb7e4f8",
+            "properties": {
+                "name": "Larry Hughes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "178fed9e-9f96-4c94-a185-c6409fb7e4f8",
+                    "value": "Larry Hughes"
+                },
+                "linkedin": "larryhughes",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e8d17730-4a54-476f-9779-42f3932c3a06",
+                            "related_uuid": "178fed9e-9f96-4c94-a185-c6409fb7e4f8",
+                            "properties": {
+                                "job_title": "Director of Information Security Governance, Risk and Compliance (GRC)"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "dd3764c7-d653-48a6-80ab-f3743971aee0",
+            "properties": {
+                "name": "Lynsey Morganti",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dd3764c7-d653-48a6-80ab-f3743971aee0",
+                    "value": "Lynsey Morganti"
+                },
+                "linkedin": "lynsey-morganti-cpa-40550222",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "02be0d87-2530-43a6-8b72-bc3f3b6dbbc1",
+                            "related_uuid": "dd3764c7-d653-48a6-80ab-f3743971aee0",
+                            "properties": {
+                                "job_title": "Director, Financial Assurance and Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8b7eaafa-81bf-4316-b05b-1a68542726ba",
+            "properties": {
+                "name": "Sean Mooney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8b7eaafa-81bf-4316-b05b-1a68542726ba",
+                    "value": "Sean Mooney"
+                },
+                "linkedin": "sean-mooney-b734278",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "46106b47-6669-427f-a9ae-de1997d1604c",
+                            "related_uuid": "8b7eaafa-81bf-4316-b05b-1a68542726ba",
+                            "properties": {
+                                "job_title": "Director Physical Security and Compliance, Americas"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

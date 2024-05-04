@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a72ca859-97e7-4ab7-a49c-c1658d645d64",
+            "properties": {
+                "name": "Erin Champion",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a72ca859-97e7-4ab7-a49c-c1658d645d64",
+                    "value": "Erin Champion"
+                },
+                "linkedin": "erinchampion",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a6aeaa3c-1fcd-4bf5-8e77-0249a9e6ea7f",
+                            "related_uuid": "a72ca859-97e7-4ab7-a49c-c1658d645d64",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

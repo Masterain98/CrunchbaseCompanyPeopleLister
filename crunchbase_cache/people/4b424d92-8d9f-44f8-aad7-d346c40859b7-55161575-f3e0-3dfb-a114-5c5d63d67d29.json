@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bca41e72-d1b6-4fde-8284-b3bd5a4b4551",
+            "properties": {
+                "name": "Daniel Bilbao",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bca41e72-d1b6-4fde-8284-b3bd5a4b4551",
+                    "value": "Daniel Bilbao"
+                },
+                "linkedin": "danielbilbao",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "63121e98-247c-40a3-9bdf-99884f571e9b",
+                            "related_uuid": "bca41e72-d1b6-4fde-8284-b3bd5a4b4551",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

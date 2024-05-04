@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "6f3ba396-7c30-4f22-9e05-454dc774bb00",
+            "properties": {
+                "name": "_Michael Couvillion",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6f3ba396-7c30-4f22-9e05-454dc774bb00",
+                    "value": "_Michael Couvillion"
+                },
+                "linkedin": "couvillion",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "723e011a-82d0-409b-9cdd-30ca8b0e550b",
+                            "related_uuid": "6f3ba396-7c30-4f22-9e05-454dc774bb00",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b8fdcca9-985b-4581-9ce6-5942f75d67a1",
+            "properties": {
+                "name": "Mike Couvillion",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b8fdcca9-985b-4581-9ce6-5942f75d67a1",
+                    "value": "Mike Couvillion"
+                },
+                "linkedin": "mike-couvillion-alexaguru",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00c2f731-061b-4d49-9760-9c7ce55c9fca",
+                            "related_uuid": "b8fdcca9-985b-4581-9ce6-5942f75d67a1",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "87ac1844-4bd7-4f83-8691-ba469f13e6e8",
+            "properties": {
+                "name": "Chris Blaylock",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "87ac1844-4bd7-4f83-8691-ba469f13e6e8",
+                    "value": "Chris Blaylock"
+                },
+                "linkedin": "cblaylock",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fef703af-8d96-4ffa-bb0a-06f1747c61ef",
+                            "related_uuid": "87ac1844-4bd7-4f83-8691-ba469f13e6e8",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

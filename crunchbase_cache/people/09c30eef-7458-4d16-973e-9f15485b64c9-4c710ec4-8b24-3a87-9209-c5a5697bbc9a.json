@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "be82d4da-064b-439d-9ce1-a593d0556ed8",
+            "properties": {
+                "name": "Purnima Kuchikulla",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "be82d4da-064b-439d-9ce1-a593d0556ed8",
+                    "value": "Purnima Kuchikulla"
+                },
+                "linkedin": "purnimakuchikulla",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d5421815-2400-414f-81ba-db02de6b3386",
+                            "related_uuid": "be82d4da-064b-439d-9ce1-a593d0556ed8",
+                            "properties": {
+                                "job_title": "Sr. Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

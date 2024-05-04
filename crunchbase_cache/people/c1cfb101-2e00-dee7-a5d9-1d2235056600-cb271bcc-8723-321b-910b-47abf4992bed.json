@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ff4e5cad-947b-4275-8572-2ea3c8ded824",
+            "properties": {
+                "name": "Cara-Lee Schapiro",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ff4e5cad-947b-4275-8572-2ea3c8ded824",
+                    "value": "Cara-Lee Schapiro"
+                },
+                "linkedin": "cara-lee-poswell-schapiro-114ab93b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4c6bd23a-4710-4484-a8a1-1c38801cc102",
+                            "related_uuid": "ff4e5cad-947b-4275-8572-2ea3c8ded824",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

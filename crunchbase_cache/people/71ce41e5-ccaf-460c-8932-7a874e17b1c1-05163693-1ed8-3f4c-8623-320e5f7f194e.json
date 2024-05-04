@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "646b85cc-83d5-46c8-a614-a66f649f88f6",
+            "properties": {
+                "name": "Vidya Kris",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "646b85cc-83d5-46c8-a614-a66f649f88f6",
+                    "value": "Vidya Kris"
+                },
+                "linkedin": "vidyakris",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b41c2bd0-83e1-44fd-a780-261b7e1b7ece",
+                            "related_uuid": "646b85cc-83d5-46c8-a614-a66f649f88f6",
+                            "properties": {
+                                "job_title": "Director of Strategic Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

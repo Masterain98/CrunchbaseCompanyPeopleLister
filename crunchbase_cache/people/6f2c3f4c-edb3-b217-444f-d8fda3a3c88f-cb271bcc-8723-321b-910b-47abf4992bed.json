@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8d30d5e9-28e8-4190-b478-fa1574b5758d",
+            "properties": {
+                "name": "John Simmons",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8d30d5e9-28e8-4190-b478-fa1574b5758d",
+                    "value": "John Simmons"
+                },
+                "linkedin": "johnsimmonspm",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b9ce3cdd-d05e-4f8d-bba8-510d6b96095b",
+                            "related_uuid": "8d30d5e9-28e8-4190-b478-fa1574b5758d",
+                            "properties": {
+                                "job_title": "Director of Customer Success, North America"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "333521e1-2304-448a-bc72-4919be0b97e5",
+            "properties": {
+                "name": "Mr. Kevin Wilson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "333521e1-2304-448a-bc72-4919be0b97e5",
+                    "value": "Mr. Kevin Wilson"
+                },
+                "linkedin": "kevin-wilson-b824751",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1c76a088-683c-4905-824e-9e92f5a6511d",
+                            "related_uuid": "333521e1-2304-448a-bc72-4919be0b97e5",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

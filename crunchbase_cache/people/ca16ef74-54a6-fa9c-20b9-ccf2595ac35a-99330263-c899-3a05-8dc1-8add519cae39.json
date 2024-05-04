@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "602753f9-2356-4064-96bf-d9a713e0ef9b",
+            "properties": {
+                "name": "Efrat Ravid",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "602753f9-2356-4064-96bf-d9a713e0ef9b",
+                    "value": "Efrat Ravid"
+                },
+                "linkedin": "efratravid",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "99d464c2-cd23-4585-8a91-4c6040a989fe",
+                            "related_uuid": "602753f9-2356-4064-96bf-d9a713e0ef9b",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

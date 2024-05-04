@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "895181c5-9db4-49a6-aebe-b4920795afdb",
+            "properties": {
+                "name": "Adi Azaria",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "895181c5-9db4-49a6-aebe-b4920795afdb",
+                    "value": "Adi Azaria"
+                },
+                "linkedin": "adiazaria",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "aefc2958-f5c0-4026-9cc6-9276662dff6c",
+                            "related_uuid": "895181c5-9db4-49a6-aebe-b4920795afdb",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

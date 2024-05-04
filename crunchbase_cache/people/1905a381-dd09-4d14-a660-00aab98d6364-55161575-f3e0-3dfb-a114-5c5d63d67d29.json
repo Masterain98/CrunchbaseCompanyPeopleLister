@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "69665315-dfab-49a2-90ac-2a89543b517e",
+            "properties": {
+                "name": "Arne \u00d8yen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "69665315-dfab-49a2-90ac-2a89543b517e",
+                    "value": "Arne \u00d8yen"
+                },
+                "linkedin": "arne-oyen",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5f3be270-02f7-4b73-9bbf-cb595275b465",
+                            "related_uuid": "69665315-dfab-49a2-90ac-2a89543b517e",
+                            "properties": {
+                                "job_title": "Group President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6f1d912f-9c2e-4dcb-8699-90f468b278e9",
+            "properties": {
+                "name": "Anne Bugge",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6f1d912f-9c2e-4dcb-8699-90f468b278e9",
+                    "value": "Anne Bugge"
+                },
+                "linkedin": "anne-bugge-9855047",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "451b58b4-b5bf-453a-b274-64e73855b181",
+                            "related_uuid": "6f1d912f-9c2e-4dcb-8699-90f468b278e9",
+                            "properties": {
+                                "job_title": "President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

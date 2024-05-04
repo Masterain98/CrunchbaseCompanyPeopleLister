@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b5df5404-cb03-403c-83dd-7410f3c565c7",
+            "properties": {
+                "name": "Neil McClenney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5df5404-cb03-403c-83dd-7410f3c565c7",
+                    "value": "Neil McClenney"
+                },
+                "linkedin": "neil-mcclenney-0549425",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "93a04c6d-521f-4457-a833-8091e62a551b",
+                            "related_uuid": "b5df5404-cb03-403c-83dd-7410f3c565c7",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

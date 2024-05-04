@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3a7eb8c2-14bd-4589-880a-4ee38d6f5321",
+            "properties": {
+                "name": "Fredric Newberg",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3a7eb8c2-14bd-4589-880a-4ee38d6f5321",
+                    "value": "Fredric Newberg"
+                },
+                "linkedin": "fredricnewberg",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f35c066-3522-4010-9696-2ddd031b02d3",
+                            "related_uuid": "3a7eb8c2-14bd-4589-880a-4ee38d6f5321",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

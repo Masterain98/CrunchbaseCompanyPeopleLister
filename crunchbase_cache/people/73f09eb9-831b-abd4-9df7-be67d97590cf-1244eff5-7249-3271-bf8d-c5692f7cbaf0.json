@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8ff124ed-7408-47d7-bf11-6e7739590ccd",
+            "properties": {
+                "name": "Matthew Wilton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8ff124ed-7408-47d7-bf11-6e7739590ccd",
+                    "value": "Matthew Wilton"
+                },
+                "linkedin": "mrwilton",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5645714e-2238-4982-a16e-0e1617ccb778",
+                            "related_uuid": "8ff124ed-7408-47d7-bf11-6e7739590ccd",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "77431f4f-2eb5-4ce9-ba6c-2cb33725b538",
+            "properties": {
+                "name": "Ashly Emmanuel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "77431f4f-2eb5-4ce9-ba6c-2cb33725b538",
+                    "value": "Ashly Emmanuel"
+                },
+                "linkedin": "ashly-emmanuel",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b258b5f0-fb9a-406d-b3eb-f554762dee32",
+                            "related_uuid": "77431f4f-2eb5-4ce9-ba6c-2cb33725b538",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2a87cfe3-e2f1-47d1-af8d-c321cb8e53f6",
+            "properties": {
+                "name": "David Studebaker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2a87cfe3-e2f1-47d1-af8d-c321cb8e53f6",
+                    "value": "David Studebaker"
+                },
+                "linkedin": "david-studebaker-a5125a1b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "02cdef44-975d-412d-b4a1-b7d9e9c54918",
+                            "related_uuid": "2a87cfe3-e2f1-47d1-af8d-c321cb8e53f6",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

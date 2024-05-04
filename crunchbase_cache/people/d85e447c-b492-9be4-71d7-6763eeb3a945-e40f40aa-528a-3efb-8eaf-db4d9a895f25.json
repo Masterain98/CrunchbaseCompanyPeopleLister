@@ -1,0 +1,95 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "20148fed-d891-4ed1-91f4-e06272bbbc75",
+            "properties": {
+                "name": "Andrew Galu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "20148fed-d891-4ed1-91f4-e06272bbbc75",
+                    "value": "Andrew Galu"
+                },
+                "linkedin": "andrew-galu-b79b6033",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "551da5ee-4efc-4d60-af13-8454695c68ff",
+                            "related_uuid": "20148fed-d891-4ed1-91f4-e06272bbbc75",
+                            "properties": {
+                                "job_title": "GTM Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3ff4d9a9-25ed-4b3a-8ed5-684588617dcf",
+            "properties": {
+                "name": "Christian Mazza",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ff4d9a9-25ed-4b3a-8ed5-684588617dcf",
+                    "value": "Christian Mazza"
+                },
+                "linkedin": "christianmazza",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8153e959-e8b1-4ad2-9430-171802c53766",
+                            "related_uuid": "3ff4d9a9-25ed-4b3a-8ed5-684588617dcf",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "23631df1-c1c8-413e-8ed4-62ab137df183",
+            "properties": {
+                "name": "Eric Dunne",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "23631df1-c1c8-413e-8ed4-62ab137df183",
+                    "value": "Eric Dunne"
+                },
+                "linkedin": "esdunne",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "53c87610-bf0d-4208-8706-507c32b38f8d",
+                            "related_uuid": "23631df1-c1c8-413e-8ed4-62ab137df183",
+                            "properties": {
+                                "job_title": "Executive Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

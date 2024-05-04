@@ -1,0 +1,164 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "9a132ae7-d9db-4670-83e8-a2fb245f34de",
+            "properties": {
+                "name": "Candace Flynn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9a132ae7-d9db-4670-83e8-a2fb245f34de",
+                    "value": "Candace Flynn"
+                },
+                "linkedin": "candace-flynn-17902621",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "930c994e-d640-455a-a48b-658591087ecd",
+                            "related_uuid": "9a132ae7-d9db-4670-83e8-a2fb245f34de",
+                            "properties": {
+                                "job_title": "Director, Business and Brand Communications, Lockheed Martin Space"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6e77765e-7059-4cf2-90e2-21c85dc5a8a6",
+            "properties": {
+                "name": "Matthew Swibel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6e77765e-7059-4cf2-90e2-21c85dc5a8a6",
+                    "value": "Matthew Swibel"
+                },
+                "linkedin": "matthew-swibel-940a0114",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8af3ace4-9014-4354-9038-641b5eecb3de",
+                            "related_uuid": "6e77765e-7059-4cf2-90e2-21c85dc5a8a6",
+                            "properties": {
+                                "job_title": "Director, Finance and Business Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d6b234a6-82af-49b2-9ed3-708022de5cb8",
+            "properties": {
+                "name": "Michael Pluff",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d6b234a6-82af-49b2-9ed3-708022de5cb8",
+                    "value": "Michael Pluff"
+                },
+                "linkedin": "michael-pluff-a566b554",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4e065377-2871-4036-8f06-95e8c71304db",
+                            "related_uuid": "d6b234a6-82af-49b2-9ed3-708022de5cb8",
+                            "properties": {
+                                "job_title": "Director of Manufacturing and Communications at RMS"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "292cbb11-84fe-4fb1-acc7-85f95e9f5bc2",
+            "properties": {
+                "name": "Mike Rein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "292cbb11-84fe-4fb1-acc7-85f95e9f5bc2",
+                    "value": "Mike Rein"
+                },
+                "linkedin": "mike-rein-784b0240",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4d4f8796-973b-49db-b6d8-e29796bbd617",
+                            "related_uuid": "292cbb11-84fe-4fb1-acc7-85f95e9f5bc2",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7229c774-3732-4fae-a428-d188a6b408a7",
+            "properties": {
+                "name": "Pavan Desai",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7229c774-3732-4fae-a428-d188a6b408a7",
+                    "value": "Pavan Desai"
+                },
+                "linkedin": "pavanpdesai",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "97f0b6e6-4d80-4d1e-b67e-609a7f66c36e",
+                            "related_uuid": "7229c774-3732-4fae-a428-d188a6b408a7",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

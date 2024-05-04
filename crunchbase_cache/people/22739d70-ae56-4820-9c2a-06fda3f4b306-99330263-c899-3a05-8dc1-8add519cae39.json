@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2963f9e1-7771-4d67-a689-d5ed7c0c54f0",
+            "properties": {
+                "name": "Rashmi Vittal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2963f9e1-7771-4d67-a689-d5ed7c0c54f0",
+                    "value": "Rashmi Vittal"
+                },
+                "linkedin": "rashmi-vittal",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "88432b45-63db-4a3c-9b47-afabef54a846",
+                            "related_uuid": "2963f9e1-7771-4d67-a689-d5ed7c0c54f0",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

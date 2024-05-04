@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e85318af-a53e-43b6-88bc-cb6ba52e9aef",
+            "properties": {
+                "name": "Edward Chiu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e85318af-a53e-43b6-88bc-cb6ba52e9aef",
+                    "value": "Edward Chiu"
+                },
+                "linkedin": "edchiu",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0cca272d-b219-463b-89a5-8c2fa132f244",
+                            "related_uuid": "e85318af-a53e-43b6-88bc-cb6ba52e9aef",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

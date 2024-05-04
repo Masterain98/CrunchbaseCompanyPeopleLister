@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b78b5c48-9dfa-47a2-bb00-5a164dc97433",
+            "properties": {
+                "name": "Jim Strattman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b78b5c48-9dfa-47a2-bb00-5a164dc97433",
+                    "value": "Jim Strattman"
+                },
+                "linkedin": "jimstrattman",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_400_vp",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "054d839e-d964-4397-a4c4-9db869b816eb",
+                            "related_uuid": "b78b5c48-9dfa-47a2-bb00-5a164dc97433",
+                            "properties": {
+                                "job_title": "EVP, Engineering & Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bd628a84-3adf-4ce2-9d32-2545c63ebd6e",
+            "properties": {
+                "name": "Robert Asmar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bd628a84-3adf-4ce2-9d32-2545c63ebd6e",
+                    "value": "Robert Asmar"
+                },
+                "linkedin": "bobbyasmar",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8c865488-b505-47a3-b306-2b9c05592ea3",
+                            "related_uuid": "bd628a84-3adf-4ce2-9d32-2545c63ebd6e",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

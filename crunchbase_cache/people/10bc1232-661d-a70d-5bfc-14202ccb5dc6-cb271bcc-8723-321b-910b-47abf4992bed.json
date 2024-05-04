@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f780d606-1b0f-4be4-8848-e328db327b6f",
+            "properties": {
+                "name": "Scott Newton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f780d606-1b0f-4be4-8848-e328db327b6f",
+                    "value": "Scott Newton"
+                },
+                "linkedin": "scottnewton8x8",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "279e39ef-0851-429d-abd9-19660348b41b",
+                            "related_uuid": "f780d606-1b0f-4be4-8848-e328db327b6f",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

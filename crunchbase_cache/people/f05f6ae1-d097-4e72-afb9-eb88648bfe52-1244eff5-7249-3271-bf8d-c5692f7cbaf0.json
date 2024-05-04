@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ac53b0cd-54e1-4e86-9a49-bdc89412bb90",
+            "properties": {
+                "name": "Christopher Fadeley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ac53b0cd-54e1-4e86-9a49-bdc89412bb90",
+                    "value": "Christopher Fadeley"
+                },
+                "linkedin": "christopher-fadeley-2225b540",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "566af432-ee1b-44b3-9fd6-9e10333b7127",
+                            "related_uuid": "ac53b0cd-54e1-4e86-9a49-bdc89412bb90",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

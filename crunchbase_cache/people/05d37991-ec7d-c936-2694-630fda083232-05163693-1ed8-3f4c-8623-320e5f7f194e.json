@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6f5cc9a4-d2d8-4455-b0af-cc913a131b6a",
+            "properties": {
+                "name": "Andrew Rodger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6f5cc9a4-d2d8-4455-b0af-cc913a131b6a",
+                    "value": "Andrew Rodger"
+                },
+                "linkedin": "andrew-rodger-26999a4",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6618d2c1-5aea-4c97-8a03-6fb4934910da",
+                            "related_uuid": "6f5cc9a4-d2d8-4455-b0af-cc913a131b6a",
+                            "properties": {
+                                "job_title": "Director of Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

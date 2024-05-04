@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "08e47448-b764-42f1-a543-2446f550201f",
+            "properties": {
+                "name": "Jack Kokko",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "08e47448-b764-42f1-a543-2446f550201f",
+                    "value": "Jack Kokko"
+                },
+                "linkedin": "jkokko",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "44666b5e-81b9-4a0f-94b7-8c37b610f30c",
+                            "related_uuid": "08e47448-b764-42f1-a543-2446f550201f",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

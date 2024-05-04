@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a4f87e1a-b2e0-4b14-857b-dd1c0f8f022c",
+            "properties": {
+                "name": "Shimon Ben-David",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a4f87e1a-b2e0-4b14-857b-dd1c0f8f022c",
+                    "value": "Shimon Ben-David"
+                },
+                "linkedin": "shimonbd",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7b4b6fc6-2406-4965-854f-4e9fccae4f67",
+                            "related_uuid": "a4f87e1a-b2e0-4b14-857b-dd1c0f8f022c",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

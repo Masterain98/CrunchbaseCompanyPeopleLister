@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "90c56ab0-b091-458a-9074-cdb78a35062b",
+            "properties": {
+                "name": "Stephen Balaban",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "90c56ab0-b091-458a-9074-cdb78a35062b",
+                    "value": "Stephen Balaban"
+                },
+                "linkedin": "sbalaban",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "41f74a20-8ed8-43e5-839d-23e66690551c",
+                            "related_uuid": "90c56ab0-b091-458a-9074-cdb78a35062b",
+                            "properties": {
+                                "job_title": "Co-Founder, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

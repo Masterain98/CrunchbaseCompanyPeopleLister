@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d82ce70c-d7b2-41cd-ad96-bb1b2b4413f0",
+            "properties": {
+                "name": "Adam H.",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d82ce70c-d7b2-41cd-ad96-bb1b2b4413f0",
+                    "value": "Adam H."
+                },
+                "linkedin": "adambharris",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c342bf6-b574-4ff4-a20f-47d75efeda21",
+                            "related_uuid": "d82ce70c-d7b2-41cd-ad96-bb1b2b4413f0",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2e658e7c-7467-4afb-9ea1-b753e8d0ce3a",
+            "properties": {
+                "name": "Sarah Loyd",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2e658e7c-7467-4afb-9ea1-b753e8d0ce3a",
+                    "value": "Sarah Loyd"
+                },
+                "linkedin": "sarah-loyd-807824154",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6b60419a-0c8a-463c-a3d8-cafbab7b0bb3",
+                            "related_uuid": "2e658e7c-7467-4afb-9ea1-b753e8d0ce3a",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

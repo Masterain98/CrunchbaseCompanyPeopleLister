@@ -1,0 +1,100 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "02f6f634-6d96-4c34-87e2-2fd3a3625f79",
+            "properties": {
+                "name": "Coleem Chestnut",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "02f6f634-6d96-4c34-87e2-2fd3a3625f79",
+                    "value": "Coleem Chestnut"
+                },
+                "linkedin": "coleemchestnut",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "59ca8cb1-1428-4ad6-8edc-be7bdb652932",
+                            "related_uuid": "02f6f634-6d96-4c34-87e2-2fd3a3625f79",
+                            "properties": {
+                                "job_title": "Director, Product, Digital Risk and Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0898fa31-5d4e-4b14-8295-64954b8f3128",
+            "properties": {
+                "name": "Dave Ely",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0898fa31-5d4e-4b14-8295-64954b8f3128",
+                    "value": "Dave Ely"
+                },
+                "linkedin": "daveely",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7263703d-1e43-4106-8996-e68dc3c50825",
+                            "related_uuid": "0898fa31-5d4e-4b14-8295-64954b8f3128",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "fabefd25-2340-4863-b37f-d230cafb4642",
+            "properties": {
+                "name": "Stephen Prokai",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fabefd25-2340-4863-b37f-d230cafb4642",
+                    "value": "Stephen Prokai"
+                },
+                "linkedin": "stephen-prokai-4082413",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26820f34-c569-4193-8bd3-0ce97690aec4",
+                            "related_uuid": "fabefd25-2340-4863-b37f-d230cafb4642",
+                            "properties": {
+                                "job_title": "Sr. Director of Sales Engineering for Archiving & Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

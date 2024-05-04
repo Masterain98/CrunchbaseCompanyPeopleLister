@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "17936c45-3d6d-42fb-bba4-0186a3002485",
+            "properties": {
+                "name": "Wilson Pang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "17936c45-3d6d-42fb-bba4-0186a3002485",
+                    "value": "Wilson Pang"
+                },
+                "linkedin": "wilson-pang-9a5b7822",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a659f22-e207-4dc2-9b7d-31c511a02595",
+                            "related_uuid": "17936c45-3d6d-42fb-bba4-0186a3002485",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

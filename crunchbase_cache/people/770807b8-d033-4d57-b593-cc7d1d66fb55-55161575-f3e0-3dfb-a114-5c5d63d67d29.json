@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a3834b53-fd1a-4252-9427-6aca92f26c9f",
+            "properties": {
+                "name": "Michael Zuercher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a3834b53-fd1a-4252-9427-6aca92f26c9f",
+                    "value": "Michael Zuercher"
+                },
+                "linkedin": "michael-zuercher",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5b530081-950c-4f4c-9fd6-1422b0d91236",
+                            "related_uuid": "a3834b53-fd1a-4252-9427-6aca92f26c9f",
+                            "properties": {
+                                "job_title": "CEO & Cofounder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

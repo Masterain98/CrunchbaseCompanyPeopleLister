@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "31bfb3e5-2d66-44d7-9cec-0e3f32718905",
+            "properties": {
+                "name": "Rakesh Goyal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "31bfb3e5-2d66-44d7-9cec-0e3f32718905",
+                    "value": "Rakesh Goyal"
+                },
+                "linkedin": "rakesh-goyal-21946422",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ba215d0-d2dc-4d13-9d86-4da90f912fba",
+                            "related_uuid": "31bfb3e5-2d66-44d7-9cec-0e3f32718905",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

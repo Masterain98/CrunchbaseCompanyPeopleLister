@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "705c7c12-8092-4518-8e8c-e6bc39a00896",
+            "properties": {
+                "name": "Shawn Farshchi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "705c7c12-8092-4518-8e8c-e6bc39a00896",
+                    "value": "Shawn Farshchi"
+                },
+                "linkedin": "shawnfarshchi",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "97b72d6e-f1a5-4cec-8e60-f06065d3546d",
+                            "related_uuid": "705c7c12-8092-4518-8e8c-e6bc39a00896",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

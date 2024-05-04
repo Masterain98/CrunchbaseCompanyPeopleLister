@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "df8791ee-5afb-4dd0-9f7d-26c7c9833a84",
+            "properties": {
+                "name": "Jonathan Hyland",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "df8791ee-5afb-4dd0-9f7d-26c7c9833a84",
+                    "value": "Jonathan Hyland"
+                },
+                "linkedin": "jonathan-hyland-3a5692",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5c1e0a01-2aec-419b-9563-ed146621525f",
+                            "related_uuid": "df8791ee-5afb-4dd0-9f7d-26c7c9833a84",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4e40cc58-1844-42e5-bd1b-6f471e1b7e84",
+            "properties": {
+                "name": "Murat Sonmez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4e40cc58-1844-42e5-bd1b-6f471e1b7e84",
+                    "value": "Murat Sonmez"
+                },
+                "linkedin": "murat-s%C3%B6nmez-5a68a716",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9399aba9-26cf-44e9-b7ae-a4c6940c2fd0",
+                            "related_uuid": "4e40cc58-1844-42e5-bd1b-6f471e1b7e84",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

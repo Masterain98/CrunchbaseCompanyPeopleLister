@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ac0102b3-233b-44cd-b6f2-10ed38318a46",
+            "properties": {
+                "name": "Erinne Matte-Daniels",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ac0102b3-233b-44cd-b6f2-10ed38318a46",
+                    "value": "Erinne Matte-Daniels"
+                },
+                "linkedin": "erinnem",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ac246e6e-2d5a-481f-9895-f5c2eccddfc3",
+                            "related_uuid": "ac0102b3-233b-44cd-b6f2-10ed38318a46",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

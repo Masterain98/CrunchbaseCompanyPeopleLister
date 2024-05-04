@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "72efbbca-41ec-4be1-807b-2ea08a0e7bf7",
+            "properties": {
+                "name": "Jayne Gonzalez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "72efbbca-41ec-4be1-807b-2ea08a0e7bf7",
+                    "value": "Jayne Gonzalez"
+                },
+                "linkedin": "jaynescuncio",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4f7c2b87-2829-4c73-a213-09ac16ee0259",
+                            "related_uuid": "72efbbca-41ec-4be1-807b-2ea08a0e7bf7",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

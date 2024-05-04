@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "50aa576f-7b09-4a7c-8ad7-736510ce85d1",
+            "properties": {
+                "name": "Nicole Askari",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "50aa576f-7b09-4a7c-8ad7-736510ce85d1",
+                    "value": "Nicole Askari"
+                },
+                "linkedin": "nicoleaskari",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "76bb00fd-f13e-4c3e-b08f-bcb931bed9d0",
+                            "related_uuid": "50aa576f-7b09-4a7c-8ad7-736510ce85d1",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

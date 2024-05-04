@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bdfe952a-208f-4563-b258-c44e95354504",
+            "properties": {
+                "name": "David Singleton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bdfe952a-208f-4563-b258-c44e95354504",
+                    "value": "David Singleton"
+                },
+                "linkedin": "davidpsingleton",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dfbe2f91-ee29-4b1d-a20c-e859bb3fc93b",
+                            "related_uuid": "bdfe952a-208f-4563-b258-c44e95354504",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

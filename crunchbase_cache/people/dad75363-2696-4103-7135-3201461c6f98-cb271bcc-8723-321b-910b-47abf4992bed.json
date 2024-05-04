@@ -1,0 +1,133 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "9a755d9c-96c2-4e23-975f-4d71cf21a9b3",
+            "properties": {
+                "name": "Craig Palumbo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9a755d9c-96c2-4e23-975f-4d71cf21a9b3",
+                    "value": "Craig Palumbo"
+                },
+                "linkedin": "craigpalumbo",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "17cb3954-d7e5-4986-930e-f1000421f0e3",
+                            "related_uuid": "9a755d9c-96c2-4e23-975f-4d71cf21a9b3",
+                            "properties": {
+                                "job_title": "Director of Customer Success Strategy"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e07d1685-f4ea-42d1-91c7-52e2c5970232",
+            "properties": {
+                "name": "David Trimble",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e07d1685-f4ea-42d1-91c7-52e2c5970232",
+                    "value": "David Trimble"
+                },
+                "linkedin": "davidedwardtrimble",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8387b9dd-5f57-44ec-81db-b6a66f1507ec",
+                            "related_uuid": "e07d1685-f4ea-42d1-91c7-52e2c5970232",
+                            "properties": {
+                                "job_title": "Customer Success Director at Khoros"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "00f61cbe-5dda-4f9c-ae15-f7e726629d39",
+            "properties": {
+                "name": "Kevin Kendall",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "00f61cbe-5dda-4f9c-ae15-f7e726629d39",
+                    "value": "Kevin Kendall"
+                },
+                "linkedin": "kendallkevin",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e7c8edf1-5251-48b9-abbd-3f0cfbd10097",
+                            "related_uuid": "00f61cbe-5dda-4f9c-ae15-f7e726629d39",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2aad0af8-370f-4b43-b291-8519552ae0ed",
+            "properties": {
+                "name": "Will Russell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2aad0af8-370f-4b43-b291-8519552ae0ed",
+                    "value": "Will Russell"
+                },
+                "linkedin": "willrussell56",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "268806fd-1973-44c2-9381-64ab026eaec5",
+                            "related_uuid": "2aad0af8-370f-4b43-b291-8519552ae0ed",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

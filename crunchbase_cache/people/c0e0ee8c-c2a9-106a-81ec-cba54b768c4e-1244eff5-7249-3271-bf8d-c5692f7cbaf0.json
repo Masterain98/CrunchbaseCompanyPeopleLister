@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e9fd0d77-9203-4256-b926-83458d23bad0",
+            "properties": {
+                "name": "Brian Adams",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e9fd0d77-9203-4256-b926-83458d23bad0",
+                    "value": "Brian Adams"
+                },
+                "linkedin": "brianpadams0",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "113f5792-0d3d-41b6-b958-b611fde8e883",
+                            "related_uuid": "e9fd0d77-9203-4256-b926-83458d23bad0",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

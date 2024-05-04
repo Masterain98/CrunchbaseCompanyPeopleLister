@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "32657541-42f0-4439-8fa4-e187dcad3d87",
+            "properties": {
+                "name": "Jason Sims",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "32657541-42f0-4439-8fa4-e187dcad3d87",
+                    "value": "Jason Sims"
+                },
+                "linkedin": "jmusims",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ced7b578-aaf2-44d6-a374-1a118686aa94",
+                            "related_uuid": "32657541-42f0-4439-8fa4-e187dcad3d87",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2f4cd034-2b66-4026-acd5-9e6ee19ca210",
+            "properties": {
+                "name": "Kristin Christensen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2f4cd034-2b66-4026-acd5-9e6ee19ca210",
+                    "value": "Kristin Christensen"
+                },
+                "linkedin": "kristin-christensen-47b928",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "629609b0-db8f-4072-b209-30c916961302",
+                            "related_uuid": "2f4cd034-2b66-4026-acd5-9e6ee19ca210",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "85084dca-f31f-416c-ba8b-10cb1dc734d7",
+            "properties": {
+                "name": "Dillon Chambers",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "85084dca-f31f-416c-ba8b-10cb1dc734d7",
+                    "value": "Dillon Chambers"
+                },
+                "linkedin": "dillon-chambers-077611a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "da311ad5-50ca-4d97-be06-04b3d0211dc6",
+                            "related_uuid": "85084dca-f31f-416c-ba8b-10cb1dc734d7",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9b0bcc54-c7fb-4ec9-9e44-94618bf512da",
+            "properties": {
+                "name": "Randy Brouckman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9b0bcc54-c7fb-4ec9-9e44-94618bf512da",
+                    "value": "Randy Brouckman"
+                },
+                "linkedin": "randybrouckman",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7069ae2f-6846-455d-ab94-ca372bcf90de",
+                            "related_uuid": "9b0bcc54-c7fb-4ec9-9e44-94618bf512da",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

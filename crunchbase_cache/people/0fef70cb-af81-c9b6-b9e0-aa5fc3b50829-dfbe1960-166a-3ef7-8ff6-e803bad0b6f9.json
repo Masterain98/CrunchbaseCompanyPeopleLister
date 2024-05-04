@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0a053fd7-4e83-4f9a-a56c-c8acab9cc644",
+            "properties": {
+                "name": "Tomoko Fushimi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0a053fd7-4e83-4f9a-a56c-c8acab9cc644",
+                    "value": "Tomoko Fushimi"
+                },
+                "linkedin": "tomoko-fushimi",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "11a1abf0-9545-4281-b6d3-3437811facef",
+                            "related_uuid": "0a053fd7-4e83-4f9a-a56c-c8acab9cc644",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

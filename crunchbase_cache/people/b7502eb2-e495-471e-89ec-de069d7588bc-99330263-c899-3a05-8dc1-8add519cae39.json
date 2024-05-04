@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "70d949c9-a8c7-4e39-b080-38c6c712131f",
+            "properties": {
+                "name": "Kimberley Allan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "70d949c9-a8c7-4e39-b080-38c6c712131f",
+                    "value": "Kimberley Allan"
+                },
+                "linkedin": "kimberleyallan",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e86fcb07-870c-46d7-8eff-cc16b01876d3",
+                            "related_uuid": "70d949c9-a8c7-4e39-b080-38c6c712131f",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

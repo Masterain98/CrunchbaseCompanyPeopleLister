@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ada2cb05-2068-4ed3-86fa-da535a291dab",
+            "properties": {
+                "name": "Shishir Mehrotra",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ada2cb05-2068-4ed3-86fa-da535a291dab",
+                    "value": "Shishir Mehrotra"
+                },
+                "linkedin": "shishirmehrotra",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4f87099a-4fa5-43a4-9793-137faeea7a8d",
+                            "related_uuid": "ada2cb05-2068-4ed3-86fa-da535a291dab",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

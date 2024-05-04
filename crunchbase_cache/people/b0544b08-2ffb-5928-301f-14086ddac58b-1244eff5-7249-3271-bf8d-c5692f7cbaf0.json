@@ -1,0 +1,295 @@
+{
+    "count": 9,
+    "entities": [
+        {
+            "uuid": "49a3e9ff-3982-41be-aa57-a7163ba9044b",
+            "properties": {
+                "name": "Brian Hess",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "49a3e9ff-3982-41be-aa57-a7163ba9044b",
+                    "value": "Brian Hess"
+                },
+                "linkedin": "brianmhess",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "97948f92-2dd9-44ae-84f5-ca9b8ca0556a",
+                            "related_uuid": "49a3e9ff-3982-41be-aa57-a7163ba9044b",
+                            "properties": {
+                                "job_title": "Field CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9d7dcfa4-8539-4c90-a70e-75f650625314",
+            "properties": {
+                "name": "Darren Gardner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9d7dcfa4-8539-4c90-a70e-75f650625314",
+                    "value": "Darren Gardner"
+                },
+                "linkedin": "darrenlgardner",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6f951083-b33f-4765-9214-635816d507e8",
+                            "related_uuid": "9d7dcfa4-8539-4c90-a70e-75f650625314",
+                            "properties": {
+                                "job_title": "Principal Data Platform Architect, Field CTO Office"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ab7d86eb-29c7-4623-b739-132b33b0fe9d",
+            "properties": {
+                "name": "Eugene Choi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ab7d86eb-29c7-4623-b739-132b33b0fe9d",
+                    "value": "Eugene Choi"
+                },
+                "linkedin": "eugeneychoi",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9eb9c267-7419-480f-b406-7ab5a7ed4786",
+                            "related_uuid": "ab7d86eb-29c7-4623-b739-132b33b0fe9d",
+                            "properties": {
+                                "job_title": "Principal Security Architect, Field CTO Office"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9cbe8010-c686-414a-ab4b-396aede16ee6",
+            "properties": {
+                "name": "Fredrik G\u00f6ransson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9cbe8010-c686-414a-ab4b-396aede16ee6",
+                    "value": "Fredrik G\u00f6ransson"
+                },
+                "linkedin": "fredrikgoransson",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c8c53b27-2062-4282-bd15-e24d79e112e5",
+                            "related_uuid": "9cbe8010-c686-414a-ab4b-396aede16ee6",
+                            "properties": {
+                                "job_title": "Field CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6a5a5692-b232-42de-9ca1-946b14626ffc",
+            "properties": {
+                "name": "Jeremiah Hansen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6a5a5692-b232-42de-9ca1-946b14626ffc",
+                    "value": "Jeremiah Hansen"
+                },
+                "linkedin": "jeremiahhansen",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "192b202b-5a5d-4109-9c07-3ec57fd81069",
+                            "related_uuid": "6a5a5692-b232-42de-9ca1-946b14626ffc",
+                            "properties": {
+                                "job_title": "Principal Data Platform Architect, Field CTO Office"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e486e3af-a8a7-41e1-a308-08aa57241264",
+            "properties": {
+                "name": "John Gontarz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e486e3af-a8a7-41e1-a308-08aa57241264",
+                    "value": "John Gontarz"
+                },
+                "linkedin": "johngontarz",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9931979b-8eb2-4f11-aef5-6cf820660fa2",
+                            "related_uuid": "e486e3af-a8a7-41e1-a308-08aa57241264",
+                            "properties": {
+                                "job_title": "Principal Data Platform Architect, Field CTO Office"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "671f839b-dc4d-450e-a107-c4830f2c0418",
+            "properties": {
+                "name": "Jonathan Sander",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "671f839b-dc4d-450e-a107-c4830f2c0418",
+                    "value": "Jonathan Sander"
+                },
+                "linkedin": "sanderiam",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "782453dd-dab0-43ee-a77c-5790c44ad16e",
+                            "related_uuid": "671f839b-dc4d-450e-a107-c4830f2c0418",
+                            "properties": {
+                                "job_title": "Security Field CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1f8087f4-9d18-4e56-aadb-d4ec49bcfa46",
+            "properties": {
+                "name": "Robert Fehrmann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1f8087f4-9d18-4e56-aadb-d4ec49bcfa46",
+                    "value": "Robert Fehrmann"
+                },
+                "linkedin": "robertfehrmann",
+                "job_levels": [
+                    "l_300_director",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07e45914-9706-4ae7-be18-9e4804d06b93",
+                            "related_uuid": "1f8087f4-9d18-4e56-aadb-d4ec49bcfa46",
+                            "properties": {
+                                "job_title": "Field CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d0a1d30c-ffdf-4bc7-9781-ca28b452a203",
+            "properties": {
+                "name": "Vinay Srihari",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d0a1d30c-ffdf-4bc7-9781-ca28b452a203",
+                    "value": "Vinay Srihari"
+                },
+                "linkedin": "vinayhsrihari",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "483c7177-dfc9-49bd-b573-4f1317073973",
+                            "related_uuid": "d0a1d30c-ffdf-4bc7-9781-ca28b452a203",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1fba5d57-51be-4595-8731-6f3f0a2ebbd0",
+            "properties": {
+                "name": "David Roussain",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1fba5d57-51be-4595-8731-6f3f0a2ebbd0",
+                    "value": "David Roussain"
+                },
+                "linkedin": "davidroussain",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2336923b-708f-41e9-be57-df290f124932",
+                            "related_uuid": "1fba5d57-51be-4595-8731-6f3f0a2ebbd0",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

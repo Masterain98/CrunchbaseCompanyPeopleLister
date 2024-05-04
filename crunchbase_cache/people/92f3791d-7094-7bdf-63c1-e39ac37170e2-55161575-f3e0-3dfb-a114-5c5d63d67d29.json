@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4084d49a-43c6-4984-87b1-5506efae8050",
+            "properties": {
+                "name": "Phil George",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4084d49a-43c6-4984-87b1-5506efae8050",
+                    "value": "Phil George"
+                },
+                "linkedin": "philgeorge1",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07dcb28b-9fe8-4e00-bcee-d4dfa162a45d",
+                            "related_uuid": "4084d49a-43c6-4984-87b1-5506efae8050",
+                            "properties": {
+                                "job_title": "President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

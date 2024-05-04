@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0a86dd39-d042-4b9a-bf59-70d38223c30c",
+            "properties": {
+                "name": "Sriram Puppala",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0a86dd39-d042-4b9a-bf59-70d38223c30c",
+                    "value": "Sriram Puppala"
+                },
+                "linkedin": "srirampuppala",
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c30d7e7f-814a-4dcd-be1d-03b27a01102f",
+                            "related_uuid": "0a86dd39-d042-4b9a-bf59-70d38223c30c",
+                            "properties": {
+                                "job_title": "Director of Client Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

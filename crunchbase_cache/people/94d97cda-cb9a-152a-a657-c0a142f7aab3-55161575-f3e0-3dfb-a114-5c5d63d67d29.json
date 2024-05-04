@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3d251324-34ae-424b-85e0-901c0c7325f5",
+            "properties": {
+                "name": "Timothy Baker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3d251324-34ae-424b-85e0-901c0c7325f5",
+                    "value": "Timothy Baker"
+                },
+                "linkedin": "timothy-baker-28b8824",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "98352f93-2506-4741-a871-f81cf620e4fe",
+                            "related_uuid": "3d251324-34ae-424b-85e0-901c0c7325f5",
+                            "properties": {
+                                "job_title": "President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

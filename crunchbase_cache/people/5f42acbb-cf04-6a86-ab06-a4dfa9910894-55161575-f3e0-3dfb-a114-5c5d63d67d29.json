@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ac2a6e0f-8cf3-4fe1-b525-a3db66f46142",
+            "properties": {
+                "name": "Michael Reitblat\u200b",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ac2a6e0f-8cf3-4fe1-b525-a3db66f46142",
+                    "value": "Michael Reitblat\u200b"
+                },
+                "linkedin": "reitblat",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "35d8eecf-02a7-4985-90e2-4f8721baec2c",
+                            "related_uuid": "ac2a6e0f-8cf3-4fe1-b525-a3db66f46142",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

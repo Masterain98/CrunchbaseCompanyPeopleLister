@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cac464d9-187c-495f-812c-dcf825ae4e89",
+            "properties": {
+                "name": "Chris Morrisette",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cac464d9-187c-495f-812c-dcf825ae4e89",
+                    "value": "Chris Morrisette"
+                },
+                "linkedin": "chrismorrisette",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1e88e359-13c0-4cc8-8f17-18122e16942f",
+                            "related_uuid": "cac464d9-187c-495f-812c-dcf825ae4e89",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

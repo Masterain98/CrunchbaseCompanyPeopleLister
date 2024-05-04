@@ -1,0 +1,102 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "df06625a-39c4-4442-8091-ed1d0ca052d1",
+            "properties": {
+                "name": "Douglas Carnes, PMP, AWS Practitioner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "df06625a-39c4-4442-8091-ed1d0ca052d1",
+                    "value": "Douglas Carnes, PMP, AWS Practitioner"
+                },
+                "linkedin": "douglas-m-carnes",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "67c97f8f-529c-48f9-afca-035fdb4291e1",
+                            "related_uuid": "df06625a-39c4-4442-8091-ed1d0ca052d1",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "43ff20c1-eb79-4e61-99ee-fce04d5f438d",
+            "properties": {
+                "name": "Joe Wojtal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "43ff20c1-eb79-4e61-99ee-fce04d5f438d",
+                    "value": "Joe Wojtal"
+                },
+                "linkedin": "joe-wojtal-80499610",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "20058417-0642-49b4-b338-067cd9653bec",
+                            "related_uuid": "43ff20c1-eb79-4e61-99ee-fce04d5f438d",
+                            "properties": {
+                                "job_title": "Chief Technology Officer, Global Service Provider"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0c82e346-dbce-40a1-81b3-591de62cd8b2",
+            "properties": {
+                "name": "Michael Taylor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0c82e346-dbce-40a1-81b3-591de62cd8b2",
+                    "value": "Michael Taylor"
+                },
+                "linkedin": "michaelptaylor1",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bb36d860-6538-463b-9824-727b73334e03",
+                            "related_uuid": "0c82e346-dbce-40a1-81b3-591de62cd8b2",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

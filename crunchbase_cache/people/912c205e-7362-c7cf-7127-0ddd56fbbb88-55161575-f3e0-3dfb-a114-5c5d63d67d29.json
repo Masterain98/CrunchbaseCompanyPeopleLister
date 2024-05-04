@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "565fd55d-fe8f-418d-9cb6-e04a1dff40d9",
+            "properties": {
+                "name": "David Khuat-Duy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "565fd55d-fe8f-418d-9cb6-e04a1dff40d9",
+                    "value": "David Khuat-Duy"
+                },
+                "linkedin": "david-khuat-duy-770b44b",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2b05bfcd-5cce-4453-ac77-4b1a3b000e3a",
+                            "related_uuid": "565fd55d-fe8f-418d-9cb6-e04a1dff40d9",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7261894c-fd77-4940-9e0f-4d3c933be712",
+            "properties": {
+                "name": "Mandy Dhaliwal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7261894c-fd77-4940-9e0f-4d3c933be712",
+                    "value": "Mandy Dhaliwal"
+                },
+                "linkedin": "1mandydhaliwal",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e50539e4-c4d0-4f25-b4b0-ad0b1bcee65b",
+                            "related_uuid": "7261894c-fd77-4940-9e0f-4d3c933be712",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

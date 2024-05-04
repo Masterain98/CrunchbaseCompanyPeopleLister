@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "29a8aea5-8468-4052-9627-daa24282a038",
+            "properties": {
+                "name": "Jeff Perales",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "29a8aea5-8468-4052-9627-daa24282a038",
+                    "value": "Jeff Perales"
+                },
+                "linkedin": "jeffperales",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fe71a395-6fdc-4dd2-884c-683e5b4c9f63",
+                            "related_uuid": "29a8aea5-8468-4052-9627-daa24282a038",
+                            "properties": {
+                                "job_title": "Senior Director Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

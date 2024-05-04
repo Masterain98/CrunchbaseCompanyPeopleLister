@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fd66df64-ed16-42bc-ad64-996d81080e4c",
+            "properties": {
+                "name": "Kelly Knight",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fd66df64-ed16-42bc-ad64-996d81080e4c",
+                    "value": "Kelly Knight"
+                },
+                "linkedin": "kellyaknight",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "20742cc2-4c52-46fa-9c1e-631f49016ac9",
+                            "related_uuid": "fd66df64-ed16-42bc-ad64-996d81080e4c",
+                            "properties": {
+                                "job_title": "Director of Customer Success & Technical Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

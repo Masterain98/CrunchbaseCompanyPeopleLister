@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "028ec569-be48-44c2-b367-e2513f626823",
+            "properties": {
+                "name": "Shyna Stephens",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "028ec569-be48-44c2-b367-e2513f626823",
+                    "value": "Shyna Stephens"
+                },
+                "linkedin": "shyna-stephens-b302891b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2591eea5-81ab-4a6b-9aea-f8b8fe5d8bc9",
+                            "related_uuid": "028ec569-be48-44c2-b367-e2513f626823",
+                            "properties": {
+                                "job_title": "Director of Customer Success - Americas"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

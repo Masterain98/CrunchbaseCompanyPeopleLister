@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "d779b991-489d-4718-a244-5a8a504405e5",
+            "properties": {
+                "name": "Chris Greathouse",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d779b991-489d-4718-a244-5a8a504405e5",
+                    "value": "Chris Greathouse"
+                },
+                "linkedin": "chris-greathouse-1473028",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "197f2bdd-4ab6-4620-ab19-feaeadf87388",
+                            "related_uuid": "d779b991-489d-4718-a244-5a8a504405e5",
+                            "properties": {
+                                "job_title": "Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a094856b-a0be-4907-a209-3f19e0d027dc",
+            "properties": {
+                "name": "Elizabeth Sallis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a094856b-a0be-4907-a209-3f19e0d027dc",
+                    "value": "Elizabeth Sallis"
+                },
+                "linkedin": "esallis",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "06877c6d-6c19-442c-ad3e-5b3328f91dfd",
+                            "related_uuid": "a094856b-a0be-4907-a209-3f19e0d027dc",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

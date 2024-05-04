@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "52e544bf-09f7-4ae5-93ee-6864871d639e",
+            "properties": {
+                "name": "Mourad Zerroug",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "52e544bf-09f7-4ae5-93ee-6864871d639e",
+                    "value": "Mourad Zerroug"
+                },
+                "linkedin": "mourad-zerroug-92baa85",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4f027507-9994-4a7e-a1be-79fdf2489796",
+                            "related_uuid": "52e544bf-09f7-4ae5-93ee-6864871d639e",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

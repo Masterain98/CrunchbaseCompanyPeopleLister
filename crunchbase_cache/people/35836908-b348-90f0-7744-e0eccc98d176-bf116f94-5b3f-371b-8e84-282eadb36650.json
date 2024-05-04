@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ecdfb417-ee12-41bc-966b-d9eced7435e1",
+            "properties": {
+                "name": "Keenan Bartlett",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ecdfb417-ee12-41bc-966b-d9eced7435e1",
+                    "value": "Keenan Bartlett"
+                },
+                "linkedin": "keenan-bartlett",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "product"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "133f24fc-0a6d-4e8e-846e-f5600845046f",
+                            "related_uuid": "ecdfb417-ee12-41bc-966b-d9eced7435e1",
+                            "properties": {
+                                "job_title": "Product Manager"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

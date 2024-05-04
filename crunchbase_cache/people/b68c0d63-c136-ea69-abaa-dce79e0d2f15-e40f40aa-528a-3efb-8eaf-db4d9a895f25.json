@@ -1,0 +1,98 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "3f0f73cb-538e-41a7-8cc9-68ec58f1cce9",
+            "properties": {
+                "name": "Julie Vinh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3f0f73cb-538e-41a7-8cc9-68ec58f1cce9",
+                    "value": "Julie Vinh"
+                },
+                "linkedin": "julievinh",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "08d0861d-b147-4c71-86f2-3bb1defcf50c",
+                            "related_uuid": "3f0f73cb-538e-41a7-8cc9-68ec58f1cce9",
+                            "properties": {
+                                "job_title": "Creative Director, Visual Design"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7266bd4e-b40a-48d4-8624-1aa5e90a979e",
+            "properties": {
+                "name": "Rebecca Dole",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7266bd4e-b40a-48d4-8624-1aa5e90a979e",
+                    "value": "Rebecca Dole"
+                },
+                "linkedin": "rbdole",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6416ed2a-6426-4f53-914e-512a41e8186e",
+                            "related_uuid": "7266bd4e-b40a-48d4-8624-1aa5e90a979e",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "add7266a-fecd-4e4d-9da8-08c22560b5d0",
+            "properties": {
+                "name": "Rebecca Dole",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "add7266a-fecd-4e4d-9da8-08c22560b5d0",
+                    "value": "Rebecca Dole"
+                },
+                "linkedin": "rbdole",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "80e14f5f-3301-458f-bc16-486d8be6a5fa",
+                            "related_uuid": "add7266a-fecd-4e4d-9da8-08c22560b5d0",
+                            "properties": {
+                                "job_title": "Director, Creative Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

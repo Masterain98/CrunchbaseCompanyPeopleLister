@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "27e92458-6c39-400a-89aa-e70da48d5e62",
+            "properties": {
+                "name": "Mara Lubell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "27e92458-6c39-400a-89aa-e70da48d5e62",
+                    "value": "Mara Lubell"
+                },
+                "linkedin": "maralubell",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "acb00611-8ae1-4c29-a187-21ff07380197",
+                            "related_uuid": "27e92458-6c39-400a-89aa-e70da48d5e62",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

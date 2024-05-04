@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "41bfa00c-5279-4e98-a0f0-c7f192a6116e",
+            "properties": {
+                "name": "Luke Anear",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "41bfa00c-5279-4e98-a0f0-c7f192a6116e",
+                    "value": "Luke Anear"
+                },
+                "linkedin": "luke-anear-9b331835",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07c41a16-7b9f-4992-a89e-f66ba414851b",
+                            "related_uuid": "41bfa00c-5279-4e98-a0f0-c7f192a6116e",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

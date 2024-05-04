@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ccaf293b-d9b6-4860-819e-e91911450957",
+            "properties": {
+                "name": "Gary MacDougall",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ccaf293b-d9b6-4860-819e-e91911450957",
+                    "value": "Gary MacDougall"
+                },
+                "linkedin": "garymacdougall",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "62806026-e13c-49ad-9fb7-5a67aa69fcfc",
+                            "related_uuid": "ccaf293b-d9b6-4860-819e-e91911450957",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

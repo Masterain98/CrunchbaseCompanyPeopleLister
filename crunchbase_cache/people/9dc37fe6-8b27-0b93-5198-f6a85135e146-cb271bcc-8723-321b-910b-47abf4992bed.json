@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d8634394-9751-4683-9771-49aa7fca9e9f",
+            "properties": {
+                "name": "Devra Andersen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d8634394-9751-4683-9771-49aa7fca9e9f",
+                    "value": "Devra Andersen"
+                },
+                "linkedin": "devraandersen",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9f690f1c-b1db-49c2-ab27-ab7f68a87984",
+                            "related_uuid": "d8634394-9751-4683-9771-49aa7fca9e9f",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

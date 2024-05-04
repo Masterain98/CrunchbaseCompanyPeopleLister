@@ -1,0 +1,97 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "4577e3f3-4d69-415c-b8f0-bbbc9810adb2",
+            "properties": {
+                "name": "Caroline Barnes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4577e3f3-4d69-415c-b8f0-bbbc9810adb2",
+                    "value": "Caroline Barnes"
+                },
+                "linkedin": "caroline-barnes-4704bb87",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8ae85ba8-e7aa-492f-aca2-a3d1d68361db",
+                            "related_uuid": "4577e3f3-4d69-415c-b8f0-bbbc9810adb2",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0c2b8411-1b88-425d-81a7-072eca25eb61",
+            "properties": {
+                "name": "Jessica Onick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0c2b8411-1b88-425d-81a7-072eca25eb61",
+                    "value": "Jessica Onick"
+                },
+                "linkedin": "jessicaonick",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "87683342-299a-4882-9874-a6fa4820b64e",
+                            "related_uuid": "0c2b8411-1b88-425d-81a7-072eca25eb61",
+                            "properties": {
+                                "job_title": "Director, Internal Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5e742772-34cd-4685-8847-6f28b7fbe68e",
+            "properties": {
+                "name": "Margherita Di Cerbo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5e742772-34cd-4685-8847-6f28b7fbe68e",
+                    "value": "Margherita Di Cerbo"
+                },
+                "linkedin": "margheritadicerbo",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "36c71ec1-0ea4-41cc-9bd0-ec93ac401370",
+                            "related_uuid": "5e742772-34cd-4685-8847-6f28b7fbe68e",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

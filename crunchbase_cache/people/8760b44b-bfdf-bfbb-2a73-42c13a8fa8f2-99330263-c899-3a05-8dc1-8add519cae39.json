@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3a4b829b-4934-4f94-922b-52a486389a3e",
+            "properties": {
+                "name": "Sharon Sulc",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3a4b829b-4934-4f94-922b-52a486389a3e",
+                    "value": "Sharon Sulc"
+                },
+                "linkedin": "sharon-sulc-a6a0714",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "db3b26ca-4a28-400d-a60e-0907762f172d",
+                            "related_uuid": "3a4b829b-4934-4f94-922b-52a486389a3e",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

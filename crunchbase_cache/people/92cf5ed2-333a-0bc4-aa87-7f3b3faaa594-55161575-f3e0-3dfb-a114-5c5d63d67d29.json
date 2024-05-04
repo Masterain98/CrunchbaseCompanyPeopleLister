@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6d2c5b70-5b0f-4308-a4c6-bb696bf6ad6d",
+            "properties": {
+                "name": "Michael Phillips",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6d2c5b70-5b0f-4308-a4c6-bb696bf6ad6d",
+                    "value": "Michael Phillips"
+                },
+                "linkedin": "michaelphillips4",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3ae88575-b609-4246-b26e-7e5dc0a3acbf",
+                            "related_uuid": "6d2c5b70-5b0f-4308-a4c6-bb696bf6ad6d",
+                            "properties": {
+                                "job_title": "CEO, Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

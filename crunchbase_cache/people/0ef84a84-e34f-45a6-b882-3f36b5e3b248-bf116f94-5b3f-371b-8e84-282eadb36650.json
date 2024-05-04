@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "616ea8ea-ef1f-4d75-8860-0d335e16b27f",
+            "properties": {
+                "name": "Mike O'Neil",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "616ea8ea-ef1f-4d75-8860-0d335e16b27f",
+                    "value": "Mike O'Neil"
+                },
+                "linkedin": "michaelsoneil",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "46bec345-eae8-4310-9ff9-5c39c4c891bb",
+                            "related_uuid": "616ea8ea-ef1f-4d75-8860-0d335e16b27f",
+                            "properties": {
+                                "job_title": "Director - Supply Chain Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

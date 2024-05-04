@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c12f7950-f7cd-4afc-b912-276f99766184",
+            "properties": {
+                "name": "Luke Galea",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c12f7950-f7cd-4afc-b912-276f99766184",
+                    "value": "Luke Galea"
+                },
+                "linkedin": "luke-galea-b21b5425",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "28355bf2-e945-4195-8e1b-64a39c001d54",
+                            "related_uuid": "c12f7950-f7cd-4afc-b912-276f99766184",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

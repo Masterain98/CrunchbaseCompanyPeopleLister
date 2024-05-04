@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a820ce62-a4c9-415a-95ab-b5d11d08b96d",
+            "properties": {
+                "name": "Jason Casper",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a820ce62-a4c9-415a-95ab-b5d11d08b96d",
+                    "value": "Jason Casper"
+                },
+                "linkedin": "jason-casper-04901b3a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07fc7b58-443a-406d-a53e-dae67d785ca6",
+                            "related_uuid": "a820ce62-a4c9-415a-95ab-b5d11d08b96d",
+                            "properties": {
+                                "job_title": "Director Supply Chain Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

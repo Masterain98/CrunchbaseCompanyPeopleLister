@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3423b1a6-929e-49b8-8036-f19418bd15ce",
+            "properties": {
+                "name": "Michael Leopold",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3423b1a6-929e-49b8-8036-f19418bd15ce",
+                    "value": "Michael Leopold"
+                },
+                "linkedin": "mikeleopold",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c2fba8c2-bd49-4afc-a2cf-86398c835ab8",
+                            "related_uuid": "3423b1a6-929e-49b8-8036-f19418bd15ce",
+                            "properties": {
+                                "job_title": "IT Partner, Mobility Business Group, Salesforce Enterprise CEO Leader"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

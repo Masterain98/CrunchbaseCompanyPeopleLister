@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "144b13d1-cd1f-435a-a2ce-ed7d4116a173",
+            "properties": {
+                "name": "James Elizarraz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "144b13d1-cd1f-435a-a2ce-ed7d4116a173",
+                    "value": "James Elizarraz"
+                },
+                "linkedin": "jameselizarraz",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0d52fd55-4952-49f9-8b73-05b19823efde",
+                            "related_uuid": "144b13d1-cd1f-435a-a2ce-ed7d4116a173",
+                            "properties": {
+                                "job_title": "Senior Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a9b2a72f-9377-4dd4-b4fe-0951a68d5405",
+            "properties": {
+                "name": "Jason Hoffman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a9b2a72f-9377-4dd4-b4fe-0951a68d5405",
+                    "value": "Jason Hoffman"
+                },
+                "linkedin": "jayhoff",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "886e602d-32bc-4788-ad1e-ff9a407f01d4",
+                            "related_uuid": "a9b2a72f-9377-4dd4-b4fe-0951a68d5405",
+                            "properties": {
+                                "job_title": "Sr. Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

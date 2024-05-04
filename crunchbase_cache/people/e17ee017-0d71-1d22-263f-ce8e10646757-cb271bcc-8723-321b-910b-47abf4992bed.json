@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9c7b7ab2-2977-4637-840f-669bd2e3e06e",
+            "properties": {
+                "name": "Rachel Rembrandt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9c7b7ab2-2977-4637-840f-669bd2e3e06e",
+                    "value": "Rachel Rembrandt"
+                },
+                "linkedin": "rachel-rembrandt-585916107",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "488e226d-b579-4ebb-bb1e-c980e9973062",
+                            "related_uuid": "9c7b7ab2-2977-4637-840f-669bd2e3e06e",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

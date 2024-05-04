@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "3c446432-23e9-405e-85cf-2602fabd9934",
+            "properties": {
+                "name": "John Gaset",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3c446432-23e9-405e-85cf-2602fabd9934",
+                    "value": "John Gaset"
+                },
+                "linkedin": "johngaset",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "58d13c28-6513-4851-80bc-1af9dc772522",
+                            "related_uuid": "3c446432-23e9-405e-85cf-2602fabd9934",
+                            "properties": {
+                                "job_title": "Director of Client Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a38da14f-11bf-460c-b5cf-5a4f5b1d77c1",
+            "properties": {
+                "name": "Kirstyn Cline",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a38da14f-11bf-460c-b5cf-5a4f5b1d77c1",
+                    "value": "Kirstyn Cline"
+                },
+                "linkedin": "kirstyn-cline-a45993111",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7ad5ec68-e460-4272-83c3-f04452952a1b",
+                            "related_uuid": "a38da14f-11bf-460c-b5cf-5a4f5b1d77c1",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

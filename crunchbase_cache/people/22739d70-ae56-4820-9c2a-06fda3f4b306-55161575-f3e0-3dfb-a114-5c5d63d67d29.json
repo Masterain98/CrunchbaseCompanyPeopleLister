@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "90a799e0-445a-49c3-bf59-d9d2c464d525",
+            "properties": {
+                "name": "Jody Shapiro",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "90a799e0-445a-49c3-bf59-d9d2c464d525",
+                    "value": "Jody Shapiro"
+                },
+                "linkedin": "jodyshapiro",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "059debce-b3a8-455c-b055-4217e7903916",
+                            "related_uuid": "90a799e0-445a-49c3-bf59-d9d2c464d525",
+                            "properties": {
+                                "job_title": "Founder, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

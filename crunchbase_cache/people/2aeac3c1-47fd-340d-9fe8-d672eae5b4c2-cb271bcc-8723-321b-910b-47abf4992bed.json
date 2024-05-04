@@ -1,0 +1,98 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "84002c32-aa6c-46c6-9207-b3fe8b8c55d1",
+            "properties": {
+                "name": "Caitlin Watkins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "84002c32-aa6c-46c6-9207-b3fe8b8c55d1",
+                    "value": "Caitlin Watkins"
+                },
+                "linkedin": "caitlin-watkins-84663629",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ef6030f9-b800-47eb-8109-dba6c0f19519",
+                            "related_uuid": "84002c32-aa6c-46c6-9207-b3fe8b8c55d1",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "15147b96-c6bd-4b0b-a043-5b093b606ffe",
+            "properties": {
+                "name": "Sofia Covarrubias",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "15147b96-c6bd-4b0b-a043-5b093b606ffe",
+                    "value": "Sofia Covarrubias"
+                },
+                "linkedin": "sofiacovarrubias",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6973c943-90e0-4992-b96d-457a551be42e",
+                            "related_uuid": "15147b96-c6bd-4b0b-a043-5b093b606ffe",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1248370e-76a0-4f15-9887-6febd4d8fd7f",
+            "properties": {
+                "name": "Taylor Konyk",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1248370e-76a0-4f15-9887-6febd4d8fd7f",
+                    "value": "Taylor Konyk"
+                },
+                "linkedin": "taylor-konyk-01a10671",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6b0a9a56-b75b-4f41-90c1-808c7525f3bf",
+                            "related_uuid": "1248370e-76a0-4f15-9887-6febd4d8fd7f",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

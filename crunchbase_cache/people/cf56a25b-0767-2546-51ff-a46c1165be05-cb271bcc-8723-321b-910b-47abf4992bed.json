@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "79753d6b-3f26-4dbe-a20c-b7ef21edb680",
+            "properties": {
+                "name": "Spencer Farber",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "79753d6b-3f26-4dbe-a20c-b7ef21edb680",
+                    "value": "Spencer Farber"
+                },
+                "linkedin": "spencer-farber-a90042b5",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "152f8213-a716-47d9-a76e-4791877cd03c",
+                            "related_uuid": "79753d6b-3f26-4dbe-a20c-b7ef21edb680",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

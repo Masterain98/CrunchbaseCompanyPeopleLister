@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d4565e22-8a4c-43ea-ba23-018e095df07b",
+            "properties": {
+                "name": "Haytham Abuelfutuh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d4565e22-8a4c-43ea-ba23-018e095df07b",
+                    "value": "Haytham Abuelfutuh"
+                },
+                "linkedin": "haythamafutuh",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9eacfb17-5edc-4c3b-a296-6b073ba77eb6",
+                            "related_uuid": "d4565e22-8a4c-43ea-ba23-018e095df07b",
+                            "properties": {
+                                "job_title": "Co-Founder & Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

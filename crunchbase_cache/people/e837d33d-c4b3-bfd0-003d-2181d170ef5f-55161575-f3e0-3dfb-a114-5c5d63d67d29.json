@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "60abb7d5-5afb-4d4b-ae02-59cf16b51bec",
+            "properties": {
+                "name": "Colin Nederkoorn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "60abb7d5-5afb-4d4b-ae02-59cf16b51bec",
+                    "value": "Colin Nederkoorn"
+                },
+                "linkedin": "colinnederkoorn",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0dd3b778-2b9c-44c7-9178-5af9ef5d83d2",
+                            "related_uuid": "60abb7d5-5afb-4d4b-ae02-59cf16b51bec",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

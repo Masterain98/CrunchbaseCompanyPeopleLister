@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0c409ced-789e-4b04-aa00-e2b2f7b50f44",
+            "properties": {
+                "name": "Anna Rosenman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0c409ced-789e-4b04-aa00-e2b2f7b50f44",
+                    "value": "Anna Rosenman"
+                },
+                "linkedin": "annarosenman",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8ef8ed25-a80a-46f3-9a3b-071055e52dd3",
+                            "related_uuid": "0c409ced-789e-4b04-aa00-e2b2f7b50f44",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

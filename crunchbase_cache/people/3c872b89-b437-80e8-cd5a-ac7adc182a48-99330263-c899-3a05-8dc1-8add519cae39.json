@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "848b2608-1e19-4a25-8778-6e6fff1cc6d8",
+            "properties": {
+                "name": "Jason Finkelstein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "848b2608-1e19-4a25-8778-6e6fff1cc6d8",
+                    "value": "Jason Finkelstein"
+                },
+                "linkedin": "jasonfinkelstein",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2714082a-f11a-42dd-968c-0bdc6a09f43f",
+                            "related_uuid": "848b2608-1e19-4a25-8778-6e6fff1cc6d8",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "efdac163-2fd0-46dc-9a25-a8bb6870ceb6",
+            "properties": {
+                "name": "Mr. David Greenberg",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "efdac163-2fd0-46dc-9a25-a8bb6870ceb6",
+                    "value": "Mr. David Greenberg"
+                },
+                "linkedin": "davidgreenberg2",
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "53e2570c-44d9-44cf-aba2-88c594ac2b6c",
+                            "related_uuid": "efdac163-2fd0-46dc-9a25-a8bb6870ceb6",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

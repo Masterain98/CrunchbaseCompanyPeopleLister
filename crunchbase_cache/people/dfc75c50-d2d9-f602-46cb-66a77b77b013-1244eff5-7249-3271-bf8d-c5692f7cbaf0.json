@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2a267a13-7ab3-40fb-9175-3d7fe80f58cf",
+            "properties": {
+                "name": "Vignesh Krishnakumar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2a267a13-7ab3-40fb-9175-3d7fe80f58cf",
+                    "value": "Vignesh Krishnakumar"
+                },
+                "linkedin": "vignesh-krishnakumar-kv",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "30e9c113-11aa-45bf-b312-b20719b94587",
+                            "related_uuid": "2a267a13-7ab3-40fb-9175-3d7fe80f58cf",
+                            "properties": {
+                                "job_title": "Co-Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

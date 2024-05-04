@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "eed6620b-3c74-4463-907d-9947cab437e3",
+            "properties": {
+                "name": "James Lay",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eed6620b-3c74-4463-907d-9947cab437e3",
+                    "value": "James Lay"
+                },
+                "linkedin": "laycreative",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "41d7afa5-955e-4e5f-9c8a-6138c141e2c9",
+                            "related_uuid": "eed6620b-3c74-4463-907d-9947cab437e3",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

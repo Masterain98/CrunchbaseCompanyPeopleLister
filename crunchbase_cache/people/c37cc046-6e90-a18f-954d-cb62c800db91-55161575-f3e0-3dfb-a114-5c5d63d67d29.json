@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3a723d66-925f-4bad-baa4-5e23b97da97b",
+            "properties": {
+                "name": "Andrew Hoag",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3a723d66-925f-4bad-baa4-5e23b97da97b",
+                    "value": "Andrew Hoag"
+                },
+                "linkedin": "andrewjhoag",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "22de33d2-1274-4d43-90fa-3b39c8c31bce",
+                            "related_uuid": "3a723d66-925f-4bad-baa4-5e23b97da97b",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

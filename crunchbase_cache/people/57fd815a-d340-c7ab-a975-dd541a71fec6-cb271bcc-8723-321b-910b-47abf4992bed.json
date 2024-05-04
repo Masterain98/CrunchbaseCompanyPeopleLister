@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ee4bc42d-8fcf-4705-b4d0-0b4f1efe0e68",
+            "properties": {
+                "name": "Ron Mooney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ee4bc42d-8fcf-4705-b4d0-0b4f1efe0e68",
+                    "value": "Ron Mooney"
+                },
+                "linkedin": "rmooney",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "855e8d25-2539-4f21-afb5-ecb567ffbd17",
+                            "related_uuid": "ee4bc42d-8fcf-4705-b4d0-0b4f1efe0e68",
+                            "properties": {
+                                "job_title": "Director, Customer Success Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ab867358-0409-4444-9658-472f4609d061",
+            "properties": {
+                "name": "Stephen Wise",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ab867358-0409-4444-9658-472f4609d061",
+                    "value": "Stephen Wise"
+                },
+                "linkedin": "stephenwise2",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7469ce61-148b-4cbd-a728-2524520fa6c5",
+                            "related_uuid": "ab867358-0409-4444-9658-472f4609d061",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f48a89c5-a1d5-4a80-8804-2bc216ee64f6",
+            "properties": {
+                "name": "Peter Lilley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f48a89c5-a1d5-4a80-8804-2bc216ee64f6",
+                    "value": "Peter Lilley"
+                },
+                "linkedin": "plilley",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "63a12462-51bb-49b3-b1e0-38eb9e2ce11e",
+                            "related_uuid": "f48a89c5-a1d5-4a80-8804-2bc216ee64f6",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

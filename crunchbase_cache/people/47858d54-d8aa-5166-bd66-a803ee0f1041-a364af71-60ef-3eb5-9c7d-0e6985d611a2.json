@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "71e448be-1ce9-4a3e-bb2d-55c8acd7f8e7",
+            "properties": {
+                "name": "Christopher Meyers",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "71e448be-1ce9-4a3e-bb2d-55c8acd7f8e7",
+                    "value": "Christopher Meyers"
+                },
+                "linkedin": "christopher-meyers-0b6714124",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a9fd45e-3015-4bfd-aa3b-534cd674049d",
+                            "related_uuid": "71e448be-1ce9-4a3e-bb2d-55c8acd7f8e7",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

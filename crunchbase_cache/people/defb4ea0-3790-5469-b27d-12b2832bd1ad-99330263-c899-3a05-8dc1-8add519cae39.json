@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "996f9721-ed1b-4246-b614-e20235676ff5",
+            "properties": {
+                "name": "Theresa McEndree",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "996f9721-ed1b-4246-b614-e20235676ff5",
+                    "value": "Theresa McEndree"
+                },
+                "linkedin": "theresamcendree",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f726008-14b5-424e-a667-8bce1aa4b57c",
+                            "related_uuid": "996f9721-ed1b-4246-b614-e20235676ff5",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,156 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "cfe0a1be-27b9-46ff-8698-34bcb4d19783",
+            "properties": {
+                "name": "Amanda McCulloch",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cfe0a1be-27b9-46ff-8698-34bcb4d19783",
+                    "value": "Amanda McCulloch"
+                },
+                "linkedin": "amanda-mcculloch-7961436",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "541f710d-0f02-4934-a004-44a7779d94a6",
+                            "related_uuid": "cfe0a1be-27b9-46ff-8698-34bcb4d19783",
+                            "properties": {
+                                "job_title": "Director, Global Clinical Quality Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "23365da7-e341-4064-9262-a39f4a3fa07d",
+            "properties": {
+                "name": "Lavonne Pulliam",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "23365da7-e341-4064-9262-a39f4a3fa07d",
+                    "value": "Lavonne Pulliam"
+                },
+                "linkedin": "lavonne-pulliam-74a3b912",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8af8cce2-1cb6-4740-8d96-47526e5b37c7",
+                            "related_uuid": "23365da7-e341-4064-9262-a39f4a3fa07d",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4d5b029f-3372-4b3d-81fa-0f903221b4e5",
+            "properties": {
+                "name": "Rebekah Latchis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4d5b029f-3372-4b3d-81fa-0f903221b4e5",
+                    "value": "Rebekah Latchis"
+                },
+                "linkedin": "rebekah-latchis-6a48756",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b2210ba7-228c-4d3b-9983-40b4158a06b3",
+                            "related_uuid": "4d5b029f-3372-4b3d-81fa-0f903221b4e5",
+                            "properties": {
+                                "job_title": "Compliance Director, New and Emerging Risks"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "fce462eb-5847-4b67-b97f-1cd7299e0b0e",
+            "properties": {
+                "name": "Trisha Fleischhacker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fce462eb-5847-4b67-b97f-1cd7299e0b0e",
+                    "value": "Trisha Fleischhacker"
+                },
+                "linkedin": "trisha-fleischhacker-8130a65",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a6f958f-9cb7-4875-8c53-98fbea63ff19",
+                            "related_uuid": "fce462eb-5847-4b67-b97f-1cd7299e0b0e",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1129942e-480a-4930-8cef-25400fec576d",
+            "properties": {
+                "name": "Stephanie Roberts",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1129942e-480a-4930-8cef-25400fec576d",
+                    "value": "Stephanie Roberts"
+                },
+                "linkedin": "stephanie-roberts-2b7276127",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f486bb90-8579-4542-88c3-eea813f78670",
+                            "related_uuid": "1129942e-480a-4930-8cef-25400fec576d",
+                            "properties": {
+                                "job_title": "Director of Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

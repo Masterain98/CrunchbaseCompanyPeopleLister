@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "545b4d4f-4eab-4e07-a4f3-e4a126bf58ae",
+            "properties": {
+                "name": "Mr. Howie Liu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "545b4d4f-4eab-4e07-a4f3-e4a126bf58ae",
+                    "value": "Mr. Howie Liu"
+                },
+                "linkedin": "howieliu",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "20b5edaa-e6c5-4709-a68a-759e39825328",
+                            "related_uuid": "545b4d4f-4eab-4e07-a4f3-e4a126bf58ae",
+                            "properties": {
+                                "job_title": "Cofounder, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

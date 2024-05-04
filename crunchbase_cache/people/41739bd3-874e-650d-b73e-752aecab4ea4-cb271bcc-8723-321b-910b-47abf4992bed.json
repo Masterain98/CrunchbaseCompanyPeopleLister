@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "40440ec9-3d5e-4a80-adc0-d3ec18d73682",
+            "properties": {
+                "name": "Geneva Maxwell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "40440ec9-3d5e-4a80-adc0-d3ec18d73682",
+                    "value": "Geneva Maxwell"
+                },
+                "linkedin": "geneva-maxwell-5160417",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bb86a260-3f55-4c91-b214-fdc795858a07",
+                            "related_uuid": "40440ec9-3d5e-4a80-adc0-d3ec18d73682",
+                            "properties": {
+                                "job_title": "Enterprise Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

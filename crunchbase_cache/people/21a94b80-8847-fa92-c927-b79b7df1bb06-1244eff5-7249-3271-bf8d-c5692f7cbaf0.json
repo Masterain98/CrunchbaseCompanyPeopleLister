@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6d5c02ec-395f-49f0-b67a-2efcc23814d5",
+            "properties": {
+                "name": "Lemuel Park",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6d5c02ec-395f-49f0-b67a-2efcc23814d5",
+                    "value": "Lemuel Park"
+                },
+                "linkedin": "lemuelpark",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "62b54f2a-8397-4a8c-9721-d7a04abdaef5",
+                            "related_uuid": "6d5c02ec-395f-49f0-b67a-2efcc23814d5",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

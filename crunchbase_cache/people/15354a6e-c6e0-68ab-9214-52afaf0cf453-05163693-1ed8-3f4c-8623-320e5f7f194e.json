@@ -1,0 +1,30 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6ebdcfb6-4a01-4c12-bf1b-abcecdfb9eb0",
+            "properties": {
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6ebdcfb6-4a01-4c12-bf1b-abcecdfb9eb0",
+                    "value": "Mariya Barnes"
+                },
+                "name": "Mariya Barnes",
+                "linkedin": "mariyabarnes"
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "31428b58-6c20-4b51-adc6-66b5d1b4a6de",
+                            "related_uuid": "6ebdcfb6-4a01-4c12-bf1b-abcecdfb9eb0",
+                            "properties": {
+                                "job_title": "Director of Global Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

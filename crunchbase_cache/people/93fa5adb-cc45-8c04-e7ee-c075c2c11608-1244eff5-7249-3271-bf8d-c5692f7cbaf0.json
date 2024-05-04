@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "48cd0f98-9b55-4176-905a-1bae19f42754",
+            "properties": {
+                "name": "Harrison Hunter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "48cd0f98-9b55-4176-905a-1bae19f42754",
+                    "value": "Harrison Hunter"
+                },
+                "linkedin": "harrisonhunter",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e07a61e-0959-4abe-aaeb-25f201a04b2b",
+                            "related_uuid": "48cd0f98-9b55-4176-905a-1bae19f42754",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

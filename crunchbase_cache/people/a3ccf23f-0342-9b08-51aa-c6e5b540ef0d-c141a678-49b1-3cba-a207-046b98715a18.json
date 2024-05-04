@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "118b8114-cb6c-4ba1-9873-0e0fa6467d4a",
+            "properties": {
+                "name": "Dayna Fried",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "118b8114-cb6c-4ba1-9873-0e0fa6467d4a",
+                    "value": "Dayna Fried"
+                },
+                "linkedin": "daynafried",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7a8e8555-e9a8-4b5a-94d8-70e333608ebf",
+                            "related_uuid": "118b8114-cb6c-4ba1-9873-0e0fa6467d4a",
+                            "properties": {
+                                "job_title": "Senior Director, Global Public Relations and Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

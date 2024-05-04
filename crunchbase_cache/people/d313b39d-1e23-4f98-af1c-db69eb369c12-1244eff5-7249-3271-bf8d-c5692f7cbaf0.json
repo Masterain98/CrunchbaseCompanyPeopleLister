@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "25023147-9fc7-44b1-a7b9-7f2b97150c43",
+            "properties": {
+                "name": "Enrique Oti",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "25023147-9fc7-44b1-a7b9-7f2b97150c43",
+                    "value": "Enrique Oti"
+                },
+                "linkedin": "enrique-oti",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "641bdca6-0e71-4574-a975-a151db037066",
+                            "related_uuid": "25023147-9fc7-44b1-a7b9-7f2b97150c43",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

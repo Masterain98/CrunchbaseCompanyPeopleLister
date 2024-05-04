@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "e63ca65b-5c52-434f-9888-feab66d365de",
+            "properties": {
+                "name": "Betsy Frymire",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e63ca65b-5c52-434f-9888-feab66d365de",
+                    "value": "Betsy Frymire"
+                },
+                "linkedin": "bfrymire",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0555bca3-25b5-40ae-9a45-1c0ac3888a97",
+                            "related_uuid": "e63ca65b-5c52-434f-9888-feab66d365de",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "45c43695-00dc-4371-a285-7318648e48a8",
+            "properties": {
+                "name": "Helen Anderson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "45c43695-00dc-4371-a285-7318648e48a8",
+                    "value": "Helen Anderson"
+                },
+                "linkedin": "imhelenanderson",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "68fa66ce-d533-4fba-a871-0a9c866946f3",
+                            "related_uuid": "45c43695-00dc-4371-a285-7318648e48a8",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

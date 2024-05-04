@@ -1,0 +1,34 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8eb368d9-32e4-4470-bebb-da48d0b96a67",
+            "properties": {
+                "name": "Jae Lee",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8eb368d9-32e4-4470-bebb-da48d0b96a67",
+                    "value": "Jae Lee"
+                },
+                "linkedin": "leejae94",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7db48548-b9d6-4014-88c3-797ae713aa4c",
+                            "related_uuid": "8eb368d9-32e4-4470-bebb-da48d0b96a67",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

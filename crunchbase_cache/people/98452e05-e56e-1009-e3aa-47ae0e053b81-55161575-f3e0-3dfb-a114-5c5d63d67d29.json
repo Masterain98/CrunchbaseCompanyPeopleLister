@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "12b765a7-674f-4150-85f4-1580b8917c09",
+            "properties": {
+                "name": "William Clark",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "12b765a7-674f-4150-85f4-1580b8917c09",
+                    "value": "William Clark"
+                },
+                "linkedin": "williamclarkceo",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6cdcdd93-8bb1-404c-a71f-b9165302b674",
+                            "related_uuid": "12b765a7-674f-4150-85f4-1580b8917c09",
+                            "properties": {
+                                "job_title": "President & Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "74aea90e-2a17-444e-aff8-8bc9f3343d80",
+            "properties": {
+                "name": "Jonathan Rosenberg",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "74aea90e-2a17-444e-aff8-8bc9f3343d80",
+                    "value": "Jonathan Rosenberg"
+                },
+                "linkedin": "jonathanrosenberg1",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "256fc3ba-f16b-495a-a70d-0055c23104db",
+                            "related_uuid": "74aea90e-2a17-444e-aff8-8bc9f3343d80",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

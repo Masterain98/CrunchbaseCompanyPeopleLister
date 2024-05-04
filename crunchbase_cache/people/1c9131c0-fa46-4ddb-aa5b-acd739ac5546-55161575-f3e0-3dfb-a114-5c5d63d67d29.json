@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "39429f4c-10fc-4df5-b98f-1ca91cf2e625",
+            "properties": {
+                "name": "Poojan Kumar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "39429f4c-10fc-4df5-b98f-1ca91cf2e625",
+                    "value": "Poojan Kumar"
+                },
+                "linkedin": "poojankumar",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "37b1e39f-73f9-40cc-ad90-7f243e2322fa",
+                            "related_uuid": "39429f4c-10fc-4df5-b98f-1ca91cf2e625",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

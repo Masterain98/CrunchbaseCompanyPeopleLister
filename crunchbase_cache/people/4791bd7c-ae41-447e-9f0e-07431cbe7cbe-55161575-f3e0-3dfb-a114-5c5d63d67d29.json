@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f16d99f0-ac21-4fc6-9560-947c42dcd270",
+            "properties": {
+                "name": "Sean Gourley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f16d99f0-ac21-4fc6-9560-947c42dcd270",
+                    "value": "Sean Gourley"
+                },
+                "linkedin": "sgourley",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "391e121a-20b1-48a6-a9ef-fe21e37c5879",
+                            "related_uuid": "f16d99f0-ac21-4fc6-9560-947c42dcd270",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9d01e18f-8ba8-4180-92c3-224c02b149c8",
+            "properties": {
+                "name": "Craig Unger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9d01e18f-8ba8-4180-92c3-224c02b149c8",
+                    "value": "Craig Unger"
+                },
+                "linkedin": "craigunger",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0dcec296-f7e2-40d0-a6a4-63fa37608d10",
+                            "related_uuid": "9d01e18f-8ba8-4180-92c3-224c02b149c8",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "96115bad-adc5-4887-9162-555474ed2f98",
+            "properties": {
+                "name": "Gajen Kandiah",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "96115bad-adc5-4887-9162-555474ed2f98",
+                    "value": "Gajen Kandiah"
+                },
+                "linkedin": "gajenkandiah",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6072d75e-8e5e-4e31-8e7c-2d60a3fb439a",
+                            "related_uuid": "96115bad-adc5-4887-9162-555474ed2f98",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5c1a9f57-0f94-472c-b24a-846f9c3e7344",
+            "properties": {
+                "name": "Philip R. Parr",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5c1a9f57-0f94-472c-b24a-846f9c3e7344",
+                    "value": "Philip R. Parr"
+                },
+                "linkedin": "philip-r-parr-b6b37bb",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "38ce5eaa-f26f-4161-80ec-90c50ab710f1",
+                            "related_uuid": "5c1a9f57-0f94-472c-b24a-846f9c3e7344",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "05ecce32-1cf9-4fc3-b95f-8d46da05a3f0",
+            "properties": {
+                "name": "Ryuichi Otsuki",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "05ecce32-1cf9-4fc3-b95f-8d46da05a3f0",
+                    "value": "Ryuichi Otsuki"
+                },
+                "linkedin": "ryuichi-otsuki-26134915a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ce641aa-846f-48ff-bfe2-bb58ab2f201d",
+                            "related_uuid": "05ecce32-1cf9-4fc3-b95f-8d46da05a3f0",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

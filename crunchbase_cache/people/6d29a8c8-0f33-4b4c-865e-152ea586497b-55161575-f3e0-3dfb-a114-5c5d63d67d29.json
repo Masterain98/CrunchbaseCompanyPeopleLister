@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c1694e51-a733-401d-ba2e-37b72a232432",
+            "properties": {
+                "name": "Kat Orekhova",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c1694e51-a733-401d-ba2e-37b72a232432",
+                    "value": "Kat Orekhova"
+                },
+                "linkedin": "katorekhova",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7ed03fec-3d3f-4e2f-9f8f-c0e093e85e4b",
+                            "related_uuid": "c1694e51-a733-401d-ba2e-37b72a232432",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

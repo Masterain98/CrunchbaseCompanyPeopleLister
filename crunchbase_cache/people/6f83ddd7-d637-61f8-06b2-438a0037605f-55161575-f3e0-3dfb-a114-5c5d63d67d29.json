@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "75491ab4-a49a-4817-8583-3d1643eecdd3",
+            "properties": {
+                "name": "Francisco Tolmasky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "75491ab4-a49a-4817-8583-3d1643eecdd3",
+                    "value": "Francisco Tolmasky"
+                },
+                "linkedin": "tolmasky",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e5da9651-34c1-4b27-a25e-b504e1fee898",
+                            "related_uuid": "75491ab4-a49a-4817-8583-3d1643eecdd3",
+                            "properties": {
+                                "job_title": "CEO of RunKit"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

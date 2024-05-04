@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f274dab0-5ccc-48be-ae12-4f8eaff1de1c",
+            "properties": {
+                "name": "Ligia Zamora",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f274dab0-5ccc-48be-ae12-4f8eaff1de1c",
+                    "value": "Ligia Zamora"
+                },
+                "linkedin": "ligia-zamora",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "67f4ce78-a6af-427f-9fac-3abc28165946",
+                            "related_uuid": "f274dab0-5ccc-48be-ae12-4f8eaff1de1c",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "81b903d3-b54d-4454-b77b-3459d7e9391c",
+            "properties": {
+                "name": "Ben Wegner, MBA, SSGB",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "81b903d3-b54d-4454-b77b-3459d7e9391c",
+                    "value": "Ben Wegner, MBA, SSGB"
+                },
+                "linkedin": "ben-wegner-mba",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4a1be38f-4caf-4be7-8eea-602b4d896e53",
+                            "related_uuid": "81b903d3-b54d-4454-b77b-3459d7e9391c",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

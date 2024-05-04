@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "6676feed-fc41-4f62-922d-44938aff0b7e",
+            "properties": {
+                "name": "Helen Adeosun",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6676feed-fc41-4f62-922d-44938aff0b7e",
+                    "value": "Helen Adeosun"
+                },
+                "linkedin": "helenadeosun",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "417ce528-2c07-40de-ac40-8c080968bb6c",
+                            "related_uuid": "6676feed-fc41-4f62-922d-44938aff0b7e",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d7f2f555-705a-4d1c-9803-0d2e8627380c",
+            "properties": {
+                "name": "Robyn Lunsford",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d7f2f555-705a-4d1c-9803-0d2e8627380c",
+                    "value": "Robyn Lunsford"
+                },
+                "linkedin": "robynlunsford",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7748733e-63d4-42f3-9344-47ef03eda235",
+                            "related_uuid": "d7f2f555-705a-4d1c-9803-0d2e8627380c",
+                            "properties": {
+                                "job_title": "CEO, Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

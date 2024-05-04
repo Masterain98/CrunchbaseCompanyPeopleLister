@@ -1,0 +1,34 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "799fea63-7ab1-4205-b5de-de5f0579afdd",
+            "properties": {
+                "name": "Sachin Agrawal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "799fea63-7ab1-4205-b5de-de5f0579afdd",
+                    "value": "Sachin Agrawal"
+                },
+                "linkedin": "sachin-agrawal-0abaaa2",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "24d898bf-8a03-4cac-b6eb-474b9ca60ffb",
+                            "related_uuid": "799fea63-7ab1-4205-b5de-de5f0579afdd",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

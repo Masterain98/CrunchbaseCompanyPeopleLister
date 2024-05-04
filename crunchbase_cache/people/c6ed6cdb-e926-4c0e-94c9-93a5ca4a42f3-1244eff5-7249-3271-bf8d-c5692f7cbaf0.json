@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7f4d9ef4-6ee9-42ed-ab5a-f2e7b0f2f223",
+            "properties": {
+                "name": "Jin Lim",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7f4d9ef4-6ee9-42ed-ab5a-f2e7b0f2f223",
+                    "value": "Jin Lim"
+                },
+                "linkedin": "jinclim",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b728bbfc-c7e7-4b15-b175-c393eeb5f595",
+                            "related_uuid": "7f4d9ef4-6ee9-42ed-ab5a-f2e7b0f2f223",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

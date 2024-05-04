@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c8779c50-5d0f-4507-bca2-8e231ff9934b",
+            "properties": {
+                "name": "Emily Spencer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c8779c50-5d0f-4507-bca2-8e231ff9934b",
+                    "value": "Emily Spencer"
+                },
+                "linkedin": "emily-loucele-spencer",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "defbef0e-2b4f-4fb7-8a6c-41e459bd803f",
+                            "related_uuid": "c8779c50-5d0f-4507-bca2-8e231ff9934b",
+                            "properties": {
+                                "job_title": "Service Operations Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7498e008-cd74-4f85-9486-c9bcb1ef22c3",
+            "properties": {
+                "name": "Arsh Mand",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7498e008-cd74-4f85-9486-c9bcb1ef22c3",
+                    "value": "Arsh Mand"
+                },
+                "linkedin": "arshmand",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6035a23e-6aa7-4265-b245-4f67b91837d0",
+                            "related_uuid": "7498e008-cd74-4f85-9486-c9bcb1ef22c3",
+                            "properties": {
+                                "job_title": "CTO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

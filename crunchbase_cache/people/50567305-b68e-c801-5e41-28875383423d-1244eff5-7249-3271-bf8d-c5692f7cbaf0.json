@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4bf1d023-0ba6-4c15-974b-9dded3c50cbd",
+            "properties": {
+                "name": "Craig Miwa",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4bf1d023-0ba6-4c15-974b-9dded3c50cbd",
+                    "value": "Craig Miwa"
+                },
+                "linkedin": "craigmiwa",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "85aeba26-8433-454c-92bf-844e4a020741",
+                            "related_uuid": "4bf1d023-0ba6-4c15-974b-9dded3c50cbd",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

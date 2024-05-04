@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3bc5eb8d-6edc-448e-862f-01a4928e7078",
+            "properties": {
+                "name": "Joao Batalha",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3bc5eb8d-6edc-448e-862f-01a4928e7078",
+                    "value": "Joao Batalha"
+                },
+                "linkedin": "joao-batalha",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6dc7bed2-65d8-4b16-8a5a-9f91097e8ff3",
+                            "related_uuid": "3bc5eb8d-6edc-448e-862f-01a4928e7078",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

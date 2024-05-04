@@ -1,0 +1,101 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "d167d89c-d0d5-475b-b9d3-a0fbd912b438",
+            "properties": {
+                "name": "Mark Lorberbaum",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d167d89c-d0d5-475b-b9d3-a0fbd912b438",
+                    "value": "Mark Lorberbaum"
+                },
+                "linkedin": "mark-lorberbaum-8a774624",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "265d6d1c-3409-461a-860e-c4b99ff260bc",
+                            "related_uuid": "d167d89c-d0d5-475b-b9d3-a0fbd912b438",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "eafa38e2-56c0-441d-81e2-8598cb7ffec0",
+            "properties": {
+                "name": "Mark Lorberbaum",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eafa38e2-56c0-441d-81e2-8598cb7ffec0",
+                    "value": "Mark Lorberbaum"
+                },
+                "linkedin": "mark-lorberbaum-03989241",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bb29d327-1982-435c-8540-096afddf3898",
+                            "related_uuid": "eafa38e2-56c0-441d-81e2-8598cb7ffec0",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8f06a9fb-50b0-4194-a73a-000f01dd176a",
+            "properties": {
+                "name": "Todd Saunders",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8f06a9fb-50b0-4194-a73a-000f01dd176a",
+                    "value": "Todd Saunders"
+                },
+                "linkedin": "tosaunders",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d8553d9c-4ea2-4b6c-982b-990f238b13fe",
+                            "related_uuid": "8f06a9fb-50b0-4194-a73a-000f01dd176a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

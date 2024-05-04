@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2411561c-ad44-48b0-b86b-a1346d842b15",
+            "properties": {
+                "name": "Adam Perry-Pelletier",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2411561c-ad44-48b0-b86b-a1346d842b15",
+                    "value": "Adam Perry-Pelletier"
+                },
+                "linkedin": "perrpell",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "562737ac-fde9-4bd4-b114-c771eda15984",
+                            "related_uuid": "2411561c-ad44-48b0-b86b-a1346d842b15",
+                            "properties": {
+                                "job_title": "Co-Founder & Co-CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

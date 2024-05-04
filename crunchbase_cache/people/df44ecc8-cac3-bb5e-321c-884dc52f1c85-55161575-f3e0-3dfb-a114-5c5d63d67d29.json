@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5f942134-5c89-49e4-89fd-a7cc288d33c2",
+            "properties": {
+                "name": "Tien Tzuo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5f942134-5c89-49e4-89fd-a7cc288d33c2",
+                    "value": "Tien Tzuo"
+                },
+                "linkedin": "tientzuo",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7f063ad9-2404-432f-9644-803d721af17c",
+                            "related_uuid": "5f942134-5c89-49e4-89fd-a7cc288d33c2",
+                            "properties": {
+                                "job_title": "Founder and Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

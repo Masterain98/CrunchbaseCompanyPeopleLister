@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "063fe56b-0379-4149-aef9-45ad338615bf",
+            "properties": {
+                "name": "Andrew Pullmann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "063fe56b-0379-4149-aef9-45ad338615bf",
+                    "value": "Andrew Pullmann"
+                },
+                "linkedin": "andrew-pullmann",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5fcaf4bf-38f9-4cff-9581-1a7465575500",
+                            "related_uuid": "063fe56b-0379-4149-aef9-45ad338615bf",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d8d150cb-51b4-4a40-8a80-a846b2a0a07c",
+            "properties": {
+                "name": "Richard Nicholas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d8d150cb-51b4-4a40-8a80-a846b2a0a07c",
+                    "value": "Richard Nicholas"
+                },
+                "linkedin": "richard-nicholas-149886",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "aa0655e4-881b-4d44-963c-74c9d560e9af",
+                            "related_uuid": "d8d150cb-51b4-4a40-8a80-a846b2a0a07c",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

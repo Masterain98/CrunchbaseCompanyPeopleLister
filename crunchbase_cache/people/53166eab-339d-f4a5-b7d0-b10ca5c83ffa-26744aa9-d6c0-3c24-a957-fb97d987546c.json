@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d778d07a-4dce-4375-850a-71bcf4e289b1",
+            "properties": {
+                "name": "Catie Kuhlman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d778d07a-4dce-4375-850a-71bcf4e289b1",
+                    "value": "Catie Kuhlman"
+                },
+                "linkedin": "catie-kuhlman",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "862ac182-e5ab-4c01-9e12-fe750f166061",
+                            "related_uuid": "d778d07a-4dce-4375-850a-71bcf4e289b1",
+                            "properties": {
+                                "job_title": "Data Quality Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

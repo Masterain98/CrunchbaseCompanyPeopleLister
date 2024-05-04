@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9e9355d9-dafc-4f3c-9796-e9e595818c03",
+            "properties": {
+                "name": "Belinda Trotter-James",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9e9355d9-dafc-4f3c-9796-e9e595818c03",
+                    "value": "Belinda Trotter-James"
+                },
+                "linkedin": "belinda-trotter-james-48031a7",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fd36357c-f4aa-426c-b62e-f877941883a3",
+                            "related_uuid": "9e9355d9-dafc-4f3c-9796-e9e595818c03",
+                            "properties": {
+                                "job_title": "Publisher/CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

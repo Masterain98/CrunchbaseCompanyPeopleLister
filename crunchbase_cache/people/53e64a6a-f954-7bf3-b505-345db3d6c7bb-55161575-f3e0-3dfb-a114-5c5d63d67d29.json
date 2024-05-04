@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "007ba011-d024-417f-9af0-db9603def255",
+            "properties": {
+                "name": "Eoghan Mccabe",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "007ba011-d024-417f-9af0-db9603def255",
+                    "value": "Eoghan Mccabe"
+                },
+                "linkedin": "eoghanmccabe",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26979e4e-d11c-4028-a9d3-9ce404a6c4d2",
+                            "related_uuid": "007ba011-d024-417f-9af0-db9603def255",
+                            "properties": {
+                                "job_title": "CEO, Chairman, and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

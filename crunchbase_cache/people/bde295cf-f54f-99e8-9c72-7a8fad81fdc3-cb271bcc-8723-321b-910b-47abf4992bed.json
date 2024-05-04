@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "84cdf5c7-259f-47ae-b35e-8a828c491cb1",
+            "properties": {
+                "name": "Kelly Piccione",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "84cdf5c7-259f-47ae-b35e-8a828c491cb1",
+                    "value": "Kelly Piccione"
+                },
+                "linkedin": "kelly-ann-piccione",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c0d544e7-bcf8-44d8-9395-2b013dd5c366",
+                            "related_uuid": "84cdf5c7-259f-47ae-b35e-8a828c491cb1",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

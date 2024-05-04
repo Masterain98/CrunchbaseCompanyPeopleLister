@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "19ccaa41-a4d5-4a9e-9bf3-78a945715b17",
+            "properties": {
+                "name": "Michelle Schroeder",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "19ccaa41-a4d5-4a9e-9bf3-78a945715b17",
+                    "value": "Michelle Schroeder"
+                },
+                "linkedin": "michelleschroeder",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d294d58b-0a26-4e4f-b7d0-a1a33a4ecb38",
+                            "related_uuid": "19ccaa41-a4d5-4a9e-9bf3-78a945715b17",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

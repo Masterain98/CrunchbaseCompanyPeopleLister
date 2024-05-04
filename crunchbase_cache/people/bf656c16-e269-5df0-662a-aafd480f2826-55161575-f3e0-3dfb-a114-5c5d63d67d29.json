@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "0c70a0e7-c024-4154-9a7a-0499e265e155",
+            "properties": {
+                "name": "Liam Brown",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0c70a0e7-c024-4154-9a7a-0499e265e155",
+                    "value": "Liam Brown"
+                },
+                "linkedin": "liamjmbrown",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c5ce53ec-3373-4610-85e5-9ae9fe78aa00",
+                            "related_uuid": "0c70a0e7-c024-4154-9a7a-0499e265e155",
+                            "properties": {
+                                "job_title": "Founder, Chairman and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "78120268-2a17-46ec-b863-4e8db74bc770",
+            "properties": {
+                "name": "Lokendra Tomar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "78120268-2a17-46ec-b863-4e8db74bc770",
+                    "value": "Lokendra Tomar"
+                },
+                "linkedin": "lokendratomar",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dc789421-5dc4-43c4-b8c0-ccbd07b9298a",
+                            "related_uuid": "78120268-2a17-46ec-b863-4e8db74bc770",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

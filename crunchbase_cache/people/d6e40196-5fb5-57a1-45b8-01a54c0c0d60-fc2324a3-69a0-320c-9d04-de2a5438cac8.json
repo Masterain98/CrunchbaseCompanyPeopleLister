@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a487b860-5964-4284-8b66-3e7ded034d68",
+            "properties": {
+                "name": "Laura Philbin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a487b860-5964-4284-8b66-3e7ded034d68",
+                    "value": "Laura Philbin"
+                },
+                "linkedin": "lauraaphilbin",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "005715c3-0343-46b3-b449-66682b0f7ee4",
+                            "related_uuid": "a487b860-5964-4284-8b66-3e7ded034d68",
+                            "properties": {
+                                "job_title": "Director of Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

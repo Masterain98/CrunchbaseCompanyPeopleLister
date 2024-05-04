@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ece535b0-69d1-4868-a981-7ae79ba83803",
+            "properties": {
+                "name": "Alexis Normand",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ece535b0-69d1-4868-a981-7ae79ba83803",
+                    "value": "Alexis Normand"
+                },
+                "linkedin": "alexisnormand",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0396c617-f2c4-4ca3-acbc-2f9a343ca71f",
+                            "related_uuid": "ece535b0-69d1-4868-a981-7ae79ba83803",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder (We're Hiring!)"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

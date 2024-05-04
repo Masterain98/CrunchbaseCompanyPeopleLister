@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3ba453be-1109-4060-b7dd-35921fda08a9",
+            "properties": {
+                "name": "Eric Futoran",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ba453be-1109-4060-b7dd-35921fda08a9",
+                    "value": "Eric Futoran"
+                },
+                "linkedin": "futoran",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9b8b3607-2c8f-465c-9f09-dfadfe6a8e7d",
+                            "related_uuid": "3ba453be-1109-4060-b7dd-35921fda08a9",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

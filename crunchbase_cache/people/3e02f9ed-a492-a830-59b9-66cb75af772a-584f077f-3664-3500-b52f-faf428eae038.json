@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5ea5d5e1-45ea-4697-81d4-4dcca87b121e",
+            "properties": {
+                "name": "Kenneth Casado",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5ea5d5e1-45ea-4697-81d4-4dcca87b121e",
+                    "value": "Kenneth Casado"
+                },
+                "linkedin": "kennethjcasado",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "aaf867f0-0c35-440c-8e94-bae11fbd42d4",
+                            "related_uuid": "5ea5d5e1-45ea-4697-81d4-4dcca87b121e",
+                            "properties": {
+                                "job_title": "Associate Managing Director, Director of Construction Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

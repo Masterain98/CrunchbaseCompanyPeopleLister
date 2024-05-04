@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f6008b6e-39ae-4207-8ffe-0ca4ac470db4",
+            "properties": {
+                "name": "Cullen Zandstra",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f6008b6e-39ae-4207-8ffe-0ca4ac470db4",
+                    "value": "Cullen Zandstra"
+                },
+                "linkedin": "cullenzandstra",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "14f02330-f959-4e3c-bf92-ed6ce9239552",
+                            "related_uuid": "f6008b6e-39ae-4207-8ffe-0ca4ac470db4",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

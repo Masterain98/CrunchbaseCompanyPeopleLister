@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b51e1550-30ea-4447-81fc-24284f59b375",
+            "properties": {
+                "name": "Kelly Fiedler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b51e1550-30ea-4447-81fc-24284f59b375",
+                    "value": "Kelly Fiedler"
+                },
+                "linkedin": "kellyfiedler",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a5dd7f7-b252-498e-b5c2-ba0e2fbfb29d",
+                            "related_uuid": "b51e1550-30ea-4447-81fc-24284f59b375",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

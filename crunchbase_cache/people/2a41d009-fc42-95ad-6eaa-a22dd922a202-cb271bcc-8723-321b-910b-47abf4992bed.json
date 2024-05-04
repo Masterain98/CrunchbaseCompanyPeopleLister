@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "16a45bf2-1d42-4325-9017-ab531279a751",
+            "properties": {
+                "name": "Ranjit Das",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "16a45bf2-1d42-4325-9017-ab531279a751",
+                    "value": "Ranjit Das"
+                },
+                "linkedin": "ranjit-das-1a209411",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2e7755b2-b4d5-410e-b68d-85b190badb3d",
+                            "related_uuid": "16a45bf2-1d42-4325-9017-ab531279a751",
+                            "properties": {
+                                "job_title": "Director Customer Success & Services Engagements"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

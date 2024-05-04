@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "66473fca-a5cb-4d4f-81eb-fbf9835b33c9",
+            "properties": {
+                "name": "Kate Slonaker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "66473fca-a5cb-4d4f-81eb-fbf9835b33c9",
+                    "value": "Kate Slonaker"
+                },
+                "linkedin": "kateslonaker",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "75949ab3-c231-431d-84f6-82e3f26860e8",
+                            "related_uuid": "66473fca-a5cb-4d4f-81eb-fbf9835b33c9",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

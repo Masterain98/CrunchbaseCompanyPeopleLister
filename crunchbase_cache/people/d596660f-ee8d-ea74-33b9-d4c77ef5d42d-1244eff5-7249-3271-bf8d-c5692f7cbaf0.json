@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8be0cf3e-be41-4313-9c8c-d5978b701eb6",
+            "properties": {
+                "name": "Adam Larsen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8be0cf3e-be41-4313-9c8c-d5978b701eb6",
+                    "value": "Adam Larsen"
+                },
+                "linkedin": "adamclarsen",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1041c888-db1b-4f17-80f2-475e9eff32af",
+                            "related_uuid": "8be0cf3e-be41-4313-9c8c-d5978b701eb6",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

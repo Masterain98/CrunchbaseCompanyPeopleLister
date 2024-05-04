@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "82d30d17-47de-4dda-a554-2482b9f015d9",
+            "properties": {
+                "name": "Blake Lawrence",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "82d30d17-47de-4dda-a554-2482b9f015d9",
+                    "value": "Blake Lawrence"
+                },
+                "linkedin": "blakealawrence",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1e1daa4f-b4fe-4151-891e-4309c3e28b00",
+                            "related_uuid": "82d30d17-47de-4dda-a554-2482b9f015d9",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

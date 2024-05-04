@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bc60dc2d-d682-4f10-a02c-0d84340d062c",
+            "properties": {
+                "name": "Chris Hale",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bc60dc2d-d682-4f10-a02c-0d84340d062c",
+                    "value": "Chris Hale"
+                },
+                "linkedin": "christopherhhale",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "08793a57-ee89-4a9c-a189-e613757e88de",
+                            "related_uuid": "bc60dc2d-d682-4f10-a02c-0d84340d062c",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

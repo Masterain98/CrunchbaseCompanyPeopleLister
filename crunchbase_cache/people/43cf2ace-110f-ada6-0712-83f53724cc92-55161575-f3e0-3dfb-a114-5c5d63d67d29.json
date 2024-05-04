@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f4778655-80de-4df3-810b-f87702c14c4b",
+            "properties": {
+                "name": "Nader Mikhail",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f4778655-80de-4df3-810b-f87702c14c4b",
+                    "value": "Nader Mikhail"
+                },
+                "linkedin": "nader-mikhail-680a843",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6ac0d59c-a720-4ec4-aaf5-98580c9d258b",
+                            "related_uuid": "f4778655-80de-4df3-810b-f87702c14c4b",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

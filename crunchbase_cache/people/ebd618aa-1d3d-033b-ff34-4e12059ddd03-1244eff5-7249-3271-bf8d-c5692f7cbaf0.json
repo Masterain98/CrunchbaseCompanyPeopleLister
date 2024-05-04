@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fb4e2cb0-8754-4887-9127-7185b3872e47",
+            "properties": {
+                "name": "Se Hee Lee",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fb4e2cb0-8754-4887-9127-7185b3872e47",
+                    "value": "Se Hee Lee"
+                },
+                "linkedin": "se-hee-lee-4809604",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "23127d70-0492-4a8c-ba68-2e252bce99e5",
+                            "related_uuid": "fb4e2cb0-8754-4887-9127-7185b3872e47",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

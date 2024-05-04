@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1f821be2-5332-4ba4-8336-abb415a173c1",
+            "properties": {
+                "name": "Luis Orozco",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1f821be2-5332-4ba4-8336-abb415a173c1",
+                    "value": "Luis Orozco"
+                },
+                "linkedin": "luis-orozco-4b05401",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "47b440a9-dde4-40c0-8c16-c05457ee044f",
+                            "related_uuid": "1f821be2-5332-4ba4-8336-abb415a173c1",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b5eba5e6-3b3a-4dd1-9c3b-ec6963851cf4",
+            "properties": {
+                "name": "Michael L. Clark",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5eba5e6-3b3a-4dd1-9c3b-ec6963851cf4",
+                    "value": "Michael L. Clark"
+                },
+                "linkedin": "mikeclark",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "99b6b99b-2bda-4e36-8b62-0caa2ddf7a30",
+                            "related_uuid": "b5eba5e6-3b3a-4dd1-9c3b-ec6963851cf4",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

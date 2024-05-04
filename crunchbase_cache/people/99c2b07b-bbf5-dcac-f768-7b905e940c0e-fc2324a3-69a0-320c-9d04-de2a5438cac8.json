@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ccc8f341-6c23-4f70-9808-57ff9990d030",
+            "properties": {
+                "name": "Alex Doniach",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ccc8f341-6c23-4f70-9808-57ff9990d030",
+                    "value": "Alex Doniach"
+                },
+                "linkedin": "alexdoniach",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7d4978e7-a68f-43b3-b62e-556dd869f02c",
+                            "related_uuid": "ccc8f341-6c23-4f70-9808-57ff9990d030",
+                            "properties": {
+                                "job_title": "Director of Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

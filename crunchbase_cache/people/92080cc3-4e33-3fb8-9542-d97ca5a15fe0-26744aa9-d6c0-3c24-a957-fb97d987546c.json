@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3a844496-be56-4106-973b-90d2cf3f4fdc",
+            "properties": {
+                "name": "Tasha Monserrat",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3a844496-be56-4106-973b-90d2cf3f4fdc",
+                    "value": "Tasha Monserrat"
+                },
+                "linkedin": "tmonserrat",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b52ce41a-ec4e-48e5-9ceb-aa231d58a785",
+                            "related_uuid": "3a844496-be56-4106-973b-90d2cf3f4fdc",
+                            "properties": {
+                                "job_title": "Brand Design Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

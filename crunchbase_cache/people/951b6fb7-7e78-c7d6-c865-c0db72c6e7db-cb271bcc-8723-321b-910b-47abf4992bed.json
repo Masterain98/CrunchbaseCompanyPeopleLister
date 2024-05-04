@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ae86b2c9-15b2-454f-906f-41243a6b9183",
+            "properties": {
+                "name": "Brandi Bennett",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ae86b2c9-15b2-454f-906f-41243a6b9183",
+                    "value": "Brandi Bennett"
+                },
+                "linkedin": "brandi-bennett-8964296a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1b2573e2-2ee8-4310-aa4b-ce598d892161",
+                            "related_uuid": "ae86b2c9-15b2-454f-906f-41243a6b9183",
+                            "properties": {
+                                "job_title": "Director of Customer Success, Americas"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

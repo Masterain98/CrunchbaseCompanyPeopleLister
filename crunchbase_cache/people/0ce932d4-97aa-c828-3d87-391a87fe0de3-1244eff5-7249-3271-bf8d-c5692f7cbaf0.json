@@ -1,0 +1,105 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "61060bf6-e16a-4737-a4c0-5e095daf5e4b",
+            "properties": {
+                "name": "Brad Hart",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "61060bf6-e16a-4737-a4c0-5e095daf5e4b",
+                    "value": "Brad Hart"
+                },
+                "linkedin": "bradburyhart",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "369c7c64-0e7f-42c7-84cb-ed0bb8365c59",
+                            "related_uuid": "61060bf6-e16a-4737-a4c0-5e095daf5e4b",
+                            "properties": {
+                                "job_title": "Chief Technology Officer (VCS)"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "48e8811f-82ff-4770-90f4-4bf4149f613d",
+            "properties": {
+                "name": "John DelSignore",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "48e8811f-82ff-4770-90f4-4bf4149f613d",
+                    "value": "John DelSignore"
+                },
+                "linkedin": "johndelsignore",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0012bb60-f6ac-4fe7-bbe6-d0088f937015",
+                            "related_uuid": "48e8811f-82ff-4770-90f4-4bf4149f613d",
+                            "properties": {
+                                "job_title": "TotalView CTO and Chief Architect"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ce10cdea-92c2-40cd-95e1-bb98d7c96e35",
+            "properties": {
+                "name": "Peter Theunis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ce10cdea-92c2-40cd-95e1-bb98d7c96e35",
+                    "value": "Peter Theunis"
+                },
+                "linkedin": "peter-theunis-6a844a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2e4876d8-4fb5-4343-b4a5-98c68685bcd2",
+                            "related_uuid": "ce10cdea-92c2-40cd-95e1-bb98d7c96e35",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

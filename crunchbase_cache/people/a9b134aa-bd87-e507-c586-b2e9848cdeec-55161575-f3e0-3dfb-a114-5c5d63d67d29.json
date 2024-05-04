@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a54c68ee-b55d-43d4-8b4c-816d99ca4d5e",
+            "properties": {
+                "name": "Jake Bolling",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a54c68ee-b55d-43d4-8b4c-816d99ca4d5e",
+                    "value": "Jake Bolling"
+                },
+                "linkedin": "jakebolling",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "70275e9c-5d10-4213-b8a1-0a1432a6f839",
+                            "related_uuid": "a54c68ee-b55d-43d4-8b4c-816d99ca4d5e",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

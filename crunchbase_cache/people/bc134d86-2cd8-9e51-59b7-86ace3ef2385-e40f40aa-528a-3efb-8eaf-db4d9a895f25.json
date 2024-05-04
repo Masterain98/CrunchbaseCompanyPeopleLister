@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2d00dfe7-dd61-44e5-8317-aa5655a2d394",
+            "properties": {
+                "name": "Yen Lee",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2d00dfe7-dd61-44e5-8317-aa5655a2d394",
+                    "value": "Yen Lee"
+                },
+                "linkedin": "yen-lee-b047a7233",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9805efb5-2608-45b9-b905-cad937ed3fb6",
+                            "related_uuid": "2d00dfe7-dd61-44e5-8317-aa5655a2d394",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

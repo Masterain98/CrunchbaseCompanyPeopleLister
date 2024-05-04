@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a51ba32b-0ea6-4db7-a076-9a5bfcb00bf8",
+            "properties": {
+                "name": "Christine Hou",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a51ba32b-0ea6-4db7-a076-9a5bfcb00bf8",
+                    "value": "Christine Hou"
+                },
+                "linkedin": "christinehou",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5b2a0d11-731d-4445-becc-f7866181d51c",
+                            "related_uuid": "a51ba32b-0ea6-4db7-a076-9a5bfcb00bf8",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

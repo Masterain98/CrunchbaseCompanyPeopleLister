@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c9c12d37-c689-475f-9c1d-6d9ec21aefb0",
+            "properties": {
+                "name": "Aksana Koch",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c9c12d37-c689-475f-9c1d-6d9ec21aefb0",
+                    "value": "Aksana Koch"
+                },
+                "linkedin": "aksana-aleksiaichuk-koch-b2584627",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8b54920c-1d25-46cb-ab1a-e83a05af0359",
+                            "related_uuid": "c9c12d37-c689-475f-9c1d-6d9ec21aefb0",
+                            "properties": {
+                                "job_title": "Director, Strategic Accounts & Customer Success Product Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9bcd8e5e-d13b-42da-82aa-e24f9bf40eec",
+            "properties": {
+                "name": "Alessio Alionco",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9bcd8e5e-d13b-42da-82aa-e24f9bf40eec",
+                    "value": "Alessio Alionco"
+                },
+                "linkedin": "alessioalionco",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "816eac21-f1ed-4b38-8b68-81e3c655afae",
+                            "related_uuid": "9bcd8e5e-d13b-42da-82aa-e24f9bf40eec",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

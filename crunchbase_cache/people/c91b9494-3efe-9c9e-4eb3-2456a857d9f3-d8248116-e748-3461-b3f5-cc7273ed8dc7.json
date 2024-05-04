@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a676faaf-0a1e-488c-b817-8279f2d2da11",
+            "properties": {
+                "name": "David Sawyer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a676faaf-0a1e-488c-b817-8279f2d2da11",
+                    "value": "David Sawyer"
+                },
+                "linkedin": "dsawyer1981",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "23a37fb9-286f-475c-8c43-0a9e249ab4b3",
+                            "related_uuid": "a676faaf-0a1e-488c-b817-8279f2d2da11",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "03d3fef3-989a-4ce1-b0a2-d1a15c733e80",
+            "properties": {
+                "name": "Andrew Hally",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "03d3fef3-989a-4ce1-b0a2-d1a15c733e80",
+                    "value": "Andrew Hally"
+                },
+                "linkedin": "andrewhally",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dd8ecb8a-3e77-45da-8f6b-1507da434027",
+                            "related_uuid": "03d3fef3-989a-4ce1-b0a2-d1a15c733e80",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

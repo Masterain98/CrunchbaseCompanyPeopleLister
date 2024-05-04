@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "43d36eaf-63d4-46aa-82e2-9a01ea92316e",
+            "properties": {
+                "name": "Takoda Register",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "43d36eaf-63d4-46aa-82e2-9a01ea92316e",
+                    "value": "Takoda Register"
+                },
+                "linkedin": "takoda-register",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "067a60b8-888e-4990-885e-b8af8778c6ee",
+                            "related_uuid": "43d36eaf-63d4-46aa-82e2-9a01ea92316e",
+                            "properties": {
+                                "job_title": "Director, Customer Success Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

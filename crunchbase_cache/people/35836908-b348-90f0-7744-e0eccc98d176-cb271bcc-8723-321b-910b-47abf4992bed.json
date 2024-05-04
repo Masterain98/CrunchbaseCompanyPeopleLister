@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a85f03cd-e075-47b7-af1e-96945d96dcc9",
+            "properties": {
+                "name": "Kelsey Murray",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a85f03cd-e075-47b7-af1e-96945d96dcc9",
+                    "value": "Kelsey Murray"
+                },
+                "linkedin": "kelsey-murray-0158344b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8e45eac1-e210-4d14-b74d-1e2c5e091b22",
+                            "related_uuid": "a85f03cd-e075-47b7-af1e-96945d96dcc9",
+                            "properties": {
+                                "job_title": "Head of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

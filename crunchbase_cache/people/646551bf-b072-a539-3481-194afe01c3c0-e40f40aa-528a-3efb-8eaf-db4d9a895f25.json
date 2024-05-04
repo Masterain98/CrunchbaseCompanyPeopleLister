@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4f87fe3c-2fd3-4625-aaae-44995f8d61d9",
+            "properties": {
+                "name": "Justin Roberts",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4f87fe3c-2fd3-4625-aaae-44995f8d61d9",
+                    "value": "Justin Roberts"
+                },
+                "linkedin": "justinrob",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ab75de3b-a172-4e09-b513-ca2c5ae19378",
+                            "related_uuid": "4f87fe3c-2fd3-4625-aaae-44995f8d61d9",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

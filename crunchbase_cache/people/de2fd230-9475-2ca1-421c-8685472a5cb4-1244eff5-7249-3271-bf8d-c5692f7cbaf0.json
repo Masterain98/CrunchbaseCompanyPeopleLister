@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fbdb1c59-5e3b-433b-a9cf-78d0e4aea7fa",
+            "properties": {
+                "name": "Enriko Aryanto",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fbdb1c59-5e3b-433b-a9cf-78d0e4aea7fa",
+                    "value": "Enriko Aryanto"
+                },
+                "linkedin": "enriko",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d763ff20-5e4a-473c-a4fe-8564e84e940c",
+                            "related_uuid": "fbdb1c59-5e3b-433b-a9cf-78d0e4aea7fa",
+                            "properties": {
+                                "job_title": "Co-Founder/CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "9a1b4018-41aa-463b-ac7d-e26c9272eefc",
+            "properties": {
+                "name": "Kaitlyn Young",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9a1b4018-41aa-463b-ac7d-e26c9272eefc",
+                    "value": "Kaitlyn Young"
+                },
+                "linkedin": "youngkaitlyna",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fd0eed1b-9431-49b2-965a-9cebc5c824d0",
+                            "related_uuid": "9a1b4018-41aa-463b-ac7d-e26c9272eefc",
+                            "properties": {
+                                "job_title": "Sr. Director Global Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9e8bdf52-0f31-4f9e-a3c9-82aa5073cb98",
+            "properties": {
+                "name": "Lee Evans",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9e8bdf52-0f31-4f9e-a3c9-82aa5073cb98",
+                    "value": "Lee Evans"
+                },
+                "linkedin": "lee-evans-3b27b319",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5360daee-5789-4681-bd5d-b71e3984409a",
+                            "related_uuid": "9e8bdf52-0f31-4f9e-a3c9-82aa5073cb98",
+                            "properties": {
+                                "job_title": "Sr. Director Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

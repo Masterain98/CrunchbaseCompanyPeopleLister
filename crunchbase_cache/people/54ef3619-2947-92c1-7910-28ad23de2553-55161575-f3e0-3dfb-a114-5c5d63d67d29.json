@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "66ab1a98-780a-4090-b24e-8390e5aff57b",
+            "properties": {
+                "name": "Taro Fukuyama",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "66ab1a98-780a-4090-b24e-8390e5aff57b",
+                    "value": "Taro Fukuyama"
+                },
+                "linkedin": "tarof",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3dcf3fe5-e4a1-4b88-8392-2d8fca579412",
+                            "related_uuid": "66ab1a98-780a-4090-b24e-8390e5aff57b",
+                            "properties": {
+                                "job_title": "CEO / Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

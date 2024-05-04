@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ab9658dd-d9ce-45ff-929b-60b6c97edac8",
+            "properties": {
+                "name": "Gretchen Keaney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ab9658dd-d9ce-45ff-929b-60b6c97edac8",
+                    "value": "Gretchen Keaney"
+                },
+                "linkedin": "gretchen-keaney-389a222b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "61d088f3-9d2e-4752-bf56-29279c54f56a",
+                            "related_uuid": "ab9658dd-d9ce-45ff-929b-60b6c97edac8",
+                            "properties": {
+                                "job_title": "Director, Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

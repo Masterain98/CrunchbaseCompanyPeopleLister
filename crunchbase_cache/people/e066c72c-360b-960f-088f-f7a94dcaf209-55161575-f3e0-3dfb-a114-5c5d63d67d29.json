@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7325e0c8-efef-4aae-ae1f-9cf687a3f52e",
+            "properties": {
+                "name": "Jeffrey Hawkins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7325e0c8-efef-4aae-ae1f-9cf687a3f52e",
+                    "value": "Jeffrey Hawkins"
+                },
+                "linkedin": "jeffreyphawkins",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c63b4aa5-b023-41ff-9bc9-bcc2c1d46099",
+                            "related_uuid": "7325e0c8-efef-4aae-ae1f-9cf687a3f52e",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

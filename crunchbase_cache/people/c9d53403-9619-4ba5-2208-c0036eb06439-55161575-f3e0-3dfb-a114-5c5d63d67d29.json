@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7e03638a-879a-4b9a-82ab-3253875ae01a",
+            "properties": {
+                "name": "Ric Calvillo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7e03638a-879a-4b9a-82ab-3253875ae01a",
+                    "value": "Ric Calvillo"
+                },
+                "linkedin": "ric-calvillo-04078a",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "109c3e43-962f-4dad-8777-d9c8f248746a",
+                            "related_uuid": "7e03638a-879a-4b9a-82ab-3253875ae01a",
+                            "properties": {
+                                "job_title": "CEO/Co-founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

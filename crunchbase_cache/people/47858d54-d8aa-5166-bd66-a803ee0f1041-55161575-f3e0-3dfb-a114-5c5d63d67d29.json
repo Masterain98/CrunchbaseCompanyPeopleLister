@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "bcae1064-dac5-4738-ab94-ab227364e3b0",
+            "properties": {
+                "name": "John Mellor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bcae1064-dac5-4738-ab94-ab227364e3b0",
+                    "value": "John Mellor"
+                },
+                "linkedin": "johnmellor",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9eca3895-74b6-4b28-b03c-4374794de411",
+                            "related_uuid": "bcae1064-dac5-4738-ab94-ab227364e3b0",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f720249f-644e-48a8-bacd-363796b16ef0",
+            "properties": {
+                "name": "Josh James",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f720249f-644e-48a8-bacd-363796b16ef0",
+                    "value": "Josh James"
+                },
+                "linkedin": "iamjoshjames",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "18799345-b2d5-48ea-8cfc-c1f562698c54",
+                            "related_uuid": "f720249f-644e-48a8-bacd-363796b16ef0",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

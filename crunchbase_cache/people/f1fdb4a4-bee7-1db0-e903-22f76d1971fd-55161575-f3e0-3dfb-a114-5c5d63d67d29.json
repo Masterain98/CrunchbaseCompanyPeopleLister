@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "94c76c5a-b995-47de-8739-0c39c7e71571",
+            "properties": {
+                "name": "Sashi Narahari",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "94c76c5a-b995-47de-8739-0c39c7e71571",
+                    "value": "Sashi Narahari"
+                },
+                "linkedin": "sashi-narahari-374198",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "638626c6-cf94-401e-b6ba-9c31dafd5dd7",
+                            "related_uuid": "94c76c5a-b995-47de-8739-0c39c7e71571",
+                            "properties": {
+                                "job_title": "President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

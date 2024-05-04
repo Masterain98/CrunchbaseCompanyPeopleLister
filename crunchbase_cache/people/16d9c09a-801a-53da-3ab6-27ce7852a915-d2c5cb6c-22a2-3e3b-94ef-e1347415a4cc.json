@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4bf60f86-9193-4d0b-82a5-03d844a63fa5",
+            "properties": {
+                "name": "Claire Fellin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4bf60f86-9193-4d0b-82a5-03d844a63fa5",
+                    "value": "Claire Fellin"
+                },
+                "linkedin": "claire-fellin-50901533",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "46596fd3-cc7e-44d1-9a46-210cfd694895",
+                            "related_uuid": "4bf60f86-9193-4d0b-82a5-03d844a63fa5",
+                            "properties": {
+                                "job_title": "Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "24453c97-5c3d-43a0-a58e-ada26afb8259",
+            "properties": {
+                "name": "Callan Young",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "24453c97-5c3d-43a0-a58e-ada26afb8259",
+                    "value": "Callan Young"
+                },
+                "linkedin": "callanapril",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4a0ab893-0aee-4c1c-921f-2473133f3ed5",
+                            "related_uuid": "24453c97-5c3d-43a0-a58e-ada26afb8259",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b9e3ff14-1a44-4c71-812e-231d940cdb09",
+            "properties": {
+                "name": "Michael Stern",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b9e3ff14-1a44-4c71-812e-231d940cdb09",
+                    "value": "Michael Stern"
+                },
+                "linkedin": "michaelryanstern",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5939cd35-f8be-449c-b4da-ce3f3095ad98",
+                            "related_uuid": "b9e3ff14-1a44-4c71-812e-231d940cdb09",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

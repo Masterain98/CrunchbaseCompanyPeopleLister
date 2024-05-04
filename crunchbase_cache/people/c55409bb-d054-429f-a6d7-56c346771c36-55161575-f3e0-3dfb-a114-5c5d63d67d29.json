@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0bd7803c-d6f0-4df5-b9de-fdb43e6e14e8",
+            "properties": {
+                "name": "Frank Reig",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0bd7803c-d6f0-4df5-b9de-fdb43e6e14e8",
+                    "value": "Frank Reig"
+                },
+                "linkedin": "frank-reig-35052454",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "302dfbff-6ef8-46ed-9313-5512b5c3590b",
+                            "related_uuid": "0bd7803c-d6f0-4df5-b9de-fdb43e6e14e8",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

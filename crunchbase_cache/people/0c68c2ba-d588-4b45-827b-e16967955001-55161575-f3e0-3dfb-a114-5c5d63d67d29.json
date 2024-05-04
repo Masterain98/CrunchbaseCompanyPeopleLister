@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6f094dcc-df59-4feb-a808-efac4cd1bc07",
+            "properties": {
+                "name": "Joshua Peirez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6f094dcc-df59-4feb-a808-efac4cd1bc07",
+                    "value": "Joshua Peirez"
+                },
+                "linkedin": "joshua-peirez-56852738",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "74fec1e2-a0a1-4aef-a52e-97c53fc6b328",
+                            "related_uuid": "6f094dcc-df59-4feb-a808-efac4cd1bc07",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

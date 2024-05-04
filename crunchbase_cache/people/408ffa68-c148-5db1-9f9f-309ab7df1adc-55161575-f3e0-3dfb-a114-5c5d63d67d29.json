@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "18081c86-5133-492a-8f0a-0542f60e894f",
+            "properties": {
+                "name": "Ajit Viswanathan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "18081c86-5133-492a-8f0a-0542f60e894f",
+                    "value": "Ajit Viswanathan"
+                },
+                "linkedin": "ajitv",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3587390b-9d0b-432a-959d-4c8745e97d51",
+                            "related_uuid": "18081c86-5133-492a-8f0a-0542f60e894f",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

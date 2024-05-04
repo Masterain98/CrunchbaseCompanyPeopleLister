@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "22f45683-5eb4-4b9b-8980-a6f8522ab66c",
+            "properties": {
+                "name": "Michael Nutt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "22f45683-5eb4-4b9b-8980-a6f8522ab66c",
+                    "value": "Michael Nutt"
+                },
+                "linkedin": "michael-nutt-5a25513",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7ca1144e-f3e3-4643-b489-3afed5178076",
+                            "related_uuid": "22f45683-5eb4-4b9b-8980-a6f8522ab66c",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

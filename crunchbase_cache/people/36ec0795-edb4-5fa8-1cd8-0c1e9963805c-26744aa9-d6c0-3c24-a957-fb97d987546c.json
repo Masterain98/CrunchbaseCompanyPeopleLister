@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "285f8a97-ada5-401a-b1ad-daba5756b69e",
+            "properties": {
+                "name": "Stephanie English",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "285f8a97-ada5-401a-b1ad-daba5756b69e",
+                    "value": "Stephanie English"
+                },
+                "linkedin": "stephanie-english-643a6b65",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "70fad4be-9f2f-4e1f-9653-c7cd986b1986",
+                            "related_uuid": "285f8a97-ada5-401a-b1ad-daba5756b69e",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

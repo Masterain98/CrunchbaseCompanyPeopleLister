@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "91085777-995f-48cd-85aa-3f677e690e5e",
+            "properties": {
+                "name": "Sam Chandler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "91085777-995f-48cd-85aa-3f677e690e5e",
+                    "value": "Sam Chandler"
+                },
+                "linkedin": "chandlersam",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "762653e6-e360-48af-931a-efd467bbc8ed",
+                            "related_uuid": "91085777-995f-48cd-85aa-3f677e690e5e",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

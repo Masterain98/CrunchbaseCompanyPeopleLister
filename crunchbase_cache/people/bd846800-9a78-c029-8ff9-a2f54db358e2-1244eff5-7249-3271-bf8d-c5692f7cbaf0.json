@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b8f62d78-a0d3-4bc8-b48a-d83920691524",
+            "properties": {
+                "name": "Adam Sypniewski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b8f62d78-a0d3-4bc8-b48a-d83920691524",
+                    "value": "Adam Sypniewski"
+                },
+                "linkedin": "adam-sypniewski-32a25982",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "48721c55-a1ee-4316-87e9-0f0e5938005d",
+                            "related_uuid": "b8f62d78-a0d3-4bc8-b48a-d83920691524",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

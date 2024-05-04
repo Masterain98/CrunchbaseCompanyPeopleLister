@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5e0f5f4d-699d-4f82-a570-e933d47a76c7",
+            "properties": {
+                "name": "Justin Duke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5e0f5f4d-699d-4f82-a570-e933d47a76c7",
+                    "value": "Justin Duke"
+                },
+                "linkedin": "justinjduke",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "69ed53dd-41d3-4dec-9e26-5416b8991666",
+                            "related_uuid": "5e0f5f4d-699d-4f82-a570-e933d47a76c7",
+                            "properties": {
+                                "job_title": "Director of Customer Success - Instapage"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

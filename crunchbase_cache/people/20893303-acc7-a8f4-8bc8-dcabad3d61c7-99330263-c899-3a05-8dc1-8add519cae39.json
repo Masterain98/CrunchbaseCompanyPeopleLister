@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "30f25e63-b727-43a3-9779-06432fe01461",
+            "properties": {
+                "name": "Oliver Gelles",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "30f25e63-b727-43a3-9779-06432fe01461",
+                    "value": "Oliver Gelles"
+                },
+                "linkedin": "olivergelles",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5a5ae3db-750d-4bac-a805-8aade161555b",
+                            "related_uuid": "30f25e63-b727-43a3-9779-06432fe01461",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

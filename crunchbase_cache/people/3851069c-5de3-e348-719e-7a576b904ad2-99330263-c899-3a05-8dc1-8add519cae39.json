@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "71e3b42d-d6c0-41b7-9dec-8946d585b621",
+            "properties": {
+                "name": "John Reese",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "71e3b42d-d6c0-41b7-9dec-8946d585b621",
+                    "value": "John Reese"
+                },
+                "linkedin": "gotojohnreese",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3588fc23-690b-4c6f-b541-31a8550cf2ff",
+                            "related_uuid": "71e3b42d-d6c0-41b7-9dec-8946d585b621",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

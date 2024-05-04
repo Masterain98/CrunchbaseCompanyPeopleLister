@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cf3588eb-3bad-4ae9-8438-e8e082713b9e",
+            "properties": {
+                "name": "Lim Park",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cf3588eb-3bad-4ae9-8438-e8e082713b9e",
+                    "value": "Lim Park"
+                },
+                "linkedin": "limcpark",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "497d7123-fee0-4eb0-acaf-fd12a411208f",
+                            "related_uuid": "cf3588eb-3bad-4ae9-8438-e8e082713b9e",
+                            "properties": {
+                                "job_title": "Director, Customer Success/Technical Account Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b87dff6c-4604-4698-b7a3-f9f1028867cc",
+            "properties": {
+                "name": "Ken Ringdahl",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b87dff6c-4604-4698-b7a3-f9f1028867cc",
+                    "value": "Ken Ringdahl"
+                },
+                "linkedin": "kenringdahl",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1945a26b-51e5-43a8-941c-e45700c9d30d",
+                            "related_uuid": "b87dff6c-4604-4698-b7a3-f9f1028867cc",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

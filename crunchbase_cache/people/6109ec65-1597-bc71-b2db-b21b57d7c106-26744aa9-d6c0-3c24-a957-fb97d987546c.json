@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "04925907-cd42-404b-9e0c-338957c34581",
+            "properties": {
+                "name": "Richard McNitt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "04925907-cd42-404b-9e0c-338957c34581",
+                    "value": "Richard McNitt"
+                },
+                "linkedin": "richard-mcnitt-00b94619",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a09fc907-5a70-47ef-be67-d0fff3a8a573",
+                            "related_uuid": "04925907-cd42-404b-9e0c-338957c34581",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

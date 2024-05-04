@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "8f3451e4-03d0-4570-89a3-82febe1f79c0",
+            "properties": {
+                "name": "Bryce Hein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8f3451e4-03d0-4570-89a3-82febe1f79c0",
+                    "value": "Bryce Hein"
+                },
+                "linkedin": "brycehein",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9a7178d1-ff2e-40de-8f91-650b426fb7cb",
+                            "related_uuid": "8f3451e4-03d0-4570-89a3-82febe1f79c0",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a26245b4-35b9-4ba8-a2f8-befb8c61f223",
+            "properties": {
+                "name": "Janet Matsuda\u200b",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a26245b4-35b9-4ba8-a2f8-befb8c61f223",
+                    "value": "Janet Matsuda\u200b"
+                },
+                "linkedin": "janetmatsuda",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f4b6ea9-a82c-4a61-ba30-edcee6968d5a",
+                            "related_uuid": "a26245b4-35b9-4ba8-a2f8-befb8c61f223",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3d7c5ac8-f996-43c5-97c7-77774ad424dd",
+            "properties": {
+                "name": "Amrit Chaudhuri",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3d7c5ac8-f996-43c5-97c7-77774ad424dd",
+                    "value": "Amrit Chaudhuri"
+                },
+                "linkedin": "amriteshchaudhuri",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07dc49d9-ad1b-41b0-b836-1f074f9d9cf6",
+                            "related_uuid": "3d7c5ac8-f996-43c5-97c7-77774ad424dd",
+                            "properties": {
+                                "job_title": "EVP and CMO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

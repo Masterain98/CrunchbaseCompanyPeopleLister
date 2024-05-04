@@ -1,0 +1,98 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "d8227ade-ac1c-4478-94d7-51a5d11412d8",
+            "properties": {
+                "name": "Renee Olson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d8227ade-ac1c-4478-94d7-51a5d11412d8",
+                    "value": "Renee Olson"
+                },
+                "linkedin": "reneelolson",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3f124e9f-86f2-40d4-a69f-b3614eb9f5ad",
+                            "related_uuid": "d8227ade-ac1c-4478-94d7-51a5d11412d8",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "59467449-0ae5-42a3-a95c-f0bba251baa8",
+            "properties": {
+                "name": "Renee Thomas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "59467449-0ae5-42a3-a95c-f0bba251baa8",
+                    "value": "Renee Thomas"
+                },
+                "linkedin": "reneelthomas",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2c6eaec5-8727-4bfe-934d-b5262257b5e3",
+                            "related_uuid": "59467449-0ae5-42a3-a95c-f0bba251baa8",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4c9ec9ce-0bde-4fc6-a14b-86e8c81d3190",
+            "properties": {
+                "name": "Stephanie Birnstiel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4c9ec9ce-0bde-4fc6-a14b-86e8c81d3190",
+                    "value": "Stephanie Birnstiel"
+                },
+                "linkedin": "stephaniebirnstiel",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "230b8b5b-e611-4862-ad34-764fe4d99050",
+                            "related_uuid": "4c9ec9ce-0bde-4fc6-a14b-86e8c81d3190",
+                            "properties": {
+                                "job_title": "Director, EMEA Customer Success and INTL. Renewals"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

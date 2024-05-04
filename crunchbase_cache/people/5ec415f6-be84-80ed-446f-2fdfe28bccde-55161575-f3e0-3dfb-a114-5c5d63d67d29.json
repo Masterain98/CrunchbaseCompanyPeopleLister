@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ced6da42-5b53-49ea-aa4e-50274f99365c",
+            "properties": {
+                "name": "Ryan Denehy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ced6da42-5b53-49ea-aa4e-50274f99365c",
+                    "value": "Ryan Denehy"
+                },
+                "linkedin": "ryandenehy",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "050dc434-24f4-4d99-8c55-1da3733b0f84",
+                            "related_uuid": "ced6da42-5b53-49ea-aa4e-50274f99365c",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7484fb62-f08f-4cbd-bf20-1c7eff8cf60e",
+            "properties": {
+                "name": "Ryan Denehy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7484fb62-f08f-4cbd-bf20-1c7eff8cf60e",
+                    "value": "Ryan Denehy"
+                },
+                "linkedin": "ryan-denehy-5b87a85",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3d684d73-a354-4a29-875f-17a1337805ba",
+                            "related_uuid": "7484fb62-f08f-4cbd-bf20-1c7eff8cf60e",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

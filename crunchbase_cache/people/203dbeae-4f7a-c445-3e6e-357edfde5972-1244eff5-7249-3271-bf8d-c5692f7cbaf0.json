@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d59cae82-0284-4e78-b6c9-ca0bd4fe4b8c",
+            "properties": {
+                "name": "Peter Maude",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d59cae82-0284-4e78-b6c9-ca0bd4fe4b8c",
+                    "value": "Peter Maude"
+                },
+                "linkedin": "peter-maude-4591b2",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4a4f8511-fc33-4063-a61e-c7a27adb7d1c",
+                            "related_uuid": "d59cae82-0284-4e78-b6c9-ca0bd4fe4b8c",
+                            "properties": {
+                                "job_title": "CTO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

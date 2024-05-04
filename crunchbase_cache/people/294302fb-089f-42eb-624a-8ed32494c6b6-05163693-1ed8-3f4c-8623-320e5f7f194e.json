@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "66021627-96cc-4104-851a-91aaba03607e",
+            "properties": {
+                "name": "Jeff Hasen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "66021627-96cc-4104-851a-91aaba03607e",
+                    "value": "Jeff Hasen"
+                },
+                "linkedin": "jeffhasen",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6eafde8c-9ea6-415a-a950-0c3a1f68d901",
+                            "related_uuid": "66021627-96cc-4104-851a-91aaba03607e",
+                            "properties": {
+                                "job_title": "Director of Content & Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

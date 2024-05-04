@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "27a6a139-6002-48e8-a0ed-5acdf1c7ceab",
+            "properties": {
+                "name": "Zachary Garippa",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "27a6a139-6002-48e8-a0ed-5acdf1c7ceab",
+                    "value": "Zachary Garippa"
+                },
+                "linkedin": "zachary-garippa-3a832642",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "75442d86-d2e5-46e2-8cf7-53ecba142c98",
+                            "related_uuid": "27a6a139-6002-48e8-a0ed-5acdf1c7ceab",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

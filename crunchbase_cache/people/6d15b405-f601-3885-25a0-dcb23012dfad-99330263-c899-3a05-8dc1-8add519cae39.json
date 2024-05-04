@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e33cdf37-bcac-43f6-afa8-5da88fbcf788",
+            "properties": {
+                "name": "Jeff Denworth",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e33cdf37-bcac-43f6-afa8-5da88fbcf788",
+                    "value": "Jeff Denworth"
+                },
+                "linkedin": "jeffreydenworth",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ef27288-6050-47d6-b2ce-ab5f80e0633e",
+                            "related_uuid": "e33cdf37-bcac-43f6-afa8-5da88fbcf788",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

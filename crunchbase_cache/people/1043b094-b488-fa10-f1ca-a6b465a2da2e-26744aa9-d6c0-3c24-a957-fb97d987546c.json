@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2ab16f10-99ee-4cc5-8cae-ff814be25532",
+            "properties": {
+                "name": "Christian Kircher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2ab16f10-99ee-4cc5-8cae-ff814be25532",
+                    "value": "Christian Kircher"
+                },
+                "linkedin": "christiankircher",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "48b48cfe-c6b7-47b4-8cec-443ef3da2adf",
+                            "related_uuid": "2ab16f10-99ee-4cc5-8cae-ff814be25532",
+                            "properties": {
+                                "job_title": "Contractor Software Packaging Engineer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

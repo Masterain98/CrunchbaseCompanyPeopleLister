@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "89b42024-62c7-4faf-b457-19447619adcb",
+            "properties": {
+                "name": "Kelsey Ostendorf",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "89b42024-62c7-4faf-b457-19447619adcb",
+                    "value": "Kelsey Ostendorf"
+                },
+                "linkedin": "kelsey-ostendorf-90665225",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8f804c7c-f241-4705-a17d-6fba4ce18de0",
+                            "related_uuid": "89b42024-62c7-4faf-b457-19447619adcb",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

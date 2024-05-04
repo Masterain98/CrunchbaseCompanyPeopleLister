@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0d99fda6-15c5-4939-b7c1-6d48c331879a",
+            "properties": {
+                "name": "Jon Kondo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0d99fda6-15c5-4939-b7c1-6d48c331879a",
+                    "value": "Jon Kondo"
+                },
+                "linkedin": "jonkondo",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "797f5df9-0273-48d4-aaa7-773e78767500",
+                            "related_uuid": "0d99fda6-15c5-4939-b7c1-6d48c331879a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

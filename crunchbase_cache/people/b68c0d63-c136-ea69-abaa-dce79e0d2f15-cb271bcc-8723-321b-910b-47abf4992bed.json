@@ -1,0 +1,129 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "9af39c63-9d0a-46e4-8350-10325691d372",
+            "properties": {
+                "name": "Ali McAnaney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9af39c63-9d0a-46e4-8350-10325691d372",
+                    "value": "Ali McAnaney"
+                },
+                "linkedin": "ali-mcananey-19254b23",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9d668bda-950d-45da-95bd-e693d6c5de8f",
+                            "related_uuid": "9af39c63-9d0a-46e4-8350-10325691d372",
+                            "properties": {
+                                "job_title": "Director, Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a6ec4d47-1d65-4c13-a388-709e89516f9c",
+            "properties": {
+                "name": "Christine Lawther, Ph.D.",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a6ec4d47-1d65-4c13-a388-709e89516f9c",
+                    "value": "Christine Lawther, Ph.D."
+                },
+                "linkedin": "christine-lawther-ph-d-685b661b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c25ef8cc-6439-4d64-a018-2847d940f64d",
+                            "related_uuid": "a6ec4d47-1d65-4c13-a388-709e89516f9c",
+                            "properties": {
+                                "job_title": "Director, Customer Success, Mid Market"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c37de742-5335-4cdf-8bf3-4e2a009d45e5",
+            "properties": {
+                "name": "Mark Schnake",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c37de742-5335-4cdf-8bf3-4e2a009d45e5",
+                    "value": "Mark Schnake"
+                },
+                "linkedin": "mark-schnake",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ffa6065d-304d-4345-ae46-79d4db1537f5",
+                            "related_uuid": "c37de742-5335-4cdf-8bf3-4e2a009d45e5",
+                            "properties": {
+                                "job_title": "Director, Customer Success, Strategic"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b669a957-4e36-4299-afc1-be06c152328b",
+            "properties": {
+                "name": "Mark Schnake",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b669a957-4e36-4299-afc1-be06c152328b",
+                    "value": "Mark Schnake"
+                },
+                "linkedin": "mark-schnake",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d7ee4716-4d0a-4c18-9afa-43204aff7294",
+                            "related_uuid": "b669a957-4e36-4299-afc1-be06c152328b",
+                            "properties": {
+                                "job_title": "Director, Customer Success, Strategic"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

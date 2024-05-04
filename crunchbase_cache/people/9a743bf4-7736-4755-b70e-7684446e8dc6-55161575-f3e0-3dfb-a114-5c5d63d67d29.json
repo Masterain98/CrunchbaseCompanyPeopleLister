@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e9be3dad-3257-456e-afff-bb3506402e27",
+            "properties": {
+                "name": "Malte Kosub",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e9be3dad-3257-456e-afff-bb3506402e27",
+                    "value": "Malte Kosub"
+                },
+                "linkedin": "maltekosub",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "424c4a00-369b-45dd-ab78-e8688bf2731c",
+                            "related_uuid": "e9be3dad-3257-456e-afff-bb3506402e27",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

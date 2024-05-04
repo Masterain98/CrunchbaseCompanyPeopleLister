@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "38ec72f4-24b6-4fdd-b3c1-72b8af37307c",
+            "properties": {
+                "name": "Cameron Watson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "38ec72f4-24b6-4fdd-b3c1-72b8af37307c",
+                    "value": "Cameron Watson"
+                },
+                "linkedin": "camerontwatson",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "196399d1-ed62-4ff9-ae26-6cae3d4373f2",
+                            "related_uuid": "38ec72f4-24b6-4fdd-b3c1-72b8af37307c",
+                            "properties": {
+                                "job_title": "Senior Creative Director - Corporate Marketing"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

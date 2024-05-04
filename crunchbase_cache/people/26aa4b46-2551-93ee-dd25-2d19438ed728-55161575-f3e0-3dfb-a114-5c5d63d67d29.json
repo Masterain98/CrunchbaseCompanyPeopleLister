@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4d2082e9-6a3e-438e-9405-61fe9bd4a38f",
+            "properties": {
+                "name": "Tomas Gogar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4d2082e9-6a3e-438e-9405-61fe9bd4a38f",
+                    "value": "Tomas Gogar"
+                },
+                "linkedin": "tomas-gogar-1b99682b",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "abd64aa7-e5a7-4711-814c-f0daa29530a7",
+                            "related_uuid": "4d2082e9-6a3e-438e-9405-61fe9bd4a38f",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

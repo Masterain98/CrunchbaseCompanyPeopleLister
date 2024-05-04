@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "20e7c608-af0a-4238-a030-be81131529d8",
+            "properties": {
+                "name": "Jason McAllister",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "20e7c608-af0a-4238-a030-be81131529d8",
+                    "value": "Jason McAllister"
+                },
+                "linkedin": "jasonkmcallister",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a3785772-70d4-4316-bb76-cce04ca85a9a",
+                            "related_uuid": "20e7c608-af0a-4238-a030-be81131529d8",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

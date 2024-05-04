@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4447d30a-d7dd-4042-8407-1b3df06a490c",
+            "properties": {
+                "name": "Nikolaus Kimla",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4447d30a-d7dd-4042-8407-1b3df06a490c",
+                    "value": "Nikolaus Kimla"
+                },
+                "linkedin": "nikolauskimla",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a1a8e7d-bcc2-4f39-8bab-e113a01dfd0f",
+                            "related_uuid": "4447d30a-d7dd-4042-8407-1b3df06a490c",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

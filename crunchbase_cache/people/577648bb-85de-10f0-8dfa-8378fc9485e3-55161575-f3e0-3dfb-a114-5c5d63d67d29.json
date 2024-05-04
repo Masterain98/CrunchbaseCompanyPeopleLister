@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "6663705a-7201-4640-9f03-af2880e4e34a",
+            "properties": {
+                "name": "Jonathan Salama",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6663705a-7201-4640-9f03-af2880e4e34a",
+                    "value": "Jonathan Salama"
+                },
+                "linkedin": "jonathansalama",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a0ac423a-073b-4ece-ace1-fb8231a40739",
+                            "related_uuid": "6663705a-7201-4640-9f03-af2880e4e34a",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b5039b5f-f84f-4894-9fd2-a8da15231d9c",
+            "properties": {
+                "name": "Lily Shen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5039b5f-f84f-4894-9fd2-a8da15231d9c",
+                    "value": "Lily Shen"
+                },
+                "linkedin": "lilyshen",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "763a25d5-a741-4dcc-bb05-81cf8775e993",
+                            "related_uuid": "b5039b5f-f84f-4894-9fd2-a8da15231d9c",
+                            "properties": {
+                                "job_title": "CEO & President, Board Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

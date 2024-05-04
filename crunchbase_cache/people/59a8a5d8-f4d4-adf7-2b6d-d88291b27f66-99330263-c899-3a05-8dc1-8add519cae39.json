@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ebce7f2e-6408-4a28-9296-c17e014dc6e0",
+            "properties": {
+                "name": "Laura Carson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ebce7f2e-6408-4a28-9296-c17e014dc6e0",
+                    "value": "Laura Carson"
+                },
+                "linkedin": "go-to-market-strategist",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b55b7cb5-97a2-4644-843f-7f3f6a2d7961",
+                            "related_uuid": "ebce7f2e-6408-4a28-9296-c17e014dc6e0",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

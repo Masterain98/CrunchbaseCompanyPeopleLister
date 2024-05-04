@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "b94cb1f0-5770-4520-b0da-5942fc0a2886",
+            "properties": {
+                "name": "Lauren Loomstein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b94cb1f0-5770-4520-b0da-5942fc0a2886",
+                    "value": "Lauren Loomstein"
+                },
+                "linkedin": "lauren-taylor-",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "08ff0f78-5df7-41fc-8f86-7c2976b8d28f",
+                            "related_uuid": "b94cb1f0-5770-4520-b0da-5942fc0a2886",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a49e27a1-4c77-414c-b9b9-6f0657e3bdeb",
+            "properties": {
+                "name": "Tianca Ashford",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a49e27a1-4c77-414c-b9b9-6f0657e3bdeb",
+                    "value": "Tianca Ashford"
+                },
+                "linkedin": "tiancaashford",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a082499a-371a-48cd-8647-0a5430bcb71b",
+                            "related_uuid": "a49e27a1-4c77-414c-b9b9-6f0657e3bdeb",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

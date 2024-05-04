@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "588d8944-cfb6-4fac-bf17-7fe5670ced99",
+            "properties": {
+                "name": "Henry Katz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "588d8944-cfb6-4fac-bf17-7fe5670ced99",
+                    "value": "Henry Katz"
+                },
+                "linkedin": "henrykatzma",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b6daeea1-de15-4664-99aa-2a6499bb1caa",
+                            "related_uuid": "588d8944-cfb6-4fac-bf17-7fe5670ced99",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

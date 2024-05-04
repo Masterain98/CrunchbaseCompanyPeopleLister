@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6a4bfc17-58f8-4112-a024-54a3192757bf",
+            "properties": {
+                "name": "Temy Mancusi-Ungaro",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6a4bfc17-58f8-4112-a024-54a3192757bf",
+                    "value": "Temy Mancusi-Ungaro"
+                },
+                "linkedin": "tmancusi",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9988f035-d4c9-4a9f-84bf-c686e8cab795",
+                            "related_uuid": "6a4bfc17-58f8-4112-a024-54a3192757bf",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

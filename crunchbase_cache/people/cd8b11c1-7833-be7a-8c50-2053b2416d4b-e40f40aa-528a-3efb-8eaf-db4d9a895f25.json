@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b9279c37-2567-4a6b-a4fd-7c593ad490ed",
+            "properties": {
+                "name": "Melissa Passehl",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b9279c37-2567-4a6b-a4fd-7c593ad490ed",
+                    "value": "Melissa Passehl"
+                },
+                "linkedin": "melissapassehl",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c798a616-89c3-4792-97a7-fe84eb260997",
+                            "related_uuid": "b9279c37-2567-4a6b-a4fd-7c593ad490ed",
+                            "properties": {
+                                "job_title": "Director, Creative and Brand"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

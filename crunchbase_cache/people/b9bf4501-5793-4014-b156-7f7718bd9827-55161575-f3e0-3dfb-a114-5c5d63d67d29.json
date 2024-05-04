@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b6af7f47-07e9-41e3-ad3e-880c7e9e82f1",
+            "properties": {
+                "name": "Gadi Bashvitz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b6af7f47-07e9-41e3-ad3e-880c7e9e82f1",
+                    "value": "Gadi Bashvitz"
+                },
+                "linkedin": "bashvitz",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "61d079de-c2b9-4918-b9e7-349e507ca23a",
+                            "related_uuid": "b6af7f47-07e9-41e3-ad3e-880c7e9e82f1",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

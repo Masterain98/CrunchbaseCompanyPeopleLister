@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b85cf3c9-bed6-481d-ac47-a976b2e51276",
+            "properties": {
+                "name": "Alex Collmer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b85cf3c9-bed6-481d-ac47-a976b2e51276",
+                    "value": "Alex Collmer"
+                },
+                "linkedin": "alexcollmer",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ebdb4017-c5b6-4c0a-912a-b33662fd3401",
+                            "related_uuid": "b85cf3c9-bed6-481d-ac47-a976b2e51276",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

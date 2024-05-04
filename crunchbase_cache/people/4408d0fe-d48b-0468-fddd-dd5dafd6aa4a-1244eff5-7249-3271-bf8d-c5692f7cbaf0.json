@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "78467cbb-3d07-484d-b15c-dcb0101cf276",
+            "properties": {
+                "name": "Sam Haas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "78467cbb-3d07-484d-b15c-dcb0101cf276",
+                    "value": "Sam Haas"
+                },
+                "linkedin": "samuel-haas",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7bd04dbf-d04c-43a4-a64b-912c1c2a81c2",
+                            "related_uuid": "78467cbb-3d07-484d-b15c-dcb0101cf276",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

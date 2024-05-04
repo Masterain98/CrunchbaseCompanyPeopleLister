@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1b02773a-7b1e-4402-bf62-c7bcd6392034",
+            "properties": {
+                "name": "Nicole Jameson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1b02773a-7b1e-4402-bf62-c7bcd6392034",
+                    "value": "Nicole Jameson"
+                },
+                "linkedin": "nicole-jameson-4a9207162",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "692ca6ec-4deb-4563-9e9a-283ca507f957",
+                            "related_uuid": "1b02773a-7b1e-4402-bf62-c7bcd6392034",
+                            "properties": {
+                                "job_title": "Onsite Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

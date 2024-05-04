@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "58650ca8-b9c2-4b45-a0a1-e1b052e6a1b1",
+            "properties": {
+                "name": "Tobias S. Troye",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "58650ca8-b9c2-4b45-a0a1-e1b052e6a1b1",
+                    "value": "Tobias S. Troye"
+                },
+                "linkedin": "tobias-s-troye-093537",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d4b70fef-63a0-4f8e-b524-1e898907073a",
+                            "related_uuid": "58650ca8-b9c2-4b45-a0a1-e1b052e6a1b1",
+                            "properties": {
+                                "job_title": "Sr. Director, Customer Success Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

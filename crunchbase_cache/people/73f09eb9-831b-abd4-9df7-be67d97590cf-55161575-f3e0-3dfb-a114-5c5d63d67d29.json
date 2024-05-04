@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "06dfaad4-f476-4980-8db7-2506f0494a14",
+            "properties": {
+                "name": "Chris Butler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "06dfaad4-f476-4980-8db7-2506f0494a14",
+                    "value": "Chris Butler"
+                },
+                "linkedin": "chrisbutler81",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4f344a1a-6482-45f1-bd76-058f8f0129f1",
+                            "related_uuid": "06dfaad4-f476-4980-8db7-2506f0494a14",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

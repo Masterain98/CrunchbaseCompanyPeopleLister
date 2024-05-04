@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a0190767-ee85-43c2-9ecb-2ab6a6457f4d",
+            "properties": {
+                "name": "Kevin Weiss",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a0190767-ee85-43c2-9ecb-2ab6a6457f4d",
+                    "value": "Kevin Weiss"
+                },
+                "linkedin": "kevin-weiss-60a201",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f920380-98d9-46dc-8e9c-7f9cb82d8293",
+                            "related_uuid": "a0190767-ee85-43c2-9ecb-2ab6a6457f4d",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

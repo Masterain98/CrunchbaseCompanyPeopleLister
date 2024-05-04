@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bffda24d-8402-4aa1-a900-7fd1cf671cb1",
+            "properties": {
+                "name": "Dimitri Lucas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bffda24d-8402-4aa1-a900-7fd1cf671cb1",
+                    "value": "Dimitri Lucas"
+                },
+                "linkedin": "dimitri-lucas",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "86e43775-2298-4cff-bb7b-48cb79b0a601",
+                            "related_uuid": "bffda24d-8402-4aa1-a900-7fd1cf671cb1",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "d2129717-6efd-43d2-9747-8ca1b49a779f",
+            "properties": {
+                "name": "Erin Bookout",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d2129717-6efd-43d2-9747-8ca1b49a779f",
+                    "value": "Erin Bookout"
+                },
+                "linkedin": "erin-r-bookout-b34a9121",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "197d7a6f-4751-4418-9681-1a4e9f1f2d58",
+                            "related_uuid": "d2129717-6efd-43d2-9747-8ca1b49a779f",
+                            "properties": {
+                                "job_title": "Manager, Regional Account Director Central/West"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7dcea993-3977-4394-8567-66e46079a4f6",
+            "properties": {
+                "name": "Jill Rademaker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7dcea993-3977-4394-8567-66e46079a4f6",
+                    "value": "Jill Rademaker"
+                },
+                "linkedin": "jillrademaker",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "94028d22-c80a-478b-b83f-71dd83b142db",
+                            "related_uuid": "7dcea993-3977-4394-8567-66e46079a4f6",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

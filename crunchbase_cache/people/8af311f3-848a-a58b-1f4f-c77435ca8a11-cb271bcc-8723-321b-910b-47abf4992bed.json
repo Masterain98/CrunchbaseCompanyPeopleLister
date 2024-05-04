@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7c735739-a3d9-40bb-a258-58c33c24b07d",
+            "properties": {
+                "name": "Przemyslaw Dogiel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7c735739-a3d9-40bb-a258-58c33c24b07d",
+                    "value": "Przemyslaw Dogiel"
+                },
+                "linkedin": "przemyslaw-dogiel-a5b03020",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "044f4afa-faf4-44b6-acac-1bd1d0ab4b00",
+                            "related_uuid": "7c735739-a3d9-40bb-a258-58c33c24b07d",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

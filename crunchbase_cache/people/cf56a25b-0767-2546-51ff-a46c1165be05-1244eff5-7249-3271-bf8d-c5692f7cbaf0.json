@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "77b5d145-6b2a-4b6b-82c2-cbe2a6391088",
+            "properties": {
+                "name": "Sergey Barysiuk",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "77b5d145-6b2a-4b6b-82c2-cbe2a6391088",
+                    "value": "Sergey Barysiuk"
+                },
+                "linkedin": "siarheibarysiuk",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9262be3b-99c0-4da6-9436-75a279825857",
+                            "related_uuid": "77b5d145-6b2a-4b6b-82c2-cbe2a6391088",
+                            "properties": {
+                                "job_title": "CTO, Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f63ce529-95d2-4a25-be2b-5d3a44b67d0d",
+            "properties": {
+                "name": "Caroline Nolan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f63ce529-95d2-4a25-be2b-5d3a44b67d0d",
+                    "value": "Caroline Nolan"
+                },
+                "linkedin": "caroline-nolan-2073991b",
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "124ba0a5-d24f-44f9-937f-7cdfb41d8606",
+                            "related_uuid": "f63ce529-95d2-4a25-be2b-5d3a44b67d0d",
+                            "properties": {
+                                "job_title": "Creative Director, Brand and Marketing \u00c2\u20ac\u201d Global"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

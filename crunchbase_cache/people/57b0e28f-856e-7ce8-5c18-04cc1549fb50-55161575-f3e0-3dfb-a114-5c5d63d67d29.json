@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bf624db4-7de8-4278-9615-5c776ccb0b8d",
+            "properties": {
+                "name": "Leore Avidar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bf624db4-7de8-4278-9615-5c776ccb0b8d",
+                    "value": "Leore Avidar"
+                },
+                "linkedin": "bavidar",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ab1dfb80-925a-4179-b376-cb69d4dfc8f5",
+                            "related_uuid": "bf624db4-7de8-4278-9615-5c776ccb0b8d",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

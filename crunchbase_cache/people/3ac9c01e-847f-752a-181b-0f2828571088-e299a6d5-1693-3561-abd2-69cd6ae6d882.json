@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f8d51de5-d75a-484c-839a-fbed4ff05b7f",
+            "properties": {
+                "name": "Dharmendra Jain",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f8d51de5-d75a-484c-839a-fbed4ff05b7f",
+                    "value": "Dharmendra Jain"
+                },
+                "linkedin": "dharmendrajain",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "88c2c6fe-8e35-4713-a30a-a77c80e611c6",
+                            "related_uuid": "f8d51de5-d75a-484c-839a-fbed4ff05b7f",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

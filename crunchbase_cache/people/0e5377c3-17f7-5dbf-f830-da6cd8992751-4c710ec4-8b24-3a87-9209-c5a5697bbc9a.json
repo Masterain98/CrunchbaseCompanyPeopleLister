@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b7d2c4d1-ddf8-4834-938d-e40800a5dd3b",
+            "properties": {
+                "name": "Samantha Pang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b7d2c4d1-ddf8-4834-938d-e40800a5dd3b",
+                    "value": "Samantha Pang"
+                },
+                "linkedin": "samantha-pang",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director",
+                    "l_400_vp"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4460a4d8-34f4-4584-8c92-c1573f5b1006",
+                            "related_uuid": "b7d2c4d1-ddf8-4834-938d-e40800a5dd3b",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

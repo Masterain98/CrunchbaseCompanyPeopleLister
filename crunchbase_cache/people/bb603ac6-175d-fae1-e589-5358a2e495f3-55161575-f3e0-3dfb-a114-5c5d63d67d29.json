@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "3be5c7ba-84c7-405f-889c-afd9d5a0eded",
+            "properties": {
+                "name": "John B.",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3be5c7ba-84c7-405f-889c-afd9d5a0eded",
+                    "value": "John B."
+                },
+                "linkedin": "john-b-2952641a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "295824e0-69cc-4245-8315-50416080e180",
+                            "related_uuid": "3be5c7ba-84c7-405f-889c-afd9d5a0eded",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1b162545-e998-428d-b0d2-697b2ca90953",
+            "properties": {
+                "name": "John Box",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1b162545-e998-428d-b0d2-697b2ca90953",
+                    "value": "John Box"
+                },
+                "linkedin": "john-box-2952641a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00b82083-e3c3-4270-bd67-bdb93417f809",
+                            "related_uuid": "1b162545-e998-428d-b0d2-697b2ca90953",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

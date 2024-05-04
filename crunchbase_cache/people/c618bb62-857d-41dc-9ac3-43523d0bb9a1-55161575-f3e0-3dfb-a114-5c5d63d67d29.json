@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "38444308-c68b-4f35-b4a7-9e3238dd6442",
+            "properties": {
+                "name": "Christian Kletzl",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "38444308-c68b-4f35-b4a7-9e3238dd6442",
+                    "value": "Christian Kletzl"
+                },
+                "linkedin": "christiankletzl",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "746b7d5d-4afe-42d3-b720-a82ab154eb43",
+                            "related_uuid": "38444308-c68b-4f35-b4a7-9e3238dd6442",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

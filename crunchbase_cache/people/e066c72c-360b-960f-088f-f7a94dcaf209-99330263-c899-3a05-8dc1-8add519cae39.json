@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "42450e33-c565-43a0-aeb8-b095fdf675c1",
+            "properties": {
+                "name": "Nnamdi Nwoke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "42450e33-c565-43a0-aeb8-b095fdf675c1",
+                    "value": "Nnamdi Nwoke"
+                },
+                "linkedin": "nnamdinwoke",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "62636e5b-5e24-4185-bdda-813a99a2ec92",
+                            "related_uuid": "42450e33-c565-43a0-aeb8-b095fdf675c1",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "979d6bd9-6fd3-461f-8cb2-93874f66eb94",
+            "properties": {
+                "name": "Prashant Bhatia",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "979d6bd9-6fd3-461f-8cb2-93874f66eb94",
+                    "value": "Prashant Bhatia"
+                },
+                "linkedin": "prashant-bhatia-b863121",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b25ba3ef-7754-42b6-b87f-dd023909ec10",
+                            "related_uuid": "979d6bd9-6fd3-461f-8cb2-93874f66eb94",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

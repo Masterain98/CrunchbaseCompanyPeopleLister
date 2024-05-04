@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "42d083ef-7f19-4eb0-bf44-6c5a924402ee",
+            "properties": {
+                "name": "Eric Ryan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "42d083ef-7f19-4eb0-bf44-6c5a924402ee",
+                    "value": "Eric Ryan"
+                },
+                "linkedin": "ericcryan",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "08ee74f3-deb1-4fd3-8595-7149e02b1ac0",
+                            "related_uuid": "42d083ef-7f19-4eb0-bf44-6c5a924402ee",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f43dc3a9-d6d5-47f5-b386-dc5188a922f9",
+            "properties": {
+                "name": "Greg Cooper",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f43dc3a9-d6d5-47f5-b386-dc5188a922f9",
+                    "value": "Greg Cooper"
+                },
+                "linkedin": "thegerg",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8f31fd4e-3ed5-43f8-bfee-2c10e8265b5c",
+                            "related_uuid": "f43dc3a9-d6d5-47f5-b386-dc5188a922f9",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

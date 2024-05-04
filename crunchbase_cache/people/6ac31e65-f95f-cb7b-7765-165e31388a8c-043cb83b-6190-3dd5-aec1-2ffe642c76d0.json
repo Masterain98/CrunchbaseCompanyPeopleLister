@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5228659e-7aa3-4d37-b7dd-d54e326607db",
+            "properties": {
+                "name": "Lauren O'Mahony",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5228659e-7aa3-4d37-b7dd-d54e326607db",
+                    "value": "Lauren O'Mahony"
+                },
+                "linkedin": "lauren-o-mahony-b100782",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "580ce122-3ed7-4fb9-8475-c9555eab49fc",
+                            "related_uuid": "5228659e-7aa3-4d37-b7dd-d54e326607db",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

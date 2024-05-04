@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2a86bca9-759d-441b-a841-59bff2ada01b",
+            "properties": {
+                "name": "Mike Bushman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2a86bca9-759d-441b-a841-59bff2ada01b",
+                    "value": "Mike Bushman"
+                },
+                "linkedin": "bushman",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ce22e0d7-7201-46a0-862b-e0acb9dcaa9c",
+                            "related_uuid": "2a86bca9-759d-441b-a841-59bff2ada01b",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

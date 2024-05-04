@@ -1,0 +1,190 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "uuid": "077f3ee1-b80a-4245-b462-6efd4dce64ec",
+            "properties": {
+                "name": "Aruti Ishrish",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "077f3ee1-b80a-4245-b462-6efd4dce64ec",
+                    "value": "Aruti Ishrish"
+                },
+                "linkedin": "arutiishrish",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e1616d8-b5d5-41ff-9c23-80ac680b0fdb",
+                            "related_uuid": "077f3ee1-b80a-4245-b462-6efd4dce64ec",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bef21866-82e2-4a7d-b2da-18a13549c2a7",
+            "properties": {
+                "name": "Ben Breeze",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bef21866-82e2-4a7d-b2da-18a13549c2a7",
+                    "value": "Ben Breeze"
+                },
+                "linkedin": "ben-breeze-10bb7a106",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e2371fa1-0201-4c88-9da7-88b6d1f35f71",
+                            "related_uuid": "bef21866-82e2-4a7d-b2da-18a13549c2a7",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "88618c13-912c-411f-b8d2-c1e71716f350",
+            "properties": {
+                "name": "Kaitlin Ramos",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "88618c13-912c-411f-b8d2-c1e71716f350",
+                    "value": "Kaitlin Ramos"
+                },
+                "linkedin": "kaitlin-ramos-5b079279",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a786b37-7b7e-4d89-a25f-6fdf57811224",
+                            "related_uuid": "88618c13-912c-411f-b8d2-c1e71716f350",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b5e1a72f-931a-4b91-9b13-fbe355bfac2c",
+            "properties": {
+                "name": "Prasenjit Choudhury",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5e1a72f-931a-4b91-9b13-fbe355bfac2c",
+                    "value": "Prasenjit Choudhury"
+                },
+                "linkedin": "prasenjitchoudhury",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "01ab38f7-90bf-4330-967d-293a2c266cee",
+                            "related_uuid": "b5e1a72f-931a-4b91-9b13-fbe355bfac2c",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "16a08cd0-590c-498e-90e7-3d74af903d21",
+            "properties": {
+                "name": "Subhra Bhattacharya",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "16a08cd0-590c-498e-90e7-3d74af903d21",
+                    "value": "Subhra Bhattacharya"
+                },
+                "linkedin": "subhra-bhattacharya",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "70f417fd-311e-4fa1-ac82-383d5cd96857",
+                            "related_uuid": "16a08cd0-590c-498e-90e7-3d74af903d21",
+                            "properties": {
+                                "job_title": "Director, Customer Success Strategy & Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2907ac33-e63c-47aa-8b02-1de9ef0f55a7",
+            "properties": {
+                "name": "Travis Gollaher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2907ac33-e63c-47aa-8b02-1de9ef0f55a7",
+                    "value": "Travis Gollaher"
+                },
+                "linkedin": "travis-gollaher",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ed7cd433-512f-425f-9b99-745feec42bea",
+                            "related_uuid": "2907ac33-e63c-47aa-8b02-1de9ef0f55a7",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

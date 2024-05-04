@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8af0f631-5d49-4ef7-8f6a-1ade246278ea",
+            "properties": {
+                "name": "Harpal Sandhu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8af0f631-5d49-4ef7-8f6a-1ade246278ea",
+                    "value": "Harpal Sandhu"
+                },
+                "linkedin": "harpal-sandhu-961a774",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a58012d9-4d47-4fb9-9aec-6bf837ea7542",
+                            "related_uuid": "8af0f631-5d49-4ef7-8f6a-1ade246278ea",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

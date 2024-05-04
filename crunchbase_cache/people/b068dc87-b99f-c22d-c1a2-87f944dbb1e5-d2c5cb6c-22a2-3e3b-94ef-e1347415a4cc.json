@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6bf87323-41b1-4186-adbf-15140d417629",
+            "properties": {
+                "name": "Christina Harewood",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6bf87323-41b1-4186-adbf-15140d417629",
+                    "value": "Christina Harewood"
+                },
+                "linkedin": "christinaharewood",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "442061ef-cdcd-414c-ad16-fa621f79b5f6",
+                            "related_uuid": "6bf87323-41b1-4186-adbf-15140d417629",
+                            "properties": {
+                                "job_title": "Director of Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

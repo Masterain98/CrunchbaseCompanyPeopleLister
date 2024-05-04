@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "947ef145-95d3-48cd-b6df-0ce4d449b84f",
+            "properties": {
+                "name": "Shameek Ghosh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "947ef145-95d3-48cd-b6df-0ce4d449b84f",
+                    "value": "Shameek Ghosh"
+                },
+                "linkedin": "shameek",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "718b5340-a249-46bc-9c9c-1d590383b57d",
+                            "related_uuid": "947ef145-95d3-48cd-b6df-0ce4d449b84f",
+                            "properties": {
+                                "job_title": "CEO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

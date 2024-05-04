@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ec7cfe77-7ef7-4b8f-871c-75fb60380ecd",
+            "properties": {
+                "name": "Dave Murphy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ec7cfe77-7ef7-4b8f-871c-75fb60380ecd",
+                    "value": "Dave Murphy"
+                },
+                "linkedin": "dmurphy4040",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "42fb8cf0-d26a-463a-8dee-2fff2334f39f",
+                            "related_uuid": "ec7cfe77-7ef7-4b8f-871c-75fb60380ecd",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

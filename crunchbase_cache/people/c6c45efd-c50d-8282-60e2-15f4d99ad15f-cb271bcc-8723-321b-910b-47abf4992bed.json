@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "53d32dee-7a99-4638-9beb-948829e7ef0e",
+            "properties": {
+                "name": "Carly-Rae Moss",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "53d32dee-7a99-4638-9beb-948829e7ef0e",
+                    "value": "Carly-Rae Moss"
+                },
+                "linkedin": "carly-rae-moss",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e8e33b68-98ba-46fe-9c07-e5012150a544",
+                            "related_uuid": "53d32dee-7a99-4638-9beb-948829e7ef0e",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

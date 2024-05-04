@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0c166f35-f8eb-4e1d-96e6-9b690c9e43fc",
+            "properties": {
+                "name": "Dave Taylor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0c166f35-f8eb-4e1d-96e6-9b690c9e43fc",
+                    "value": "Dave Taylor"
+                },
+                "linkedin": "davertaylor",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "291d4456-934c-4db2-a988-8562c17c1677",
+                            "related_uuid": "0c166f35-f8eb-4e1d-96e6-9b690c9e43fc",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

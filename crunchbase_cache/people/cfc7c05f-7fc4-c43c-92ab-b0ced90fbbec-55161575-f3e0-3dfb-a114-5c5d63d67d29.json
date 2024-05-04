@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "69252b07-aa97-4b79-ab51-4258af3d7954",
+            "properties": {
+                "name": "Morris Panner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "69252b07-aa97-4b79-ab51-4258af3d7954",
+                    "value": "Morris Panner"
+                },
+                "linkedin": "morris-panner-895128",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "82ba4f75-3798-4110-a4d7-9b3abbdd325f",
+                            "related_uuid": "69252b07-aa97-4b79-ab51-4258af3d7954",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

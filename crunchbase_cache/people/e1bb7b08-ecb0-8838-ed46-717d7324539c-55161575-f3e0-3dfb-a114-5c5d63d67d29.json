@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "a343ce08-1d4f-4158-976d-4da962237e27",
+            "properties": {
+                "name": "Cecilia Qvist",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a343ce08-1d4f-4158-976d-4da962237e27",
+                    "value": "Cecilia Qvist"
+                },
+                "linkedin": "cecilia-qvist-73b30",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9767861e-008a-42e1-878f-59e5ae5fae38",
+                            "related_uuid": "a343ce08-1d4f-4158-976d-4da962237e27",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b633f001-767a-46fe-9723-e24d56d6e522",
+            "properties": {
+                "name": "David Fattal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b633f001-767a-46fe-9723-e24d56d6e522",
+                    "value": "David Fattal"
+                },
+                "linkedin": "david-fattal-925335",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2d639d22-9f13-44e4-a0f8-8189b6beafea",
+                            "related_uuid": "b633f001-767a-46fe-9723-e24d56d6e522",
+                            "properties": {
+                                "job_title": "Founder + CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

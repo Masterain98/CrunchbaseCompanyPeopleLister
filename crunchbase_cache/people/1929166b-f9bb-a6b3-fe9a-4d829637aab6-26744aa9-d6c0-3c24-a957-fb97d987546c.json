@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "da526e40-a3aa-4a50-a6d5-b4f2876d6bbe",
+            "properties": {
+                "name": "Katy Graham",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "da526e40-a3aa-4a50-a6d5-b4f2876d6bbe",
+                    "value": "Katy Graham"
+                },
+                "linkedin": "katy-murray-graham",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a2d8ef6-625a-47a3-9ee2-fe16db58be94",
+                            "related_uuid": "da526e40-a3aa-4a50-a6d5-b4f2876d6bbe",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

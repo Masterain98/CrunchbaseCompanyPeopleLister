@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6ac8d19e-65e8-416f-bdf8-a2ab50664f55",
+            "properties": {
+                "name": "Jason Kassin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6ac8d19e-65e8-416f-bdf8-a2ab50664f55",
+                    "value": "Jason Kassin"
+                },
+                "linkedin": "jason-kassin-8956788",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "685eb457-bb84-42e2-8d0d-969acb7da48c",
+                            "related_uuid": "6ac8d19e-65e8-416f-bdf8-a2ab50664f55",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "556eb915-bc83-4185-bb6a-09eff00ddd91",
+            "properties": {
+                "name": "Amit Shamgar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "556eb915-bc83-4185-bb6a-09eff00ddd91",
+                    "value": "Amit Shamgar"
+                },
+                "linkedin": "amitsharma",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5c97a9eb-2a26-4027-acb3-7ab2d6333ca3",
+                            "related_uuid": "556eb915-bc83-4185-bb6a-09eff00ddd91",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "884f4252-a56c-4bf4-bc70-139dd0722aee",
+            "properties": {
+                "name": "Kelvin Cheung",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "884f4252-a56c-4bf4-bc70-139dd0722aee",
+                    "value": "Kelvin Cheung"
+                },
+                "linkedin": "kelvin-cheung-1805681",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "43dcf97b-356a-4d4c-9327-30ef66f04727",
+                            "related_uuid": "884f4252-a56c-4bf4-bc70-139dd0722aee",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

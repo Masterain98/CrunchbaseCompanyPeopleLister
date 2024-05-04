@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f460a047-7172-438c-9b89-7f605ba47693",
+            "properties": {
+                "name": "Cai GoGwilt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f460a047-7172-438c-9b89-7f605ba47693",
+                    "value": "Cai GoGwilt"
+                },
+                "linkedin": "cai-gogwilt-77b18a22",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b803586b-6295-43a3-998f-7097f191dbbf",
+                            "related_uuid": "f460a047-7172-438c-9b89-7f605ba47693",
+                            "properties": {
+                                "job_title": "Co-Founder and Chief Architect"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2081845e-a30a-4b73-9d41-927f1d6d7054",
+            "properties": {
+                "name": "Michael Berman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2081845e-a30a-4b73-9d41-927f1d6d7054",
+                    "value": "Michael Berman"
+                },
+                "linkedin": "michael-berman-2747056",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "29c03b40-324b-40ba-9ca3-8438778a5fd0",
+                            "related_uuid": "2081845e-a30a-4b73-9d41-927f1d6d7054",
+                            "properties": {
+                                "job_title": "CEO and Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

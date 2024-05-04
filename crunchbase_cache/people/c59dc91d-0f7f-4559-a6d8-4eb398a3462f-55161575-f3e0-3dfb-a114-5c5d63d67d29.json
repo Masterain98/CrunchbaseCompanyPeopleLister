@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d292bdcb-349b-41b2-a971-163eabc44c43",
+            "properties": {
+                "name": "Victor Riparbelli",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d292bdcb-349b-41b2-a971-163eabc44c43",
+                    "value": "Victor Riparbelli"
+                },
+                "linkedin": "victorriparbelli",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "534ca171-0053-43a8-bbd6-6013fe1170ad",
+                            "related_uuid": "d292bdcb-349b-41b2-a971-163eabc44c43",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

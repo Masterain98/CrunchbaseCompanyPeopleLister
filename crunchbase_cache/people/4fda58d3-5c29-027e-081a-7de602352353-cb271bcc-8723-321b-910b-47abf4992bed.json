@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fe055a03-cf3d-4acf-8f8d-859fa6cc318f",
+            "properties": {
+                "name": "Mitchell Ashcroft",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fe055a03-cf3d-4acf-8f8d-859fa6cc318f",
+                    "value": "Mitchell Ashcroft"
+                },
+                "linkedin": "mitchell-ashcroft",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e2f0694d-ef4a-43e0-8768-5c96566888a2",
+                            "related_uuid": "fe055a03-cf3d-4acf-8f8d-859fa6cc318f",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c847315e-6804-4ecb-bbf8-e1a129266a80",
+            "properties": {
+                "name": "Christopher Yang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c847315e-6804-4ecb-bbf8-e1a129266a80",
+                    "value": "Christopher Yang"
+                },
+                "linkedin": "christopher-yang-a629a658",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00ff34b0-f620-41ad-ac4e-c12049605b77",
+                            "related_uuid": "c847315e-6804-4ecb-bbf8-e1a129266a80",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ac1b0aa2-f272-42c1-8828-d87edc05701e",
+            "properties": {
+                "name": "Brian Moore",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ac1b0aa2-f272-42c1-8828-d87edc05701e",
+                    "value": "Brian Moore"
+                },
+                "linkedin": "brimoor",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0d9982df-5dd0-452c-9df1-059e60bc3669",
+                            "related_uuid": "ac1b0aa2-f272-42c1-8828-d87edc05701e",
+                            "properties": {
+                                "job_title": "Co-Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cb5e0178-5b9a-402e-9931-2aceca0cb9a8",
+            "properties": {
+                "name": "Nathan Kundtz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cb5e0178-5b9a-402e-9931-2aceca0cb9a8",
+                    "value": "Nathan Kundtz"
+                },
+                "linkedin": "nathan-kundtz-b2605726",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "42e50590-fa60-461a-970e-036324ad4c0f",
+                            "related_uuid": "cb5e0178-5b9a-402e-9931-2aceca0cb9a8",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

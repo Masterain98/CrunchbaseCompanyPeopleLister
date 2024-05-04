@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f81f4996-0d5f-42fd-bd96-b553d1b603a9",
+            "properties": {
+                "name": "Sue Asprey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f81f4996-0d5f-42fd-bd96-b553d1b603a9",
+                    "value": "Sue Asprey"
+                },
+                "linkedin": "sue-asprey-7033aa4",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d433a07c-8c5e-4c8a-96db-2ed291db83ad",
+                            "related_uuid": "f81f4996-0d5f-42fd-bd96-b553d1b603a9",
+                            "properties": {
+                                "job_title": "Commercial Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

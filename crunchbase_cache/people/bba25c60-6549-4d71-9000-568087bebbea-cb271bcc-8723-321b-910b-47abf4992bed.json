@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "26b8bda5-cffa-4945-a6fd-af188ff04879",
+            "properties": {
+                "name": "Chris Weddick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "26b8bda5-cffa-4945-a6fd-af188ff04879",
+                    "value": "Chris Weddick"
+                },
+                "linkedin": "chrisweddick",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4e8a7e63-0cfe-489b-8972-b2666799bd14",
+                            "related_uuid": "26b8bda5-cffa-4945-a6fd-af188ff04879",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

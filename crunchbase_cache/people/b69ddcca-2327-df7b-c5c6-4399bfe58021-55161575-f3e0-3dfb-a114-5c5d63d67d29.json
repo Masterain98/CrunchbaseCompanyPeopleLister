@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "889222dd-064b-4e6e-b0a2-913e84cecbf5",
+            "properties": {
+                "name": "Dana Jones",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "889222dd-064b-4e6e-b0a2-913e84cecbf5",
+                    "value": "Dana Jones"
+                },
+                "linkedin": "danasjones",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "198c1ffb-7f58-42a6-82f2-69d693bb1801",
+                            "related_uuid": "889222dd-064b-4e6e-b0a2-913e84cecbf5",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8aa8162c-4bfd-4080-87a0-4b2769edcb8c",
+            "properties": {
+                "name": "Stephen T. Winn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8aa8162c-4bfd-4080-87a0-4b2769edcb8c",
+                    "value": "Stephen T. Winn"
+                },
+                "linkedin": "winnsteve",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "987b4634-b6d4-40f8-93e7-e3fc901c5b41",
+                            "related_uuid": "8aa8162c-4bfd-4080-87a0-4b2769edcb8c",
+                            "properties": {
+                                "job_title": "Chairman and Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

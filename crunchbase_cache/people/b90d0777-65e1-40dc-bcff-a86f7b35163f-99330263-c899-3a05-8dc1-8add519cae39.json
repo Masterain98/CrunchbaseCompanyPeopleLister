@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "940ef302-f039-4d3c-9918-a6a2b45cfceb",
+            "properties": {
+                "name": "Scott Brazina",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "940ef302-f039-4d3c-9918-a6a2b45cfceb",
+                    "value": "Scott Brazina"
+                },
+                "linkedin": "sbgglobal",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a14002e-a2b2-4963-9852-fd0aa9eef706",
+                            "related_uuid": "940ef302-f039-4d3c-9918-a6a2b45cfceb",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

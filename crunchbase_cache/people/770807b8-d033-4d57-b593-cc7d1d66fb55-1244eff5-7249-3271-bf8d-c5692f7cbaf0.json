@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ce14ee83-d113-4cce-85c5-0633f35f9d6f",
+            "properties": {
+                "name": "Justin Hipple",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ce14ee83-d113-4cce-85c5-0633f35f9d6f",
+                    "value": "Justin Hipple"
+                },
+                "linkedin": "justin-hipple",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4ab8b946-b782-4f29-83b6-cf4e1f756c29",
+                            "related_uuid": "ce14ee83-d113-4cce-85c5-0633f35f9d6f",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "7eace33f-ecc8-4801-b646-5836214a1d3c",
+            "properties": {
+                "name": "Vinay Sridhara",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7eace33f-ecc8-4801-b646-5836214a1d3c",
+                    "value": "Vinay Sridhara"
+                },
+                "linkedin": "vinay-sridhara-190467",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07eaf441-52f5-4e4d-8f79-731356a1a660",
+                            "related_uuid": "7eace33f-ecc8-4801-b646-5836214a1d3c",
+                            "properties": {
+                                "job_title": "CTO and Head of Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "fd4a7c83-4b08-49c6-a05c-0ae554fc46f9",
+            "properties": {
+                "name": "Vinay Sridhara",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fd4a7c83-4b08-49c6-a05c-0ae554fc46f9",
+                    "value": "Vinay Sridhara"
+                },
+                "linkedin": "vinay-sridhara",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3478d6e6-c85c-47cd-b147-088691394fb9",
+                            "related_uuid": "fd4a7c83-4b08-49c6-a05c-0ae554fc46f9",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

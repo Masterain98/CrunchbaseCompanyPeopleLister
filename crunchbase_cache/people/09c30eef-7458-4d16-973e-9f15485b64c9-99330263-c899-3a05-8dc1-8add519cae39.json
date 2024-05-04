@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "176c3da8-dd49-4bec-bd3c-22bad3f75e7e",
+            "properties": {
+                "name": "Piet Loubser",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "176c3da8-dd49-4bec-bd3c-22bad3f75e7e",
+                    "value": "Piet Loubser"
+                },
+                "linkedin": "pietloubser",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3d48ef10-7d70-4ece-90bd-22bbcb28cbb8",
+                            "related_uuid": "176c3da8-dd49-4bec-bd3c-22bad3f75e7e",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

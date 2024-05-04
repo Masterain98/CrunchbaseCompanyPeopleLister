@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "84162d99-9fe2-4788-ba69-97a561d0c4e1",
+            "properties": {
+                "name": "Mark Wheeler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "84162d99-9fe2-4788-ba69-97a561d0c4e1",
+                    "value": "Mark Wheeler"
+                },
+                "linkedin": "markwheeler",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a69a8439-4ce8-4e42-8df0-c9a9e028982d",
+                            "related_uuid": "84162d99-9fe2-4788-ba69-97a561d0c4e1",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

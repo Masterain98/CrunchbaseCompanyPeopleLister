@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "32756cfd-a5e4-40be-bce5-70c3616a57a0",
+            "properties": {
+                "name": "Gina Hortatsos",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "32756cfd-a5e4-40be-bce5-70c3616a57a0",
+                    "value": "Gina Hortatsos"
+                },
+                "linkedin": "ginahortatsos",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4789b133-a74f-4ae0-806c-8bf7b97b81ff",
+                            "related_uuid": "32756cfd-a5e4-40be-bce5-70c3616a57a0",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c0575e1c-3842-4d9e-a351-14c33e36972f",
+            "properties": {
+                "name": "Brian Hartley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c0575e1c-3842-4d9e-a351-14c33e36972f",
+                    "value": "Brian Hartley"
+                },
+                "linkedin": "brian-hartley-93090728",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4dc04baf-466f-4fc8-94e6-a49497466981",
+                            "related_uuid": "c0575e1c-3842-4d9e-a351-14c33e36972f",
+                            "properties": {
+                                "job_title": "Senior Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

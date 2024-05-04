@@ -1,0 +1,13 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "junior-sales-consultant",
+                "uuid": "8fdff7b8-7fae-3606-baf6-ad4560da3beb",
+                "value": "Junior Sales Consultant"
+            }
+        }
+    ]
+}

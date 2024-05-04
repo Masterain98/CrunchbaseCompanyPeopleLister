@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1923cf90-fbe1-40f7-b84e-82e2816d160a",
+            "properties": {
+                "name": "Mahmoud Arram",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1923cf90-fbe1-40f7-b84e-82e2816d160a",
+                    "value": "Mahmoud Arram"
+                },
+                "linkedin": "marram",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cec4cc3b-e49d-4bb0-8268-06332a10322c",
+                            "related_uuid": "1923cf90-fbe1-40f7-b84e-82e2816d160a",
+                            "properties": {
+                                "job_title": "Cofounder and CTO - We're Hiring!"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7fc6f1ee-2b4c-4f03-a6ed-4574b09f8ec9",
+            "properties": {
+                "name": "Bart Heilbron",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7fc6f1ee-2b4c-4f03-a6ed-4574b09f8ec9",
+                    "value": "Bart Heilbron"
+                },
+                "linkedin": "bart-heilbron-ba02251",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "330c5d54-07c6-495b-a7dc-2f9f449fefbd",
+                            "related_uuid": "7fc6f1ee-2b4c-4f03-a6ed-4574b09f8ec9",
+                            "properties": {
+                                "job_title": "CEO/Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

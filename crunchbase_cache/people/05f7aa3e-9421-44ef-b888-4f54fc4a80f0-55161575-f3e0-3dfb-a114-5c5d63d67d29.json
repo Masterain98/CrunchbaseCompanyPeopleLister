@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "64140834-60cc-4ab4-a123-259f0b5e44df",
+            "properties": {
+                "name": "Vince Romanin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "64140834-60cc-4ab4-a123-259f0b5e44df",
+                    "value": "Vince Romanin"
+                },
+                "linkedin": "vromanin",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "445639b1-d3e2-4864-af74-ef3983892cb5",
+                            "related_uuid": "64140834-60cc-4ab4-a123-259f0b5e44df",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "71ccb5d9-04d5-426a-92f6-8fed6c3494a4",
+            "properties": {
+                "name": "David Ossip",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "71ccb5d9-04d5-426a-92f6-8fed6c3494a4",
+                    "value": "David Ossip"
+                },
+                "linkedin": "dossip",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "21106da8-e671-4b38-94c3-79b77875d6d0",
+                            "related_uuid": "71ccb5d9-04d5-426a-92f6-8fed6c3494a4",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3af63520-5e57-45c7-8f89-ca3e5d5d797b",
+            "properties": {
+                "name": "Leagh Turner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3af63520-5e57-45c7-8f89-ca3e5d5d797b",
+                    "value": "Leagh Turner"
+                },
+                "linkedin": "leagh-turner-698b3710",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ae2454f1-9216-4f2a-b28d-ea7ba3090186",
+                            "related_uuid": "3af63520-5e57-45c7-8f89-ca3e5d5d797b",
+                            "properties": {
+                                "job_title": "Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

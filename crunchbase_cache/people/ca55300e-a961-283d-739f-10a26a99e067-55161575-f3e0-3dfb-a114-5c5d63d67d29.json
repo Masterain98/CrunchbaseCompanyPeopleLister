@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5c2d13f9-8f84-4a4c-91b1-13bf14664163",
+            "properties": {
+                "name": "Ryan Urban",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5c2d13f9-8f84-4a4c-91b1-13bf14664163",
+                    "value": "Ryan Urban"
+                },
+                "linkedin": "ryanurban",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b0a7b2ec-8972-4960-97d1-c2e7de3f88ce",
+                            "related_uuid": "5c2d13f9-8f84-4a4c-91b1-13bf14664163",
+                            "properties": {
+                                "job_title": "CEO Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

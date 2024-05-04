@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "81f6aca6-ca39-4e3e-813b-272a79282dc5",
+            "properties": {
+                "name": "Shane Heelan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "81f6aca6-ca39-4e3e-813b-272a79282dc5",
+                    "value": "Shane Heelan"
+                },
+                "linkedin": "shane-heelan-2214164",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4b973f5b-35af-4999-83a1-edcecfe838d5",
+                            "related_uuid": "81f6aca6-ca39-4e3e-813b-272a79282dc5",
+                            "properties": {
+                                "job_title": "Director of Global Supply Chain"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

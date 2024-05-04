@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4512ba70-5c64-470e-881a-2cc529481b5e",
+            "properties": {
+                "name": "Austen Ezzell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4512ba70-5c64-470e-881a-2cc529481b5e",
+                    "value": "Austen Ezzell"
+                },
+                "linkedin": "austenezzell",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4fb29796-b234-4861-8b1c-b8313c8563fd",
+                            "related_uuid": "4512ba70-5c64-470e-881a-2cc529481b5e",
+                            "properties": {
+                                "job_title": "Head of Design"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

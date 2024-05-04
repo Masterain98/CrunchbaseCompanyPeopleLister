@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1ae5d126-e77e-44aa-aa7c-c4507d04ecc3",
+            "properties": {
+                "name": "Jeremiah Jacobs",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1ae5d126-e77e-44aa-aa7c-c4507d04ecc3",
+                    "value": "Jeremiah Jacobs"
+                },
+                "linkedin": "jeremiah-jacobs-39410520",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a972e5da-e33b-4a68-a76c-fef18d2a1283",
+                            "related_uuid": "1ae5d126-e77e-44aa-aa7c-c4507d04ecc3",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

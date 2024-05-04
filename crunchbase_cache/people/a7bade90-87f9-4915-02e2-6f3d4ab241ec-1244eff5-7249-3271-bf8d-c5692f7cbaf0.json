@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3823c9a3-9608-4d42-9d97-fc56553f9fd7",
+            "properties": {
+                "name": "Rodney Fullmer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3823c9a3-9608-4d42-9d97-fc56553f9fd7",
+                    "value": "Rodney Fullmer"
+                },
+                "linkedin": "rodneyfullmer",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "69ee883b-61ad-4149-813b-fc7881f9c40a",
+                            "related_uuid": "3823c9a3-9608-4d42-9d97-fc56553f9fd7",
+                            "properties": {
+                                "job_title": "Global CTO, Arrow Global Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "63069680-7dc5-41c3-8f11-bc4b4aef4172",
+            "properties": {
+                "name": "Jenna Flink",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "63069680-7dc5-41c3-8f11-bc4b4aef4172",
+                    "value": "Jenna Flink"
+                },
+                "linkedin": "jenna-flink-8495a7b5",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "93d74c32-4720-4db7-b48c-9c28bd0ca67c",
+                            "related_uuid": "63069680-7dc5-41c3-8f11-bc4b4aef4172",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "23946bc2-c12e-45ef-84b3-2cfd96b814a3",
+            "properties": {
+                "name": "Lauren Staley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "23946bc2-c12e-45ef-84b3-2cfd96b814a3",
+                    "value": "Lauren Staley"
+                },
+                "linkedin": "laurenstaley",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "24bcc5ce-d75c-40d9-a99d-7e98791a9e9b",
+                            "related_uuid": "23946bc2-c12e-45ef-84b3-2cfd96b814a3",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "dbc88257-d049-45bd-b825-d2a28cd2b303",
+            "properties": {
+                "name": "Liz Merkens (Holman)",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dbc88257-d049-45bd-b825-d2a28cd2b303",
+                    "value": "Liz Merkens (Holman)"
+                },
+                "linkedin": "lizmerkens",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6dda09c7-8f37-411f-97f5-2b879ab892ea",
+                            "related_uuid": "dbc88257-d049-45bd-b825-d2a28cd2b303",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

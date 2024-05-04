@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "10deb1ff-a150-4356-b250-f691346d6f95",
+            "properties": {
+                "name": "Scott Chate",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "10deb1ff-a150-4356-b250-f691346d6f95",
+                    "value": "Scott Chate"
+                },
+                "linkedin": "scottchate",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2ebce780-e1d4-4bbf-9d9f-0cca2c1c9bdb",
+                            "related_uuid": "10deb1ff-a150-4356-b250-f691346d6f95",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

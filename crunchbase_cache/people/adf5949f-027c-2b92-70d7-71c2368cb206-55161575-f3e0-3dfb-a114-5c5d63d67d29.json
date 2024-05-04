@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "35ff0439-d991-4b4b-9a46-a87e052feb5f",
+            "properties": {
+                "name": "Jan Bednar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "35ff0439-d991-4b4b-9a46-a87e052feb5f",
+                    "value": "Jan Bednar"
+                },
+                "linkedin": "janbed",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3c673c24-e68a-4c01-a7e5-be14a1e8f40d",
+                            "related_uuid": "35ff0439-d991-4b4b-9a46-a87e052feb5f",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

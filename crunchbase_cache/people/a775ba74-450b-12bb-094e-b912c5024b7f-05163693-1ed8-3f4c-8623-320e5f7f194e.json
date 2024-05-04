@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b38d789f-92d9-4391-9001-2305e99d3906",
+            "properties": {
+                "name": "Amanda Moss",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b38d789f-92d9-4391-9001-2305e99d3906",
+                    "value": "Amanda Moss"
+                },
+                "linkedin": "amandajmoss",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "05d5a1aa-0229-45f7-9d7b-90b2db9045a6",
+                            "related_uuid": "b38d789f-92d9-4391-9001-2305e99d3906",
+                            "properties": {
+                                "job_title": "Director, Marketing and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

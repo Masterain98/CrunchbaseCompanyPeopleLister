@@ -1,0 +1,30 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c36afcc0-aa70-4c79-b19e-453d6b392249",
+            "properties": {
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c36afcc0-aa70-4c79-b19e-453d6b392249",
+                    "value": "Claude Denton"
+                },
+                "name": "Claude Denton",
+                "linkedin": "claude-denton-a9b2561"
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5c5c4529-3b2b-42be-88ec-078a9dfe6b34",
+                            "related_uuid": "c36afcc0-aa70-4c79-b19e-453d6b392249",
+                            "properties": {
+                                "job_title": "Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

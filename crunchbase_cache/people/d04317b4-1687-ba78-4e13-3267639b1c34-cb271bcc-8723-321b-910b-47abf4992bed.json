@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cb92f334-d5c7-487f-97de-bf8dfb1d073d",
+            "properties": {
+                "name": "Kamaljit Sahota",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cb92f334-d5c7-487f-97de-bf8dfb1d073d",
+                    "value": "Kamaljit Sahota"
+                },
+                "linkedin": "kazksahota",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d6293c8c-1cf0-4626-95bd-fa19e41c07ac",
+                            "related_uuid": "cb92f334-d5c7-487f-97de-bf8dfb1d073d",
+                            "properties": {
+                                "job_title": "Director CX, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

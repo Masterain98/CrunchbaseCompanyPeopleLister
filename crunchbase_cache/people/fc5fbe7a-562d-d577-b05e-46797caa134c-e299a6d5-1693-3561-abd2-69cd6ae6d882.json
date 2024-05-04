@@ -1,0 +1,100 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "d275bd53-7d5c-4cb9-bb2d-32a203385169",
+            "properties": {
+                "name": "Alan Kohlscheen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d275bd53-7d5c-4cb9-bb2d-32a203385169",
+                    "value": "Alan Kohlscheen"
+                },
+                "linkedin": "alan-kohlscheen-19280020",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "33d0e14a-a470-4510-af02-00441af560b8",
+                            "related_uuid": "d275bd53-7d5c-4cb9-bb2d-32a203385169",
+                            "properties": {
+                                "job_title": "Director of Import Compliance and Supply Chain Security"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c4a4acb5-eb04-4e57-b29c-09f3328d9260",
+            "properties": {
+                "name": "Gary Wenthold",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c4a4acb5-eb04-4e57-b29c-09f3328d9260",
+                    "value": "Gary Wenthold"
+                },
+                "linkedin": "gary-wenthold-6618b743",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6e953657-1ff5-4eb1-90ba-3bdb8a25cf88",
+                            "related_uuid": "c4a4acb5-eb04-4e57-b29c-09f3328d9260",
+                            "properties": {
+                                "job_title": "Finance and Administration"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cca3ac41-b498-47bf-900c-a2ef9bdaee08",
+            "properties": {
+                "name": "Tim Wibert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cca3ac41-b498-47bf-900c-a2ef9bdaee08",
+                    "value": "Tim Wibert"
+                },
+                "linkedin": "tim-wibert-7106b54",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b591291d-08cb-4263-9f06-ba6daeb7b1ec",
+                            "related_uuid": "cca3ac41-b498-47bf-900c-a2ef9bdaee08",
+                            "properties": {
+                                "job_title": "Director of Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "dbd6677d-1c76-42a2-b493-062299cd8c63",
+            "properties": {
+                "name": "Kevin Creusy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dbd6677d-1c76-42a2-b493-062299cd8c63",
+                    "value": "Kevin Creusy"
+                },
+                "linkedin": "kevin-creusy-79682924",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8d800a13-3c06-4442-8f96-c90f32b381ba",
+                            "related_uuid": "dbd6677d-1c76-42a2-b493-062299cd8c63",
+                            "properties": {
+                                "job_title": "Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6d7edf62-efcf-43c9-914b-38c0908d0e99",
+            "properties": {
+                "name": "Vivien Garnes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6d7edf62-efcf-43c9-914b-38c0908d0e99",
+                    "value": "Vivien Garnes"
+                },
+                "linkedin": "vgarnes",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19d9bb1a-d051-4fd7-8f2c-34cf1bb4f74d",
+                            "related_uuid": "6d7edf62-efcf-43c9-914b-38c0908d0e99",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e733ae75-3443-43aa-a922-f9f216694737",
+            "properties": {
+                "name": "Bob Cahill",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e733ae75-3443-43aa-a922-f9f216694737",
+                    "value": "Bob Cahill"
+                },
+                "linkedin": "robertcahill",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "be19ef30-0ac1-4dc1-8143-175091f6bbc6",
+                            "related_uuid": "e733ae75-3443-43aa-a922-f9f216694737",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

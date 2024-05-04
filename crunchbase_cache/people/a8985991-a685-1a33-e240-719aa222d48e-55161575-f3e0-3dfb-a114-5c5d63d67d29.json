@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5fae5ae3-9c47-4ac9-8635-573aa690f56e",
+            "properties": {
+                "name": "Vinay Samuel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5fae5ae3-9c47-4ac9-8635-573aa690f56e",
+                    "value": "Vinay Samuel"
+                },
+                "linkedin": "vinaysamuel",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3a79a104-de4c-4928-b0b5-ad6a2bffe8cf",
+                            "related_uuid": "5fae5ae3-9c47-4ac9-8635-573aa690f56e",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

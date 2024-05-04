@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a9cdf424-9e97-4bfb-b8cf-499f71ad71c8",
+            "properties": {
+                "name": "Ryan Fischman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a9cdf424-9e97-4bfb-b8cf-499f71ad71c8",
+                    "value": "Ryan Fischman"
+                },
+                "linkedin": "ryanfischman",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6d5ad393-ffe2-464d-b181-75ba0abd0ed4",
+                            "related_uuid": "a9cdf424-9e97-4bfb-b8cf-499f71ad71c8",
+                            "properties": {
+                                "job_title": "Regional Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

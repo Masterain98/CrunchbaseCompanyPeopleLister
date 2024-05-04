@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bf315279-232a-44be-90fd-5556be671f4a",
+            "properties": {
+                "name": "Mangal A.",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bf315279-232a-44be-90fd-5556be671f4a",
+                    "value": "Mangal A."
+                },
+                "linkedin": "mangalprasad",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9c827fd5-d8dd-4018-b966-33d042fe81ec",
+                            "related_uuid": "bf315279-232a-44be-90fd-5556be671f4a",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

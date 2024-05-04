@@ -1,0 +1,129 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "a2ba3fd1-22fa-4a5d-b621-6e1534e6e37f",
+            "properties": {
+                "name": "Matthew Hurford",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a2ba3fd1-22fa-4a5d-b621-6e1534e6e37f",
+                    "value": "Matthew Hurford"
+                },
+                "linkedin": "matthew-hurford-5b91a1a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9fbc8d9c-27ac-40e4-9c97-405733e0257a",
+                            "related_uuid": "a2ba3fd1-22fa-4a5d-b621-6e1534e6e37f",
+                            "properties": {
+                                "job_title": "VP, Solutions Engineering & Field CTO for Asia Pacific"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "307f7a84-9452-4cc2-997c-b2a36f788cee",
+            "properties": {
+                "name": "Troy Wilson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "307f7a84-9452-4cc2-997c-b2a36f788cee",
+                    "value": "Troy Wilson"
+                },
+                "linkedin": "troywilson",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2ce4d6f6-9fa3-4ee2-9098-0d7761646fdd",
+                            "related_uuid": "307f7a84-9452-4cc2-997c-b2a36f788cee",
+                            "properties": {
+                                "job_title": "Deputy CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5bf7945a-965c-4a20-9485-208c8a0b577c",
+            "properties": {
+                "name": "Mike Johnson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5bf7945a-965c-4a20-9485-208c8a0b577c",
+                    "value": "Mike Johnson"
+                },
+                "linkedin": "michael-johnson-netapp",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7caad930-2495-40ae-a74e-f62160b98523",
+                            "related_uuid": "5bf7945a-965c-4a20-9485-208c8a0b577c",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "fbeeff57-37cc-42f9-a338-565613e1c65d",
+            "properties": {
+                "name": "Robert Gordon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fbeeff57-37cc-42f9-a338-565613e1c65d",
+                    "value": "Robert Gordon"
+                },
+                "linkedin": "roberthgordon",
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ad47d57c-3665-43e9-b52d-c98caccc27af",
+                            "related_uuid": "fbeeff57-37cc-42f9-a338-565613e1c65d",
+                            "properties": {
+                                "job_title": "Cloud Infrastructure Federal CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

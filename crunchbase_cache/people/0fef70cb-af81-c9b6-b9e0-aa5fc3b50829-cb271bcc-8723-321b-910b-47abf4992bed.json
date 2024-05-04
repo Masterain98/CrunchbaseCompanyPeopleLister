@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "f1aabaf9-f55d-4a6f-a42c-f7780c5baff0",
+            "properties": {
+                "name": "Nick Stannard",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f1aabaf9-f55d-4a6f-a42c-f7780c5baff0",
+                    "value": "Nick Stannard"
+                },
+                "linkedin": "nstannard",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "252e9657-cc02-4ed7-a582-dad70287c1e7",
+                            "related_uuid": "f1aabaf9-f55d-4a6f-a42c-f7780c5baff0",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f9dcb380-a831-434f-a3a3-a69d5765141e",
+            "properties": {
+                "name": "Sherrill Roberts",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f9dcb380-a831-434f-a3a3-a69d5765141e",
+                    "value": "Sherrill Roberts"
+                },
+                "linkedin": "sherrillroberts",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f803666a-2b17-41dd-ba1a-6ed31780c65f",
+                            "related_uuid": "f9dcb380-a831-434f-a3a3-a69d5765141e",
+                            "properties": {
+                                "job_title": "Director, Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

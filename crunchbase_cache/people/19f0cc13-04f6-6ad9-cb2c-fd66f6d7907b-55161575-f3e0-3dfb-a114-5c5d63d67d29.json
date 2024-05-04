@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "63b97774-90bd-4757-8a81-661fb729afad",
+            "properties": {
+                "name": "Olof Mathe",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "63b97774-90bd-4757-8a81-661fb729afad",
+                    "value": "Olof Mathe"
+                },
+                "linkedin": "olofmathe",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4a9156f1-f4bb-4f9c-b3c2-611efe68ac9e",
+                            "related_uuid": "63b97774-90bd-4757-8a81-661fb729afad",
+                            "properties": {
+                                "job_title": "Co-Founder /CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

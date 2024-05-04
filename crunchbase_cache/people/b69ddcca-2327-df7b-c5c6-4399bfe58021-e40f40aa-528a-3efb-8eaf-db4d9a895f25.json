@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "8fafcc23-dba4-4311-8f6c-d7450007504b",
+            "properties": {
+                "name": "Charlie Pitcher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8fafcc23-dba4-4311-8f6c-d7450007504b",
+                    "value": "Charlie Pitcher"
+                },
+                "linkedin": "charliepitcher",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "42ea355f-ff6a-43f9-9c32-a619456f0ad1",
+                            "related_uuid": "8fafcc23-dba4-4311-8f6c-d7450007504b",
+                            "properties": {
+                                "job_title": "Creative Director, Brand"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "490ba044-ed1b-41bb-9b42-199c43403a17",
+            "properties": {
+                "name": "Patrick Beckman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "490ba044-ed1b-41bb-9b42-199c43403a17",
+                    "value": "Patrick Beckman"
+                },
+                "linkedin": "patrick-beckman-589a6777",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "404ab9f4-33c9-4df8-808f-538692eae696",
+                            "related_uuid": "490ba044-ed1b-41bb-9b42-199c43403a17",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

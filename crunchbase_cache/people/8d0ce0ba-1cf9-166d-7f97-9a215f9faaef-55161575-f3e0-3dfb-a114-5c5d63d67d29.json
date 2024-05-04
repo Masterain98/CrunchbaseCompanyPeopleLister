@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6a1584f0-9fc6-4ebd-bb02-f49693fa6d6c",
+            "properties": {
+                "name": "Joe Du Bey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6a1584f0-9fc6-4ebd-bb02-f49693fa6d6c",
+                    "value": "Joe Du Bey"
+                },
+                "linkedin": "joedubey",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7f03afee-bab4-485e-a0c7-708e4e385a43",
+                            "related_uuid": "6a1584f0-9fc6-4ebd-bb02-f49693fa6d6c",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

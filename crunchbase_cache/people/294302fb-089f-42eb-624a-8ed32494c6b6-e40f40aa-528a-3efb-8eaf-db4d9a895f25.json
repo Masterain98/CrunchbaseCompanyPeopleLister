@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "c4d24f3d-24b5-4bf4-bcef-b2123a493745",
+            "properties": {
+                "name": "Bryan Gough",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c4d24f3d-24b5-4bf4-bcef-b2123a493745",
+                    "value": "Bryan Gough"
+                },
+                "linkedin": "bryan-gough-0371983",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "09e54d2d-014a-4f05-9c85-e9007ad9ade2",
+                            "related_uuid": "c4d24f3d-24b5-4bf4-bcef-b2123a493745",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "766f8f59-b037-4cbf-a34d-46880e508d8e",
+            "properties": {
+                "name": "Linnea Kliv",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "766f8f59-b037-4cbf-a34d-46880e508d8e",
+                    "value": "Linnea Kliv"
+                },
+                "linkedin": "linneakliv",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "74c1e29d-3809-44a4-8158-94e35a4ee2e1",
+                            "related_uuid": "766f8f59-b037-4cbf-a34d-46880e508d8e",
+                            "properties": {
+                                "job_title": "Brand Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "3ca34216-156b-418a-b4ab-7bb893d78262",
+            "properties": {
+                "name": "Eric Holmen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ca34216-156b-418a-b4ab-7bb893d78262",
+                    "value": "Eric Holmen"
+                },
+                "linkedin": "holmen",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4a7740aa-6757-4b26-aab3-8d022aa351cc",
+                            "related_uuid": "3ca34216-156b-418a-b4ab-7bb893d78262",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e790dffa-5ed1-40dc-94da-5ee70c37bfb3",
+            "properties": {
+                "name": "Ben Hindman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e790dffa-5ed1-40dc-94da-5ee70c37bfb3",
+                    "value": "Ben Hindman"
+                },
+                "linkedin": "ben-hindman-a7928834",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "37d55d60-2384-495f-a3f7-930a2542d0ab",
+                            "related_uuid": "e790dffa-5ed1-40dc-94da-5ee70c37bfb3",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

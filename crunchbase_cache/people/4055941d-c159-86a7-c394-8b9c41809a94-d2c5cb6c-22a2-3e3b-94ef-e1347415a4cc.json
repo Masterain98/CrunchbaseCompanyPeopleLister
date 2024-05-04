@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6047de22-6ba5-4d4a-9856-bb48d6f0ea89",
+            "properties": {
+                "name": "Graden Nelson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6047de22-6ba5-4d4a-9856-bb48d6f0ea89",
+                    "value": "Graden Nelson"
+                },
+                "linkedin": "gradennelson",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4ed64c1f-3de3-4679-a064-db05beefda0a",
+                            "related_uuid": "6047de22-6ba5-4d4a-9856-bb48d6f0ea89",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

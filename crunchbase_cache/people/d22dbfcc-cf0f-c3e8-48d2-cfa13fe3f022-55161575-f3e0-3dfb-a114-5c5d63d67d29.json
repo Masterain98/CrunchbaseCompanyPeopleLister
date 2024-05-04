@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7491f3a8-82ec-4458-bc2e-2637b1388c39",
+            "properties": {
+                "name": "Darrell Heaps",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7491f3a8-82ec-4458-bc2e-2637b1388c39",
+                    "value": "Darrell Heaps"
+                },
+                "linkedin": "darrellheaps",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d44eacb0-0acb-4403-bcad-f613b3f26213",
+                            "related_uuid": "7491f3a8-82ec-4458-bc2e-2637b1388c39",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

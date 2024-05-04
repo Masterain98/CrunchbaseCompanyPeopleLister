@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d933b8ec-ff04-4b1e-b8f2-8aaa59907acf",
+            "properties": {
+                "name": "Steve Lobisser",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d933b8ec-ff04-4b1e-b8f2-8aaa59907acf",
+                    "value": "Steve Lobisser"
+                },
+                "linkedin": "steven-lobisser-9900014",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "502c1083-f069-4af0-b772-3fa36053bf9b",
+                            "related_uuid": "d933b8ec-ff04-4b1e-b8f2-8aaa59907acf",
+                            "properties": {
+                                "job_title": "Director, Customer Success Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a63d2904-f00c-45d2-b7b6-e573904e80ed",
+            "properties": {
+                "name": "Matt Carter",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a63d2904-f00c-45d2-b7b6-e573904e80ed",
+                    "value": "Matt Carter"
+                },
+                "linkedin": "cartermatt",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "633c4018-ce73-41db-be90-b3895c19e635",
+                            "related_uuid": "a63d2904-f00c-45d2-b7b6-e573904e80ed",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

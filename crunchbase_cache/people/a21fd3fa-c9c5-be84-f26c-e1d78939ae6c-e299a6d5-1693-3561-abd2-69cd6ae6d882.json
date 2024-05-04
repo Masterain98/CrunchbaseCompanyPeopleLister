@@ -1,0 +1,100 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "7d4ab39e-f632-4774-a87d-faae15a52e7a",
+            "properties": {
+                "name": "Kim Martin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7d4ab39e-f632-4774-a87d-faae15a52e7a",
+                    "value": "Kim Martin"
+                },
+                "linkedin": "kimmartin6",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "16b486f9-20f3-43b0-bc48-4b9966c4b9c4",
+                            "related_uuid": "7d4ab39e-f632-4774-a87d-faae15a52e7a",
+                            "properties": {
+                                "job_title": "Director of Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b4787d54-9e27-43f7-9497-1f05d61871f4",
+            "properties": {
+                "name": "Kristin Peppin Pryde",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b4787d54-9e27-43f7-9497-1f05d61871f4",
+                    "value": "Kristin Peppin Pryde"
+                },
+                "linkedin": "kristin-peppin-pryde-1864255b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "71f8a53c-0b17-42f0-8be7-b263933a9e62",
+                            "related_uuid": "b4787d54-9e27-43f7-9497-1f05d61871f4",
+                            "properties": {
+                                "job_title": "Director, Compliance Trust Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ecdc263d-9613-4b42-9476-7bceb687d2a3",
+            "properties": {
+                "name": "Zosh Kuball",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ecdc263d-9613-4b42-9476-7bceb687d2a3",
+                    "value": "Zosh Kuball"
+                },
+                "linkedin": "zosh-kuball-4010b916",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6c615259-d617-4818-8927-ce0c31db0daf",
+                            "related_uuid": "ecdc263d-9613-4b42-9476-7bceb687d2a3",
+                            "properties": {
+                                "job_title": "Director of Compliance Governance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

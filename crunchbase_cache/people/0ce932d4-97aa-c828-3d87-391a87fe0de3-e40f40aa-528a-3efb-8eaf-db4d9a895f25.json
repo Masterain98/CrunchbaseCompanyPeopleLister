@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "163c6672-5496-4c0d-b82a-f66aa48dd2c1",
+            "properties": {
+                "name": "Christopher Kirsh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "163c6672-5496-4c0d-b82a-f66aa48dd2c1",
+                    "value": "Christopher Kirsh"
+                },
+                "linkedin": "christopher-kirsh-8695198",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "00f81541-6ec4-4ddf-b9a9-25dd84e76156",
+                            "related_uuid": "163c6672-5496-4c0d-b82a-f66aa48dd2c1",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

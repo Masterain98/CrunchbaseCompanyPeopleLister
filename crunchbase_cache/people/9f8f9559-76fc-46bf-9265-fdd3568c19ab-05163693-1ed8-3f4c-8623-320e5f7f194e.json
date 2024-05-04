@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "657fd4e7-1c5b-4eb0-8493-5046a5c1f25f",
+            "properties": {
+                "name": "Bobby Eagle",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "657fd4e7-1c5b-4eb0-8493-5046a5c1f25f",
+                    "value": "Bobby Eagle"
+                },
+                "linkedin": "bobbyeagle",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19d50329-8d54-4b86-ab15-18475bae800b",
+                            "related_uuid": "657fd4e7-1c5b-4eb0-8493-5046a5c1f25f",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

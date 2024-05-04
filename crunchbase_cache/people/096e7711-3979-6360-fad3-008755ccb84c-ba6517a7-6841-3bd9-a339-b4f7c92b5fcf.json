@@ -1,0 +1,197 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "uuid": "ab7c3df6-1a9f-40d6-8b18-e01fe31a1f8b",
+            "properties": {
+                "name": "Tina Gross",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ab7c3df6-1a9f-40d6-8b18-e01fe31a1f8b",
+                    "value": "Tina Gross"
+                },
+                "linkedin": "tina-gross-6208586",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2ee303bd-9a98-456b-8a71-c7b8b2bac6c3",
+                            "related_uuid": "ab7c3df6-1a9f-40d6-8b18-e01fe31a1f8b",
+                            "properties": {
+                                "job_title": "CNO/Director of Clinical Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "23fd8e73-37c3-4274-9a0f-486bfe5fd488",
+            "properties": {
+                "name": "Gordan Srkalovic",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "23fd8e73-37c3-4274-9a0f-486bfe5fd488",
+                    "value": "Gordan Srkalovic"
+                },
+                "linkedin": "gordan-srkalovic-2a5b3245",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a94bb1a-9739-45af-8c42-2eb7ec7ed40d",
+                            "related_uuid": "23fd8e73-37c3-4274-9a0f-486bfe5fd488",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ed1fec22-372a-4783-b737-69d15bb7340c",
+            "properties": {
+                "name": "Gordan Srkalovic",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ed1fec22-372a-4783-b737-69d15bb7340c",
+                    "value": "Gordan Srkalovic"
+                },
+                "linkedin": "gordan-srkalovic-820b7015",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "73dd2926-3947-43d3-a849-d3ca7e66eefb",
+                            "related_uuid": "ed1fec22-372a-4783-b737-69d15bb7340c",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5ba7d973-8bce-47ab-ba97-c29faf82e46d",
+            "properties": {
+                "name": "Lisa Powell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5ba7d973-8bce-47ab-ba97-c29faf82e46d",
+                    "value": "Lisa Powell"
+                },
+                "linkedin": "lisa-powell-9684b7132",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1e70183e-c320-436f-8e8f-1afb8c7b64f8",
+                            "related_uuid": "5ba7d973-8bce-47ab-ba97-c29faf82e46d",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "32a8adc4-149a-418d-9b9e-64ae8d03990a",
+            "properties": {
+                "name": "Marianne Pilat",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "32a8adc4-149a-418d-9b9e-64ae8d03990a",
+                    "value": "Marianne Pilat"
+                },
+                "linkedin": "mariannepilat",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1579e92e-7070-42f5-b673-92fbb3ae2d72",
+                            "related_uuid": "32a8adc4-149a-418d-9b9e-64ae8d03990a",
+                            "properties": {
+                                "job_title": "Director of Performance Improvement and Clinical Outcomes"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "433dc5cb-2632-4ebb-8e2d-34e45d3cdb5b",
+            "properties": {
+                "name": "Michael Bailey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "433dc5cb-2632-4ebb-8e2d-34e45d3cdb5b",
+                    "value": "Michael Bailey"
+                },
+                "linkedin": "michael-bailey-2a985974",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "46ebafde-310b-4e9e-afc6-426d6bc1acf9",
+                            "related_uuid": "433dc5cb-2632-4ebb-8e2d-34e45d3cdb5b",
+                            "properties": {
+                                "job_title": "Director Clinical Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

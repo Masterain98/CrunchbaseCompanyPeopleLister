@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6c5de9b7-3d51-4acf-a590-d25588367753",
+            "properties": {
+                "name": "Andrew C. Wheeler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6c5de9b7-3d51-4acf-a590-d25588367753",
+                    "value": "Andrew C. Wheeler"
+                },
+                "linkedin": "andrewwheeler",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7edd0850-87c0-4071-a474-0fa50e42811e",
+                            "related_uuid": "6c5de9b7-3d51-4acf-a590-d25588367753",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

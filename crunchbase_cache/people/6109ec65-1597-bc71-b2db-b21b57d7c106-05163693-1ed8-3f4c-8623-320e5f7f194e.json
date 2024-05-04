@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "73e5da1e-b646-4e7e-8fef-f2ead12f1c30",
+            "properties": {
+                "name": "Natasha Cowan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "73e5da1e-b646-4e7e-8fef-f2ead12f1c30",
+                    "value": "Natasha Cowan"
+                },
+                "linkedin": "natashacenta",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "037e1a02-3c01-4dd8-baf3-f1428e7bd495",
+                            "related_uuid": "73e5da1e-b646-4e7e-8fef-f2ead12f1c30",
+                            "properties": {
+                                "job_title": "Marketing and Communications Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

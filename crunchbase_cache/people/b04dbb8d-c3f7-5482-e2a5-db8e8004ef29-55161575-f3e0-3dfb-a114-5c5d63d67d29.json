@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "a2ffb4de-9201-4f78-8e71-537f6c255fa2",
+            "properties": {
+                "name": "Martin Savitt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a2ffb4de-9201-4f78-8e71-537f6c255fa2",
+                    "value": "Martin Savitt"
+                },
+                "linkedin": "martin-savitt-9411954",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bf300e7b-9898-40ed-a14c-7882c26aafd8",
+                            "related_uuid": "a2ffb4de-9201-4f78-8e71-537f6c255fa2",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "161db75c-a337-45e5-a9ec-f6c1d8cfe9cc",
+            "properties": {
+                "name": "Mr. Paul Trulove",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "161db75c-a337-45e5-a9ec-f6c1d8cfe9cc",
+                    "value": "Mr. Paul Trulove"
+                },
+                "linkedin": "ptrulove",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9b33f232-95b3-46c4-a165-35d9629825fc",
+                            "related_uuid": "161db75c-a337-45e5-a9ec-f6c1d8cfe9cc",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

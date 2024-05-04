@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "4c824158-cb1f-499b-9f39-6698587ea567",
+            "properties": {
+                "name": "Jerry Ward",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4c824158-cb1f-499b-9f39-6698587ea567",
+                    "value": "Jerry Ward"
+                },
+                "linkedin": "jerry-ward-85b79b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9f54329e-2881-42eb-bcf8-e501dd3303ac",
+                            "related_uuid": "4c824158-cb1f-499b-9f39-6698587ea567",
+                            "properties": {
+                                "job_title": "Commercial Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f02608cd-4902-43ca-bc66-bc8a6e8430de",
+            "properties": {
+                "name": "Scott LaFrenz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f02608cd-4902-43ca-bc66-bc8a6e8430de",
+                    "value": "Scott LaFrenz"
+                },
+                "linkedin": "slafrenz",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9a4bc8b3-0892-46ab-8b70-53c926ae9060",
+                            "related_uuid": "f02608cd-4902-43ca-bc66-bc8a6e8430de",
+                            "properties": {
+                                "job_title": "Commercial Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

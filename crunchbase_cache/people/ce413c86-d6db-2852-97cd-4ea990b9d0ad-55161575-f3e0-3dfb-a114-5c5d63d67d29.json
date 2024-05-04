@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8510f33d-42c3-4040-b90c-923b23938681",
+            "properties": {
+                "name": "Luis Gonzalez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8510f33d-42c3-4040-b90c-923b23938681",
+                    "value": "Luis Gonzalez"
+                },
+                "linkedin": "luispgg",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "94e4a9e0-7a9b-4054-9bfb-92803d229b60",
+                            "related_uuid": "8510f33d-42c3-4040-b90c-923b23938681",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

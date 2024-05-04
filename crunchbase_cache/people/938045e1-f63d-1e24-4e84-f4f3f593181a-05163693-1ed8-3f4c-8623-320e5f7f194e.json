@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6ee51d9a-9019-4f3f-8d20-b2e6fdf0815f",
+            "properties": {
+                "name": "Nesh Pillay",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6ee51d9a-9019-4f3f-8d20-b2e6fdf0815f",
+                    "value": "Nesh Pillay"
+                },
+                "linkedin": "pillaynesh",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "47744e8b-6f5b-46b7-972b-6c2be7738cd1",
+                            "related_uuid": "6ee51d9a-9019-4f3f-8d20-b2e6fdf0815f",
+                            "properties": {
+                                "job_title": "Director of PR and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

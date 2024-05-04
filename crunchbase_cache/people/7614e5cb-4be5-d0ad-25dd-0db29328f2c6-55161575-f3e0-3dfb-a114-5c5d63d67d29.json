@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "92d9e983-60cd-4b4c-9bbf-6ab01cbbae59",
+            "properties": {
+                "name": "Greggory Heil",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "92d9e983-60cd-4b4c-9bbf-6ab01cbbae59",
+                    "value": "Greggory Heil"
+                },
+                "linkedin": "greggory-heil-815b608",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "85486eec-55ad-4f59-b347-fb9239adb09d",
+                            "related_uuid": "92d9e983-60cd-4b4c-9bbf-6ab01cbbae59",
+                            "properties": {
+                                "job_title": "CEO/Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

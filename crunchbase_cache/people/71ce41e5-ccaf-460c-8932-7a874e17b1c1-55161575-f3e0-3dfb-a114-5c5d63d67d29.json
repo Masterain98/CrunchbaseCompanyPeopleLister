@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8d557a99-3779-4d13-acf5-f8943699adbd",
+            "properties": {
+                "name": "Balaji S.",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8d557a99-3779-4d13-acf5-f8943699adbd",
+                    "value": "Balaji S."
+                },
+                "linkedin": "bsreenivasan",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "65fdbae2-b480-4fc7-bbd2-731d1140838e",
+                            "related_uuid": "8d557a99-3779-4d13-acf5-f8943699adbd",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

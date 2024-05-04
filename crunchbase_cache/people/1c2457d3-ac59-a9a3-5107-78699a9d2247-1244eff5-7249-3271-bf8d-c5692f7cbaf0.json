@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5e5d9405-10c1-48b2-b817-40ac85266a72",
+            "properties": {
+                "name": "Wei Chen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5e5d9405-10c1-48b2-b817-40ac85266a72",
+                    "value": "Wei Chen"
+                },
+                "linkedin": "wei-h-chen",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "eea16c70-3609-45fd-abdd-70e4beffa13a",
+                            "related_uuid": "5e5d9405-10c1-48b2-b817-40ac85266a72",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

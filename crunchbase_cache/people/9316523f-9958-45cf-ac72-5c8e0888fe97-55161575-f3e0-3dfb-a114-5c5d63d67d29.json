@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "29ab33af-e3fe-45dc-8030-17ab9cee375a",
+            "properties": {
+                "name": "Julio Mart\u00ednez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "29ab33af-e3fe-45dc-8030-17ab9cee375a",
+                    "value": "Julio Mart\u00ednez"
+                },
+                "linkedin": "juliomartinez1982",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9f6ff6a1-c033-4138-9a68-c671c35b98a3",
+                            "related_uuid": "29ab33af-e3fe-45dc-8030-17ab9cee375a",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

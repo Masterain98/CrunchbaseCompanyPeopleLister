@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "46a618d5-36f5-4727-9754-d91a6877d717",
+            "properties": {
+                "name": "Giuseppe Incitti",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "46a618d5-36f5-4727-9754-d91a6877d717",
+                    "value": "Giuseppe Incitti"
+                },
+                "linkedin": "giuseppeincitti",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2c827155-b370-449c-bc5b-4b64fda44a0d",
+                            "related_uuid": "46a618d5-36f5-4727-9754-d91a6877d717",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

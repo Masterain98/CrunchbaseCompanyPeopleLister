@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "097be799-c18a-4e6a-a0c6-fb6d91c0d0af",
+            "properties": {
+                "name": "Courtnee LeClaire",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "097be799-c18a-4e6a-a0c6-fb6d91c0d0af",
+                    "value": "Courtnee LeClaire"
+                },
+                "linkedin": "courtneeleclaire",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "24c1b981-14c8-496f-a801-e61e02b90209",
+                            "related_uuid": "097be799-c18a-4e6a-a0c6-fb6d91c0d0af",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

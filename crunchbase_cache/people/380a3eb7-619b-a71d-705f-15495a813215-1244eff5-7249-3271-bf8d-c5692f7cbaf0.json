@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3ce87a3c-bffa-4719-a449-94022a51ba2c",
+            "properties": {
+                "name": "William Mansfield",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ce87a3c-bffa-4719-a449-94022a51ba2c",
+                    "value": "William Mansfield"
+                },
+                "linkedin": "william-mansfield-3516065",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "45b290cb-a6f2-4548-90ac-14cc4ed66d2b",
+                            "related_uuid": "3ce87a3c-bffa-4719-a449-94022a51ba2c",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

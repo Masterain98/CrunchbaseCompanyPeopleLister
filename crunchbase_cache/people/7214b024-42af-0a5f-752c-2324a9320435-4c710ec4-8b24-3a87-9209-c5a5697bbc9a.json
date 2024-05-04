@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "95a85d6e-4e7a-4b84-9801-9da45f15bf71",
+            "properties": {
+                "name": "Tess Mcgillicuddy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "95a85d6e-4e7a-4b84-9801-9da45f15bf71",
+                    "value": "Tess Mcgillicuddy"
+                },
+                "linkedin": "tess-mcgillicuddy-5b093847",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6f05e969-b203-4ba4-ab87-3c00806ffabe",
+                            "related_uuid": "95a85d6e-4e7a-4b84-9801-9da45f15bf71",
+                            "properties": {
+                                "job_title": "Sr. Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

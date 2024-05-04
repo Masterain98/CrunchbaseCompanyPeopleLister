@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e50a791c-5384-4e37-93a9-9fab3aacf706",
+            "properties": {
+                "name": "Nat Kausik",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e50a791c-5384-4e37-93a9-9fab3aacf706",
+                    "value": "Nat Kausik"
+                },
+                "linkedin": "bnkausik",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ab0267b6-cec8-4a96-8f66-945329468287",
+                            "related_uuid": "e50a791c-5384-4e37-93a9-9fab3aacf706",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

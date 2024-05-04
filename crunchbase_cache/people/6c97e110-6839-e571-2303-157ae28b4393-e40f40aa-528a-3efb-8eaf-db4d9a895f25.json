@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4db36e61-d2d2-413a-86f3-01b707990ae3",
+            "properties": {
+                "name": "Greg Croteau",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4db36e61-d2d2-413a-86f3-01b707990ae3",
+                    "value": "Greg Croteau"
+                },
+                "linkedin": "greg-croteau-262334b1",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a78ea558-263d-47de-9f77-ca5e81752c7c",
+                            "related_uuid": "4db36e61-d2d2-413a-86f3-01b707990ae3",
+                            "properties": {
+                                "job_title": "Creative Director/Director, Brand and Creative Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

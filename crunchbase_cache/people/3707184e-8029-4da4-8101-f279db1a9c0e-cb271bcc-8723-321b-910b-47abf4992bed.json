@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "82d79d8e-b591-4c4b-b119-9d805c9b28c9",
+            "properties": {
+                "name": "Courtney Groves",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "82d79d8e-b591-4c4b-b119-9d805c9b28c9",
+                    "value": "Courtney Groves"
+                },
+                "linkedin": "courtney-groves-83396734",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d43dc2d2-a4b2-4779-b213-f725938ec942",
+                            "related_uuid": "82d79d8e-b591-4c4b-b119-9d805c9b28c9",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "29f104ca-f13d-4cea-b29c-d97db989654f",
+            "properties": {
+                "name": "Lisa Caldwell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "29f104ca-f13d-4cea-b29c-d97db989654f",
+                    "value": "Lisa Caldwell"
+                },
+                "linkedin": "caldwelllisa",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c4d2e407-dcff-45c6-b1d8-1604fa051b2b",
+                            "related_uuid": "29f104ca-f13d-4cea-b29c-d97db989654f",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

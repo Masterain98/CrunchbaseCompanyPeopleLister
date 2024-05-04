@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "afa8d2d9-94cc-4eab-aa07-71acdd8fc0a2",
+            "properties": {
+                "name": "Stephani Fitzsimmons",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "afa8d2d9-94cc-4eab-aa07-71acdd8fc0a2",
+                    "value": "Stephani Fitzsimmons"
+                },
+                "linkedin": "stephanifitz",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19af3f3e-ee75-45ec-bc6b-e592be0336ef",
+                            "related_uuid": "afa8d2d9-94cc-4eab-aa07-71acdd8fc0a2",
+                            "properties": {
+                                "job_title": "Director of Content and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

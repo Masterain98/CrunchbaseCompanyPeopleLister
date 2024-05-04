@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6d91691e-ba81-4afc-81ce-44dcdf54d0b6",
+            "properties": {
+                "name": "Justin Genovese",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6d91691e-ba81-4afc-81ce-44dcdf54d0b6",
+                    "value": "Justin Genovese"
+                },
+                "linkedin": "justingenovese",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2a0f3009-f9b3-4ae5-8a8e-4b01a36b259e",
+                            "related_uuid": "6d91691e-ba81-4afc-81ce-44dcdf54d0b6",
+                            "properties": {
+                                "job_title": "Director, Brand Creative"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

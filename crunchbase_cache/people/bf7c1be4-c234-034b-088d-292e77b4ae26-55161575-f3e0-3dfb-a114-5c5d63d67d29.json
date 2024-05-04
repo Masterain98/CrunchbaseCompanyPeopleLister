@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c3a18f46-c9b2-4e92-9359-60fe2950e32d",
+            "properties": {
+                "name": "Jason Gates",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c3a18f46-c9b2-4e92-9359-60fe2950e32d",
+                    "value": "Jason Gates"
+                },
+                "linkedin": "jason-gates-4b400326",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "417c6702-010c-41e6-9fac-bc9ab650f51d",
+                            "related_uuid": "c3a18f46-c9b2-4e92-9359-60fe2950e32d",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

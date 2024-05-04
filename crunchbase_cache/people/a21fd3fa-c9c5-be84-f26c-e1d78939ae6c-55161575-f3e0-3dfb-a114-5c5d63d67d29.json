@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e3833f59-621d-4885-9280-45dace453772",
+            "properties": {
+                "name": "Allan K.",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e3833f59-621d-4885-9280-45dace453772",
+                    "value": "Allan K."
+                },
+                "linkedin": "kellerallan",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "aa0bc47e-0760-4d59-beea-34fc2af2dedc",
+                            "related_uuid": "e3833f59-621d-4885-9280-45dace453772",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

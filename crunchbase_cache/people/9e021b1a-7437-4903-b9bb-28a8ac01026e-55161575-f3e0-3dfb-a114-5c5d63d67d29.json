@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "18ebbaa7-0b10-432a-85dc-5e8b0ab1c038",
+            "properties": {
+                "name": "Joe Duffy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "18ebbaa7-0b10-432a-85dc-5e8b0ab1c038",
+                    "value": "Joe Duffy"
+                },
+                "linkedin": "joejduffy",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6318131c-2287-45ec-bd4b-38e1173e2476",
+                            "related_uuid": "18ebbaa7-0b10-432a-85dc-5e8b0ab1c038",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

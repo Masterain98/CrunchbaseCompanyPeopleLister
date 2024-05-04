@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8267f68d-8a5f-4b8c-998d-b72f4b549daf",
+            "properties": {
+                "name": "Raphael Crawford-Marks",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8267f68d-8a5f-4b8c-998d-b72f4b549daf",
+                    "value": "Raphael Crawford-Marks"
+                },
+                "linkedin": "raphaelcm",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2dd6c80a-8334-42e1-83e7-cc0878635919",
+                            "related_uuid": "8267f68d-8a5f-4b8c-998d-b72f4b549daf",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

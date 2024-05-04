@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "61953351-fe2d-4472-b5c2-c6e48cf2af3e",
+            "properties": {
+                "name": "Jim Chen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "61953351-fe2d-4472-b5c2-c6e48cf2af3e",
+                    "value": "Jim Chen"
+                },
+                "linkedin": "mitnerd",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5df5d4ec-e7ce-4744-bd9e-a4ad7ac24f5a",
+                            "related_uuid": "61953351-fe2d-4472-b5c2-c6e48cf2af3e",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

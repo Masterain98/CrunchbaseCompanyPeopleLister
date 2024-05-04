@@ -1,0 +1,127 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "d6471285-3003-4da5-aaf2-d0e094160026",
+            "properties": {
+                "name": "Elvisa Durmic,MA",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d6471285-3003-4da5-aaf2-d0e094160026",
+                    "value": "Elvisa Durmic,MA"
+                },
+                "linkedin": "elvisadurmic",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1ee28ed6-002c-4e4e-9ced-5b1009617914",
+                            "related_uuid": "d6471285-3003-4da5-aaf2-d0e094160026",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ced1e369-f10d-4b82-ba2b-80ad4e6d539a",
+            "properties": {
+                "name": "Jason Kobs",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ced1e369-f10d-4b82-ba2b-80ad4e6d539a",
+                    "value": "Jason Kobs"
+                },
+                "linkedin": "jason-kobs",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5ad2ed6e-3901-41fe-a7d7-891e530acb7d",
+                            "related_uuid": "ced1e369-f10d-4b82-ba2b-80ad4e6d539a",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8993de7a-bd69-4b9f-bb20-46e073c05c8a",
+            "properties": {
+                "name": "Mitchell Christopher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8993de7a-bd69-4b9f-bb20-46e073c05c8a",
+                    "value": "Mitchell Christopher"
+                },
+                "linkedin": "mitch-christopher-96023353",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ee7bfb2-931a-4f1e-9c00-f7a190bc4675",
+                            "related_uuid": "8993de7a-bd69-4b9f-bb20-46e073c05c8a",
+                            "properties": {
+                                "job_title": "Director, Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "342ce9ba-6352-4a9a-9144-c1f4cee27863",
+            "properties": {
+                "name": "Natalie Lauder",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "342ce9ba-6352-4a9a-9144-c1f4cee27863",
+                    "value": "Natalie Lauder"
+                },
+                "linkedin": "natalielauder",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0da8a092-954d-4810-a79c-40d967ded33c",
+                            "related_uuid": "342ce9ba-6352-4a9a-9144-c1f4cee27863",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0580ae1c-4816-4340-a487-3ea823a54c07",
+            "properties": {
+                "name": "Julie Stiles",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0580ae1c-4816-4340-a487-3ea823a54c07",
+                    "value": "Julie Stiles"
+                },
+                "linkedin": "julie-stiles-37a82467",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "59e08c66-ad88-4c8a-9093-90c64e2d493b",
+                            "related_uuid": "0580ae1c-4816-4340-a487-3ea823a54c07",
+                            "properties": {
+                                "job_title": "Director, Tax Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

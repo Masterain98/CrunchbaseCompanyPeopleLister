@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "380a7673-6c18-4706-bef9-13fb8ad4df2d",
+            "properties": {
+                "name": "Andrew Luedke",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "380a7673-6c18-4706-bef9-13fb8ad4df2d",
+                    "value": "Andrew Luedke"
+                },
+                "linkedin": "andrewluedke",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "85cf8b1c-59f4-4cd1-a7b0-8ce854e73f0d",
+                            "related_uuid": "380a7673-6c18-4706-bef9-13fb8ad4df2d",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

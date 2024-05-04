@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ce022152-ced2-490a-9318-02b20c0a8968",
+            "properties": {
+                "name": "Jason Berkowitz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ce022152-ced2-490a-9318-02b20c0a8968",
+                    "value": "Jason Berkowitz"
+                },
+                "linkedin": "jayberk",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4e1db604-496d-4f72-bf26-d58e79d19ffc",
+                            "related_uuid": "ce022152-ced2-490a-9318-02b20c0a8968",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

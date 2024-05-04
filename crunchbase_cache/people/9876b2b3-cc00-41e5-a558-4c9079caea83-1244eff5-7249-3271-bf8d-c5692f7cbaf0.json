@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ed8be686-5586-4942-bf10-d469b2f91401",
+            "properties": {
+                "name": "David Freed",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ed8be686-5586-4942-bf10-d469b2f91401",
+                    "value": "David Freed"
+                },
+                "linkedin": "davidmfreed",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7bbe7c48-89ee-4418-937e-8c7f5ef45f57",
+                            "related_uuid": "ed8be686-5586-4942-bf10-d469b2f91401",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

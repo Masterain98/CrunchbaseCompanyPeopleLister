@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3766dfd8-87b9-475e-b032-d8f55f9483a4",
+            "properties": {
+                "name": "Madhumita Katta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3766dfd8-87b9-475e-b032-d8f55f9483a4",
+                    "value": "Madhumita Katta"
+                },
+                "linkedin": "madhumita-katta-1610815",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b959e67e-df19-44a5-af75-35933033fbde",
+                            "related_uuid": "3766dfd8-87b9-475e-b032-d8f55f9483a4",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

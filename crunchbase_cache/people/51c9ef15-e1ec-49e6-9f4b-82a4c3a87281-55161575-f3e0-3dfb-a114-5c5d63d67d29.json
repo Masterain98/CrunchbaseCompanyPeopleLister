@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9b8688c6-12fd-4989-886b-9aad4c20b555",
+            "properties": {
+                "name": "Nathan Mintz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9b8688c6-12fd-4989-886b-9aad4c20b555",
+                    "value": "Nathan Mintz"
+                },
+                "linkedin": "nmintz",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5e822d44-a898-489e-99fc-79604225e537",
+                            "related_uuid": "9b8688c6-12fd-4989-886b-9aad4c20b555",
+                            "properties": {
+                                "job_title": "Co-Founder, Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

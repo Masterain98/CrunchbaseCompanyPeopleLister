@@ -1,0 +1,98 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "a9001410-e9eb-4306-af42-d60928068042",
+            "properties": {
+                "name": "Chuck Robbins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a9001410-e9eb-4306-af42-d60928068042",
+                    "value": "Chuck Robbins"
+                },
+                "linkedin": "chuck-robbins-9b47a195",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8bd3a6c2-0541-40bb-8735-873e2c96ae33",
+                            "related_uuid": "a9001410-e9eb-4306-af42-d60928068042",
+                            "properties": {
+                                "job_title": "Chairman and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "943404f6-ddfc-4480-8563-e23ed4a97176",
+            "properties": {
+                "name": "Joe Kappia",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "943404f6-ddfc-4480-8563-e23ed4a97176",
+                    "value": "Joe Kappia"
+                },
+                "linkedin": "joe-kappia-ii-37118918",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "98116cd3-c757-4acc-9bfe-5bfbb59cf775",
+                            "related_uuid": "943404f6-ddfc-4480-8563-e23ed4a97176",
+                            "properties": {
+                                "job_title": "Founder, CEO Aphrika Global Exporting Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "51634bf0-bcb4-4855-bfbb-3b39cd37043a",
+            "properties": {
+                "name": "Katy Hayes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "51634bf0-bcb4-4855-bfbb-3b39cd37043a",
+                    "value": "Katy Hayes"
+                },
+                "linkedin": "katy-hayes-9148bb4",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "088c0c35-774d-4474-a9fd-1e4eb8c8fff3",
+                            "related_uuid": "51634bf0-bcb4-4855-bfbb-3b39cd37043a",
+                            "properties": {
+                                "job_title": "Vice President, CEO & Employee Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

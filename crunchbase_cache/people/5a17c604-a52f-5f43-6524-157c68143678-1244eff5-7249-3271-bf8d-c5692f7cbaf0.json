@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "78c2b853-2663-4896-9655-badb3192baea",
+            "properties": {
+                "name": "Stjepan Buljat",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "78c2b853-2663-4896-9655-badb3192baea",
+                    "value": "Stjepan Buljat"
+                },
+                "linkedin": "sbuljat",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c3ed1f44-f16b-4979-8d9f-c8bf3f14d68c",
+                            "related_uuid": "78c2b853-2663-4896-9655-badb3192baea",
+                            "properties": {
+                                "job_title": "CTO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

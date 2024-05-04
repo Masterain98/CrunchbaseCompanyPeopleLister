@@ -1,0 +1,223 @@
+{
+    "count": 7,
+    "entities": [
+        {
+            "uuid": "b1ef4cfe-73dd-4e19-8219-d356377bfbf1",
+            "properties": {
+                "name": "Carrie Stolarski, MBA",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b1ef4cfe-73dd-4e19-8219-d356377bfbf1",
+                    "value": "Carrie Stolarski, MBA"
+                },
+                "linkedin": "carrie-stolarski-mba-8ab58b23",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "pro_services",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2617981c-fdd2-4027-a301-40cb4c920d01",
+                            "related_uuid": "b1ef4cfe-73dd-4e19-8219-d356377bfbf1",
+                            "properties": {
+                                "job_title": "Senior Director, Client Deliverables Lead"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7f105023-e9b1-46e3-9f7a-a194c4394e92",
+            "properties": {
+                "name": "Lauren Gioino",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7f105023-e9b1-46e3-9f7a-a194c4394e92",
+                    "value": "Lauren Gioino"
+                },
+                "linkedin": "lauren-gioino-b206351b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "28753cec-affc-4fe9-a7ed-566afe7728c7",
+                            "related_uuid": "7f105023-e9b1-46e3-9f7a-a194c4394e92",
+                            "properties": {
+                                "job_title": "Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d88dee5a-c60b-4322-bb90-a6b428721328",
+            "properties": {
+                "name": "Lucie Gower",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d88dee5a-c60b-4322-bb90-a6b428721328",
+                    "value": "Lucie Gower"
+                },
+                "linkedin": "lucie-gower-53b971120",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "45b62f3f-39d5-42e3-8afd-819ce8007ba0",
+                            "related_uuid": "d88dee5a-c60b-4322-bb90-a6b428721328",
+                            "properties": {
+                                "job_title": "Director | Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c00a37d1-61d6-45c6-bc77-adc9fb2451ac",
+            "properties": {
+                "name": "Mihaela Marincat",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c00a37d1-61d6-45c6-bc77-adc9fb2451ac",
+                    "value": "Mihaela Marincat"
+                },
+                "linkedin": "mihaela-camelia-marincat-1508b658",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a776de6b-0e2f-44a6-8162-498b08d646d1",
+                            "related_uuid": "c00a37d1-61d6-45c6-bc77-adc9fb2451ac",
+                            "properties": {
+                                "job_title": "Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "37c6493f-5dde-4186-a12e-e5047b9e604a",
+            "properties": {
+                "name": "Samantha Szygiel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "37c6493f-5dde-4186-a12e-e5047b9e604a",
+                    "value": "Samantha Szygiel"
+                },
+                "linkedin": "samszygiel",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "28c33b30-5184-4a91-9e0c-3135c1fb3bd4",
+                            "related_uuid": "37c6493f-5dde-4186-a12e-e5047b9e604a",
+                            "properties": {
+                                "job_title": "Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ee1fa019-32b9-43db-bd1f-84069accc714",
+            "properties": {
+                "name": "Samantha Szygiel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ee1fa019-32b9-43db-bd1f-84069accc714",
+                    "value": "Samantha Szygiel"
+                },
+                "linkedin": "samannlevy",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "63621619-f933-4117-b9ca-63d18b6e01cc",
+                            "related_uuid": "ee1fa019-32b9-43db-bd1f-84069accc714",
+                            "properties": {
+                                "job_title": "Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "64807ac2-0196-45bc-8a99-6af061310a95",
+            "properties": {
+                "name": "Victoria Mendonca",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "64807ac2-0196-45bc-8a99-6af061310a95",
+                    "value": "Victoria Mendonca"
+                },
+                "linkedin": "victoriamarielewis",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "17ea7660-8d5b-4711-a539-7e96e75b07ef",
+                            "related_uuid": "64807ac2-0196-45bc-8a99-6af061310a95",
+                            "properties": {
+                                "job_title": "Director, Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

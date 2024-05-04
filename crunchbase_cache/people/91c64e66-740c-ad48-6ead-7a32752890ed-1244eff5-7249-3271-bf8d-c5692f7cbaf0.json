@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0a4b5165-d27a-4df4-bbdb-02b5b764025f",
+            "properties": {
+                "name": "Nick Ramond",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0a4b5165-d27a-4df4-bbdb-02b5b764025f",
+                    "value": "Nick Ramond"
+                },
+                "linkedin": "nickramond",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6ca380a7-b0fe-4686-82cd-866cd62a44a8",
+                            "related_uuid": "0a4b5165-d27a-4df4-bbdb-02b5b764025f",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "aa17a736-7fd0-454b-8480-ac9d3ad401a3",
+            "properties": {
+                "name": "Eli Finkelshteyn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "aa17a736-7fd0-454b-8480-ac9d3ad401a3",
+                    "value": "Eli Finkelshteyn"
+                },
+                "linkedin": "eli-finkelshteyn",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2975f03e-b6e3-41ce-bc10-d82bf2a34519",
+                            "related_uuid": "aa17a736-7fd0-454b-8480-ac9d3ad401a3",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

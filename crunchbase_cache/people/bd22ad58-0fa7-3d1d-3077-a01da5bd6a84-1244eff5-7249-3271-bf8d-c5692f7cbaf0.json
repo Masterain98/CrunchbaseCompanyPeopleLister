@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "789e2d39-7a49-46fb-907d-a53656a1a705",
+            "properties": {
+                "name": "Mr. Brian Babcock",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "789e2d39-7a49-46fb-907d-a53656a1a705",
+                    "value": "Mr. Brian Babcock"
+                },
+                "linkedin": "brian-babcock-948416",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bd1e69a9-d59a-4146-b40d-d7618b03b2b8",
+                            "related_uuid": "789e2d39-7a49-46fb-907d-a53656a1a705",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

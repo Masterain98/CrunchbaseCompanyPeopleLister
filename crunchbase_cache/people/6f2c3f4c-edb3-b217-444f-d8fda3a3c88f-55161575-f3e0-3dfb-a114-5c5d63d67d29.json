@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a669ae6c-0316-4a51-8465-797e338476f0",
+            "properties": {
+                "name": "Rodrigo Nunez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a669ae6c-0316-4a51-8465-797e338476f0",
+                    "value": "Rodrigo Nunez"
+                },
+                "linkedin": "rodrigo-nunez-932a0013",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ba242b9f-8df6-4e53-b908-28bfcba81a4a",
+                            "related_uuid": "a669ae6c-0316-4a51-8465-797e338476f0",
+                            "properties": {
+                                "job_title": "Chief Information Technology Officer & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

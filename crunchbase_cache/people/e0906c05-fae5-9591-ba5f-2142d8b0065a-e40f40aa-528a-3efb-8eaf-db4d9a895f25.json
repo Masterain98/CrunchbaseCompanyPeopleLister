@@ -1,0 +1,163 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "20cbe727-2a7f-4fd3-a207-4492319e1ffe",
+            "properties": {
+                "name": "Daniel Little",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "20cbe727-2a7f-4fd3-a207-4492319e1ffe",
+                    "value": "Daniel Little"
+                },
+                "linkedin": "daniel-little-6497a93a",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b9604dfb-90f5-4649-a3a5-ef87d632e168",
+                            "related_uuid": "20cbe727-2a7f-4fd3-a207-4492319e1ffe",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "20c5a2f4-3667-4d40-b0bf-2fa0efcf1529",
+            "properties": {
+                "name": "Dennis Lim",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "20c5a2f4-3667-4d40-b0bf-2fa0efcf1529",
+                    "value": "Dennis Lim"
+                },
+                "linkedin": "dennis-lim-3834974",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "01ae61e4-773f-4564-b132-b3c167db82a7",
+                            "related_uuid": "20c5a2f4-3667-4d40-b0bf-2fa0efcf1529",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3b9752be-afad-485b-94a1-605b773f024e",
+            "properties": {
+                "name": "Lisa Fedele",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3b9752be-afad-485b-94a1-605b773f024e",
+                    "value": "Lisa Fedele"
+                },
+                "linkedin": "lisa-fedele-a6154143",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7c26d213-41ce-4ffb-a77a-2ec38dadc3e6",
+                            "related_uuid": "3b9752be-afad-485b-94a1-605b773f024e",
+                            "properties": {
+                                "job_title": "Director, Creative Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c8ce2410-10d1-41e1-a03d-9c43f323f36e",
+            "properties": {
+                "name": "Phil Bruni",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c8ce2410-10d1-41e1-a03d-9c43f323f36e",
+                    "value": "Phil Bruni"
+                },
+                "linkedin": "philipbruni",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "323e0fb4-c1e3-4c4a-b8bb-39cc8d69899d",
+                            "related_uuid": "c8ce2410-10d1-41e1-a03d-9c43f323f36e",
+                            "properties": {
+                                "job_title": "Executive Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "dd092782-4a85-4b84-a4d5-ddf9fccb397f",
+            "properties": {
+                "name": "Wayne Tidwell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dd092782-4a85-4b84-a4d5-ddf9fccb397f",
+                    "value": "Wayne Tidwell"
+                },
+                "linkedin": "wayne-tidwell-42255b11",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "97a4f0cc-00eb-4a81-ae02-eb869842c6a7",
+                            "related_uuid": "dd092782-4a85-4b84-a4d5-ddf9fccb397f",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

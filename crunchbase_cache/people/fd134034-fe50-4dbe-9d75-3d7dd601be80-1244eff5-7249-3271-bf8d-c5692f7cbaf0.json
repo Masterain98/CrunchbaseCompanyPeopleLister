@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a92ce15b-200e-4d31-a9ed-d03d036a0599",
+            "properties": {
+                "name": "Ben Houston",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a92ce15b-200e-4d31-a9ed-d03d036a0599",
+                    "value": "Ben Houston"
+                },
+                "linkedin": "benhouston",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4526fae6-b468-457d-a4e8-5b84bceb294a",
+                            "related_uuid": "a92ce15b-200e-4d31-a9ed-d03d036a0599",
+                            "properties": {
+                                "job_title": "CTO & Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

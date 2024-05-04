@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "09ee14c5-5a4e-43d1-87e1-a4534883f387",
+            "properties": {
+                "name": "Cecily Bolton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "09ee14c5-5a4e-43d1-87e1-a4534883f387",
+                    "value": "Cecily Bolton"
+                },
+                "linkedin": "cecilybolton",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d856d6d0-aa20-4b94-8aaf-82f4d81f4c62",
+                            "related_uuid": "09ee14c5-5a4e-43d1-87e1-a4534883f387",
+                            "properties": {
+                                "job_title": "Director of Client Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

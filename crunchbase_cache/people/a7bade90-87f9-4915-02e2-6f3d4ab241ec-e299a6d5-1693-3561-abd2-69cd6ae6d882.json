@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "703d05dc-7636-40c3-a14d-886b45b48e10",
+            "properties": {
+                "name": "Barbara Cabrera, CCEP",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "703d05dc-7636-40c3-a14d-886b45b48e10",
+                    "value": "Barbara Cabrera, CCEP"
+                },
+                "linkedin": "barbara-cabrera-ccep-60291341",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "746915b7-9b9a-4817-8cef-e733a824376b",
+                            "related_uuid": "703d05dc-7636-40c3-a14d-886b45b48e10",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ff8af8cb-8bb2-4561-866c-99e757108b9e",
+            "properties": {
+                "name": "Heather Eaton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ff8af8cb-8bb2-4561-866c-99e757108b9e",
+                    "value": "Heather Eaton"
+                },
+                "linkedin": "heather-eaton-1892a05",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "legal",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4756c392-d7cf-4899-8df2-ec6310553994",
+                            "related_uuid": "ff8af8cb-8bb2-4561-866c-99e757108b9e",
+                            "properties": {
+                                "job_title": "Director, Global SOX Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

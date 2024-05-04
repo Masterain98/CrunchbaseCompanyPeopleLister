@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e0dddaf0-bb88-42d3-8889-0c86fde2a89b",
+            "properties": {
+                "name": "Joel Beal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e0dddaf0-bb88-42d3-8889-0c86fde2a89b",
+                    "value": "Joel Beal"
+                },
+                "linkedin": "joelcbeal",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "58cb832f-d235-4eba-a516-07bd07c8a84c",
+                            "related_uuid": "e0dddaf0-bb88-42d3-8889-0c86fde2a89b",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

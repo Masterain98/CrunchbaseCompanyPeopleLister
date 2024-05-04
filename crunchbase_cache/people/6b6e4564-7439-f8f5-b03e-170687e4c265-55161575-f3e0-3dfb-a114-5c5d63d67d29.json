@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d4960917-ffd9-4db1-86da-a6e8fa8b4e07",
+            "properties": {
+                "name": "Jan Arendtsz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d4960917-ffd9-4db1-86da-a6e8fa8b4e07",
+                    "value": "Jan Arendtsz"
+                },
+                "linkedin": "janarendtsz",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "126f2a67-bbf6-4495-aa6b-829e9d2fdfa1",
+                            "related_uuid": "d4960917-ffd9-4db1-86da-a6e8fa8b4e07",
+                            "properties": {
+                                "job_title": "CEO & Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

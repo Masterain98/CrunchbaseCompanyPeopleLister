@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "bccb2a54-f5f8-49a3-b57e-e484998f6661",
+            "properties": {
+                "name": "Ankita Rosensweig",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bccb2a54-f5f8-49a3-b57e-e484998f6661",
+                    "value": "Ankita Rosensweig"
+                },
+                "linkedin": "arosensweig",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "37e55f1f-4d04-41b2-836b-4a80e38ae451",
+                            "related_uuid": "bccb2a54-f5f8-49a3-b57e-e484998f6661",
+                            "properties": {
+                                "job_title": "Sr. Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "34dbd661-21c7-4553-b5ce-045af118258b",
+            "properties": {
+                "name": "Ilan Krayn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "34dbd661-21c7-4553-b5ce-045af118258b",
+                    "value": "Ilan Krayn"
+                },
+                "linkedin": "ilankrayn",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "33d07328-b83a-4ec5-9090-4a276f6e5efe",
+                            "related_uuid": "34dbd661-21c7-4553-b5ce-045af118258b",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4717986c-b8e9-4af5-9175-f9d614e5dd89",
+            "properties": {
+                "name": "Lindsay McKinley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4717986c-b8e9-4af5-9175-f9d614e5dd89",
+                    "value": "Lindsay McKinley"
+                },
+                "linkedin": "lindsaymckinley",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d764db6-fee0-4c16-aee9-a38612158fac",
+                            "related_uuid": "4717986c-b8e9-4af5-9175-f9d614e5dd89",
+                            "properties": {
+                                "job_title": "Director of Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

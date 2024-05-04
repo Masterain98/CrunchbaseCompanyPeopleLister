@@ -1,0 +1,482 @@
+{
+    "count": 16,
+    "entities": [
+        {
+            "uuid": "225abd91-9735-46b1-852e-f5edb4e09a1f",
+            "properties": {
+                "name": "Bradley Fisher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "225abd91-9735-46b1-852e-f5edb4e09a1f",
+                    "value": "Bradley Fisher"
+                },
+                "linkedin": "bradleyfisher99",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3242e773-2533-432a-bbca-3f5717abfb5e",
+                            "related_uuid": "225abd91-9735-46b1-852e-f5edb4e09a1f",
+                            "properties": {
+                                "job_title": "Director, Employee & Executive Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7f517f1f-3d0c-4ea2-94ff-7859b5444c0a",
+            "properties": {
+                "name": "Chad Tragakis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7f517f1f-3d0c-4ea2-94ff-7859b5444c0a",
+                    "value": "Chad Tragakis"
+                },
+                "linkedin": "chadtragakis",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "93ea2a5b-00af-4112-9238-b0e533026210",
+                            "related_uuid": "7f517f1f-3d0c-4ea2-94ff-7859b5444c0a",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6162f3bb-5708-4916-8b9c-e197d5a8777b",
+            "properties": {
+                "name": "Ellen Hamilton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6162f3bb-5708-4916-8b9c-e197d5a8777b",
+                    "value": "Ellen Hamilton"
+                },
+                "linkedin": "ellen-hamilton-8308656",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26b51144-58ee-4674-b485-321b4bfd27fa",
+                            "related_uuid": "6162f3bb-5708-4916-8b9c-e197d5a8777b",
+                            "properties": {
+                                "job_title": "Director, Communications, Land & Avionics C4ISR Division"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8b0d3932-8ee6-4fb7-bf8a-86c3461de96e",
+            "properties": {
+                "name": "Jacob Palenske",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8b0d3932-8ee6-4fb7-bf8a-86c3461de96e",
+                    "value": "Jacob Palenske"
+                },
+                "linkedin": "palenske",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "36c5d758-aa0a-4e30-9157-1e45809cb183",
+                            "related_uuid": "8b0d3932-8ee6-4fb7-bf8a-86c3461de96e",
+                            "properties": {
+                                "job_title": "Director of Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "fe452d93-b253-47d1-a239-ca3f96bb358e",
+            "properties": {
+                "name": "Kelli Kraig",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fe452d93-b253-47d1-a239-ca3f96bb358e",
+                    "value": "Kelli Kraig"
+                },
+                "linkedin": "kellikraig",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "58c09b0e-85c8-4498-94fa-1b05d9dd3837",
+                            "related_uuid": "fe452d93-b253-47d1-a239-ca3f96bb358e",
+                            "properties": {
+                                "job_title": "Director, Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6f52418d-6090-48c8-802a-8d7befa3f523",
+            "properties": {
+                "name": "Larry Stullich",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6f52418d-6090-48c8-802a-8d7befa3f523",
+                    "value": "Larry Stullich"
+                },
+                "linkedin": "larry-stullich-26b3b95",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2a157826-878c-480f-ac57-315186609bb5",
+                            "related_uuid": "6f52418d-6090-48c8-802a-8d7befa3f523",
+                            "properties": {
+                                "job_title": "Director of Engineering, Communications Division"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "61f5d3b6-d7d5-41db-8e46-52af98064d2b",
+            "properties": {
+                "name": "Lon Rains",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "61f5d3b6-d7d5-41db-8e46-52af98064d2b",
+                    "value": "Lon Rains"
+                },
+                "linkedin": "lon-rains-4558177",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9d5153a6-45c5-4244-bc90-f6368e2311e7",
+                            "related_uuid": "61f5d3b6-d7d5-41db-8e46-52af98064d2b",
+                            "properties": {
+                                "job_title": "Director, Communications, Space Systems Division"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a21acf48-4a22-4c6b-b1c9-fbe1f4ad28c2",
+            "properties": {
+                "name": "Mark Schwene",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a21acf48-4a22-4c6b-b1c9-fbe1f4ad28c2",
+                    "value": "Mark Schwene"
+                },
+                "linkedin": "mark-schwene-8211a48",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "96fb2807-ec24-4f36-9bdb-f8bffeca4318",
+                            "related_uuid": "a21acf48-4a22-4c6b-b1c9-fbe1f4ad28c2",
+                            "properties": {
+                                "job_title": "Director, Advanced Satellite Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b3e10ac7-9e9c-467a-b1a1-9a4ef851ccb4",
+            "properties": {
+                "name": "Melissa Osick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b3e10ac7-9e9c-467a-b1a1-9a4ef851ccb4",
+                    "value": "Melissa Osick"
+                },
+                "linkedin": "melissa-osick-a04587190",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3b7146f8-3075-48d0-80e5-91087441cb7e",
+                            "related_uuid": "b3e10ac7-9e9c-467a-b1a1-9a4ef851ccb4",
+                            "properties": {
+                                "job_title": "Director, Division Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e44401f9-b1e1-424a-9fc6-ec5cb6343f60",
+            "properties": {
+                "name": "Nathan Drevna",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e44401f9-b1e1-424a-9fc6-ec5cb6343f60",
+                    "value": "Nathan Drevna"
+                },
+                "linkedin": "nathan-drevna-6472375b",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "54b7887d-c68f-43bb-a900-e7e300b943bf",
+                            "related_uuid": "e44401f9-b1e1-424a-9fc6-ec5cb6343f60",
+                            "properties": {
+                                "job_title": "Director of Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9a13a60d-2c4d-456c-82dc-975c6971cf6d",
+            "properties": {
+                "name": "Pete Haney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9a13a60d-2c4d-456c-82dc-975c6971cf6d",
+                    "value": "Pete Haney"
+                },
+                "linkedin": "pete-haney-3597665",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bc2a1001-9871-4b91-bb84-8ea1b675d1f1",
+                            "related_uuid": "9a13a60d-2c4d-456c-82dc-975c6971cf6d",
+                            "properties": {
+                                "job_title": "Communications Strategy Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "449a0e0e-0732-49ee-b17e-b9048450d7a8",
+            "properties": {
+                "name": "Rick Skinner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "449a0e0e-0732-49ee-b17e-b9048450d7a8",
+                    "value": "Rick Skinner"
+                },
+                "linkedin": "rick-skinner-52a25014",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "905e65a5-8e15-4e39-b088-ad919279ad4e",
+                            "related_uuid": "449a0e0e-0732-49ee-b17e-b9048450d7a8",
+                            "properties": {
+                                "job_title": "Director, Business Development, Communications Systems, Space Systems Division"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ab73f815-c20b-4cf3-83dd-69b4ee725ee9",
+            "properties": {
+                "name": "Spencer Durham",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ab73f815-c20b-4cf3-83dd-69b4ee725ee9",
+                    "value": "Spencer Durham"
+                },
+                "linkedin": "spencer-durham-24a44840",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "03d272c8-ecae-4546-b846-f1066ab3c075",
+                            "related_uuid": "ab73f815-c20b-4cf3-83dd-69b4ee725ee9",
+                            "properties": {
+                                "job_title": "Director of Communications Systems and Mission Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "05f5f7e2-19e1-48fe-9695-9bc6846a492d",
+            "properties": {
+                "name": "Vicki Cox",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "05f5f7e2-19e1-48fe-9695-9bc6846a492d",
+                    "value": "Vicki Cox"
+                },
+                "linkedin": "vickicox",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0d03cb56-1f21-4b43-8ef2-ff023ed12b4d",
+                            "related_uuid": "05f5f7e2-19e1-48fe-9695-9bc6846a492d",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8519704d-ecd3-4473-8f49-d078560d43d2",
+            "properties": {
+                "name": "Warren (Es)",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8519704d-ecd3-4473-8f49-d078560d43d2",
+                    "value": "Warren (Es)"
+                },
+                "linkedin": "warrencomer",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c7ef4962-857b-451c-8220-c9dd02fb7e27",
+                            "related_uuid": "8519704d-ecd3-4473-8f49-d078560d43d2",
+                            "properties": {
+                                "job_title": "Director of Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b11b1bf3-775b-496e-82ad-27f613ec04f0",
+            "properties": {
+                "name": "Dries Buytaert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b11b1bf3-775b-496e-82ad-27f613ec04f0",
+                    "value": "Dries Buytaert"
+                },
+                "linkedin": "buytaert",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fbdbd9c5-2863-484c-97c1-3ececa10e318",
+                            "related_uuid": "b11b1bf3-775b-496e-82ad-27f613ec04f0",
+                            "properties": {
+                                "job_title": "Co-Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

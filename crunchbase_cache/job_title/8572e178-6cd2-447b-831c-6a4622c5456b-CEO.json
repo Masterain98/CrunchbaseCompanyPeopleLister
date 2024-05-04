@@ -1,0 +1,21 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cfo",
+                "uuid": "12d872a3-607f-3925-9a8b-73df02dbbfbd",
+                "value": "CFO"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "director-clinical",
+                "uuid": "ba6517a7-6841-3bd9-a339-b4f7c92b5fcf",
+                "value": "Director, Clinical"
+            }
+        }
+    ]
+}

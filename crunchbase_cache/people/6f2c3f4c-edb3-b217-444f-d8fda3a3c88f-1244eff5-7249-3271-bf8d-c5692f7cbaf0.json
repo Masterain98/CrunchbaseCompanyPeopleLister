@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b86640a7-f4dd-4c48-8381-9ea48f11aedb",
+            "properties": {
+                "name": "Melanie Eakes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b86640a7-f4dd-4c48-8381-9ea48f11aedb",
+                    "value": "Melanie Eakes"
+                },
+                "linkedin": "melanie-eakes-164a4b49",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a0d08dea-9069-45b1-a346-cfdaaa08b1e9",
+                            "related_uuid": "b86640a7-f4dd-4c48-8381-9ea48f11aedb",
+                            "properties": {
+                                "job_title": "Executive Vice President - Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

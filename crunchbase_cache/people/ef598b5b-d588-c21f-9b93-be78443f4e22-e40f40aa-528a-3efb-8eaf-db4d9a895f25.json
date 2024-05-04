@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e04f3e38-74f5-4331-a13f-377493ab912d",
+            "properties": {
+                "name": "Shawn Perritt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e04f3e38-74f5-4331-a13f-377493ab912d",
+                    "value": "Shawn Perritt"
+                },
+                "linkedin": "shawn-perritt-33078622",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "016d5383-ea14-477c-8b0c-daa651650a36",
+                            "related_uuid": "e04f3e38-74f5-4331-a13f-377493ab912d",
+                            "properties": {
+                                "job_title": "Director, Creative & Brand"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

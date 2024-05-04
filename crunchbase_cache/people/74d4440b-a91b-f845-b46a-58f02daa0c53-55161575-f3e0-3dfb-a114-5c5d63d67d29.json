@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cb7d5b14-9f1b-4265-b287-4cbb2b72f02d",
+            "properties": {
+                "name": "Ruzwana Bashir",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cb7d5b14-9f1b-4265-b287-4cbb2b72f02d",
+                    "value": "Ruzwana Bashir"
+                },
+                "linkedin": "ruzwana",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4b1b85df-b8f3-4f7d-9a15-3b36f55a7c93",
+                            "related_uuid": "cb7d5b14-9f1b-4265-b287-4cbb2b72f02d",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

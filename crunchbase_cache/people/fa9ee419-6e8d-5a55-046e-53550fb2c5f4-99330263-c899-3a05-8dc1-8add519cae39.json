@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c25e3900-e4e7-44c4-b7ad-e965dfa6a490",
+            "properties": {
+                "name": "Natalie Cunningham",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c25e3900-e4e7-44c4-b7ad-e965dfa6a490",
+                    "value": "Natalie Cunningham"
+                },
+                "linkedin": "nataliercunningham",
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a3086966-807e-4599-b170-f47e8b8dc8a1",
+                            "related_uuid": "c25e3900-e4e7-44c4-b7ad-e965dfa6a490",
+                            "properties": {
+                                "job_title": "Cmo"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

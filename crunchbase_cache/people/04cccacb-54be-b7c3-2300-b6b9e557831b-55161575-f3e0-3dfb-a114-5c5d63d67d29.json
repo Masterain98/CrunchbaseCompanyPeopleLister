@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1ff9bfc5-1a38-4f4e-b462-13eb6fed9212",
+            "properties": {
+                "name": "Manny Medina",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1ff9bfc5-1a38-4f4e-b462-13eb6fed9212",
+                    "value": "Manny Medina"
+                },
+                "linkedin": "medinism",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1256c529-8758-4d4b-a246-3a54e79beb46",
+                            "related_uuid": "1ff9bfc5-1a38-4f4e-b462-13eb6fed9212",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

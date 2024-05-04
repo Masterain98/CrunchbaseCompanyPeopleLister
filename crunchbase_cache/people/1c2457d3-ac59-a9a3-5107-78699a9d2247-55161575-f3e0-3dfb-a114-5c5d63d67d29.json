@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "83f1835e-a64d-48ba-85cc-4ddb89e73f40",
+            "properties": {
+                "name": "James Zhu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "83f1835e-a64d-48ba-85cc-4ddb89e73f40",
+                    "value": "James Zhu"
+                },
+                "linkedin": "james-zhu-b25a41111",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0aa4570a-6b70-46ce-a405-95c00735a88c",
+                            "related_uuid": "83f1835e-a64d-48ba-85cc-4ddb89e73f40",
+                            "properties": {
+                                "job_title": "CEO of R&D Center"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6b210ccd-fef6-40d2-ab10-73a24da0b1d4",
+            "properties": {
+                "name": "Tianyi Jiang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6b210ccd-fef6-40d2-ab10-73a24da0b1d4",
+                    "value": "Tianyi Jiang"
+                },
+                "linkedin": "tianyijiang",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "074bdb67-22f8-45c2-9e12-2d41dc140f87",
+                            "related_uuid": "6b210ccd-fef6-40d2-ab10-73a24da0b1d4",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

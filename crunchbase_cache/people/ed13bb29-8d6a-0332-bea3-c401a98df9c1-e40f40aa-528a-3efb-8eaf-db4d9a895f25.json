@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "60611ebf-44bd-42ea-acc0-ceb17fa20d0a",
+            "properties": {
+                "name": "Hansen Chan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "60611ebf-44bd-42ea-acc0-ceb17fa20d0a",
+                    "value": "Hansen Chan"
+                },
+                "linkedin": "hansenchan",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "33c2d37f-5437-4e59-9151-4fc07300852a",
+                            "related_uuid": "60611ebf-44bd-42ea-acc0-ceb17fa20d0a",
+                            "properties": {
+                                "job_title": "Creative Director, Corporate Marketing"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

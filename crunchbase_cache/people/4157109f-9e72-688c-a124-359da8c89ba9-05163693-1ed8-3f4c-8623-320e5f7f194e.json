@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "087f4443-38e7-4847-a020-1e6007ebebc5",
+            "properties": {
+                "name": "Michael Powers",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "087f4443-38e7-4847-a020-1e6007ebebc5",
+                    "value": "Michael Powers"
+                },
+                "linkedin": "mpowers33",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "human_resources"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9a17e99f-d7bf-490c-bda6-9a524bfbc941",
+                            "related_uuid": "087f4443-38e7-4847-a020-1e6007ebebc5",
+                            "properties": {
+                                "job_title": "Director of Employee Experience & Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ffd24538-c6db-4137-a338-8da3c85c3eca",
+            "properties": {
+                "name": "Daniil Fishteyn",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ffd24538-c6db-4137-a338-8da3c85c3eca",
+                    "value": "Daniil Fishteyn"
+                },
+                "linkedin": "daniilfishteyn",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "63b88b92-68c3-45bf-8d4f-539ab51abada",
+                            "related_uuid": "ffd24538-c6db-4137-a338-8da3c85c3eca",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "clerk",
+                "uuid": "34776981-fa47-3a6c-b3f2-915d11bae051",
+                "value": "Clerk"
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "76696f5a-4023-4d3b-9005-8c03af2375f6",
+            "properties": {
+                "name": "Rasmus Holst",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "76696f5a-4023-4d3b-9005-8c03af2375f6",
+                    "value": "Rasmus Holst"
+                },
+                "linkedin": "rasmusholst",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "930e0c5e-2cfd-4546-8b5e-a1996b8ee2d5",
+                            "related_uuid": "76696f5a-4023-4d3b-9005-8c03af2375f6",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

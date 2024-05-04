@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b304d87c-65b3-409b-84dd-c6092b1a1eb7",
+            "properties": {
+                "name": "Nick Olsen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b304d87c-65b3-409b-84dd-c6092b1a1eb7",
+                    "value": "Nick Olsen"
+                },
+                "linkedin": "nicksolsen",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6c4d355f-c83a-44a5-a0fb-c6a07dc953a8",
+                            "related_uuid": "b304d87c-65b3-409b-84dd-c6092b1a1eb7",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

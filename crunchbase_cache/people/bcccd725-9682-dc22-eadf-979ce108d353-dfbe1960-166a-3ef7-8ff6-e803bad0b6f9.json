@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4e3264cd-6c76-44ea-ac83-0353f7bbf6c5",
+            "properties": {
+                "name": "Ryan Tanner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4e3264cd-6c76-44ea-ac83-0353f7bbf6c5",
+                    "value": "Ryan Tanner"
+                },
+                "linkedin": "ryan-tanner-21774939",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "15891243-b27d-43b0-87e0-a3a211ce4829",
+                            "related_uuid": "4e3264cd-6c76-44ea-ac83-0353f7bbf6c5",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

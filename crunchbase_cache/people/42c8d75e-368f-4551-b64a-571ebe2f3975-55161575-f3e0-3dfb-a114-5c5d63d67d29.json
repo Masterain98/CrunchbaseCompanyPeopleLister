@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b5abd81b-a6e4-4e83-9a86-b9fcaf09dd02",
+            "properties": {
+                "name": "Boris Jabes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5abd81b-a6e4-4e83-9a86-b9fcaf09dd02",
+                    "value": "Boris Jabes"
+                },
+                "linkedin": "borisjabes",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "18734d35-4e8f-4308-ae11-9847abe40513",
+                            "related_uuid": "b5abd81b-a6e4-4e83-9a86-b9fcaf09dd02",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

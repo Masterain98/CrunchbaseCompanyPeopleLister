@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cb7e22ce-55c2-4c27-b546-6660c30e77aa",
+            "properties": {
+                "name": "Kunal Verma",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cb7e22ce-55c2-4c27-b546-6660c30e77aa",
+                    "value": "Kunal Verma"
+                },
+                "linkedin": "kunalv",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "50cb1aca-946a-4335-b156-5807b6c4da10",
+                            "related_uuid": "cb7e22ce-55c2-4c27-b546-6660c30e77aa",
+                            "properties": {
+                                "job_title": "Co-Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

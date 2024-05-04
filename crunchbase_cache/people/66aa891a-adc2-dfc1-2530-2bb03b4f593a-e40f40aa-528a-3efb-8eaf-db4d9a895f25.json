@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ef74e1aa-a02f-44aa-aaf0-ab43c5e317f8",
+            "properties": {
+                "name": "Ben Watkins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ef74e1aa-a02f-44aa-aaf0-ab43c5e317f8",
+                    "value": "Ben Watkins"
+                },
+                "linkedin": "ben-watkins-a514715",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1509d621-e73b-423c-9858-3fc97cb51d97",
+                            "related_uuid": "ef74e1aa-a02f-44aa-aaf0-ab43c5e317f8",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

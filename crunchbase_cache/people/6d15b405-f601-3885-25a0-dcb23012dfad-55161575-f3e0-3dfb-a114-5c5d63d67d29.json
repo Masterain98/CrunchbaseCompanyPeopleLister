@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "769c4dbe-5aea-4173-84d6-b81c3a626ee0",
+            "properties": {
+                "name": "Renen Hallak",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "769c4dbe-5aea-4173-84d6-b81c3a626ee0",
+                    "value": "Renen Hallak"
+                },
+                "linkedin": "renenh",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7d70a2e2-ed06-4504-95f8-7ea95abcbef2",
+                            "related_uuid": "769c4dbe-5aea-4173-84d6-b81c3a626ee0",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "07bcb316-90e0-4c0a-8634-97f5edd4fd25",
+            "properties": {
+                "name": "Joe Rawlings",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "07bcb316-90e0-4c0a-8634-97f5edd4fd25",
+                    "value": "Joe Rawlings"
+                },
+                "linkedin": "joe-rawlings-3b05a9b4",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1310f8f2-a6e5-46ad-8762-1a2834bfabda",
+                            "related_uuid": "07bcb316-90e0-4c0a-8634-97f5edd4fd25",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

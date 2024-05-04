@@ -1,0 +1,362 @@
+{
+    "count": 11,
+    "entities": [
+        {
+            "uuid": "eccba061-302b-4f94-9c08-097e0e11d3f4",
+            "properties": {
+                "name": "Adam Schwartz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eccba061-302b-4f94-9c08-097e0e11d3f4",
+                    "value": "Adam Schwartz"
+                },
+                "linkedin": "adam-schwartz",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "225471f3-317c-4678-aa7e-2e8e46bc0312",
+                            "related_uuid": "eccba061-302b-4f94-9c08-097e0e11d3f4",
+                            "properties": {
+                                "job_title": "Enterprise Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c114396a-bdc1-4fe8-ae60-b0ce3c167aca",
+            "properties": {
+                "name": "Benjamin Vines",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c114396a-bdc1-4fe8-ae60-b0ce3c167aca",
+                    "value": "Benjamin Vines"
+                },
+                "linkedin": "benjamin-vines-6a628a40",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a71e685-bb6c-4494-9c1e-e70d9a6e178a",
+                            "related_uuid": "c114396a-bdc1-4fe8-ae60-b0ce3c167aca",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "75b744a2-ce25-47b1-9ba1-28498cea23c2",
+            "properties": {
+                "name": "Chloe Jonas",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "75b744a2-ce25-47b1-9ba1-28498cea23c2",
+                    "value": "Chloe Jonas"
+                },
+                "linkedin": "chloe-jonas-45677b88",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4de1540c-ec55-4e6d-9c63-2064df0ae5f0",
+                            "related_uuid": "75b744a2-ce25-47b1-9ba1-28498cea23c2",
+                            "properties": {
+                                "job_title": "Customer Success Director, Enterprise"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "be96df19-1ac5-4298-8c1b-7c824a71a29f",
+            "properties": {
+                "name": "C\u00e9line Delle Donne",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "be96df19-1ac5-4298-8c1b-7c824a71a29f",
+                    "value": "C\u00e9line Delle Donne"
+                },
+                "linkedin": "celinedelledonne",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "pro_services"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "812d8329-b3b1-4097-993e-d8e82c9d5f4f",
+                            "related_uuid": "be96df19-1ac5-4298-8c1b-7c824a71a29f",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4d83c249-7c32-4be7-b497-490aca33f0b5",
+            "properties": {
+                "name": "Estefeni Estremera",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4d83c249-7c32-4be7-b497-490aca33f0b5",
+                    "value": "Estefeni Estremera"
+                },
+                "linkedin": "estefeni-estremera-230bb7125",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "375368f6-1f8e-4ffd-b34c-b1f74065a836",
+                            "related_uuid": "4d83c249-7c32-4be7-b497-490aca33f0b5",
+                            "properties": {
+                                "job_title": "Enterprise Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "35a2c9a4-395f-4e05-afee-c1293d6e0f9a",
+            "properties": {
+                "name": "Jamie Wernet",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "35a2c9a4-395f-4e05-afee-c1293d6e0f9a",
+                    "value": "Jamie Wernet"
+                },
+                "linkedin": "jamiewernet",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "74d12699-f69e-4202-8dc5-4480c6954729",
+                            "related_uuid": "35a2c9a4-395f-4e05-afee-c1293d6e0f9a",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a9f6bce1-d239-412f-a36e-410d0126f671",
+            "properties": {
+                "name": "Jenny Kong",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a9f6bce1-d239-412f-a36e-410d0126f671",
+                    "value": "Jenny Kong"
+                },
+                "linkedin": "jk0ng",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "176c07b1-42d1-4ade-90d7-fbac2ecea367",
+                            "related_uuid": "a9f6bce1-d239-412f-a36e-410d0126f671",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "92eef429-4bf2-441e-88d9-0673105258c1",
+            "properties": {
+                "name": "Kim Kuang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "92eef429-4bf2-441e-88d9-0673105258c1",
+                    "value": "Kim Kuang"
+                },
+                "linkedin": "kimkuang",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "75aca480-6165-4743-a71c-a38bcffa5d09",
+                            "related_uuid": "92eef429-4bf2-441e-88d9-0673105258c1",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "66283972-c7f7-4466-8d9c-0ba20ca1ab7e",
+            "properties": {
+                "name": "Matt Weinstock",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "66283972-c7f7-4466-8d9c-0ba20ca1ab7e",
+                    "value": "Matt Weinstock"
+                },
+                "linkedin": "mattweinstock",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "209bbca9-505d-4312-baf4-31d4146958be",
+                            "related_uuid": "66283972-c7f7-4466-8d9c-0ba20ca1ab7e",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7bc87d95-b615-40a4-b3c0-89415509c170",
+            "properties": {
+                "name": "Mr. Scott Rappaport",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7bc87d95-b615-40a4-b3c0-89415509c170",
+                    "value": "Mr. Scott Rappaport"
+                },
+                "linkedin": "scott-rappaport",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c94fca22-7ba9-4227-a757-c715d76cd610",
+                            "related_uuid": "7bc87d95-b615-40a4-b3c0-89415509c170",
+                            "properties": {
+                                "job_title": "Customer Success Director, Enterprise"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "bb97786f-dd6d-42cd-bd87-17c9e89ee3ec",
+            "properties": {
+                "name": "Steve Schultz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bb97786f-dd6d-42cd-bd87-17c9e89ee3ec",
+                    "value": "Steve Schultz"
+                },
+                "linkedin": "steve-schultz-denver",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "38fe45a9-bd26-4652-bf85-d77bbf7e784f",
+                            "related_uuid": "bb97786f-dd6d-42cd-bd87-17c9e89ee3ec",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

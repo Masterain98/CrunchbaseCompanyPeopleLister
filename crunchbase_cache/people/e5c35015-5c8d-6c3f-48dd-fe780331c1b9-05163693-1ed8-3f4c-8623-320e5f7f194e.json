@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "072ffe1b-7e22-4115-92d0-039d724b108b",
+            "properties": {
+                "name": "Dana Perotti",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "072ffe1b-7e22-4115-92d0-039d724b108b",
+                    "value": "Dana Perotti"
+                },
+                "linkedin": "danaperotti",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3b2e09c8-9710-4a8b-9d6f-f64f04538804",
+                            "related_uuid": "072ffe1b-7e22-4115-92d0-039d724b108b",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

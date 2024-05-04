@@ -1,0 +1,100 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "dc1e9409-30a4-4b42-b48c-5ea768e03655",
+            "properties": {
+                "name": "Anna Elzbieta Misiewicz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dc1e9409-30a4-4b42-b48c-5ea768e03655",
+                    "value": "Anna Elzbieta Misiewicz"
+                },
+                "linkedin": "anna-elzbieta-misiewicz-83b8319",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "883de8da-2407-435b-b8fc-f2f6d7299c41",
+                            "related_uuid": "dc1e9409-30a4-4b42-b48c-5ea768e03655",
+                            "properties": {
+                                "job_title": "Director, Customer Success EMEA"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7b7a542a-c7f9-477f-9e62-5d93a90704f3",
+            "properties": {
+                "name": "Holly Geiger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7b7a542a-c7f9-477f-9e62-5d93a90704f3",
+                    "value": "Holly Geiger"
+                },
+                "linkedin": "hollygeiger0720",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "245adf8b-907a-463b-ba74-684b146cdc42",
+                            "related_uuid": "7b7a542a-c7f9-477f-9e62-5d93a90704f3",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d6fe11d5-9e98-4038-8a0e-b253cd64fde3",
+            "properties": {
+                "name": "Todd Massey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d6fe11d5-9e98-4038-8a0e-b253cd64fde3",
+                    "value": "Todd Massey"
+                },
+                "linkedin": "todd-massey-14869789",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "282524a5-7d2d-45bb-8864-455a28cf74ab",
+                            "related_uuid": "d6fe11d5-9e98-4038-8a0e-b253cd64fde3",
+                            "properties": {
+                                "job_title": "Director Customer Success Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

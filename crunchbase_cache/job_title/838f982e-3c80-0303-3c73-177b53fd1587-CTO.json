@@ -1,0 +1,29 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cnc-programmer",
+                "uuid": "cbfdd2ec-ad7d-3905-addf-c2ba80fc9132",
+                "value": "CNC Programmer"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "cnc-machinist",
+                "uuid": "e737436a-b048-3afa-8403-a0a0c3aeb2b1",
+                "value": "CNC Machinist"
+            }
+        },
+        {
+            "identifier": {
+                "entity_def_id": "job_title",
+                "permalink": "senior-customer-advocate",
+                "uuid": "e54d8462-f968-39d2-8219-6ed15dc763d8",
+                "value": "Senior Customer Advocate"
+            }
+        }
+    ]
+}

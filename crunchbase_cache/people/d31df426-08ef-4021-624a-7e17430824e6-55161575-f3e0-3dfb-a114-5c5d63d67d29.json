@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c58df6fc-5326-447d-b1fd-c4bf5c0393a7",
+            "properties": {
+                "name": "Sunny Gupta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c58df6fc-5326-447d-b1fd-c4bf5c0393a7",
+                    "value": "Sunny Gupta"
+                },
+                "linkedin": "sgupta85",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "99f46cf9-bd0f-4257-a6b7-ca65e8243070",
+                            "related_uuid": "c58df6fc-5326-447d-b1fd-c4bf5c0393a7",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

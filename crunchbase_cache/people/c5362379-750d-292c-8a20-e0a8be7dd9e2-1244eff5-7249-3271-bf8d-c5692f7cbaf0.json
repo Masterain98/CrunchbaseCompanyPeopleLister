@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "73dc8cae-90c1-4a1d-b067-a45d7bb6060c",
+            "properties": {
+                "name": "Dave Spann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "73dc8cae-90c1-4a1d-b067-a45d7bb6060c",
+                    "value": "Dave Spann"
+                },
+                "linkedin": "dave-spann-74a18b1",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8bc1ad5f-e5e9-4cc2-8d66-cba1f7cdf105",
+                            "related_uuid": "73dc8cae-90c1-4a1d-b067-a45d7bb6060c",
+                            "properties": {
+                                "job_title": "VP Technology and Architecture/CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3afb2a52-b1ce-4963-996f-4cce1d4a4d49",
+            "properties": {
+                "name": "Sean Chisholm",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3afb2a52-b1ce-4963-996f-4cce1d4a4d49",
+                    "value": "Sean Chisholm"
+                },
+                "linkedin": "sean-chisholm-68a9023",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "36acba4d-d581-41b2-ae32-20fbc92e5450",
+                            "related_uuid": "3afb2a52-b1ce-4963-996f-4cce1d4a4d49",
+                            "properties": {
+                                "job_title": "CTO Office - Strategic Accounts"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

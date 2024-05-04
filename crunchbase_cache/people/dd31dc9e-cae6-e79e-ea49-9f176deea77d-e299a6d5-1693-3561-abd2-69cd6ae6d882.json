@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "2496548e-7f69-4091-9f63-5c0d7d14ccce",
+            "properties": {
+                "name": "Brian Watson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2496548e-7f69-4091-9f63-5c0d7d14ccce",
+                    "value": "Brian Watson"
+                },
+                "linkedin": "bwatson86",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5e5eb21f-a732-4417-a449-9e2c1fe9e98b",
+                            "related_uuid": "2496548e-7f69-4091-9f63-5c0d7d14ccce",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ef035fff-bf10-4a28-baa2-02bbf12ee090",
+            "properties": {
+                "name": "Mark Molina",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ef035fff-bf10-4a28-baa2-02bbf12ee090",
+                    "value": "Mark Molina"
+                },
+                "linkedin": "mark-molina-27bb08",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d745f9e7-92b8-4d11-98a9-60fe66094470",
+                            "related_uuid": "ef035fff-bf10-4a28-baa2-02bbf12ee090",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

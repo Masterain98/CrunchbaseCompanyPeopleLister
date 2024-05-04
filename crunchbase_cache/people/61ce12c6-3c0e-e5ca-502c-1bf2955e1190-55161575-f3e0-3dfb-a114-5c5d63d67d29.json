@@ -1,0 +1,101 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "fc57f427-5299-4f4e-9701-ccdd44cbf3d4",
+            "properties": {
+                "name": "Ed Abbo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fc57f427-5299-4f4e-9701-ccdd44cbf3d4",
+                    "value": "Ed Abbo"
+                },
+                "linkedin": "ed-abbo-91172816",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6692952d-4dbb-4377-893a-844d549b4884",
+                            "related_uuid": "fc57f427-5299-4f4e-9701-ccdd44cbf3d4",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "707a27fd-bfe7-4082-bb38-b837126100ff",
+            "properties": {
+                "name": "Mr. Thomas Siebel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "707a27fd-bfe7-4082-bb38-b837126100ff",
+                    "value": "Mr. Thomas Siebel"
+                },
+                "linkedin": "thomassiebel",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4c1bbfce-deaf-4345-9468-26dc9af671e5",
+                            "related_uuid": "707a27fd-bfe7-4082-bb38-b837126100ff",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "76648e99-19da-484d-b7d8-1f64a509d9fc",
+            "properties": {
+                "name": "Pat House",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "76648e99-19da-484d-b7d8-1f64a509d9fc",
+                    "value": "Pat House"
+                },
+                "linkedin": "pat-house-11813812",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1cabf44e-656d-475b-83ce-a7985de9b909",
+                            "related_uuid": "76648e99-19da-484d-b7d8-1f64a509d9fc",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

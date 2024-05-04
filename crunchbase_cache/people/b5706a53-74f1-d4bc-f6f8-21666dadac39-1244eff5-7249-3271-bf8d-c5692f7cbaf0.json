@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "97070f6e-23ae-47c5-9a9e-82d20e97c4af",
+            "properties": {
+                "name": "Glenn Fowler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "97070f6e-23ae-47c5-9a9e-82d20e97c4af",
+                    "value": "Glenn Fowler"
+                },
+                "linkedin": "glenn-fowler-47b37818",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4b7c21b3-3da3-4071-8075-e171f8e6a046",
+                            "related_uuid": "97070f6e-23ae-47c5-9a9e-82d20e97c4af",
+                            "properties": {
+                                "job_title": "Co-Founder, CTO, Code Monkey"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

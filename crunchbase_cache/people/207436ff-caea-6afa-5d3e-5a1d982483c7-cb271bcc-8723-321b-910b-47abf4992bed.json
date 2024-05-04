@@ -1,0 +1,99 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "f952a7a2-ff0f-40e7-869b-38417fca3c77",
+            "properties": {
+                "name": "Georgina Gray",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f952a7a2-ff0f-40e7-869b-38417fca3c77",
+                    "value": "Georgina Gray"
+                },
+                "linkedin": "georgina-gray-809405b2",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "326f1b38-4af5-4b0f-a1c7-87f350e825ed",
+                            "related_uuid": "f952a7a2-ff0f-40e7-869b-38417fca3c77",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cb245a26-7a6c-4e5d-afde-6d9a8035c7fb",
+            "properties": {
+                "name": "Kim Salvino",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cb245a26-7a6c-4e5d-afde-6d9a8035c7fb",
+                    "value": "Kim Salvino"
+                },
+                "linkedin": "kimsalvino",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "48b6c508-10ba-4679-86bd-46aac0f57c3d",
+                            "related_uuid": "cb245a26-7a6c-4e5d-afde-6d9a8035c7fb",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9bd5b1ed-34e7-4263-9c5e-3d38621de9f1",
+            "properties": {
+                "name": "Sudesna Batajoo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9bd5b1ed-34e7-4263-9c5e-3d38621de9f1",
+                    "value": "Sudesna Batajoo"
+                },
+                "linkedin": "sudesnabatajoo",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "879304d2-1cfe-4804-b94c-3c9fd76dd602",
+                            "related_uuid": "9bd5b1ed-34e7-4263-9c5e-3d38621de9f1",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

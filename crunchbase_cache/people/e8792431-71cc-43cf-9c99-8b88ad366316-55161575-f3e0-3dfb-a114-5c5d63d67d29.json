@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6fecde28-90cb-4cdf-bfbc-b538b21aabd8",
+            "properties": {
+                "name": "Stefan Groschupf",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6fecde28-90cb-4cdf-bfbc-b538b21aabd8",
+                    "value": "Stefan Groschupf"
+                },
+                "linkedin": "stefangroschupf",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "18abefb1-5145-4495-b826-10fe545f7edc",
+                            "related_uuid": "6fecde28-90cb-4cdf-bfbc-b538b21aabd8",
+                            "properties": {
+                                "job_title": "Founder & CEO, Automation Hero, Inc."
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

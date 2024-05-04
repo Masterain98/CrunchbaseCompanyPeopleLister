@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f4a6afb5-f640-4724-9cfe-4d7b97f646b1",
+            "properties": {
+                "name": "Benjamin Cohen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f4a6afb5-f640-4724-9cfe-4d7b97f646b1",
+                    "value": "Benjamin Cohen"
+                },
+                "linkedin": "ceotrex",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a5dedd0-5338-4dd2-b5b1-cb9154617860",
+                            "related_uuid": "f4a6afb5-f640-4724-9cfe-4d7b97f646b1",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

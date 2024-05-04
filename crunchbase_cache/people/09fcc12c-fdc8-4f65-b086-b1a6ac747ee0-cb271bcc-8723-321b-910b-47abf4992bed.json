@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4af50c28-1604-4d70-9575-d48c5e153ab6",
+            "properties": {
+                "name": "Kevin Berry",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4af50c28-1604-4d70-9575-d48c5e153ab6",
+                    "value": "Kevin Berry"
+                },
+                "linkedin": "jkberry",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "41fb03b9-d724-48db-8a43-0347d6fe02e9",
+                            "related_uuid": "4af50c28-1604-4d70-9575-d48c5e153ab6",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

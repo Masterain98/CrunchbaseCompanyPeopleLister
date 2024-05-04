@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5ac90fc1-1caa-4204-be6d-04caa7f4d798",
+            "properties": {
+                "name": "Alex Stein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5ac90fc1-1caa-4204-be6d-04caa7f4d798",
+                    "value": "Alex Stein"
+                },
+                "linkedin": "alex-stein-8a85923",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e84199d3-afd0-4bae-934d-5e63d7af8c8e",
+                            "related_uuid": "5ac90fc1-1caa-4204-be6d-04caa7f4d798",
+                            "properties": {
+                                "job_title": "CEO, Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

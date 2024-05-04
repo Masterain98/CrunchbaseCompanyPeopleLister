@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e2e5626b-eecf-4848-a89c-dc7700d2a27b",
+            "properties": {
+                "name": "Amanda Lannert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e2e5626b-eecf-4848-a89c-dc7700d2a27b",
+                    "value": "Amanda Lannert"
+                },
+                "linkedin": "amandalannert",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0214b43c-3149-4482-a477-84369479f967",
+                            "related_uuid": "e2e5626b-eecf-4848-a89c-dc7700d2a27b",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

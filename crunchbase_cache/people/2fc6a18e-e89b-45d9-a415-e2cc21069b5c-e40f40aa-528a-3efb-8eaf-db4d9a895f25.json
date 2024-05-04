@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ad4ada18-dd98-46d0-a604-762a8176aa8e",
+            "properties": {
+                "name": "Dallas Dodd",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ad4ada18-dd98-46d0-a604-762a8176aa8e",
+                    "value": "Dallas Dodd"
+                },
+                "linkedin": "dallasdodd",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e6993e5-99e1-4a78-a205-8e0f50cf97fa",
+                            "related_uuid": "ad4ada18-dd98-46d0-a604-762a8176aa8e",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,380 @@
+{
+    "count": 12,
+    "entities": [
+        {
+            "uuid": "72bce1c9-5a93-49d7-a15d-5193722e72e4",
+            "properties": {
+                "name": "Alexis Harrison",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "72bce1c9-5a93-49d7-a15d-5193722e72e4",
+                    "value": "Alexis Harrison"
+                },
+                "linkedin": "alexiskharrison",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1df0e587-d7cd-49cb-95ee-1701ed437469",
+                            "related_uuid": "72bce1c9-5a93-49d7-a15d-5193722e72e4",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f2785e33-7b34-4cfe-94ce-5136840c677d",
+            "properties": {
+                "name": "Alexis Harrison",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f2785e33-7b34-4cfe-94ce-5136840c677d",
+                    "value": "Alexis Harrison"
+                },
+                "linkedin": "alexiskhenderson",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dd47cde9-69fc-470f-88fa-f6e16f2cbba2",
+                            "related_uuid": "f2785e33-7b34-4cfe-94ce-5136840c677d",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5fdb91b0-7bf0-40cb-b582-feed463ef02b",
+            "properties": {
+                "name": "Daniel Kovalsky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5fdb91b0-7bf0-40cb-b582-feed463ef02b",
+                    "value": "Daniel Kovalsky"
+                },
+                "linkedin": "daniel-kovalsky-a759b8141",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2a389fc3-3c1c-47aa-a706-2535bf0c1af4",
+                            "related_uuid": "5fdb91b0-7bf0-40cb-b582-feed463ef02b",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "be8dd842-139e-457e-adcd-014cad399410",
+            "properties": {
+                "name": "Donald Darlington",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "be8dd842-139e-457e-adcd-014cad399410",
+                    "value": "Donald Darlington"
+                },
+                "linkedin": "darlingtondon",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "35e0f76f-fd93-4324-8532-a320aec3c3c9",
+                            "related_uuid": "be8dd842-139e-457e-adcd-014cad399410",
+                            "properties": {
+                                "job_title": "Director, Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7206b798-5e22-4c2e-9096-6c1d6fda889c",
+            "properties": {
+                "name": "Elizabeth Vincent",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7206b798-5e22-4c2e-9096-6c1d6fda889c",
+                    "value": "Elizabeth Vincent"
+                },
+                "linkedin": "elizabeth-ann-vincent",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a76071ba-ffaa-4e81-8c9e-91c1d6e2b29a",
+                            "related_uuid": "7206b798-5e22-4c2e-9096-6c1d6fda889c",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1a2d2609-6d45-4882-be9d-80036c1423b7",
+            "properties": {
+                "name": "Emma Sutton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1a2d2609-6d45-4882-be9d-80036c1423b7",
+                    "value": "Emma Sutton"
+                },
+                "linkedin": "suttonemma",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5d1c7469-7bb5-4d0c-90bb-241573592805",
+                            "related_uuid": "1a2d2609-6d45-4882-be9d-80036c1423b7",
+                            "properties": {
+                                "job_title": "Director of Customer Success, APJ"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ca37b719-bd5d-43de-ba6e-a7d3f0ed6b86",
+            "properties": {
+                "name": "Gabrielle Beckenham",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ca37b719-bd5d-43de-ba6e-a7d3f0ed6b86",
+                    "value": "Gabrielle Beckenham"
+                },
+                "linkedin": "gabriellebeckenham",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a443718a-af34-45eb-8323-a0feeb90685b",
+                            "related_uuid": "ca37b719-bd5d-43de-ba6e-a7d3f0ed6b86",
+                            "properties": {
+                                "job_title": "Director Customer Success - ANZ"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d37d326b-99b7-4f06-ab6b-1760958ac95d",
+            "properties": {
+                "name": "Lauren Tafoya",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d37d326b-99b7-4f06-ab6b-1760958ac95d",
+                    "value": "Lauren Tafoya"
+                },
+                "linkedin": "lauren-tafoya",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "10200086-646c-4cc5-9f07-3ae87f2e3be0",
+                            "related_uuid": "d37d326b-99b7-4f06-ab6b-1760958ac95d",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "07075aee-1fc8-4466-a43b-062535cadab8",
+            "properties": {
+                "name": "Lien Vandeputte",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "07075aee-1fc8-4466-a43b-062535cadab8",
+                    "value": "Lien Vandeputte"
+                },
+                "linkedin": "lienvandeputte",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e67da7da-1f1b-46a8-a57a-222657a7137b",
+                            "related_uuid": "07075aee-1fc8-4466-a43b-062535cadab8",
+                            "properties": {
+                                "job_title": "Director Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2babe988-03ff-478b-b9ce-b52b01137100",
+            "properties": {
+                "name": "Lindsey Houser",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2babe988-03ff-478b-b9ce-b52b01137100",
+                    "value": "Lindsey Houser"
+                },
+                "linkedin": "lindseyahouser",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5496c71a-c455-4464-ab14-2d413835fdf4",
+                            "related_uuid": "2babe988-03ff-478b-b9ce-b52b01137100",
+                            "properties": {
+                                "job_title": "Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f3a07497-cbd0-4291-aacd-264b3a4ad96a",
+            "properties": {
+                "name": "Nicole Prairie",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f3a07497-cbd0-4291-aacd-264b3a4ad96a",
+                    "value": "Nicole Prairie"
+                },
+                "linkedin": "nicole-prairie-328b5140",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "51c8fc2f-060c-4071-ade8-a7b202d3b7d2",
+                            "related_uuid": "f3a07497-cbd0-4291-aacd-264b3a4ad96a",
+                            "properties": {
+                                "job_title": "Director, Customer Success- Enterprise"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "da026e6e-2734-4960-98c2-5ba30d69c8ee",
+            "properties": {
+                "name": "Paul Byron",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "da026e6e-2734-4960-98c2-5ba30d69c8ee",
+                    "value": "Paul Byron"
+                },
+                "linkedin": "paulbyron",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0913f9fe-b2c4-4ba5-8b47-a41647a19eeb",
+                            "related_uuid": "da026e6e-2734-4960-98c2-5ba30d69c8ee",
+                            "properties": {
+                                "job_title": "Customer Success Director at ON24"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

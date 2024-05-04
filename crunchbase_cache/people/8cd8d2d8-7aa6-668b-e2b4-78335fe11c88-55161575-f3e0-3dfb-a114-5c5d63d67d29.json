@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8f3ac451-8d17-4f67-bca4-5d146fc57294",
+            "properties": {
+                "name": "Stephan Schambach",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8f3ac451-8d17-4f67-bca4-5d146fc57294",
+                    "value": "Stephan Schambach"
+                },
+                "linkedin": "stephanschambach",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4449d7e2-fad3-49e9-a0cf-cdc72be6e97a",
+                            "related_uuid": "8f3ac451-8d17-4f67-bca4-5d146fc57294",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

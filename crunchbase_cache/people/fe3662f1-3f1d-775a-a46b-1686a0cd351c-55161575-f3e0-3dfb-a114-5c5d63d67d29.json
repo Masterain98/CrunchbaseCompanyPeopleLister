@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b9a39f72-b440-46e7-bac9-b7b09c074fc2",
+            "properties": {
+                "name": "Max Pecherskyi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b9a39f72-b440-46e7-bac9-b7b09c074fc2",
+                    "value": "Max Pecherskyi"
+                },
+                "linkedin": "maxpecherskyi",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ef3e3eeb-4bf1-4b8f-806c-6bfed2818558",
+                            "related_uuid": "b9a39f72-b440-46e7-bac9-b7b09c074fc2",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

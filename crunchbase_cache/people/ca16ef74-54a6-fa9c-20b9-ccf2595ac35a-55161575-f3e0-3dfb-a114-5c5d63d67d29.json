@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7e2462af-6d2d-4375-9754-faac6779d2fc",
+            "properties": {
+                "name": "Mr. Mario Ciabarra",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7e2462af-6d2d-4375-9754-faac6779d2fc",
+                    "value": "Mr. Mario Ciabarra"
+                },
+                "linkedin": "mariociabarra",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7e86073e-7d47-4e9c-ab29-56501ff51cce",
+                            "related_uuid": "7e2462af-6d2d-4375-9754-faac6779d2fc",
+                            "properties": {
+                                "job_title": "CEO | Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

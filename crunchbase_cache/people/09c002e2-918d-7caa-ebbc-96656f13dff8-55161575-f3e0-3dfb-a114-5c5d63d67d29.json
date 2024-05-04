@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2f7cb6d9-8eaa-4387-be98-46303c9f7c3f",
+            "properties": {
+                "name": "Mathilde Collin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2f7cb6d9-8eaa-4387-be98-46303c9f7c3f",
+                    "value": "Mathilde Collin"
+                },
+                "linkedin": "mathilde-collin-bb59492a",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2800f880-59d8-4e3a-8ec8-54fcdbd2593a",
+                            "related_uuid": "2f7cb6d9-8eaa-4387-be98-46303c9f7c3f",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

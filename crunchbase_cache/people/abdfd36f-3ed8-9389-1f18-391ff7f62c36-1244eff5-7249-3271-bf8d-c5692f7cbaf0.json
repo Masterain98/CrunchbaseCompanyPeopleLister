@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "40c2ee37-1bfa-4711-8db2-ad7b6c82b4bc",
+            "properties": {
+                "name": "Roopak Parikh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "40c2ee37-1bfa-4711-8db2-ad7b6c82b4bc",
+                    "value": "Roopak Parikh"
+                },
+                "linkedin": "roopak-parikh-b90608",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7301c964-5daf-4ad0-8759-9c953236608c",
+                            "related_uuid": "40c2ee37-1bfa-4711-8db2-ad7b6c82b4bc",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "3ed018d2-3e4c-48e5-9c44-1d3ab113c0a2",
+            "properties": {
+                "name": "Crystal Goade",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3ed018d2-3e4c-48e5-9c44-1d3ab113c0a2",
+                    "value": "Crystal Goade"
+                },
+                "linkedin": "crystalgoade",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2168c878-21eb-4b58-b893-d4c9b9a26074",
+                            "related_uuid": "3ed018d2-3e4c-48e5-9c44-1d3ab113c0a2",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "60b9fd03-d13b-4b8a-ae70-23eb8c56ee6a",
+            "properties": {
+                "name": "Travis Meidell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "60b9fd03-d13b-4b8a-ae70-23eb8c56ee6a",
+                    "value": "Travis Meidell"
+                },
+                "linkedin": "travismeidell",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4d3cc523-64e3-4063-8f77-38dd1525da6a",
+                            "related_uuid": "60b9fd03-d13b-4b8a-ae70-23eb8c56ee6a",
+                            "properties": {
+                                "job_title": "Executive Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

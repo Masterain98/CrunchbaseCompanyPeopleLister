@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1996baa5-6c6a-4b4b-950d-62d550828f56",
+            "properties": {
+                "name": "Tracy LeMieux",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1996baa5-6c6a-4b4b-950d-62d550828f56",
+                    "value": "Tracy LeMieux"
+                },
+                "linkedin": "tracylaurenkelly",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e349bd2-0441-4c3d-bead-4fe48a6cf208",
+                            "related_uuid": "1996baa5-6c6a-4b4b-950d-62d550828f56",
+                            "properties": {
+                                "job_title": "Director of Marketing Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

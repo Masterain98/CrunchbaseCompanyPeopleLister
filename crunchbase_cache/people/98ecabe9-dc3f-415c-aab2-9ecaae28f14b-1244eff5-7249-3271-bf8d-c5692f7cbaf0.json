@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "68cb7756-6ac1-450b-bd2e-5375d36506b4",
+            "properties": {
+                "name": "Tim Dirrenberger",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "68cb7756-6ac1-450b-bd2e-5375d36506b4",
+                    "value": "Tim Dirrenberger"
+                },
+                "linkedin": "tim-dirrenberger-690a2b4",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a00cda8-c68a-462d-83ee-1630afd380f1",
+                            "related_uuid": "68cb7756-6ac1-450b-bd2e-5375d36506b4",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

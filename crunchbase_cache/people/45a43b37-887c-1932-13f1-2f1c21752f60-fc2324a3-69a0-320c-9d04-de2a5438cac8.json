@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "df5a7641-6833-4d56-a673-05c356e30d17",
+            "properties": {
+                "name": "Lauren Bogoshian",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "df5a7641-6833-4d56-a673-05c356e30d17",
+                    "value": "Lauren Bogoshian"
+                },
+                "linkedin": "lauren-bogoshian-55452926",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2f9eeef2-4cf4-4393-9da2-c216efde9c52",
+                            "related_uuid": "df5a7641-6833-4d56-a673-05c356e30d17",
+                            "properties": {
+                                "job_title": "Director, Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "eed41f2e-7563-43b8-9ab7-d455206507d2",
+            "properties": {
+                "name": "Sugu Sougoumarane",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eed41f2e-7563-43b8-9ab7-d455206507d2",
+                    "value": "Sugu Sougoumarane"
+                },
+                "linkedin": "sugu-sougoumarane-b9bb25",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5a5fd218-a698-4439-bcb7-9f12baee3d28",
+                            "related_uuid": "eed41f2e-7563-43b8-9ab7-d455206507d2",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

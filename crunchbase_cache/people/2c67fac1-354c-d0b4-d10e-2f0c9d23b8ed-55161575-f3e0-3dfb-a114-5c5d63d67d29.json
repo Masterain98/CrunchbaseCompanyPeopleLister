@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "3cf00e13-3f2b-463c-b227-db5650d450d2",
+            "properties": {
+                "name": "Adam Woods",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3cf00e13-3f2b-463c-b227-db5650d450d2",
+                    "value": "Adam Woods"
+                },
+                "linkedin": "adamjeremywoods",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "031bd24f-ef78-4182-89da-c3ec02bbb563",
+                            "related_uuid": "3cf00e13-3f2b-463c-b227-db5650d450d2",
+                            "properties": {
+                                "job_title": "Chief Client Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f7b4562b-7124-4258-bfc5-dc30b4e37f4b",
+            "properties": {
+                "name": "Mr Andrew Fischer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f7b4562b-7124-4258-bfc5-dc30b4e37f4b",
+                    "value": "Mr Andrew Fischer"
+                },
+                "linkedin": "andrewfischer11",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26805865-d99e-4555-834a-43d83e147db9",
+                            "related_uuid": "f7b4562b-7124-4258-bfc5-dc30b4e37f4b",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

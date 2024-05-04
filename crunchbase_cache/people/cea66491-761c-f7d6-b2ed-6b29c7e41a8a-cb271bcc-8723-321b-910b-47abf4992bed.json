@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c52e37a0-f609-49fb-bd59-07f52888f700",
+            "properties": {
+                "name": "Jaqueline Benachio",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c52e37a0-f609-49fb-bd59-07f52888f700",
+                    "value": "Jaqueline Benachio"
+                },
+                "linkedin": "jaqueline-benachio-cmx-302a0751",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "279e1c54-b5ce-4f92-b823-26cff1ed17ee",
+                            "related_uuid": "c52e37a0-f609-49fb-bd59-07f52888f700",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

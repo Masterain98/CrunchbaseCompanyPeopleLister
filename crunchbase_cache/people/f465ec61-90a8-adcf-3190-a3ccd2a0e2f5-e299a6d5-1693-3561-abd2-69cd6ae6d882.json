@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "871b7799-08cf-4d0c-8789-3d96701b0704",
+            "properties": {
+                "name": "Leanne Mallini",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "871b7799-08cf-4d0c-8789-3d96701b0704",
+                    "value": "Leanne Mallini"
+                },
+                "linkedin": "leannemallini",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "71fec989-5cf3-4b5d-b2fe-cc8bbcf2ab49",
+                            "related_uuid": "871b7799-08cf-4d0c-8789-3d96701b0704",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

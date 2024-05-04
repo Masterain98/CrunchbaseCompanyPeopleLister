@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cabe80dc-4afb-4918-a812-9ac6e35fa954",
+            "properties": {
+                "name": "Jini Kim",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cabe80dc-4afb-4918-a812-9ac6e35fa954",
+                    "value": "Jini Kim"
+                },
+                "linkedin": "jini-kim-0551929a",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3af5adf9-02b2-4f8e-90d4-7662a062bae0",
+                            "related_uuid": "cabe80dc-4afb-4918-a812-9ac6e35fa954",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

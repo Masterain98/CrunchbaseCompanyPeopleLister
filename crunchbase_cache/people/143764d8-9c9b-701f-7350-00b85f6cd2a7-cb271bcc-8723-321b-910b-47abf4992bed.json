@@ -1,0 +1,99 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "03b98ae8-856e-4880-920f-7130d2af4ca7",
+            "properties": {
+                "name": "Heather Bondar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "03b98ae8-856e-4880-920f-7130d2af4ca7",
+                    "value": "Heather Bondar"
+                },
+                "linkedin": "heather-bondar-741a7a3",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9c2e2420-898d-49ec-9d4d-f8b3a862b43f",
+                            "related_uuid": "03b98ae8-856e-4880-920f-7130d2af4ca7",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b4ffa553-96a1-4043-bab0-6c10e22d8e4b",
+            "properties": {
+                "name": "Kaylin Dooher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b4ffa553-96a1-4043-bab0-6c10e22d8e4b",
+                    "value": "Kaylin Dooher"
+                },
+                "linkedin": "kaylindooher",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "96286a6f-e2db-43e7-91e0-b9355a0e7b37",
+                            "related_uuid": "b4ffa553-96a1-4043-bab0-6c10e22d8e4b",
+                            "properties": {
+                                "job_title": "Director of Customer Success, Scale Business"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "4edc77d8-b683-416b-891c-786c59119962",
+            "properties": {
+                "name": "Kaylin Dooher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4edc77d8-b683-416b-891c-786c59119962",
+                    "value": "Kaylin Dooher"
+                },
+                "linkedin": "kaylinluecht",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8fb3817b-c4de-4298-83ff-cf5196ea78e5",
+                            "related_uuid": "4edc77d8-b683-416b-891c-786c59119962",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

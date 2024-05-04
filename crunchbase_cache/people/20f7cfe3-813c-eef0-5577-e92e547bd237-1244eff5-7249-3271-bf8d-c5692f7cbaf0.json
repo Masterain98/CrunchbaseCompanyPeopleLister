@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9e003eb1-eaad-4592-9461-6784dc98f4da",
+            "properties": {
+                "name": "Karan Gupta",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9e003eb1-eaad-4592-9461-6784dc98f4da",
+                    "value": "Karan Gupta"
+                },
+                "linkedin": "karanmg",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26d0c847-8abb-495f-87e8-51762c14eb30",
+                            "related_uuid": "9e003eb1-eaad-4592-9461-6784dc98f4da",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

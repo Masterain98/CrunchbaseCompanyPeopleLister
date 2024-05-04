@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "443fe896-b51e-45e6-9aae-ce27ec67f3cd",
+            "properties": {
+                "name": "Irv Rothman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "443fe896-b51e-45e6-9aae-ce27ec67f3cd",
+                    "value": "Irv Rothman"
+                },
+                "linkedin": "irvrothman",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "742fdd6d-40cd-4c77-8e6c-f69e40a69c05",
+                            "related_uuid": "443fe896-b51e-45e6-9aae-ce27ec67f3cd",
+                            "properties": {
+                                "job_title": "President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

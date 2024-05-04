@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0f99a1b9-7c58-459f-9eb3-278b47bb9460",
+            "properties": {
+                "name": "Anna Fisher",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0f99a1b9-7c58-459f-9eb3-278b47bb9460",
+                    "value": "Anna Fisher"
+                },
+                "linkedin": "anna-fisher-7128571b",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0dc599d1-0d38-4d1d-a4b8-495c4b8df50c",
+                            "related_uuid": "0f99a1b9-7c58-459f-9eb3-278b47bb9460",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

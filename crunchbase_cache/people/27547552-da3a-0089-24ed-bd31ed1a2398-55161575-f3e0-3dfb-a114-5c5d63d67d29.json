@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e685cf2f-addf-472e-be9d-8a0ec38f0eca",
+            "properties": {
+                "name": "Jim Jordan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e685cf2f-addf-472e-be9d-8a0ec38f0eca",
+                    "value": "Jim Jordan"
+                },
+                "linkedin": "jim-jordan-b85a424",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "37ac2453-6855-4e4c-a8b6-fd016d3e3f9d",
+                            "related_uuid": "e685cf2f-addf-472e-be9d-8a0ec38f0eca",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

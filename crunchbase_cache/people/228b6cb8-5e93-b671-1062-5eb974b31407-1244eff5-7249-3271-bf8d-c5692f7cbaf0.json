@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ddf7ed79-c921-4263-8daa-8c13392fd35b",
+            "properties": {
+                "name": "Allen Terleto",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ddf7ed79-c921-4263-8daa-8c13392fd35b",
+                    "value": "Allen Terleto"
+                },
+                "linkedin": "allenterleto",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ab22e6a7-9999-4d56-8385-bcb125e8d886",
+                            "related_uuid": "ddf7ed79-c921-4263-8daa-8c13392fd35b",
+                            "properties": {
+                                "job_title": "Field CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

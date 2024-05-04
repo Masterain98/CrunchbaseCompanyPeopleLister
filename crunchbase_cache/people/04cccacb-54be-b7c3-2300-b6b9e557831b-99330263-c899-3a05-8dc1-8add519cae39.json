@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5d4ff8a9-fa56-4d0b-a838-fe6e76b7887a",
+            "properties": {
+                "name": "Melton Littlepage",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5d4ff8a9-fa56-4d0b-a838-fe6e76b7887a",
+                    "value": "Melton Littlepage"
+                },
+                "linkedin": "meltonlittlepage",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ca4ecda7-8b68-4cfe-83b8-38b7e1680518",
+                            "related_uuid": "5d4ff8a9-fa56-4d0b-a838-fe6e76b7887a",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9059cc49-0324-459f-a68c-6f6816e8d8ee",
+            "properties": {
+                "name": "Steve Walton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9059cc49-0324-459f-a68c-6f6816e8d8ee",
+                    "value": "Steve Walton"
+                },
+                "linkedin": "steve-walton-95b5ab14",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "16537669-2334-413d-a174-7ccfd8a5395e",
+                            "related_uuid": "9059cc49-0324-459f-a68c-6f6816e8d8ee",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

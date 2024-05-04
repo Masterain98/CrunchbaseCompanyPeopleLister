@@ -1,0 +1,100 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "f6d6a0d7-ac21-4fe7-85a1-10bbc1f6c768",
+            "properties": {
+                "name": "Bruce Dahlgren",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f6d6a0d7-ac21-4fe7-85a1-10bbc1f6c768",
+                    "value": "Bruce Dahlgren"
+                },
+                "linkedin": "bruce-dahlgren-413b69210",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6847a526-7a7c-4f9d-a9f4-60260054557b",
+                            "related_uuid": "f6d6a0d7-ac21-4fe7-85a1-10bbc1f6c768",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "27fcddfd-093a-40af-909f-ef80237b96d2",
+            "properties": {
+                "name": "Gaurav Kapoor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "27fcddfd-093a-40af-909f-ef80237b96d2",
+                    "value": "Gaurav Kapoor"
+                },
+                "linkedin": "gauravkapoor",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "533cdb33-3ba0-45a5-a7ed-7e078f07f780",
+                            "related_uuid": "27fcddfd-093a-40af-909f-ef80237b96d2",
+                            "properties": {
+                                "job_title": "Co-Chief Executive Officer and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ceedb656-ceaf-49d8-aba6-cc47663ba6a0",
+            "properties": {
+                "name": "Prasad Sabbineni",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ceedb656-ceaf-49d8-aba6-cc47663ba6a0",
+                    "value": "Prasad Sabbineni"
+                },
+                "linkedin": "prasad-sabbineni-728a8717",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c3dae1fe-529e-43b9-aba7-331fd7ec7759",
+                            "related_uuid": "ceedb656-ceaf-49d8-aba6-cc47663ba6a0",
+                            "properties": {
+                                "job_title": "Co-Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

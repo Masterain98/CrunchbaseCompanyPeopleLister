@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7efbab7c-0f85-4e34-9fb4-7c917162bf76",
+            "properties": {
+                "name": "Swaroopa Penikelapati",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7efbab7c-0f85-4e34-9fb4-7c917162bf76",
+                    "value": "Swaroopa Penikelapati"
+                },
+                "linkedin": "swaroopa-penikelapati-221b171",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1533bfa6-cabe-4225-9dd4-a486f1fe878a",
+                            "related_uuid": "7efbab7c-0f85-4e34-9fb4-7c917162bf76",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

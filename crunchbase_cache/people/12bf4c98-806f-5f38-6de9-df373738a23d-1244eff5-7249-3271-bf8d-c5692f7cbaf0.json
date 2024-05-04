@@ -1,0 +1,66 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "6d8710ce-2069-490c-9d6f-92f140646589",
+            "properties": {
+                "name": "Riccardo La Rosa",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6d8710ce-2069-490c-9d6f-92f140646589",
+                    "value": "Riccardo La Rosa"
+                },
+                "linkedin": "riccardolarosa",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0abd9ffa-dfb7-47cb-8144-0613ac79cd9c",
+                            "related_uuid": "6d8710ce-2069-490c-9d6f-92f140646589",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a03ac335-f398-483c-893f-3960f8f20cd2",
+            "properties": {
+                "name": "Sal Visca",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a03ac335-f398-483c-893f-3960f8f20cd2",
+                    "value": "Sal Visca"
+                },
+                "linkedin": "salvisca",
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6f40f817-7cf9-43db-85a7-994536a2d73b",
+                            "related_uuid": "a03ac335-f398-483c-893f-3960f8f20cd2",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "6e3469c3-0cbd-4b27-8553-15b98569ac07",
+            "properties": {
+                "name": "Bobby Brown",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6e3469c3-0cbd-4b27-8553-15b98569ac07",
+                    "value": "Bobby Brown"
+                },
+                "linkedin": "bobby-brown-42a51384",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "14f543aa-5240-448b-9896-6ff7b4bd83a0",
+                            "related_uuid": "6e3469c3-0cbd-4b27-8553-15b98569ac07",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "00498995-d979-4601-a0a1-9384b3b4884e",
+            "properties": {
+                "name": "Kosovo Ragip",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "00498995-d979-4601-a0a1-9384b3b4884e",
+                    "value": "Kosovo Ragip"
+                },
+                "linkedin": "kosovo-ragip-a06766163",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b4f6a386-7fb3-492e-80a9-7e2a4926d3b5",
+                            "related_uuid": "00498995-d979-4601-a0a1-9384b3b4884e",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

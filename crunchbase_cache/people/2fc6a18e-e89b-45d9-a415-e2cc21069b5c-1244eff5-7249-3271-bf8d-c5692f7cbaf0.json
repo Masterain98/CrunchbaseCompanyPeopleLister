@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2d841ca1-1e02-4ad6-8636-2ad1c6618ceb",
+            "properties": {
+                "name": "Drew Newman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2d841ca1-1e02-4ad6-8636-2ad1c6618ceb",
+                    "value": "Drew Newman"
+                },
+                "linkedin": "drew-newman-99756813",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "51e6e4c8-5e99-4631-a1c7-baaedca92d29",
+                            "related_uuid": "2d841ca1-1e02-4ad6-8636-2ad1c6618ceb",
+                            "properties": {
+                                "job_title": "Evp, CIO / CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

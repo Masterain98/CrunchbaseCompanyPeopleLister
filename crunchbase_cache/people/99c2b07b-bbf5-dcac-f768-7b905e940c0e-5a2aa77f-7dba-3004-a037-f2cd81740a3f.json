@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ada41411-561a-4dc1-a760-3060a43825ce",
+            "properties": {
+                "name": "Oliver Hartwell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ada41411-561a-4dc1-a760-3060a43825ce",
+                    "value": "Oliver Hartwell"
+                },
+                "linkedin": "oliver-hartwell-52522240",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f82727f3-df8f-4ee3-acc2-81a8ad007854",
+                            "related_uuid": "ada41411-561a-4dc1-a760-3060a43825ce",
+                            "properties": {
+                                "job_title": "Commercial Director, Diagnostics"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

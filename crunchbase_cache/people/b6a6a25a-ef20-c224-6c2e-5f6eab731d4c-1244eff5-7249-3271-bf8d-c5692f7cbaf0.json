@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fb0c5233-1722-4ee7-82e3-8bbc09326a15",
+            "properties": {
+                "name": "John Asermely",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fb0c5233-1722-4ee7-82e3-8bbc09326a15",
+                    "value": "John Asermely"
+                },
+                "linkedin": "john-asermely-a8ab6a4",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bdde7a67-b047-4609-a91e-1307cb2c05a6",
+                            "related_uuid": "fb0c5233-1722-4ee7-82e3-8bbc09326a15",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

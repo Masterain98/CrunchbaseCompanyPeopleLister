@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b0565cb1-03a5-4f7f-babf-f4f707bf18ae",
+            "properties": {
+                "name": "Robert Fabbio",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b0565cb1-03a5-4f7f-babf-f4f707bf18ae",
+                    "value": "Robert Fabbio"
+                },
+                "linkedin": "robertfabbio",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "605e8b32-7478-4750-b4e4-3055a6b37e3e",
+                            "related_uuid": "b0565cb1-03a5-4f7f-babf-f4f707bf18ae",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "151ee52b-a0ae-42e0-88c7-3c3a654a442f",
+            "properties": {
+                "name": "Daniel Chait",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "151ee52b-a0ae-42e0-88c7-3c3a654a442f",
+                    "value": "Daniel Chait"
+                },
+                "linkedin": "dhchait",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5e816ec5-5ba6-4e59-8f34-8394d64983e8",
+                            "related_uuid": "151ee52b-a0ae-42e0-88c7-3c3a654a442f",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

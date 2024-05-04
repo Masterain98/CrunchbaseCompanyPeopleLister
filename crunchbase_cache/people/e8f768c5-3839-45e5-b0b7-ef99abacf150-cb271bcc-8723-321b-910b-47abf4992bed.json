@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2da4cf89-aa4b-4767-a0dc-9404258e04cc",
+            "properties": {
+                "name": "Hayley Kenny",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2da4cf89-aa4b-4767-a0dc-9404258e04cc",
+                    "value": "Hayley Kenny"
+                },
+                "linkedin": "hayley-kenny-1227b643",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a7b2aa2c-d5e9-43ec-b948-d60d272df301",
+                            "related_uuid": "2da4cf89-aa4b-4767-a0dc-9404258e04cc",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

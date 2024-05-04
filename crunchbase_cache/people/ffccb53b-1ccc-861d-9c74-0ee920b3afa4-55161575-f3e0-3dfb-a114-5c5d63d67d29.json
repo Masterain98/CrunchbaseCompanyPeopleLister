@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ed0e3dba-5737-43f9-90b2-8886b801b9ce",
+            "properties": {
+                "name": "Brian Wilson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ed0e3dba-5737-43f9-90b2-8886b801b9ce",
+                    "value": "Brian Wilson"
+                },
+                "linkedin": "privcloudbrian",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9e5a5a21-3a52-470f-b290-cfb3873ea065",
+                            "related_uuid": "ed0e3dba-5737-43f9-90b2-8886b801b9ce",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

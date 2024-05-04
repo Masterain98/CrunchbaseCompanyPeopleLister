@@ -1,0 +1,71 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ea541a3a-27d6-4c00-8e0f-7e4c306a7c10",
+            "properties": {
+                "name": "Manish Sood",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ea541a3a-27d6-4c00-8e0f-7e4c306a7c10",
+                    "value": "Manish Sood"
+                },
+                "linkedin": "manishsood",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4fca3f6a-5892-4bc3-bf4c-05d6bf5aea34",
+                            "related_uuid": "ea541a3a-27d6-4c00-8e0f-7e4c306a7c10",
+                            "properties": {
+                                "job_title": "Chief Executive Officer, Founder & Chairman"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "0e7966a5-07bb-441e-96dc-0dace6b47ed3",
+            "properties": {
+                "name": "Mike Frasca",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0e7966a5-07bb-441e-96dc-0dace6b47ed3",
+                    "value": "Mike Frasca"
+                },
+                "linkedin": "michaelfrasca",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "48ebcb81-596d-45e0-9388-4fe3d0e130d4",
+                            "related_uuid": "0e7966a5-07bb-441e-96dc-0dace6b47ed3",
+                            "properties": {
+                                "job_title": "Field Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

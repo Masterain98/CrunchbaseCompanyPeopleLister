@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "288c027f-aa1e-4c47-bceb-559b17811fec",
+            "properties": {
+                "name": "Rowan Trollope",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "288c027f-aa1e-4c47-bceb-559b17811fec",
+                    "value": "Rowan Trollope"
+                },
+                "linkedin": "rowant",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c5ab6d5b-e962-4170-9847-de1a0efc5e24",
+                            "related_uuid": "288c027f-aa1e-4c47-bceb-559b17811fec",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

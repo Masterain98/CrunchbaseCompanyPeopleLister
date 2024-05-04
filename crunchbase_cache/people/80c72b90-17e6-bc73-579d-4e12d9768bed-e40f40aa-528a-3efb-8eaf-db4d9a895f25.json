@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "dd68ac15-bfc2-4ad4-aafe-a8469b9523cb",
+            "properties": {
+                "name": "Brittany Rivera",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dd68ac15-bfc2-4ad4-aafe-a8469b9523cb",
+                    "value": "Brittany Rivera"
+                },
+                "linkedin": "brittany-rivera-b089b741",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6b1257ad-2753-4bac-8eac-6b5232deb599",
+                            "related_uuid": "dd68ac15-bfc2-4ad4-aafe-a8469b9523cb",
+                            "properties": {
+                                "job_title": "Creative Director of Brand & Marketing"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

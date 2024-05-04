@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "135db8a9-d152-4360-af0d-e3fdee909f1f",
+            "properties": {
+                "name": "Claire Bruce",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "135db8a9-d152-4360-af0d-e3fdee909f1f",
+                    "value": "Claire Bruce"
+                },
+                "linkedin": "clairebrucedp",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5426c194-6277-4271-b799-80433e173492",
+                            "related_uuid": "135db8a9-d152-4360-af0d-e3fdee909f1f",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

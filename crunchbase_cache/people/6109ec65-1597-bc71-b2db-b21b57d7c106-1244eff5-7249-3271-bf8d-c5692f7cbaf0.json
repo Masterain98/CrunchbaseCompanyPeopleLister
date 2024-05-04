@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "36a4b2cc-c86b-45dc-99f1-5950c2ae4496",
+            "properties": {
+                "name": "Robert Berlin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "36a4b2cc-c86b-45dc-99f1-5950c2ae4496",
+                    "value": "Robert Berlin"
+                },
+                "linkedin": "robert-berlin-208a61b",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0fb773b6-911a-40a8-9a6d-a4cdac3f2ffc",
+                            "related_uuid": "36a4b2cc-c86b-45dc-99f1-5950c2ae4496",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

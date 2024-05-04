@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d10908a0-9c25-44d0-b25b-b10dda306fa8",
+            "properties": {
+                "name": "Mike Salvino",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d10908a0-9c25-44d0-b25b-b10dda306fa8",
+                    "value": "Mike Salvino"
+                },
+                "linkedin": "mikesalvino",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3023feee-34e7-4c9b-8157-42b29dc388a0",
+                            "related_uuid": "d10908a0-9c25-44d0-b25b-b10dda306fa8",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

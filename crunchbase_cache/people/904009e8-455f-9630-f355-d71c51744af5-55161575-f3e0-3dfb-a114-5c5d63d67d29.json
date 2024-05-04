@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5d8546e3-0e9f-4915-bdcb-1db66900e5c6",
+            "properties": {
+                "name": "Marcin Cichon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5d8546e3-0e9f-4915-bdcb-1db66900e5c6",
+                    "value": "Marcin Cichon"
+                },
+                "linkedin": "marcin-cichon-3846241",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b9e5749e-bf2c-4fbc-b534-92d4b518bb2e",
+                            "related_uuid": "5d8546e3-0e9f-4915-bdcb-1db66900e5c6",
+                            "properties": {
+                                "job_title": "Founder & Co-CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e5009763-1483-4e16-b157-a467aa4a1f3d",
+            "properties": {
+                "name": "Apurva Choudhury",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e5009763-1483-4e16-b157-a467aa4a1f3d",
+                    "value": "Apurva Choudhury"
+                },
+                "linkedin": "apurva",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "856a6f60-0a84-4218-a2d8-b17955b7f13c",
+                            "related_uuid": "e5009763-1483-4e16-b157-a467aa4a1f3d",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

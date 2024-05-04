@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5e3b7359-e98c-4b2e-9fdd-4433738a1f82",
+            "properties": {
+                "name": "Daniel Diez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5e3b7359-e98c-4b2e-9fdd-4433738a1f82",
+                    "value": "Daniel Diez"
+                },
+                "linkedin": "danieldiez",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5ef891e1-67f2-4e34-8187-65aaba4572c5",
+                            "related_uuid": "5e3b7359-e98c-4b2e-9fdd-4433738a1f82",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

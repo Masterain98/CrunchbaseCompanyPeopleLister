@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "882db204-d095-46fd-b219-336a4eedd33d",
+            "properties": {
+                "name": "Edris Bemanian",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "882db204-d095-46fd-b219-336a4eedd33d",
+                    "value": "Edris Bemanian"
+                },
+                "linkedin": "edrisadam",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "50c32c00-17b0-41ae-a14b-b7749e6e6b82",
+                            "related_uuid": "882db204-d095-46fd-b219-336a4eedd33d",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

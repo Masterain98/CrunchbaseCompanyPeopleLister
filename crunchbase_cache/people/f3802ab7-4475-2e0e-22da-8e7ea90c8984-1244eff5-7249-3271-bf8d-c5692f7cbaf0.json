@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cc2b4f35-2a80-4e10-ae0e-842effc0d2e4",
+            "properties": {
+                "name": "Craig Pohan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cc2b4f35-2a80-4e10-ae0e-842effc0d2e4",
+                    "value": "Craig Pohan"
+                },
+                "linkedin": "craig-pohan-20aa77",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c87afb42-f255-4686-959c-8fcd3d12497f",
+                            "related_uuid": "cc2b4f35-2a80-4e10-ae0e-842effc0d2e4",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

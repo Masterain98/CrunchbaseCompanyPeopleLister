@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "48d81751-8599-4395-986a-8a1ff0c54620",
+            "properties": {
+                "name": "Matthew Simons",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "48d81751-8599-4395-986a-8a1ff0c54620",
+                    "value": "Matthew Simons"
+                },
+                "linkedin": "matthewsimons",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "09caee92-4451-4551-baba-79af91bf8641",
+                            "related_uuid": "48d81751-8599-4395-986a-8a1ff0c54620",
+                            "properties": {
+                                "job_title": "Commercial Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

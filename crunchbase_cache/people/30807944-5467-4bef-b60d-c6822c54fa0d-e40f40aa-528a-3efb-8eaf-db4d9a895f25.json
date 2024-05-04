@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ec622b6b-8f30-47d1-a16e-cb020bbefb14",
+            "properties": {
+                "name": "Alexa Gentry",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ec622b6b-8f30-47d1-a16e-cb020bbefb14",
+                    "value": "Alexa Gentry"
+                },
+                "linkedin": "alexa-gentry-022088121",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8f69fb09-a987-4f2a-83aa-5aae934eb6b5",
+                            "related_uuid": "ec622b6b-8f30-47d1-a16e-cb020bbefb14",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

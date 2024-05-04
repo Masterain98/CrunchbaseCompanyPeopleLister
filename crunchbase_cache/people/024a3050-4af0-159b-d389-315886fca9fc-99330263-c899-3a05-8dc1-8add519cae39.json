@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6861171a-0641-4f83-8f3a-ba8e5e405ad4",
+            "properties": {
+                "name": "Shawna Stephenson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6861171a-0641-4f83-8f3a-ba8e5e405ad4",
+                    "value": "Shawna Stephenson"
+                },
+                "linkedin": "shawnastephenson",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1c400cd5-3247-45a7-8d03-996af1c895a4",
+                            "related_uuid": "6861171a-0641-4f83-8f3a-ba8e5e405ad4",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

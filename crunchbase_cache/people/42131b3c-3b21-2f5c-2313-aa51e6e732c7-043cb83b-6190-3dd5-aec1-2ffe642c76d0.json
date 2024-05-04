@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1b2a2d45-a647-41d9-bcd3-f1ae06bd48c0",
+            "properties": {
+                "name": "Emma Ferns",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1b2a2d45-a647-41d9-bcd3-f1ae06bd48c0",
+                    "value": "Emma Ferns"
+                },
+                "linkedin": "emmaferns",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2f1ec1de-1b3e-408a-9f0d-55d5979f7535",
+                            "related_uuid": "1b2a2d45-a647-41d9-bcd3-f1ae06bd48c0",
+                            "properties": {
+                                "job_title": "Senior Director, Global Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

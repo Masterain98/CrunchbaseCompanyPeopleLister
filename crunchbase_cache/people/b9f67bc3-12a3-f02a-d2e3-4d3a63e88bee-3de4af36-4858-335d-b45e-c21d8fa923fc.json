@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "dedcaa4f-dd6a-4566-9b53-bf28184cb98d",
+            "properties": {
+                "name": "Lucas Reid",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dedcaa4f-dd6a-4566-9b53-bf28184cb98d",
+                    "value": "Lucas Reid"
+                },
+                "linkedin": "lucasreid",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "09cf7390-5899-4976-b9a6-1b61e1390cf1",
+                            "related_uuid": "dedcaa4f-dd6a-4566-9b53-bf28184cb98d",
+                            "properties": {
+                                "job_title": "Operations"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "49563141-c758-4bb1-ab1e-97ef3e176d05",
+            "properties": {
+                "name": "Linda Butler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "49563141-c758-4bb1-ab1e-97ef3e176d05",
+                    "value": "Linda Butler"
+                },
+                "linkedin": "linda-butler-2020",
+                "job_levels": [
+                    "l_200_manager"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4f59056b-81b6-4e1d-b404-c237717db20a",
+                            "related_uuid": "49563141-c758-4bb1-ab1e-97ef3e176d05",
+                            "properties": {
+                                "job_title": "Information Systems Project Manager, Contractor for United States Postal Service"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b15d59af-31d0-423b-bc40-23ab92b2a78b",
+            "properties": {
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b15d59af-31d0-423b-bc40-23ab92b2a78b",
+                    "value": "Rick Varner"
+                },
+                "name": "Rick Varner",
+                "linkedin": "rick-varner-a396564a"
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5d0261cc-e874-431c-8f98-712b7c1d85f8",
+                            "related_uuid": "b15d59af-31d0-423b-bc40-23ab92b2a78b",
+                            "properties": {
+                                "job_title": "Electrical Foreman for Brown and Heim ,INC Electrical Contractors"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

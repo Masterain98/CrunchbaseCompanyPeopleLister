@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6911eb0b-5abc-4fec-8cf3-fd8846fadf1a",
+            "properties": {
+                "name": "Grant Ho",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6911eb0b-5abc-4fec-8cf3-fd8846fadf1a",
+                    "value": "Grant Ho"
+                },
+                "linkedin": "grantho",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e3c68d41-f030-4cae-8e42-6cfc8e39e321",
+                            "related_uuid": "6911eb0b-5abc-4fec-8cf3-fd8846fadf1a",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

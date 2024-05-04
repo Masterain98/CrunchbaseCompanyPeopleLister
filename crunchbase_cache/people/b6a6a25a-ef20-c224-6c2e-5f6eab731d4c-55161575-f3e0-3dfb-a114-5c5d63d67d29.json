@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5ad33d36-5276-474c-85d5-bc132edbe5ed",
+            "properties": {
+                "name": "Adam Robinson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5ad33d36-5276-474c-85d5-bc132edbe5ed",
+                    "value": "Adam Robinson"
+                },
+                "linkedin": "adamrobinson1",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8daca520-b1a3-4752-84fd-2e4e6e8a090c",
+                            "related_uuid": "5ad33d36-5276-474c-85d5-bc132edbe5ed",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

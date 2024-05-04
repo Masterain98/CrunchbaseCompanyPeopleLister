@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "52c128d2-1271-4a49-8d63-4d60781ee2ee",
+            "properties": {
+                "name": "Timothy May",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "52c128d2-1271-4a49-8d63-4d60781ee2ee",
+                    "value": "Timothy May"
+                },
+                "linkedin": "timwmay",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ace40493-bb1d-4c14-92e4-fb17fd5e81b5",
+                            "related_uuid": "52c128d2-1271-4a49-8d63-4d60781ee2ee",
+                            "properties": {
+                                "job_title": "CTO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

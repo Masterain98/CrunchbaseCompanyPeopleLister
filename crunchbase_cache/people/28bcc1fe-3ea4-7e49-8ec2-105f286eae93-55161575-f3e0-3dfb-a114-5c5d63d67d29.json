@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "9441e099-6d04-4188-93ca-7ca02afecbeb",
+            "properties": {
+                "name": "Jonah Paransky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9441e099-6d04-4188-93ca-7ca02afecbeb",
+                    "value": "Jonah Paransky"
+                },
+                "linkedin": "jonahparansky",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e0a50cc7-dd94-4735-8c3c-17c74e63a336",
+                            "related_uuid": "9441e099-6d04-4188-93ca-7ca02afecbeb",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

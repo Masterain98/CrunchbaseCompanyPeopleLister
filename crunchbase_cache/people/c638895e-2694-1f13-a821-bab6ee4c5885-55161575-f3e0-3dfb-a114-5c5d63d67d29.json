@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f474b4a0-71d3-47cc-8112-798bfdd40b22",
+            "properties": {
+                "name": "Brian Ahern",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f474b4a0-71d3-47cc-8112-798bfdd40b22",
+                    "value": "Brian Ahern"
+                },
+                "linkedin": "brahern",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "08fc0a68-7ea2-4563-887d-a828fb23a497",
+                            "related_uuid": "f474b4a0-71d3-47cc-8112-798bfdd40b22",
+                            "properties": {
+                                "job_title": "Chairman & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

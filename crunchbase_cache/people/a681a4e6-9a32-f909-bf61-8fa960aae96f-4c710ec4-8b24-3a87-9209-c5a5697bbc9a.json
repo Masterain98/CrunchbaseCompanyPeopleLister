@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cbc9d7e4-b96e-4dfc-9161-042e47c49e7c",
+            "properties": {
+                "name": "Kyle Dawson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cbc9d7e4-b96e-4dfc-9161-042e47c49e7c",
+                    "value": "Kyle Dawson"
+                },
+                "linkedin": "dawsonkyle",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ee089cc9-e863-4df0-989a-dbbcbc2f26a3",
+                            "related_uuid": "cbc9d7e4-b96e-4dfc-9161-042e47c49e7c",
+                            "properties": {
+                                "job_title": "Sr. Director Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

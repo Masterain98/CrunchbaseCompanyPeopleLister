@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7d6b2288-c36d-4e1e-8e62-78841cac34eb",
+            "properties": {
+                "name": "Kelly Parsons",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7d6b2288-c36d-4e1e-8e62-78841cac34eb",
+                    "value": "Kelly Parsons"
+                },
+                "linkedin": "kelly-parsons-490ba182",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3d81ceb3-7430-4cb3-8788-d4340a1b1c91",
+                            "related_uuid": "7d6b2288-c36d-4e1e-8e62-78841cac34eb",
+                            "properties": {
+                                "job_title": "Software Development Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

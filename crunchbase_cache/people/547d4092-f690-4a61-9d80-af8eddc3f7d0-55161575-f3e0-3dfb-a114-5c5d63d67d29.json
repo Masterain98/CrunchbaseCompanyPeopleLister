@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2fb4f505-13ab-43b1-a765-09a3c44d0524",
+            "properties": {
+                "name": "Nader Khalil",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2fb4f505-13ab-43b1-a765-09a3c44d0524",
+                    "value": "Nader Khalil"
+                },
+                "linkedin": "naderlikeladder",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4ec3697c-c792-4c1e-8963-61d3526004ee",
+                            "related_uuid": "2fb4f505-13ab-43b1-a765-09a3c44d0524",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

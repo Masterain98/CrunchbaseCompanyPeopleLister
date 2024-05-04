@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fc9d9262-74e9-49b2-a6f7-0f27eaff7f41",
+            "properties": {
+                "name": "Iftah Gideoni",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fc9d9262-74e9-49b2-a6f7-0f27eaff7f41",
+                    "value": "Iftah Gideoni"
+                },
+                "linkedin": "iftah-gideoni-0b41314",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "303504ad-9ea1-4f77-b48b-2fb1aa294705",
+                            "related_uuid": "fc9d9262-74e9-49b2-a6f7-0f27eaff7f41",
+                            "properties": {
+                                "job_title": "Consulting"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

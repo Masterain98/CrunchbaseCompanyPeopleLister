@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fff61ed5-9eb5-41a3-9b6a-8d1c7da0899d",
+            "properties": {
+                "name": "Jeff Nielsen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fff61ed5-9eb5-41a3-9b6a-8d1c7da0899d",
+                    "value": "Jeff Nielsen"
+                },
+                "linkedin": "jnielsen13",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "73c64f8e-3f6c-4daa-b2dd-044251f26516",
+                            "related_uuid": "fff61ed5-9eb5-41a3-9b6a-8d1c7da0899d",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

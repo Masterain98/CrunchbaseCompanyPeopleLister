@@ -1,0 +1,62 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "71eda73c-40fe-4641-89aa-de432c6aa1c8",
+            "properties": {
+                "name": "David Yovanno\u200b",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "71eda73c-40fe-4641-89aa-de432c6aa1c8",
+                    "value": "David Yovanno\u200b"
+                },
+                "linkedin": "dyovanno",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4e745527-ebff-48a6-a806-640e705fd01e",
+                            "related_uuid": "71eda73c-40fe-4641-89aa-de432c6aa1c8",
+                            "properties": {
+                                "job_title": "Chief Executive Officer, Board Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "82398e50-30ad-4725-b772-d1b341ac856d",
+            "properties": {
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "82398e50-30ad-4725-b772-d1b341ac856d",
+                    "value": "Dan Sheehy"
+                },
+                "name": "Dan Sheehy",
+                "linkedin": "dfsheehy"
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "33850f6e-20df-4549-aade-57f5dbc569ff",
+                            "related_uuid": "82398e50-30ad-4725-b772-d1b341ac856d",
+                            "properties": {
+                                "job_title": "Immediate Past Pres/CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

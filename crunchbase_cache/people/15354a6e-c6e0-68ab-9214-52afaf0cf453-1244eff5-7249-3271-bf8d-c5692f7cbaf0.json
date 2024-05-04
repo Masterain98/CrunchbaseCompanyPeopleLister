@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4dc4d774-a169-466f-aedc-0f0f3c5d3048",
+            "properties": {
+                "name": "Will Hansmann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4dc4d774-a169-466f-aedc-0f0f3c5d3048",
+                    "value": "Will Hansmann"
+                },
+                "linkedin": "willhansmann",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "30564cbc-f619-43c8-8940-ebfd77416a7b",
+                            "related_uuid": "4dc4d774-a169-466f-aedc-0f0f3c5d3048",
+                            "properties": {
+                                "job_title": "Consulting"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

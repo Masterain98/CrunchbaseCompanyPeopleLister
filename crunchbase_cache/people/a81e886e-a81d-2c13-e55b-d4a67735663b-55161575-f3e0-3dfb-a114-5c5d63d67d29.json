@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e8b02114-b98e-49d1-aeee-2ed20aca2c92",
+            "properties": {
+                "name": "Zachary Bookman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e8b02114-b98e-49d1-aeee-2ed20aca2c92",
+                    "value": "Zachary Bookman"
+                },
+                "linkedin": "zacharybookman",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1cb2122b-1688-4f7b-a560-22a3cbee2b8c",
+                            "related_uuid": "e8b02114-b98e-49d1-aeee-2ed20aca2c92",
+                            "properties": {
+                                "job_title": "CEO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

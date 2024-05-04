@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "da271ddb-2f9c-49ac-ab56-1f5fb10f9dd9",
+            "properties": {
+                "name": "Justin Hansen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "da271ddb-2f9c-49ac-ab56-1f5fb10f9dd9",
+                    "value": "Justin Hansen"
+                },
+                "linkedin": "justin-hansen-b4605661",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "048725be-f7e3-4393-aa9d-fa3db3bfbd99",
+                            "related_uuid": "da271ddb-2f9c-49ac-ab56-1f5fb10f9dd9",
+                            "properties": {
+                                "job_title": "Field CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b19b8e1e-0080-414a-b536-7b4941c5ed2b",
+            "properties": {
+                "name": "Joe Riley",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b19b8e1e-0080-414a-b536-7b4941c5ed2b",
+                    "value": "Joe Riley"
+                },
+                "linkedin": "josephariley",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b41fbef5-162b-4de3-9171-546df6fe1ac2",
+                            "related_uuid": "b19b8e1e-0080-414a-b536-7b4941c5ed2b",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

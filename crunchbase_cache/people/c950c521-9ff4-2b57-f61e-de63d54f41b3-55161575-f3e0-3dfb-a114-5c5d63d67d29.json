@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b5f9fbaf-1fe2-4bf3-b49d-6f4070aba0af",
+            "properties": {
+                "name": "Ben Hastings",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b5f9fbaf-1fe2-4bf3-b49d-6f4070aba0af",
+                    "value": "Ben Hastings"
+                },
+                "linkedin": "benjaminhastings",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3d57fecc-c439-4f12-8b41-b89ca04fad92",
+                            "related_uuid": "b5f9fbaf-1fe2-4bf3-b49d-6f4070aba0af",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "7fe09bcd-ef78-4965-a4a2-92c7ee0939a8",
+            "properties": {
+                "name": "Katie Sokalsky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7fe09bcd-ef78-4965-a4a2-92c7ee0939a8",
+                    "value": "Katie Sokalsky"
+                },
+                "linkedin": "katie-sokalsky",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "affc9bf5-3db3-4c6c-aef7-c7332d0c9fc1",
+                            "related_uuid": "7fe09bcd-ef78-4965-a4a2-92c7ee0939a8",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c7887cc3-e134-49c8-8a92-ba6bc196ed39",
+            "properties": {
+                "name": "Valerie Robitaille",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c7887cc3-e134-49c8-8a92-ba6bc196ed39",
+                    "value": "Valerie Robitaille"
+                },
+                "linkedin": "valerierobitaille",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a7b24a18-725d-4469-a05b-35a797a43aff",
+                            "related_uuid": "c7887cc3-e134-49c8-8a92-ba6bc196ed39",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

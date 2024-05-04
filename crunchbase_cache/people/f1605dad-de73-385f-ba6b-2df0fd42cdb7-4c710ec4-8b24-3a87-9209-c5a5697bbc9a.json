@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "274e5577-f7a5-4320-a53d-a5a65f85a0a0",
+            "properties": {
+                "name": "Ryan Tucker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "274e5577-f7a5-4320-a53d-a5a65f85a0a0",
+                    "value": "Ryan Tucker"
+                },
+                "linkedin": "rdtucker",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7a3c27b9-5a28-4b4a-abff-994840f96c67",
+                            "related_uuid": "274e5577-f7a5-4320-a53d-a5a65f85a0a0",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

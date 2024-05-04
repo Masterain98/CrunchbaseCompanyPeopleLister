@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "49678c2f-d58e-4132-a329-0977caa940d0",
+            "properties": {
+                "name": "Joe Welu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "49678c2f-d58e-4132-a329-0977caa940d0",
+                    "value": "Joe Welu"
+                },
+                "linkedin": "joe-welu-4056726",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "91378b1f-403a-4cbe-9eae-02ba39e8732d",
+                            "related_uuid": "49678c2f-d58e-4132-a329-0977caa940d0",
+                            "properties": {
+                                "job_title": "CEO and Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fbef21c4-ee78-4233-96a7-942e4c813200",
+            "properties": {
+                "name": "Jena Murphy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fbef21c4-ee78-4233-96a7-942e4c813200",
+                    "value": "Jena Murphy"
+                },
+                "linkedin": "jena-murphy-mba-15b8508",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "283976eb-9d84-4c86-8d87-5f244ef33d7d",
+                            "related_uuid": "fbef21c4-ee78-4233-96a7-942e4c813200",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

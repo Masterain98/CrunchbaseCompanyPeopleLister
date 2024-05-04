@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "1441bfed-e1ed-4207-8fdc-6be0f46a011e",
+            "properties": {
+                "name": "Monica Russo-Dunphy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1441bfed-e1ed-4207-8fdc-6be0f46a011e",
+                    "value": "Monica Russo-Dunphy"
+                },
+                "linkedin": "monicarusso",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "02be047d-7a50-4257-9b08-788f91821dbf",
+                            "related_uuid": "1441bfed-e1ed-4207-8fdc-6be0f46a011e",
+                            "properties": {
+                                "job_title": "Creative Director, Visual Design"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f04fb77f-6c35-4586-b7d8-7fb46d4f0f29",
+            "properties": {
+                "name": "Lisa Wynne",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f04fb77f-6c35-4586-b7d8-7fb46d4f0f29",
+                    "value": "Lisa Wynne"
+                },
+                "linkedin": "lisa-wynne-b15236225",
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4f1c7be1-eef6-4f5d-9fd8-fd08287cfbd4",
+                            "related_uuid": "f04fb77f-6c35-4586-b7d8-7fb46d4f0f29",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ff4b5592-d28d-48cf-a7d3-69a78437cae2",
+            "properties": {
+                "name": "Paul Miller",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ff4b5592-d28d-48cf-a7d3-69a78437cae2",
+                    "value": "Paul Miller"
+                },
+                "linkedin": "telecomcto",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7a1a556e-0bf4-4bc6-824b-f5c861bd28f1",
+                            "related_uuid": "ff4b5592-d28d-48cf-a7d3-69a78437cae2",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fc4cf53f-1773-4450-a7ca-41a9a0f3913d",
+            "properties": {
+                "name": "Rob Kirby",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fc4cf53f-1773-4450-a7ca-41a9a0f3913d",
+                    "value": "Rob Kirby"
+                },
+                "linkedin": "rob-kirby-65926ba",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9a483dfe-82f0-477a-9693-c28d263ee6ad",
+                            "related_uuid": "fc4cf53f-1773-4450-a7ca-41a9a0f3913d",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

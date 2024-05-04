@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d57be675-b49d-4346-b97f-e95b481628a1",
+            "properties": {
+                "name": "Vilen Arutyunyants",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d57be675-b49d-4346-b97f-e95b481628a1",
+                    "value": "Vilen Arutyunyants"
+                },
+                "linkedin": "vilenarutyunyants",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4c4773de-32ba-4964-a1b1-e3f5d8412fd1",
+                            "related_uuid": "d57be675-b49d-4346-b97f-e95b481628a1",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

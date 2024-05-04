@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bf65f07f-1f8a-4df4-af9a-af7302f1ac0e",
+            "properties": {
+                "name": "Tristram Gillen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bf65f07f-1f8a-4df4-af9a-af7302f1ac0e",
+                    "value": "Tristram Gillen"
+                },
+                "linkedin": "tristramgillen",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0cc0aeda-b0a8-44f8-aefc-d0ef2ed7ac3d",
+                            "related_uuid": "bf65f07f-1f8a-4df4-af9a-af7302f1ac0e",
+                            "properties": {
+                                "job_title": "Director, Enterprise Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

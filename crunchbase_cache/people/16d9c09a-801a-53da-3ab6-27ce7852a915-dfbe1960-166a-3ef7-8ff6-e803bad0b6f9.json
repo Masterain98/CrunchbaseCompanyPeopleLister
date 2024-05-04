@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "a5576a4c-8b9d-4185-a53f-e2d2536ba0a8",
+            "properties": {
+                "name": "Tyler Putnam",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a5576a4c-8b9d-4185-a53f-e2d2536ba0a8",
+                    "value": "Tyler Putnam"
+                },
+                "linkedin": "tyler-putnam-9b136b141",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "38aa9e8e-af80-443d-b5a2-a8e34633f0c0",
+                            "related_uuid": "a5576a4c-8b9d-4185-a53f-e2d2536ba0a8",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3f3cec51-9632-4212-b278-d3735279a6b5",
+            "properties": {
+                "name": "Ying Jiang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3f3cec51-9632-4212-b278-d3735279a6b5",
+                    "value": "Ying Jiang"
+                },
+                "linkedin": "ying-jiang-6a6003134",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "38749a76-73fd-4690-b418-00b6ca2d146c",
+                            "related_uuid": "3f3cec51-9632-4212-b278-d3735279a6b5",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

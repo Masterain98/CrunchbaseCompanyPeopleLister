@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ab15f33d-904e-4051-b6d6-1d8c4cd9e9eb",
+            "properties": {
+                "name": "David Reid",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ab15f33d-904e-4051-b6d6-1d8c4cd9e9eb",
+                    "value": "David Reid"
+                },
+                "linkedin": "david-reid-6015749",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "511c0956-42e9-4514-bde4-4c092dd8a591",
+                            "related_uuid": "ab15f33d-904e-4051-b6d6-1d8c4cd9e9eb",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

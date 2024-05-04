@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c20ddfb6-f4c3-4ed3-a248-1ea91e3b0eaa",
+            "properties": {
+                "name": "Stephane Dubois",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c20ddfb6-f4c3-4ed3-a248-1ea91e3b0eaa",
+                    "value": "Stephane Dubois"
+                },
+                "linkedin": "sldubois",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0709c8c0-21b0-4dc4-af7c-3e227ec09c59",
+                            "related_uuid": "c20ddfb6-f4c3-4ed3-a248-1ea91e3b0eaa",
+                            "properties": {
+                                "job_title": "CEO and Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3b7dc499-5d7a-4a69-9c98-ad1e51794499",
+            "properties": {
+                "name": "Derek Adams",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3b7dc499-5d7a-4a69-9c98-ad1e51794499",
+                    "value": "Derek Adams"
+                },
+                "linkedin": "derek-adams-7692222",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0d95c166-8b6f-4a5b-9d33-398b84b33048",
+                            "related_uuid": "3b7dc499-5d7a-4a69-9c98-ad1e51794499",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

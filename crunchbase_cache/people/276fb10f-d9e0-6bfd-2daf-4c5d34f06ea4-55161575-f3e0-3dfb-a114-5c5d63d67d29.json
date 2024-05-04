@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "322537fb-bd11-4136-861c-68e76b92272d",
+            "properties": {
+                "name": "Ajay Agrawal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "322537fb-bd11-4136-861c-68e76b92272d",
+                    "value": "Ajay Agrawal"
+                },
+                "linkedin": "ajay-agrawal-aa79b12",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7e94f6a3-8e50-4626-ada7-7d4c162c74b0",
+                            "related_uuid": "322537fb-bd11-4136-861c-68e76b92272d",
+                            "properties": {
+                                "job_title": "Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

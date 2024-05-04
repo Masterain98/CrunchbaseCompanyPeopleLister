@@ -1,0 +1,166 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "f3acd1b5-8c8b-465f-a831-cf611e274b07",
+            "properties": {
+                "name": "Cassandra Pazderny",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f3acd1b5-8c8b-465f-a831-cf611e274b07",
+                    "value": "Cassandra Pazderny"
+                },
+                "linkedin": "cassandra-pazderny-1603ab14",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0fe71e86-e1c7-402b-9856-71354821e0e0",
+                            "related_uuid": "f3acd1b5-8c8b-465f-a831-cf611e274b07",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "99f1b7e2-5dba-4851-a40f-33de18840be4",
+            "properties": {
+                "name": "Dominic Delgardo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "99f1b7e2-5dba-4851-a40f-33de18840be4",
+                    "value": "Dominic Delgardo"
+                },
+                "linkedin": "dominicdelgardo",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f6d4618-8048-443a-bd16-1eee54c30d42",
+                            "related_uuid": "99f1b7e2-5dba-4851-a40f-33de18840be4",
+                            "properties": {
+                                "job_title": "Senior Customer Success Manager"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "95225526-45e7-4f65-a623-b481a21fb9f5",
+            "properties": {
+                "name": "Kendall Brown",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "95225526-45e7-4f65-a623-b481a21fb9f5",
+                    "value": "Kendall Brown"
+                },
+                "linkedin": "kendallleebrown",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f834130-3466-4313-b913-812c0146c55c",
+                            "related_uuid": "95225526-45e7-4f65-a623-b481a21fb9f5",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cf9776d3-f05a-40a4-bbfb-eacb28590fd1",
+            "properties": {
+                "name": "Sara Venturi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cf9776d3-f05a-40a4-bbfb-eacb28590fd1",
+                    "value": "Sara Venturi"
+                },
+                "linkedin": "sara-venturi-emami-3296bb52",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2aed6dfd-9077-4957-b071-325f123bb34f",
+                            "related_uuid": "cf9776d3-f05a-40a4-bbfb-eacb28590fd1",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d79e50d1-cdf6-4626-9695-2a09c53a0fb7",
+            "properties": {
+                "name": "Scott Loftin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d79e50d1-cdf6-4626-9695-2a09c53a0fb7",
+                    "value": "Scott Loftin"
+                },
+                "linkedin": "scott-loftin-b09224162",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "f84f5500-747b-4831-899b-d1d986873af2",
+                            "related_uuid": "d79e50d1-cdf6-4626-9695-2a09c53a0fb7",
+                            "properties": {
+                                "job_title": "Director Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

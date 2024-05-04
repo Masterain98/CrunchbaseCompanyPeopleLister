@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ef432f26-e61d-4a03-9d71-60d11a20c0d0",
+            "properties": {
+                "name": "Kumar Goswami",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ef432f26-e61d-4a03-9d71-60d11a20c0d0",
+                    "value": "Kumar Goswami"
+                },
+                "linkedin": "kumargoswami",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6ad6a2d4-808c-4a82-9af1-64322dfce50e",
+                            "related_uuid": "ef432f26-e61d-4a03-9d71-60d11a20c0d0",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

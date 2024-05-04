@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a3242ae1-4edb-4a93-b8b8-cebf2ed1bfe2",
+            "properties": {
+                "name": "Bob Venero",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a3242ae1-4edb-4a93-b8b8-cebf2ed1bfe2",
+                    "value": "Bob Venero"
+                },
+                "linkedin": "bob-venero-aa00037",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "753d6c42-0607-44ce-9d1d-6760e1b54cfd",
+                            "related_uuid": "a3242ae1-4edb-4a93-b8b8-cebf2ed1bfe2",
+                            "properties": {
+                                "job_title": "President and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

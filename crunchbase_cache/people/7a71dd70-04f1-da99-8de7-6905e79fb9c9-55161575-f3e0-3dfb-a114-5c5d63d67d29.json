@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "b28483ae-940f-46e1-91de-4f4d1f13254d",
+            "properties": {
+                "name": "Ganesh Sundaram",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b28483ae-940f-46e1-91de-4f4d1f13254d",
+                    "value": "Ganesh Sundaram"
+                },
+                "linkedin": "ganesh-sundaram-2784271",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0d26b0b2-4306-49ef-a5e9-5722b56196b1",
+                            "related_uuid": "b28483ae-940f-46e1-91de-4f4d1f13254d",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "9e21e328-b437-47e3-a2e6-2723ae383766",
+            "properties": {
+                "name": "Mike Mulica",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9e21e328-b437-47e3-a2e6-2723ae383766",
+                    "value": "Mike Mulica"
+                },
+                "linkedin": "mikemulica",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1f145404-bb4a-4d1f-96d2-713cc17f4843",
+                            "related_uuid": "9e21e328-b437-47e3-a2e6-2723ae383766",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

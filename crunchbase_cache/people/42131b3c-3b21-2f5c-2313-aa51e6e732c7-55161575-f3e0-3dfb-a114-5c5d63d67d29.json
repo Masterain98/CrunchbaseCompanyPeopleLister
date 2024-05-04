@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5e706170-7a83-4c95-98a6-4d8f93d04536",
+            "properties": {
+                "name": "Kevin Parker",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5e706170-7a83-4c95-98a6-4d8f93d04536",
+                    "value": "Kevin Parker"
+                },
+                "linkedin": "kevin-parker-98400a7",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2900d7b6-56fb-45f3-b654-633189815d11",
+                            "related_uuid": "5e706170-7a83-4c95-98a6-4d8f93d04536",
+                            "properties": {
+                                "job_title": "Chairman & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

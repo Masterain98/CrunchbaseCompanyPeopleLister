@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "623c2b03-379b-431a-8df8-55ed842199a5",
+            "properties": {
+                "name": "Joy Cao",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "623c2b03-379b-431a-8df8-55ed842199a5",
+                    "value": "Joy Cao"
+                },
+                "linkedin": "joy-cao-0477951",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1117ac00-ffdd-4d77-8605-f69425ea8bf9",
+                            "related_uuid": "623c2b03-379b-431a-8df8-55ed842199a5",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7a9b0881-af83-4512-9b89-2ce86a1e0235",
+            "properties": {
+                "name": "Mo Ali\u200b",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7a9b0881-af83-4512-9b89-2ce86a1e0235",
+                    "value": "Mo Ali\u200b"
+                },
+                "linkedin": "moali00",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "200563af-dd6f-4c88-8be0-bad8463a216c",
+                            "related_uuid": "7a9b0881-af83-4512-9b89-2ce86a1e0235",
+                            "properties": {
+                                "job_title": "Director of Customer Success and Professional Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

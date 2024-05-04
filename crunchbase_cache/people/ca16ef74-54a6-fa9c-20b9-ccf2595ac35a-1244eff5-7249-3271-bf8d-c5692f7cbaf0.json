@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c9476059-19ad-4fd0-8f8a-61752ba684c1",
+            "properties": {
+                "name": "John Reichard",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c9476059-19ad-4fd0-8f8a-61752ba684c1",
+                    "value": "John Reichard"
+                },
+                "linkedin": "john-david-reichard",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e825ca51-0f87-4793-9ab9-79ca9baeb658",
+                            "related_uuid": "c9476059-19ad-4fd0-8f8a-61752ba684c1",
+                            "properties": {
+                                "job_title": "Field CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "46baa265-d575-4d1d-aa78-d0ccee03fcfd",
+            "properties": {
+                "name": "James Smith",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "46baa265-d575-4d1d-aa78-d0ccee03fcfd",
+                    "value": "James Smith"
+                },
+                "linkedin": "james-smith-3716442",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a5b24640-0666-4337-8abf-f8d21c828929",
+                            "related_uuid": "46baa265-d575-4d1d-aa78-d0ccee03fcfd",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "71f90116-54a1-4385-ad09-fcda2e205908",
+            "properties": {
+                "name": "Kevin Young",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "71f90116-54a1-4385-ad09-fcda2e205908",
+                    "value": "Kevin Young"
+                },
+                "linkedin": "kevin-young-34b2488",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7bf58049-9fb6-44eb-8ba8-ea81e0e44c22",
+                            "related_uuid": "71f90116-54a1-4385-ad09-fcda2e205908",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

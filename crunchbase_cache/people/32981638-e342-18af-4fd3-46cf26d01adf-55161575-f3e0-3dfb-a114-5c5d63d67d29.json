@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "33233a96-0174-4257-92b5-031358cb2f78",
+            "properties": {
+                "name": "Sean Black",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "33233a96-0174-4257-92b5-031358cb2f78",
+                    "value": "Sean Black"
+                },
+                "linkedin": "seanblack",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c08d7f74-79ca-4037-9c7d-882ca090dd1d",
+                            "related_uuid": "33233a96-0174-4257-92b5-031358cb2f78",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

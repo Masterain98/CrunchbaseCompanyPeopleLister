@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0ceb1b1e-9ab7-49f6-a5c7-80ad80d70401",
+            "properties": {
+                "name": "Mei Siauw",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0ceb1b1e-9ab7-49f6-a5c7-80ad80d70401",
+                    "value": "Mei Siauw"
+                },
+                "linkedin": "meisiauw",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "176cbc91-7953-4b0a-acb8-c527a3df9f31",
+                            "related_uuid": "0ceb1b1e-9ab7-49f6-a5c7-80ad80d70401",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

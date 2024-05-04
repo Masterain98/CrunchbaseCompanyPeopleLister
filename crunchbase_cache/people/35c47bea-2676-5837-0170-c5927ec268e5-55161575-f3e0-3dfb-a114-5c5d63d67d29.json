@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c3a9f4c2-80f9-47b2-9179-556b24661d5f",
+            "properties": {
+                "name": "Lee Harrison",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c3a9f4c2-80f9-47b2-9179-556b24661d5f",
+                    "value": "Lee Harrison"
+                },
+                "linkedin": "leeharrison",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7c2c7861-80f3-4db9-847e-60356d7a0bd6",
+                            "related_uuid": "c3a9f4c2-80f9-47b2-9179-556b24661d5f",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

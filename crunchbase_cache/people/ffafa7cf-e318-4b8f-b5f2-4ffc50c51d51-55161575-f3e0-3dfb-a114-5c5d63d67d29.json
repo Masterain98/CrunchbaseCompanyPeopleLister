@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2524b528-8594-4c91-b3f4-af3644fc18d0",
+            "properties": {
+                "name": "Shana Yarborough",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2524b528-8594-4c91-b3f4-af3644fc18d0",
+                    "value": "Shana Yarborough"
+                },
+                "linkedin": "syarborough",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4be3c3f5-736c-4205-8a0f-9eaaa2efa851",
+                            "related_uuid": "2524b528-8594-4c91-b3f4-af3644fc18d0",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

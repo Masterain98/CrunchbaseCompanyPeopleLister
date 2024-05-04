@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c16205e3-86c8-482c-9165-52d81b7bdf80",
+            "properties": {
+                "name": "Eric Netsch",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c16205e3-86c8-482c-9165-52d81b7bdf80",
+                    "value": "Eric Netsch"
+                },
+                "linkedin": "ericnetsch",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "24560a40-0ce5-450c-bae3-bbd620185dd9",
+                            "related_uuid": "c16205e3-86c8-482c-9165-52d81b7bdf80",
+                            "properties": {
+                                "job_title": "Founder/ CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "074fc21a-6684-453d-9cb7-a2076e1233f8",
+            "properties": {
+                "name": "Shelby Busen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "074fc21a-6684-453d-9cb7-a2076e1233f8",
+                    "value": "Shelby Busen"
+                },
+                "linkedin": "shelbybusen",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "83861451-48aa-4168-a3dd-5fc6120ac8bb",
+                            "related_uuid": "074fc21a-6684-453d-9cb7-a2076e1233f8",
+                            "properties": {
+                                "job_title": "Director, Marketing Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

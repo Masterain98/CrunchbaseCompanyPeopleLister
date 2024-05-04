@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "861944cc-13de-4693-9c87-7ce70b426102",
+            "properties": {
+                "name": "Andres Rodriguez",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "861944cc-13de-4693-9c87-7ce70b426102",
+                    "value": "Andres Rodriguez"
+                },
+                "linkedin": "andres-rodriguez-79026a70",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "09e03f6a-3a01-44f7-b503-8343d02b4add",
+                            "related_uuid": "861944cc-13de-4693-9c87-7ce70b426102",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

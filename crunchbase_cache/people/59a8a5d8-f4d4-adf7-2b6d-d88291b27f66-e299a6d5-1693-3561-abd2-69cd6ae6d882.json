@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "659cb41e-2fb9-4106-9045-0e838cbdb072",
+            "properties": {
+                "name": "Saara Hasu-Varttila",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "659cb41e-2fb9-4106-9045-0e838cbdb072",
+                    "value": "Saara Hasu-Varttila"
+                },
+                "linkedin": "saara-hasu-varttila",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c2f4aaf-bf46-40d4-ae73-4817a1815ce5",
+                            "related_uuid": "659cb41e-2fb9-4106-9045-0e838cbdb072",
+                            "properties": {
+                                "job_title": "Director of Information Security & Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

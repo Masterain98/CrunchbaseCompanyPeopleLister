@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "83b1bdaa-d7bf-4965-8cf8-33daf73e532a",
+            "properties": {
+                "name": "Niraj Katwala",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "83b1bdaa-d7bf-4965-8cf8-33daf73e532a",
+                    "value": "Niraj Katwala"
+                },
+                "linkedin": "niraj-katwala-a7b025162",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "681e2562-9720-4fc6-b4e4-3d8559126408",
+                            "related_uuid": "83b1bdaa-d7bf-4965-8cf8-33daf73e532a",
+                            "properties": {
+                                "job_title": "CTO & EVP"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

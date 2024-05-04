@@ -1,0 +1,132 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "102ea76a-867d-4f77-ac99-7f64813d8781",
+            "properties": {
+                "name": "Bill Stein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "102ea76a-867d-4f77-ac99-7f64813d8781",
+                    "value": "Bill Stein"
+                },
+                "linkedin": "bill-stein-400005172",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6b95ea72-8e49-430c-8040-d13e086b08c2",
+                            "related_uuid": "102ea76a-867d-4f77-ac99-7f64813d8781",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8412e87f-cc30-465d-b8d1-b5b20e9c7b8e",
+            "properties": {
+                "name": "Bill Stein",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8412e87f-cc30-465d-b8d1-b5b20e9c7b8e",
+                    "value": "Bill Stein"
+                },
+                "linkedin": "bill-stein-4885ba16b",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7fd30f4e-825a-4d68-afb6-0867435c52bc",
+                            "related_uuid": "8412e87f-cc30-465d-b8d1-b5b20e9c7b8e",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d37a30dc-5581-491a-8788-d15666a49553",
+            "properties": {
+                "name": "Donald Zhang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d37a30dc-5581-491a-8788-d15666a49553",
+                    "value": "Donald Zhang"
+                },
+                "linkedin": "donald-zhang-a0964b46",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3430ffc7-8b88-46c4-be87-d3f85443e7d7",
+                            "related_uuid": "d37a30dc-5581-491a-8788-d15666a49553",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ca4df70f-df78-45d9-b1cc-fd45b5ad90dc",
+            "properties": {
+                "name": "Eric Shepcaro",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ca4df70f-df78-45d9-b1cc-fd45b5ad90dc",
+                    "value": "Eric Shepcaro"
+                },
+                "linkedin": "eric-shepcaro-9824847",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "20d53329-0c43-40b7-a88e-cf91e2dfc276",
+                            "related_uuid": "ca4df70f-df78-45d9-b1cc-fd45b5ad90dc",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

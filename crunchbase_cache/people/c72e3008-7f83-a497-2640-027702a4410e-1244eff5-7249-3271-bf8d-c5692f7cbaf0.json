@@ -1,0 +1,70 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "330a8b97-d01c-462d-886f-aa2063924ff8",
+            "properties": {
+                "name": "Hannah Herzog",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "330a8b97-d01c-462d-886f-aa2063924ff8",
+                    "value": "Hannah Herzog"
+                },
+                "linkedin": "hannah-herzog",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "product"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0d38dde6-b1c4-4dd3-a5e7-250ab7cbb2c0",
+                            "related_uuid": "330a8b97-d01c-462d-886f-aa2063924ff8",
+                            "properties": {
+                                "job_title": "Program Manager, CTO Office"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b7baf9e7-39e2-4d40-b1c6-a82e84bb6e12",
+            "properties": {
+                "name": "Patrick Jean",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b7baf9e7-39e2-4d40-b1c6-a82e84bb6e12",
+                    "value": "Patrick Jean"
+                },
+                "linkedin": "patrickjean",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "66eac8e1-9ff6-42cf-8fce-34d4ac8d744f",
+                            "related_uuid": "b7baf9e7-39e2-4d40-b1c6-a82e84bb6e12",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

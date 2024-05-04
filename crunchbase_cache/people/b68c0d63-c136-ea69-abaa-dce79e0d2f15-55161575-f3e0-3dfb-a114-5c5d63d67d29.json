@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "77a344ff-8537-4c1f-bf79-822111f047be",
+            "properties": {
+                "name": "Justyn Howard",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "77a344ff-8537-4c1f-bf79-822111f047be",
+                    "value": "Justyn Howard"
+                },
+                "linkedin": "justynhoward",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c70eaee3-036d-4331-9fda-62c3e6e2be2b",
+                            "related_uuid": "77a344ff-8537-4c1f-bf79-822111f047be",
+                            "properties": {
+                                "job_title": "Founder, CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "ebeff7e4-9a4f-4e6c-9453-01c2a94b0eb2",
+            "properties": {
+                "name": "Justyn Howard",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ebeff7e4-9a4f-4e6c-9453-01c2a94b0eb2",
+                    "value": "Justyn Howard"
+                },
+                "linkedin": "justynhoward",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "36192440-d887-4e79-bf65-8d4fe815e992",
+                            "related_uuid": "ebeff7e4-9a4f-4e6c-9453-01c2a94b0eb2",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

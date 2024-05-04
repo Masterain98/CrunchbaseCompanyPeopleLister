@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "5de880b4-d713-4568-9b4c-c148947c0665",
+            "properties": {
+                "name": "Gary Kovacs",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5de880b4-d713-4568-9b4c-c148947c0665",
+                    "value": "Gary Kovacs"
+                },
+                "linkedin": "garykovacs",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5c7ce75b-682c-4362-b1b5-a864606e2013",
+                            "related_uuid": "5de880b4-d713-4568-9b4c-c148947c0665",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

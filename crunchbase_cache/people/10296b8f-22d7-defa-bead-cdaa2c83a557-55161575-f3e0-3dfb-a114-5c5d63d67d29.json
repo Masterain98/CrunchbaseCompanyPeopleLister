@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "73b9bb62-484b-4da9-9de3-abe145b4653e",
+            "properties": {
+                "name": "Julie Novack",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "73b9bb62-484b-4da9-9de3-abe145b4653e",
+                    "value": "Julie Novack"
+                },
+                "linkedin": "julienovack",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0b442ad0-c9a5-45e7-8557-e65c612dea91",
+                            "related_uuid": "73b9bb62-484b-4da9-9de3-abe145b4653e",
+                            "properties": {
+                                "job_title": "CEO and Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

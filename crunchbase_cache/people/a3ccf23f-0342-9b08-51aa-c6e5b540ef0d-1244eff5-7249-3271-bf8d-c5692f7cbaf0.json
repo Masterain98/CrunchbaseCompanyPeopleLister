@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "2f4d5e36-ad44-4621-a518-24ffe31734c2",
+            "properties": {
+                "name": "JP Morgenthal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2f4d5e36-ad44-4621-a518-24ffe31734c2",
+                    "value": "JP Morgenthal"
+                },
+                "linkedin": "jpmorgenthal",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ca71e727-37d8-44bd-b3f0-0ae84bbe9c3e",
+                            "related_uuid": "2f4d5e36-ad44-4621-a518-24ffe31734c2",
+                            "properties": {
+                                "job_title": "VP & CTO, Americas"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "e6f0d3df-242a-4660-90d6-a9029caafd26",
+            "properties": {
+                "name": "Prince Kohli",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e6f0d3df-242a-4660-90d6-a9029caafd26",
+                    "value": "Prince Kohli"
+                },
+                "linkedin": "princekohli",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "387df01e-064e-48c6-a539-f17284eeae1a",
+                            "related_uuid": "e6f0d3df-242a-4660-90d6-a9029caafd26",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

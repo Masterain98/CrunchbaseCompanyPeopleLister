@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "14f02a25-0941-408f-a04e-51858c4bd87a",
+            "properties": {
+                "name": "Josh Jackson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "14f02a25-0941-408f-a04e-51858c4bd87a",
+                    "value": "Josh Jackson"
+                },
+                "linkedin": "kimsalem",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "23d3e48c-9117-4bc4-8733-3b0369267f1d",
+                            "related_uuid": "14f02a25-0941-408f-a04e-51858c4bd87a",
+                            "properties": {
+                                "job_title": "Executive Vice President & Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

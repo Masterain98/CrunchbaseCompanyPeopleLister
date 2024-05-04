@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "13df5a97-6262-49ac-bd42-6942220ff496",
+            "properties": {
+                "name": "Emad Elwany",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "13df5a97-6262-49ac-bd42-6942220ff496",
+                    "value": "Emad Elwany"
+                },
+                "linkedin": "emadelwany",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4531d274-43a7-4831-8692-c76ac9e76d07",
+                            "related_uuid": "13df5a97-6262-49ac-bd42-6942220ff496",
+                            "properties": {
+                                "job_title": "CTO, Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

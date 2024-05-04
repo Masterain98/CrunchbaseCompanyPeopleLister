@@ -1,0 +1,61 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ee370ee2-5367-4e31-977f-ab539bb5e6e0",
+            "properties": {
+                "name": "Rupinder Bajwa",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ee370ee2-5367-4e31-977f-ab539bb5e6e0",
+                    "value": "Rupinder Bajwa"
+                },
+                "linkedin": "rupinderbajwa",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "08af3234-ffd3-4782-8706-3d0181ee9b9c",
+                            "related_uuid": "ee370ee2-5367-4e31-977f-ab539bb5e6e0",
+                            "properties": {
+                                "job_title": "Client Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "63b479c4-fecc-44df-9a4e-4eb4dda5a145",
+            "properties": {
+                "name": "Jeni Putalavage-Ross",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "63b479c4-fecc-44df-9a4e-4eb4dda5a145",
+                    "value": "Jeni Putalavage-Ross"
+                },
+                "linkedin": "jeniputalavageross",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ed3241fe-7882-4ca9-a956-65c309d016f0",
+                            "related_uuid": "63b479c4-fecc-44df-9a4e-4eb4dda5a145",
+                            "properties": {
+                                "job_title": "Client Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

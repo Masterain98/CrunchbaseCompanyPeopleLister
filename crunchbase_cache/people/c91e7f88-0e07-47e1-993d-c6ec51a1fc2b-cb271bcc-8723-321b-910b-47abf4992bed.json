@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6cae224d-011e-44ea-b11d-52950e919805",
+            "properties": {
+                "name": "Megan Beltran",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6cae224d-011e-44ea-b11d-52950e919805",
+                    "value": "Megan Beltran"
+                },
+                "linkedin": "meganfleet",
+                "job_levels": [
+                    "l_300_director",
+                    "l_400_vp"
+                ],
+                "job_departments": [
+                    "management",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6a540594-3067-4505-bf6e-4bf1c845277d",
+                            "related_uuid": "6cae224d-011e-44ea-b11d-52950e919805",
+                            "properties": {
+                                "job_title": "VP of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

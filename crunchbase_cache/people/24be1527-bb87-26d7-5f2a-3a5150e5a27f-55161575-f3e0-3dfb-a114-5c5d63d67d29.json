@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "7001cd7b-d02d-4cfa-b214-283e89a67f0c",
+            "properties": {
+                "name": "Sam Gilliland",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7001cd7b-d02d-4cfa-b214-283e89a67f0c",
+                    "value": "Sam Gilliland"
+                },
+                "linkedin": "sam-gilliland",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "60ff6d91-fd89-4ba6-a9c1-c4b4a66827f6",
+                            "related_uuid": "7001cd7b-d02d-4cfa-b214-283e89a67f0c",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "b77e8d1e-46dc-47c2-9428-3f5aea907a19",
+            "properties": {
+                "name": "Vance Brown",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b77e8d1e-46dc-47c2-9428-3f5aea907a19",
+                    "value": "Vance Brown"
+                },
+                "linkedin": "vancebrown",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "69661353-1c47-41ef-90b4-bf884866a47e",
+                            "related_uuid": "b77e8d1e-46dc-47c2-9428-3f5aea907a19",
+                            "properties": {
+                                "job_title": "CEO/Chairman/Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3e12b618-632e-4214-9009-16d6437babe5",
+            "properties": {
+                "name": "JR Sherman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3e12b618-632e-4214-9009-16d6437babe5",
+                    "value": "JR Sherman"
+                },
+                "linkedin": "jrsherman",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "01a78361-46d1-4f73-8423-412868061fb0",
+                            "related_uuid": "3e12b618-632e-4214-9009-16d6437babe5",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

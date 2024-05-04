@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "caaa7af8-725d-4eef-9163-a8bdb54d88df",
+            "properties": {
+                "name": "Alon Caspi",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "caaa7af8-725d-4eef-9163-a8bdb54d88df",
+                    "value": "Alon Caspi"
+                },
+                "linkedin": "alon-caspi-57b360a7",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0f7e468f-7da1-497e-b186-9d175c18cadf",
+                            "related_uuid": "caaa7af8-725d-4eef-9163-a8bdb54d88df",
+                            "properties": {
+                                "job_title": "Creative Director, NEW YORK"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c8e4325b-afb6-4559-8f39-86e5d36c5c75",
+            "properties": {
+                "name": "Jeff Kepler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c8e4325b-afb6-4559-8f39-86e5d36c5c75",
+                    "value": "Jeff Kepler"
+                },
+                "linkedin": "jeffkep",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d241cb48-ff4e-4399-aa3b-c8f745ed37fe",
+                            "related_uuid": "c8e4325b-afb6-4559-8f39-86e5d36c5c75",
+                            "properties": {
+                                "job_title": "Creative Strategy Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

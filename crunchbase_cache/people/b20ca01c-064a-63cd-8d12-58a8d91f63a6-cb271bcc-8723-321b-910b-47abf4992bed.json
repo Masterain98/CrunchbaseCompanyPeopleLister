@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "89d4e341-d5c9-4919-ad10-bca3ae34c96d",
+            "properties": {
+                "name": "Meg Cragan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "89d4e341-d5c9-4919-ad10-bca3ae34c96d",
+                    "value": "Meg Cragan"
+                },
+                "linkedin": "megcragan",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6518bdae-b533-4c52-8118-83ed9d739396",
+                            "related_uuid": "89d4e341-d5c9-4919-ad10-bca3ae34c96d",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "974a2a87-435a-4acb-a9c0-589638d9ed7a",
+            "properties": {
+                "name": "Andreea Brescan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "974a2a87-435a-4acb-a9c0-589638d9ed7a",
+                    "value": "Andreea Brescan"
+                },
+                "linkedin": "andreea-brescan-4823a2133",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "55f2ca18-9461-49b2-ab2e-c459f7e3f7b0",
+                            "related_uuid": "974a2a87-435a-4acb-a9c0-589638d9ed7a",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3251586b-49fb-45b4-84d0-6c5e70226abb",
+            "properties": {
+                "name": "Andreea Brescan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3251586b-49fb-45b4-84d0-6c5e70226abb",
+                    "value": "Andreea Brescan"
+                },
+                "linkedin": "andreea-brescan-151b588",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "08a41be7-4cd1-4ec0-aedd-8ec1b0f13bf6",
+                            "related_uuid": "3251586b-49fb-45b4-84d0-6c5e70226abb",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

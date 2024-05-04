@@ -1,0 +1,65 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "c07f20db-81a5-459a-b062-a3f7c6089933",
+            "properties": {
+                "name": "Ben Goldin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c07f20db-81a5-459a-b062-a3f7c6089933",
+                    "value": "Ben Goldin"
+                },
+                "linkedin": "ben-goldin-9056972",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ccb0ee50-0287-4ff8-8693-749019821752",
+                            "related_uuid": "c07f20db-81a5-459a-b062-a3f7c6089933",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6f213ad0-bb34-4e79-8834-0f87ed4ff4b1",
+            "properties": {
+                "name": "Fernando Zandona",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6f213ad0-bb34-4e79-8834-0f87ed4ff4b1",
+                    "value": "Fernando Zandona"
+                },
+                "linkedin": "fzandona",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2c9cc0bd-6a2b-4abf-b80f-c18f0d626f6f",
+                            "related_uuid": "6f213ad0-bb34-4e79-8834-0f87ed4ff4b1",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

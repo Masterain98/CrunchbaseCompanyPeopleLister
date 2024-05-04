@@ -1,0 +1,165 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "82462d14-4e8e-45d6-8c1d-bf29cf99a3c1",
+            "properties": {
+                "name": "Adam Pratt",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "82462d14-4e8e-45d6-8c1d-bf29cf99a3c1",
+                    "value": "Adam Pratt"
+                },
+                "linkedin": "adampratt",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "finance",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "183c1b8d-8284-4378-9d3f-3b7702211716",
+                            "related_uuid": "82462d14-4e8e-45d6-8c1d-bf29cf99a3c1",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "52344ae4-1a66-4fc1-8d1e-4529d3a18eb8",
+            "properties": {
+                "name": "Chet Knebel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "52344ae4-1a66-4fc1-8d1e-4529d3a18eb8",
+                    "value": "Chet Knebel"
+                },
+                "linkedin": "chet-knebel-3b916662",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "50a199fe-2e58-4b38-a907-c775e001f4c5",
+                            "related_uuid": "52344ae4-1a66-4fc1-8d1e-4529d3a18eb8",
+                            "properties": {
+                                "job_title": "Director, Finance, Global Marketing and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "5bfea80f-d3fd-4049-94ec-c41d3a0aa1f3",
+            "properties": {
+                "name": "Christie Gianattasio-Kuchinsky",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "5bfea80f-d3fd-4049-94ec-c41d3a0aa1f3",
+                    "value": "Christie Gianattasio-Kuchinsky"
+                },
+                "linkedin": "christie-gianattasio-kuchinsky-32b2a34",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "61a7cb66-b91d-4c00-aff7-dfef80e84281",
+                            "related_uuid": "5bfea80f-d3fd-4049-94ec-c41d3a0aa1f3",
+                            "properties": {
+                                "job_title": "Director Commercial Sales, Communications/Csi Market North America"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "389a03ba-a3b0-4524-ab98-e35c674b186d",
+            "properties": {
+                "name": "Faye Abloeser",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "389a03ba-a3b0-4524-ab98-e35c674b186d",
+                    "value": "Faye Abloeser"
+                },
+                "linkedin": "fayeabloeser",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9048e98b-7387-4a6f-a59a-17a3aa50b930",
+                            "related_uuid": "389a03ba-a3b0-4524-ab98-e35c674b186d",
+                            "properties": {
+                                "job_title": "Director, Communications (IBM Cloud)"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c875c255-292b-4c5b-a31d-d7edbd218253",
+            "properties": {
+                "name": "Michael Rowinski",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c875c255-292b-4c5b-a31d-d7edbd218253",
+                    "value": "Michael Rowinski"
+                },
+                "linkedin": "michaelrowinski",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "37639d2c-8995-464f-bd51-bfc3748016a0",
+                            "related_uuid": "c875c255-292b-4c5b-a31d-d7edbd218253",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

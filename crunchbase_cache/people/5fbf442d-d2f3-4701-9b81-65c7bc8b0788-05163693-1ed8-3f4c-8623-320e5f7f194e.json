@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f10ff135-84e2-4b38-a8d9-d92fa6ea771a",
+            "properties": {
+                "name": "Katie Levine",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f10ff135-84e2-4b38-a8d9-d92fa6ea771a",
+                    "value": "Katie Levine"
+                },
+                "linkedin": "katielevine",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0311a25a-db77-4892-847e-0c50dc4df313",
+                            "related_uuid": "f10ff135-84e2-4b38-a8d9-d92fa6ea771a",
+                            "properties": {
+                                "job_title": "Director of Content and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

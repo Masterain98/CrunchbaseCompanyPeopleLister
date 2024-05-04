@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3f976b6d-c662-4f4d-aa78-9b8f7d0d9920",
+            "properties": {
+                "name": "Eric Rubino",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3f976b6d-c662-4f4d-aa78-9b8f7d0d9920",
+                    "value": "Eric Rubino"
+                },
+                "linkedin": "eric-rubino-4667225",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "26217ba9-c7c4-4d63-8b5b-1e6cc16d4b00",
+                            "related_uuid": "3f976b6d-c662-4f4d-aa78-9b8f7d0d9920",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

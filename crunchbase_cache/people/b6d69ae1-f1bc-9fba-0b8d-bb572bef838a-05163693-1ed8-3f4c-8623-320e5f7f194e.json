@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "2fa59192-e74a-4cd1-b6e1-fe8f0e994578",
+            "properties": {
+                "name": "Maria Cricchiola",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2fa59192-e74a-4cd1-b6e1-fe8f0e994578",
+                    "value": "Maria Cricchiola"
+                },
+                "linkedin": "mariacricchiola",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "081677cb-563a-438b-9919-93f25b45039c",
+                            "related_uuid": "2fa59192-e74a-4cd1-b6e1-fe8f0e994578",
+                            "properties": {
+                                "job_title": "Director of Brand Communications & PR"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d9138289-aaba-4ac3-8daa-a9b5ee260513",
+            "properties": {
+                "name": "Maria Franco",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d9138289-aaba-4ac3-8daa-a9b5ee260513",
+                    "value": "Maria Franco"
+                },
+                "linkedin": "mariacfranco",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e2476b2c-3317-4eaa-a425-6153c380d74a",
+                            "related_uuid": "d9138289-aaba-4ac3-8daa-a9b5ee260513",
+                            "properties": {
+                                "job_title": "Director of Brand Communications & PR"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

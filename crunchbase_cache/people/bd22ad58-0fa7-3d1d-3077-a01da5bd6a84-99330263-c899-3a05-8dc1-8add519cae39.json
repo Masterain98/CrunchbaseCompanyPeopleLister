@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "deb72091-b49a-4011-b9f3-9760d6492ecb",
+            "properties": {
+                "name": "Jon Miller",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "deb72091-b49a-4011-b9f3-9760d6492ecb",
+                    "value": "Jon Miller"
+                },
+                "linkedin": "jonmiller2",
+                "job_levels": [
+                    "l_300_director",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3cd9d015-dbf2-4815-8a62-1b3767c5dd0c",
+                            "related_uuid": "deb72091-b49a-4011-b9f3-9760d6492ecb",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

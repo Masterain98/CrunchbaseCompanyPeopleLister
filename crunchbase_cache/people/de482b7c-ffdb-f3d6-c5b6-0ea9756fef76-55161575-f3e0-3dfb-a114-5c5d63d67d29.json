@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d6c7283b-c6bb-495c-911c-98b5f2a7ef7b",
+            "properties": {
+                "name": "Margaret Craig",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d6c7283b-c6bb-495c-911c-98b5f2a7ef7b",
+                    "value": "Margaret Craig"
+                },
+                "linkedin": "margaretcraig",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6413b12e-0830-4818-ad99-5d6d72407d51",
+                            "related_uuid": "d6c7283b-c6bb-495c-911c-98b5f2a7ef7b",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

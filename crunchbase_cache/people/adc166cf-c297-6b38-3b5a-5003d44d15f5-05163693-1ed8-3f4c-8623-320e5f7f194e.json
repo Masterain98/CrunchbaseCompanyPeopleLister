@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "9c447490-96e3-4320-8eba-ea8d22296204",
+            "properties": {
+                "name": "Joseph Beare",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "9c447490-96e3-4320-8eba-ea8d22296204",
+                    "value": "Joseph Beare"
+                },
+                "linkedin": "josephbeare",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "37c5aced-2943-48a8-900d-3c9fc0c9edc2",
+                            "related_uuid": "9c447490-96e3-4320-8eba-ea8d22296204",
+                            "properties": {
+                                "job_title": "Director of Communications, Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "221be4c0-553f-40d5-9c08-2918a12eb353",
+            "properties": {
+                "name": "Stephen Casale",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "221be4c0-553f-40d5-9c08-2918a12eb353",
+                    "value": "Stephen Casale"
+                },
+                "linkedin": "scasale07",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bf2702d3-3570-4600-a591-40ad8df882ba",
+                            "related_uuid": "221be4c0-553f-40d5-9c08-2918a12eb353",
+                            "properties": {
+                                "job_title": "Director, Executive Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

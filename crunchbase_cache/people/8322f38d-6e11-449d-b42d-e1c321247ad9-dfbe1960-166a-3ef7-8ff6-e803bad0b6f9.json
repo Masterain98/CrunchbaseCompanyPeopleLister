@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "989de69c-ddc3-49c9-9a7a-15fe0c8ee330",
+            "properties": {
+                "name": "Brock Beeson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "989de69c-ddc3-49c9-9a7a-15fe0c8ee330",
+                    "value": "Brock Beeson"
+                },
+                "linkedin": "brock-beeson-56b68351",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8e09cfb2-0645-4e7a-a3b7-298c030469b8",
+                            "related_uuid": "989de69c-ddc3-49c9-9a7a-15fe0c8ee330",
+                            "properties": {
+                                "job_title": "Associate Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

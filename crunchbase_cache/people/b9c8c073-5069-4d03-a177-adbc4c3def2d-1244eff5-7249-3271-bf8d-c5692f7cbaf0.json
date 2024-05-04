@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d1197af2-b273-4e9e-87bc-17ad8efaac38",
+            "properties": {
+                "name": "Inderjeet Singh",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d1197af2-b273-4e9e-87bc-17ad8efaac38",
+                    "value": "Inderjeet Singh"
+                },
+                "linkedin": "indsingh",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "53734a6a-fede-41ce-91b7-1ebd4f0cabfb",
+                            "related_uuid": "d1197af2-b273-4e9e-87bc-17ad8efaac38",
+                            "properties": {
+                                "job_title": "Co-Founder, President & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

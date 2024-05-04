@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f34588bf-1ba8-41dd-ac39-916e90f1b117",
+            "properties": {
+                "name": "Pete Willis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f34588bf-1ba8-41dd-ac39-916e90f1b117",
+                    "value": "Pete Willis"
+                },
+                "linkedin": "peter-willis-3916a48",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8834445e-fa58-4e8c-ab47-3c5b35ef5878",
+                            "related_uuid": "f34588bf-1ba8-41dd-ac39-916e90f1b117",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

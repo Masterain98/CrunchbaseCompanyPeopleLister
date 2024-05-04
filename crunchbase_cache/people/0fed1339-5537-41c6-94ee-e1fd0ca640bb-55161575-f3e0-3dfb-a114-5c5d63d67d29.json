@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cc7fde98-a2ff-4a0c-b858-26dac4c850cf",
+            "properties": {
+                "name": "George Grey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cc7fde98-a2ff-4a0c-b858-26dac4c850cf",
+                    "value": "George Grey"
+                },
+                "linkedin": "georgegrey",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "eea9a54f-96b0-4b5f-bd7e-8a78a4c78613",
+                            "related_uuid": "cc7fde98-a2ff-4a0c-b858-26dac4c850cf",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

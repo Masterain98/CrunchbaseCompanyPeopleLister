@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ab9a5e39-80eb-4ab3-a88f-e31ec7e549bf",
+            "properties": {
+                "name": "Danielle Meister",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ab9a5e39-80eb-4ab3-a88f-e31ec7e549bf",
+                    "value": "Danielle Meister"
+                },
+                "linkedin": "daniellemeistercohen",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "a7737d63-fb3d-49ff-a78f-649b88a51d37",
+                            "related_uuid": "ab9a5e39-80eb-4ab3-a88f-e31ec7e549bf",
+                            "properties": {
+                                "job_title": "Director, Global Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

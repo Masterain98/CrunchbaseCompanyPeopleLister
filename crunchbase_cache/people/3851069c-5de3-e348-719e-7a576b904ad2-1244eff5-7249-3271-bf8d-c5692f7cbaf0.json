@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a2b58ef2-e2e3-451e-873c-bbde0372c705",
+            "properties": {
+                "name": "Kevin Jhangiani",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a2b58ef2-e2e3-451e-873c-bbde0372c705",
+                    "value": "Kevin Jhangiani"
+                },
+                "linkedin": "kevin-jhangiani-5552972",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "36a0d5af-af6c-4801-aec5-b8f7657d6457",
+                            "related_uuid": "a2b58ef2-e2e3-451e-873c-bbde0372c705",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

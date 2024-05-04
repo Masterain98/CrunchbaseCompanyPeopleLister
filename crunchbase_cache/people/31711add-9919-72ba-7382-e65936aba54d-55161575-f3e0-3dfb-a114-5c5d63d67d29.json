@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ceceb3fe-d681-4514-977f-647ca2844d8c",
+            "properties": {
+                "name": "Alex Baydin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ceceb3fe-d681-4514-977f-647ca2844d8c",
+                    "value": "Alex Baydin"
+                },
+                "linkedin": "alex-baydin-0608383",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c9aa52b9-87cf-4176-94a4-928c35eb587e",
+                            "related_uuid": "ceceb3fe-d681-4514-977f-647ca2844d8c",
+                            "properties": {
+                                "job_title": "CEO & Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

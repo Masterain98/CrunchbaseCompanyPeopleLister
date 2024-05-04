@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bed7ce7e-6f84-4fe8-85ce-9d2e4a37bbee",
+            "properties": {
+                "name": "Andrew Cleak",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bed7ce7e-6f84-4fe8-85ce-9d2e4a37bbee",
+                    "value": "Andrew Cleak"
+                },
+                "linkedin": "andrewcleak",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "323e3e30-db95-48b5-834c-d2579ee06ecd",
+                            "related_uuid": "bed7ce7e-6f84-4fe8-85ce-9d2e4a37bbee",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

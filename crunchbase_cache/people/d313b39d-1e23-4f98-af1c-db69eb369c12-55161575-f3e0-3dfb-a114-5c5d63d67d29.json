@@ -1,0 +1,34 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7a51c429-ac83-4e2b-91f0-94a65bb422ba",
+            "properties": {
+                "name": "Peter R Dixon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7a51c429-ac83-4e2b-91f0-94a65bb422ba",
+                    "value": "Peter R Dixon"
+                },
+                "linkedin": "peterrevettdixon",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d41e4f1-f993-49d4-a090-dd10cd2eb475",
+                            "related_uuid": "7a51c429-ac83-4e2b-91f0-94a65bb422ba",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

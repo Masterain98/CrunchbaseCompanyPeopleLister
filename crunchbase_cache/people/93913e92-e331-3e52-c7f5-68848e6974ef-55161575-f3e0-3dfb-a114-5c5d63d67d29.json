@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ef32ba52-4657-4ef8-88e0-536d0ab8fd71",
+            "properties": {
+                "name": "Tony Yoon",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ef32ba52-4657-4ef8-88e0-536d0ab8fd71",
+                    "value": "Tony Yoon"
+                },
+                "linkedin": "tony-yoon-bb25a134",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8db18b6f-25d2-4883-9283-bfddf719614d",
+                            "related_uuid": "ef32ba52-4657-4ef8-88e0-536d0ab8fd71",
+                            "properties": {
+                                "job_title": "EVP, SKhynix NAND Solution Division & CEO at SK Hynix Memory Solutions Inc"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

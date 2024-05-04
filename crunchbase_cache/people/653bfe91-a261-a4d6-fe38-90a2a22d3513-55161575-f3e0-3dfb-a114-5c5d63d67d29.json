@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e2086031-e1fd-4d3c-9eb2-e1955fbcdd3a",
+            "properties": {
+                "name": "Bill Bither",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e2086031-e1fd-4d3c-9eb2-e1955fbcdd3a",
+                    "value": "Bill Bither"
+                },
+                "linkedin": "billbither",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4c750ffa-7fe8-451d-8478-87824709a2fe",
+                            "related_uuid": "e2086031-e1fd-4d3c-9eb2-e1955fbcdd3a",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

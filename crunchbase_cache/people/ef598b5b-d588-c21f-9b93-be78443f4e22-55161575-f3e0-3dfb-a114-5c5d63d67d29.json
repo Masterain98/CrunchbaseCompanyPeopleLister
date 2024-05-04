@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "f6f02b94-62c4-4aad-9d0e-94d3817bd3be",
+            "properties": {
+                "name": "Michael Sullivan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f6f02b94-62c4-4aad-9d0e-94d3817bd3be",
+                    "value": "Michael Sullivan"
+                },
+                "linkedin": "mpsully",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19f05bad-63a8-4324-b63b-fddf627c3f12",
+                            "related_uuid": "f6f02b94-62c4-4aad-9d0e-94d3817bd3be",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "09ecdb00-e669-4028-956b-298f5270d71a",
+            "properties": {
+                "name": "Stephen Reny",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "09ecdb00-e669-4028-956b-298f5270d71a",
+                    "value": "Stephen Reny"
+                },
+                "linkedin": "stephen-reny-0a2a0a163",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "496649bf-b726-4394-a827-1fad57d53686",
+                            "related_uuid": "09ecdb00-e669-4028-956b-298f5270d71a",
+                            "properties": {
+                                "job_title": "President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

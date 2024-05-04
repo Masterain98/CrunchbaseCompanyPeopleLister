@@ -1,0 +1,196 @@
+{
+    "count": 6,
+    "entities": [
+        {
+            "uuid": "c5859c15-36a6-4330-bc39-08f9f5208640",
+            "properties": {
+                "name": "Fred Czarske",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c5859c15-36a6-4330-bc39-08f9f5208640",
+                    "value": "Fred Czarske"
+                },
+                "linkedin": "fred-czarske-b01715b1",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "8a764c7c-ef55-4f3c-865c-2130e193ca0d",
+                            "related_uuid": "c5859c15-36a6-4330-bc39-08f9f5208640",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "c619eb7e-83f9-4c20-831a-64d75b0839fd",
+            "properties": {
+                "name": "Neil Gardner",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c619eb7e-83f9-4c20-831a-64d75b0839fd",
+                    "value": "Neil Gardner"
+                },
+                "linkedin": "neil-gardner-18743a13",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "10985906-5c92-4b4b-820e-c35aa1381a74",
+                            "related_uuid": "c619eb7e-83f9-4c20-831a-64d75b0839fd",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "3376eea2-0b02-4b7d-8e94-c0648f8ef11c",
+            "properties": {
+                "name": "Renata Rice",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3376eea2-0b02-4b7d-8e94-c0648f8ef11c",
+                    "value": "Renata Rice"
+                },
+                "linkedin": "renata-rice-1219957",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1c027731-4dad-4801-ba78-fe3c94455e3e",
+                            "related_uuid": "3376eea2-0b02-4b7d-8e94-c0648f8ef11c",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6acd9000-2782-4046-9a92-28cb4f73941b",
+            "properties": {
+                "name": "Russell Mister",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6acd9000-2782-4046-9a92-28cb4f73941b",
+                    "value": "Russell Mister"
+                },
+                "linkedin": "russell-mister-97776119",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d28b4f63-b4bb-4b49-92b4-01e8e90e01cf",
+                            "related_uuid": "6acd9000-2782-4046-9a92-28cb4f73941b",
+                            "properties": {
+                                "job_title": "Risk, Safety, Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "6f35c76f-bd6f-401b-a746-324f6b546c6e",
+            "properties": {
+                "name": "Tammy Parkins",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6f35c76f-bd6f-401b-a746-324f6b546c6e",
+                    "value": "Tammy Parkins"
+                },
+                "linkedin": "tammy-parkins-7625505",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9cc8c971-be55-4ce8-b8f0-252b5817cf26",
+                            "related_uuid": "6f35c76f-bd6f-401b-a746-324f6b546c6e",
+                            "properties": {
+                                "job_title": "Director, Supply Chain and Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "774dd2c5-235a-4e25-aa9e-d17859e1ca35",
+            "properties": {
+                "name": "Taragh Mulvihill",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "774dd2c5-235a-4e25-aa9e-d17859e1ca35",
+                    "value": "Taragh Mulvihill"
+                },
+                "linkedin": "taraghmulvihill",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "55399715-865a-406a-9ec6-5052fb6bc75a",
+                            "related_uuid": "774dd2c5-235a-4e25-aa9e-d17859e1ca35",
+                            "properties": {
+                                "job_title": "Director, Global Supply Chain & Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

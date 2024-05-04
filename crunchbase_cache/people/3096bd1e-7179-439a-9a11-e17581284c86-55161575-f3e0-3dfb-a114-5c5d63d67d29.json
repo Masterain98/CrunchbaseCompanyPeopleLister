@@ -1,0 +1,66 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "b0fdf437-2567-4f8e-8891-3bdab331595b",
+            "properties": {
+                "name": "Steven Chappell",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b0fdf437-2567-4f8e-8891-3bdab331595b",
+                    "value": "Steven Chappell"
+                },
+                "linkedin": "steven-chappell-094551b",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19ca3141-3411-40c0-95c5-c99ab043ab1a",
+                            "related_uuid": "b0fdf437-2567-4f8e-8891-3bdab331595b",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "53c19e55-bc19-49d6-a5c0-848b4b89530c",
+            "properties": {
+                "name": "Jeff Fullmer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "53c19e55-bc19-49d6-a5c0-848b4b89530c",
+                    "value": "Jeff Fullmer"
+                },
+                "linkedin": "jeff-fullmer-46b07aa7",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "dcbb88c4-0dfe-4cb6-bc4b-f40bbdf350db",
+                            "related_uuid": "53c19e55-bc19-49d6-a5c0-848b4b89530c",
+                            "properties": {
+                                "job_title": "President + CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

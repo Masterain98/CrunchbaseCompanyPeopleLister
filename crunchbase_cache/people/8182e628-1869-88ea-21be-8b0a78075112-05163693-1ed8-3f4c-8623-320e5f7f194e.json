@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "be796679-5df3-4dcd-9474-211680b73c0b",
+            "properties": {
+                "name": "Anthony Fryar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "be796679-5df3-4dcd-9474-211680b73c0b",
+                    "value": "Anthony Fryar"
+                },
+                "linkedin": "afryar",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "human_resources"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0924f088-c31f-4af6-b22c-f52332ebe06e",
+                            "related_uuid": "be796679-5df3-4dcd-9474-211680b73c0b",
+                            "properties": {
+                                "job_title": "Director, Learning & Development and Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

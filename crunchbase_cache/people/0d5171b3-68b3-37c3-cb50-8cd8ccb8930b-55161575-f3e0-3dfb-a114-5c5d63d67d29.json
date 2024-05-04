@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "f01c8f5c-1381-4d5d-b766-5b3be06aa390",
+            "properties": {
+                "name": "Jean-Marc Ollagnier",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f01c8f5c-1381-4d5d-b766-5b3be06aa390",
+                    "value": "Jean-Marc Ollagnier"
+                },
+                "linkedin": "jmollagnier",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "03b6edab-2eef-4e4f-b521-22af502ee547",
+                            "related_uuid": "f01c8f5c-1381-4d5d-b766-5b3be06aa390",
+                            "properties": {
+                                "job_title": "CEO \u2013 Europe"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "2c577e6e-d69e-456d-86a0-d567f26c1bca",
+            "properties": {
+                "name": "Frank Thornton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2c577e6e-d69e-456d-86a0-d567f26c1bca",
+                    "value": "Frank Thornton"
+                },
+                "linkedin": "frank-thornton-18607812",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b3137c17-b0a0-49d1-a3da-928437cd0d88",
+                            "related_uuid": "2c577e6e-d69e-456d-86a0-d567f26c1bca",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "97ddda5e-c664-4d0b-92dd-d57cf729d5ae",
+            "properties": {
+                "name": "Erica Durham",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "97ddda5e-c664-4d0b-92dd-d57cf729d5ae",
+                    "value": "Erica Durham"
+                },
+                "linkedin": "ericaadurham",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "304c4ed0-dee6-4d59-afbf-a23cef3ac071",
+                            "related_uuid": "97ddda5e-c664-4d0b-92dd-d57cf729d5ae",
+                            "properties": {
+                                "job_title": "Director of Creative and Digital"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

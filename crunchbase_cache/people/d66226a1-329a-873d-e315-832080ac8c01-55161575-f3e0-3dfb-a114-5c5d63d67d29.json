@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "89a9f1b5-cef3-40ff-8511-a61b75b53244",
+            "properties": {
+                "name": "Ram Varadarajan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "89a9f1b5-cef3-40ff-8511-a61b75b53244",
+                    "value": "Ram Varadarajan"
+                },
+                "linkedin": "ramvaradarajan",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "04b95140-732a-4a31-9c15-d8ab2f194fca",
+                            "related_uuid": "89a9f1b5-cef3-40ff-8511-a61b75b53244",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

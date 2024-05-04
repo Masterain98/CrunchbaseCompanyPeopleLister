@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "3d7b703d-d939-4d70-93c4-0345866f83aa",
+            "properties": {
+                "name": "Krista McClellan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3d7b703d-d939-4d70-93c4-0345866f83aa",
+                    "value": "Krista McClellan"
+                },
+                "linkedin": "kristamcclellan",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "05f9ca80-eb6e-4814-91a8-9c2bceb68c65",
+                            "related_uuid": "3d7b703d-d939-4d70-93c4-0345866f83aa",
+                            "properties": {
+                                "job_title": "Sr. Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "398bc8f7-4a9d-4066-8c43-51c0b7926b6e",
+            "properties": {
+                "name": "Sarah Howes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "398bc8f7-4a9d-4066-8c43-51c0b7926b6e",
+                    "value": "Sarah Howes"
+                },
+                "linkedin": "sarah-howes-6439473",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "09bfef67-3a90-4d40-a2dd-eecc7f1530b0",
+                            "related_uuid": "398bc8f7-4a9d-4066-8c43-51c0b7926b6e",
+                            "properties": {
+                                "job_title": "Sr Director, Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "86afb5c5-41da-486f-8b71-c69f62b9e314",
+            "properties": {
+                "name": "Kevin Obrien",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "86afb5c5-41da-486f-8b71-c69f62b9e314",
+                    "value": "Kevin Obrien"
+                },
+                "linkedin": "kevinobrien14",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "33478a0b-7ef1-4d0d-915c-854244264c39",
+                            "related_uuid": "86afb5c5-41da-486f-8b71-c69f62b9e314",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "43dbcd65-c23a-4ff4-8d5e-34aec65c40b2",
+            "properties": {
+                "name": "Mark Wallace",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "43dbcd65-c23a-4ff4-8d5e-34aec65c40b2",
+                    "value": "Mark Wallace"
+                },
+                "linkedin": "mark-wallace-5266b612",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2e05ccef-1bb3-4592-9a5a-f0eb75aa0b10",
+                            "related_uuid": "43dbcd65-c23a-4ff4-8d5e-34aec65c40b2",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

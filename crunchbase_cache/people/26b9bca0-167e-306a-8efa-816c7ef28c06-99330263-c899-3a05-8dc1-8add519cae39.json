@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "af1e0e27-39d9-4ff9-8be2-1bb6ade82b18",
+            "properties": {
+                "name": "Robert Ting",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "af1e0e27-39d9-4ff9-8be2-1bb6ade82b18",
+                    "value": "Robert Ting"
+                },
+                "linkedin": "rting",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6b68e84f-8c18-4a2f-a74e-27b0a33b3183",
+                            "related_uuid": "af1e0e27-39d9-4ff9-8be2-1bb6ade82b18",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

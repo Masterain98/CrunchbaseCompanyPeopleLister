@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ceaee836-76e1-4b04-bd84-54ab4e06b6ad",
+            "properties": {
+                "name": "Suresh Vasudevan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ceaee836-76e1-4b04-bd84-54ab4e06b6ad",
+                    "value": "Suresh Vasudevan"
+                },
+                "linkedin": "suvasudevan",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2efed099-2ea3-4364-b2c6-4ad49a0953b3",
+                            "related_uuid": "ceaee836-76e1-4b04-bd84-54ab4e06b6ad",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "0411a5f0-da5c-47b0-b37d-60e7f6f70255",
+            "properties": {
+                "name": "Nate Gandert",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0411a5f0-da5c-47b0-b37d-60e7f6f70255",
+                    "value": "Nate Gandert"
+                },
+                "linkedin": "nategandert",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "product"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2ef94ecb-c1bb-447a-a09e-e83e5ac3b177",
+                            "related_uuid": "0411a5f0-da5c-47b0-b37d-60e7f6f70255",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4e765847-a593-41bb-973d-55de1723dc28",
+            "properties": {
+                "name": "Denise Rodrigues",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4e765847-a593-41bb-973d-55de1723dc28",
+                    "value": "Denise Rodrigues"
+                },
+                "linkedin": "deniselrodrigues",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fd3b35d7-9adf-4f80-94f7-37a3e750ae73",
+                            "related_uuid": "4e765847-a593-41bb-973d-55de1723dc28",
+                            "properties": {
+                                "job_title": "Director, Risk & Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

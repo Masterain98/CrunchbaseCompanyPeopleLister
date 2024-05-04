@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c31871a5-4c59-4bb4-8866-e8076eace27b",
+            "properties": {
+                "name": "Geoff McQueen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c31871a5-4c59-4bb4-8866-e8076eace27b",
+                    "value": "Geoff McQueen"
+                },
+                "linkedin": "geoffmcqueen",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c1aaad1-7c50-4e0a-9059-2e713490795f",
+                            "related_uuid": "c31871a5-4c59-4bb4-8866-e8076eace27b",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

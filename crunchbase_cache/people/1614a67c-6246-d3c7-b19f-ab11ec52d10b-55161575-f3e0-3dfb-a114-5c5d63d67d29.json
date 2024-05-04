@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "382a3fcd-2e8d-4503-a864-782fd57c9b23",
+            "properties": {
+                "name": "Ezra (Sung Bok) Kwak",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "382a3fcd-2e8d-4503-a864-782fd57c9b23",
+                    "value": "Ezra (Sung Bok) Kwak"
+                },
+                "linkedin": "ezrak",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d03edfe-729e-4b7f-8388-0db730c91856",
+                            "related_uuid": "382a3fcd-2e8d-4503-a864-782fd57c9b23",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

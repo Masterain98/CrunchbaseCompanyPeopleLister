@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "207f1ed0-273f-418d-8a3b-30d10100b261",
+            "properties": {
+                "name": "John Briscoe",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "207f1ed0-273f-418d-8a3b-30d10100b261",
+                    "value": "John Briscoe"
+                },
+                "linkedin": "johnbriscoe",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "83fa19bf-1e5f-48cd-9489-b8ff700a6fb8",
+                            "related_uuid": "207f1ed0-273f-418d-8a3b-30d10100b261",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

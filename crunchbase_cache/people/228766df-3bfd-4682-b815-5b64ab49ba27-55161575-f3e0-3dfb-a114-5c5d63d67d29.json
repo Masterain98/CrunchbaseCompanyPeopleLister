@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "eadf9394-4114-4011-9d0a-776c76287820",
+            "properties": {
+                "name": "Grant Mcdougall",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eadf9394-4114-4011-9d0a-776c76287820",
+                    "value": "Grant Mcdougall"
+                },
+                "linkedin": "grantmcdougall",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "76c9cc34-7676-4075-8837-329fc648bf77",
+                            "related_uuid": "eadf9394-4114-4011-9d0a-776c76287820",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

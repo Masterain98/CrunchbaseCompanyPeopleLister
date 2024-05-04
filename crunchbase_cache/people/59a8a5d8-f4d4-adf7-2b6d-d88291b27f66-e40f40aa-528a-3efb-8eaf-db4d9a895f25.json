@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7650be20-f8d0-45ed-8af4-59e5b33b59d6",
+            "properties": {
+                "name": "Chris Davidson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7650be20-f8d0-45ed-8af4-59e5b33b59d6",
+                    "value": "Chris Davidson"
+                },
+                "linkedin": "chrismdavidson",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9a1f31a8-4d41-45a7-a0dd-f46aec14001e",
+                            "related_uuid": "7650be20-f8d0-45ed-8af4-59e5b33b59d6",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ebfb87d3-8ec8-4bbc-84e1-f3e1202d8e48",
+            "properties": {
+                "name": "Mr. Richard Smullen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ebfb87d3-8ec8-4bbc-84e1-f3e1202d8e48",
+                    "value": "Mr. Richard Smullen"
+                },
+                "linkedin": "richardsmullen",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "561e36bb-f4b7-471e-a879-91ce646ac8fc",
+                            "related_uuid": "ebfb87d3-8ec8-4bbc-84e1-f3e1202d8e48",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

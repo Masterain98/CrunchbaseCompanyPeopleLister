@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8370faf0-37b6-4d6c-bbac-3cc6640d6989",
+            "properties": {
+                "name": "Raj Bains",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8370faf0-37b6-4d6c-bbac-3cc6640d6989",
+                    "value": "Raj Bains"
+                },
+                "linkedin": "raj-bains-b837a46",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0487b6b6-4d63-4f68-892d-1419e9bf3558",
+                            "related_uuid": "8370faf0-37b6-4d6c-bbac-3cc6640d6989",
+                            "properties": {
+                                "job_title": "Founder CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "2f2f9d4e-9892-4c77-a3f8-91013244791e",
+            "properties": {
+                "name": "William Espey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "2f2f9d4e-9892-4c77-a3f8-91013244791e",
+                    "value": "William Espey"
+                },
+                "linkedin": "wespey",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cc3a8418-06aa-4a2b-b0a6-c24416c6b411",
+                            "related_uuid": "2f2f9d4e-9892-4c77-a3f8-91013244791e",
+                            "properties": {
+                                "job_title": "Sr. Director, Creative Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "02f16c59-b1be-4d29-b465-1bbaf283a26f",
+            "properties": {
+                "name": "Andy Grygiel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "02f16c59-b1be-4d29-b465-1bbaf283a26f",
+                    "value": "Andy Grygiel"
+                },
+                "linkedin": "andrewgrygiel",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7f827046-0230-403d-9a3f-d672d92a8422",
+                            "related_uuid": "02f16c59-b1be-4d29-b465-1bbaf283a26f",
+                            "properties": {
+                                "job_title": "Chief Brand Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d3601f45-a917-4898-b433-7bc6a9c40809",
+            "properties": {
+                "name": "Charlie U.",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d3601f45-a917-4898-b433-7bc6a9c40809",
+                    "value": "Charlie U."
+                },
+                "linkedin": "charlieungashick",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "014352cc-3535-4fab-9e4d-02b0b9d04bf3",
+                            "related_uuid": "d3601f45-a917-4898-b433-7bc6a9c40809",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

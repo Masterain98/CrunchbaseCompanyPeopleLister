@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "da4722ff-f779-4222-8f7f-f7d51376e9f5",
+            "properties": {
+                "name": "Melissa Kozicki",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "da4722ff-f779-4222-8f7f-f7d51376e9f5",
+                    "value": "Melissa Kozicki"
+                },
+                "linkedin": "melissa-kozicki-55753a6",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "c210e1ba-98db-4193-8e1d-d0e8bdb3c0b0",
+                            "related_uuid": "da4722ff-f779-4222-8f7f-f7d51376e9f5",
+                            "properties": {
+                                "job_title": "Director of Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

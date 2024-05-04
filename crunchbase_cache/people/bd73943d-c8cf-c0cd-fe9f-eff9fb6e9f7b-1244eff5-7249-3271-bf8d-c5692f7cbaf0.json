@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bc8e3942-4ebe-461e-b7ea-f565ca3ca988",
+            "properties": {
+                "name": "Rahav Dor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bc8e3942-4ebe-461e-b7ea-f565ca3ca988",
+                    "value": "Rahav Dor"
+                },
+                "linkedin": "rahav-dor",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "information_technology"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "414a7e05-eb28-4d17-8bdd-135c4e02da07",
+                            "related_uuid": "bc8e3942-4ebe-461e-b7ea-f565ca3ca988",
+                            "properties": {
+                                "job_title": "Information Technology"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

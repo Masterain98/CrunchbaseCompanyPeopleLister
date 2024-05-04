@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e280cf4b-f382-479a-b1d9-5f7821c344e8",
+            "properties": {
+                "name": "Sharat Sharan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e280cf4b-f382-479a-b1d9-5f7821c344e8",
+                    "value": "Sharat Sharan"
+                },
+                "linkedin": "sharatsharan",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "842ef9c4-81ba-44d5-9555-5c2a2e6f3da9",
+                            "related_uuid": "e280cf4b-f382-479a-b1d9-5f7821c344e8",
+                            "properties": {
+                                "job_title": "President, Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

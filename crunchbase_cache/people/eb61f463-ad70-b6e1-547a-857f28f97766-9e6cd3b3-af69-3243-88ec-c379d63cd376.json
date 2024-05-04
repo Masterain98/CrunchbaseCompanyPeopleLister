@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6e67d869-2d37-42a6-8181-9fbe7b198a85",
+            "properties": {
+                "name": "Ryan Beck",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6e67d869-2d37-42a6-8181-9fbe7b198a85",
+                    "value": "Ryan Beck"
+                },
+                "linkedin": "ryan-beck-ba9a0979",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance",
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0c1f3f8f-fd0b-42f4-8fcb-3e5d2f823800",
+                            "related_uuid": "6e67d869-2d37-42a6-8181-9fbe7b198a85",
+                            "properties": {
+                                "job_title": "Director, Investor Relations & Corporate Development"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

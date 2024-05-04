@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1835ad59-39af-4e1e-adc6-99fd40c7ce53",
+            "properties": {
+                "name": "Charlie Newark-French",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1835ad59-39af-4e1e-adc6-99fd40c7ce53",
+                    "value": "Charlie Newark-French"
+                },
+                "linkedin": "charlie-newark-french-39482715",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b1e4abe9-8518-4283-ae2d-95840d19197d",
+                            "related_uuid": "1835ad59-39af-4e1e-adc6-99fd40c7ce53",
+                            "properties": {
+                                "job_title": "Interim CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

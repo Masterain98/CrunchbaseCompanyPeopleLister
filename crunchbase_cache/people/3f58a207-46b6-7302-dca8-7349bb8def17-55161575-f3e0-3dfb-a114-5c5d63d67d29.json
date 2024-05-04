@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4084d853-ac43-41fc-bed4-3451fe15b357",
+            "properties": {
+                "name": "Arthur Chang",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4084d853-ac43-41fc-bed4-3451fe15b357",
+                    "value": "Arthur Chang"
+                },
+                "linkedin": "arthur-chang-aa7489",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1b060518-5173-4c5a-a199-81c79d83ef9e",
+                            "related_uuid": "4084d853-ac43-41fc-bed4-3451fe15b357",
+                            "properties": {
+                                "job_title": "President and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

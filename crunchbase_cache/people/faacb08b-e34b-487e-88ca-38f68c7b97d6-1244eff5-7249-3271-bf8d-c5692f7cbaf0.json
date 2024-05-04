@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "54b0ebd8-a571-4750-b9a3-e41af5d43d78",
+            "properties": {
+                "name": "Gerard Keating",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "54b0ebd8-a571-4750-b9a3-e41af5d43d78",
+                    "value": "Gerard Keating"
+                },
+                "linkedin": "gerard-keating-27966",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "515f68cf-5448-4624-8705-2d4e688b5a81",
+                            "related_uuid": "54b0ebd8-a571-4750-b9a3-e41af5d43d78",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

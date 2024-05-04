@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "189c53d9-6905-47db-8478-2d05bf690994",
+            "properties": {
+                "name": "Jennifer Pepper",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "189c53d9-6905-47db-8478-2d05bf690994",
+                    "value": "Jennifer Pepper"
+                },
+                "linkedin": "jenniferpepper",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "9af462b2-59c3-46ef-9a44-0fa6140469aa",
+                            "related_uuid": "189c53d9-6905-47db-8478-2d05bf690994",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

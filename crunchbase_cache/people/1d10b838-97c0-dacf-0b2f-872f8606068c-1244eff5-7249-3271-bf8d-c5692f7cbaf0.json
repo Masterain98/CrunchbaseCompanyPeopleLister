@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "92687751-f090-4944-806e-2d70b3a3ba7c",
+            "properties": {
+                "name": "Gordon Pretorius",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "92687751-f090-4944-806e-2d70b3a3ba7c",
+                    "value": "Gordon Pretorius"
+                },
+                "linkedin": "gordon-pretorius",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "89a92f5a-4f07-4d6e-8b9d-6505193016f6",
+                            "related_uuid": "92687751-f090-4944-806e-2d70b3a3ba7c",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f1d684f0-1340-44db-9349-631fe6f86526",
+            "properties": {
+                "name": "Shahzeb J.",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f1d684f0-1340-44db-9349-631fe6f86526",
+                    "value": "Shahzeb J."
+                },
+                "linkedin": "shahzebjiwani",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "209f2b4e-06c0-4f39-a2af-f9ebe5627426",
+                            "related_uuid": "f1d684f0-1340-44db-9349-631fe6f86526",
+                            "properties": {
+                                "job_title": "Director, Security and Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

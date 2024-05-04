@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f1410c7d-422f-4c02-b3fb-5cf3dac40bd5",
+            "properties": {
+                "name": "Erin Stevens",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f1410c7d-422f-4c02-b3fb-5cf3dac40bd5",
+                    "value": "Erin Stevens"
+                },
+                "linkedin": "erinslinkedin",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "70431924-6fc8-4066-a08a-b1a9e2e08491",
+                            "related_uuid": "f1410c7d-422f-4c02-b3fb-5cf3dac40bd5",
+                            "properties": {
+                                "job_title": "Director Corporate Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

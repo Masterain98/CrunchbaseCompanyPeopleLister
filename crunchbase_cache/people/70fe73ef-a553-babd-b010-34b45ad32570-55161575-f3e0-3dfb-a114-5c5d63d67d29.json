@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e2d00655-0487-416a-8614-104e9b2bf7d5",
+            "properties": {
+                "name": "Sean Chou",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e2d00655-0487-416a-8614-104e9b2bf7d5",
+                    "value": "Sean Chou"
+                },
+                "linkedin": "chousy",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b8ee0fba-fe3f-4eba-95c1-1a5030e12218",
+                            "related_uuid": "e2d00655-0487-416a-8614-104e9b2bf7d5",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

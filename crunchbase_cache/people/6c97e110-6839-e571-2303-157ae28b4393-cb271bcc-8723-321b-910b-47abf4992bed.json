@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ccfd7c15-bea2-44e4-b8bb-48933516dfaa",
+            "properties": {
+                "name": "Akram Ibrahim",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ccfd7c15-bea2-44e4-b8bb-48933516dfaa",
+                    "value": "Akram Ibrahim"
+                },
+                "linkedin": "akramibrahim",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "41fa8079-072e-403c-93bd-70c5a9595b09",
+                            "related_uuid": "ccfd7c15-bea2-44e4-b8bb-48933516dfaa",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

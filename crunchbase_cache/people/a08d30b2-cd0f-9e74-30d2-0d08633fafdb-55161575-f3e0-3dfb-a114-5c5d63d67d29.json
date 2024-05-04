@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "744cc140-e79d-47b8-8981-24cd55aeb0dc",
+            "properties": {
+                "name": "Silvio Kutic",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "744cc140-e79d-47b8-8981-24cd55aeb0dc",
+                    "value": "Silvio Kutic"
+                },
+                "linkedin": "silvio-kutic-ab2b829",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d6e60dd3-c367-47ed-b706-f0bcabc367e0",
+                            "related_uuid": "744cc140-e79d-47b8-8981-24cd55aeb0dc",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

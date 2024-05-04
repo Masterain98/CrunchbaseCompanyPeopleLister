@@ -1,0 +1,39 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1f869e42-4553-46b2-9dd4-e4db6ca70a0c",
+            "properties": {
+                "name": "Michael Sanders",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1f869e42-4553-46b2-9dd4-e4db6ca70a0c",
+                    "value": "Michael Sanders"
+                },
+                "linkedin": "michael-sanders-6695a61",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_400_vp",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "66df41fc-a599-4677-80be-3608d21b6ec6",
+                            "related_uuid": "1f869e42-4553-46b2-9dd4-e4db6ca70a0c",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "73ed12dd-013b-4aad-b4c7-3b33c7eba3d3",
+            "properties": {
+                "name": "Caitlin Will",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "73ed12dd-013b-4aad-b4c7-3b33c7eba3d3",
+                    "value": "Caitlin Will"
+                },
+                "linkedin": "caitlin-will-6305284",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d84c836-1975-4d54-b665-fb52295e48d0",
+                            "related_uuid": "73ed12dd-013b-4aad-b4c7-3b33c7eba3d3",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

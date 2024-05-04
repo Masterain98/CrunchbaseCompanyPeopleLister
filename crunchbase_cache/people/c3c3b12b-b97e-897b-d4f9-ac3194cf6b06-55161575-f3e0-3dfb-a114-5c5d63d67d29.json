@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "99a75971-dbed-4d2d-9f6b-8e46c26d6480",
+            "properties": {
+                "name": "Steve Sloan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "99a75971-dbed-4d2d-9f6b-8e46c26d6480",
+                    "value": "Steve Sloan"
+                },
+                "linkedin": "steve-sloan-213515",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "15614fad-5883-49ae-b366-e4693226a5db",
+                            "related_uuid": "99a75971-dbed-4d2d-9f6b-8e46c26d6480",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

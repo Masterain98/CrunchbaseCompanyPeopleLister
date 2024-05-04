@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "8b0b1a31-a65b-40f2-8401-2fc7b101f236",
+            "properties": {
+                "name": "David Sipes",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8b0b1a31-a65b-40f2-8401-2fc7b101f236",
+                    "value": "David Sipes"
+                },
+                "linkedin": "david-sipes-404b846",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "733a3757-6181-4742-a059-912a95f5f9ac",
+                            "related_uuid": "8b0b1a31-a65b-40f2-8401-2fc7b101f236",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

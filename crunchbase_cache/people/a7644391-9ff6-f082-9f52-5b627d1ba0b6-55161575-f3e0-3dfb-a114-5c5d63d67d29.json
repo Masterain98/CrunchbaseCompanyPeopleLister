@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "75927d9c-c3e0-479a-81e3-d136c3e82ca1",
+            "properties": {
+                "name": "Brian Saunders",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "75927d9c-c3e0-479a-81e3-d136c3e82ca1",
+                    "value": "Brian Saunders"
+                },
+                "linkedin": "bsaunders411",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7cbf97c1-1a5a-4d0e-b402-68620f41c320",
+                            "related_uuid": "75927d9c-c3e0-479a-81e3-d136c3e82ca1",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

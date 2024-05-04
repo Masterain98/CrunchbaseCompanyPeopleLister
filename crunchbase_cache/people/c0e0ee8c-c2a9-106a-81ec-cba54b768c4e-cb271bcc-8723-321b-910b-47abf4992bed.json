@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "19b90bde-80c1-4f0e-988f-36920d5c106b",
+            "properties": {
+                "name": "Kay Perry",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "19b90bde-80c1-4f0e-988f-36920d5c106b",
+                    "value": "Kay Perry"
+                },
+                "linkedin": "kaykperry",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0e74ac1c-6556-4586-81d2-947e9a8304b5",
+                            "related_uuid": "19b90bde-80c1-4f0e-988f-36920d5c106b",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "eaa14e45-3c84-4953-bfa6-503e853c3991",
+            "properties": {
+                "name": "Scott Slomba",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eaa14e45-3c84-4953-bfa6-503e853c3991",
+                    "value": "Scott Slomba"
+                },
+                "linkedin": "scott-slomba-9260b314",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "operations",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "23d34d2c-a077-4e1b-b196-3347703d851e",
+                            "related_uuid": "eaa14e45-3c84-4953-bfa6-503e853c3991",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

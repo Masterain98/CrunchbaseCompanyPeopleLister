@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f634d1fc-8bbc-47d2-8a41-579c62626183",
+            "properties": {
+                "name": "Ashish Aggarwal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f634d1fc-8bbc-47d2-8a41-579c62626183",
+                    "value": "Ashish Aggarwal"
+                },
+                "linkedin": "mrashishaggarwal",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7353d13a-7ec2-43cb-9e58-bc8bf1d1babe",
+                            "related_uuid": "f634d1fc-8bbc-47d2-8a41-579c62626183",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

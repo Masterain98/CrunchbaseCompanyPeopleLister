@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b4ab3434-8f50-4370-b7f4-891c209269ea",
+            "properties": {
+                "name": "Justin Neiser",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b4ab3434-8f50-4370-b7f4-891c209269ea",
+                    "value": "Justin Neiser"
+                },
+                "linkedin": "justinneiser",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "85519e81-34ca-42af-83d2-c38eb041c764",
+                            "related_uuid": "b4ab3434-8f50-4370-b7f4-891c209269ea",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

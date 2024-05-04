@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "836842a4-3e25-4e53-a9cc-7fbd0897d8ee",
+            "properties": {
+                "name": "Arnold Huffman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "836842a4-3e25-4e53-a9cc-7fbd0897d8ee",
+                    "value": "Arnold Huffman"
+                },
+                "linkedin": "arnoldhuffman",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "07a100d0-fc34-4b63-91f2-54fe10832d51",
+                            "related_uuid": "836842a4-3e25-4e53-a9cc-7fbd0897d8ee",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

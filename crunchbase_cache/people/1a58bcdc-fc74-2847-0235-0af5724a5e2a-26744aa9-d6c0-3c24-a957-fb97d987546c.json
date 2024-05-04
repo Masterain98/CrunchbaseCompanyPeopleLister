@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "43917198-0370-49e5-89de-3c5c6d820977",
+            "properties": {
+                "name": "Samuel LeCompte",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "43917198-0370-49e5-89de-3c5c6d820977",
+                    "value": "Samuel LeCompte"
+                },
+                "linkedin": "samuel-lecompte-74484a82",
+                "job_levels": [
+                    "l_100_individual"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "87df670f-4625-4885-9e2f-6b90e38b5768",
+                            "related_uuid": "43917198-0370-49e5-89de-3c5c6d820977",
+                            "properties": {
+                                "job_title": "Search Engine Optimization Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "14a1dbc7-9aa9-45e5-a942-0ad21c400f36",
+            "properties": {
+                "name": "Ronald Riggin",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "14a1dbc7-9aa9-45e5-a942-0ad21c400f36",
+                    "value": "Ronald Riggin"
+                },
+                "linkedin": "ronaldriggin",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5262dc97-ae2c-4cd0-9b2c-848e557cf530",
+                            "related_uuid": "14a1dbc7-9aa9-45e5-a942-0ad21c400f36",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

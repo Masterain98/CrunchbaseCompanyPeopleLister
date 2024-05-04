@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "a2bb2461-75b1-4c3a-81ff-598b12ac0fa5",
+            "properties": {
+                "name": "Doug Dennerline",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a2bb2461-75b1-4c3a-81ff-598b12ac0fa5",
+                    "value": "Doug Dennerline"
+                },
+                "linkedin": "doug-dennerline-59a43915",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ee7c1889-50d0-4340-9b37-6dfe916b467b",
+                            "related_uuid": "a2bb2461-75b1-4c3a-81ff-598b12ac0fa5",
+                            "properties": {
+                                "job_title": "CEO and Executive Chariman"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

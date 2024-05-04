@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c958e682-0c5e-4eff-9b54-d135f2ba53c9",
+            "properties": {
+                "name": "Jyoti Bansal",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c958e682-0c5e-4eff-9b54-d135f2ba53c9",
+                    "value": "Jyoti Bansal"
+                },
+                "linkedin": "jyotibansal",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fa067f9d-de2e-47dd-8258-6fd5e778b2ac",
+                            "related_uuid": "c958e682-0c5e-4eff-9b54-d135f2ba53c9",
+                            "properties": {
+                                "job_title": "CEO & Co-Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

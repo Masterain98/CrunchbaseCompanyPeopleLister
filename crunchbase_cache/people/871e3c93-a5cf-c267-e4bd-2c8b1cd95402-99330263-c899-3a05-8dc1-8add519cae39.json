@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "31713c4f-26da-4372-98eb-26f115e0cc65",
+            "properties": {
+                "name": "Andy Jolls",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "31713c4f-26da-4372-98eb-26f115e0cc65",
+                    "value": "Andy Jolls"
+                },
+                "linkedin": "ajolls",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b890c180-67d6-4e4a-885e-b02ead06e73b",
+                            "related_uuid": "31713c4f-26da-4372-98eb-26f115e0cc65",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

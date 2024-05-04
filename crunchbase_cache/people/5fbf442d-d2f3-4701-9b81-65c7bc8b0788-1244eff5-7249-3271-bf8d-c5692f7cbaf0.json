@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f6a1883e-42c9-4f3d-ab7b-69633760627b",
+            "properties": {
+                "name": "Ofer Maor",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f6a1883e-42c9-4f3d-ab7b-69633760627b",
+                    "value": "Ofer Maor"
+                },
+                "linkedin": "ofermaor",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "2ef08b46-48c4-482b-92ad-f5acc1b8e1be",
+                            "related_uuid": "f6a1883e-42c9-4f3d-ab7b-69633760627b",
+                            "properties": {
+                                "job_title": "Co-Founder & CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

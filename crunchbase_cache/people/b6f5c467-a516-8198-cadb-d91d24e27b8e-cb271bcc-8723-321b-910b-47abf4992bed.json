@@ -1,0 +1,166 @@
+{
+    "count": 5,
+    "entities": [
+        {
+            "uuid": "b7a044ad-41f1-4f2c-aad5-1f605d840de5",
+            "properties": {
+                "name": "Christian Pajot",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b7a044ad-41f1-4f2c-aad5-1f605d840de5",
+                    "value": "Christian Pajot"
+                },
+                "linkedin": "christianpajot",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "11b9a153-2869-4f5e-acc3-55a988c7d3fb",
+                            "related_uuid": "b7a044ad-41f1-4f2c-aad5-1f605d840de5",
+                            "properties": {
+                                "job_title": "Customer Success Operations Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "86c51ecd-5bd0-4ba8-9d02-ec8b3e7ad111",
+            "properties": {
+                "name": "Connor Blemly",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "86c51ecd-5bd0-4ba8-9d02-ec8b3e7ad111",
+                    "value": "Connor Blemly"
+                },
+                "linkedin": "connor-blemly-b11569130",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "324cbf75-a5e9-4c72-a2a8-e544114e3cdb",
+                            "related_uuid": "86c51ecd-5bd0-4ba8-9d02-ec8b3e7ad111",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "7198a930-839b-4376-bf38-a7b75837421f",
+            "properties": {
+                "name": "Erin Baird",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7198a930-839b-4376-bf38-a7b75837421f",
+                    "value": "Erin Baird"
+                },
+                "linkedin": "erin-baird-94781a5",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "267ae347-9a11-42c0-b13a-cee4ff656d26",
+                            "related_uuid": "7198a930-839b-4376-bf38-a7b75837421f",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "cd96c9fa-1f02-4198-a9ef-a711daa5985c",
+            "properties": {
+                "name": "Mark DeSanctis",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cd96c9fa-1f02-4198-a9ef-a711daa5985c",
+                    "value": "Mark DeSanctis"
+                },
+                "linkedin": "markdesanctis",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "information_technology",
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0d1e160f-d3b5-4718-ab2a-f953e2069ae8",
+                            "related_uuid": "cd96c9fa-1f02-4198-a9ef-a711daa5985c",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "8cbb1b05-5a3f-4b7b-ada8-03c8ec51e53c",
+            "properties": {
+                "name": "Rebecca Torres",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "8cbb1b05-5a3f-4b7b-ada8-03c8ec51e53c",
+                    "value": "Rebecca Torres"
+                },
+                "linkedin": "rebecca-torres-4b1368205",
+                "job_levels": [
+                    "l_200_manager",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cf08cecf-aa59-47c5-931f-a734fd57e878",
+                            "related_uuid": "8cbb1b05-5a3f-4b7b-ada8-03c8ec51e53c",
+                            "properties": {
+                                "job_title": "Customer Success Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

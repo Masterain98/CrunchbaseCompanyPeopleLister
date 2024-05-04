@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "da13fb93-b52f-41aa-a941-99f3fa380400",
+            "properties": {
+                "name": "Mike Winand",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "da13fb93-b52f-41aa-a941-99f3fa380400",
+                    "value": "Mike Winand"
+                },
+                "linkedin": "mikewinand",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "support"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "062c1395-4b06-44e1-b96a-202bef70be62",
+                            "related_uuid": "da13fb93-b52f-41aa-a941-99f3fa380400",
+                            "properties": {
+                                "job_title": "Director of Client Services - Americas"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

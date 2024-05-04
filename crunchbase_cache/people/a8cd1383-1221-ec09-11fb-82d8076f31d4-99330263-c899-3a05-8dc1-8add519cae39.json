@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "299e3f9f-a664-42e1-9465-9119ffb01c72",
+            "properties": {
+                "name": "Paz Macdonald",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "299e3f9f-a664-42e1-9465-9119ffb01c72",
+                    "value": "Paz Macdonald"
+                },
+                "linkedin": "pazmacdonald",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7f3d6fed-1223-4476-aacb-966b1516ef2d",
+                            "related_uuid": "299e3f9f-a664-42e1-9465-9119ffb01c72",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

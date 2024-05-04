@@ -1,0 +1,34 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "827c1b2e-229e-457a-8b50-157201223326",
+            "properties": {
+                "name": "Gerald Youngblood",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "827c1b2e-229e-457a-8b50-157201223326",
+                    "value": "Gerald Youngblood"
+                },
+                "linkedin": "geraldyoungblood",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "19cbae84-236e-4662-aee9-585e71f468b0",
+                            "related_uuid": "827c1b2e-229e-457a-8b50-157201223326",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

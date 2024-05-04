@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "589ab2a3-56b6-4166-93b7-6b4ef8543330",
+            "properties": {
+                "name": "Tony Hungate",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "589ab2a3-56b6-4166-93b7-6b4ef8543330",
+                    "value": "Tony Hungate"
+                },
+                "linkedin": "tonyhungate",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ad1730c5-dae3-425e-8278-db815a3b5158",
+                            "related_uuid": "589ab2a3-56b6-4166-93b7-6b4ef8543330",
+                            "properties": {
+                                "job_title": "Director, Client Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

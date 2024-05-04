@@ -1,0 +1,68 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "ad27f2e8-c67e-4976-92b1-a874e67f7f64",
+            "properties": {
+                "name": "Kristine Biscocho",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ad27f2e8-c67e-4976-92b1-a874e67f7f64",
+                    "value": "Kristine Biscocho"
+                },
+                "linkedin": "kristinebiscocho",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "pro_services"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6a9cded9-99eb-4e13-8349-695053aee435",
+                            "related_uuid": "ad27f2e8-c67e-4976-92b1-a874e67f7f64",
+                            "properties": {
+                                "job_title": "Director, Customer Success - Enterprise"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "acab97ba-376a-4f52-ae5e-4617d71bcce0",
+            "properties": {
+                "name": "Noelle Stewart",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "acab97ba-376a-4f52-ae5e-4617d71bcce0",
+                    "value": "Noelle Stewart"
+                },
+                "linkedin": "noellestewart",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1981ce38-5e41-4aba-9a50-176beb0e69b8",
+                            "related_uuid": "acab97ba-376a-4f52-ae5e-4617d71bcce0",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "67fc3897-bca3-4ef0-bfa2-761173464c3a",
+            "properties": {
+                "name": "Frederik Roy Rasmussen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "67fc3897-bca3-4ef0-bfa2-761173464c3a",
+                    "value": "Frederik Roy Rasmussen"
+                },
+                "linkedin": "frederikrasmussen",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0ee41583-3849-464e-bfc5-11432749101b",
+                            "related_uuid": "67fc3897-bca3-4ef0-bfa2-761173464c3a",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

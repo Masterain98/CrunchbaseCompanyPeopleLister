@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "6f406465-7bfa-440c-9503-b120d05b4c5b",
+            "properties": {
+                "name": "Chris Branagan",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "6f406465-7bfa-440c-9503-b120d05b4c5b",
+                    "value": "Chris Branagan"
+                },
+                "linkedin": "chris-branagan-a329582",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4a00e594-2144-4f24-bfd0-563bc3dcb7a8",
+                            "related_uuid": "6f406465-7bfa-440c-9503-b120d05b4c5b",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

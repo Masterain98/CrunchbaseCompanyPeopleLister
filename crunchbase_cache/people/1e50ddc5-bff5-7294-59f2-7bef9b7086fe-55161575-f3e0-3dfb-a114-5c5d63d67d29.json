@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "42fa7d10-03f1-42fa-a6da-d23b6fb97384",
+            "properties": {
+                "name": "Joseph Payne",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "42fa7d10-03f1-42fa-a6da-d23b6fb97384",
+                    "value": "Joseph Payne"
+                },
+                "linkedin": "paynejoe",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4dd1f678-a898-4062-bf5c-99ed0fdd4ed1",
+                            "related_uuid": "42fa7d10-03f1-42fa-a6da-d23b6fb97384",
+                            "properties": {
+                                "job_title": "President and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

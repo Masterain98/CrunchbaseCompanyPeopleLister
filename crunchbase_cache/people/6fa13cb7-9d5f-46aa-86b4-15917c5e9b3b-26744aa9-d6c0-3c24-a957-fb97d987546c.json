@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "bcffa22a-8a42-45ea-971c-df094052dbf1",
+            "properties": {
+                "name": "Martina Olivova",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "bcffa22a-8a42-45ea-971c-df094052dbf1",
+                    "value": "Martina Olivova"
+                },
+                "linkedin": "martina-olivova-7a103434",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "pro_services"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "493d8157-31f4-4ff3-9eb2-2db987ef4ef8",
+                            "related_uuid": "bcffa22a-8a42-45ea-971c-df094052dbf1",
+                            "properties": {
+                                "job_title": "Consultant - Contractor"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

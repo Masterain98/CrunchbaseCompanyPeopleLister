@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "dbc36913-e297-47d1-8b6a-206329662810",
+            "properties": {
+                "name": "Veronica Guzman",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "dbc36913-e297-47d1-8b6a-206329662810",
+                    "value": "Veronica Guzman"
+                },
+                "linkedin": "veronica-guzman-b9b25016",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "marketing",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "401c98a7-c5e5-4cc7-abff-22c8c6a7ace5",
+                            "related_uuid": "dbc36913-e297-47d1-8b6a-206329662810",
+                            "properties": {
+                                "job_title": "Creative Director"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

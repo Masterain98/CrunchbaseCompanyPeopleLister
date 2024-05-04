@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fe5b697a-f740-4d13-bc11-9d710c42393a",
+            "properties": {
+                "name": "Mr. Jim Rudden",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fe5b697a-f740-4d13-bc11-9d710c42393a",
+                    "value": "Mr. Jim Rudden"
+                },
+                "linkedin": "jirudden",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "6b7ca05b-dc23-4fdd-8c7b-69b4227fe0da",
+                            "related_uuid": "fe5b697a-f740-4d13-bc11-9d710c42393a",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

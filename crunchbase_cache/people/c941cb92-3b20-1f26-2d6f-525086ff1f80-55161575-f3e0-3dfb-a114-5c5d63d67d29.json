@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b6141b29-20e7-41bf-bd12-77e30f030ea4",
+            "properties": {
+                "name": "Erik Fjellborg",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b6141b29-20e7-41bf-bd12-77e30f030ea4",
+                    "value": "Erik Fjellborg"
+                },
+                "linkedin": "erikfjellborg",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "29ebb5c4-721c-475d-b9e8-c49af1ddc842",
+                            "related_uuid": "b6141b29-20e7-41bf-bd12-77e30f030ea4",
+                            "properties": {
+                                "job_title": "CEO & Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "4d0b769c-ce3a-4b75-8c3e-c2c68d845045",
+            "properties": {
+                "name": "Roger Kjensrud",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "4d0b769c-ce3a-4b75-8c3e-c2c68d845045",
+                    "value": "Roger Kjensrud"
+                },
+                "linkedin": "maxrog",
+                "job_levels": [
+                    "l_100_individual"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3dd08d4e-3b48-47fe-be5e-07d57537abab",
+                            "related_uuid": "4d0b769c-ce3a-4b75-8c3e-c2c68d845045",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

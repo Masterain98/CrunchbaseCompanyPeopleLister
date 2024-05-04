@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d3f0794f-ec66-476b-84d6-3a623b9916fd",
+            "properties": {
+                "name": "Katie White",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d3f0794f-ec66-476b-84d6-3a623b9916fd",
+                    "value": "Katie White"
+                },
+                "linkedin": "katie-white-86809423",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "64a45021-258f-46b5-b060-7d9d1271546c",
+                            "related_uuid": "d3f0794f-ec66-476b-84d6-3a623b9916fd",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7c4b6e27-00bb-4058-8b38-2e020991f2cf",
+            "properties": {
+                "name": "Ky Nichol",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7c4b6e27-00bb-4058-8b38-2e020991f2cf",
+                    "value": "Ky Nichol"
+                },
+                "linkedin": "kynichol",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4b8379d0-2981-4ffd-ad6c-2789005f54b1",
+                            "related_uuid": "7c4b6e27-00bb-4058-8b38-2e020991f2cf",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

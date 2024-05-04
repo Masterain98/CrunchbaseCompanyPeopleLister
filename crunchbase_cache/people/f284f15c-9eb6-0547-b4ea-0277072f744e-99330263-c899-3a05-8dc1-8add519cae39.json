@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "336dc673-e1ff-4501-8ffa-bb84fa738f06",
+            "properties": {
+                "name": "David Kirven",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "336dc673-e1ff-4501-8ffa-bb84fa738f06",
+                    "value": "David Kirven"
+                },
+                "linkedin": "davidkirven",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ecda8d09-7bf0-41fa-a5a1-3f456f75277f",
+                            "related_uuid": "336dc673-e1ff-4501-8ffa-bb84fa738f06",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

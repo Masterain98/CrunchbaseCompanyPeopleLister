@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "eb49761d-a3cf-4a99-874d-0388bc9e84d7",
+            "properties": {
+                "name": "Summer Hahnlen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "eb49761d-a3cf-4a99-874d-0388bc9e84d7",
+                    "value": "Summer Hahnlen"
+                },
+                "linkedin": "summer-hahnlen-57038b58",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "649b0c93-866d-4475-bb68-b4f12a5c4d92",
+                            "related_uuid": "eb49761d-a3cf-4a99-874d-0388bc9e84d7",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

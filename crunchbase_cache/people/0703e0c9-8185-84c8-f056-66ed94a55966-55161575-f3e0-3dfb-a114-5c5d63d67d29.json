@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "672d00c4-f7cd-4726-b5f3-4cdf2a2f53e3",
+            "properties": {
+                "name": "Noah Glass",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "672d00c4-f7cd-4726-b5f3-4cdf2a2f53e3",
+                    "value": "Noah Glass"
+                },
+                "linkedin": "noahglass",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "64c5faf6-795d-4bf5-95fc-55d18f6f53f1",
+                            "related_uuid": "672d00c4-f7cd-4726-b5f3-4cdf2a2f53e3",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

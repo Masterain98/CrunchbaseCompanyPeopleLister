@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "1aae4c87-b531-4e3c-bd31-d02518ee44ee",
+            "properties": {
+                "name": "Jim Yu",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1aae4c87-b531-4e3c-bd31-d02518ee44ee",
+                    "value": "Jim Yu"
+                },
+                "linkedin": "jimyu1",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "10d020b9-cdcf-4d4d-9be4-29c25006f545",
+                            "related_uuid": "1aae4c87-b531-4e3c-bd31-d02518ee44ee",
+                            "properties": {
+                                "job_title": "Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

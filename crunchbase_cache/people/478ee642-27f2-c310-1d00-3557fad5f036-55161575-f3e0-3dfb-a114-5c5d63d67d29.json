@@ -1,0 +1,66 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "a171bf2d-9094-4989-b3f0-931d704468f4",
+            "properties": {
+                "name": "Jerome Ternynck",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a171bf2d-9094-4989-b3f0-931d704468f4",
+                    "value": "Jerome Ternynck"
+                },
+                "linkedin": "jerometernynck",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4058b30f-5ae7-4ee0-b994-2139ea33ba51",
+                            "related_uuid": "a171bf2d-9094-4989-b3f0-931d704468f4",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a094cd01-125f-47af-9ed4-4798ff4b799b",
+            "properties": {
+                "name": "Michael Desimone",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a094cd01-125f-47af-9ed4-4798ff4b799b",
+                    "value": "Michael Desimone"
+                },
+                "linkedin": "michaeladesimone",
+                "job_levels": [
+                    "l_500_exec"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "fff2b231-5af3-43ba-849b-2fa4f3ff4bb5",
+                            "related_uuid": "a094cd01-125f-47af-9ed4-4798ff4b799b",
+                            "properties": {
+                                "job_title": "Chief Executive Officer & President"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

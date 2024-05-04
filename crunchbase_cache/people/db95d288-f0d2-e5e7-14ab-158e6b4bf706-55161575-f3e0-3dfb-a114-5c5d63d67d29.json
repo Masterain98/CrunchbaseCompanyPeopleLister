@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "56cc8089-3776-4de2-a495-12cff03b6c6e",
+            "properties": {
+                "name": "Florian Douetteau",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "56cc8089-3776-4de2-a495-12cff03b6c6e",
+                    "value": "Florian Douetteau"
+                },
+                "linkedin": "fdouetteau",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a645eb3-f340-4628-94bd-b526cd5ed44d",
+                            "related_uuid": "56cc8089-3776-4de2-a495-12cff03b6c6e",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

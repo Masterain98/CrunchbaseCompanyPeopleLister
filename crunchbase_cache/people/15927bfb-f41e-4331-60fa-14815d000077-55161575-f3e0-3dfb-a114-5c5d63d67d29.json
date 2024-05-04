@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "25fd4417-4f28-4afc-ab6b-f05fb4ef2608",
+            "properties": {
+                "name": "Michael Speranza",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "25fd4417-4f28-4afc-ab6b-f05fb4ef2608",
+                    "value": "Michael Speranza"
+                },
+                "linkedin": "michaelsperanza",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "27db7d52-160d-4bb9-b9f9-1cd362d7c502",
+                            "related_uuid": "25fd4417-4f28-4afc-ab6b-f05fb4ef2608",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

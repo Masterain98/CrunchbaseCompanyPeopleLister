@@ -1,0 +1,33 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "e8401651-eaa1-4e27-9939-741e0c0690a9",
+            "properties": {
+                "name": "Michael Bondo Andersen",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "e8401651-eaa1-4e27-9939-741e0c0690a9",
+                    "value": "Michael Bondo Andersen"
+                },
+                "linkedin": "michael-bondo-andersen-bb2bbb13",
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "805ac493-460c-4bdf-81c9-83ead4a3b9b7",
+                            "related_uuid": "e8401651-eaa1-4e27-9939-741e0c0690a9",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "fb8adf74-b771-4e3a-b1d0-a659e05bdd17",
+            "properties": {
+                "name": "Amy Griffeth",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fb8adf74-b771-4e3a-b1d0-a659e05bdd17",
+                    "value": "Amy Griffeth"
+                },
+                "linkedin": "agriffeth",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0b1dc6f9-9c3a-46cf-9780-b3ec4a43078c",
+                            "related_uuid": "fb8adf74-b771-4e3a-b1d0-a659e05bdd17",
+                            "properties": {
+                                "job_title": "Director, Global Sales Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "f1677724-dcbd-4335-8bd0-1324132a8b08",
+            "properties": {
+                "name": "Julie Olson",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f1677724-dcbd-4335-8bd0-1324132a8b08",
+                    "value": "Julie Olson"
+                },
+                "linkedin": "juliepolson7002",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "122135b6-88ce-45f2-8077-47324fd53b31",
+                            "related_uuid": "f1677724-dcbd-4335-8bd0-1324132a8b08",
+                            "properties": {
+                                "job_title": "Marketing and Product"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

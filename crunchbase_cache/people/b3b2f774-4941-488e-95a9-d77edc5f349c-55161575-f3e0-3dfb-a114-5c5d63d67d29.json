@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "cd07d0d5-053f-4e36-8d45-8dde8a5b820b",
+            "properties": {
+                "name": "Jeremy Burton",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "cd07d0d5-053f-4e36-8d45-8dde8a5b820b",
+                    "value": "Jeremy Burton"
+                },
+                "linkedin": "jburton0",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "282ad5b1-a302-44f2-8c80-cf49a067fce0",
+                            "related_uuid": "cd07d0d5-053f-4e36-8d45-8dde8a5b820b",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

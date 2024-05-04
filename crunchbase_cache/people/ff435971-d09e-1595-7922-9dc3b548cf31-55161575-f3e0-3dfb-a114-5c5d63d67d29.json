@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "677c1ce7-559f-4a1d-8eda-6a9613785f02",
+            "properties": {
+                "name": "Jonathan Cobb",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "677c1ce7-559f-4a1d-8eda-6a9613785f02",
+                    "value": "Jonathan Cobb"
+                },
+                "linkedin": "jonathan-cobb-542a0b",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "15955d3b-8406-4a14-ba00-c2c30e0c5262",
+                            "related_uuid": "677c1ce7-559f-4a1d-8eda-6a9613785f02",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

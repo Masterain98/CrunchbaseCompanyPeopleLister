@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c284113a-32b8-443f-96d2-5e9c43d7844b",
+            "properties": {
+                "name": "Eric Healy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c284113a-32b8-443f-96d2-5e9c43d7844b",
+                    "value": "Eric Healy"
+                },
+                "linkedin": "ericphealy",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "09d0a221-03a3-4144-9387-0e05e27be56e",
+                            "related_uuid": "c284113a-32b8-443f-96d2-5e9c43d7844b",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

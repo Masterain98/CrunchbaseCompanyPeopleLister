@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7190153d-91b2-4d0f-9950-3ca181958d56",
+            "properties": {
+                "name": "Evan Huwa",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7190153d-91b2-4d0f-9950-3ca181958d56",
+                    "value": "Evan Huwa"
+                },
+                "linkedin": "evan-huwa-80b8a919",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1db95009-6fc3-4871-a3b9-4bcb72daed7a",
+                            "related_uuid": "7190153d-91b2-4d0f-9950-3ca181958d56",
+                            "properties": {
+                                "job_title": "Director, Creative"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

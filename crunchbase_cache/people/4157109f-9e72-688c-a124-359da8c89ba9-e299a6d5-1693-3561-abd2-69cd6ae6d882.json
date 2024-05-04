@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3be65f28-1ed8-4201-a06a-e8e991a586b5",
+            "properties": {
+                "name": "Tyler Zimmermann",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3be65f28-1ed8-4201-a06a-e8e991a586b5",
+                    "value": "Tyler Zimmermann"
+                },
+                "linkedin": "tyler-zimmermann-a08b1523",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "05c0ad3e-9f51-49cf-8c7a-84858be813cd",
+                            "related_uuid": "3be65f28-1ed8-4201-a06a-e8e991a586b5",
+                            "properties": {
+                                "job_title": "Director of Enterprise Risk and Compliance"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "count": 3,
+    "entities": [
+        {
+            "uuid": "572a90e7-e0e8-4643-b15d-c25f4319dbf2",
+            "properties": {
+                "name": "Anne Squeo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "572a90e7-e0e8-4643-b15d-c25f4319dbf2",
+                    "value": "Anne Squeo"
+                },
+                "linkedin": "anne-marie-squeo",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "e843e353-fa95-4373-b28d-2ada570f5fe2",
+                            "related_uuid": "572a90e7-e0e8-4643-b15d-c25f4319dbf2",
+                            "properties": {
+                                "job_title": "CEO & Founder"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "a0073640-c08b-4790-a284-d73071df67b5",
+            "properties": {
+                "name": "Ashan Willy",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "a0073640-c08b-4790-a284-d73071df67b5",
+                    "value": "Ashan Willy"
+                },
+                "linkedin": "ashanwilly",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5a3c542f-99c1-4ddb-adfa-238e98b3fb69",
+                            "related_uuid": "a0073640-c08b-4790-a284-d73071df67b5",
+                            "properties": {
+                                "job_title": "Chief Executive Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "950eb5e5-7d3a-401d-b30d-e3820df6328a",
+            "properties": {
+                "name": "Gary Steele",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "950eb5e5-7d3a-401d-b30d-e3820df6328a",
+                    "value": "Gary Steele"
+                },
+                "linkedin": "gasteele",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b13cdd8f-e202-4d34-9b94-548313529aed",
+                            "related_uuid": "950eb5e5-7d3a-401d-b30d-e3820df6328a",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

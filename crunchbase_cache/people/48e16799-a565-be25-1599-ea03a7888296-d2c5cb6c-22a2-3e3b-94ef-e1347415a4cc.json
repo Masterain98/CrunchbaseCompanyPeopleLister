@@ -1,0 +1,64 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "1296b050-f822-4ff5-8d90-4e2c453e043e",
+            "properties": {
+                "name": "Richard Sefcik",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1296b050-f822-4ff5-8d90-4e2c453e043e",
+                    "value": "Richard Sefcik"
+                },
+                "linkedin": "richard-sefcik-0327423",
+                "job_levels": [
+                    "l_300_director"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d5d7a710-66d1-4afd-8a9b-0575025b25a2",
+                            "related_uuid": "1296b050-f822-4ff5-8d90-4e2c453e043e",
+                            "properties": {
+                                "job_title": "Director of Client Success - Smart Home"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d8817253-9713-4be0-9ffb-98dd31825876",
+            "properties": {
+                "name": "Richard Sefcik",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d8817253-9713-4be0-9ffb-98dd31825876",
+                    "value": "Richard Sefcik"
+                },
+                "linkedin": "richard-sefcik",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "sales"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "223d9815-da05-495b-b73e-2336e7c8f5c9",
+                            "related_uuid": "d8817253-9713-4be0-9ffb-98dd31825876",
+                            "properties": {
+                                "job_title": "Sales and Support"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

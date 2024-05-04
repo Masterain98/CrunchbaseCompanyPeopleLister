@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "67943ef3-67da-4970-814a-47f969cb4ad4",
+            "properties": {
+                "name": "Trevor Daughney",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "67943ef3-67da-4970-814a-47f969cb4ad4",
+                    "value": "Trevor Daughney"
+                },
+                "linkedin": "trevordaughney",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1d94ef49-4cff-473e-978d-74591e83b9a5",
+                            "related_uuid": "67943ef3-67da-4970-814a-47f969cb4ad4",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

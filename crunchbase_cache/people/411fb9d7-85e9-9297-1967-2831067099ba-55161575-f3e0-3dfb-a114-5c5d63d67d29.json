@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7a004f60-34c0-41de-84f4-ba23507e0eda",
+            "properties": {
+                "name": "Tal Kreisler",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7a004f60-34c0-41de-84f4-ba23507e0eda",
+                    "value": "Tal Kreisler"
+                },
+                "linkedin": "tal-kreisler",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d940cd09-3a52-4252-a607-64dc4e5a5820",
+                            "related_uuid": "7a004f60-34c0-41de-84f4-ba23507e0eda",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

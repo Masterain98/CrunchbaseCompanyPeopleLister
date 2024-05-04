@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "fb0e79ca-f20f-402b-8ec8-c6b7d8e6b4a0",
+            "properties": {
+                "name": "John Wright",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "fb0e79ca-f20f-402b-8ec8-c6b7d8e6b4a0",
+                    "value": "John Wright"
+                },
+                "linkedin": "jwright1",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "finance"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "d09d3efd-50eb-49bc-a870-47ca5acc502f",
+                            "related_uuid": "fb0e79ca-f20f-402b-8ec8-c6b7d8e6b4a0",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

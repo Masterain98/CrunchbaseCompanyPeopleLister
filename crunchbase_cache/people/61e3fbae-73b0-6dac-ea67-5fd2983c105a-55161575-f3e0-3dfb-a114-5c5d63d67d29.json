@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "72cd6b3e-5810-4fd4-8967-28f9efbac9b5",
+            "properties": {
+                "name": "Ilir Sela",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "72cd6b3e-5810-4fd4-8967-28f9efbac9b5",
+                    "value": "Ilir Sela"
+                },
+                "linkedin": "ilirsela",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "bc3a687d-9bb8-4c2e-a9b0-3c213bed1aad",
+                            "related_uuid": "72cd6b3e-5810-4fd4-8967-28f9efbac9b5",
+                            "properties": {
+                                "job_title": "Business Management"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f1e1ecb7-7bee-46e2-b213-e8d1a1278c2d",
+            "properties": {
+                "name": "Geoff Crawshaw",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f1e1ecb7-7bee-46e2-b213-e8d1a1278c2d",
+                    "value": "Geoff Crawshaw"
+                },
+                "linkedin": "geoff-crawshaw-27584925",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "3df58f1a-5380-41f2-9414-a291d4c127e5",
+                            "related_uuid": "f1e1ecb7-7bee-46e2-b213-e8d1a1278c2d",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

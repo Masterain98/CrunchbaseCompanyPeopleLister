@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "d84ef247-0460-463d-8bd8-1e972f27a27a",
+            "properties": {
+                "name": "Darrel Rader",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d84ef247-0460-463d-8bd8-1e972f27a27a",
+                    "value": "Darrel Rader"
+                },
+                "linkedin": "darrelrader",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "engineering",
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "1a707a41-f798-46c9-a92b-9c6940821cdb",
+                            "related_uuid": "d84ef247-0460-463d-8bd8-1e972f27a27a",
+                            "properties": {
+                                "job_title": "Engineering"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

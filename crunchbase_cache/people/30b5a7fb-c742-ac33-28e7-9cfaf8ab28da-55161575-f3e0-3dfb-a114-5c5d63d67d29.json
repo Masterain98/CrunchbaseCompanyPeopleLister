@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "489a495e-39bb-4efc-8280-28ddc2730358",
+            "properties": {
+                "name": "Itamar Ben Hemo",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "489a495e-39bb-4efc-8280-28ddc2730358",
+                    "value": "Itamar Ben Hemo"
+                },
+                "linkedin": "itamar-ben-hemo-47080a5",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "003ea72b-d079-4df1-8f52-108262cc20a3",
+                            "related_uuid": "489a495e-39bb-4efc-8280-28ddc2730358",
+                            "properties": {
+                                "job_title": "Co-Founder and CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

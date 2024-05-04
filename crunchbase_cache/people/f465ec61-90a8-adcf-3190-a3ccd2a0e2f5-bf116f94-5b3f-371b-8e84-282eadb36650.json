@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "f0e444f0-a30f-4e02-83a9-49370e56c4d4",
+            "properties": {
+                "name": "Michael Casey",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "f0e444f0-a30f-4e02-83a9-49370e56c4d4",
+                    "value": "Michael Casey"
+                },
+                "linkedin": "michael-casey-59848368",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "b55edb60-3ea4-455f-99e2-4a3a1fc646e0",
+                            "related_uuid": "f0e444f0-a30f-4e02-83a9-49370e56c4d4",
+                            "properties": {
+                                "job_title": "Director, Supply Chain Planning"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

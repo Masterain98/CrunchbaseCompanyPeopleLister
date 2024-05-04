@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "36a7965c-0bbd-4520-8a0e-4f252aea3cc1",
+            "properties": {
+                "name": "Ian Siegel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "36a7965c-0bbd-4520-8a0e-4f252aea3cc1",
+                    "value": "Ian Siegel"
+                },
+                "linkedin": "iansiegel",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "575d6f63-8c2c-45a5-a793-ac21d815759c",
+                            "related_uuid": "36a7965c-0bbd-4520-8a0e-4f252aea3cc1",
+                            "properties": {
+                                "job_title": "Co-Founder & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

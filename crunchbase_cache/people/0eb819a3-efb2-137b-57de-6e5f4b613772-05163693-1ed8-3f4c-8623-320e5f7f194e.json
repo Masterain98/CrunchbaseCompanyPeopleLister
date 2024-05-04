@@ -1,0 +1,130 @@
+{
+    "count": 4,
+    "entities": [
+        {
+            "uuid": "65bf91b9-be1d-4f92-a54f-d92d2b42dac1",
+            "properties": {
+                "name": "Adrian Crowther",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "65bf91b9-be1d-4f92-a54f-d92d2b42dac1",
+                    "value": "Adrian Crowther"
+                },
+                "linkedin": "adriancrowther",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "30f648dc-213c-4dd8-9769-3df21b45ad75",
+                            "related_uuid": "65bf91b9-be1d-4f92-a54f-d92d2b42dac1",
+                            "properties": {
+                                "job_title": "Director, Internal and Executive Communications, HPE Pointnext Services"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "1c7a11e0-aef0-42c6-89d7-3c9b9e6283ad",
+            "properties": {
+                "name": "Jennifer Sterkel",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "1c7a11e0-aef0-42c6-89d7-3c9b9e6283ad",
+                    "value": "Jennifer Sterkel"
+                },
+                "linkedin": "jennifersterkel",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "79b5d09a-1ea0-4830-bd18-f092676bce03",
+                            "related_uuid": "1c7a11e0-aef0-42c6-89d7-3c9b9e6283ad",
+                            "properties": {
+                                "job_title": "Director, Business Executive Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "82612ca2-e13a-4d77-826b-ce5ffcf6f6b7",
+            "properties": {
+                "name": "Julie Fawdington",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "82612ca2-e13a-4d77-826b-ce5ffcf6f6b7",
+                    "value": "Julie Fawdington"
+                },
+                "linkedin": "julie-fawdington-1b63a23",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "5931b0e9-a37f-466d-a71c-0e77c7af1067",
+                            "related_uuid": "82612ca2-e13a-4d77-826b-ce5ffcf6f6b7",
+                            "properties": {
+                                "job_title": "Director, Management of Change, Communications and Employee Engagement"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "20f77544-27ae-4ec7-9882-b9ee8b9fa580",
+            "properties": {
+                "name": "Margaret Epperheimer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "20f77544-27ae-4ec7-9882-b9ee8b9fa580",
+                    "value": "Margaret Epperheimer"
+                },
+                "linkedin": "margaret-epperheimer-03237ba",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "cffbc6b2-a2a2-4584-be0c-a5002cf03079",
+                            "related_uuid": "20f77544-27ae-4ec7-9882-b9ee8b9fa580",
+                            "properties": {
+                                "job_title": "Director, Corporate Internal Communications"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

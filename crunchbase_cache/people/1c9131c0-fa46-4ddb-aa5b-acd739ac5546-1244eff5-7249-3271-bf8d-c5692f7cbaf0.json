@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "01e2e8e0-b668-43e3-8185-7190f0b198b6",
+            "properties": {
+                "name": "Woon Ho Jung",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "01e2e8e0-b668-43e3-8185-7190f0b198b6",
+                    "value": "Woon Ho Jung"
+                },
+                "linkedin": "woon-ho-jung-ba090123",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7536b1f8-6384-4d64-ac95-7a304f89279a",
+                            "related_uuid": "01e2e8e0-b668-43e3-8185-7190f0b198b6",
+                            "properties": {
+                                "job_title": "Co-Founder and CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

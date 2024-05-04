@@ -1,0 +1,61 @@
+{
+    "count": 2,
+    "entities": [
+        {
+            "uuid": "0a6bd72a-5290-4a14-aceb-c7f60cf27654",
+            "properties": {
+                "name": "Jaya Kumar",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "0a6bd72a-5290-4a14-aceb-c7f60cf27654",
+                    "value": "Jaya Kumar"
+                },
+                "linkedin": "jaya-kumar-7a097145",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "4900eb13-3107-4d83-9902-373119a568ac",
+                            "related_uuid": "0a6bd72a-5290-4a14-aceb-c7f60cf27654",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "uuid": "d9661b92-7827-4711-9e56-e5d379e3aa2e",
+            "properties": {
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "d9661b92-7827-4711-9e56-e5d379e3aa2e",
+                    "value": "Leesa Eichberger"
+                },
+                "name": "Leesa Eichberger",
+                "linkedin": "leesaeichberger"
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "54e838f9-f897-4c7b-9c18-7911011e421e",
+                            "related_uuid": "d9661b92-7827-4711-9e56-e5d379e3aa2e",
+                            "properties": {
+                                "job_title": "Global Chief Marketing Officer (Interim)"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

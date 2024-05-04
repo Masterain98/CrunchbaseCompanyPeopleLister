@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "c340f21b-b7cd-4122-952c-88f94490017b",
+            "properties": {
+                "name": "Jim Rose",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "c340f21b-b7cd-4122-952c-88f94490017b",
+                    "value": "Jim Rose"
+                },
+                "linkedin": "jimdotrose",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "operations"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "312ebcf7-e0c8-466c-a677-a940cfe61af9",
+                            "related_uuid": "c340f21b-b7cd-4122-952c-88f94490017b",
+                            "properties": {
+                                "job_title": "CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

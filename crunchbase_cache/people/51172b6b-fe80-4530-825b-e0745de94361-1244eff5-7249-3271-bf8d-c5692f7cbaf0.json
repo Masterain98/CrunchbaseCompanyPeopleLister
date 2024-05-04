@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "ed0870dc-bc57-4c20-a2a6-0ba0954fa3ae",
+            "properties": {
+                "name": "John Lurtz",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "ed0870dc-bc57-4c20-a2a6-0ba0954fa3ae",
+                    "value": "John Lurtz"
+                },
+                "linkedin": "john-lurtz-3ba5267",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "60e87986-75de-46ae-bb61-8fb1b8c98115",
+                            "related_uuid": "ed0870dc-bc57-4c20-a2a6-0ba0954fa3ae",
+                            "properties": {
+                                "job_title": "Chief Technology Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

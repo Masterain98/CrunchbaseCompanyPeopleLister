@@ -1,0 +1,38 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "de57de49-be28-4aa4-bce1-3e11755b73c9",
+            "properties": {
+                "name": "Jonathan Bean",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "de57de49-be28-4aa4-bce1-3e11755b73c9",
+                    "value": "Jonathan Bean"
+                },
+                "linkedin": "jonathanpbean",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management",
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "7c26a1fb-3c6b-4e89-a13b-4dacea783b2b",
+                            "related_uuid": "de57de49-be28-4aa4-bce1-3e11755b73c9",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

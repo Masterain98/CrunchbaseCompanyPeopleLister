@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "3daf558e-aa2b-429f-a4e2-a65a49ba1a3e",
+            "properties": {
+                "name": "Selwyn Henriques",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "3daf558e-aa2b-429f-a4e2-a65a49ba1a3e",
+                    "value": "Selwyn Henriques"
+                },
+                "linkedin": "selwyn-henriques-46337a1",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "management"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "ab36a025-486a-4767-810f-5323b382b371",
+                            "related_uuid": "3daf558e-aa2b-429f-a4e2-a65a49ba1a3e",
+                            "properties": {
+                                "job_title": "President & CEO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

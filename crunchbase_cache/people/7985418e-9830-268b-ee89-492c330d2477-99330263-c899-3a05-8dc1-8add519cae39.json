@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "32eb70c0-6bda-4385-bb08-03ffaa6bb9c6",
+            "properties": {
+                "name": "Esther Flammer",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "32eb70c0-6bda-4385-bb08-03ffaa6bb9c6",
+                    "value": "Esther Flammer"
+                },
+                "linkedin": "estherkimflammer",
+                "job_levels": [
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "marketing"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "0a2bc478-a7af-43a0-9b8f-042d1e914d71",
+                            "related_uuid": "32eb70c0-6bda-4385-bb08-03ffaa6bb9c6",
+                            "properties": {
+                                "job_title": "Chief Marketing Officer"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

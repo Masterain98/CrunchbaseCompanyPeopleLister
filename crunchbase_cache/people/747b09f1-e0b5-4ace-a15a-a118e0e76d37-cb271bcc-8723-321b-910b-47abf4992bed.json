@@ -1,0 +1,36 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "b9eb9e9f-7386-4631-b65a-e0f67fe45533",
+            "properties": {
+                "name": "Brandon Hamrick",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "b9eb9e9f-7386-4631-b65a-e0f67fe45533",
+                    "value": "Brandon Hamrick"
+                },
+                "linkedin": "brandonmhamrick",
+                "job_levels": [
+                    "l_300_director"
+                ],
+                "job_departments": [
+                    "medical_science"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "96445f5e-55eb-4419-b07b-1f7f869606df",
+                            "related_uuid": "b9eb9e9f-7386-4631-b65a-e0f67fe45533",
+                            "properties": {
+                                "job_title": "Director of Customer Success"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

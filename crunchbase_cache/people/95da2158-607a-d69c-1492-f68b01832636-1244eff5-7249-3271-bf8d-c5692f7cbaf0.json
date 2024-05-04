@@ -1,0 +1,37 @@
+{
+    "count": 1,
+    "entities": [
+        {
+            "uuid": "7b1700a3-c5e0-4547-a6d3-16bd40505564",
+            "properties": {
+                "name": "Derek Slager",
+                "identifier": {
+                    "entity_def_id": "contact",
+                    "uuid": "7b1700a3-c5e0-4547-a6d3-16bd40505564",
+                    "value": "Derek Slager"
+                },
+                "linkedin": "derekslager",
+                "job_levels": [
+                    "l_100_individual",
+                    "l_500_exec"
+                ],
+                "job_departments": [
+                    "engineering"
+                ]
+            },
+            "related_entities": {
+                "contact_item.has_contact_item.forward": {
+                    "entities": [
+                        {
+                            "uuid": "448cb1b7-ca3c-438a-ae25-5b8940e150a8",
+                            "related_uuid": "7b1700a3-c5e0-4547-a6d3-16bd40505564",
+                            "properties": {
+                                "job_title": "CTO"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
